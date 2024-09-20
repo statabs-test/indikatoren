@@ -1,122 +1,60 @@
-/*
-    global Highcharts
-*/
-
-(function(){
+(function () {
     return {
-        data: {
-            parsed: function (columns) {
-                //Negate the numbers in the the 2nd column to create the left side of the population pyramid
-                var negateNumbersInColumn = function(columnIndex){
-                    columns.forEach(function(column, i, c) {
-                        if (i == columnIndex){
-                            column.forEach(function(item, j, v){
-                                if (typeof(item) == 'number'){
-                                    v[j] = -v[j];
-                                }
-                            });
-                        }
-                    });
-                };
-                negateNumbersInColumn(1);
-            }     
+        chart: {
+            inverted: true,
+            height:580,
         },
-        yAxis:[{
-            //max: 7,
-            tickInterval: 2,
-            min: 0,
-            title: {
-                text: null
-            },
-            labels: {
-            	step: 1,
-                formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
-            	},
-                style: {
-                    color: "#000000"
-                }
-            },
-            plotLines: [{
-                value: 0,
-                color: 'white',
-                width: 1,
-                zIndex: 4
-            }],
-            //create symmetric xAxis
-            events: {
-                afterSetExtremes: function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
-                }, 
-            }
-        }],
-        xAxis: [{
-                reversed: false,
-                type: 'category',
-                labels: {
-    	        	step: 1,
-	                style: {
-	                    color: "#000000"
-	                }
-                }, 
-                tickLength: 0, 
-	            title: {
-	                style: {
-	                    color: "#000000"
-	                }
-	            },
-	            tickColor: "#FFFFFF"
-            }, 
-            { // mirror axis on right side
-                type: 'category',
-                visible: false,
-                opposite: true,
-                reversed: false,
-                linkedTo: 0
-            }
-        ],                
-		series: [
-            {
-              color: "#7f5f1a", // Männer
-              //borderWidth: 0,
-              //pointWidth: 15
-            }, 
-            {
-              color: "#ffda80", //Frauen
-              //borderWidth: 0,
-              //pointWidth: 15
-            },
-             /*{
-              color: "#000000", //schwarz
-              //borderWidth: 0,
-              //pointWidth: 15
-            }*/
-	    ],
-    "legend": {
-        "enabled": true,
-        //itemWidth: 210,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "center",
-        x: 10,
-       	//"y": 50,    
-        "itemStyle": {
-          "fontWeight": "normal"
-        }
-      },
         plotOptions: {
-            series: {
-	            borderWidth: 0.2,
+            column: {
+                groupPadding: 0,
             }
         },
-        tooltip: {
-            pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+        yAxis: {
+            tickInterval: 20,
+        },
+        xAxis: {
+            type: "category",
+            labels: {
+                formatter: function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                      return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString =  'n=';
+                      if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+                      var formattedSum = Highcharts.numberFormat(sum, 0, ",", "")
+                    //delete everything before ":", including ":"
+                    this.value = this.value.replace(/[^:]*:/, "");
+  
+                    //check for value that contains only spaces
+                    if (formattedSum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + formattedSum + ')';
+                    //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                    return "<b>" + this.value + "</b>";
+                    
+                }
             }
         },
-        chart:{
-        	spacingBottom: 50,
-        	marginRight: 15, 
-        }
-	};
-}());
+        "legend": {
+          "enabled": true,
+          "layout": "horizontal",
+          "verticalAlign": "top",
+          "itemMarginBottom": 5,
+          "align": "left"
+        },
+  
+    "series": [
+      { "color": "#007a2f", index: 6, legendIndex: 0}, // dunkelgrün
+      { "color": "#68ab2b", index: 5, legendIndex: 1}, // grün
+      { "color": "#FABD24", index: 4, legendIndex: 2}, // gelb
+      { "color": "#DC440E", index: 3, legendIndex: 3}, // orange
+      { "color": "#C8C8C8", index: 1, legendIndex: 5}, // hellgrau
+      { "color": "#6F6F6F", index: 0, legendIndex: 6}, // dunkelgrau
+  
+    ],
+  }
+  }());
