@@ -2,7 +2,7 @@
     return {
         chart: {
             inverted: true,
-            height:590,
+            height:600,
         },
         plotOptions: {
             column: {
