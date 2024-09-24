@@ -110,10 +110,6 @@
         [
           2021,
           129.8
-        ],
-        [
-          2022,
-          131.4
         ]
       ],
       "name": "Index"
@@ -123,7 +119,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -164,10 +160,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mietpreisindex Basel-Stadt"
+    "text": "Mietpreise und Reineinkommen"
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2000 = 100)",
+    "text": "Basel-Stadt, indexiert (Basis 2015 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -240,9 +236,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 1.12.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.7.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
