@@ -37020,7 +37020,7 @@ var indikatoren = [
 		],
 		"title": "Bruttoenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um gut 27% zurück auf 4 224 GWh im Jahr 2022. Der Heizölverbrauch sank in diesem Zeitraum um 58% und der Erdgasverbrauch um 43%. Der ausserkantonale Bezug von Elektrizität (alles erneuerbar) ist um rund 38% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-24%). Seit 2010 ist der Bruttoverbrauch der im Kanton produzierten erneuerbaren Energien um 45% gestiegen.",
+		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um 27% zurück auf 4 224 GWh im Jahr 2022. Der Heizölverbrauch sank in diesem Zeitraum um 58% und der Erdgasverbrauch um 43%. Der ausserkantonale Bezug von Elektrizität (alles erneuerbare) ist um 38% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-24%). Seit 2010 ist der Bruttoverbrauch der im Kanton produzierten erneuerbaren Energien um 45% gestiegen.",
 		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. Die im Kanton gewonnenen Erneuerbaren (entsprechend ohne importierte Elektrizität) sind in einer Kategorie zusammengefasst und umfassen auch den erneuerbaren Teil des Abfalls (50% des Kehrichts und 100% des Klärschlamms). Der nicht erneuerbare Anteil des Abfalls (50% des Kehrichts, 100% des Industrie- und Sonderabfalls) ist separat aufgelistet. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -41046,7 +41046,7 @@ var indikatoren = [
 		],
 		"title": "Bruttoenergieverbrauch erneuerbare Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2022 von 741 GWh auf 1 074 GWh zugenommen, was einem Plus von 45% entspricht. Eine starke Zunahme ist beim Holz mit 130% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerkes zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 057%), der Umweltwärme (+152%) und der thermischen Solarenergie (+191%) zu beobachten, die 2022 zusammen einen Anteil von 9,1% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
+		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2022 von 741 GWh auf 1 074 GWh zugenommen, was einem Plus von 45% entspricht. Eine starke Zunahme ist beim Holz mit 130% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 057%), der Umweltwärme (+152%) und der thermischen Solarenergie (+191%) zu beobachten, die 2022 zusammen einen Anteil von 9,1% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
 		"erlaeuterungen": "Dieser Indikator zeigt den Bruttoenergieverbrauch der erneuerbaren Energien, die im Kanton gewonnen wurden. Der Import von erneuerbaren Energien in den Kanton, insbesondere der ausserkantonale Bezug von Elektrizität, bleibt folglich unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -41086,7 +41086,7 @@ var indikatoren = [
 		],
 		"title": "Endenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2022 von 5 572 GWh um rund 31% auf 3 865 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 65% zurückgegangen, die Menge des Erdgases um 55%. Auch die beim Endverbraucher verwendete Elektrizität sank um 24%. Der Verbrauch von Fern- und Nahwärme blieb weitgehend stabil. Der Treibstoffverbrauch ging dagegen um 31% zurück. In der Kategorie Sonstiges sind die Endverbräuche der dezentralen Nutzung von Abfall, Holz, Biogas, thermischer Solarenergie und Umweltwärme zusammengefasst.",
+		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2022 von 5 572 GWh um 31% auf 3 865 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 65% zurückgegangen, die Menge des Erdgases um 55%. Auch die beim Endverbraucher verwendete Elektrizität sank um 24%. Der Verbrauch von Fern- und Nahwärme blieb weitgehend stabil. Der Treibstoffverbrauch ging dagegen um 31% zurück. In der Kategorie Sonstiges sind die Endverbräuche der dezentralen Nutzung von Abfall, Holz, Biogas, thermischer Solarenergie und Umweltwärme zusammengefasst.",
 		"erlaeuterungen": "Der Endenergieverbrauch bildet die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen Brutto- und Endenergieverbrauch entspricht den Zu- respektive Abgängen infolge der Umwandlung in Elektrizität und Fernwärme innerhalb des Kantons. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -41126,7 +41126,7 @@ var indikatoren = [
 		],
 		"title": "Endenergieverbrauch von fossilen Energieträgern",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch fossiler Energieträger hat von 2010 bis 2022 um 49,9% von 2 579 GWh auf 1 291 GWh abgenommen. Erdgas macht mit 558 GWh 2022 rund 43,2% davon aus, Heizöl mit 175 GWh rund 13,6%. Der Anteil aller fossiler Energieträger am Endenergieverbrauch ging damit zwischen 2010 und 2022 von 46,3% auf 33,4% zurück.",
+		"lesehilfe": "Der Endenergieverbrauch fossiler Energieträger hat von 2010 bis 2022 um 49,9% von 2 579 GWh auf 1 291 GWh abgenommen. Erdgas macht mit 558 GWh 2022 43,2% davon aus, Heizöl mit 175 GWh 13,6%. Der Anteil aller fossiler Energieträger am Endenergieverbrauch ging damit zwischen 2010 und 2022 von 46,3% auf 33,4% zurück.",
 		"erlaeuterungen": "Als fossile Energieträger werden Heizöl, Erdgas sowie die Treibstoffe Benzin und Diesel berücksichtigt. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -41326,7 +41326,7 @@ var indikatoren = [
 		],
 		"title": "Energieproduktivität und Pro-Kopf-Verbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der kWh-Einsatz pro erwirtschaftetem Franken des Bruttoinlandproduktes (BIP) kontinuierlich gesunken. 2022 betrug dieser 0,09 kWh pro Franken und ist damit um 51% tiefer als 2010. Der Energieeinsatz pro Kopf sinkt ebenfalls seit 2010 und liegt 2022 bei 18 981 kWh pro Person, rund 35% tiefer als 2010.",
+		"lesehilfe": "Seit 2010 ist der kWh-Einsatz pro erwirtschafteten Franken des Bruttoinlandproduktes (BIP) kontinuierlich gesunken. 2022 betrug dieser 0,09 kWh pro Franken und ist damit um 51% tiefer als 2010. Der Energieeinsatz pro Kopf sinkt ebenfalls seit 2010 und liegt 2022 bei 18 981 kWh pro Person, rund 35% tiefer als 2010.",
 		"erlaeuterungen": "Die Energieproduktivität weist die eingesetzte Energie bezogen auf den Endenergieverbrauch pro erzeugter Geldmenge wirtschaftlicher Leistung (Bruttoinlandprodukt, BIP) aus, der Pro-Kopf-Verbrauch die eingesetzte Energie pro Kopf.",
 		"quellenangabe": [
 			"BAK Economics",
