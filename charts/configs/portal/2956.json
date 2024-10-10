@@ -114,31 +114,31 @@
       "data": [
         [
           "18-29 J.",
-          96.6
+          96.2
         ],
         [
           "30-39 J.",
-          95.3
-        ],
-        [
-          "40-49 J.",
-          95.8
-        ],
-        [
-          "50-59 J.",
           94.1
         ],
         [
+          "40-49 J.",
+          95
+        ],
+        [
+          "50-59 J.",
+          92.7
+        ],
+        [
           "60-69 J.",
-          96.6
+          96.2
         ],
         [
           "\u003E69 J.",
-          96.9
+          96.2
         ],
         [
           "Total",
-          95.9
+          95.1
         ]
       ],
       "name": "2011",
@@ -150,31 +150,31 @@
       "data": [
         [
           "18-29 J.",
-          97.9
+          93.9
         ],
         [
           "30-39 J.",
-          91.3
+          87.7
         ],
         [
           "40-49 J.",
-          97.1
+          95.3
         ],
         [
           "50-59 J.",
-          97.7
+          95.3
         ],
         [
           "60-69 J.",
-          96.3
+          95.2
         ],
         [
           "\u003E69 J.",
-          97
+          95.3
         ],
         [
           "Total",
-          96.6
+          94.1
         ]
       ],
       "name": "2015",
@@ -186,31 +186,31 @@
       "data": [
         [
           "18-29 J.",
-          88.9
+          77.2
         ],
         [
           "30-39 J.",
-          88.7
+          80.5
         ],
         [
           "40-49 J.",
-          95.1
+          89.9
         ],
         [
           "50-59 J.",
-          90.7
+          81.8
         ],
         [
           "60-69 J.",
-          97.3
+          90.8
         ],
         [
           "\u003E69 J.",
-          95.5
+          87.6
         ],
         [
           "Total",
-          93.2
+          84.4
         ]
       ],
       "name": "2019",
@@ -351,7 +351,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
