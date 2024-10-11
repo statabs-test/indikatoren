@@ -52,16 +52,16 @@
         //legendIndex: 2
       },
       { // Wohnen Landskron
-        "color": "#923F8D",
+        "color": "#B375AB",
         //index: 1,
         //legendIndex: 3
       },
       {  //Wohnen Lysbüchel
-        "color": "#689199",
+        "color": "#B6CFD7",
         //legendIndex: 4
       },
       {  //Wohnen Friedmatt
-        "color": "#FABD24",
+        "color": "#FFDA80",
         //legendIndex: 5
       },
       { // Wohnen Basel
@@ -75,21 +75,21 @@
        // legendIndex: 7
       },
       { // Arbeiten Kannenfeld
-        "color": "#B00000",
+        "color": "#E64900",
         //index: 1,
         //legendIndex: 8
       },
       {  //Arbeiten Landskron
-        "color": "#662673",
+        "color": "#923F8D",
         //legendIndex: 9
       },
       { // Arbeiten Lysbüchel
-        "color": "#246370",
+        "color": "#008AC3",
         //index: 1,
         //legendIndex: 10
       },
       {  //Arbeiten Friedmatt
-        "color": "#7F5F1A",
+        "color": "#CD9C00",
         //legendIndex: 11
       },
       { // Arbeiten Basel

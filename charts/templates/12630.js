@@ -6,8 +6,8 @@
       }
     },
     "yAxis": {
-      //"min": -5,
-      // "max": 250,
+      "min": -30,
+      "max": 78,
       "tickInterval": 2,
       "labels": {
         "format": "{value:,.0f}"
@@ -47,19 +47,19 @@
     },
     "series": [
       {
-        "color": "#007a2f"
+        "color": "#2f656b" /* "#007a2f" */
       },
       {
-        "color": "#2f656b"
+        "color": "#2B0099"
       },
       {
-        "color": "#68ab2b"
+        "color": "#999999" /* "#68ab2b" */
       },
       {
-        "color": "#73b97c"
+        "color": "#A0BEC8" /* "#73b97c" */
       },
       {
-        "color": "#990300"
+        "color": "#923F8D" /* "#990300" */
       },
       {
         "color": "#fabd24",
