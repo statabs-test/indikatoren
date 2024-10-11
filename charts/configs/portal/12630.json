@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#007a2f",
+      "color": "#2f656b",
       "data": [
         [
           "2008",
@@ -72,7 +72,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2f656b",
+      "color": "#2B0099",
       "data": [
         [
           "2008",
@@ -143,7 +143,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
+      "color": "#999999",
       "data": [
         [
           "2008",
@@ -214,7 +214,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#73b97c",
+      "color": "#A0BEC8",
       "data": [
         [
           "2008",
@@ -285,7 +285,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#990300",
+      "color": "#923F8D",
       "data": [
         [
           "2008",
@@ -544,6 +544,8 @@
       },
       "format": "{value:,.0f}"
     },
+    "min": -30,
+    "max": 78,
     "tickInterval": 2,
     "plotLines": [
       {
