@@ -1685,7 +1685,7 @@
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "In den Bezirken Pestalozzi (+2,4%), Kannenfeld (+0,2%) und Landskron (-1,5%) ist die Bevölkerung 2023 im Vergleich zu 2004 nahezu gleichgeblieben, die Bezirke Lysbüchel (+12,7%) und Friedmattviertel (+70,9%) verzeichneten hingegen grössere Zunahmen. Im Gesamtkanton hat 2023 die Bevölkerungszahl im Vergleich zu 2004 um 9,5% zugenommen.",
+		"lesehilfe": "In den Bezirken Pestalozzi (+2,4%), Kannenfeld (+0,2%) und Landskron (-1,5%) ist die Bevölkerung 2023 im Vergleich zu 2004 nahezu gleichgeblieben, die Bezirke Lysbüchel (+70,9%) und Friedmattviertel (+12,6%) verzeichneten hingegen grössere Zunahmen. Im Gesamtkanton hat 2023 die Bevölkerungszahl im Vergleich zu 2004 um 9,5% zugenommen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2030,7 +2030,7 @@
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Johann",
 		"lesehilfe": "Im Jahr 2023 weisen im Wohnviertel St. Johann Personen aus arabischen Ländern (41,9) gefolgt von der Türkei (41,3) und afrikanischen Ländern (38,5) die höchsten Segregationsindices auf. Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Wohnviertel St. Johann konzentriert sind. Im Vergleich zum Jahr 2004 haben die Segregationsindices fast aller Ländergruppen abgenommen.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet der Wohnviertel Klybeck und Kleinhüningen von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Gebiet der Wohnviertel Klybeck und Kleinhüningen verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet des Wohnviertels St. Johann von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Gebiet des Wohnviertels St. Johann verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2067,7 +2067,7 @@
 		"children": [],
 		"title": "Religionszugehörigkeit",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In allen Bezirken des Wohnviertels St. Johann bildeten in den Jahren 2021 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe.",
 		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: evangelisch-reformiert, römisch-katholisch, christkatholisch, israelitisch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2105,7 +2105,7 @@
 		"children": [],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel St. Johann",
-		"lesehilfe": "Im Steuerjahr 2021 beträgt der Mittelwert des Reineinkommens im Wohnbezirk Kannenfeld etwa 65 377 Franken (Median: 49 167), der Mittelwert für Landskron liegt bei 48 535 Franken (Median: 39 469). Im Mittel hat das Reineinkommen in beiden Wohnbezirken des Wohnviertels St. Johann über die Jahre zugenommen, wobei im Kannenfeld nach 2019 ein kleiner Rückgang zu vernehmen ist.",
+		"lesehilfe": "Im Steuerjahr 2021 beträgt der Mittelwert des Reineinkommens im Wohnbezirk Kannenfeld etwa 65 377 Franken (Median: 49 167), der Mittelwert für Landskron liegt bei 48 535 Franken (Median: 39 469). Über die Jahre hat der Mittelwert im Bezirk Lysbüchel relativ stark zugenommen.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2143,7 +2143,7 @@
 		"children": [],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Wohnviertel St. Johann",
-		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind bei allen Wohnbezirken des Wohnviertels St. Johann ausser beim Friedmatt über die Jahre überwiegend gestiegen. 2021 hat das Wohnbezirk Kannenfeld mit 356 919 Franken den höchsten Mittelwert des Reinvermögens unter den Bezirken des St. Johann (Median: 27 595 Franken). Den tiefsten Mittelwert hat der Bezirk Landskron mit 94 373 Franken (Median: 6 352 Franken).",
+		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind bei fast allen Wohnbezirken des Wohnviertels St. Johann über die Jahre gestiegen. 2021 verzeichnet der Bezirk Kannenfeld mit 356 919 Franken den höchsten Mittelwert (Median: 27 595 Franken). Den tiefsten weist der Bezirk Landskron mit 94 373 Franken auf (Median: 6 352 Franken).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2181,7 +2181,7 @@
 		"children": [],
 		"title": "Steuerertrag durch Zu- und Wegzüger",
 		"subtitle": "in Franken, Wohnviertel St. Johann",
-		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Bezirken des Wohnviertels St. Johann positiv, wobei grössere negative Saldos vereinzeln vorkommen. Im Jahr 2021 ergab sich für Landskron rechnerisch ein Gewinn von rund 517 000 Franken (bei 164 Weg- und 193 Zuzügern), in Lysbüchel hingegen ein Verlust von ca. 332 000 Franken (bei 61 Weg- und 61 Zuzügern).",
+		"lesehilfe": "Der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag (des Vorjahres) der Wegzüger ist in den Bezirken des Wohnviertels St. Johann überwiegend positiv. Es kommen allerdings auch vereinzelte grössere negative Saldi vor. Im Jahr 2021 ergab sich für den Bezirk Landskron rechnerisch ein Gewinn von rund 517 000 Franken (bei 164 Weg- und 193 Zuzügern), im Bezirk Lysbüchel hingegen ein Verlust von ca. 332 000 Franken (bei 61 Weg- und 61 Zuzügern).",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2561,7 +2561,7 @@
 		"children": [],
 		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Im Jahr 2022 sind in der Stadt Basel 194 130 Beschäftigte tätig. Davon arbeiten 11 493 im Bezirk Lysbüchel, 5 060 im Friedmatt, 1 326 in Landskron, 902 im Pestalozzi und 623 im Kannenfeld. Anteilsmässig sind diese bei Lysbüchel 5,9% und beim Kannenfeld 0,3%. Insgesamt entfallen 10,0% der Beschäftigung der Stadt Basel auf das Wohnviertel St. Johann.",
+		"lesehilfe": "Im Jahr 2022 findet man 5,9% der Beschäftigen der Stadt Basel im Bezirk Lysbüchel und 0,3% im Bezirk Kannenfeld. Insgesamt entfallen 10,0% der Beschäftigung der Stadt Basel auf das Wohnviertel St. Johann.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2829,7 +2829,7 @@
 		"children": [],
 		"title": "Sek P-Quote",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel St. Johann mit 18,0% deutlich tiefer als jene der Schweizerinnen und Schweizer (41,6%). Für die Stadt Basel beträgt der Wert 2023 36,5%.",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel St. Johann mit 18,0% deutlich tiefer als jene der Schweizerinnen und Schweizer (41,6%). Für die Stadt Basel beträgt das Total 2023 36,5%.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -3176,11 +3176,11 @@
 		"children": [],
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Jahresendbestand der Personenwagen und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
+		"lesehilfe": "2023 waren im Bezirk Pestalozzi im Schnitt 0,33 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 177,9 privaten Personenwagen pro 1 000 Einwohnern.",
+		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
+			"Bundesamt für Strassen (ASTRA)"
 		],
 		"externalLinks": [],
 		"renderLink": [],
