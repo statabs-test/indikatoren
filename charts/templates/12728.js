@@ -1,7 +1,9 @@
 (function(){
   return {
 "yAxis": {
-  tickAmount: 10,
+  min: 0,
+  max: 10,
+//  tickAmount: 13,
   "labels": {
      "formatter": function(){
       return Highcharts.numberFormat((this.value),0)+'';
@@ -10,7 +12,8 @@
   
 },
 "xAxis": {
-  "tickInterval": 1
+  type: "category",
+  tickInterval: 1
 },
 "legend": {
   itemDistance: 8,
@@ -49,7 +52,7 @@
 ],
 "tooltip": {
  "pointFormatter": function(){
-    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
+    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '</b><br/><b>'
   },
   "shared": false
 },  

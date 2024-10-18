@@ -1,0 +1,345 @@
+{
+  "series": [
+    {
+      "color": "#68ab2b",
+      "index": 12,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2019",
+          32837
+        ],
+        [
+          "2020",
+          24704
+        ],
+        [
+          "2021",
+          26557
+        ],
+        [
+          "2022",
+          25579
+        ],
+        [
+          "2023",
+          27450
+        ]
+      ],
+      "name": "Total",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 11,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2019",
+          23545
+        ],
+        [
+          "2020",
+          17223
+        ],
+        [
+          "2021",
+          17708
+        ],
+        [
+          "2022",
+          15695
+        ],
+        [
+          "2023",
+          17511
+        ]
+      ],
+      "name": "Allgemein",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffda80",
+      "index": 10,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2019",
+          9292
+        ],
+        [
+          "2020",
+          7481
+        ],
+        [
+          "2021",
+          8849
+        ],
+        [
+          "2022",
+          9884
+        ],
+        [
+          "2023",
+          9939
+        ]
+      ],
+      "name": "Spezialisiert",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 9,
+      "legendIndex": 4
+    },
+    {
+      "color": "#cd9c00",
+      "index": 8,
+      "legendIndex": 5
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 7,
+      "legendIndex": 6
+    },
+    {
+      "color": "#45381d",
+      "index": 6,
+      "legendIndex": 7
+    },
+    {
+      "color": "#e7cee2",
+      "index": 5,
+      "legendIndex": 8
+    },
+    {
+      "color": "#b375ab",
+      "index": 4,
+      "legendIndex": 9
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "legendIndex": 10
+    },
+    {
+      "color": "#662673",
+      "index": 2,
+      "legendIndex": 11
+    },
+    {
+      "color": "#2e1435",
+      "index": 1,
+      "legendIndex": 12
+    },
+    {
+      "type": "line",
+      "color": "#010101",
+      "yAxis": 1,
+      "legendIndex": 13,
+      "tooltip": {
+        "shared": true,
+        "useHTML": true,
+        "followPointer": true,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+        "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}&nbsp;&nbsp;&nbsp;\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1,
+    "endOnTick": false,
+    "startOnTick": false
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-12734"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    },
+    "line": {
+      "lineWidth": 3
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Spezialisierung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "max": 100,
+      "tickAmount": 5,
+      "labels": {
+        "format": "{value:.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    },
+    {
+      "labels": {
+        "format": "{value:.1f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true,
+      "min": 1,
+      "max": 12,
+      "tickAmount": 5,
+      "title": {
+        "text": ""
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "itemWidth": 75,
+    "alignColumns": false,
+    "itemDistance": 10,
+    "labelFormatter": function () {
+        if (this.index === 12) {
+          return 'Durchschnittl. Pflegestufe (rechte Skala)';
+        } else {
+          return this.name;
+        }
+      }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2024"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+  },
+  "exporting": {
+    "filename": "12734"
+  }
+}

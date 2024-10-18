@@ -12,37 +12,20 @@
         lineWidth: 3,
       }
     },
-    yAxis: [
-      {
-        min: 0,
-        max: 100,
-        tickAmount: 5,
-        labels: {
-          format: '{value:.0f}',
-          style: {
-            color: "black",
-          },
-        },
-        title: {
-          text: "", // Beschriftung linke Achse
+    yAxis: {
+      min: 0,
+      //    max: 100,
+      //    tickAmount: 5,
+      labels: {
+        format: '{value:.0f}',
+        style: {
+          color: "black",
         },
       },
-      {
-        labels: {
-          format: '{value:.1f}', // Eine Kommastelle für die rechte Achse
-          style: {
-            color: "black"
-          }
-        },
-        opposite: true, // Rechte Achse aktivieren
-        min: 1,
-        max: 12,
-        tickAmount: 5,
-        title: {
-          text: "", // Beschriftung rechte Achse
-        },
+      title: {
+        text: "", // Beschriftung linke Achse
       },
-    ],
+    },
     xAxis: {
       type: "category",
       tickInterval: 1,
@@ -83,7 +66,7 @@
       itemDistance: 10,
       labelFormatter: function () {
         if (this.index === 12) {
-          return 'Total Pflegetage (rechte Skala)';
+          return 'Total Pflegetage';
         } else {
           return this.name;
         }
@@ -140,26 +123,23 @@
       },
       {
         type: 'line',
-        color: '#010101',
-        yAxis: 1,  //Diagramm für durchschnittliche Pflegestufe auf rechte Achse
+        color: '#010101', index: 13,
         legendIndex: 13,
-        tooltip: {
-          shared: true,
-          useHTML: true,
-          followPointer: true,
-          headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
-          pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
-        },
-        /*
-                tooltip: {
-                  headerFormat: '<table>',
-                  pointFormatter: function () {
-                    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b> </table>';
-                  }
-                }
-        */
       },
+      //      {
+      //        type: 'line',
+      //        color: '#010101',
+      //        yAxis: 1,  //Diagramm für durchschnittliche Pflegestufe auf rechte Achse
+      //        legendIndex: 13,
+      //        tooltip: {
+      //          shared: true,
+      //          useHTML: true,
+      //          followPointer: true,
+      //          headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
+      //          pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
+      //            + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
+      //        },
+      //      },
     ],
   };
 })();

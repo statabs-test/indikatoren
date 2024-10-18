@@ -1,0 +1,10 @@
+[credential]
+	helper = wincred
+[gui]
+	recentrepo = C:/dev
+[user]
+	name = Sanest
+	email = esteban.sanjuan@bs.ch
+[http]
+	proxy = http://ssssae:sssae0INT@radius.bs.ch:3128
+	proxyAuthMethod = basic

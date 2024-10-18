@@ -2393,3 +2393,16 @@ id | visible | visibleInPortal | indikatorenset
 12713 | true | true | 
 12715 | true | true | Nachhaltigkeit
 12716 | true | false | Nachhaltigkeit (Print)
+12727 | true | true | Gesundheitsversorgung
+12728 | true | true | Gesundheitsversorgung
+12729 | true | true | Gesundheitsversorgung
+12730 | true | true | Gesundheitsversorgung
+12732 | true | true | Gesundheitsversorgung
+12733 | true | true | Gesundheitsversorgung
+12734 | true | true | Gesundheitsversorgung
+12735 | true | true | Gesundheitsversorgung
+12736 | true | true | Gesundheitsversorgung
+12737 | true | true | Gesundheitsversorgung
+12738 | true | true | Gesundheitsversorgung
+12739 | true | true | Gesundheitsversorgung
+12740 | true | true | Gesundheitsversorgung

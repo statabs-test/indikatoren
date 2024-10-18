@@ -2,190 +2,196 @@
   "series": [
     {
       "index": 0,
-      "color": "#0a3b19",
-      "yAxis": 1,
-      "data": [
-        [
-          2011,
-          99.8
-        ],
-        [
-          2012,
-          103.3
-        ],
-        [
-          2013,
-          92.8
-        ],
-        [
-          2014,
-          90.8
-        ],
-        [
-          2015,
-          86
-        ],
-        [
-          2016,
-          88.2
-        ],
-        [
-          2017,
-          82.4
-        ],
-        [
-          2018,
-          82.4
-        ],
-        [
-          2019,
-          84.7
-        ],
-        [
-          2020,
-          62.9
-        ],
-        [
-          2021,
-          67.7
-        ],
-        [
-          2022,
-          65.2
-        ],
-        [
-          2023,
-          69.9
-        ]
-      ],
-      "name": "Auslastung"
-    },
-    {
-      "index": 1,
       "color": "#68ab2b",
-      "yAxis": 0,
       "data": [
         [
-          2011,
-          45715
-        ],
-        [
-          2012,
-          47372
-        ],
-        [
-          2013,
-          44976
-        ],
-        [
-          2014,
-          43558
-        ],
-        [
-          2015,
-          36914
-        ],
-        [
-          2016,
-          36054
-        ],
-        [
           2017,
-          33692
+          5.21
         ],
         [
           2018,
-          33229
+          5.26
         ],
         [
           2019,
-          32837
+          5.33
         ],
         [
           2020,
-          24704
+          5.4
         ],
         [
           2021,
-          26557
+          5.5
         ],
         [
           2022,
-          25579
-        ],
-        [
-          2023,
-          27450
+          5.6
         ]
       ],
-      "name": "Mit ausserkantonalen Tagesgästen"
+      "name": "DCH"
     },
     {
       "index": 1,
-      "color": "#007a2f",
-      "yAxis": 0,
+      "color": "#006400",
       "data": [
         [
-          2011,
-          44410
-        ],
-        [
-          2012,
-          46212
-        ],
-        [
-          2013,
-          43073
-        ],
-        [
-          2014,
-          42005
-        ],
-        [
-          2015,
-          35506
-        ],
-        [
-          2016,
-          34587
-        ],
-        [
           2017,
-          31965
+          5.27
         ],
         [
           2018,
-          31247
+          5.31
         ],
         [
           2019,
-          30984
+          5.47
         ],
         [
           2020,
-          23528
+          5.55
         ],
         [
           2021,
-          25279
+          5.7
         ],
         [
           2022,
-          24480
-        ],
-        [
-          2023,
-          26454
+          5.71
         ]
       ],
-      "name": "Ohne ausserkantonale Tagesgäste"
+      "name": "NWCH"
+    },
+    {
+      "index": 1,
+      "color": "#010101",
+      "data": [
+        [
+          2017,
+          5.84
+        ],
+        [
+          2018,
+          5.94
+        ],
+        [
+          2019,
+          6.09
+        ],
+        [
+          2020,
+          6.2
+        ],
+        [
+          2021,
+          6.35
+        ],
+        [
+          2022,
+          6.41
+        ]
+      ],
+      "name": "Kanton Basel-Stadt"
+    },
+    {
+      "index": 1,
+      "color": "#010101",
+      "data": [
+        [
+          2017,
+          6.05
+        ],
+        [
+          2018,
+          6.05
+        ],
+        [
+          2019,
+          6.19
+        ],
+        [
+          2020,
+          6.34
+        ],
+        [
+          2021,
+          6.47
+        ],
+        [
+          2022,
+          6.51
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "index": 1,
+      "color": "#010101",
+      "data": [
+        [
+          2017,
+          5.28
+        ],
+        [
+          2018,
+          5.14
+        ],
+        [
+          2019,
+          5.37
+        ],
+        [
+          2020,
+          5.27
+        ],
+        [
+          2021,
+          5.47
+        ],
+        [
+          2022,
+          5.64
+        ]
+      ],
+      "name": "Riehen"
+    },
+    {
+      "index": 1,
+      "color": "#010101",
+      "data": [
+        [
+          2017,
+          4.67
+        ],
+        [
+          2018,
+          4.98
+        ],
+        [
+          2019,
+          4.93
+        ],
+        [
+          2020,
+          4.85
+        ],
+        [
+          2021,
+          5.76
+        ],
+        [
+          2022,
+          6.32
+        ]
+      ],
+      "name": "Bettingen"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -210,7 +216,7 @@
 					}
 				}
     },
-    "renderTo": "container-11173"
+    "renderTo": "container-12728"
   },
   "plotOptions": {
     "series": {
@@ -230,10 +236,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung"
+    "text": "Durchschnittliche Pflegestufen"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "nach Gemeinden, Kanton Basel-Stadt, Nordwest- und Deutschschweiz im Vergleich",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -259,39 +265,28 @@
     },
     "tickInterval": 1
   },
-  "yAxis": [
-    {
-      "labels": {
-        "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0);
-        },
-        "style": {
-          "color": "black"
-        }
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "opposite": true,
-      "tickAmount": 7,
-      "min": 0,
-      "title": {
-        "text": ""
-      }
+      "text": null
     },
-    {
-      "labels": {
-        "formatter": function () {
-          return Highcharts.numberFormat(this.value, 0) + '%';
-        },
-        "style": {
-          "color": "black"
-        }
+    "labels": {
+      "style": {
+        "color": "#000000"
       },
-      "tickAmount": 7,
-      "min": 0,
-      "title": {
-        "text": ""
-      }
+      "formatter": function(){
+      return Highcharts.numberFormat((this.value),0)+'';
     }
-  ],
+    },
+    "tickAmount": 10
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -302,17 +297,7 @@
       "fontWeight": "normal"
     },
     "itemDistance": 8,
-    "itemMarginBottom": 5,
-    "reversed": false,
-    "labelFormatter": function () {
-        if (this.index === 0) {
-          return 'Auslastung';
-        } else if (this.index === 1) {
-          return 'Mit ausserkantonalen Tagesgästen (rechte Skala)';
-        } else if (this.index === 2) {
-          return 'Ohne ausserkantonale Tagesgäste (rechte Skala)';
-        }
-      }
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -325,9 +310,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2023"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -364,16 +349,12 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function () {
-        if (this.series.yAxis.userOptions.opposite) {
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 0) + '</b><br/><b>';
-        } else {
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
-        }
-      },
+    "pointFormatter": function(){
+    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
+  },
     "shared": false
   },
   "exporting": {
-    "filename": "11173"
+    "filename": "12728"
   }
 }
