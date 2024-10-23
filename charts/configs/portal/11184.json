@@ -4,27 +4,27 @@
       "data": [
         [
           "Basispaket Chirurgie und innere Medizin",
-          13113.245
+          13506.1
         ],
         [
           "Orthopädie",
-          5079.785
+          5130.27
         ],
         [
           "Geburtshilfe",
-          1522.708
+          1534.86
         ],
         [
           "Neugeborene",
-          773.772
+          784.52
         ],
         [
           "Urologie",
-          2017.304
+          1804.19
         ],
         [
           "Übrige",
-          15683.93
+          14642.3
         ]
       ],
       "dataLabels": {
@@ -65,27 +65,27 @@
       "data": [
         [
           "Basispaket Chirurgie und innere Medizin",
-          14916
+          15233
         ],
         [
           "Orthopädie",
-          3345
+          3374
         ],
         [
           "Geburtshilfe",
-          2138
+          2194
         ],
         [
           "Neugeborene",
-          1848
+          1934
         ],
         [
           "Urologie",
-          1592
+          1732
         ],
         [
           "Übrige",
-          9462
+          8837
         ]
       ],
       "dataLabels": {

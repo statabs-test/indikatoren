@@ -50,6 +50,10 @@
         [
           2022,
           146.2
+        ],
+        [
+          2023,
+          152.8
         ]
       ],
       "name": "Eigenbeitrag Bewohnende Pensions- und Betreuungstaxe"
@@ -104,6 +108,10 @@
         [
           2022,
           21.6
+        ],
+        [
+          2023,
+          21.9
         ]
       ],
       "name": "Eigenbeitrag Bewohnende Pflegetaxe (gemäss KVG)"
@@ -158,6 +166,10 @@
         [
           2022,
           61.2
+        ],
+        [
+          2023,
+          61.7
         ]
       ],
       "name": "Beiträge Krankenversicherer (gemäss KVG)"
@@ -212,6 +224,10 @@
         [
           2022,
           48.4
+        ],
+        [
+          2023,
+          55.1
         ]
       ],
       "name": "Kanton\u002FGemeinde: Restfinanzierung (gemäss KVG)"
@@ -266,6 +282,10 @@
         [
           2022,
           59.2
+        ],
+        [
+          2023,
+          62.5
         ]
       ],
       "name": "Kanton\u002FGemeinde: Ergänzungsleistungen"

@@ -16,6 +16,7 @@
       }
     },
     xAxis: {
+      type: "category"
     },
     yAxis: {
       tickAmount: 7,
