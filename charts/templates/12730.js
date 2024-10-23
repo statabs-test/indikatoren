@@ -15,10 +15,10 @@
     yAxis: [
       {
         min: 0,
-        max: 100,
-        tickAmount: 5,
+//        max: 100,
+//        tickAmount: 5,
         labels: {
-          format: '{value:.0f}%',
+          format: '{value:.0f}',
           style: {
             color: "black",
           },
@@ -34,10 +34,10 @@
             color: "black"
           }
         },
-        opposite: true, // Rechte Achse aktivieren
-        min: 1,
-        max: 12,
-        tickAmount: 5,
+        opposite: false, // Rechte Achse aktivieren
+//        min: 0,
+//        max: 12,
+//        tickAmount: 5,
         title: {
           text: "", // Beschriftung rechte Achse
         },
@@ -53,22 +53,10 @@
       shared: true,
       useHTML: true,
       followPointer: true,
-      headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
+      headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}%</b></td></tr>',
+        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f}</b></td></tr>',
     },
-    /*
-      tooltip: {
-        pointFormatter: function () {
-          if (this.series.yAxis.userOptions.opposite) {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b>';
-          } else {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
-          }
-        },
-        "shared": false
-      },
-  */
     legend: {
       itemWidth: 75,
       itemStyle: {
@@ -83,7 +71,7 @@
       itemDistance: 10,
       labelFormatter: function () {
         if (this.index === 12) {
-          return 'Durchschnittl. Pflegestufe (rechte Skala)';
+          return 'Total Pflegetage';
         } else {
           return this.name;
         }
@@ -141,15 +129,15 @@
       {
         type: 'line',
         color: '#010101',
-        yAxis: 1,  //Diagramm für durchschnittliche Pflegestufe auf rechte Achse
+//        yAxis: 1,  //Diagramm für durchschnittliche Pflegestufe auf rechte Achse
         legendIndex: 13,
         tooltip: {
           shared: true,
           useHTML: true,
           followPointer: true,
-          headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
+          headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
           pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
+            + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
         },
         /*
                 tooltip: {

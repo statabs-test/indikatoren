@@ -2,191 +2,219 @@
   "series": [
     {
       "index": 0,
-      "color": "#68ab2b",
+      "color": "#b30000",
+      "lineWidth": 3,
       "data": [
         [
-          2017,
+          "2017",
           5.21
         ],
         [
-          2018,
+          "2018",
           5.26
         ],
         [
-          2019,
+          "2019",
           5.33
         ],
         [
-          2020,
+          "2020",
           5.4
         ],
         [
-          2021,
+          "2021",
           5.5
         ],
         [
-          2022,
+          "2022",
           5.6
         ]
       ],
-      "name": "DCH"
+      "name": "DCH",
+      "turboThreshold": 0
     },
     {
       "index": 1,
-      "color": "#006400",
+      "color": "#8a0000",
+      "lineWidth": 3,
       "data": [
         [
-          2017,
+          "2017",
           5.27
         ],
         [
-          2018,
+          "2018",
           5.31
         ],
         [
-          2019,
+          "2019",
           5.47
         ],
         [
-          2020,
+          "2020",
           5.55
         ],
         [
-          2021,
+          "2021",
           5.7
         ],
         [
-          2022,
+          "2022",
           5.71
         ]
       ],
-      "name": "NWCH"
+      "name": "NWCH",
+      "turboThreshold": 0
     },
     {
       "index": 1,
-      "color": "#010101",
+      "color": "#ff2e2e",
+      "lineWidth": 3,
       "data": [
         [
-          2017,
+          "2017",
           5.84
         ],
         [
-          2018,
+          "2018",
           5.94
         ],
         [
-          2019,
+          "2019",
           6.09
         ],
         [
-          2020,
+          "2020",
           6.2
         ],
         [
-          2021,
+          "2021",
           6.35
         ],
         [
-          2022,
+          "2022",
           6.41
         ]
       ],
-      "name": "Kanton Basel-Stadt"
+      "name": "Kanton Basel-Stadt",
+      "turboThreshold": 0
     },
     {
       "index": 1,
-      "color": "#010101",
+      "color": "#00b800",
       "data": [
         [
-          2017,
+          "2017",
           6.05
         ],
         [
-          2018,
+          "2018",
           6.05
         ],
         [
-          2019,
+          "2019",
           6.19
         ],
         [
-          2020,
+          "2020",
           6.34
         ],
         [
-          2021,
+          "2021",
           6.47
         ],
         [
-          2022,
+          "2022",
           6.51
         ]
       ],
-      "name": "Stadt Basel"
+      "name": "Stadt Basel",
+      "turboThreshold": 0
     },
     {
       "index": 1,
-      "color": "#010101",
+      "color": "#008a00",
       "data": [
         [
-          2017,
+          "2017",
           5.28
         ],
         [
-          2018,
+          "2018",
           5.14
         ],
         [
-          2019,
+          "2019",
           5.37
         ],
         [
-          2020,
+          "2020",
           5.27
         ],
         [
-          2021,
+          "2021",
           5.47
         ],
         [
-          2022,
+          "2022",
           5.64
         ]
       ],
-      "name": "Riehen"
+      "name": "Riehen",
+      "turboThreshold": 0
     },
     {
       "index": 1,
-      "color": "#010101",
+      "color": "#006100",
       "data": [
         [
-          2017,
+          "2017",
           4.67
         ],
         [
-          2018,
+          "2018",
           4.98
         ],
         [
-          2019,
+          "2019",
           4.93
         ],
         [
-          2020,
+          "2020",
           4.85
         ],
         [
-          2021,
+          "2021",
           5.76
         ],
         [
-          2022,
+          "2022",
           6.32
         ]
       ],
-      "name": "Bettingen"
+      "name": "Bettingen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -247,24 +275,6 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": {
     "min": 0,
     "gridLineWidth": 0.5,
@@ -281,11 +291,11 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-      return Highcharts.numberFormat((this.value),0)+'';
-    }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        }
     },
-    "tickAmount": 10
+    "max": 10
   },
   "legend": {
     "enabled": true,
@@ -349,9 +359,9 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function(){
-    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
-  },
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
+      },
     "shared": false
   },
   "exporting": {

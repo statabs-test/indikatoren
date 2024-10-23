@@ -40,19 +40,11 @@
         + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
       footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.1f} Mio. CHF</b></td><td></td></tr></table>',
     },
-    /*
-        tooltip: {
-          shared: true,
-          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} Mio. CHF</b> ({point.percentage:,.1f}%)<br/>',
-          footerFormat: 'Total: <b>{point.total:,.1f} Mio. CHF</b>',
-        },
-   */
     yAxis: [
       {
         min: 0,
         title: {
           text: " ",
-          //        useHTML: true,
         },
         reversedStacks: true,
       },

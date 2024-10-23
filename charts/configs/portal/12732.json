@@ -7,15 +7,15 @@
       "data": [
         [
           "2021",
-          "19.7%"
+          0.197
         ],
         [
           "2022",
-          "14.3%"
+          0.143
         ],
         [
           "2023",
-          "11.7%"
+          0.117
         ]
       ],
       "name": "Stufe 1",
@@ -28,15 +28,15 @@
       "data": [
         [
           "2021",
-          "19.1%"
+          0.191
         ],
         [
           "2022",
-          "18.6%"
+          0.186
         ],
         [
           "2023",
-          "13.7%"
+          0.137
         ]
       ],
       "name": "Stufe 2",
@@ -49,15 +49,15 @@
       "data": [
         [
           "2021",
-          "11.0%"
+          0.11
         ],
         [
           "2022",
-          "12.6%"
+          0.126
         ],
         [
           "2023",
-          "10.0%"
+          0.1
         ]
       ],
       "name": "Stufe 3",
@@ -70,15 +70,15 @@
       "data": [
         [
           "2021",
-          "24.5%"
+          0.245
         ],
         [
           "2022",
-          "26.6%"
+          0.266
         ],
         [
           "2023",
-          "37.4%"
+          0.374
         ]
       ],
       "name": "Stufe 4",
@@ -91,15 +91,15 @@
       "data": [
         [
           "2021",
-          "5.8%"
+          0.058
         ],
         [
           "2022",
-          "5.0%"
+          0.05
         ],
         [
           "2023",
-          "3.8%"
+          0.038
         ]
       ],
       "name": "Stufe 5",
@@ -112,15 +112,15 @@
       "data": [
         [
           "2021",
-          "14.9%"
+          0.149
         ],
         [
           "2022",
-          "14.3%"
+          0.143
         ],
         [
           "2023",
-          "17.4%"
+          0.174
         ]
       ],
       "name": "Stufe 6",
@@ -133,15 +133,15 @@
       "data": [
         [
           "2021",
-          "0.9%"
+          0.009
         ],
         [
           "2022",
-          "1.1%"
+          0.011
         ],
         [
           "2023",
-          "0.3%"
+          0.003
         ]
       ],
       "name": "Stufe 7",
@@ -154,15 +154,15 @@
       "data": [
         [
           "2021",
-          "3.0%"
+          0.03
         ],
         [
           "2022",
-          "6.2%"
+          0.062
         ],
         [
           "2023",
-          "3.5%"
+          0.035
         ]
       ],
       "name": "Stufe 8",
@@ -175,15 +175,15 @@
       "data": [
         [
           "2021",
-          "0.0%"
+          0
         ],
         [
           "2022",
-          "0.0%"
+          0
         ],
         [
           "2023",
-          "0.0%"
+          0
         ]
       ],
       "name": "Stufe 9",
@@ -196,15 +196,15 @@
       "data": [
         [
           "2021",
-          "1.2%"
+          0.012
         ],
         [
           "2022",
-          "1.3%"
+          0.013
         ],
         [
           "2023",
-          "2.2%"
+          0.022
         ]
       ],
       "name": "Stufe 10",
@@ -217,15 +217,15 @@
       "data": [
         [
           "2021",
-          "0.0%"
+          0
         ],
         [
           "2022",
-          "0.0%"
+          0
         ],
         [
           "2023",
-          "0.0%"
+          0
         ]
       ],
       "name": "Stufe 11",
@@ -238,15 +238,15 @@
       "data": [
         [
           "2021",
-          "0.0%"
+          0
         ],
         [
           "2022",
-          "0.0%"
+          0
         ],
         [
           "2023",
-          "0.0%"
+          0
         ]
       ],
       "name": "Stufe 12",
@@ -261,7 +261,7 @@
         "shared": true,
         "useHTML": true,
         "followPointer": true,
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
         "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}&nbsp;&nbsp;&nbsp;\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
       },
       "data": [
@@ -369,10 +369,13 @@
   "yAxis": [
     {
       "min": 0,
-      "max": 100,
+      "max": 1,
       "tickAmount": 5,
       "labels": {
-        "format": "{value:.0f}%",
+        "format": "{value:.0f}",
+        "formatter": function () {
+            return Highcharts.numberFormat((this.value * 100), 0) + '%';
+          },
         "style": {
           "color": "black"
         }
@@ -472,8 +475,18 @@
     "shared": true,
     "useHTML": true,
     "followPointer": true,
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
-    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E \u003Ctable\u003E",
+    "pointFormatter": function () {
+        if (this.series.index === 12) {
+          // Absolutwert für die letzte Reihe
+          return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(this.y, 1) + '</b></td></tr>';
+        } else {
+          // Prozentwert für die anderen Reihen
+          return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+        }
+      }
   },
   "exporting": {
     "filename": "12732"

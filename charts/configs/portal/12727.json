@@ -447,15 +447,8 @@
     {
       "type": "line",
       "color": "#010101",
-      "yAxis": 1,
+      "index": 13,
       "legendIndex": 13,
-      "tooltip": {
-        "shared": true,
-        "useHTML": true,
-        "followPointer": true,
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E \u003Ctable\u003E",
-        "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f}&nbsp;&nbsp;&nbsp;\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E"
-      },
       "data": [
         [
           "2017",
@@ -574,37 +567,25 @@
       "color": "#000000"
     }
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "max": 100,
-      "tickAmount": 5,
-      "labels": {
-        "format": "{value:.0f}",
-        "style": {
-          "color": "black"
-        }
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "title": {
-        "text": ""
-      }
+      "text": ""
     },
-    {
-      "labels": {
-        "format": "{value:.1f}",
-        "style": {
-          "color": "black"
-        }
+    "labels": {
+      "style": {
+        "color": "black"
       },
-      "opposite": true,
-      "min": 1,
-      "max": 12,
-      "tickAmount": 5,
-      "title": {
-        "text": ""
-      }
+      "format": "{value:.0f}"
     }
-  ],
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -621,7 +602,7 @@
     "itemDistance": 10,
     "labelFormatter": function () {
         if (this.index === 12) {
-          return 'Total Pflegetage (rechte Skala)';
+          return 'Total Pflegetage';
         } else {
           return this.name;
         }

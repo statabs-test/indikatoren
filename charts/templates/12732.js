@@ -15,10 +15,13 @@
     yAxis: [
       {
         min: 0,
-        max: 100,
+        max: 1,
         tickAmount: 5,
         labels: {
-          format: '{value:.0f}%',
+          format: '{value:.0f}',
+          "formatter": function () {
+            return Highcharts.numberFormat((this.value * 100), 0) + '%';
+          },
           style: {
             color: "black",
           },
@@ -53,22 +56,19 @@
       shared: true,
       useHTML: true,
       followPointer: true,
-      headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
-      pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}%</b></td></tr>',
-    },
-    /*
-      tooltip: {
-        pointFormatter: function () {
-          if (this.series.yAxis.userOptions.opposite) {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b>';
-          } else {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
-          }
-        },
-        "shared": false
+      headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
+      pointFormatter: function () {
+        if (this.series.index === 12) {
+          // Absolutwert für die letzte Reihe
+          return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(this.y, 1) + '</b></td></tr>';
+        } else {
+          // Prozentwert für die anderen Reihen
+          return '<tr><td><span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': &nbsp;</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + (this.y * 100).toFixed(1) + '%</b></td></tr>';
+        }
       },
-  */
+    },
     legend: {
       itemWidth: 75,
       itemStyle: {
@@ -147,18 +147,10 @@
           shared: true,
           useHTML: true,
           followPointer: true,
-          headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
+          headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
           pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
             + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
         },
-        /*
-                tooltip: {
-                  headerFormat: '<table>',
-                  pointFormatter: function () {
-                    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b> </table>';
-                  }
-                }
-        */
       },
     ],
   };
