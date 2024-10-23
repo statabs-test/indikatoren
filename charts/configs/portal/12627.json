@@ -5,16 +5,102 @@
         "symbol": "circle",
         "enabled": false
       },
-      "color": "#999",
-      "index": 3
-    },
-    {
-      "color": "#cd9c00",
-      "index": 1
-    },
-    {
-      "color": "#b375ab",
-      "index": 2
+      "color": "#83522E",
+      "data": [
+        [
+          2002,
+          1.94
+        ],
+        [
+          2003,
+          1.8
+        ],
+        [
+          2004,
+          2
+        ],
+        [
+          2005,
+          1.95
+        ],
+        [
+          2006,
+          1.76
+        ],
+        [
+          2007,
+          1.62
+        ],
+        [
+          2008,
+          1.4
+        ],
+        [
+          2009,
+          0.98
+        ],
+        [
+          2010,
+          1.02
+        ],
+        [
+          2011,
+          0.62
+        ],
+        [
+          2012,
+          0.36
+        ],
+        [
+          2013,
+          0.24
+        ],
+        [
+          2014,
+          0.19
+        ],
+        [
+          2015,
+          0.17
+        ],
+        [
+          2016,
+          0.19
+        ],
+        [
+          2017,
+          0.38
+        ],
+        [
+          2018,
+          0.81
+        ],
+        [
+          2019,
+          0.84
+        ],
+        [
+          2020,
+          0.91
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          1.18
+        ],
+        [
+          2023,
+          0.92
+        ],
+        [
+          2024,
+          0.79
+        ]
+      ],
+      "name": "Leerwohnungsquote in %"
     }
   ],
   "chart": {
@@ -65,7 +151,7 @@
     "text": "Leerwohnungsquote"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -107,19 +193,20 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
-    }
+      "format": "{value:,.1f}%"
+    },
+    "tickInterval": 0.5,
+    "max": 2.5
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,

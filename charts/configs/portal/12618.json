@@ -2,25 +2,302 @@
   "series": [
     {
       "color": "#FFBB58",
-      "visible": true
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -224
+        ],
+        [
+          "Übrige Schweiz",
+          -7
+        ],
+        [
+          "Ausland",
+          379
+        ],
+        [
+          "Unbekannt",
+          -199
+        ],
+        [
+          "Total",
+          -51
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
     },
     {
       "color": "#DC440E",
-      "visible": true
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -197
+        ],
+        [
+          "Übrige Schweiz",
+          -9
+        ],
+        [
+          "Ausland",
+          340
+        ],
+        [
+          "Unbekannt",
+          -176
+        ],
+        [
+          "Total",
+          -42
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
     },
     {
       "color": "#A8C3CA",
-      "visible": true
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -220
+        ],
+        [
+          "Übrige Schweiz",
+          11
+        ],
+        [
+          "Ausland",
+          324
+        ],
+        [
+          "Unbekannt",
+          -188
+        ],
+        [
+          "Total",
+          -73
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
     },
     {
       "color": "#246370",
-      "visible": true
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -175
+        ],
+        [
+          "Übrige Schweiz",
+          9
+        ],
+        [
+          "Ausland",
+          313
+        ],
+        [
+          "Unbekannt",
+          -183
+        ],
+        [
+          "Total",
+          -36
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
     },
     {
       "color": "#083038",
-      "visible": true
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -201
+        ],
+        [
+          "Übrige Schweiz",
+          -3
+        ],
+        [
+          "Ausland",
+          320
+        ],
+        [
+          "Unbekannt",
+          -147
+        ],
+        [
+          "Total",
+          -31
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C4AB91",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -221
+        ],
+        [
+          "Übrige Schweiz",
+          -8
+        ],
+        [
+          "Ausland",
+          366
+        ],
+        [
+          "Unbekannt",
+          -91
+        ],
+        [
+          "Total",
+          46
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#67401E",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -190
+        ],
+        [
+          "Übrige Schweiz",
+          10
+        ],
+        [
+          "Ausland",
+          394
+        ],
+        [
+          "Unbekannt",
+          -66
+        ],
+        [
+          "Total",
+          148
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -246
+        ],
+        [
+          "Übrige Schweiz",
+          31
+        ],
+        [
+          "Ausland",
+          303
+        ],
+        [
+          "Unbekannt",
+          -130
+        ],
+        [
+          "Total",
+          -42
+        ]
+      ],
+      "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -197
+        ],
+        [
+          "Übrige Schweiz",
+          -66
+        ],
+        [
+          "Ausland",
+          601
+        ],
+        [
+          "Unbekannt",
+          -142
+        ],
+        [
+          "Total",
+          196
+        ]
+      ],
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -164
+        ],
+        [
+          "Übrige Schweiz",
+          -13
+        ],
+        [
+          "Ausland",
+          386
+        ],
+        [
+          "Unbekannt",
+          -142
+        ],
+        [
+          "Total",
+          67
+        ]
+      ],
+      "name": "2023",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -55,7 +332,8 @@
                 }
     },
     "type": "column",
-    "spacingBottom": 40,
+    "inverted": false,
+    "spacingBottom": 50,
     "renderTo": "container-12618"
   },
   "plotOptions": {
@@ -79,33 +357,13 @@
     "text": "Wanderungssaldo nach Zuzugs- und Wegzugsort"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
-    },
-    "type": "category"
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -121,10 +379,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 20,
-    "max": 200
+    "tickInterval": 100
   },
   "legend": {
     "symbolRadius": 0,
@@ -134,7 +392,10 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 75,
+    "width": 380,
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {

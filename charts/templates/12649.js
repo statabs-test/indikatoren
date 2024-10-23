@@ -22,21 +22,21 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.1f} GWh</b><br/>'
     },
     "series": [
-      {
-        "color": "#9E7C59"
-      },
-      {
-        "color": "#C4AB91"
-      },
-      {
-        "color": "#FFDA80"
-      },
-      {
-        "color": "#C9D6DB"
-      },
-      {
-        "color": "#6F6F6F"
-      }
+      { 
+        "color": "#FABD24" /* "#b375ab" Friedmatt*/   
+        },
+        {
+          "color": "#FF8028" /* "#689199" Kannenfeld*/
+        },
+        {
+          "color": "#923F8D" /* "#662673" Landskron*/
+        },
+        {
+          "color": "#689199" /* "#999" Lysbüchel*/
+        },
+        {
+          "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/
+        }
     ],
     "legend": {
       width: 460,
@@ -45,7 +45,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      labelFormatter: function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      },
     }
   }
 }());

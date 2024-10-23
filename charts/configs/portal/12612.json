@@ -1,15 +1,469 @@
 {
   "series": [
     {
-      "color": "#cd9c00"
+      "color": "#9E7C59",
+      "data": [
+        [
+          "2004",
+          20.8
+        ],
+        [
+          "2005",
+          20.4
+        ],
+        [
+          "2006",
+          19.3
+        ],
+        [
+          "2007",
+          19.8
+        ],
+        [
+          "2008",
+          19.7
+        ],
+        [
+          "2009",
+          18.4
+        ],
+        [
+          "2010",
+          20
+        ],
+        [
+          "2011",
+          19.2
+        ],
+        [
+          "2012",
+          19
+        ],
+        [
+          "2013",
+          18.9
+        ],
+        [
+          "2014",
+          18.9
+        ],
+        [
+          "2015",
+          18.8
+        ],
+        [
+          "2016",
+          18.4
+        ],
+        [
+          "2017",
+          18.2
+        ],
+        [
+          "2018",
+          19.5
+        ],
+        [
+          "2019",
+          19.4
+        ],
+        [
+          "2020",
+          19.4
+        ],
+        [
+          "2021",
+          19.7
+        ],
+        [
+          "2022",
+          19.4
+        ],
+        [
+          "2023",
+          19.3
+        ]
+      ],
+      "name": "Pestalozzi",
+      "turboThreshold": 0
     },
     {
-      "color": "#b375ab"
+      "color": "#FF8028",
+      "data": [
+        [
+          "2004",
+          23.1
+        ],
+        [
+          "2005",
+          22.5
+        ],
+        [
+          "2006",
+          22.7
+        ],
+        [
+          "2007",
+          24
+        ],
+        [
+          "2008",
+          23
+        ],
+        [
+          "2009",
+          22.3
+        ],
+        [
+          "2010",
+          22
+        ],
+        [
+          "2011",
+          21.1
+        ],
+        [
+          "2012",
+          21.7
+        ],
+        [
+          "2013",
+          22.5
+        ],
+        [
+          "2014",
+          22.9
+        ],
+        [
+          "2015",
+          22.9
+        ],
+        [
+          "2016",
+          23.4
+        ],
+        [
+          "2017",
+          23.5
+        ],
+        [
+          "2018",
+          24.3
+        ],
+        [
+          "2019",
+          25
+        ],
+        [
+          "2020",
+          24.9
+        ],
+        [
+          "2021",
+          25.1
+        ],
+        [
+          "2022",
+          25.4
+        ],
+        [
+          "2023",
+          23.4
+        ]
+      ],
+      "name": "Kannenfeld",
+      "turboThreshold": 0
     },
     {
-      "color": "#999999"
+      "color": "#923F8D",
+      "data": [
+        [
+          "2004",
+          28.2
+        ],
+        [
+          "2005",
+          28.1
+        ],
+        [
+          "2006",
+          27.6
+        ],
+        [
+          "2007",
+          27.3
+        ],
+        [
+          "2008",
+          27.7
+        ],
+        [
+          "2009",
+          27.5
+        ],
+        [
+          "2010",
+          26.8
+        ],
+        [
+          "2011",
+          26.2
+        ],
+        [
+          "2012",
+          25.5
+        ],
+        [
+          "2013",
+          24.6
+        ],
+        [
+          "2014",
+          24.2
+        ],
+        [
+          "2015",
+          23.4
+        ],
+        [
+          "2016",
+          23.2
+        ],
+        [
+          "2017",
+          22.6
+        ],
+        [
+          "2018",
+          22.5
+        ],
+        [
+          "2019",
+          21.7
+        ],
+        [
+          "2020",
+          21.6
+        ],
+        [
+          "2021",
+          21.5
+        ],
+        [
+          "2022",
+          22.1
+        ],
+        [
+          "2023",
+          21.8
+        ]
+      ],
+      "name": "Landskron",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2004",
+          29.3
+        ],
+        [
+          "2005",
+          27
+        ],
+        [
+          "2006",
+          25.8
+        ],
+        [
+          "2007",
+          26.6
+        ],
+        [
+          "2008",
+          25.5
+        ],
+        [
+          "2009",
+          23.5
+        ],
+        [
+          "2010",
+          21.1
+        ],
+        [
+          "2011",
+          22.6
+        ],
+        [
+          "2012",
+          22.1
+        ],
+        [
+          "2013",
+          22.7
+        ],
+        [
+          "2014",
+          24.2
+        ],
+        [
+          "2015",
+          25
+        ],
+        [
+          "2016",
+          25.1
+        ],
+        [
+          "2017",
+          26.3
+        ],
+        [
+          "2018",
+          26.2
+        ],
+        [
+          "2019",
+          29.7
+        ],
+        [
+          "2020",
+          30.7
+        ],
+        [
+          "2021",
+          29.6
+        ],
+        [
+          "2022",
+          28.4
+        ],
+        [
+          "2023",
+          31.6
+        ]
+      ],
+      "name": "Lysbüchel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "visible": true,
+      "data": [
+        [
+          "2004",
+          40
+        ],
+        [
+          "2005",
+          39.9
+        ],
+        [
+          "2006",
+          39.8
+        ],
+        [
+          "2007",
+          38.5
+        ],
+        [
+          "2008",
+          39.9
+        ],
+        [
+          "2009",
+          38.7
+        ],
+        [
+          "2010",
+          38
+        ],
+        [
+          "2011",
+          37
+        ],
+        [
+          "2012",
+          37.2
+        ],
+        [
+          "2013",
+          38.2
+        ],
+        [
+          "2014",
+          38.5
+        ],
+        [
+          "2015",
+          38.8
+        ],
+        [
+          "2016",
+          38.9
+        ],
+        [
+          "2017",
+          39.7
+        ],
+        [
+          "2018",
+          38.9
+        ],
+        [
+          "2019",
+          38.8
+        ],
+        [
+          "2020",
+          38.1
+        ],
+        [
+          "2021",
+          39.1
+        ],
+        [
+          "2022",
+          40.1
+        ],
+        [
+          "2023",
+          40.9
+        ]
+      ],
+      "name": "Friedmattviertel",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var maxlabels = 10,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
   "chart": {
     "type": "line",
     "width": 485,
@@ -24,20 +478,25 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function () {
-					this.credits.element.onclick = function () { };
+      "load": function() {
+          // `this` refers to the chart instance
+          this.series[4].update({
+              name: "Friedmatt"
+          });
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          this.credits.element.onclick = function () { };
+ 
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+        }
     },
     "renderTo": "container-12612"
   },
@@ -65,31 +524,13 @@
     "text": "Jugendquotient"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,

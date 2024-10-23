@@ -19,7 +19,7 @@
                 + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65, 94); //move -x to the left and +y down
+            .translate(-65,90); //move -x to the left and +y down
         }
       }
     },
@@ -67,7 +67,7 @@
       }
     ],
     "xAxis": {
-      "tickInterval": 1
+      type: "category"
     },
     "legend": {
       "enabled": true,
@@ -75,9 +75,10 @@
       "verticalAlign": "top",
       "align": "left",
       "itemMarginBottom": 4,
+      //itemDistance: 7,
       x: 125,
       y: -100,
-      itemWidth: 110,
+      itemWidth: 120,
       width: 260,
       itemStyle: {
         textOverflow: "none",
@@ -87,7 +88,7 @@
         text: '-<br><br><br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
         style: {
           fontWeight: 'normal',
-          lineHeight: 18
+          lineHeight: 17
         }
       },
       labelFormatter: function () {
@@ -96,14 +97,14 @@
     },
     "series": [
       {
-        "color": "#cd9c00",
+        "color": "#9E7C59", // Pestalozzi
         //"index": 0,
         //legendIndex: 0,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#7f5f1a",
+        "color": "#9E7C59",
         //"index": 5,
         //legendIndex: 1,
         "type": "line",
@@ -111,14 +112,16 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#FF8028", /* "#689199" Kannenfeld*/
+        visible: false,
         //"index": 1,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#FF8028",
+        visible: false,
         //"index": 6,
         //legendIndex: 3,
         "type": "line",
@@ -126,14 +129,16 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#923F8D", /* "#662673" Landskron*/
+        visible: false,
          //"index": 2,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#923F8D",
+        visible: false,
          //"index": 7,
         //legendIndex: 3,
         "type": "line",
@@ -141,14 +146,14 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#689199", /* "#999" Lysbüchel*/
         //"index": 3,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#689199",
         //"index": 8,
         //legendIndex: 3,
         "type": "line",
@@ -156,14 +161,14 @@
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>' }
       },
       {
-        "color": "#b375ab",
+        "color": "#FABD24", /* "#b375ab" Friedmatt*/
         //"index": 4,
         //legendIndex: 2,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>' }
       },
       {
-        "color": "#923f8d",
+        "color": "#FABD24",
         //"index": 9,
         //legendIndex: 3,
         "type": "line",

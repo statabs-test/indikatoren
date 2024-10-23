@@ -1,18 +1,228 @@
 {
   "series": [
     {
-      "color": "#ffbb58"
+      "color": "#ffbb58",
+      "data": [
+        [
+          "2013",
+          7728
+        ],
+        [
+          "2014",
+          7660
+        ],
+        [
+          "2015",
+          7526
+        ],
+        [
+          "2016",
+          7398
+        ],
+        [
+          "2017",
+          7318
+        ],
+        [
+          "2018",
+          7282
+        ],
+        [
+          "2019",
+          7259
+        ],
+        [
+          "2020",
+          7272
+        ],
+        [
+          "2021",
+          7249
+        ],
+        [
+          "2022",
+          7357
+        ],
+        [
+          "2023",
+          7280
+        ]
+      ],
+      "name": "Mietwohnungen",
+      "turboThreshold": 0
     },
     {
-      "color": "#008AC3"
+      "color": "#008AC3",
+      "data": [
+        [
+          "2013",
+          590
+        ],
+        [
+          "2014",
+          594
+        ],
+        [
+          "2015",
+          625
+        ],
+        [
+          "2016",
+          682
+        ],
+        [
+          "2017",
+          684
+        ],
+        [
+          "2018",
+          681
+        ],
+        [
+          "2019",
+          680
+        ],
+        [
+          "2020",
+          688
+        ],
+        [
+          "2021",
+          832
+        ],
+        [
+          "2022",
+          912
+        ],
+        [
+          "2023",
+          931
+        ]
+      ],
+      "name": "Genossenschaftswohnungen",
+      "turboThreshold": 0
     },
     {
-      "color": "#73B97C"
+      "color": "#73B97C",
+      "data": [
+        [
+          "2013",
+          840
+        ],
+        [
+          "2014",
+          841
+        ],
+        [
+          "2015",
+          837
+        ],
+        [
+          "2016",
+          841
+        ],
+        [
+          "2017",
+          829
+        ],
+        [
+          "2018",
+          871
+        ],
+        [
+          "2019",
+          868
+        ],
+        [
+          "2020",
+          887
+        ],
+        [
+          "2021",
+          866
+        ],
+        [
+          "2022",
+          885
+        ],
+        [
+          "2023",
+          894
+        ]
+      ],
+      "name": "Selbstbewohnte Eigentümerwohnungen",
+      "turboThreshold": 0
     },
     {
-      "color": "#662673"
+      "color": "#662673",
+      "data": [
+        [
+          "2013",
+          57
+        ],
+        [
+          "2014",
+          57
+        ],
+        [
+          "2015",
+          56
+        ],
+        [
+          "2016",
+          53
+        ],
+        [
+          "2017",
+          48
+        ],
+        [
+          "2018",
+          45
+        ],
+        [
+          "2019",
+          56
+        ],
+        [
+          "2020",
+          60
+        ],
+        [
+          "2021",
+          59
+        ],
+        [
+          "2022",
+          75
+        ],
+        [
+          "2023",
+          144
+        ]
+      ],
+      "name": "Sonstige Wohnungen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -57,11 +267,7 @@
         "style": {
           "fontSize": "10px"
         }
-      }
-    },
-    "column": {
-      "groupPadding": 0.04,
-      "pointPadding": 0.03,
+      },
       "stacking": "normal"
     }
   },
@@ -75,37 +281,13 @@
     "text": "Wohnungen nach Belegungsart"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -45,
-      "align": "right",
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
-    },
-    "tickInterval": 1,
-    "type": "category"
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -138,11 +320,7 @@
     "itemMarginBottom": 5,
     "reversed": true,
     "labelFormatter": function () {
-        return this.name.replace('Sonstige', 'Sonstige<br>')
-        .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
-        .replace('Eigentümer', 'Eigentümer-<br>')
-        .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
-        .replace('Mietwohnungen', 'Miet-<br>wohnungen');
+        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
       }
   },
   "navigation": {

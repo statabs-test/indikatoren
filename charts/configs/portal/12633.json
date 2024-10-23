@@ -1,11 +1,234 @@
 {
   "series": [
     {
-      "color": "#cd9c00"
+      "color": "#9E7C59",
+      "data": [
+        [
+          2013,
+          0.0049673217
+        ],
+        [
+          2014,
+          0.0051950851
+        ],
+        [
+          2015,
+          0.0050158809
+        ],
+        [
+          2016,
+          0.0047850775
+        ],
+        [
+          2017,
+          0.004747502
+        ],
+        [
+          2018,
+          0.0048990218
+        ],
+        [
+          2019,
+          0.0045196895
+        ],
+        [
+          2020,
+          0.0047869038
+        ],
+        [
+          2021,
+          0.0043293501
+        ],
+        [
+          2022,
+          0.004646371
+        ]
+      ],
+      "name": "Pestalozzi"
     },
     {
-      "color": "#b375ab",
-      "visible": true
+      "color": "#FF8028",
+      "data": [
+        [
+          2013,
+          0.0024153533
+        ],
+        [
+          2014,
+          0.002387368
+        ],
+        [
+          2015,
+          0.0023429088
+        ],
+        [
+          2016,
+          0.0024412556
+        ],
+        [
+          2017,
+          0.0024304618
+        ],
+        [
+          2018,
+          0.0023819941
+        ],
+        [
+          2019,
+          0.003034496
+        ],
+        [
+          2020,
+          0.0032620653
+        ],
+        [
+          2021,
+          0.0031524911
+        ],
+        [
+          2022,
+          0.0032091897
+        ]
+      ],
+      "name": "Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2013,
+          0.0064482284
+        ],
+        [
+          2014,
+          0.0066339728
+        ],
+        [
+          2015,
+          0.0066066781
+        ],
+        [
+          2016,
+          0.006582188
+        ],
+        [
+          2017,
+          0.0060923575
+        ],
+        [
+          2018,
+          0.0058550603
+        ],
+        [
+          2019,
+          0.0056843376
+        ],
+        [
+          2020,
+          0.0058488449
+        ],
+        [
+          2021,
+          0.0065286387
+        ],
+        [
+          2022,
+          0.0068304744
+        ]
+      ],
+      "name": "Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2013,
+          0.0559411135
+        ],
+        [
+          2014,
+          0.0551519724
+        ],
+        [
+          2015,
+          0.0541141586
+        ],
+        [
+          2016,
+          0.065269756
+        ],
+        [
+          2017,
+          0.065563057
+        ],
+        [
+          2018,
+          0.0644920843
+        ],
+        [
+          2019,
+          0.0624689472
+        ],
+        [
+          2020,
+          0.0625510549
+        ],
+        [
+          2021,
+          0.0604298464
+        ],
+        [
+          2022,
+          0.0592025962
+        ]
+      ],
+      "name": "Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2013,
+          0.0257218737
+        ],
+        [
+          2014,
+          0.0259646476
+        ],
+        [
+          2015,
+          0.0258585706
+        ],
+        [
+          2016,
+          0.0262800353
+        ],
+        [
+          2017,
+          0.0259357278
+        ],
+        [
+          2018,
+          0.0279357672
+        ],
+        [
+          2019,
+          0.0265838947
+        ],
+        [
+          2020,
+          0.0269624127
+        ],
+        [
+          2021,
+          0.0269665793
+        ],
+        [
+          2022,
+          0.026065008
+        ]
+      ],
+      "name": "Friedmatt"
     }
   ],
   "chart": {
@@ -22,22 +245,26 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      "load": function() {
+            // `this` refers to the chart instance
+            this.series[4].update({
+                name: "Friedmatt"
+            });
+  
+            this.credits.element.onclick = function () { };
+   
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
     },
-    "marginRight": 20,
     "renderTo": "container-12633"
   },
   "plotOptions": {
@@ -64,7 +291,7 @@
     "text": "Anteil an der Gesamtbeschäftigung der Stadt Basel"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -107,7 +334,7 @@
         "color": "#000000"
       },
       "formatter": function(){
-            return Highcharts.numberFormat((this.value*100), 0)+'%';
+            return Highcharts.numberFormat((this.value*100), 1)+'%';
         }
     }
   },

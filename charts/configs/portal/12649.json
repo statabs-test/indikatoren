@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#9E7C59",
+      "color": "#FABD24",
       "data": [
         [
           "2010",
@@ -26,17 +26,13 @@
         [
           "2020",
           47.123719
-        ],
-        [
-          "2022",
-          53.242351
         ]
       ],
       "name": "Stromverbrauch Friedmatt",
       "turboThreshold": 0
     },
     {
-      "color": "#C4AB91",
+      "color": "#FF8028",
       "data": [
         [
           "2010",
@@ -61,17 +57,13 @@
         [
           "2020",
           3.56853
-        ],
-        [
-          "2022",
-          3.150024
         ]
       ],
       "name": "Stromverbrauch Kannenfeld",
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80",
+      "color": "#923F8D",
       "data": [
         [
           "2010",
@@ -96,17 +88,13 @@
         [
           "2020",
           12.52035
-        ],
-        [
-          "2022",
-          11.461258
         ]
       ],
       "name": "Stromverbrauch Landskron",
       "turboThreshold": 0
     },
     {
-      "color": "#C9D6DB",
+      "color": "#689199",
       "data": [
         [
           "2010",
@@ -131,17 +119,13 @@
         [
           "2020",
           37.248353
-        ],
-        [
-          "2022",
-          35.413446
         ]
       ],
       "name": "Stromverbrauch Lysbüchel",
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
+      "color": "#9E7C59",
       "data": [
         [
           "2010",
@@ -166,10 +150,6 @@
         [
           "2020",
           7.867822
-        ],
-        [
-          "2022",
-          7.260452
         ]
       ],
       "name": "Stromverbrauch Pestalozzi",
@@ -244,7 +224,7 @@
     "text": "Stromverbrauch"
   },
   "subtitle": {
-    "text": "in Gigawattstunden (GWh), Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in Gigawattstunden (GWh), Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -281,7 +261,10 @@
       "fontWeight": "normal"
     },
     "width": 460,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      }
   },
   "credits": {
     "enabled": true,

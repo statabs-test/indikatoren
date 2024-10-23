@@ -3,12 +3,205 @@
     {
       "color": "#008ac3",
       "stacking": "normal",
-      "legendIndex": 0
+      "legendIndex": 0,
+      "data": [
+        [
+          "0-4",
+          -123
+        ],
+        [
+          "5-9",
+          -123
+        ],
+        [
+          "10-14",
+          -147
+        ],
+        [
+          "15-19",
+          -114
+        ],
+        [
+          "20-24",
+          -96
+        ],
+        [
+          "25-29",
+          -132
+        ],
+        [
+          "30-34",
+          -138
+        ],
+        [
+          "35-39",
+          -126
+        ],
+        [
+          "40-44",
+          -151
+        ],
+        [
+          "45-49",
+          -139
+        ],
+        [
+          "50-54",
+          -115
+        ],
+        [
+          "55-59",
+          -107
+        ],
+        [
+          "60-64",
+          -108
+        ],
+        [
+          "65-69",
+          -98
+        ],
+        [
+          "70-74",
+          -90
+        ],
+        [
+          "75-79",
+          -70
+        ],
+        [
+          "80-84",
+          -68
+        ],
+        [
+          "85-89",
+          -37
+        ],
+        [
+          "90-94",
+          -26
+        ],
+        [
+          "95 u.m.",
+          -6
+        ]
+      ],
+      "name": "Männer Friedmattviertel",
+      "turboThreshold": 0
     },
     {
       "color": "#b00000",
       "stacking": "normal",
-      "legendIndex": 1
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4",
+          96
+        ],
+        [
+          "5-9",
+          131
+        ],
+        [
+          "10-14",
+          105
+        ],
+        [
+          "15-19",
+          132
+        ],
+        [
+          "20-24",
+          142
+        ],
+        [
+          "25-29",
+          136
+        ],
+        [
+          "30-34",
+          155
+        ],
+        [
+          "35-39",
+          138
+        ],
+        [
+          "40-44",
+          162
+        ],
+        [
+          "45-49",
+          133
+        ],
+        [
+          "50-54",
+          128
+        ],
+        [
+          "55-59",
+          129
+        ],
+        [
+          "60-64",
+          140
+        ],
+        [
+          "65-69",
+          124
+        ],
+        [
+          "70-74",
+          88
+        ],
+        [
+          "75-79",
+          96
+        ],
+        [
+          "80-84",
+          109
+        ],
+        [
+          "85-89",
+          83
+        ],
+        [
+          "90-94",
+          79
+        ],
+        [
+          "95 u.m.",
+          30
+        ]
+      ],
+      "name": "Frauen Friedmattviertel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
     }
   ],
   "chart": {
@@ -35,7 +228,15 @@
                                 }
                             }
                         );
-                    }
+                    };
+
+            // Friedmatt anstelle Friedmattviertel
+          this.series[0].update({
+            name: "Männer"
+        });
+        this.series[1].update({
+            name: "Frauen"
+        });
                 }
     },
     "marginRight": 15,
@@ -74,7 +275,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Klybeck, 2023",
+    "text": "Wohnbezirk Friedmatt, 2023",
     "align": "left"
   },
   "yAxis": [
@@ -163,31 +364,6 @@
                 axis.setExtremes(-absMax, absMax);
         	}
   },
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
-    }
-  ],
   "exporting": {
     "filename": "12611"
   }

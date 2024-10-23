@@ -1,21 +1,664 @@
 {
   "series": [
     {
-      "color": "#68ab2b"
+      "color": "#68ab2b",
+      "data": [
+        [
+          "2005: Pestalozzi",
+          4.9348
+        ],
+        [
+          "2005: Kannenfeld",
+          1.8672
+        ],
+        [
+          "2005: Landskron",
+          3.1102
+        ],
+        [
+          "2005: Lysbüchel",
+          4.861
+        ],
+        [
+          "2005: Friedmatt",
+          45.359
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          5.1179
+        ],
+        [
+          "2010: Kannenfeld",
+          1.9579
+        ],
+        [
+          "2010: Landskron",
+          3.1844
+        ],
+        [
+          "2010: Lysbüchel",
+          4.6878
+        ],
+        [
+          "2010: Friedmatt",
+          45.9388
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          5.0332
+        ],
+        [
+          "2015: Kannenfeld",
+          1.9513
+        ],
+        [
+          "2015: Landskron",
+          3.2826
+        ],
+        [
+          "2015: Lysbüchel",
+          5.1758
+        ],
+        [
+          "2015: Friedmatt",
+          45.6569
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          5.2285
+        ],
+        [
+          "2020: Kannenfeld",
+          1.9395
+        ],
+        [
+          "2020: Landskron",
+          3.258
+        ],
+        [
+          "2020: Lysbüchel",
+          8.5289
+        ],
+        [
+          "2020: Friedmatt",
+          44.6184
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          5.2286
+        ],
+        [
+          "2023: Kannenfeld",
+          1.9423
+        ],
+        [
+          "2023: Landskron",
+          3.4502
+        ],
+        [
+          "2023: Lysbüchel",
+          13.0419
+        ],
+        [
+          "2023: Friedmatt",
+          44.6235
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Grünfläche",
+      "turboThreshold": 0
     },
     {
-      "color": "#008AC3"
+      "color": "#008AC3",
+      "data": [
+        [
+          "2005: Pestalozzi",
+          0.072076
+        ],
+        [
+          "2005: Kannenfeld",
+          null
+        ],
+        [
+          "2005: Landskron",
+          null
+        ],
+        [
+          "2005: Lysbüchel",
+          0.000525
+        ],
+        [
+          "2005: Friedmatt",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          0.072076
+        ],
+        [
+          "2010: Kannenfeld",
+          null
+        ],
+        [
+          "2010: Landskron",
+          null
+        ],
+        [
+          "2010: Lysbüchel",
+          0.000511
+        ],
+        [
+          "2010: Friedmatt",
+          null
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          0.072061
+        ],
+        [
+          "2015: Kannenfeld",
+          null
+        ],
+        [
+          "2015: Landskron",
+          null
+        ],
+        [
+          "2015: Lysbüchel",
+          0.000285
+        ],
+        [
+          "2015: Friedmatt",
+          null
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          0.072061
+        ],
+        [
+          "2020: Kannenfeld",
+          null
+        ],
+        [
+          "2020: Landskron",
+          null
+        ],
+        [
+          "2020: Lysbüchel",
+          0.00011
+        ],
+        [
+          "2020: Friedmatt",
+          null
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          0.072061
+        ],
+        [
+          "2023: Kannenfeld",
+          null
+        ],
+        [
+          "2023: Landskron",
+          null
+        ],
+        [
+          "2023: Lysbüchel",
+          0.00011
+        ],
+        [
+          "2023: Friedmatt",
+          0.026981
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Gewässer",
+      "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8"
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2005: Pestalozzi",
+          5.8608
+        ],
+        [
+          "2005: Kannenfeld",
+          3.9366
+        ],
+        [
+          "2005: Landskron",
+          9.7163
+        ],
+        [
+          "2005: Lysbüchel",
+          20.5869
+        ],
+        [
+          "2005: Friedmatt",
+          19.7906
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          5.7351
+        ],
+        [
+          "2010: Kannenfeld",
+          3.7638
+        ],
+        [
+          "2010: Landskron",
+          9.434
+        ],
+        [
+          "2010: Lysbüchel",
+          20.9029
+        ],
+        [
+          "2010: Friedmatt",
+          18.9827
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          5.7312
+        ],
+        [
+          "2015: Kannenfeld",
+          3.7365
+        ],
+        [
+          "2015: Landskron",
+          9.448
+        ],
+        [
+          "2015: Lysbüchel",
+          19.3367
+        ],
+        [
+          "2015: Friedmatt",
+          18.8053
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          5.7081
+        ],
+        [
+          "2020: Kannenfeld",
+          3.7503
+        ],
+        [
+          "2020: Landskron",
+          9.301
+        ],
+        [
+          "2020: Lysbüchel",
+          17.2549
+        ],
+        [
+          "2020: Friedmatt",
+          19.5417
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          5.6727
+        ],
+        [
+          "2023: Kannenfeld",
+          3.7435
+        ],
+        [
+          "2023: Landskron",
+          9.3624
+        ],
+        [
+          "2023: Lysbüchel",
+          17.3213
+        ],
+        [
+          "2023: Friedmatt",
+          20.2962
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Gebäude",
+      "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A"
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "2005: Pestalozzi",
+          5.0194
+        ],
+        [
+          "2005: Kannenfeld",
+          2.8093
+        ],
+        [
+          "2005: Landskron",
+          6.2084
+        ],
+        [
+          "2005: Lysbüchel",
+          14.8215
+        ],
+        [
+          "2005: Friedmatt",
+          16.0827
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          5.013
+        ],
+        [
+          "2010: Kannenfeld",
+          2.8118
+        ],
+        [
+          "2010: Landskron",
+          6.308
+        ],
+        [
+          "2010: Lysbüchel",
+          14.9916
+        ],
+        [
+          "2010: Friedmatt",
+          16.0591
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          5.0358
+        ],
+        [
+          "2015: Kannenfeld",
+          2.8116
+        ],
+        [
+          "2015: Landskron",
+          6.191
+        ],
+        [
+          "2015: Lysbüchel",
+          14.7918
+        ],
+        [
+          "2015: Friedmatt",
+          16.2339
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          5.0358
+        ],
+        [
+          "2020: Kannenfeld",
+          2.8117
+        ],
+        [
+          "2020: Landskron",
+          6.1904
+        ],
+        [
+          "2020: Lysbüchel",
+          15.0658
+        ],
+        [
+          "2020: Friedmatt",
+          16.023
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          5.0353
+        ],
+        [
+          "2023: Kannenfeld",
+          2.8117
+        ],
+        [
+          "2023: Landskron",
+          6.0545
+        ],
+        [
+          "2023: Lysbüchel",
+          14.6417
+        ],
+        [
+          "2023: Friedmatt",
+          15.543
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Verkehrsfläche",
+      "turboThreshold": 0
     },
     {
-      "color": "#474747"
+      "color": "#474747",
+      "data": [
+        [
+          "2005: Pestalozzi",
+          3.2088
+        ],
+        [
+          "2005: Kannenfeld",
+          1.695
+        ],
+        [
+          "2005: Landskron",
+          4.4577
+        ],
+        [
+          "2005: Lysbüchel",
+          32.4287
+        ],
+        [
+          "2005: Friedmatt",
+          18.411
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2010: Pestalozzi",
+          3.1579
+        ],
+        [
+          "2010: Kannenfeld",
+          1.7748
+        ],
+        [
+          "2010: Landskron",
+          4.6173
+        ],
+        [
+          "2010: Lysbüchel",
+          32.116
+        ],
+        [
+          "2010: Friedmatt",
+          18.6629
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Pestalozzi",
+          3.2237
+        ],
+        [
+          "2015: Kannenfeld",
+          1.8088
+        ],
+        [
+          "2015: Landskron",
+          4.6221
+        ],
+        [
+          "2015: Lysbüchel",
+          33.3944
+        ],
+        [
+          "2015: Friedmatt",
+          18.9473
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2020: Pestalozzi",
+          3.0515
+        ],
+        [
+          "2020: Kannenfeld",
+          1.8067
+        ],
+        [
+          "2020: Landskron",
+          4.7942
+        ],
+        [
+          "2020: Lysbüchel",
+          31.8492
+        ],
+        [
+          "2020: Friedmatt",
+          19.4602
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2023: Pestalozzi",
+          3.0872
+        ],
+        [
+          "2023: Kannenfeld",
+          1.8107
+        ],
+        [
+          "2023: Landskron",
+          4.6767
+        ],
+        [
+          "2023: Lysbüchel",
+          27.6939
+        ],
+        [
+          "2023: Friedmatt",
+          18.7417
+        ],
+        [
+          "     ",
+          null
+        ]
+      ],
+      "name": "Übrige befestigte Flächen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -90,
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -75,36 +718,13 @@
     "text": "Bodenbedeckung nach Nutzungsart"
   },
   "subtitle": {
-    "text": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Anteil an der Gesamtfläche, Wohnviertel St. Johann",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -90,
-      "formatter": function () {
-          return this.value.replace('Kleinhüningen', 'Kleinh.');
-        }
-    },
-    "type": "category",
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,

@@ -67,9 +67,9 @@ global Highcharts
       "#73b97c",
       "#73b97c",
       "#73b97c",
+      "#007a2f", // St. Johann dunkler
       "#73b97c",
       "#73b97c",
-      "#007a2f",
       "#73b97c",
       "#73b97c",
       "#73b97c",

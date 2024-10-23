@@ -38,7 +38,7 @@
     "series": [
       {
         "index": 0,
-        color: "#DC440E",
+        color: "#246370",
         "tooltip": {
           "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';

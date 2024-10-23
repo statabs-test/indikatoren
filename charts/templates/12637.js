@@ -4,7 +4,28 @@
       useHTML: true
     },
     "chart": {
-      "type": "column"
+      "type": "column",
+      events: {
+        load: function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 5
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                  this.series[1].name.split(" ").slice(0, 1).toString() //Wohnen
+                + ':<br><br>'
+                + this.series[7].name.split(" ").slice(0, 1).toString() //Arbeiten
+                + ':<br>'
+            })
+            .translate(-65,55); //move -x to the left and +y down
+        }
+      }
     },
     "xAxis": {
       type: "category"
@@ -21,37 +42,130 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f} m<sup>2</sup></b><br/>'
     },
     "series": [
-      {  //Wohnen Messe
-        "color": "#cd9c00",
-        legendIndex: 1
+      {  //Wohnen Pestalozzi
+        "color": "#9E7C59",
+        //legendIndex: 1
       },
-      { // Wohnen Erlenmatt
-        "color": "#b375ab",
-        index: 2,
-        legendIndex: 2
+      { // Wohnen Kannenfeld
+        "color": "#FF8028",
+       // index: 2,
+        //legendIndex: 2
       },
-      { // Arbeiten Messe
-        "color": "#7f5f1a",
-        index: 1,
-        legendIndex: 3
+      { // Wohnen Landskron
+        "color": "#B375AB",
+        //index: 1,
+        //legendIndex: 3
       },
-      {  //Arbeiten Erlenmatt
-        "color": "#923f8d",
-        legendIndex: 4
+      {  //Wohnen Lysbüchel
+        "color": "#B6CFD7",
+        //legendIndex: 4
+      },
+      {  //Wohnen Friedmatt
+        "color": "#FFDA80",
+        //legendIndex: 5
+      },
+      { // Wohnen Basel
+        "color": "#999999",
+       // index: 1,
+       // legendIndex: 6,
+        visible: false
+      },
+      {  //Arbeiten Pestalozzi
+        "color": "#67401E",
+       // legendIndex: 7
+      },
+      { // Arbeiten Kannenfeld
+        "color": "#E64900",
+        //index: 1,
+        //legendIndex: 8
+      },
+      {  //Arbeiten Landskron
+        "color": "#923F8D",
+        //legendIndex: 9
+      },
+      { // Arbeiten Lysbüchel
+        "color": "#008AC3",
+        //index: 1,
+        //legendIndex: 10
+      },
+      {  //Arbeiten Friedmatt
+        "color": "#CD9C00",
+        //legendIndex: 11
+      },
+      { // Arbeiten Basel
+        "color": "#6F6F6F",
+       // index: 1,
+        //legendIndex: 12,
+        visible: false
       },
     ],
     "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
-      "align": "left"
+      "itemMarginBottom": 4,
+      "align": "left",
+      x: 120,
+      y: -60,
+      //itemWidth: 100,
+      //itemDistance: 4,
+      //width: 300,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      },
+      title: {
+        text: '-<br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
+        style: {
+          fontWeight: 'normal',
+          lineHeight: 17
+        }
+      },
+      labelFormatter: function () {
+        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      },
     },
     "plotOptions": {
       "series": {
         pointPadding: 0,
         groupPadding: 0.15,
-        borderWidth: 0
+        borderWidth: 0,
+        showInNavigator: true
+      },
+        },
+    navigator: {
+      enabled: true,
+      top: 330,
+      series: {
+        type: 'column',
+        pointRange: null
+      },
+      xAxis: {
+        //max: "2022",
+         tickInterval: 1,
+       /* tickPositioner: function () {
+          //use only every nth tick, starting with startingPoint
+          const startingPoint = 1,
+            step = 2,
+            positions = [];
+          for (let i = startingPoint; i < this.max; i += step) {
+            positions.push(i)
+          }
+          return positions
+        },*/
+        labels: {
+          step: 1,
+          rotation: 0,
+          align: 'center',
+          y: 15,
+          style: {
+            color: "#000000"
+          },
+          formatter: function () {
+            // get year from chart axis label names
+            return this.chart.xAxis[0].names[this.value].slice(0, 4);
+          }
+        },
       }
     },
   }

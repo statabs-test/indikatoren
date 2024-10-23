@@ -16,16 +16,57 @@
         };
         negateNumbersInColumn(2);
         negateNumbersInColumn(4);
+        negateNumbersInColumn(6);
+        negateNumbersInColumn(8);
+        negateNumbersInColumn(10);
       }
     },
     "chart": {
-      "type": "column"
+      "type": "column",
+      events: {
+        load: function () {
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 2018
+          });
+
+          this.credits.element.onclick = function () { };
+
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+              this.series[1].name.split(" ")[1].split("viertel")[0] //holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
+                + ':<br>'
+                + this.series[3].name.split(" ").slice(-1).toString() //Kannenfeld
+                + ':<br>'
+                + this.series[5].name.split(" ").slice(-1).toString() //Landskron
+                + ':<br>'
+                + this.series[7].name.split(" ").slice(-1).toString() //Lysbüchel
+                + ':<br>'
+                + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
+                + ':'
+            })
+            .translate(-65,93); //move -x to the left and +y down
+
+            // rename Friedmatt
+        this.series[0].update({
+          name: "Zugezogene Friedmatt"
+      });
+      this.series[1].update({
+        name: "Weggezogene Friedmatt"
+    });
+    this.series[10].update({
+      name: "Saldo Friedmatt"
+  });
+        }
+      }
     },
     "xAxis": {
       tickInterval: 1
     },
     "yAxis": {
-      min: -750000,
+      min: -1900000,
       tickInterval: 250000,
       "labels": {
         "format": "{value:,.0f}"
@@ -42,38 +83,76 @@
     },
     "series": [
       {
-        "color": "#cd9c00",
+        "color": "#CD9C00" , /* Friedmatt */
+        "stacking": "normal",
+        stack: 0,
+        legendIndex: 0,
+      },
+      {
+        "color": "#7F5F1A",
         "stacking": "normal",
         stack: 0,
         legendIndex: 1,
       },
       {
-        "color": "#7f5f1a",
+        "color": "#DC440E", /*Kannenfeld*/
         "stacking": "normal",
-        stack: 0,
+        stack: 1,
         legendIndex: 3,
       },
       {
-        "color": "#b375ab",
-        "stacking": "normal",
-        stack: 1,
-        legendIndex: 2,
-      },
-      {
-        "color": "#923f8d",
+        "color": "#661200",
         "stacking": "normal",
         stack: 1,
         legendIndex: 4,
       },
       {
-        "color": "#fabd24",
+        "color": "#B375AB", /*Landskron*/
+        "stacking": "normal",
+        stack: 2,
+        legendIndex: 6,
+      },
+      {
+        "color": "#662673",
+        "stacking": "normal",
+        stack: 2,
+        legendIndex: 7,
+      },
+      {
+        "color": "#A8C3CA", /*Lysbüchel*/
+        "stacking": "normal",
+        stack: 3,
+        legendIndex: 9,
+      },
+      {
+        "color": "#246370",
+        "stacking": "normal",
+        stack: 3,
+        legendIndex: 10,
+      },
+      {
+        "color": "#C4AB91", /*Pestalozzi*/
+        "stacking": "normal",
+        stack: 4,
+        legendIndex: 12,
+      },
+      {
+        "color": "#67401E",
+        "stacking": "normal",
+        stack: 4,
+        legendIndex: 13,
+      },
+      {
+        "color": "#fabd24", /*Friedmatt*/
         type: "line",
         lineWidth: 0,
-        legendIndex: 5,
+        legendIndex: 2,
         marker: {
-          radius: 4
+          symbol: 'diamond',
+          radius: 5
         },
-        zIndex: 2,
+        pointPlacement: -0.235, // Shift slightly left
+        zIndex: 5,
         states: {
           hover: {
             lineWidth: 2
@@ -81,14 +160,75 @@
         }
       },
       {
-        "color": "#d7bed2",
+        "color": "#FF8028", /* Kannenfeld */
         type: "line",
         lineWidth: 0,
-        legendIndex: 6,
+        legendIndex: 5,
         marker: {
           symbol: 'diamond',
           radius: 5
         },
+        pointPlacement: -0.11, // Shift slightly left
+        zIndex: 4,
+        tooltip: {
+          shared: true
+        },
+        states: {
+          hover: {
+            lineWidth: 2
+          }
+        }
+      },
+      {
+        "color": "#923F8D", /*Landskron */
+        type: "line",
+        lineWidth: 0,
+        legendIndex: 8,
+        marker: {
+          symbol: 'diamond',
+          radius: 5
+        },
+        pointPlacement: 0.005, // Shift slightly 
+        zIndex: 3,
+        tooltip: {
+          shared: true
+        },
+        states: {
+          hover: {
+            lineWidth: 2
+          }
+        }
+      },
+      {
+        "color": "#689199", /* Lysbüchel*/
+        type: "line",
+        lineWidth: 0,
+        legendIndex: 11,
+        marker: {
+          symbol: 'diamond',
+          radius: 5
+        },
+        pointPlacement: 0.12, // Shift slightly right
+        zIndex: 2,
+        tooltip: {
+          shared: true
+        },
+        states: {
+          hover: {
+            lineWidth: 2
+          }
+        }
+      },
+      {
+        "color": "#9E7C59", /* Pestalozzi*/
+        type: "line",
+        lineWidth: 0,
+        legendIndex: 14,
+        marker: {
+          symbol: 'diamond',
+          radius: 5
+        },
+        pointPlacement: 0.25, // Shift slightly right
         zIndex: 1,
         tooltip: {
           shared: true
@@ -105,15 +245,74 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
-      "align": "left"
+      "align": "left",
+      x: 130,
+      y: -100,
+      itemWidth: 115,
+      itemDistance: 3,
+      width: 400,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      },
+      title: {
+        text: '-<br><br><br><br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
+        style: {
+          fontWeight: 'normal',
+          lineHeight: 18
+        }
+      },
+      labelFormatter: function () {
+        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+      },
     },
     "plotOptions": {
       series: {
         borderWidth: 0,
         marker: {
           enabled: true
-        }
+        },
+        showInNavigator: true
       }
-    }
+    },
+    subtitle: {
+      useHTML: true
+    },
+    navigator: {
+      enabled: true,
+      top: 330,
+      series: {
+        type: 'column',
+        stacking: 'normal',
+        pointRange: null
+      },
+      xAxis: {
+        max: 2021.1,
+        // tickInterval: 1,
+        tickPositioner: function () {
+          //use only every nth tick, starting with startingPoint
+          const startingPoint = 1,
+            step = 2,
+            positions = [];
+          for (let i = startingPoint; i < this.max; i += step) {
+            positions.push(i)
+          }
+          return positions
+        },
+        labels: {
+          //step: 1,
+          rotation: 0,
+          align: 'center',
+          y: 15,
+          style: {
+            color: "#000000"
+          },
+          /*formatter: function () {
+            // get year from chart axis label names
+            return this.chart.xAxis[0].names[this.value].slice(0, 4);
+          }*/
+        },
+      }
+    },
   }
 }());

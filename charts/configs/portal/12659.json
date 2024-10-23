@@ -3,12 +3,205 @@
     {
       "color": "#008ac3",
       "stacking": "normal",
-      "legendIndex": 0
+      "legendIndex": 0,
+      "data": [
+        [
+          "0-4",
+          -53
+        ],
+        [
+          "5-9",
+          -43
+        ],
+        [
+          "10-14",
+          -22
+        ],
+        [
+          "15-19",
+          -27
+        ],
+        [
+          "20-24",
+          -55
+        ],
+        [
+          "25-29",
+          -74
+        ],
+        [
+          "30-34",
+          -94
+        ],
+        [
+          "35-39",
+          -72
+        ],
+        [
+          "40-44",
+          -75
+        ],
+        [
+          "45-49",
+          -60
+        ],
+        [
+          "50-54",
+          -64
+        ],
+        [
+          "55-59",
+          -62
+        ],
+        [
+          "60-64",
+          -53
+        ],
+        [
+          "65-69",
+          -51
+        ],
+        [
+          "70-74",
+          -31
+        ],
+        [
+          "75-79",
+          -23
+        ],
+        [
+          "80-84",
+          -14
+        ],
+        [
+          "85-89",
+          -6
+        ],
+        [
+          "90-94",
+          -13
+        ],
+        [
+          "95 u.m.",
+          -2
+        ]
+      ],
+      "name": "Männer Kannenfeld",
+      "turboThreshold": 0
     },
     {
       "color": "#b00000",
       "stacking": "normal",
-      "legendIndex": 1
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4",
+          33
+        ],
+        [
+          "5-9",
+          46
+        ],
+        [
+          "10-14",
+          28
+        ],
+        [
+          "15-19",
+          39
+        ],
+        [
+          "20-24",
+          74
+        ],
+        [
+          "25-29",
+          71
+        ],
+        [
+          "30-34",
+          93
+        ],
+        [
+          "35-39",
+          97
+        ],
+        [
+          "40-44",
+          62
+        ],
+        [
+          "45-49",
+          52
+        ],
+        [
+          "50-54",
+          55
+        ],
+        [
+          "55-59",
+          68
+        ],
+        [
+          "60-64",
+          64
+        ],
+        [
+          "65-69",
+          47
+        ],
+        [
+          "70-74",
+          44
+        ],
+        [
+          "75-79",
+          34
+        ],
+        [
+          "80-84",
+          39
+        ],
+        [
+          "85-89",
+          28
+        ],
+        [
+          "90-94",
+          27
+        ],
+        [
+          "95 u.m.",
+          11
+        ]
+      ],
+      "name": "Frauen Kannenfeld",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
     }
   ],
   "chart": {
@@ -35,7 +228,15 @@
                                 }
                             }
                         );
-                    }
+                    };
+
+            // Friedmatt anstelle Friedmattviertel
+          this.series[0].update({
+            name: "Männer"
+        });
+        this.series[1].update({
+            name: "Frauen"
+        });
                 }
     },
     "marginRight": 15,
@@ -74,7 +275,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Kleinhüningen, 2023",
+    "text": "Wohnbezirk Kannenfeld, 2023",
     "align": "left"
   },
   "yAxis": [
@@ -163,31 +364,6 @@
                 axis.setExtremes(-absMax, absMax);
         	}
   },
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
-    }
-  ],
   "exporting": {
     "filename": "12659"
   }

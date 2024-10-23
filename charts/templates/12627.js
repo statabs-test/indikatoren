@@ -1,8 +1,10 @@
 (function () {
   return {
     "yAxis": {
+      tickInterval:0.5,
+      max:2.5,
       "labels": {
-        "format": "{value:,.0f}%",
+        "format": "{value:,.1f}%",
       }
     },
     "xAxis": {

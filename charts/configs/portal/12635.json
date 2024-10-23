@@ -1,10 +1,374 @@
 {
   "series": [
     {
-      "color": "#cd9c00"
+      "color": "#9E7C59",
+      "data": [
+        [
+          2005,
+          2
+        ],
+        [
+          2006,
+          1
+        ],
+        [
+          2007,
+          2
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          2
+        ],
+        [
+          2015,
+          2
+        ],
+        [
+          2016,
+          2
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          1
+        ],
+        [
+          2019,
+          3
+        ],
+        [
+          2020,
+          3
+        ],
+        [
+          2021,
+          3
+        ],
+        [
+          2022,
+          3
+        ],
+        [
+          2023,
+          2
+        ]
+      ],
+      "name": "Pestalozzi"
     },
     {
-      "color": "#b375ab"
+      "color": "#FF8028",
+      "data": [
+        [
+          2005,
+          2
+        ],
+        [
+          2006,
+          1
+        ],
+        [
+          2007,
+          2
+        ],
+        [
+          2009,
+          2
+        ],
+        [
+          2010,
+          2
+        ],
+        [
+          2011,
+          1
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          2
+        ],
+        [
+          2016,
+          2
+        ],
+        [
+          2017,
+          3
+        ],
+        [
+          2018,
+          4
+        ],
+        [
+          2019,
+          5
+        ],
+        [
+          2020,
+          7
+        ],
+        [
+          2021,
+          10
+        ],
+        [
+          2022,
+          1
+        ],
+        [
+          2023,
+          1
+        ]
+      ],
+      "name": "Kannenfeld"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2005,
+          17
+        ],
+        [
+          2006,
+          16
+        ],
+        [
+          2007,
+          17
+        ],
+        [
+          2009,
+          14
+        ],
+        [
+          2010,
+          13
+        ],
+        [
+          2011,
+          14
+        ],
+        [
+          2013,
+          11
+        ],
+        [
+          2014,
+          2
+        ],
+        [
+          2015,
+          3
+        ],
+        [
+          2016,
+          3
+        ],
+        [
+          2017,
+          4
+        ],
+        [
+          2018,
+          4
+        ],
+        [
+          2019,
+          4
+        ],
+        [
+          2020,
+          2
+        ],
+        [
+          2021,
+          3
+        ],
+        [
+          2022,
+          3
+        ],
+        [
+          2023,
+          3
+        ]
+      ],
+      "name": "Landskron"
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          1
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          2
+        ],
+        [
+          2011,
+          2
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          1
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ]
+      ],
+      "name": "Lysbüchel"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2009,
+          1
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          1
+        ],
+        [
+          2023,
+          1
+        ]
+      ],
+      "name": "Friedmatt"
     }
   ],
   "chart": {
@@ -26,19 +390,24 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
+          //set xAxis min in navigator
+          this.xAxis[0].update({
+            min: 2020
+          });
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
                 }
+              }
+            );
+          }
+        }
     },
     "type": "column",
     "renderTo": "container-12635",
@@ -46,12 +415,16 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "marker": {
+        "enabled": true
+      },
+      "showInNavigator": true
     }
   },
   "title": {
@@ -64,13 +437,14 @@
     "text": "Anzahl Rotlichtsalons"
   },
   "subtitle": {
-    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
+    },
+    "useHTML": true
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -103,7 +477,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
     "tickInterval": 1
   },
@@ -113,11 +488,10 @@
       "fontWeight": "normal"
     },
     "enabled": true,
+    "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "labelFormatter": function () {
-        return this.name.replace('Wohnviertel', '');
-      }
+    "itemMarginBottom": 5,
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -139,6 +513,35 @@
       "y": -25
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.6.2024"
+  },
+  "navigator": {
+    "enabled": true,
+    "top": 330,
+    "series": {
+      "type": "column",
+      "pointRange": null
+    },
+    "xAxis": {
+      "max": 2023.1,
+      "tickPositioner": function () {
+          //use only every nth tick, starting with startingPoint
+          const startingPoint = 1,
+            step = 2,
+            positions = [];
+          for (let i = startingPoint; i < this.max; i += step) {
+            positions.push(i)
+          }
+          return positions
+        },
+      "labels": {
+        "rotation": 0,
+        "align": "center",
+        "y": 15,
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
   },
   "exporting": {
     "filename": "12635"
