@@ -151,14 +151,14 @@
           pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
             + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
         },
-        /*
-                tooltip: {
-                  headerFormat: '<table>',
-                  pointFormatter: function () {
-                    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b> </table>';
-                  }
-                }
-        */
+        events: {
+          hide: function () {
+            this.chart.yAxis[1].update({ visible: false });
+          },
+          show: function () {
+            this.chart.yAxis[1].update({ visible: true });
+          }
+        }
       },
     ],
   };
