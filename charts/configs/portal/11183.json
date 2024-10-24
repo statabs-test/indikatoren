@@ -5,56 +5,76 @@
       "legendIndex": 2,
       "data": [
         [
-          2018,
+          "2018",
           4656
         ],
         [
-          2019,
+          "2019",
           4790
         ],
         [
-          2020,
+          "2020",
           4520
         ],
         [
-          2021,
+          "2021",
           4716
         ],
         [
-          2022,
+          "2022",
           5038
         ]
       ],
-      "name": "Ausserkantonale Spitäler"
+      "name": "Ausserkantonale Spitäler",
+      "turboThreshold": 0
     },
     {
       "color": "#ed802f",
       "legendIndex": 1,
       "data": [
         [
-          2018,
+          "2018",
           38351
         ],
         [
-          2019,
+          "2019",
           38304
         ],
         [
-          2020,
+          "2020",
           35826
         ],
         [
-          2021,
+          "2021",
           37756
         ],
         [
-          2022,
+          "2022",
           38796
         ]
       ],
-      "name": "Baselstädtische Spitäler"
+      "name": "Baselstädtische Spitäler",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -116,23 +136,6 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
     }
   },
   "yAxis": {

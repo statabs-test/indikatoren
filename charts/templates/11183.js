@@ -34,7 +34,7 @@
       */
     ],
     xAxis: {
-      // type: "category"
+      type: "category"
     },
     yAxis: {
       reversedStacks: true,
