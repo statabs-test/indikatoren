@@ -131,6 +131,7 @@
         color: '#010101',
 //        yAxis: 1,  //Diagramm für durchschnittliche Pflegestufe auf rechte Achse
         legendIndex: 13,
+        visible: false,
         tooltip: {
           shared: true,
           useHTML: true,

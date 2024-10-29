@@ -1,17 +1,17 @@
 (function () {
   return {
-    "yAxis": {
+    yAxis: {
       min: 0,
-      max: 10,
-      //  tickAmount: 13,
-      "labels": {
-        "formatter": function () {
+      max: 12,
+      tickAmount: 7,
+      labels: {
+        formatter: function () {
           return Highcharts.numberFormat((this.value), 0) + '';
         }
       },
 
     },
-    "xAxis": {
+    xAxis: {
       type: "category",
       tickInterval: 1
     },
@@ -24,7 +24,7 @@
       align: "left"
     },
 
-    "series": [
+    series: [
       {
         index: 0,
         color: "#b30000",
@@ -45,30 +45,30 @@
         color: "#00b800"
       },
       {
-        "index": 1,
+        index: 1,
         color: "#008a00"
       },
       {
-        "index": 1,
+        index: 1,
         color: "#006100"
       }
     ],
-    "tooltip": {
-      "pointFormatter": function () {
+    tooltip: {
+      pointFormatter: function () {
         return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
       },
-      "shared": false
+      shared: false
     },
-    "chart": {
+    chart: {
     },
-    "plotOptions": {
-      "series": {
-        "marker": {
-          "enabled": false,
-          "symbol": "circle"
+    plotOptions: {
+      series: {
+        marker: {
+          enabled: false,
+          symbol: "circle"
         },
-        "dataLabels": {
-          "enabled": false
+        dataLabels: {
+          enabled: false
         }
       }
     }

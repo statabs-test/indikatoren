@@ -62,6 +62,7 @@
       {
         type: 'line',
         color: '#010101', 
+        visible: false,
       },
     ],
   };

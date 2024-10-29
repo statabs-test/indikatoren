@@ -57,6 +57,7 @@
     {
       "type": "line",
       "color": "#010101",
+      "visible": false,
       "data": [
         [
           "2019",

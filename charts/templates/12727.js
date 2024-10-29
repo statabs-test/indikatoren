@@ -38,20 +38,8 @@
       followPointer: true,
       headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}</b></td></tr>',
+        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f}</b></td></tr>',
     },
-    /*
-      tooltip: {
-        pointFormatter: function () {
-          if (this.series.yAxis.userOptions.opposite) {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '</b><br/><b>';
-          } else {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%' + '</b><br/><b>';
-          }
-        },
-        "shared": false
-      },
-  */
     legend: {
       itemWidth: 75,
       itemStyle: {
@@ -125,6 +113,7 @@
         type: 'line',
         color: '#010101', index: 13,
         legendIndex: 13,
+        visible: false
       },
       //      {
       //        type: 'line',
