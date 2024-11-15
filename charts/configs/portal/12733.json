@@ -4,82 +4,79 @@
       "color": "#68ab2b",
       "data": [
         [
-          "2019",
+          2019,
           24075
         ],
         [
-          "2020",
+          2020,
           19115
         ],
         [
-          "2021",
+          2021,
           19381
         ],
         [
-          "2022",
+          2022,
           19566
         ],
         [
-          "2023",
+          2023,
           20975
         ]
       ],
-      "name": "Stadt Basel",
-      "turboThreshold": 0
+      "name": "Stadt Basel"
     },
     {
       "color": "#ffda80",
       "data": [
         [
-          "2019",
+          2019,
           6909
         ],
         [
-          "2020",
+          2020,
           4413
         ],
         [
-          "2021",
+          2021,
           5898
         ],
         [
-          "2022",
+          2022,
           4914
         ],
         [
-          "2023",
+          2023,
           5479
         ]
       ],
-      "name": "Gemeinden Riehen\u002FBettingen",
-      "turboThreshold": 0
+      "name": "Gemeinden Riehen\u002FBettingen"
     },
     {
       "color": "#7f5f1a",
       "data": [
         [
-          "2019",
+          2019,
           1853
         ],
         [
-          "2020",
+          2020,
           1176
         ],
         [
-          "2021",
+          2021,
           1278
         ],
         [
-          "2022",
+          2022,
           1099
         ],
         [
-          "2023",
+          2023,
           996
         ]
       ],
-      "name": "Ausserkantonal",
-      "turboThreshold": 0
+      "name": "Ausserkantonal"
     },
     {
       "type": "line",
@@ -87,48 +84,29 @@
       "visible": true,
       "data": [
         [
-          "2019",
+          2019,
           32837
         ],
         [
-          "2020",
+          2020,
           24704
         ],
         [
-          "2021",
+          2021,
           26557
         ],
         [
-          "2022",
+          2022,
           25579
         ],
         [
-          "2023",
+          2023,
           27450
         ]
       ],
-      "name": "Total",
-      "turboThreshold": 0
+      "name": "Total"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    }
-  },
   "chart": {
     "type": "column",
     "width": 485,
@@ -187,6 +165,23 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
     }
   },
   "yAxis": [
@@ -271,9 +266,17 @@
     "shared": true,
     "useHTML": true,
     "followPointer": true,
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} \u003C\u002Fspan\u003E\u003Ctable\u003E",
-    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: &nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.0f} Plätze\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
-    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003ETotal: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.0f} Plätze\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
+    "formatter": function () {
+        let header = `<span style="font-size: 10px"> ${this.x} </span><table>`;
+        let body = this.points
+          .filter(point => point.series.index !== 3) // Reihe mit Index 3 ignorieren
+          .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
+            <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Plätze</b></td>
+            <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
+          .join('');
+        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Plätze</b></td><td></td></tr></table>`;
+        return header + body + footer;
+      }
   },
   "exporting": {
     "filename": "12733"

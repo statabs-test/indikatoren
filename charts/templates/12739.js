@@ -59,11 +59,11 @@
     series: [
       {
         type: "line",
-        color: "#7a3051"
+        color: "#30517a"
       },
       {
         type: "column",
-        color: "#30517a",
+        color: "#7a3051",
         yAxis: 1,
         minPointLength: 3,
         events: {
