@@ -21,7 +21,7 @@
   },
   "yAxis": {
     "type": "linear",
-  	max: 15,
+   	max: 15,
   	min: -15,
   	tickAmount: 7,
   	//gridLineWidth: 1,
@@ -66,6 +66,7 @@
     "type": "column",
     "inverted": false,
     spacingTop: 5,
+ 
   }
 };
 }());

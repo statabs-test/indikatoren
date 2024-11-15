@@ -1,7 +1,7 @@
 (function () {
   return {
     chart: {
-      width: 665,
+      width: 670,
     },
     yAxis: {
       tickInterval: 20,
