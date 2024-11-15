@@ -1178,6 +1178,44 @@ var indikatoren = [
 		"id": 2173
 	},
 	{
+		"template": "template001",
+		"data-id": 21847,
+		"chart-id": 21847,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Hitzebedingte Todesfälle",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Umwelt (BAFU)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzebedingte Todesfälle",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-11-15T09:06:41",
+		"id": 21847
+	},
+	{
 		"template": "line001",
 		"data-id": 2400,
 		"chart-id": 2400,
