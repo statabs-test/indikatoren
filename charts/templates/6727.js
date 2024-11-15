@@ -5,7 +5,7 @@
   },
   "yAxis": {
     min: 0, 
-    max: 40,
+    //max: 50,
     tickInterval: 10,
 	  "labels": {
 		  "format": "{value}"
@@ -25,6 +25,12 @@
   {"color": "#999999"}, /*Übrige Länder*/
   ],
    "legend": {
+    itemWidth: 150,
+    width: 400,
+    itemStyle: {
+      textOverflow: "none",
+      whiteSpace: "nowrap"
+    },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

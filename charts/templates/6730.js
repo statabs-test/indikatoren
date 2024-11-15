@@ -20,7 +20,7 @@
   },
   "yAxis": {
     tickInterval: 25,
-	max: 125, 
+	max: 200, 
     "labels": {
       "format": "{value:,.0f}",
     }

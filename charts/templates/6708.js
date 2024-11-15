@@ -9,7 +9,7 @@
       "series": {
         pointPadding: 20,
         borderWidth: 0,
-        "pointWidth": 10,
+        "pointWidth": 8,
         "dataLabels": {
           "style": {
             "fontSize": "10px"
