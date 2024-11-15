@@ -12,6 +12,7 @@
  "xAxis": {
     "type": "category",
     "labels": {
+      y:10,
       "rotation": -45, 
       formatter: function(){
 		    return this.value.replace("und", "u.");
@@ -25,7 +26,7 @@
   	min: -15,
   	tickAmount: 7,
   	//gridLineWidth: 1,
-    "labels": {
+    "labels": {      
       "format": "{value:,.0f}"
     }    
   },
