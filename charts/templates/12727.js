@@ -113,22 +113,8 @@
         type: 'line',
         color: '#010101', index: 13,
         legendIndex: 13,
-        visible: false
+        visible: true
       },
-      //      {
-      //        type: 'line',
-      //        color: '#010101',
-      //        yAxis: 1,  //Diagramm für durchschnittliche Pflegestufe auf rechte Achse
-      //        legendIndex: 13,
-      //        tooltip: {
-      //          shared: true,
-      //          useHTML: true,
-      //          followPointer: true,
-      //          headerFormat: '<span style="font-size: 10px"> {point.x} </span> <table>',
-      //          pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-      //            + '<td style="text-align:right">&nbsp;<b>{point.y:,.1f}&nbsp;&nbsp;&nbsp;</b></td></tr>',
-      //        },
-      //      },
     ],
   };
 })();

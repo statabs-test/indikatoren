@@ -32,9 +32,11 @@
       shared: true,
       useHTML: true,
       followPointer: true,
-      headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
+      headerFormat: '<span style="font-size: 10px"> {point.key} </span><table>',
       pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f}</b></td></tr>',
+        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Plätze</b></td>'
+        + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
+      footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f} Plätze</b></td><td></td></tr></table>',
     },
     legend: {
       itemWidth: 200,
@@ -51,18 +53,18 @@
     },
     series: [
       {
-        color: '#68ab2b', 
-       },
-      {
-        color: '#ffda80', 
+        color: '#68ab2b',
       },
       {
-        color: '#7f5f1a', 
+        color: '#ffda80',
+      },
+      {
+        color: '#7f5f1a',
       },
       {
         type: 'line',
-        color: '#010101', 
-        visible: false,
+        color: '#010101',
+        visible: true,
       },
     ],
   };

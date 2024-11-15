@@ -256,7 +256,7 @@
       "type": "line",
       "color": "#010101",
       "legendIndex": 13,
-      "visible": false,
+      "visible": true,
       "tooltip": {
         "shared": true,
         "useHTML": true,

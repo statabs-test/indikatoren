@@ -65,6 +65,7 @@
         type: "column",
         color: "#30517a",
         yAxis: 1,
+        minPointLength: 3,
         events: {
           hide: function () {
             this.chart.yAxis[1].update({ visible: false });

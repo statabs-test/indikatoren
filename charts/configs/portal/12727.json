@@ -449,7 +449,7 @@
       "color": "#010101",
       "index": 13,
       "legendIndex": 13,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           "2017",

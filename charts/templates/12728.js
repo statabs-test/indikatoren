@@ -1,9 +1,9 @@
 (function () {
   return {
     yAxis: {
-      min: 0,
-      max: 12,
-      tickAmount: 7,
+      min: 3,
+      max:8,
+      tickAmount: 6,
       labels: {
         formatter: function () {
           return Highcharts.numberFormat((this.value), 0) + '';

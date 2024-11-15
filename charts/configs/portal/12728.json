@@ -276,7 +276,7 @@
     }
   },
   "yAxis": {
-    "min": 0,
+    "min": 3,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -295,8 +295,8 @@
           return Highcharts.numberFormat((this.value), 0) + '';
         }
     },
-    "max": 12,
-    "tickAmount": 7
+    "max": 8,
+    "tickAmount": 6
   },
   "legend": {
     "enabled": true,
