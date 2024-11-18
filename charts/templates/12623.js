@@ -36,7 +36,7 @@
           this.legend.title
             .attr({
               text:
-              this.series[1].name.split(" ")[1].split("viertel")[0] //holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
+                this.series[1].name.split(" ")[1].split("viertel")[0] //holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
                 + ':<br>'
                 + this.series[3].name.split(" ").slice(-1).toString() //Kannenfeld
                 + ':<br>'
@@ -47,18 +47,7 @@
                 + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65,93); //move -x to the left and +y down
-
-            // rename Friedmatt
-        this.series[0].update({
-          name: "Zugezogene Friedmatt"
-      });
-      this.series[1].update({
-        name: "Weggezogene Friedmatt"
-    });
-    this.series[10].update({
-      name: "Saldo Friedmatt"
-  });
+            .translate(-65, 93); //move -x to the left and +y down
         }
       }
     },
@@ -79,11 +68,15 @@
       }]
     },
     "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f} Fr.</b><br/>',
+      pointFormatter: function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> '
+          + this.series.name.replace('Friedmattviertel', 'Friedmatt')
+          + ': <b>' + Highcharts.numberFormat(this.y, 0) + ' Fr.</b><br/>';
+      }
     },
     "series": [
       {
-        "color": "#CD9C00" , /* Friedmatt */
+        "color": "#CD9C00", /* Friedmatt */
         "stacking": "normal",
         stack: 0,
         legendIndex: 0,
@@ -263,7 +256,7 @@
         }
       },
       labelFormatter: function () {
-        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+        return this.name.replace('Friedmattviertel', 'Friedmatt').split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
       },
     },
     "plotOptions": {

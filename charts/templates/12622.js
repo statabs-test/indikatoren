@@ -10,14 +10,18 @@
       }
     },
     "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f} Fr.</b><br/>'
+      pointFormatter: function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> '
+          + this.series.name.replace('Friedmattviertel', 'Friedmatt')
+          + ': <b>' + Highcharts.numberFormat(this.y, 0) + ' Fr.</b><br/>';
+      }
     },
     "series": [
       {
-        "color": "#FABD24" /* "#b375ab" Friedmatt*/ 
+        "color": "#FABD24" /* "#b375ab" Friedmatt*/
       },
       {
-        "color": "#FABD24", /* "#b375ab" Friedmatt*/ 
+        "color": "#FABD24", /* "#b375ab" Friedmatt*/
         dashStyle: "ShortDash",
       },
       {
@@ -58,45 +62,38 @@
           var rightTitle = chart.series[1].name.split(" ").slice(0, 1).toString();
 
           // Add and move legend titles
-          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX +7, chart.legend.group.translateY +5)
-             // .css({ fontWeight: 'bold' })
-              .add();
-          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY +5)
-              //.css({ fontWeight: 'bold' })
-              .add();
-      //}
+          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX + 7, chart.legend.group.translateY + 5)
+            // .css({ fontWeight: 'bold' })
+            .add();
+          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY + 5)
+            //.css({ fontWeight: 'bold' })
+            .add();
+          //}
 
 
-        /*load: function () {
-          //add and move legend title (get it from series names)
-          this.legend.title
-            .attr({
-              text:
-                this.series[0].name.split(" ").slice(0, 1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
-                + ':'
-                + this.series[1].name.split(" ").slice(0, 1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
-                + ':'
-            })
-            /*.translate(-140, 8); //move -140 to the left and 8 down*/
-        //}
+          /*load: function () {
+            //add and move legend title (get it from series names)
+            this.legend.title
+              .attr({
+                text:
+                  this.series[0].name.split(" ").slice(0, 1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                  + ':'
+                  + this.series[1].name.split(" ").slice(0, 1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                  + ':'
+              })
+              /*.translate(-140, 8); //move -140 to the left and 8 down*/
+          //}
 
-        // rename Friedmatt
-        this.series[0].update({
-          name: "Mittelwert Friedmatt"
-      });
-      this.series[1].update({
-        name: "Median Friedmatt"
-    });
-  }
+        }
       }
     },
     "legend": {
       enabled: true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
+      "itemMarginBottom": 3,
       "align": "left",
-      x:50,
+      x: 50,
       itemWidth: 180,
       itemStyle: {
         width: "50%",
@@ -110,7 +107,7 @@
         }
       },
       labelFormatter: function () {
-        return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Friedmatt' aus 'Freiraumfäche Friedmatt'
+        return this.name.replace('Friedmattviertel', 'Friedmatt').split(" ").slice(-1).toString();  //holt z.B. 'Friedmatt' aus 'Freiraumfäche Friedmatt'
       },
     },
     "plotOptions": {

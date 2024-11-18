@@ -1,5 +1,8 @@
 (function () {
   return {
+    chart: {
+      marginRight: 20
+    },
     "xAxis": {
       tickInterval: 1
     },
@@ -29,9 +32,6 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
     },
     "plotOptions": {
       "line": {

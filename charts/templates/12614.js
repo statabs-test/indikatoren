@@ -42,6 +42,7 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
+      alignColumns: false,
      // x: 35,
     },
     "plotOptions": {

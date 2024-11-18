@@ -53,11 +53,9 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      },
+      "itemMarginBottom": 5,
+      alignColumns: false,
       //x: 45,
     },
     chart: {

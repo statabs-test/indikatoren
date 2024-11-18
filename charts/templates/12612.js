@@ -45,9 +45,7 @@
   "verticalAlign": "top",
   "itemMarginBottom": 5,
   "align": "left",
-  "itemStyle": {
-    "fontWeight": "normal",
-      },
+  alignColumns: false,
  // x: 35,
 },
 "plotOptions": {

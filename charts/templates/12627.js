@@ -1,8 +1,8 @@
 (function () {
   return {
     "yAxis": {
-      tickInterval:0.5,
-      max:2.5,
+      tickInterval: 0.5,
+      max: 2.5,
       "labels": {
         "format": "{value:,.1f}%",
       }
@@ -20,7 +20,11 @@
       }
     ],
     "tooltip": {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
+      pointFormatter: function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' 
+        + this.series.name.replace(' in %', '') 
+        + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%</b><br/>';
+      }
     }
   }
 }());

@@ -30,7 +30,7 @@ global geojson_wohnviertelEPSG2056
 				from: 1,
 				to: 1.9999999999,
 				color: '#A8C3CA',
-				name: "1&ndash; 1,99"
+				name: "1 &ndash; 1,99"
 			}, {
 				from: 2,
 				to: 2.9999999999,
@@ -56,7 +56,7 @@ global geojson_wohnviertelEPSG2056
 				else {
 					//Wohnviertel
 					return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
-						this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value), 2) + '</b><br/>';
+						this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value), 2) + ' °C</b><br/>';
 				}
 			}
 		},

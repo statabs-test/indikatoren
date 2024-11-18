@@ -113,7 +113,7 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      "itemMarginBottom": 5,
+      "itemMarginBottom": 4,
       x: 110,
       y: -120,
       itemWidth: 80,
@@ -170,12 +170,14 @@
       },
       {
         //"color": "#D7E8D2",
+        visible: false,
         "color": "#FF8028",
         "index": 4,
         "type": "column",
         tooltip: { "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .0f}</b><br/>' }
       },
       {
+        visible: false,
         "color": "#FF8028", //rgb(0,122,47)
         "index": 5,
         "yAxis": 1,
