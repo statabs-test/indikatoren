@@ -216,6 +216,7 @@
 					}
 				}
     },
+    "marginRight": 20,
     "renderTo": "container-12640"
   },
   "plotOptions": {

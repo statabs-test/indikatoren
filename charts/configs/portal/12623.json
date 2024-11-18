@@ -1249,7 +1249,7 @@
           this.legend.title
             .attr({
               text:
-              this.series[1].name.split(" ")[1].split("viertel")[0] //holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
+                this.series[1].name.split(" ")[1].split("viertel")[0] //holt 'Friedmatt' aus 'Zugezogene Friedmattviertel', danke ChatGPT
                 + ':<br>'
                 + this.series[3].name.split(" ").slice(-1).toString() //Kannenfeld
                 + ':<br>'
@@ -1260,18 +1260,7 @@
                 + this.series[9].name.split(" ").slice(-1).toString() //Pestalozzi
                 + ':'
             })
-            .translate(-65,93); //move -x to the left and +y down
-
-            // rename Friedmatt
-        this.series[0].update({
-          name: "Zugezogene Friedmatt"
-      });
-      this.series[1].update({
-        name: "Weggezogene Friedmatt"
-    });
-    this.series[10].update({
-      name: "Saldo Friedmatt"
-  });
+            .translate(-65, 93); //move -x to the left and +y down
         }
     },
     "renderTo": "container-12623"
@@ -1375,7 +1364,7 @@
       }
     },
     "labelFormatter": function () {
-        return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
+        return this.name.replace('Friedmattviertel', 'Friedmatt').split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
       }
   },
   "credits": {
@@ -1428,7 +1417,11 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> '
+          + this.series.name.replace('Friedmattviertel', 'Friedmatt')
+          + ': <b>' + Highcharts.numberFormat(this.y, 0) + ' Fr.</b><br/>';
+      }
   },
   "navigator": {
     "enabled": true,

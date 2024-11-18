@@ -2637,7 +2637,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Im St.Johann gab es im Jahr 2023 insgesamt 7 Rotlichtsalons (2007 waren es deren 22). In den Bezirken Landskron und Pestalozzi waren es drei bzw. zwei, in den Bezirken Kannenfeld und Friedmatt je einen. Im Bezirk Lysbüchel wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2023 im Kanton Basel-Stadt 130 Rotlichtsalons registriert.",
+		"lesehilfe": "Im St.Johann gab es im Jahr 2023 insgesamt 7 Rotlichtsalons (2007 waren es deren 22). In den Bezirken Landskron und Pestalozzi waren es drei bzw. zwei, in den Bezirken Kannenfeld und Friedmatt je einer. Im Bezirk Lysbüchel wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2023 im Kanton Basel-Stadt 130 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"

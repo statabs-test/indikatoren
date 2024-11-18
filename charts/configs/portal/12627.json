@@ -258,7 +258,11 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' 
+        + this.series.name.replace(' in %', '') 
+        + ': <b>' + Highcharts.numberFormat(this.y, 1) + '%</b><br/>';
+      }
   },
   "exporting": {
     "filename": "12627"

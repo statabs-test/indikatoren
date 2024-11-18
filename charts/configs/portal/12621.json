@@ -767,36 +767,36 @@
           var rightTitle = chart.series[1].name.split(" ").slice(0, 1).toString();
 
           // Add and move legend titles
-          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX +7, chart.legend.group.translateY +5)
-             // .css({ fontWeight: 'bold' })
-              .add();
-          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY +5)
-              //.css({ fontWeight: 'bold' })
-              .add();
-      //}
+          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX + 7, chart.legend.group.translateY + 5)
+            // .css({ fontWeight: 'bold' })
+            .add();
+          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY + 5)
+            //.css({ fontWeight: 'bold' })
+            .add();
+          //}
 
 
-        /*load: function () {
-          //add and move legend title (get it from series names)
-          this.legend.title
-            .attr({
-              text:
-                this.series[0].name.split(" ").slice(0, 1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
-                + ':'
-                + this.series[1].name.split(" ").slice(0, 1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
-                + ':'
-            })
-            /*.translate(-140, 8); //move -140 to the left and 8 down*/
-        //}
+          /*load: function () {
+            //add and move legend title (get it from series names)
+            this.legend.title
+              .attr({
+                text:
+                  this.series[0].name.split(" ").slice(0, 1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                  + ':'
+                  + this.series[1].name.split(" ").slice(0, 1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                  + ':'
+              })
+              /*.translate(-140, 8); //move -140 to the left and 8 down*/
+          //}
 
-        // rename Friedmatt
-        this.series[0].update({
-          name: "Mittelwert Friedmatt"
-      });
-      this.series[1].update({
-        name: "Median Friedmatt"
-    });
-  }
+          // rename Friedmatt
+          this.series[0].update({
+            name: "Mittelwert Friedmatt"
+          });
+          this.series[1].update({
+            name: "Median Friedmatt"
+          });
+        }
     },
     "renderTo": "container-12621"
   },
@@ -880,7 +880,7 @@
       "width": "50%",
       "textOverflow": "none"
     },
-    "itemMarginBottom": 5,
+    "itemMarginBottom": 3,
     "x": 50,
     "itemWidth": 180,
     "title": {
@@ -890,9 +890,9 @@
         "lineHeight": 18
       }
     },
-    "labelFormatter": function() {
-        return `<div style="width: ${this.index % 2 === 0 ? '100%' : '0'}; float: ${this.index % 2 === 0 ? 'left' : 'right'};">${this.name.split(" ").slice(-1).toString()}</div>`;
-    }
+    "labelFormatter": function () {
+        return this.name.replace('Friedmattviertel', 'Friedmatt').split(" ").slice(-1).toString();  //holt z.B. 'Friedmatt' aus 'Freiraumfäche Friedmatt'
+      }
   },
   "credits": {
     "enabled": true,
@@ -944,7 +944,11 @@
 			}
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> '
+          + this.series.name.replace('Friedmattviertel', 'Friedmatt')
+          + ': <b>' + Highcharts.numberFormat(this.y, 0) + ' Fr.</b><br/>';
+      }
   },
   "exporting": {
     "filename": "12621"

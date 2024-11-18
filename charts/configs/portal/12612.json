@@ -560,7 +560,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "alignColumns": false
   },
   "credits": {
     "enabled": true,
