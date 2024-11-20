@@ -15,6 +15,9 @@
     "type": "category",
     "tickInterval": 1,
     labels:{
+      style: {
+        whiteSpace: 'nowrap'
+      },
       rotation:-45,
       step: 1,
       formatter: function(){

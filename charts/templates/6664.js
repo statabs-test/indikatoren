@@ -12,12 +12,15 @@
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -45, 
+      "rotation": -45,
+      style: {
+        whiteSpace: 'nowrap'
+      },
       formatter: function(){
-		    return this.value.replace("und", "u.");
-		  },
-
-    } 
+        return this.value.replace("und", "u.");
+      },
+ 
+    }
   },
   "yAxis": {
     "type": "linear",
