@@ -23,6 +23,12 @@
         "color": "#C4AB91",
         visible: true,
       }, /* dunkelgrün */
+      {
+        "color": "#67401E", dashStyle: 'shortDash' /*"#8A8A8A" Stadt Basel*/,
+      },
+      {
+        "color": "#C4AB91", dashStyle: 'shortDash' /*"#8A8A8A" Stadt Basel*/,
+      },
     ],
     "legend": {
       "enabled": true,
@@ -30,9 +36,6 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
     },
     "plotOptions": {
       "line": {
