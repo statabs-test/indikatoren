@@ -36,7 +36,6 @@
       },
       {
         "color": "#FABD24", legendIndex: 6 /* "#b375ab" Friedmatt*/,
-        visible: true,
       },
       {
         "color": "#8A8A8A", legendIndex: 1, dashStyle: 'shortDash' /*"#8A8A8A" Stadt Basel*/,

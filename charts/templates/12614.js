@@ -20,20 +20,24 @@
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'
     },
     "series": [
-      { 
-        "color": "#9E7C59" /*"#cd9c00" Pestalozzi*/ 
+      {
+        "color": "#9E7C59", legendIndex: 2 /*"#cd9c00" Pestalozzi*/
       },
       {
-        "color": "#FF8028" /* "#689199" Kannenfeld*/
+        "color": "#FF8028", legendIndex: 3 /* "#689199" Kannenfeld*/
       },
       {
-        "color": "#923F8D" /* "#662673" Landskron*/
+        "color": "#923F8D", legendIndex: 4 /* "#662673" Landskron*/
       },
       {
-        "color": "#689199" /* "#999" Lysbüchel*/
+        "color": "#689199", legendIndex: 5 /* "#999" Lysbüchel*/
       },
       {
-        "color": "#FABD24" /* "#b375ab" Friedmatt*/
+        "color": "#FABD24", legendIndex: 6 /* "#b375ab" Friedmatt*/,
+        visible: true,
+      },
+      {
+        "color": "#8A8A8A", legendIndex: 1, dashStyle: 'shortDash' /*"#8A8A8A" Stadt Basel*/,
       },
     ],
     "legend": {
@@ -42,7 +46,7 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      alignColumns: false,
+      alignColumns: true,
      // x: 35,
     },
     "plotOptions": {
@@ -54,6 +58,7 @@
       }
     },
     chart: {
+      marginRight: 20,
       events: {
           load: function() {
               // `this` refers to the chart instance
