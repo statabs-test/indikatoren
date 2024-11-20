@@ -10,6 +10,7 @@
     "type": "category",
     "labels": {
       "rotation": 0,
+      "format": "{value:,.1f}",
       step: 1,
       y: 3,
       formatter: function(){
@@ -18,7 +19,7 @@
     } 
   },
   "yAxis": {
-    tickAmount: 5,
+   // tickAmount: 5,
     "labels": {
       y: 18,
       "format": "{value:,.0f}"
