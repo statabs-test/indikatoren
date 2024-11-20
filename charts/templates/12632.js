@@ -143,6 +143,7 @@
       },
       {
         "color": "#3c3c3c", //rgb(0,122,47)
+        dashStyle: 'shortDash',
         "index": 1,
         "yAxis": 1,
         "marker": {
