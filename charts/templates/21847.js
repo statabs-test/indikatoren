@@ -55,8 +55,8 @@
             + '</tr>';
           }
         });
-        s += '<tr><td><span style="color:transparent">\u25CF</span> Total: </td>'
-        + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(sum, 1) + '</b></td>'
+        s += '<tr><td style="padding-top: 7px;"><span style="color:transparent">\u25CF</span> Total: </td>'
+        + '<td style="text-align:right; padding-top: 7px;">&nbsp;<b>' + Highcharts.numberFormat(sum, 1) + '</b></td>'
         + '<td></td></tr>'+ki+'</table>';
         return s;
       },
