@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#9E7C59",
+      "legendIndex": 2,
       "data": [
         [
           "2004",
@@ -89,6 +90,7 @@
     },
     {
       "color": "#FF8028",
+      "legendIndex": 3,
       "data": [
         [
           "2004",
@@ -176,6 +178,7 @@
     },
     {
       "color": "#923F8D",
+      "legendIndex": 4,
       "data": [
         [
           "2004",
@@ -263,6 +266,7 @@
     },
     {
       "color": "#689199",
+      "legendIndex": 5,
       "data": [
         [
           "2004",
@@ -350,7 +354,7 @@
     },
     {
       "color": "#FABD24",
-      "visible": true,
+      "legendIndex": 6,
       "data": [
         [
           "2004",
@@ -435,6 +439,95 @@
       ],
       "name": "Friedmattviertel",
       "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "legendIndex": 1,
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          "2004",
+          25.9
+        ],
+        [
+          "2005",
+          25.7
+        ],
+        [
+          "2006",
+          25.3
+        ],
+        [
+          "2007",
+          24.9
+        ],
+        [
+          "2008",
+          24.9
+        ],
+        [
+          "2009",
+          24.6
+        ],
+        [
+          "2010",
+          24.7
+        ],
+        [
+          "2011",
+          24.5
+        ],
+        [
+          "2012",
+          24.6
+        ],
+        [
+          "2013",
+          24.5
+        ],
+        [
+          "2014",
+          24.6
+        ],
+        [
+          "2015",
+          24.8
+        ],
+        [
+          "2016",
+          24.9
+        ],
+        [
+          "2017",
+          25.1
+        ],
+        [
+          "2018",
+          25.3
+        ],
+        [
+          "2019",
+          25.3
+        ],
+        [
+          "2020",
+          25.2
+        ],
+        [
+          "2021",
+          25.5
+        ],
+        [
+          "2022",
+          25.8
+        ],
+        [
+          "2023",
+          25.9
+        ]
+      ],
+      "name": "Stadt Basel",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -458,7 +551,7 @@
         var maxlabels = 10,
           ext = this.getExtremes(),
           i = Math.round(ext.max),
-          interval = Math.round((i - ext.min)/maxlabels),
+          interval = Math.round((i - ext.min) / maxlabels),
           pos = [i];
         while (i >= ext.min) pos.unshift(i = i - interval);
         return pos;
@@ -478,14 +571,14 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function() {
+      "load": function () {
           // `this` refers to the chart instance
           this.series[4].update({
-              name: "Friedmatt"
+            name: "Friedmatt"
           });
 
           this.credits.element.onclick = function () { };
- 
+
           //for top-left legends with no x defined: move legend to x position of first yAxis
           if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
             this.update(
@@ -561,7 +654,7 @@
       "fontWeight": "normal"
     },
     "itemMarginBottom": 5,
-    "alignColumns": false
+    "alignColumns": true
   },
   "credits": {
     "enabled": true,

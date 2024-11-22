@@ -6,6 +6,57 @@
       "data": [
         [
           2013,
+          41.173648120408
+        ],
+        [
+          2014,
+          40.800706563226
+        ],
+        [
+          2015,
+          40.552646295304
+        ],
+        [
+          2016,
+          40.373649552723
+        ],
+        [
+          2017,
+          40.124307814266
+        ],
+        [
+          2018,
+          40.107651993437
+        ],
+        [
+          2019,
+          40.532168359941
+        ],
+        [
+          2020,
+          40.63706731858
+        ],
+        [
+          2021,
+          40.803152756197
+        ],
+        [
+          2022,
+          40.710723908335
+        ],
+        [
+          2023,
+          40.74751366416
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#8A8A8A",
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          2013,
           36.758753366679
         ],
         [
@@ -317,26 +368,27 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function() {
-              // `this` refers to the chart instance
-              this.series[5].update({
-                  name: "Bezirk Friedmatt"
-              });
-    
-              this.credits.element.onclick = function () { };
-     
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
+      "load": function () {
+          // `this` refers to the chart instance
+          /*this.series[5].update({
+            name: "Bezirk Friedmatt"
+          });*/
+
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
               }
-            }
+            );
+          }
+        }
     },
+    "marginRight": 20,
     "renderTo": "container-12626"
   },
   "plotOptions": {
@@ -346,7 +398,6 @@
       }
     },
     "line": {
-      "connectNulls": true,
       "marker": {
         "enabled": false,
         "symbol": "circle"
@@ -363,7 +414,7 @@
     "text": "Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -418,12 +469,17 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "itemMarginBottom": 5,
-    "labelFormatter": function() {
-        return this.name.split("Wohnviertel ").slice(-1).toString(); 
-    }
+    "itemWidth": 160,
+    "width": 450,
+    "labelFormatter": function () {
+        /*return this.name.replace('Friedmattviertel', 'Friedmatt').split("Wohnviertel ").slice(-1).toString();*/
+        return this.name.split("Bezirk ").slice(-1).toString();
+      }
   },
   "credits": {
     "enabled": true,
@@ -477,7 +533,10 @@
   "tooltip": {
     "shared": false,
     "useHTML": true,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' 
+        + this.series.name + ': <b>' + Highcharts.numberFormat(this.y, 1) + ' m<sup>2</sup></b><br/>'
+      }
   },
   "exporting": {
     "filename": "12626"

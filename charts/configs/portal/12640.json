@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#b00000",
+      "legendIndex": 1,
       "data": [
         [
           2010,
@@ -58,12 +59,17 @@
         [
           2023,
           41.63
+        ],
+        [
+          2024,
+          37.5
         ]
       ],
-      "name": "Schweiz"
+      "name": "St. Johann: Schweiz"
     },
     {
       "color": "#008ac3",
+      "legendIndex": 2,
       "data": [
         [
           2010,
@@ -120,12 +126,17 @@
         [
           2023,
           17.95
+        ],
+        [
+          2024,
+          13.08
         ]
       ],
-      "name": "Ausland"
+      "name": "St. Johann: Ausland"
     },
     {
       "color": "#000",
+      "legendIndex": 3,
       "data": [
         [
           2010,
@@ -182,9 +193,217 @@
         [
           2023,
           33.13
+        ],
+        [
+          2024,
+          28.76
         ]
       ],
-      "name": "Total"
+      "name": "St. Johann: Total"
+    },
+    {
+      "color": "#b00000",
+      "dashStyle": "shortDash",
+      "legendIndex": 4,
+      "data": [
+        [
+          2010,
+          47.59
+        ],
+        [
+          2011,
+          47.67
+        ],
+        [
+          2012,
+          46.11
+        ],
+        [
+          2013,
+          44.99
+        ],
+        [
+          2014,
+          45.07
+        ],
+        [
+          2015,
+          45.32
+        ],
+        [
+          2016,
+          49.57
+        ],
+        [
+          2017,
+          50.85
+        ],
+        [
+          2018,
+          47.57
+        ],
+        [
+          2019,
+          45.13
+        ],
+        [
+          2020,
+          44.93
+        ],
+        [
+          2021,
+          44.23
+        ],
+        [
+          2022,
+          42.68
+        ],
+        [
+          2023,
+          41.3
+        ],
+        [
+          2024,
+          42.12
+        ]
+      ],
+      "name": "Stadt Basel: Schweiz"
+    },
+    {
+      "color": "#008ac3",
+      "dashStyle": "shortDash",
+      "legendIndex": 5,
+      "data": [
+        [
+          2010,
+          21.85
+        ],
+        [
+          2011,
+          20.05
+        ],
+        [
+          2012,
+          18.23
+        ],
+        [
+          2013,
+          18.57
+        ],
+        [
+          2014,
+          21.62
+        ],
+        [
+          2015,
+          19.97
+        ],
+        [
+          2016,
+          22.51
+        ],
+        [
+          2017,
+          25.51
+        ],
+        [
+          2018,
+          22.64
+        ],
+        [
+          2019,
+          24.9
+        ],
+        [
+          2020,
+          23.08
+        ],
+        [
+          2021,
+          21.61
+        ],
+        [
+          2022,
+          22.82
+        ],
+        [
+          2023,
+          26.88
+        ],
+        [
+          2024,
+          26.83
+        ]
+      ],
+      "name": "Stadt Basel: Ausland"
+    },
+    {
+      "color": "#000",
+      "dashStyle": "shortDash",
+      "legendIndex": 6,
+      "data": [
+        [
+          2010,
+          39.47
+        ],
+        [
+          2011,
+          38.79
+        ],
+        [
+          2012,
+          37.05
+        ],
+        [
+          2013,
+          36.24
+        ],
+        [
+          2014,
+          37.12
+        ],
+        [
+          2015,
+          36.5
+        ],
+        [
+          2016,
+          40.53
+        ],
+        [
+          2017,
+          42.68
+        ],
+        [
+          2018,
+          39.31
+        ],
+        [
+          2019,
+          38.5
+        ],
+        [
+          2020,
+          37.61
+        ],
+        [
+          2021,
+          36.11
+        ],
+        [
+          2022,
+          35.72
+        ],
+        [
+          2023,
+          36.48
+        ],
+        [
+          2024,
+          36.73
+        ]
+      ],
+      "name": "Stadt Basel: Total"
     }
   ],
   "chart": {
@@ -202,19 +421,17 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(": ").slice(0, 1).toString()
+                + ':<br>'
+                + this.series[4].name.split(": ").slice(0, 1).toString()
+                + ':'
+            })
+            .translate(-70, 42); //move -140 to the left and 8 down
+        }
     },
     "marginRight": 20,
     "renderTo": "container-12640"
@@ -240,7 +457,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Sek P-Quote"
+    "text": "Sek P-Quote nach Staatsangehörigkeit"
   },
   "subtitle": {
     "text": "Wohnviertel St. Johann",
@@ -297,7 +514,20 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "width": 300,
+    "x": 105,
+    "y": -40,
+    "title": {
+      "text": "-\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 19
+      }
+    },
+    "labelFormatter": function () {
+        return this.name.split(": ").pop();  //holt z.B. '2015' aus '2015 Wöchentlich'
+      }
   },
   "credits": {
     "enabled": true,

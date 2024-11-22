@@ -1761,7 +1761,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jugendquotient",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Zwischen 2004 und 2023 ist der Jugendquotient im Bezirk Landskron von 28,2 auf 21,8 gesunken, im Bezirk Lysbüchel von 29,3 auf 31,6 gestiegen. Im Jahr 2023 beträgt der Jugendquotient im Kanton Basel-Stadt 27,3.",
+		"lesehilfe": "Zwischen 2004 und 2023 ist der Jugendquotient im Bezirk Landskron von 28,2 auf 21,8 gesunken, im Bezirk Lysbüchel von 29,3 auf 31,6 gestiegen. Im Jahr 2023 beträgt der Jugendquotient in der Stadt Basel 25,9.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1800,7 +1800,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Altersquotient",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Der Altersquotient ist 2023 im Bezirk Friedmattviertel am höchsten (42,3) und im Bezirk Lysbüchel am tiefsten (8,9). Im Friedmattviertel ist er verglichen mit 2004 am stärksten gesunken (2004: 48,2).",
+		"lesehilfe": "Der Altersquotient ist 2023 im Bezirk Friedmatt am höchsten (42,3) und im Bezirk Lysbüchel am tiefsten (8,9). Im Friedmattbezirk ist er verglichen mit 2004 am stärksten gesunken (2004: 48,2).",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1838,8 +1838,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Ausländeranteil",
-		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "In den Bezirken Kannenfeld, Friedmatt und Pestalozzi ist in der Ausländeranteil in den letzten Jahren gestiegen. Eine Abnahme des Ausländeranteils zeigt sich in den Bezirken Lysbüchel und Landskron.",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken Kannenfeld, Friedmatt und Pestalozzi ist der Ausländeranteil in den letzten Jahren in einem ähnlichen Umfang gestiegen wie in der Stadt Basel. Eine Abnahme zeigt sich in den Bezirken Lysbüchel und Landskron.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1915,7 +1915,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
-		"lesehilfe": "Die höchste Sesshaftigkeit im Wohnviertel St. Johann liegt Ende 2023 mit 36.6% im Bezirk Friedmattviertel. Gegenüber 2020 ist dieser aber um fast drei Prozentpunkte gesunken. Die niedrigste Sesshaftigkeit hat mit 19,2% der Bezirk Lysbüchel. Hier ist die Sesshaftigkeit gegenüber 2020 um fast fünf Prozentpunkte gesunken. Die Sesshaftigkeit im Bezirk Kannenfeld liegt Ende 2023 bei 32,3%, im Landskron bei 30,0% und im Bezirk Pestalozzi bei 29,7%.",
+		"lesehilfe": "Die höchste Sesshaftigkeit im Wohnviertel St. Johann liegt Ende 2023 mit 36,6% im Bezirk Friedmatt. Gegenüber 2020 ist sie dort um fast drei Prozentpunkte gesunken. Die niedrigste Sesshaftigkeit weist mit 19,2% der Bezirk Lysbüchel auf.",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2294,9 +2294,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann",
-		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann ist niedriger als im kantonalen Durchschnitt. Jedoch sind die Unterschiede zwischen den einzelnen Wohnbezirken beträchtlich. Im Wohnbezirk Kannenfeld liegt sie mit 42,7 m² leicht über dem kantonalen Durchschnitt. Am niedrigsten ist sie mit 34,3 m² im Wohnbezirk Landskron.",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann liegt 2023 mit 36,8m² tiefer als in der Stadt Basel (40,7m²). Nach Bezirk betrachtet, zeigen sich Unterschiede: Im Bezirk Kannenfeld liegt die mittlere Wohnfläche mit 42,7m² über dem städtischen Durchschnitt, im Bezirk Landskron mit 34,2m² darunter.",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -2522,8 +2522,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Genossenschaftswohnungen",
-		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am gesamten Wohnungsbestand hat sich 2021 im Wohnviertel St. Johann stark erhöht ist danach noch leicht gestiegen. Derzeit liegt er nahe beim kantonalen Durchschnitt. Das Wohnviertel ist sehr heterogen. Der Schwerpunkt des genossenschaftlichen Wohnungsbau liegt im Wohnbezirk Friedmatt mit einem Anteil von 30%. Der Wohnbezirk Landskron dagegen weist keine Genossenschaftswohnungen auf.",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Wohnviertel St. Johann sind 2023 10,1% der Wohnungen Genossenschaftswohnungen. Das ist nahe am städtischen Durchschnitt von 11,0%. Der Schwerpunkt des genossenschaftlichen Wohnungsbaus liegt im Wohnbezirk Friedmatt mit einem Anteil von 29,9%. Der Wohnbezirk Kannenfeld dagegen weist keine Genossenschaftswohnungen auf.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2827,9 +2827,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Sek P-Quote",
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel St. Johann mit 18,0% deutlich tiefer als jene der Schweizerinnen und Schweizer (41,6%). Für die Stadt Basel beträgt das Total 2023 36,5%.",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2024 im Wohnviertel St. Johann mit 13,1% tiefer als jene der Schweizerinnen und Schweizer (37,5%). Für die Stadt Basel beträgt das Total 2024 36,7%.",
 		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -2839,7 +2839,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Sek P-Quote",
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kuerzel": "I.15.1.12640",
@@ -2943,7 +2943,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung",
 		"subtitle": "Wohnviertel St. Johann",
-		"lesehilfe": "3,3% der Haushalte im Wohnviertel St. Johann beziehen Ende des Jahres 2023 Familienmietzinsbeiträge (FAMI). In 20,9% der Haushalte bezieht mindestens eine Person Prämienverbilligung (PV). Zum Vergleich: Die FAMI-Quote des Kantons Basel-Stadt liegt bei 2,1%, die PV-Quote bei 15,9%.",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel St. Johann beziehen Ende des Jahres 2023 Familienmietzinsbeiträge (FAMI). In 20,9% der Haushalte bezieht mindestens eine Person Prämienverbilligung (PV). Zum Vergleich: Die FAMI-Quote der Stadt-Basel liegt bei 2,2%, die PV-Quote bei 16,2%.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",

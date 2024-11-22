@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#9E7C59",
+      "legendIndex": 2,
       "data": [
         [
           2000,
@@ -104,6 +105,7 @@
     },
     {
       "color": "#FF8028",
+      "legendIndex": 3,
       "data": [
         [
           2000,
@@ -206,6 +208,7 @@
     },
     {
       "color": "#923F8D",
+      "legendIndex": 4,
       "data": [
         [
           2000,
@@ -308,6 +311,7 @@
     },
     {
       "color": "#689199",
+      "legendIndex": 5,
       "data": [
         [
           2000,
@@ -410,6 +414,8 @@
     },
     {
       "color": "#FABD24",
+      "legendIndex": 6,
+      "visible": true,
       "data": [
         [
           2000,
@@ -509,6 +515,110 @@
         ]
       ],
       "name": "Friedmattviertel"
+    },
+    {
+      "color": "#8A8A8A",
+      "legendIndex": 1,
+      "dashStyle": "shortDash",
+      "data": [
+        [
+          2000,
+          29.4171
+        ],
+        [
+          2001,
+          29.8282
+        ],
+        [
+          2002,
+          30.6928
+        ],
+        [
+          2003,
+          31.2406
+        ],
+        [
+          2004,
+          31.7215
+        ],
+        [
+          2005,
+          32.2189
+        ],
+        [
+          2006,
+          32.9197
+        ],
+        [
+          2007,
+          32.9627
+        ],
+        [
+          2008,
+          33.3922
+        ],
+        [
+          2009,
+          34.1011
+        ],
+        [
+          2010,
+          34.1639
+        ],
+        [
+          2011,
+          34.8611
+        ],
+        [
+          2012,
+          35.3653
+        ],
+        [
+          2013,
+          36.0134
+        ],
+        [
+          2014,
+          36.3741
+        ],
+        [
+          2015,
+          36.636
+        ],
+        [
+          2016,
+          37.0133
+        ],
+        [
+          2017,
+          37.2626
+        ],
+        [
+          2018,
+          37.6829
+        ],
+        [
+          2019,
+          37.8004
+        ],
+        [
+          2020,
+          38.1908
+        ],
+        [
+          2021,
+          38.088
+        ],
+        [
+          2022,
+          39.1422
+        ],
+        [
+          2023,
+          39.6034
+        ]
+      ],
+      "name": "Stadt Basel"
     }
   ],
   "chart": {
@@ -545,6 +655,7 @@
               }
             }
     },
+    "marginRight": 20,
     "renderTo": "container-12614"
   },
   "plotOptions": {
@@ -570,7 +681,7 @@
     "text": "Ausländeranteil"
   },
   "subtitle": {
-    "text": "Wohnviertel St. Johann",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -632,7 +743,7 @@
       "fontWeight": "normal"
     },
     "itemMarginBottom": 5,
-    "alignColumns": false
+    "alignColumns": true
   },
   "credits": {
     "enabled": true,

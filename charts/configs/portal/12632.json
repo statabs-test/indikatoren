@@ -57,6 +57,7 @@
     },
     {
       "color": "#3c3c3c",
+      "dashStyle": "shortDash",
       "index": 1,
       "yAxis": 1,
       "marker": {
@@ -761,7 +762,7 @@
     "text": "Genossenschaftswohnungen"
   },
   "subtitle": {
-    "text": "Wohnviertel St. Johann",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
