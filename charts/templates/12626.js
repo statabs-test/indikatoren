@@ -5,9 +5,9 @@
       events: {
         load: function () {
           // `this` refers to the chart instance
-          this.series[5].update({
+          /*this.series[5].update({
             name: "Bezirk Friedmatt"
-          });
+          });*/
 
           this.credits.element.onclick = function () { };
 
@@ -51,9 +51,16 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
+      itemWidth: 160,
+      width: 450,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+        },
       "align": "left",
       labelFormatter: function () {
-        return this.name.replace('Friedmattviertel', 'Friedmatt').split("Wohnviertel ").slice(-1).toString();
+        /*return this.name.replace('Friedmattviertel', 'Friedmatt').split("Wohnviertel ").slice(-1).toString();*/
+        return this.name.split("Bezirk ").slice(-1).toString();
       }
     },
     "tooltip": {
