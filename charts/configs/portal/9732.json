@@ -9,34 +9,137 @@
         ],
         [
           2011,
-          103.1
+          106.3
         ],
         [
           2012,
-          110.9
+          108.8
         ],
         [
           2013,
-          114.3
+          108.9
         ],
         [
           2014,
-          117.3
+          109.9
+        ],
+        [
+          2015,
+          113.9
+        ],
+        [
+          2016,
+          116.7
+        ],
+        [
+          2017,
+          121.4
         ],
         [
           2018,
-          132.3
+          126.3
         ],
         [
           2019,
-          139.2
+          126.4
         ],
         [
           2020,
-          139.9
+          126
+        ],
+        [
+          2021,
+          126.6
+        ],
+        [
+          2022,
+          124
+        ],
+        [
+          2023,
+          128.1
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
         ]
       ],
-      "name": "Index Medianprämie"
+      "name": "Index mittlere Prämie"
+    },
+    {
+      "color": "rgb(0,138,195)",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          128.1
+        ],
+        [
+          2024,
+          136.1
+        ],
+        [
+          2025,
+          138.1
+        ]
+      ],
+      "name": "Index mittlere Prämie, geschätzt"
     },
     {
       "color": "rgb(147,63,141)",
@@ -62,6 +165,18 @@
           102
         ],
         [
+          2015,
+          102.2
+        ],
+        [
+          2016,
+          102.6
+        ],
+        [
+          2017,
+          103.1
+        ],
+        [
           2018,
           103.3
         ],
@@ -72,9 +187,29 @@
         [
           2020,
           104.4
+        ],
+        [
+          2021,
+          105.9
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
         ]
       ],
-      "name": "Index Median Reineinkommen"
+      "name": "Index Median Einkommen"
     }
   ],
   "chart": {
@@ -183,10 +318,13 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "itemMarginBottom": 5,
-    "x": 30
+    "itemWidth": 150,
+    "width": 300
   },
   "credits": {
     "enabled": true,
@@ -201,7 +339,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.7.2024"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003ESteuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

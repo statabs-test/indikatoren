@@ -282,8 +282,8 @@ id | visible | visibleInPortal | indikatorenset
 4931 | true | true | Gesellschaftlicher-Zusammenhalt
 4932 | true | true | Gesellschaftlicher-Zusammenhalt
 4933 | true | true | Gesellschaftlicher-Zusammenhalt
-4947 | true | true | Gesundheit
-4948 | true | true | 
+4947 | false |  | Gesundheit
+4948 | false |  | Gesundheit
 4953 | false |  | 
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan
@@ -621,7 +621,7 @@ id | visible | visibleInPortal | indikatorenset
 6368 | true | false | Legislaturplan-2017-2021 (Print)
 6369 | true | false | Legislaturplan (Print)
 6370 | true | false | Legislaturplan-2017-2021 (Print)
-6371 | true | false | Legislaturplan-2017-2021 (Print)
+6371 | false |  | Legislaturplan-2017-2021 (Print)
 6372 | true | false | Legislaturplan-2017-2021 (Print)
 6373 | true | false | Gefragte Karten
 6374 | true | true | Gefragte Karten
@@ -633,8 +633,8 @@ id | visible | visibleInPortal | indikatorenset
 6380 | true | true | Gefragte Karten
 6381 | true | true | Gefragte Karten
 6382 | true | true | Gefragte Karten
-6383 | true | true | Gefragte Karten
-6384 | true | true | Gefragte Karten
+6383 | false |  | Gefragte Karten
+6384 | false |  | Gefragte Karten
 6385 | true | true | Gefragte Karten
 6386 | true | false | Gefragte Karten
 6387 | true | false | Gefragte Karten
@@ -644,8 +644,8 @@ id | visible | visibleInPortal | indikatorenset
 6391 | true | false | Gefragte Karten
 6392 | true | false | Gefragte Karten
 6394 | true | false | Gefragte Karten
-6395 | true | false | Gefragte Karten
-6396 | true | false | Gefragte Karten
+6395 | false |  | Gefragte Karten
+6396 | false |  | Gefragte Karten
 6398 | true | true | Integration
 6399 | true | true | Integration
 6400 | true | false | Integration
@@ -1010,16 +1010,16 @@ id | visible | visibleInPortal | indikatorenset
 6988 | true | true | Wohnviertel
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
-6991 | true | true | Gesundheit
-6992 | true | true | Gesundheit
-6993 | true | true | Gesundheit
-6994 | true | true | 
-6995 | true | true | 
+6991 | false |  | Gesundheit
+6992 | false |  | Gesundheit
+6993 | false |  | Gesundheit
+6994 | false |  | Gesundheit
+6995 | false |  | Gesundheit
 6996 | true | true | Legislaturplan
-6997 | true | true | Gesundheit
-6998 | true | true | Gesundheit
-6999 | true | true | Gesundheit
-7000 | true | true | Gesundheit
+6997 | false |  | Gesundheit
+6998 | false |  | Gesundheit
+6999 | false |  | Gesundheit
+7000 | false |  | Gesundheit
 7003 | true | false | Arbeitsmarkt (Print)
 7004 | true | false | Arbeitsmarkt (Print)
 7005 | true | false | Arbeitsmarkt (Print)
@@ -1497,7 +1497,7 @@ id | visible | visibleInPortal | indikatorenset
 8339 | false |  | CMS Kennzahlen Soziales
 8340 | false |  | CMS Kennzahlen Soziales
 8341 | false |  | CMS Kennzahlen Soziales
-8348 | true | true | 
+8348 | true | true | Gesundheit
 8350 | true | true | Wirtschaftsbericht BS_BL_JU
 8351 | true | true | Wirtschaftsbericht BS_BL_JU
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1568,6 +1568,8 @@ id | visible | visibleInPortal | indikatorenset
 8421 | true | false | Richtplan (Print)
 8422 | true | false | Richtplan (Print)
 8423 | true | false | Richtplan (Print)
+8424 | false |  | Gesundheit
+8425 | false |  | Gesundheit
 8431 | true | true | Wirtschaftsbericht BS_BL_JU
 8432 | true | true | Wirtschaftsbericht BS_BL_JU
 8433 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1587,7 +1589,7 @@ id | visible | visibleInPortal | indikatorenset
 8447 | true | true | Wirtschaftsbericht BS_BL_JU
 8448 | true | false | Nachhaltigkeit
 8449 | true | true | Nachhaltigkeit
-8451 | true | true | 
+8451 | true | true | Gesundheit
 8452 | false |  | CMS Kennzahlen Soziales
 8453 | true | true | Nachhaltigkeit
 8454 | true | false | Nachhaltigkeit
@@ -1998,7 +2000,7 @@ id | visible | visibleInPortal | indikatorenset
 9177 | false |  | Gesellschaftlicher-Zusammenhalt (Print)
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9179 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
-9186 | true | true | 
+9186 | true | true | Gesundheit
 9192 | true | true | City-Statistics
 9193 | true | true | City-Statistics
 9194 | true | true | City-Statistics
@@ -2096,7 +2098,7 @@ id | visible | visibleInPortal | indikatorenset
 9392 | true | true | Legislaturplan
 9393 | true | true | Legislaturplan
 9394 | true | true | Legislaturplan
-9395 | true | true | Legislaturplan
+9395 | false |  | Legislaturplan
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
@@ -2285,6 +2287,11 @@ id | visible | visibleInPortal | indikatorenset
 9931 | true | true | Soziales
 9932 | true | true | Soziales
 9933 | true | true | Soziales
+9935 | true | true | Energiestatistik
+9936 | true | true | Energiestatistik
+9937 | true | true | Energiestatistik
+9938 | true | true | Energiestatistik
+9939 | true | true | Energiestatistik
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
@@ -2318,7 +2325,7 @@ id | visible | visibleInPortal | indikatorenset
 10054 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
-10265 | true | false | CMS Kennzahlen Soziales
+10265 | true | false | CMS Kennzahlen
 11165 | true | true | Gesundheitsversorgung
 11166 | true | true | Gesundheitsversorgung
 11167 | true | true | Gesundheitsversorgung
@@ -2343,7 +2350,7 @@ id | visible | visibleInPortal | indikatorenset
 11899 | true | true | Richtplan
 11900 | true | true | Richtplan
 11901 | true | false | Richtplan
-11902 | true | true | Richtplan
+11902 | true | false | Richtplan
 11903 | true | false | Richtplan
 11905 | true | false | Richtplan
 11906 | true | false | Richtplan
@@ -2364,11 +2371,13 @@ id | visible | visibleInPortal | indikatorenset
 11936 | true | false | 
 12516 | true | false | 
 12517 | true | false | 
-12519 | true | false | 
+12519 | true | true | Legislaturplan
 12520 | true | true | Soziales
 12521 | true | true | Soziales
 12532 | true | true | Nachhaltigkeit
+12543 | true | true | Nachhaltigkeit
 12544 | true | false | Nachhaltigkeit (Print)
+12545 | true | false | Nachhaltigkeit (Print)
 12546 | true | false | Nachhaltigkeit (Print)
 12547 | true | false | Nachhaltigkeit (Print)
 12548 | true | false | Nachhaltigkeit (Print)
@@ -2388,6 +2397,14 @@ id | visible | visibleInPortal | indikatorenset
 12564 | true | true | Richtplan
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
+12617 | true | true | Stadtteilmonitoring St. Johann
+12668 | true | false | 
+12669 | true | false | Energiestatistik (Print)
+12670 | true | false | Energiestatistik (Print)
+12671 | true | false | Energiestatistik (Print)
+12672 | true | false | Energiestatistik (Print)
+12673 | true | false | Energiestatistik (Print)
 12713 | true | true | 
 12715 | true | true | Nachhaltigkeit
 12716 | true | false | Nachhaltigkeit (Print)
+12722 | true | false | 

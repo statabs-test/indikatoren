@@ -118,14 +118,14 @@ var indikatorensetData = [
 	{
 		"template": "template001",
 		"data-id": 11902,
-		"chart-id": 11902,
+		"chart-id": 9614,
 		"filter": "",
-		"parentId": null,
+		"parentId": "9614",
 		"children": [],
-		"title": "Neue erneuerbare Energien",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 wurden auf dem Kantonsgebiet Basel-Stadt 804,7 GWh an erneuerbaren Energien produziert. Der Grossteil davon in Kehrichtverbrennungs- und Abwasserreinigungsanlagen (361,7 GWh) sowie durch die thermische Nutzung von Holz (323,5 GWh)",
-		"erlaeuterungen": "Jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen. Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.",
+		"title": "Bruttoenergieverbrauch erneuerbare Energieträger",
+		"subtitle": "in GWh, Basel-Stadt",
+		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2022 von 741 GWh auf 1 074 GWh zugenommen, was einem Plus von 45% entspricht. Eine starke Zunahme ist beim Holz mit 130% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 057%), der Umweltwärme (+152%) und der thermischen Solarenergie (+191%) zu beobachten, die 2022 zusammen einen Anteil von 9,1% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
+		"erlaeuterungen": "Dieser Indikator zeigt den Bruttoenergieverbrauch der erneuerbaren Energien, die im Kanton gewonnen wurden. Der Import von erneuerbaren Energien in den Kanton, insbesondere der ausserkantonale Bezug von Elektrizität, bleibt folglich unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -134,9 +134,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Neue erneuerbare Energien",
+		"description": "Bruttoenergieverbrauch erneuerbare Energieträger",
 		"thema": "08 Energie",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 2-2",
@@ -149,7 +149,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:16",
+		"aktualisierungsdatum": "2024-11-21T06:59:11",
 		"id": 11902
 	},
 	{
@@ -693,7 +693,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -718,7 +718,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:39",
+		"aktualisierungsdatum": "2024-11-04T04:07:10",
 		"id": 12564
 	},
 	{
@@ -1205,7 +1205,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2020 in Vollzeitäquivalente (VZÄ) umgerechnet rund 148 633 Beschäftigte. Das entspricht einer Beschäftigtendichte von 41,4 Beschäftigten (VZÄ) pro Hektar.",
+		"lesehilfe": "Im Jahr 2022 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 44 Beschäftigte (2013: rund 40 Beschäftigte).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1230,7 +1230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:36",
+		"aktualisierungsdatum": "2024-11-04T04:07:11",
 		"id": 5823
 	},
 	{
@@ -1324,8 +1324,8 @@ var indikatorensetData = [
 			6257
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2021 von 192 076 auf 201 805 gestiegen, was einem Anstieg von etwa 5,1% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um etwa 5,4% von 183 183 auf 193 002.",
+		"subtitle": "indexiert (Basis 2013 = 100), Basel-Stadt",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2013 und 2022 um 4,7% gestiegen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 6,0%.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1351,7 +1351,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:21",
+		"aktualisierungsdatum": "2024-11-04T04:07:09",
 		"id": 5901
 	},
 	{
@@ -1648,7 +1648,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind in Basel-Stadt 193 002 Personen beschäftigt. Das sind 4 224 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 17,7% im Vergleich zum Vorjahr, während die grösste Abnahme bei der Branche \"Bau, Energie, Wasser\" mit 5,0% zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2022 sind in Basel-Stadt 199 737 Personen beschäftigt. Das sind 6 735 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 19,8% im Vergleich zum Vorjahr, während die Branche «Übriges verarbeitendes Gewerbe» mit -2,4% als einzige Branche eine Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1673,7 +1673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:35",
+		"aktualisierungsdatum": "2024-09-30T12:46:28",
 		"id": 6236
 	},
 	{
@@ -1851,7 +1851,7 @@ var indikatorensetData = [
 		],
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. 2022 gab es beim Eingang wieder einen leichten Anstieg auf rund 1,3 Mio. Tonnen.",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Nach einem leichten Anstieg beim Eingang auf der Strasse im Jahr 2022 gab es 2023 wieder einen Rückgang.",
 		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -1876,7 +1876,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:10",
+		"aktualisierungsdatum": "2024-11-12T02:43:27",
 		"id": 7778
 	},
 	{

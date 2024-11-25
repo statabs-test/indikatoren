@@ -397,17 +397,17 @@ var indikatorensetData = [
 		"unterthema": "Jugendbefragung",
 		"kuerzel": "I.50.3.4850",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"kuerzelKunde": "1.1.05",
+		"kuerzelKunde": "1.1.04",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_015",
+		"orderKey": "01_01_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-08T08:13:23",
+		"aktualisierungsdatum": "2024-11-21T06:57:33",
 		"id": 4850
 	},
 	{
@@ -755,8 +755,8 @@ var indikatorensetData = [
 		],
 		"title": "Beurteilung der kantonalen Verwaltung",
 		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
-		"lesehilfe": "20,7% der im Jahr 2019 Befragten empfanden den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 44,7% als eher positiv. 12,3% der Befragten empfanden den Kontakt als eher oder sehr negativ.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"lesehilfe": "19,9% der Bevölkerung empfand den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 38,1% als eher positiv. 10,5% der Befragten empfanden den Kontakt als eher oder sehr negativ.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -780,7 +780,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:45",
+		"aktualisierungsdatum": "2024-09-24T03:31:43",
 		"id": 4859
 	},
 	{
@@ -868,44 +868,44 @@ var indikatorensetData = [
 		"id": 4861
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4862,
+		"chart-id": 4862,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8401,
+			9374,
+			9431
+		],
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
-		"kuerzel": "I.50.1.4862",
-		"kuerzelKunde": "2.3.04",
-		"description": "Beurteilung der Bildungschancen",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "6,9% der Bevölkerung ist 2023 sehr und 19,1% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten. 29,0% sind mit der Aussage eher bzw. überhaupt nicht einverstanden. Der Anteil Befragter, welcher diese Aussage nicht beurteilt hat, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:12.1212",
+		"description": "Beurteilung der Bildungschancen",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.04862",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "2.3.04",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "10,1% der im Jahr 2019 Befragten sind sehr und 23,5% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
+		"orderKey": "02_03_00_00_00_050",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_050",
-		"parentId": null,
-		"children": [
-			"8401"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4862,
-		"chart-id": 4862,
-		"filter": "",
+		"aktualisierungsdatum": "2024-10-15T09:04:20",
 		"id": 4862
 	},
 	{
@@ -1219,7 +1219,7 @@ var indikatorensetData = [
 		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kuerzel": "I.17.3.4871",
+		"kuerzel": "I.17.3.04871",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzelKunde": "3.3.03",
 		"stufe1": "3 Gemeinwohlorientierung",
@@ -1231,7 +1231,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:05",
+		"aktualisierungsdatum": "2024-10-22T09:39:21",
 		"id": 4871
 	},
 	{

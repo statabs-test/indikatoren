@@ -149,15 +149,15 @@
         ],
         [
           "Aug",
-          null
+          589
         ],
         [
           "Sep",
-          null
+          588
         ],
         [
           "Okt",
-          null
+          559
         ],
         [
           "Nov",
@@ -206,15 +206,15 @@
         ],
         [
           "Aug",
-          null
+          629
         ],
         [
           "Sep",
-          null
+          657
         ],
         [
           "Okt",
-          null
+          707
         ],
         [
           "Nov",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.8.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.11.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

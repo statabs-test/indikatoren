@@ -1,6 +1,7 @@
 var indikatorensetNames = [
 	"Wirtschaftsbericht BS_BL_JU",
 	"CMS Kennzahlen Soziales",
+	"CMS Kennzahlen",
 	"Gesundheitsversorgung",
 	"Legislaturplan",
 	"Richtplan",
@@ -8,12 +9,13 @@ var indikatorensetNames = [
 	"Nachhaltigkeit",
 	"Nachhaltigkeit (Print)",
 	"Befragungen",
+	"Stadtteilmonitoring St. Johann",
+	"Energiestatistik (Print)",
 	"Arbeitsmarkt",
 	"Wohnraumentwicklung",
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
-	"Gesundheit",
 	"Wanderungen",
 	"Integration",
 	"Richtplan (Print)",
@@ -29,6 +31,7 @@ var indikatorensetNames = [
 	"Leerstand",
 	"Wohnbaustatistik",
 	"Stadtteilmonitoring Rosental",
+	"Gesundheit",
 	"Testset",
 	"Bevoelkerungsszenarien",
 	"Stadtteilmonitoring Rosental (Print)",
@@ -45,7 +48,6 @@ var indikatorensetNames = [
 	"Leerstand (Print)",
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
-	"Energiestatistik (Print)",
 	"Schluesselindikatoren",
 	"Test"
 ];

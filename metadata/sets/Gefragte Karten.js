@@ -50,9 +50,9 @@ var indikatorensetData = [
 			6386
 		],
 		"title": "Reinvermögen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2020 wird mit rund 90 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 21 600 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2021 wird mit rund 109 900 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 23 400 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -77,7 +77,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:05",
+		"aktualisierungsdatum": "2024-09-30T12:46:12",
 		"id": 6374
 	},
 	{
@@ -370,9 +370,9 @@ var indikatorensetData = [
 			8565
 		],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2020 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 72 800 Franken. Mit ca. 36 800 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2021 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 73 600 Franken. Mit ca. 37 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -397,90 +397,8 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:05",
+		"aktualisierungsdatum": "2024-09-30T12:46:11",
 		"id": 6382
-	},
-	{
-		"template": "mappie001",
-		"data-id": 6383,
-		"chart-id": 6383,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6395
-		],
-		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 57 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
-		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Arbeitsstätten nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.06383",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "C3-2",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_006",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:18",
-		"id": 6383
-	},
-	{
-		"template": "mappie001",
-		"data-id": 6384,
-		"chart-id": 6384,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6396
-		],
-		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 604 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 19 Beschäftigten pro 100 Einwohner den tiefsten.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Beschäftigte nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.06384",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "C3-1",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_005",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:17",
-		"id": 6384
 	},
 	{
 		"template": "map002",
@@ -794,9 +712,9 @@ var indikatorensetData = [
 		"parentId": "6382",
 		"children": [],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2020 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 72 800 Franken. Mit ca. 36 800 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2020; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2021 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 73 600 Franken. Mit ca. 37 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -809,7 +727,7 @@ var indikatorensetData = [
 		"description": "Reineinkommen",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kuerzel": "I.18.2.06394",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "K18-1",
 		"stufe1": "kategoriell klassifiziert",
@@ -821,86 +739,8 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:06",
+		"aktualisierungsdatum": "2024-09-30T12:46:27",
 		"id": 6394
-	},
-	{
-		"template": "mappie001",
-		"data-id": 6395,
-		"chart-id": 6395,
-		"filter": "",
-		"parentId": "6383",
-		"children": [],
-		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 57 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
-		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Arbeitsstätten nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.06395",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "K3-2",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_006",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:20",
-		"id": 6395
-	},
-	{
-		"template": "mappie001",
-		"data-id": 6396,
-		"chart-id": 6396,
-		"filter": "",
-		"parentId": "6384",
-		"children": [],
-		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 604 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 19 Beschäftigten pro 100 Einwohner den tiefsten.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Beschäftigte nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.06396",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzelKunde": "K3-1",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_005",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:19",
-		"id": 6396
 	},
 	{
 		"template": "mappie002",

@@ -37,6 +37,45 @@ var indikatorensetData = [
 		"id": 12532
 	},
 	{
+		"template": "template001",
+		"data-id": 12543,
+		"chart-id": 12543,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			12560
+		],
+		"title": "CO<sub>2</sub>-Emissionen",
+		"subtitle": "in Tonnen, Basel-Stadt",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2022 von 833 367 Tonnen auf 593 390 Tonnen ab. Das entspricht einer Reduktion um 29% bzw. einem Rückgang von 4,3 Tonnen auf 2,9 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres. Bis 2020 wurde der Anteil der Kategorie Nicht-Wohnen tendenziell überschätzt und jener der Kategorie Haushalte unterschätzt. Für 2022 erfolgte eine methodische Korrektur.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "CO<sub>2</sub>-Emissionen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.12543",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL12",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Klimawandel",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_02_00_00_00_412",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-11-18T07:48:05",
+		"id": 12543
+	},
+	{
 		"template": "line001",
 		"data-id": 12715,
 		"chart-id": 12715,
@@ -247,8 +286,8 @@ var indikatorensetData = [
 		],
 		"title": "Geburten- und Sterbeziffer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Geburtenziffer liegt 2022 bei 8,8 Lebendgeborenen und die Sterbeziffer bei 10,6 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
-		"erlaeuterungen": "Die Geburtenziffer bezeichnet die Anzahl Lebendgeborene pro 1000 Einwohner der mittleren Wohnbevölkerung, die Sterbeziffer die Anzahl Gestorbene pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"lesehilfe": "Die Geburtenziffer liegt 2023 bei 9,1 Lebendgeborenen und die Sterbeziffer bei 10,0 Gestorbenen pro 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -260,7 +299,7 @@ var indikatorensetData = [
 		"description": "Geburten- und Sterbeziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Geburten und Todesfälle",
-		"kuerzel": "I.01.3.05149",
+		"kuerzel": "I.01.TRLT.05149",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE5",
 		"stufe1": "Bereich Bevölkerung",
@@ -272,7 +311,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:49",
+		"aktualisierungsdatum": "2024-09-03T09:08:40",
 		"id": 5149
 	},
 	{
@@ -356,11 +395,11 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8890
+			8891
 		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2021 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2011 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2022 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet durch die Eidgenössische Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -385,7 +424,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-05T08:34:30",
+		"aktualisierungsdatum": "2024-11-01T08:13:47",
 		"id": 5161
 	},
 	{
@@ -517,7 +556,7 @@ var indikatorensetData = [
 		],
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
-		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2022 liegen bei 85,3 Jahren (Frauen) und 80,3 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2023 liegen bei 85,0 Jahren für Frauen und 80,4 Jahren für Männer.",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -542,7 +581,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:42",
+		"aktualisierungsdatum": "2024-11-04T04:07:08",
 		"id": 5180
 	},
 	{
@@ -631,10 +670,12 @@ var indikatorensetData = [
 		"chart-id": 5184,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			8901
+		],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2022 5,3% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,4 Prozentpunkte weniger als 2021.",
+		"lesehilfe": "In der Stadt Basel bezogen 2023 5,1% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,2 Prozentpunkte weniger als 2022. Der Mittelwert der Sozialhilfequoten der Vergleichstädte liegt 2023 bei 5,6%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -651,15 +692,15 @@ var indikatorensetData = [
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW6",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Gesundheit",
+		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_306",
+		"orderKey": "03_03_00_00_00_306",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:30:55",
+		"aktualisierungsdatum": "2024-11-11T07:18:44",
 		"id": 5184
 	},
 	{
@@ -765,8 +806,8 @@ var indikatorensetData = [
 		],
 		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kuerzel": "I.19.1.05188",
+		"unterthema": "Strafvollzug",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW9",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -778,7 +819,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:37",
+		"aktualisierungsdatum": "2024-09-17T09:43:25",
 		"id": 5188
 	},
 	{
@@ -868,7 +909,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen und 2023 leicht auf 1,1% gesunken.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2015 mit 0,3% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen und sinkt ab 2023 wieder. Aktuell liegt die Quote bei 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -881,7 +922,7 @@ var indikatorensetData = [
 		"description": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.05195",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW15",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
@@ -893,7 +934,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:12",
+		"aktualisierungsdatum": "2024-09-03T09:10:20",
 		"id": 5195
 	},
 	{
@@ -947,7 +988,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"lesehilfe": "Das Total der Bauausgaben ist 2022 gesunken, die Ausgaben für Umbau und Unterhalt hingegen leicht gestiegen. Dadurch ist ihr Anteil am Total der Bauausgaben mit 57,5% höher als im Vorjahr (50,3%). Er liegt somit wie in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
+		"lesehilfe": "Die Ausgaben für Umbau und Unterhalt sind 2023 stärker gestiegen als das Total der Bauausgaben. Dadurch ist der Anteil der Ausgaben für Umbau und Unterhalt am Total der Bauausgaben mit 65,4% höher als im Vorjahr (61,6%). Er übertraf auch den bisherigen Höchstwert von 2011 (63,0%).",
 		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -968,11 +1009,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_07_00_00_00_322",
+		"orderKey": "03_08_00_00_00_322",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:42",
+		"aktualisierungsdatum": "2024-11-11T07:18:42",
 		"id": 5199
 	},
 	{
@@ -1020,15 +1061,15 @@ var indikatorensetData = [
 		"id": 5793
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 5795,
-		"chart-id": 9007,
+		"chart-id": 6161,
 		"filter": "",
 		"parentId": "6161",
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,9% im Jahr 2010 auf 24,6% im Jahr 2020 gestiegen.",
+		"lesehilfe": "Der Anteil erneuerbarer Energie am Bruttoenergieverbrauch ist von 12,8% im Jahr 2010 auf 25,4% im Jahr 2022 gestiegen.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -1043,17 +1084,17 @@ var indikatorensetData = [
 		"unterthema": "Erneuerbare",
 		"kuerzel": "I.08.3.05795",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL3",
+		"kuerzelKunde": "NL4",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_403",
+		"orderKey": "04_01_00_00_00_404",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-08-22T08:24:12",
+		"aktualisierungsdatum": "2024-10-23T03:40:56",
 		"id": 5795
 	},
 	{
@@ -1065,7 +1106,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2022 von 194 auf 152 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,3%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen 2000 und 2023 von 194 auf 149 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39,5%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -1090,7 +1131,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-04T09:42:57",
+		"aktualisierungsdatum": "2024-11-11T07:18:47",
 		"id": 5796
 	},
 	{
@@ -1460,7 +1501,7 @@ var indikatorensetData = [
 		"id": 6037
 	},
 	{
-		"template": "template001",
+		"template": "befragungen001",
 		"data-id": 6039,
 		"chart-id": 6039,
 		"filter": "",
@@ -1469,7 +1510,7 @@ var indikatorensetData = [
 			8929
 		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2022/23, Basel-Stadt",
+		"subtitle": "im Schuljahr 2023/24, Basel-Stadt",
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
@@ -1491,11 +1532,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_313",
+		"orderKey": "03_05_00_00_00_313",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-27T09:43:41",
+		"aktualisierungsdatum": "2024-11-18T07:48:04",
 		"id": 6039
 	},
 	{
@@ -1557,7 +1598,7 @@ var indikatorensetData = [
 		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kuerzel": "I.17.3.06042",
+		"kuerzel": "I.17.PTRA.06042",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GZ11",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
@@ -1569,7 +1610,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-10-23T09:25:06",
+		"aktualisierungsdatum": "2024-10-22T09:39:35",
 		"id": 6042
 	},
 	{
@@ -1620,7 +1661,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 sind in Basel-Stadt 193 002 Personen beschäftigt. Das sind 4 224 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 17,7% im Vergleich zum Vorjahr, während die grösste Abnahme bei der Branche \"Bau, Energie, Wasser\" mit 5,0% zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2022 sind in Basel-Stadt 199 737 Personen beschäftigt. Das sind 6 735 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 19,8% im Vergleich zum Vorjahr, während die Branche «Übriges verarbeitendes Gewerbe» mit -2,4% als einzige Branche eine Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1633,7 +1674,7 @@ var indikatorensetData = [
 		"description": "Anzahl Beschäftigte nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kuerzel": "I.03.2.06046",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "WE7",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -1645,7 +1686,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-09-25T08:56:03",
+		"aktualisierungsdatum": "2024-09-30T12:46:30",
 		"id": 6046
 	},
 	{
@@ -2053,7 +2094,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2022 bei den Männern 40% (95% Vertrauensintervall: 35% - 45%) und bei den Frauen 26% (95%-Vertrauensintervall: 21% - 30%).",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2023 bei den Männern 38% (95% Vertrauensintervall: 32% - 43%) und bei den Frauen 23% (95%-Vertrauensintervall: 19% - 27%).",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Das Vertrauensintervall (schwarzer Fehlerbalken) kann als Bereich interpretiert werden, in welchem der wahre Wert mit einer Wahrscheinlichkeit von 95% liegt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
@@ -2078,7 +2119,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-15T08:31:00",
+		"aktualisierungsdatum": "2024-11-11T07:18:45",
 		"id": 6435
 	},
 	{
@@ -2475,44 +2516,42 @@ var indikatorensetData = [
 		"id": 8456
 	},
 	{
+		"template": "line001",
+		"data-id": 8457,
+		"chart-id": 8457,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8960
+		],
 		"title": "Geschlechterverhältnis im Grossen Rat",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.17.3.08457",
-		"kuerzelKunde": "GZ7",
-		"description": "Geschlechterverhältnis im Grossen Rat",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2024 hat sich der Frauenanteil von 42% im Jahr 2020 auf die neue Bestmarke von 46% nochmals deutlich erhöht.",
+		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-25T23:35:43.4343",
+		"description": "Geschlechterverhältnis im Grossen Rat",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kuerzel": "I.17.PTRA.08457",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ9",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2020 hat sich der Frauenanteil von 31% im Jahr 2016 auf 42% deutlich erhöht.",
-		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_509",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_507",
-		"parentId": null,
-		"children": [
-			"8960"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8457,
-		"chart-id": 8457,
-		"filter": "",
+		"aktualisierungsdatum": "2024-10-22T09:39:40",
 		"id": 8457
 	},
 	{
@@ -2685,8 +2724,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung von Krankenkassenprämien und Reineinkommen",
 		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
-		"lesehilfe": "Im Jahr 2020 lag der Index (Basis 2010) der Medianprämien bei 139,9 und jener für den Median des Reinkommens bei 104,4.",
-		"erlaeuterungen": "Medianprämie: Medianwert der Standardprämien aller Versicherer. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. <br>Median Reineinkommen: Medianwert des Reineinkommens der Steuerveranlagungen gemäss Steuerstatistik Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2021 lag der Index (Basis 2010) der mittleren Prämien bei 126,6 und jener für den Median des Reinkommens bei 105,9.<br>Für das Jahr 2025 wird bei den Prämien mit einen Anstieg auf 138,1 gerechnet.",
+		"erlaeuterungen": "Mittlere Prämie: Gewichteter Durchschnitt der Krankenkassenprämien aller Versicherten pro Jahr. Die Gesamtprämiensumme einer Versichertengruppe wird durch die Gesamtzahl der Versicherten der jeweiligen Gruppe geteilt.<br>Die geschätzten Prämien beruhen auf Schätzungen der Versicherer zu den Veränderungen ihres Versichertenbestandes. Der effektive Prämienanstieg wird aber gemäss BAG tiefer erwartet, da bei stärkeren Prämienanstiegen beispielsweise mehr Versicherte höhere Franchisen wählen oder in ein alternatives Versicherungsmodell wechseln. <br>Median Reineinkommen: Medianwert des Reineinkommens der Steuerveranlagungen gemäss Steuerstatistik Basel-Stadt.",
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
 			"Steuerstatistik Basel-Stadt"
@@ -2711,7 +2750,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-24T08:47:19",
+		"aktualisierungsdatum": "2024-11-12T02:43:18",
 		"id": 9732
 	},
 	{
@@ -2720,11 +2759,13 @@ var indikatorensetData = [
 		"chart-id": 9733,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12546
+		],
 		"title": "Abschlussquote auf Sekundarstufe II",
 		"subtitle": "nach Migrationskategorie, Basel-Stadt",
-		"lesehilfe": "86,9% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2021 einen Abschluss auf der Sekundarstufe II.",
-		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer ab 2016).",
+		"lesehilfe": "84,8% der in der Schweiz geborenen Ausländerinnen und Ausländer unter 25 Jahren hatten 2022 einen Abschluss auf der Sekundarstufe II.",
+		"erlaeuterungen": "Bei der Berechnung berücksichtigt das Bundesamt für Statistik BFS die folgenden Abschlüsse: Eidgenössische Fähigkeitszeugnisse und Berufsatteste (Berufliche Grundbildung; Quelle: Statistik der beruflichen Grundbildung SBG); gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz (Allgemeinbildung; Quelle: Statistik der Bildungsabschlüsse SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte.  Quoten von Gruppen mit weniger als 200 Personen über drei Jahre werden nicht gezeigt (z. B. im Ausland geborene Schweizerinnen und Schweizer). Geringfügige rückwirkende Korrekturen sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
@@ -2747,11 +2788,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_04_00_00_00_312",
+		"orderKey": "03_05_00_00_00_312",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:42",
+		"aktualisierungsdatum": "2024-11-11T07:18:40",
 		"id": 9733
 	},
 	{
@@ -2842,7 +2883,7 @@ var indikatorensetData = [
 		],
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
-		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2020 um 149,6% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 35,1% gesunken.",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken. 2022 wurde also weniger Energie eingesetzt um einen Franken zu erwirtschaften und pro Person wurde weniger Energie verbraucht als im Jahr 2000.",
 		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
@@ -2870,7 +2911,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:29",
+		"aktualisierungsdatum": "2024-11-21T06:58:55",
 		"id": 9736
 	},
 	{
@@ -3181,7 +3222,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:31:01",
+		"aktualisierungsdatum": "2024-11-01T08:13:49",
 		"id": 9786
 	},
 	{
@@ -3190,10 +3231,12 @@ var indikatorensetData = [
 		"chart-id": 9787,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12558
+		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2021 um 5,4% von 183 183 auf 193 002.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -3218,7 +3261,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-26T08:31:00",
+		"aktualisierungsdatum": "2024-11-01T08:13:48",
 		"id": 9787
 	}
 ];
