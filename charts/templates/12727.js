@@ -27,7 +27,7 @@
       },
     },
     xAxis: {
-      type: "category",
+//      type: "category",
       tickInterval: 1,
       endOnTick: false,
       startOnTick: false,

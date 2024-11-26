@@ -26,32 +26,20 @@
       },
     ],
     xAxis: {
-//      type: "category",
-    },
-    tooltip: {
-      shared: true,
-      useHTML: true,
-      followPointer: true,
-      formatter: function () {
-        let header = `<span style="font-size: 10px"> ${this.x} </span><table>`;
-        let body = this.points
-          .filter(point => point.series.index !== 3) // Reihe mit Index 3 ignorieren
-          .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
-            <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Plätze</b></td>
-            <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
-          .join('');
-        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Plätze</b></td><td></td></tr></table>`;
-        return header + body + footer;
-      },
+      //      type: "category",
     },
     /*
+        tooltip: {
+          shared: true,
+          useHTML: true,
+          followPointer: true,
           headerFormat: '<span style="font-size: 10px"> {point.key} </span><table>',
           pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-            + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Plätze</b></td>'
-            + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
+                + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Plätze</b></td>'
+                + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
           footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f} Plätze</b></td><td></td></tr></table>',
-        },
-    */
+            },
+        */
     legend: {
       itemWidth: 200,
       itemStyle: {
@@ -68,18 +56,49 @@
     series: [
       {
         color: '#68ab2b',
+        stacking: true
       },
       {
         color: '#ffda80',
+        stacking: true
       },
       {
         color: '#7f5f1a',
+        stacking: true
       },
       {
         type: 'line',
         color: '#010101',
         visible: true,
+        stacking: false,
       },
     ],
+    tooltip: {
+      useHTML: true,
+      formatter() {
+        if (this.series.userOptions.stacking == true) { // nur für series mit stacking: true
+          const series = this.series.chart.series;
+          let tooltip = "<table>";
+          let s = 0;
+          series.forEach(series => {
+            if (series.userOptions.stacking == true) { // nur für series mit stacking: true
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>`
+                    + `<td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0, ",", " ")} Plätze</b></td>`
+                    + `<td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1, ",", " ")}%)</td></tr>`;
+                  s += point.y;
+                }
+              });
+            }
+          });
+          tooltip += `<tr><td>Total:</td><td style="text-align:right"><b>${Highcharts.numberFormat(s, 0, ",", " ")} Plätze</b></td></tr></table>`;
+          return `<span style="font-size: 10px">${this.x}</span><br>${tooltip}`;
+        } else {
+          return `<span style="font-size: 10px">${this.x}</span><br><span style="color:${this.color}">●</span> ${this.series.name}: <b>`
+            + `${Highcharts.numberFormat(this.y, 0, ",", " ")}</b><br/>`;
+        }
+      }
+    }
   };
 })();
