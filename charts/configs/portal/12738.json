@@ -1,86 +1,140 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
+      "color": "#f6aebe",
+      "data": [
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          5
+        ],
+        [
+          2020,
+          6.8
+        ],
+        [
+          2021,
+          6.7
+        ]
+      ],
+      "name": "GWL weitere Organisationseinheiten"
+    },
+    {
+      "color": "#ed802f",
+      "data": [
+        [
+          2018,
+          1.4
+        ],
+        [
+          2019,
+          3.9
+        ],
+        [
+          2020,
+          3.1
+        ],
+        [
+          2021,
+          4.2
+        ]
+      ],
+      "name": "Übrige GWL"
+    },
+    {
+      "color": "#ec3f7a",
+      "data": [
+        [
+          2018,
+          4.2
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          3.2
+        ],
+        [
+          2021,
+          3.2
+        ]
+      ],
+      "name": "Tageskliniken"
+    },
+    {
+      "color": "#a64f2b",
+      "data": [
+        [
+          2018,
+          6.7
+        ],
+        [
+          2019,
+          6.7
+        ],
+        [
+          2020,
+          5.7
+        ],
+        [
+          2021,
+          5.7
+        ]
+      ],
+      "name": "Ambulatorien öffentliche Spitäler"
+    },
+    {
+      "color": "#f8b11e",
+      "data": [
+        [
+          2018,
+          14.6
+        ],
+        [
+          2019,
+          15
+        ],
+        [
+          2020,
+          16.3
+        ],
+        [
+          2021,
+          16.4
+        ]
+      ],
+      "name": "Fachärztliche Weiterbildung"
+    },
+    {
       "color": "#7a3051",
       "data": [
         [
-          "2012",
-          120.9
+          2018,
+          37.2
         ],
         [
-          "2013",
-          107.8
+          2019,
+          30.6
         ],
         [
-          "2014",
-          99.4
+          2020,
+          30.4
         ],
         [
-          "2015",
-          95.9
-        ],
-        [
-          "2016",
-          69.5
-        ],
-        [
-          "2017",
-          68.9
-        ],
-        [
-          "2018",
-          60.2
-        ],
-        [
-          "2019",
-          65.8
-        ],
-        [
-          "2020",
-          66.4
-        ],
-        [
-          "2021",
-          66.8
-        ],
-        [
-          "2022",
-          66.4
-        ],
-        [
-          "2023",
-          69.1
+          2021,
+          30.5
         ]
       ],
-      "name": "Gemeinwirtschafltiche Leistungen",
-      "turboThreshold": 0
+      "name": "Deckungslücke Lehre und Forschung"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
-  },
   "chart": {
-    "type": "line",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
@@ -115,6 +169,13 @@
       "marker": {
         "enabled": false
       }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    },
+    "line": {
+      "lineWidth": 3
     }
   },
   "title": {
@@ -135,33 +196,42 @@
       "color": "#000000"
     }
   },
-  "yAxis": {
-    "min": 0,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
+  "xAxis": {
     "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
       "style": {
         "color": "#000000"
       }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
     }
   },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": " "
+      },
+      "reversedStacks": true
+    }
+  ],
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "reversed": false
   },
   "credits": {
     "enabled": true,
@@ -211,6 +281,14 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.x} \u003C\u002Fspan\u003E\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:&nbsp;\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.1f} Mio. CHF\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003ETotal: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.1f} Mio. CHF\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
   },
   "exporting": {
     "filename": "12738"
