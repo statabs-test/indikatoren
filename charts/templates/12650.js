@@ -71,7 +71,7 @@
       labelFormatter: function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters
-        return this.name.split(" ").pop(); //return only last word of legend-title
+        return this.name.split(" ").pop().replace('Basel', 'Stadt Basel'); //return only last word of legend-title
       },
       title: {
         text: 'PW pro Haushalt:<br/><br/>Motorisierungsgrad:<br>(rechte Skala)',
