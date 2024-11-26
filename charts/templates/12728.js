@@ -27,30 +27,30 @@
     series: [
       {
         index: 0,
-        color: "#b30000",
+        color: "#5D3FD3",     // DCH
         lineWidth: 3
       },
       {
         index: 1,
-        color: "#8a0000",
+        color: "#301934",     // NWCH
         lineWidth: 3
       },
       {
         index: 1,
-        color: "#ff2e2e",
+        color: "#CF9FFF",     // Kanton BS
         lineWidth: 3
       },
       {
         index: 1,
-        color: "#00b800"
+        color: "#FFD700"      // Stadt Basel
       },
       {
         index: 1,
-        color: "#008a00"
+        color: "#ffc40c"      // Riehen
       },
       {
         index: 1,
-        color: "#006100"
+        color: "#8B8000"      // Bettingen
       }
     ],
     tooltip: {
