@@ -73,6 +73,7 @@
         stacking: false,
       },
     ],
+
     tooltip: {
       useHTML: true,
       formatter() {
@@ -100,5 +101,6 @@
         }
       }
     }
+
   };
 })();

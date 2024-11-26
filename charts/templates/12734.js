@@ -28,6 +28,7 @@
     xAxis: {
 //      type: "category",
     },
+
     tooltip: {
       shared: true,
       useHTML: true,
