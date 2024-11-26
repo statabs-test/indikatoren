@@ -34,11 +34,10 @@
       "layout": "vertical",
       "verticalAlign": "middle",
       "align": "right",
-      /*
-            "layout": "horizontal",
-            "verticalAlign": "top",
-            "align": "left",
-      */
+      itemMarginBottom: 7,
+      labelFormatter: function () {
+        return this.name.replace('Länder', '<br>Länder').replace('Süd', '<br>Süd'); 
+      },
     },
     "series": [
       { "color": "#672773", index: 9, legendIndex: 0 }, /*Deutschland*/
