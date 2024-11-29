@@ -9,7 +9,7 @@
         load: function () {
           //set xAxis min in navigator
           this.xAxis[0].update({
-            min: 5
+            min: 6
           });
 
           this.credits.element.onclick = function () { };
