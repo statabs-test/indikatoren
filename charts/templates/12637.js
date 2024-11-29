@@ -43,59 +43,46 @@
     },
     "series": [
       {  //Wohnen Pestalozzi
-        "color": "#9E7C59",
-        //legendIndex: 1
+        "color": "#6B4926",
       },
       { // Wohnen Kannenfeld
-        "color": "#FF8028",
-       // index: 2,
-        //legendIndex: 2
+        "color": "#CC4D00",
       },
       { // Wohnen Landskron
-        "color": "#B375AB",
-        //index: 1,
-        //legendIndex: 3
+        "color": "#5F0C5A", //"#B375AB",
       },
       {  //Wohnen Lysbüchel
-        "color": "#B6CFD7",
-        //legendIndex: 4
+        "color": "#355E66", //"#B6CFD7",
       },
       {  //Wohnen Friedmatt
-        "color": "#FFDA80",
-        //legendIndex: 5
+        "color": "#C78A00",
       },
       { // Wohnen Basel
-        "color": "#999999",
-       // index: 1,
-       // legendIndex: 6,
+        "color": "#575757",
         visible: false
       },
+      {
+        "color": "transparent",
+        visible: true,
+        showInLegend: false
+      },
       {  //Arbeiten Pestalozzi
-        "color": "#67401E",
-       // legendIndex: 7
+        "color": "#D1AF8C",
       },
       { // Arbeiten Kannenfeld
-        "color": "#E64900",
-        //index: 1,
-        //legendIndex: 8
+        "color": "#FFB35B",
       },
       {  //Arbeiten Landskron
-        "color": "#923F8D",
-        //legendIndex: 9
+        "color": "#C572C0",
       },
       { // Arbeiten Lysbüchel
-        "color": "#008AC3",
-        //index: 1,
-        //legendIndex: 10
+        "color": "#9BC4CC",
       },
       {  //Arbeiten Friedmatt
-        "color": "#CD9C00",
-        //legendIndex: 11
+        "color": "#FFF057",
       },
       { // Arbeiten Basel
-        "color": "#6F6F6F",
-       // index: 1,
-        //legendIndex: 12,
+        "color": "#BDBDBD",
         visible: false
       },
     ],
