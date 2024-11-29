@@ -23,29 +23,29 @@
 		colorAxis: {
 			dataClassColor: 'category',
 			dataClasses: [{
-				from: 0,
+				//from: 0,
+				to: 0,
+				color: '#dadada',
+				name: "0"
+			}, {
+				from: 0.01,
+				to: 0.49,
+				color: '#FABD24',
+				name: "0,01 − 0,49"
+			}, {
+				from: 0.5,
+				to: 1.99,
+				color: '#CD9C00',
+				name: "0,50 − 1,99"
+			}, {
+				from: 2.0,
 				to: 2.99,
-				color: '#D7E8D2',
-				name: "<span style='color: rgba(0,0,0,0)'>12,0</span> < <span style='color: rgba(0,0,0,0)'>1</span>3,0"
+				color: '#7F5F1A',
+				name: "2,00 − 2,99"
 			}, {
 				from: 3.0,
-				to: 6.99,
-				color: '#73B97C',
-				name: "<span style='color: rgba(0,0,0,0)'>1</span>3,0 − <span style='color: rgba(0,0,0,0)'>1</span>6,9"
-			}, {
-				from: 7.0,
-				to: 11.99,
-				color: '#68AB2B',
-				name: "<span style='color: rgba(0,0,0,0)'>1</span>7,0 − <span style='color: rgba(0,0,0,0)'></span>11,9"
-			}, {
-				from: 12.0,
-				to: 15.99,
-				color: '#007A2F',
-				name: "12,0 − 15,9"
-			}, {
-				from: 16.0,
-				color: '#0A3B19',
-				name: "<span style='color: rgba(0,0,0,0)'>12,0</span> ≥ 16,0"
+				color: '#45381D',
+				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> ≥ 3,00"
 			}],
 		},
 		"data": {
@@ -77,7 +77,7 @@
 				tooltip: {
 					pointFormatter: function () {
 						//console.log(this);
-						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 2) + '%</b><br/>';
 					}
 				}
 			},
