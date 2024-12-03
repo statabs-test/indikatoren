@@ -59,6 +59,10 @@
 				}
 			]
 		},
+		tooltip:{
+			useHTML: true,
+			outside: true
+		},
 		"series": [
 			{
 				"name": "Wohnviertel",
