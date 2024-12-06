@@ -229,7 +229,7 @@
           0.44616
         ]
       ],
-      "name": "PW pro Haushalt Basel"
+      "name": "PW pro Haushalt Stadt Basel"
     },
     {
       "color": "#8A8A8A",
@@ -250,7 +250,7 @@
           224.19
         ]
       ],
-      "name": "Motorisierungsgrad Basel"
+      "name": "Motorisierungsgrad Stadt Basel"
     }
   ],
   "chart": {
@@ -292,7 +292,7 @@
     "text": "Personenwagen pro Haushalt, Motorisierungsgrad"
   },
   "subtitle": {
-    "text": "Wohnviertel St. Johann",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -370,7 +370,7 @@
     "labelFormatter": function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters
-        return this.name.split(" ").pop(); //return only last word of legend-title
+        return this.name.split(" ").pop().replace('Basel', 'Stadt Basel'); //return only last word of legend-title
       },
     "title": {
       "text": "PW pro Haushalt:\u003Cbr\u002F\u003E\u003Cbr\u002F\u003EMotorisierungsgrad:\u003Cbr\u003E(rechte Skala)",

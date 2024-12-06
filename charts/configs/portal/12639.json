@@ -259,10 +259,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Sozialhilfequote nach Bezirk"
+    "text": "Sozialhilfequote"
   },
   "subtitle": {
-    "text": "Wohnviertel St. Johann",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",

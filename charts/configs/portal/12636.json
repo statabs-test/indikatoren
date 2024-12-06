@@ -212,8 +212,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemDistance": 5
+    }
   },
   "credits": {
     "enabled": true,

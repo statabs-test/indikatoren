@@ -244,7 +244,7 @@
     "text": "Stromverbrauch"
   },
   "subtitle": {
-    "text": "in Gigawattstunden (GWh), Wohnviertel St. Johann",
+    "text": "in Gigawattstunden (GWh), Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",

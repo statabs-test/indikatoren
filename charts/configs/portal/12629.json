@@ -367,14 +367,14 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function() {
+      "load": function () {
           // `this` refers to the chart instance
           this.series[6].update({
-              name: "Friedmatt"
+            name: "Friedmatt"
           });
 
           this.credits.element.onclick = function () { };
- 
+
           //for top-left legends with no x defined: move legend to x position of first yAxis
           if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
             this.update(
@@ -413,7 +413,7 @@
     "text": "Anteil Einfamilienhäuser"
   },
   "subtitle": {
-    "text": "Wohnviertel St. Johann",
+    "text": "Wohnviertel St. Johann, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
