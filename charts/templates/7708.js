@@ -104,14 +104,14 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: " < <span style='color: rgba(0,0,0,0)'>1 </span>600",
+								name: " < <span style='color: rgba(0,0,0,0)'>1 </span>500",
 								from: 0,
-								to: 599,
+								to: 499,
 								diameter: 5
 							},
 							{
-								name: "600 − 1 499",
-								from: 600,
+								name: "500 − 1 499",
+								from: 500,
 								to: 1499,
 								diameter: 10
 							},
