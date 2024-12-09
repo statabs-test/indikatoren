@@ -28,24 +28,26 @@
 				color: '#dadada',
 				name: "0"
 			}, {
-				from: 0.01,
-				to: 0.49,
+				from: 0.000000000001,
+				to: 0.9,
 				color: '#FABD24',
-				name: "0,01 − 0,49"
+				name: "0,01 − 0,99"
 			}, {
-				from: 0.5,
+				from: 1,
 				to: 1.99,
 				color: '#CD9C00',
-				name: "0,50 − 1,99"
+				name: "1,00 − 1,99"
+			/*
 			}, {
 				from: 2.0,
 				to: 2.99,
 				color: '#7F5F1A',
 				name: "2,00 − 2,99"
+				*/
 			}, {
-				from: 3.0,
+				from: 2.00,
 				color: '#45381D',
-				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> ≥ 3,00"
+				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> ≥ 2,00"
 			}],
 		},
 		"data": {
