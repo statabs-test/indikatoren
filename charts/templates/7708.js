@@ -54,7 +54,8 @@
 			]
 		},
 		tooltip: {
-			useHTML: true
+			useHTML: true,
+			outside: true,
 		},
 		"series": [
 			{
@@ -74,7 +75,7 @@
 				tooltip: {
 					pointFormatter: function () {
 						//console.log(this);
-						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '%</b><br/>';
 					}
 				}
 			},
