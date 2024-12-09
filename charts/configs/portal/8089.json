@@ -6563,7 +6563,7 @@
       "tooltip": {
         "pointFormatter": function () {
 						//console.log(this);
-						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '%</b><br/>';
 					}
       },
       "data": [
@@ -7202,14 +7202,14 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: " < <span style='color: rgba(0,0,0,0)'>1 </span>600",
+								name: " < <span style='color: rgba(0,0,0,0)'>1 </span>500",
 								from: 0,
-								to: 599,
+								to: 499,
 								diameter: 5
 							},
 							{
-								name: "600 − 1 499",
-								from: 600,
+								name: "500 − 1 499",
+								from: 500,
 								to: 1499,
 								diameter: 10
 							},
@@ -7276,7 +7276,8 @@
         "inactive": {
           "opacity": 1
         }
-      }
+      },
+      "color": "#eaeaea"
     }
   },
   "title": {
@@ -7296,7 +7297,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2015",
+    "text": "nach Wohnviertel, Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7332,7 +7333,7 @@
     "dataClassColor": "category",
     "dataClasses": [
       {
-        "from": 0,
+        "from": 1e-11,
         "to": 0.99,
         "color": "#D7E8D2",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E20,0\u003C\u002Fspan\u003E \u003C \u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E1,0"
@@ -7858,6 +7859,7 @@
 				}
   },
   "tooltip": {
-    "useHTML": true
+    "useHTML": true,
+    "outside": true
   }
 }

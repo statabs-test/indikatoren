@@ -29,7 +29,6 @@
           this.xAxis[0].update({
             min: 2018
           });
-
           this.credits.element.onclick = function () { };
 
           //add and move legend title (get it from series names)
@@ -283,20 +282,19 @@
         max: 2021.1,
         // tickInterval: 1,
         tickPositioner: function () {
-          //use only every nth tick, starting with startingPoint
-          const startingPoint = 1,
-            step = 2,
-            positions = [];
-          for (let i = startingPoint; i < this.max; i += step) {
-            positions.push(i)
-          }
-          return positions
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
         },
         labels: {
           //step: 1,
           rotation: 0,
           align: 'center',
           y: 15,
+          x: -3,
           style: {
             color: "#000000"
           },

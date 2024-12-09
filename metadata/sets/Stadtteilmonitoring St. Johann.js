@@ -1536,14 +1536,17 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Feinstaubbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"lesehilfe": "Im Wohnviertel St. Johann waren 2015 im Jahresmittel mit 1 506 Personen 8,1% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20&nbsp;µg/m<sup>3</sup> ausgesetzt.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20&nbsp;µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10x10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel St. Johann 84 Personen (0,45% der dortigen Wohnbevölkerung) an ihrem Wohnort Feinstaub-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -1574,14 +1577,17 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Stickoxidbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"lesehilfe": "Im Wohnviertel St. Johann waren 2015 im Jahresmittel mit 2 260 Personen 12,2% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Rosental 2 170 Personen (11,7% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
