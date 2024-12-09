@@ -1,11 +1,10 @@
-/*  
-	global Highcharts
-	global geojson_wohnviertelEPSG2056 
-	global $
-*/
 (function () {
-
 	return {
+		plotOptions:{
+			series: {
+				color: '#eaeaea',
+			}
+		},
 		"legend": {
 			useHTML: false,
 			"title": {
@@ -16,18 +15,18 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -136,
-			"y": -25,
+			"y": -50,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},
 		colorAxis: {
 			dataClassColor: 'category',
-			dataClasses: [{
+			dataClasses: [/*{
 				//from: 0,
 				to: 0,
 				color: '#dadada',
 				name: "0"
-			}, {
+			}, */{
 				from: 0.000000000001,
 				to: 0.9,
 				color: '#FABD24',

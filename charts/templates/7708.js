@@ -1,5 +1,10 @@
 (function () {
 	return {
+		plotOptions:{
+			series: {
+				color: '#eaeaea',
+			}
+		},
 		"legend": {
 			useHTML: false,
 			"title": {
@@ -16,8 +21,13 @@
 		},
 		colorAxis: {
 			dataClassColor: 'category',
-			dataClasses: [{
-				from: 0,
+			dataClasses: [/*
+				//from: 0,
+				to: 0,
+				color: '#dadada',
+				name: "0"
+			},*/{
+				from: 0.00000000001,
 				to: 0.99,
 				color: '#D7E8D2',
 				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> < <span style='color: rgba(0,0,0,0)'>1</span>1,0"
