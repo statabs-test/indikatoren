@@ -1051,11 +1051,7 @@
         "x": -15,
         "style": {
           "color": "#000000"
-        },
-        "formatter": function () {
-            // get year from chart axis label names
-            return this.chart.xAxis[0].names[this.value];//.slice(0, 4);
-          }
+        }
       }
     }
   },

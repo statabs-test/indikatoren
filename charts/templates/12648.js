@@ -2,8 +2,8 @@
   return {
     "plotOptions": {
       "column": {
-       // pointPadding: 0,
-       // groupPadding: 0,
+        // pointPadding: 0,
+        // groupPadding: 0,
         //borderWidth: 0,
         //pointWidth: 15,
         stacking: "normal",
@@ -43,7 +43,7 @@
       labels: {
         rotation: -90,
       }
-       },
+    },
     "legend": {
       "enabled": true,
       "layout": "horizontal",
@@ -52,7 +52,8 @@
       itemDistance: 10
     },
     "series": [
-      {"color": "#9E7C59", index: 5, legendIndex: 0, tooltip: {valueDecimals: 0},
+      {
+        "color": "#9E7C59", index: 5, legendIndex: 0, tooltip: { valueDecimals: 0 },
       },
       {
         "color": "#C4AB91", index: 4, legendIndex: 1, tooltip: {

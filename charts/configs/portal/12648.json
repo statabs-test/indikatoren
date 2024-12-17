@@ -1170,7 +1170,14 @@
         },
         "formatter": function () {
             // get year from chart axis label names
-            return this.chart.xAxis[0].names[this.value];//.slice(0, 4);
+            //var year = this.chart.xAxis[0].names[this.value].substring(0, 4);
+            //console.log(this.chart.xAxis[0].names[this.value]);
+            const chart = this;
+            this.names = chart.chart.xAxis[0].names;
+
+
+
+            return chart.names[chart.value].substring(0, 4);
           }
       }
     }
