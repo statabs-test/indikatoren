@@ -18,7 +18,7 @@
         //        max: 1,
         //        tickAmount: 5,
         labels: {
-          format: '{value:.0f}',
+          format: '{value:,.0f}',
           style: {
             color: "black",
           },
