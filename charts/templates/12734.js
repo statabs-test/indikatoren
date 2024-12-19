@@ -28,7 +28,8 @@
     xAxis: {
 //      type: "category",
     },
-
+// Tooltip auskommentieren für das Bilden des Sets, sonst wird kein Bild erzeugt.
+///*
     tooltip: {
       shared: true,
       useHTML: true,

@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#b30000",
+      "color": "#5D3FD3",
       "lineWidth": 3,
       "data": [
         [
@@ -35,7 +35,7 @@
     },
     {
       "index": 1,
-      "color": "#8a0000",
+      "color": "#301934",
       "lineWidth": 3,
       "data": [
         [
@@ -68,7 +68,7 @@
     },
     {
       "index": 1,
-      "color": "#ff2e2e",
+      "color": "#CF9FFF",
       "lineWidth": 3,
       "data": [
         [
@@ -101,7 +101,7 @@
     },
     {
       "index": 1,
-      "color": "#00b800",
+      "color": "#FFD700",
       "data": [
         [
           "2017",
@@ -133,7 +133,7 @@
     },
     {
       "index": 1,
-      "color": "#008a00",
+      "color": "#ffc40c",
       "data": [
         [
           "2017",
@@ -165,7 +165,7 @@
     },
     {
       "index": 1,
-      "color": "#006100",
+      "color": "#8B8000",
       "data": [
         [
           "2017",

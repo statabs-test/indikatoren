@@ -9,7 +9,7 @@ var indikatorensetData = [
 		"title": "Pflegeheime",
 		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
 		"lesehilfe": "Ende 2023 hatte das Adullam Pflegezentrum Basel 133 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrum irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2023",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -358,7 +358,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Pflegestunden Spitex",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die geleisteten Spitexstunden im Kanton Basel-Stadt sind seit 2011 stetig gestiegen. Im Jahr 2023 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 293 844. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2023 auf total 598 236 Stunden.",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 293 844. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2023 auf total 598 236 Stunden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -606,7 +606,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_023",
+		"orderKey": "02_02_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -622,7 +622,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
 		"subtitle": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
-		"lesehilfe": "Im Jahr 2022 erfolgten 38 796 (88,5%) der insgesamt 43 834 (100%) Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
+		"lesehilfe": "Im Jahr 2023 erfolgten 38 869 (89,1%) der insgesamt 43 604 Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
 		"erlaeuterungen": "Gezählt werden die Austritte aus einer stationären Behandlung, um Doppelzählungen zu vermeiden (ein Patient kann beispielsweise im Jahr 2021 in ein Spital eintreten und erst im Folgejahr 2022 austreten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -645,7 +645,7 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_024",
+		"orderKey": "02_02_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
@@ -946,7 +946,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (37,4%) der Gäste in Tages- und Nachpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 12.9%. Die durchschnittliche Pflegestufe lag 2023 bei 3.9.",
+		"lesehilfe": "Der grösste Anteil (37,4%) der Gäste in Tages- und Nachpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 12,9%. Die durchschnittliche Pflegestufe lag 2023 bei 3,9.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -986,7 +986,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug die Anzahl aller Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450, wobei der Grossteil der Aufenthaltstage auf Einwohnerinnen und Einwohner der Stadt Basel (20 975) entfallen.",
+		"lesehilfe": "Im Jahr 2023 betrug die Anzahl aller Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450. Der Grossteil der Aufenthaltstage entfiel auf Einwohnerinnen und Einwohner der Stadt Basel (20 975).",
 		"erlaeuterungen": "Aufgrund der geringen Fallzahlen werden die Gemeinden Riehen und Bettingen gemeinsam dargestellt.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -1062,8 +1062,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die geleisteten Spitexstunden im Kanton Basel-Stadt sind seit 2011 stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Gerade die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
-		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt und dient zur Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung, sowie der Koordination mit anderen Leistungserbringern wie z.B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z.B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br><br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt",
+		"lesehilfe": "Die geleisteten Spitexstunden im Kanton Basel-Stadt sind seit 2011 stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br><br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1102,7 +1102,7 @@ var indikatorensetData = [
 		"title": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der Anteil an Pflegeleistungen der Bedarfsabklärung steigt seit 2011 kontinuierlich an (2023: 7,7%). Der Anteil der Leistungen der Behandlungspflge beträgt über die Jahre etwa 31% und bei der Grundpflege etwa 63%.",
-		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt und dient zur Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung, sowie der Koordination mit anderen Leistungserbringern wie z.B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z.B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung, sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
