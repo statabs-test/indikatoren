@@ -444,7 +444,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
-		"subtitle": "Mio. CHF, Basel-Stadt",
+		"subtitle": "in Mio.Franken, Basel-Stadt",
 		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -483,7 +483,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Mio. CHF, Basel-Stadt",
+		"subtitle": "in Mio.Franken, Basel-Stadt",
 		"lesehilfe": "2023 stieg das Finanzierungsvolumen mit total 4,2 Mio. Franken gegenüber dem Vorjahr um 0,3 Mio. Davon finanzierten der Kanton bzw. die Gemeinden 2,1 Mio. Franken, die Krankenversicherer 0,9 Mio. Franken und die Tagesgäste 1,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -521,7 +521,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
-		"subtitle": "Mio. CHF, Basel-Stadt",
+		"subtitle": "in Mio.Franken, Basel-Stadt",
 		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 24,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
