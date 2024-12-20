@@ -152,10 +152,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Pflegestufenverteilung nach Kanton Basel-Stadt, Nordwest- und Deutschschweiz"
+    "text": "Pflegestufenverteilung"
   },
   "subtitle": {
-    "text": "2022",
+    "text": "nach Kanton Basel-Stadt, Nordwest- und Deutschschweiz, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",

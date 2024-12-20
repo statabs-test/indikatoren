@@ -6,9 +6,13 @@
     },
     yAxis: [
       {
+        labels:{
+          style: {
+            color: "black",
+          },
+        },
         title: {
           text: "",
-          color: "black"
         },
         opposite: false
       },
@@ -16,11 +20,13 @@
         max: 0.2,
         min: -0.2,
         title: {
-          text: "",
-          color: "black"
+          text: ""
         },
         opposite: true,
         labels: {
+          style: {
+            color: "black",
+          },
           format: '{value:.1f}',
           formatter: function () {
             return Highcharts.numberFormat((this.value * 100), 0) + '%';

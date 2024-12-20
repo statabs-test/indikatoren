@@ -7,11 +7,12 @@
         labels: {
           formatter: function () {
             return Highcharts.numberFormat((this.value), 1) + '';
-          }
+          },
+          style: {
+            color: "black",
+          },
         },
-        style: {
-          color: "black",
-        },
+
         title: {
           text: ""
         }
@@ -20,12 +21,12 @@
         min: 0,
         tickAmount: 7,
         labels: {
+          style: {
+            color: "black",
+          },
           formatter: function () {
             return Highcharts.numberFormat((this.value), 1) + '';
           }
-        },
-        style: {
-          color: "black",
         },
         title: {
           text: ""

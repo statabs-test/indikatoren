@@ -89,7 +89,7 @@
 		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2023",
 		"lesehilfe": "Ende 2023 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2023",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -248,7 +248,7 @@
 		"children": [],
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 94,8%. Die Pensions- und Pflegetage beliefen sich 2023 auf über 1 Mio.",
+		"lesehilfe": "2023 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 94,8%. Die Pensions- und Pflegetage beliefen sich 2023 auf über 1 Million.",
 		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Pensions- und Pflegetage dividiert durch die maximal mögliche Anzahl Pensions- und Pflegetage.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -444,8 +444,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
-		"subtitle": "in Mio.Franken, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354,0 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -483,7 +483,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "in Mio.Franken, Basel-Stadt",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"lesehilfe": "2023 stieg das Finanzierungsvolumen mit total 4,2 Mio. Franken gegenüber dem Vorjahr um 0,3 Mio. Davon finanzierten der Kanton bzw. die Gemeinden 2,1 Mio. Franken, die Krankenversicherer 0,9 Mio. Franken und die Tagesgäste 1,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -521,7 +521,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
-		"subtitle": "in Mio.Franken, Basel-Stadt",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
 		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 24,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -560,7 +560,7 @@
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,21 Franken. Der Kanton zahlte im Jahr 2023 2,3 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. auf die Stadt Basel.",
+		"lesehilfe": "Im Jahr 2023 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,2 Franken. Der Kanton zahlte im Jahr 2023 2,3 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. Franken auf die Stadt Basel.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -719,7 +719,7 @@
 		"title": "Schweregrad und Komplexität",
 		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2023",
 		"lesehilfe": "Im Jahr 2023 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,21. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,90.",
-		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach Swiss DRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) ist für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (zum Beispiel die Universitäre Altersmedizin Felix Platter) oder auf die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen oder mit chronisch fortschreitenden Krankheiten ausgerichtet sind (z. B. das Palliativzentrum Hildegard).",
+		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach SwissDRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) sind für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (z. B. Universitäre Altersmedizin Felix Platter) oder Menschen mit unheilbaren, lebensbedrohlichen oder chronisch fortschreitenden Krankheiten (z. B. Palliativzentrum Hildegard) ausgerichtet sind .",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -741,7 +741,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_026",
+		"orderKey": "02_02_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -1926,8 +1926,8 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Pflegestufenverteilung nach Kanton Basel-Stadt, Nordwest- und Deutschschweiz",
-		"subtitle": "2022",
+		"title": "Pflegestufenverteilung",
+		"subtitle": "nach Kanton Basel-Stadt, Nordwest- und Deutschschweiz, 2022",
 		"lesehilfe": "Der Kanton Basel-Stadt hat den geringsten Anteil an Pflegestufen 1 bis 3 (17.4%) im Vergleich zur Nordwest- (22.6%) und der Deutschschweiz (24.6%).",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>DCH sind die deutschsprachigen Kantone sowie der mehrsprachige Kanton BE. Nordwestschweiz (NWCH) sind die Kantone BS, BL, SO und AG.",
 		"quellenangabe": [
@@ -1944,7 +1944,7 @@
 			"Gemeinde",
 			"Grossregion"
 		],
-		"description": "Pflegestufenverteilung nach Kanton Basel-Stadt, Nordwest- und Deutschschweiz",
+		"description": "Pflegestufenverteilung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",

@@ -16,8 +16,8 @@
       }
     },
     xAxis: {
-//      type: "category",
-tickInterval: 1
+      //      type: "category",
+      tickInterval: 1
     },
     yAxis: {
       tickAmount: 7,

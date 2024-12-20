@@ -215,6 +215,11 @@
   },
   "yAxis": [
     {
+      "labels": {
+        "style": {
+          "color": "black"
+        }
+      },
       "min": 0,
       "title": {
         "text": " "

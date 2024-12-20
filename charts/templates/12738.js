@@ -14,15 +14,15 @@
       }
     },
     series: [
-      { "color": "#f6aebe" }, 
-      { "color": "#ed802f" }, 
+      { "color": "#f6aebe" },
+      { "color": "#ed802f" },
       { "color": "#ec3f7a" },
       { "color": "#a64f2b" },
       { "color": "#f8b11e" },
       { "color": "#7a3051" },
     ],
     xAxis: {
-//      tickInterval: 1,
+      //      tickInterval: 1,
     },
     tooltip: {
       shared: true,
@@ -36,6 +36,11 @@
     },
     yAxis: [
       {
+        labels: {
+          style: {
+            color: "black",
+          },
+        },
         min: 0,
         title: {
           text: " ",

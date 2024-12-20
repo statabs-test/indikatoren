@@ -73,7 +73,6 @@
         stacking: false,
       },
     ],
-// Tooltip auskommentieren für das Bilden des Sets, sonst wird kein Bild erzeugt.
 ///*
     tooltip: {
       useHTML: true,

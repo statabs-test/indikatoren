@@ -56,7 +56,7 @@
           3.2
         ]
       ],
-      "name": "Eigenbeitrag Klient\u002F-in"
+      "name": "Eigenbeitrag Klient \u002F Klientin"
     },
     {
       "color": "#246370",
@@ -230,7 +230,7 @@
     "text": "Finanzierung der Spitex-Leistungen"
   },
   "subtitle": {
-    "text": "in Mio.Franken, Basel-Stadt",
+    "text": "in Mio. Franken, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
