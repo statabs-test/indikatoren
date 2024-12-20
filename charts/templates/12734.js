@@ -27,26 +27,8 @@
     ],
     xAxis: {
       //      type: "category",
+      tickinterval: 1
     },
-    // Tooltip auskommentieren für das Bilden des Sets, sonst wird kein Bild erzeugt.
-    /*
-    tooltip: {
-      shared: true,
-      useHTML: true,
-      followPointer: true,
-      formatter: function () {
-        let header = `<span style="font-size: 10px"> ${this.x} </span><table>`;
-        let body = this.points
-          .filter(point => point.series.index !== 2) // Reihe mit Index 2 ignorieren
-          .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
-          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Plätze</b></td>
-          <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
-          .join('');
-        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Plätze</b></td><td></td></tr></table>`;
-        return header + body + footer;
-      },
-    },
-    */
     legend: {
       //      itemWidth: 100,
       itemStyle: {
