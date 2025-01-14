@@ -5,18 +5,19 @@
   "description": "Indikatorenportal Statistisches Amt Basel-Stadt",
   "dependencies": {
     "@statabs/statabs-filter": "2.1.1",
-    "autoprefixer": "^10.4.20",
     "bootstrap": "4.3.1",
     "bootstrap-multiselect": "0.9.13-1",
     "highcharts": "9.1.2",
     "jquery": "^3.5.1",
     "os-browserify": "^0.3.0",
-    "postcss": "^8.4.49",
     "proj4": "2.4.3",
-    "seedrandom": "2.4.3",
-    "tailwindcss": "^3.4.15"
+    "seedrandom": "2.4.3"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.20",
     "casperjs": "1.1.4",
     "clone": "2.1.2",
     "copy-node-modules": "1.0.3",
@@ -32,9 +33,15 @@
     "http-live-server": "1.2.0",
     "jsdom": "9.12.0",
     "jsondiffpatch": "0.2.5",
+    "postcss": "^8.5.0",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^7.0.2",
+    "postcss-sorting": "^9.1.0",
     "rimraf": "2.6.2",
     "serialize-javascript": "^5.0.1",
-    "svgo": "^1.2.2"
+    "svgo": "^1.2.2",
+    "tailwindcss": "^3.4.17"
   },
   "engines": {
     "node": ">=8.10.0"
@@ -55,7 +62,7 @@
     "build:optimize_all_images": "echo 'Optimizing svg images...' && svgo --pretty --multipass -f images/portal/ && svgo --pretty --multipass -f images/indikatorenset/ && echo '...done optimizing images!'",
     "build:save_checksums": "echo 'Saving checksums of newly built charts...' && node build/saveChecksums.js",
     "build:copy_modules": "echo 'Copying required node_modules to assets/js/modules...' && copy-node-modules . assets/js -v && rm -rf assets/js/modules && mv assets/js/node_modules assets/js/modules",
-    "build:tailwind": "npx tailwindcss -i ./tailwind.css -o ./assets/css/tailwind.css --watch",
+    "build:tailwind:watch": "npx tailwindcss --postcss -i ./tailwind/tailwind.css -o ./assets/css/tailwind.css --watch",
     "build": "LC_ALL=C && npm run build:database && npm run build:find_changed_charts && npm run build:partial_databases && npm run build:charts && npm run build:images  && npm run build:images_viewbox && npm run build:optimize_images && npm run build:save_checksums && npm run build:copy_modules && npm run build:copy_data_per_set",
     "rebuild": "LC_ALL=C && echo 'Deleting metadat/all/hashesAfterBuild.json in order to trigger build of all charts...' && rm metadata/all/hashesAfterBuild.json & echo 'Running npm run build...' && npm run build",
     "build:update_dependencies": "reinstall && npm prune --production=false && npm update --dev",
