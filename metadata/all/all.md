@@ -69,7 +69,7 @@ id | visible | visibleInPortal | indikatorenset
 4153 | true | true | Wohnraumentwicklung
 4154 | true | true | Soziales
 4155 | true | true | Wohnraumentwicklung
-4156 | true | true | Wohnraumentwicklung
+4156 | false |  | Wohnraumentwicklung
 4200 | false |  | Integration-kompakt
 4203 | false |  | Integration-kompakt
 4211 | false |  | Cercle-Indicateurs
@@ -208,7 +208,7 @@ id | visible | visibleInPortal | indikatorenset
 4468 | false |  | Integration-kompakt
 4469 | false |  | Integration-kompakt
 4716 | true | true | Gesellschaftlicher-Zusammenhalt
-4718 | true | true | Gesellschaftlicher-Zusammenhalt
+4718 | false |  | Gesellschaftlicher-Zusammenhalt
 4719 | true | false | Gesellschaftlicher-Zusammenhalt
 4720 | true | true | Gesellschaftlicher-Zusammenhalt
 4721 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -261,7 +261,7 @@ id | visible | visibleInPortal | indikatorenset
 4870 | false |  | Gesellschaftlicher-Zusammenhalt
 4871 | true | true | Gesellschaftlicher-Zusammenhalt
 4872 | true | true | Gesellschaftlicher-Zusammenhalt
-4874 | true | true | Gesellschaftlicher-Zusammenhalt
+4874 | false |  | Gesellschaftlicher-Zusammenhalt
 4875 | true | true | Gesellschaftlicher-Zusammenhalt
 4877 | false |  | Integration-kompakt
 4905 | false |  | Integration-kompakt
@@ -1222,7 +1222,7 @@ id | visible | visibleInPortal | indikatorenset
 7698 | true | true | Stadtteilmonitoring Rosental
 7699 | true | true | Stadtteilmonitoring Rosental
 7700 | true | true | Stadtteilmonitoring Rosental
-7701 | true | true | Stadtteilmonitoring Rosental
+7701 | true | false | Stadtteilmonitoring Rosental
 7703 | false |  | Stadtteilmonitoring Rosental
 7704 | true | true | Stadtteilmonitoring Rosental
 7705 | true | true | Stadtteilmonitoring Rosental
@@ -2082,7 +2082,7 @@ id | visible | visibleInPortal | indikatorenset
 9375 | true | true | Legislaturplan
 9376 | true | true | Legislaturplan
 9377 | true | true | Legislaturplan
-9378 | true | true | Legislaturplan
+9378 | false |  | Legislaturplan
 9379 | true | true | Legislaturplan
 9380 | true | true | Legislaturplan
 9381 | true | true | Legislaturplan
@@ -2347,6 +2347,7 @@ id | visible | visibleInPortal | indikatorenset
 11185 | true | true | Gesundheitsversorgung
 11788 | true | false | Legislaturplan
 11897 | true | true | Gesundheitsversorgung
+11898 | true | false | Legislaturplan (Print)
 11899 | true | true | Richtplan
 11900 | true | true | Richtplan
 11901 | true | false | Richtplan
@@ -2397,7 +2398,54 @@ id | visible | visibleInPortal | indikatorenset
 12564 | true | true | Richtplan
 12565 | true | false | Befragungen
 12602 | true | true | Soziales
+12609 | true | false | Stadtteilmonitoring St. Johann
+12610 | true | true | Stadtteilmonitoring St. Johann
+12611 | true | true | Stadtteilmonitoring St. Johann
+12612 | true | true | Stadtteilmonitoring St. Johann
+12613 | true | true | Stadtteilmonitoring St. Johann
+12614 | true | true | Stadtteilmonitoring St. Johann
+12615 | true | true | Stadtteilmonitoring St. Johann
+12616 | true | true | Stadtteilmonitoring St. Johann
 12617 | true | true | Stadtteilmonitoring St. Johann
+12618 | true | true | Stadtteilmonitoring St. Johann
+12619 | true | true | Stadtteilmonitoring St. Johann
+12620 | true | true | Stadtteilmonitoring St. Johann
+12621 | true | true | Stadtteilmonitoring St. Johann
+12622 | true | true | Stadtteilmonitoring St. Johann
+12623 | true | true | Stadtteilmonitoring St. Johann
+12624 | true | true | Stadtteilmonitoring St. Johann
+12625 | true | true | Stadtteilmonitoring St. Johann
+12626 | true | true | Stadtteilmonitoring St. Johann
+12627 | true | true | Stadtteilmonitoring St. Johann
+12628 | true | true | Stadtteilmonitoring St. Johann
+12629 | true | true | Stadtteilmonitoring St. Johann
+12630 | true | true | Stadtteilmonitoring St. Johann
+12631 | true | true | Stadtteilmonitoring St. Johann
+12632 | true | true | Stadtteilmonitoring St. Johann
+12633 | true | true | Stadtteilmonitoring St. Johann
+12634 | true | true | Stadtteilmonitoring St. Johann
+12635 | true | true | Stadtteilmonitoring St. Johann
+12636 | true | true | Stadtteilmonitoring St. Johann
+12637 | true | true | Stadtteilmonitoring St. Johann
+12638 | true | true | Stadtteilmonitoring St. Johann
+12639 | true | true | Stadtteilmonitoring St. Johann
+12640 | true | true | Stadtteilmonitoring St. Johann
+12641 | true | true | Stadtteilmonitoring St. Johann
+12642 | true | true | Stadtteilmonitoring St. Johann
+12643 | true | true | Stadtteilmonitoring St. Johann
+12644 | true | true | Stadtteilmonitoring St. Johann
+12645 | true | true | Stadtteilmonitoring St. Johann
+12646 | true | true | Stadtteilmonitoring St. Johann
+12648 | true | true | Stadtteilmonitoring St. Johann
+12649 | true | true | Stadtteilmonitoring St. Johann
+12650 | true | true | Stadtteilmonitoring St. Johann
+12651 | true | true | Stadtteilmonitoring St. Johann
+12652 | true | true | Stadtteilmonitoring St. Johann
+12653 | true | true | Stadtteilmonitoring St. Johann
+12655 | true | true | Stadtteilmonitoring St. Johann
+12656 | true | true | Stadtteilmonitoring St. Johann
+12657 | true | true | Stadtteilmonitoring St. Johann
+12659 | true | true | Stadtteilmonitoring St. Johann
 12668 | true | false | 
 12669 | true | false | Energiestatistik (Print)
 12670 | true | false | Energiestatistik (Print)
@@ -2407,4 +2455,17 @@ id | visible | visibleInPortal | indikatorenset
 12713 | true | true | 
 12715 | true | true | Nachhaltigkeit
 12716 | true | false | Nachhaltigkeit (Print)
+12719 | true | true | Stadtteilmonitoring St. Johann
+12720 | true | true | Stadtteilmonitoring St. Johann
+12721 | true | true | Stadtteilmonitoring St. Johann
 12722 | true | false | 
+12727 | true | true | Gesundheitsversorgung
+12730 | true | true | Gesundheitsversorgung
+12732 | true | true | Gesundheitsversorgung
+12733 | true | true | Gesundheitsversorgung
+12734 | true | true | Gesundheitsversorgung
+12735 | true | true | Gesundheitsversorgung
+12736 | true | true | Gesundheitsversorgung
+12737 | true | true | Gesundheitsversorgung
+21847 | true | true | 
+22143 | true | false | Legislaturplan (Print)

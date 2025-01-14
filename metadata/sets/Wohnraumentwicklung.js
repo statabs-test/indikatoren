@@ -860,7 +860,7 @@ var indikatorensetData = [
 		],
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrugen die Freiraumflächen insgesamt 95,74 ha (2,59% der Kantonsfläche). Die Zunahme seit 2021 erfolgte u. a. aufgrund der Öffnung des Novartis Campus und der dortigen Parkanlagen für die Öffentlichkeit. Im Jahr 2013 reduzierten sich die Freiraumflächen vorübergehend aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte bis auf rund 83,9 Hektar. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf 88,5 Hektar.",
+		"lesehilfe": "Im Jahr 2024 betrugen die Freiraumflächen insgesamt 95,28 ha (2,58% der Kantonsfläche). Die Zunahme seit 2021 erfolgte u. a. aufgrund der Öffnung des Novartis Campus und der dortigen Parkanlagen für die Öffentlichkeit. Im Jahr 2013 reduzierten sich die Freiraumflächen vorübergehend aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte bis auf rund 83,9 Hektaren. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf 88,5 Hektaren.",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -885,7 +885,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-01T08:57:34",
+		"aktualisierungsdatum": "2025-01-08T09:18:24",
 		"id": 4149
 	},
 	{
@@ -1044,43 +1044,6 @@ var indikatorensetData = [
 		"chart-id": 4155,
 		"filter": "",
 		"id": 4155
-	},
-	{
-		"template": "befragungen001",
-		"data-id": 4156,
-		"chart-id": 4156,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?», Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.04156",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.2.C",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_02_00_00_00_030",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:38",
-		"id": 4156
 	},
 	{
 		"template": "template001",

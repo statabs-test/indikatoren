@@ -7,14 +7,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Pflegeheime",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 hatte das Adullam Pflegezentrum Basel 150 Plätze.",
-		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrum irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 hatte das Adullam Pflegezentrum Basel 133 Plätze.",
+		"erlaeuterungen": "Zusätzliche 30 Pflegeplätze des Pflegezentrums Adullam Basel (Nr. 1) sind auf der Pflegeheimliste Basel-Landschaft aufgeführt. Der Umzug des Dominikushauses (Nr. 17) in den Neubau an der Immenbachstrasse 17 in Riehen erfolgte im Sommer 2023. Am eigentlichen Standort des Pflegezentrums irides (Nr. 22) an der Kohlenbergstrasse 20 in Basel entsteht ein Neubau.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#pflegeheime-basel-stadt' target = '_blank'>Aktuelle Pflegeheimliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -23,7 +23,7 @@ var indikatoren = [
 		"description": "Pflegeheime",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11165",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "1.1",
 		"stufe1": "1 Langzeitpflege",
@@ -36,7 +36,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:42",
+		"aktualisierungsdatum": "2024-12-20T03:23:07",
 		"id": 11165
 	},
 	{
@@ -47,14 +47,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Anzahl Plätze, Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Plätze, Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 bot das Tagesheim Wendelin in Riehen 21 Plätze der Kategorie Allgemeine Tagespflegeeinrichtungen an.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/tagesstrukturen.html' target = '_blank'>Aktuelle Liste der Anbieter von Tagespflegeeinrichtungen</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/zuhause-mit-unterstuetzung-wohnen#tagespflegeeinrichtungen' target = '_blank'>Aktuelle Liste der Anbieter von Tagespflegeeinrichtungen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -63,20 +63,20 @@ var indikatoren = [
 		"description": "Tages- und Nachtpflegeeinrichtungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11166",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.2",
+		"kuerzelKunde": "1.9",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.1 Karten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_002",
+		"orderKey": "01_01_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:51",
+		"aktualisierungsdatum": "2024-12-20T03:23:25",
 		"id": 11166
 	},
 	{
@@ -87,14 +87,14 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
-		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2022",
-		"lesehilfe": "Ende 2022 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
-		"erlaeuterungen": "Wohnungen mit Serviceangebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2022",
+		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2023",
+		"lesehilfe": "Ende 2023 hatte das Tertianum 107 Wohnungen mit Service-Angebot.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/wohnen-mit-service.html' target = '_blank'>Angebote von Wohnungen mit Service-Angebot</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/zuhause-mit-unterstuetzung-wohnen#wohnen-mit-serviceangeboten' target = '_blank'>Angebote von Wohnungen mit Service-Angebot</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -103,20 +103,20 @@ var indikatoren = [
 		"description": "Wohnungen mit Service-Angebot",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11167",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.3",
+		"kuerzelKunde": "1.23",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.1 Karten",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_003",
+		"orderKey": "01_01_00_00_00_023",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:52",
+		"aktualisierungsdatum": "2024-12-20T03:23:19",
 		"id": 11167
 	},
 	{
@@ -128,13 +128,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 gab es im Kanton Basel-Stadt 57 Organisationen sowie 61 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben und somit über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen berechtigt sind.",
-		"erlaeuterungen": "Stand Ende 2022",
+		"lesehilfe": "Im Jahr 2023 gab es im Kanton Basel-Stadt 55 Organisationen sowie 63 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben und somit über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen berechtigt sind.",
+		"erlaeuterungen": "Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/Spitex.html' target = '_blank'>Liste der zugelassenen Spitex-Organisationen und -Einzelpersonen</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#spitexanbieter' target = '_blank'>Liste der zugelassenen Spitex-Organisationen und -Einzelpersonen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -143,20 +143,20 @@ var indikatoren = [
 		"description": "Anzahl Spitex-Anbieter",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11168",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.4",
+		"kuerzelKunde": "1.17",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_004",
+		"orderKey": "01_01_00_00_00_017",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:54",
+		"aktualisierungsdatum": "2024-12-20T03:23:14",
 		"id": 11168
 	},
 	{
@@ -168,13 +168,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"subtitle": "in baselstädtischen Pflegeheimen",
-		"lesehilfe": "Im Jahr 2022 gab es 618 Plätze in speziellen Wohnformen (20,4% aller Plätze) in den Pflegeheimen und 2 228 (73,7%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2022",
+		"lesehilfe": "Im Jahr 2023 gab es 636 Plätze in speziellen Wohnformen (21,2% aller Plätze) in den Pflegeheimen und 2 203 (73,4%) allgemeine Pflegeheimplätze im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Spezielle Wohnformen sind beispielsweise Pflegewohngruppen, psychogeriatrische Spezialeinrichtungen, Demenzabteilungen oder besondere Pflegeeinrichtungen für suchtkranke Menschen. Nichttarifplätze sind Plätze, welche nicht an die Einheitstaxe gemäss Pflegeheim-Rahmenvertrag gebunden sind.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/pflegeheim/pflegeheime.html' target = '_blank'>Aktuelle Pflegeheimliste</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/alters-und-langzeitpflege/angebote-der-alters#pflegeheime-basel-stadt' target = '_blank'>Aktuelle Pflegeheimliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -183,20 +183,20 @@ var indikatoren = [
 		"description": "Anteil allgemeiner Pflegeheimplätze und spezieller Wohnformen in Pflegeheimen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11169",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.5",
+		"kuerzelKunde": "1.2",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "01_01_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:57",
+		"aktualisierungsdatum": "2024-12-20T03:23:16",
 		"id": 11169
 	},
 	{
@@ -208,13 +208,13 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2022 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br><br>Stand Ende 2022",
+		"lesehilfe": "Ende 2023 standen insgesamt 157 Plätze in Tages- und Nachpflegeeinrichtungen – davon 49 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Stand Ende 2023",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/wohnen-mit-unterstuetzung/tagesstrukturen.html' target = '_blank'>Aktuelle List der Anbieter von Tagespflegeeinrichtungen</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/zuhause-mit-unterstuetzung-wohnen#tagespflegeeinrichtungen' target = '_blank'>Aktuelle List der Anbieter von Tagespflegeeinrichtungen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -223,20 +223,20 @@ var indikatoren = [
 		"description": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11170",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.6",
+		"kuerzelKunde": "1.10",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "01_01_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:57",
+		"aktualisierungsdatum": "2024-12-20T03:23:08",
 		"id": 11170
 	},
 	{
@@ -248,7 +248,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 92,2%. Die Pensions- und Pflegetage beliefen sich 2022 auf über 1 Mio.",
+		"lesehilfe": "2023 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 94,8%. Die Pensions- und Pflegetage beliefen sich 2023 auf über 1 Million.",
 		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Pensions- und Pflegetage dividiert durch die maximal mögliche Anzahl Pensions- und Pflegetage.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -262,20 +262,20 @@ var indikatoren = [
 		"description": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11171",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.7",
+		"kuerzelKunde": "1.3",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_007",
+		"orderKey": "01_01_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:58",
+		"aktualisierungsdatum": "2024-12-20T03:23:21",
 		"id": 11171
 	},
 	{
@@ -287,7 +287,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (20%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2022 um 10,3%. Die durchschnittliche Pflegestufe lag 2022 bei 6,4.",
+		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 8,9%. Die durchschnittliche Pflegestufe lag 2023 bei 6,4.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -295,7 +295,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = ' https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/finanzierung/pflegeheim.html' target = '_blank'>Pflegeheim Tagestaxen</a>"
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#kosten-betreuung-und-pflege-im-pflegeheim' target = '_blank'>Pflegeheim Tagestaxen</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -304,20 +304,20 @@ var indikatoren = [
 		"description": "Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11172",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.8",
+		"kuerzelKunde": "1.5",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_008",
+		"orderKey": "01_01_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:59",
+		"aktualisierungsdatum": "2024-12-20T03:23:24",
 		"id": 11172
 	},
 	{
@@ -329,8 +329,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 65,2%. Gegenüber dem Vorjahr ist ein leichter Rückgang der totalen Auslastung zu verzeichnen. Im Jahr 2022 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 25 579.",
-		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.",
+		"lesehilfe": "Im Jahr 2023 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 71,5%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2023 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450.",
+		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -342,85 +342,7 @@ var indikatoren = [
 		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11173",
-		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.9",
-		"stufe1": "1 Langzeitpflege",
-		"stufe2": "1.2 Kennzahlen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_009",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:01",
-		"id": 11173
-	},
-	{
-		"template": "line001",
-		"data-id": 11174,
-		"chart-id": 11174,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Anzahl Pflegestunden Spitex",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die geleisteten Spitexstunden im Kanton Basel-Stadt sind seit 2011 stetig gestiegen. Im Jahr 2022 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 307 168. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2022 auf total 582 229 Stunden.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Pflegestunden Spitex",
-		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11174",
-		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.10",
-		"stufe1": "1 Langzeitpflege",
-		"stufe2": "1.2 Kennzahlen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_01_00_00_00_010",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:43",
-		"id": 11174
-	},
-	{
-		"template": "line001",
-		"data-id": 11175,
-		"chart-id": 11175,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
-		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2022 verglichen mit dem Vorjahr leicht auf 287 gestiegen. Zu deren Gunsten wurden an insgesamt 74 287 Tagen Pflegeleistungen erbracht.",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt"
-		],
-		"externalLinks": [
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/alterspflege/finanzierung/Pflegebeitraege.html' target = '_blank'>Pflegebeiträge</a>"
-		],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
-		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11175",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "1.11",
 		"stufe1": "1 Langzeitpflege",
@@ -433,7 +355,85 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:44",
+		"aktualisierungsdatum": "2024-12-20T03:23:09",
+		"id": 11173
+	},
+	{
+		"template": "line001",
+		"data-id": 11174,
+		"chart-id": 11174,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 293 844. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2023 auf total 598 236 Stunden.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.18",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_018",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:14",
+		"id": 11174
+	},
+	{
+		"template": "line001",
+		"data-id": 11175,
+		"chart-id": 11175,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
+		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2023 verglichen mit dem Vorjahr leicht auf 278 gesunken. Zu deren Gunsten wurden an insgesamt 73 521 Tagen Pflegeleistungen erbracht.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#entschaedigung-bei-pflege-und-betreuung-zu-hause' target = '_blank'>Pflegebeiträge</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.24",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_024",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:20",
 		"id": 11175
 	},
 	{
@@ -444,8 +444,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
-		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 59,2 Mio. Franken, derjenige der Krankenversicherer 61,2 Mio. Franken und die kantonale Restfinanzierung 48,4 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 336,6 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354,0 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -459,20 +459,20 @@ var indikatoren = [
 		"description": "Finanzierung der Pflegeheime",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11176",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.12",
+		"kuerzelKunde": "1.8",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_012",
+		"orderKey": "01_01_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:46",
+		"aktualisierungsdatum": "2024-12-20T03:23:24",
 		"id": 11176
 	},
 	{
@@ -483,8 +483,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
-		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 blieb das Finanzierungsvolumen mit total 3,9 Mio. Franken gegenüber dem Vorjahr unverändert. Davon finanzierten der Kanton bzw. die Gemeinden 2 Mio. Franken, die Krankenversicherer 0,8 Mio. Franken und die Tagesgäste 1,1 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "2023 stieg das Finanzierungsvolumen mit total 4,2 Mio. Franken gegenüber dem Vorjahr um 0,3 Mio. Davon finanzierten der Kanton bzw. die Gemeinden 2,1 Mio. Franken, die Krankenversicherer 0,9 Mio. Franken und die Tagesgäste 1,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -497,20 +497,20 @@ var indikatoren = [
 		"description": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11177",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.13",
+		"kuerzelKunde": "1.16",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_013",
+		"orderKey": "01_01_00_00_00_016",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:48",
+		"aktualisierungsdatum": "2024-12-20T03:23:13",
 		"id": 11177
 	},
 	{
@@ -521,8 +521,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
-		"subtitle": "Mio. CHF, Basel-Stadt",
-		"lesehilfe": "2022 sind die Spitex-Kosten im Vergleich zum Vorjahr leicht zurückgegangen und zwar auf 60,2 Mio. Franken. Im Jahr 2022 lag der grösste Beitrag mit 33,6 Mio. Franken bei den Krankenversicherern, gefolgt vom Kanton/von den Gemeinden mit 23,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,1 Mio. Franken.",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 24,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -535,20 +535,20 @@ var indikatoren = [
 		"description": "Finanzierung der Spitex-Leistungen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11178",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.14",
+		"kuerzelKunde": "1.22",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_014",
+		"orderKey": "01_01_00_00_00_022",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:49",
+		"aktualisierungsdatum": "2024-12-20T03:23:18",
 		"id": 11178
 	},
 	{
@@ -560,7 +560,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,10 Franken. Der Kanton zahlte im Jahr 2022 2,1 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. auf die Stadt Basel.",
+		"lesehilfe": "Im Jahr 2023 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,2 Franken. Der Kanton zahlte im Jahr 2023 2,3 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. Franken auf die Stadt Basel.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -573,20 +573,20 @@ var indikatoren = [
 		"description": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11179",
+		"kuerzel": "",
 		"kennzahlenset": "Gesundheitsversorgung",
-		"kuerzelKunde": "1.15",
+		"kuerzelKunde": "1.25",
 		"stufe1": "1 Langzeitpflege",
 		"stufe2": "1.2 Kennzahlen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "01_01_00_00_00_015",
+		"orderKey": "01_01_00_00_00_025",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:15:50",
+		"aktualisierungsdatum": "2024-12-20T03:23:20",
 		"id": 11179
 	},
 	{
@@ -598,7 +598,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittliche Dauer eines stationären Aufenthalts baselstädtischer Patientinnen und Patienten",
 		"subtitle": "in Basler Spitälern im zeitlichen Verlauf",
-		"lesehilfe": "Im Jahr 2022 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer Patientin bzw. eines Patienten aus dem Stadtkanton in der Akutsomatik durchschnittlich 7,0 Tage, in der Psychiatrie 32,2 Tage und in der Rehabilitation 22,9 Tage.",
+		"lesehilfe": "Im Jahr 2023 dauerte im Kanton Basel-Stadt ein stationärer Aufenthalt einer Patientin bzw. eines Patienten aus dem Stadtkanton in der Akutsomatik durchschnittlich 6,7 Tage, in der Psychiatrie 33,5 Tage und in der Rehabilitation 23,1 Tage.",
 		"erlaeuterungen": "Die durchschnittliche Dauer eines stationären Aufenthalts ist in Tagen angegeben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -621,12 +621,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_023",
+		"orderKey": "02_02_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:07",
+		"aktualisierungsdatum": "2024-12-20T03:23:27",
 		"id": 11182
 	},
 	{
@@ -638,7 +638,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Stationäre Spitalaustritte der baselstädtischen Wohnbevölkerung",
 		"subtitle": "im zeitlichen Verlauf in Abhängigkeit vom Spitalstandort",
-		"lesehilfe": "Im Jahr 2022 erfolgten 38 796 (88,5%) der insgesamt 43 834 (100%) Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
+		"lesehilfe": "Im Jahr 2023 erfolgten 38 869 (89,1%) der insgesamt 43 604 Austritte baselstädtischer Patientinnen und Patienten nach einer stationären Behandlung aus einem Basler Spital.",
 		"erlaeuterungen": "Gezählt werden die Austritte aus einer stationären Behandlung, um Doppelzählungen zu vermeiden (ein Patient kann beispielsweise im Jahr 2021 in ein Spital eintreten und erst im Folgejahr 2022 austreten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -661,12 +661,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_024",
+		"orderKey": "02_02_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:10",
+		"aktualisierungsdatum": "2024-12-20T03:23:27",
 		"id": 11183
 	},
 	{
@@ -677,8 +677,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Prozentuale Verteilung der stationären Behandlungen und des Case-Mix nach Leistungsbereichen",
-		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2022",
-		"lesehilfe": "Im Jahr 2022 sind 44,8% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 34,3% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
+		"subtitle": "bei baselstädtischen Patientinnen und Patienten in Basler Akutspitälern im Jahr 2023",
+		"lesehilfe": "Im Jahr 2023 sind 45,7% der stationären, akutsomatischen, nach Swiss-DRG abgerechneten Behandlungen baselstädtischer Patientinnen und Patienten dem Leistungsbereich «Basispaket Chirurgie und innere Medizin» zugeordnet. Bei der Abrechnung entsprechen diese Behandlungen 36,1% (Case-Mix) des gesamten SwissDRG-Abgeltungsvolumens.",
 		"erlaeuterungen": "Der Case-Mix beschreibt den gesamten Schweregrad der abgerechneten Behandlungsfälle. Er ergibt sich aus der Summe der Kostengewichte der Fälle und kann als Vergleichswert für die Fallschwere, also den Gesamtschweregrad der Fälle eines Spitals oder - wie in der Grafik - eines Leistungsbereichs dienen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -701,12 +701,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_025",
+		"orderKey": "02_02_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:12",
+		"aktualisierungsdatum": "2024-12-20T03:23:28",
 		"id": 11184
 	},
 	{
@@ -717,9 +717,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Schweregrad und Komplexität",
-		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2022",
-		"lesehilfe": "Im Jahr 2022 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,26. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,93.",
-		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach Swiss DRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) ist für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (zum Beispiel die Universitäre Altersmedizin Felix Platter) oder auf die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen oder mit chronisch fortschreitenden Krankheiten ausgerichtet sind (z. B. das Palliativzentrum Hildegard).",
+		"subtitle": "CMI und PCCL der baselstädtischen Spitäler aller stationären Patienten, 2023",
+		"lesehilfe": "Im Jahr 2023 betrug der durchschnittliche ökonomische Schweregrad gemäss Case-Mix-Index (CMI) über alle akutsomatischen Spitäler des Kantons Basel-Stadt 1,21. Der durchschnittliche patientenbezogene Schweregrad nach PCCL betrug 0,90.",
+		"erlaeuterungen": "Der Case-Mix (CM) beschreibt in der Akutsomatik den gesamten Schweregrad der nach SwissDRG abgerechneten Behandlungsfälle eines Spitals. Er ergibt sich aus der Summe der Kostengewichte der Fälle eines Spitals.<br>Dividiert man den Case-Mix durch die Anzahl Fälle, erhält man den Case-Mix-Index (CMI), d. h. das durchschnittliche Kostengewicht der Fälle eines Spitals. Der CMI stellt einen Vergleichswert für die durchschnittliche Fallschwere und den damit verbundenen zeitlichen, personellen und materiellen Ressourcenverbrauch resp. Behandlungsaufwand dar (ökonomischer Schweregrad).<br>Der PCCL (Patient Complication and Comorbidity Level) oder auch patientenbezogener Schweregrad, errechnet sich in einem komplexen Verfahren aus Bewertungen von Nebendiagnosen und Komplikationen (CCL) und liegt zwischen 0 (keine) und 6 (schwerste Nebendiagnosen und/oder Komplikationen). Somit ist der PCCL ein Mass für die durchschnittliche Krankheitslast resp. Multimorbidität der stationär behandelten Patientinnen und Patienten eines Spitals.<br>Sowohl der berechnete ökonomische Schweregrad CMI wie auch der patientenbezogene Schweregrad PCCL bewegen sich im Rahmen der Werte, die für einen Stadtkanton zu erwarten sind. Beispielsweise werden im Universitätsspital Basel häufig überdurchschnittlich komplexe Fälle mit entsprechend hohem Ressourcenverbrauch behandelt. Dies resultiert in einem Case-Mix-Index (CMI) grösser als 1,0.  <br>Patientinnen und Patienten mit hoher Krankheitslast und damit einem hohen PCCL-Wert (grösser als 1) sind für Spitäler resp. Leistungsbereiche zu erwarten, die auf die Behandlung von Betagten (z. B. Universitäre Altersmedizin Felix Platter) oder Menschen mit unheilbaren, lebensbedrohlichen oder chronisch fortschreitenden Krankheiten (z. B. Palliativzentrum Hildegard) ausgerichtet sind .",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
@@ -732,8 +732,8 @@ var indikatoren = [
 		],
 		"description": "Schweregrad und Komplexität",
 		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kuerzel": "I.14.2.11185",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.11185",
 		"kennzahlenset": "Gesundheitsversorgung",
 		"kuerzelKunde": "2.6",
 		"stufe1": "2 Spitalversorgung",
@@ -741,12 +741,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_026",
+		"orderKey": "02_02_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:29",
 		"id": 11185
 	},
 	{
@@ -756,22 +756,22 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Spitäler",
-		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2022, Basel-Stadt",
-		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2022 das Universitätsspital Basel mit 40 595 von insgesamt 85 532 Austritten im Kanton Basel-Stadt.",
+		"title": "Spitalstandorte",
+		"subtitle": "Standorte und Anzahl stationärer Austritte im Jahr 2023, Basel-Stadt",
+		"lesehilfe": "Die meisten Austritte aus einer stationären Behandlung verzeichnete im Jahr 2023 das Universitätsspital Basel mit 41 110 von insgesamt 87 072 Austritten im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Spitäler mit Standort im Kanton Basel-Stadt und deren jeweilige Anzahl an Austritten aus einer stationären Behandlung im angegebenen Jahr. <br>Zur Bestimmung der Anzahl stationärer Behandlungen eines Spitals in einem bestimmten Zeitraum wird die Anzahl der Austritte während dieses Zeitraums herangezogen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
 		"externalLinks": [
 			"Weitere Kennzahlen zu Spitälern auf der <a href = 'https://www.statistik.bs.ch/zahlen/tabellen/14-gesundheit/einrichtungen.html' target = '_blank'>Internetseite des Statistischen Amtes Basel-Stadt</a>",
-			"<a href = 'https://www.gesundheitsversorgung.bs.ch/spitaeler/spitalplanung/spitalliste.html' target = '_blank'>Spitalliste</a>"
+			"<a href = 'https://www.bs.ch/gesundheitsdepartement/bereich-gesundheitsversorgung/spitalversorgung/spitalplanung#spitalliste' target = '_blank'>Spitalliste</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Spitäler",
+		"description": "Spitalstandorte",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"kuerzel": "I.14.1.11897",
@@ -782,12 +782,12 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "02_02_00_00_00_021",
+		"orderKey": "02_02_00_00_00_001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-12-20T09:16:05",
+		"aktualisierungsdatum": "2024-12-20T03:23:26",
 		"id": 11897
 	},
 	{
@@ -915,7 +915,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Basel-Stadt und Umgebung",
-		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2020 bei 2,8. Er liegt damit höher als in der Agglomeration, wo er 1,83 beträgt.",
+		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2023 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,85 beträgt.",
 		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen. Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (4,5 für PM10, 4,5 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -929,7 +929,7 @@ var indikatoren = [
 		],
 		"description": "Langzeitbelastungsindex",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Lärm",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-7",
@@ -943,7 +943,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:33",
+		"aktualisierungsdatum": "2024-12-20T03:23:34",
 		"id": 11908
 	},
 	{
@@ -1007,7 +1007,7 @@ var indikatoren = [
 		],
 		"description": "Revitalisierungsrate Oberflächengewässer",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-2",
@@ -1021,7 +1021,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:04",
+		"aktualisierungsdatum": "2024-12-20T03:23:29",
 		"id": 11910
 	},
 	{
@@ -1147,7 +1147,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Fruchtfolgeflächen",
 		"subtitle": "in Hektaren, Basel-Stadt",
-		"lesehilfe": "2023 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
+		"lesehilfe": "2024 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
 		"erlaeuterungen": "Fruchtfolgeflächen (FFF) sind die wertvollsten Landwirtschaftsflächen. Der vom Bund im <a href='http://www.are.admin.ch/are/de/home/raumentwicklung-und-raumplanung/strategie-und-planung/konzepte-und-sachplaene/sachplaene-des-bundes/sachplan-fruchtfolgeflaechen-sp-fff.html' target='_blank'>Sachplan Fruchtfolgeflächen</a> geforderte Mindestumfang an FFF von 240 ha im Kanton Basel-Stadt ist gesichert.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
@@ -1159,7 +1159,7 @@ var indikatoren = [
 		],
 		"description": "Fruchtfolgeflächen",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Landwirtschaft",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 12-1",
@@ -1173,7 +1173,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:08",
+		"aktualisierungsdatum": "2025-01-07T09:34:21",
 		"id": 11915
 	},
 	{
@@ -1185,7 +1185,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "2022 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11,3 Mio. m<sup>3</sup>.",
+		"lesehilfe": "2023 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 12,2 Mio. m<sup>3</sup>.",
 		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
@@ -1197,7 +1197,7 @@ var indikatoren = [
 		],
 		"description": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-1",
@@ -1211,7 +1211,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:30",
 		"id": 11916
 	},
 	{
@@ -1223,7 +1223,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2022 auf gesamthaft 20,9 Mio. m<sup>3</sup>. Davon entfielen 12,4 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2023 auf gesamthaft 20,7 Mio. m<sup>3</sup>. Davon entfielen 13,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
 		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
@@ -1235,7 +1235,7 @@ var indikatoren = [
 		],
 		"description": "Wasserverbrauch Gewerbe und Industrie",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-2",
@@ -1249,7 +1249,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:31",
 		"id": 11917
 	},
 	{
@@ -1261,8 +1261,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Temperatur des Grundwassers beträgt 2022 rund 14,9 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 12,7 und 17,3 °C.",
-		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell 82) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
+		"lesehilfe": "2023 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,3 und 17,6 °C.",
+		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell rund 80) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5%- und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1273,7 +1273,7 @@ var indikatoren = [
 		],
 		"description": "Wassertemperatur Grundwasser",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-3",
@@ -1287,7 +1287,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-27T09:25:28",
+		"aktualisierungsdatum": "2024-12-20T03:23:32",
 		"id": 11918
 	},
 	{
@@ -1717,6 +1717,274 @@ var indikatoren = [
 		"id": 12602
 	},
 	{
+		"template": "line001",
+		"data-id": 12610,
+		"chart-id": 12610,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken Pestalozzi (+2,4%), Kannenfeld (+0,2%) und Landskron (-1,5%) ist die Bevölkerung 2023 im Vergleich zu 2004 nahezu gleichgeblieben, die Bezirke Lysbüchel (+70,9%) und Friedmatt (+12,6%) verzeichneten hingegen grössere Zunahmen. Im Gesamtkanton hat 2023 die Bevölkerungszahl im Vergleich zu 2004 um 9,5% zugenommen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.01",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:53",
+		"id": 12610
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12611,
+		"chart-id": 12611,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Bezirk Friedmatt, 2023",
+		"lesehilfe": "Im Bezirk Friedmatt des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 49-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02a",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:54",
+		"id": 12611
+	},
+	{
+		"template": "line001",
+		"data-id": 12612,
+		"chart-id": 12612,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Jugendquotient",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Zwischen 2004 und 2023 ist der Jugendquotient im Bezirk Landskron von 28,2 auf 21,8 gesunken, im Bezirk Lysbüchel von 29,3 auf 31,6 gestiegen. Im Jahr 2023 beträgt der Jugendquotient in der Stadt Basel 25,9.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Agglomeration"
+		],
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.03",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:58",
+		"id": 12612
+	},
+	{
+		"template": "line001",
+		"data-id": 12613,
+		"chart-id": 12613,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Altersquotient",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Der Altersquotient ist 2023 im Bezirk Friedmatt am höchsten (42,3) und im Bezirk Lysbüchel am tiefsten (8,9). Im Friedmattbezirk ist er verglichen mit 2004 am stärksten gesunken (2004: 48,2).",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel",
+			"Agglomeration"
+		],
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.04",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:58",
+		"id": 12613
+	},
+	{
+		"template": "line001",
+		"data-id": 12614,
+		"chart-id": 12614,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ausländeranteil",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken Kannenfeld, Friedmatt und Pestalozzi ist der Ausländeranteil in den letzten Jahren in einem ähnlichen Umfang gestiegen wie in der Stadt Basel. Eine Abnahme zeigt sich in den Bezirken Lysbüchel und Landskron.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Ausländeranteil",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.05",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:59",
+		"id": 12614
+	},
+	{
+		"template": "template001",
+		"data-id": 12615,
+		"chart-id": 12615,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ausländer nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken Pestalozzi und Kannenfeld bildeten in den letzten Jahren jeweils die Deutschen die grösste ausländische Bevölkerungsgruppe. In den Bezirken Lysbüchel und Landskron waren es Personen aus den EU-17 + EFTA-Staaten und im Bezirk Friedmatt Türkinnen und Türken.",
+		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Ausländer nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.07",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_011",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:01",
+		"id": 12615
+	},
+	{
+		"template": "line001",
+		"data-id": 12616,
+		"chart-id": 12616,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Sesshaftigkeit",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Die höchste Sesshaftigkeit im Wohnviertel St. Johann liegt Ende 2023 mit 36,6% im Bezirk Friedmatt. Gegenüber 2020 ist sie dort um fast drei Prozentpunkte gesunken. Die niedrigste Sesshaftigkeit weist mit 19,2% der Bezirk Lysbüchel auf.",
+		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.12616",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.08",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_012",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:02",
+		"id": 12616
+	},
+	{
 		"template": "template001",
 		"data-id": 12617,
 		"chart-id": 12617,
@@ -1751,8 +2019,1508 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-10T08:47:03",
+		"aktualisierungsdatum": "2024-12-18T11:11:15",
 		"id": 12617
+	},
+	{
+		"template": "template001",
+		"data-id": 12618,
+		"chart-id": 12618,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 weist das Wohnviertel St. Johann einen positiven Wanderungssaldo auf. Dieser ist auf Zuzüge aus dem Ausland zurückzuführen.",
+		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bärschwil, Bättwil, Bennwil, Biel-Benken, Binningen, Birsfelden, Blauen, Böckten, Bottmingen, Breitenbach, Bretzwil, Brislach, Bubendorf, Buckten, Büren, Burg im Leimental, Büsserach, Buus, Diepflingen, Dittingen, Dornach, Duggingen, Ettingen, Fehren, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Hellikon, Hemmiken, Hersberg, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kleinlützel, Lampenberg, Laufen, Lausen, Lauwil, Liestal, Lupsingen, Magden, Maisprach, Meltingen, Metzerlen-Mariastein, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Nunningen, Nusshof, Oberdorf, Obermumpf, Oberwil, Olsberg, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rheinfelden, Rickenbach, Rodersdorf, Röschenz, Rümlingen, Rünenberg, Schönenbuch, Seltisberg, Seewen, Sissach, Tecknau, Tenniken, Therwil, Titterten, Thürnen, Wahlen, Wegenstetten, Wenslingen, Wintersingen, Witterswil, Wittinsburg, Zeiningen, Ziefen, Zullwil, Zunzgen, Zuzgen und Zwingen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.09",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_013",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:03",
+		"id": 12618
+	},
+	{
+		"template": "line001",
+		"data-id": 12619,
+		"chart-id": 12619,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Segregationsindex nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 weisen im Wohnviertel St. Johann Personen aus arabischen Ländern (41,9) gefolgt von der Türkei (41,3) und afrikanischen Ländern (38,5) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne statistische Blöcke im Wohnviertel St. Johann konzentriert sind. Im Vergleich zum Jahr 2004 haben die Segregationsindices fast aller Ländergruppen abgenommen.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Gebiet des Wohnviertels St. Johann von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Gebiet des Wohnviertels St. Johann verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist. Bei kleinräumigen Betrachtungen können die Werte infolge kleiner Gruppengrössen über die Jahre stark schwanken.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Segregationsindex nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.11",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_015",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:04",
+		"id": 12619
+	},
+	{
+		"template": "template001",
+		"data-id": 12620,
+		"chart-id": 12620,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Religionszugehörigkeit",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In allen Bezirken des Wohnviertels St. Johann bildeten in den Jahren 2021 bis 2023 die Einwohner, die keiner oder einer nicht öffentlich-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe.",
+		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: evangelisch-reformiert, römisch-katholisch, christkatholisch, israelitisch.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Religionszugehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Religionen",
+		"kuerzel": "I.01.TRUN.12620",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.06",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_010",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:00",
+		"id": 12620
+	},
+	{
+		"template": "line001",
+		"data-id": 12621,
+		"chart-id": 12621,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Mittelwert und Median des Reineinkommens",
+		"subtitle": "in Franken, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Steuerjahr 2021 beträgt der Mittelwert des Reineinkommens im Bezirk Kannenfeld 65 377 Franken (Median: 49 167), der Mittelwert für Landskron liegt bei 48 535 Franken (Median: 39 469). Über die Jahre hat der Mittelwert im Bezirk Lysbüchel relativ stark zugenommen. Der Mittelwert für die Stadt Basel beträgt 73 241 Franken (Median: 49 666).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Mittelwert und Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.12621",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.06",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:12",
+		"id": 12621
+	},
+	{
+		"template": "line001",
+		"data-id": 12622,
+		"chart-id": 12622,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Mittelwert und Median des Reinvermögens",
+		"subtitle": "in Franken, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind bei fast allen Wohnbezirken des Wohnviertels St. Johann über die Jahre gestiegen. 2021 verzeichnet der Bezirk Kannenfeld mit 356 919 Franken den höchsten Mittelwert (Median: 27 595 Franken). Den tiefsten weist der Bezirk Landskron mit 94 373 Franken auf (Median: 6 352 Franken). Der Mittelwert für die Stadt Basel beträgt 565 189 Franken (Median: 20 870).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Einkünfte von Quellenbesteuerten unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Mittelwert und Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.12622",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.07",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:13",
+		"id": 12622
+	},
+	{
+		"template": "line001",
+		"data-id": 12623,
+		"chart-id": 12623,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Steuerertrag durch Zu- und Wegzüger",
+		"subtitle": "in Franken, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag (des Vorjahres) der Wegzüger ist in den Bezirken des Wohnviertels St. Johann überwiegend positiv. Es kommen allerdings auch vereinzelte grössere negative Saldi vor. Im Jahr 2021 ergab sich für den Bezirk Landskron rechnerisch ein Gewinn von rund 517 000 Franken (bei 164 Weg- und 193 Zuzügern), im Bezirk Lysbüchel hingegen ein Verlust von ca. 332 000 Franken (bei 61 Weg- und 61 Zuzügern).",
+		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Steuerertrag durch Zu- und Wegzüger",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.12623",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.08",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:14",
+		"id": 12623
+	},
+	{
+		"template": "template001",
+		"data-id": 12624,
+		"chart-id": 12624,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnungen nach Zimmerzahl",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Jahr 2023 gab es im Wohnviertel St. Johann 11 442 Wohnungen. 4 049 (35,4%) davon waren Vierzimmerwohnungen.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12624",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.03",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:17",
+		"id": 12624
+	},
+	{
+		"template": "template001",
+		"data-id": 12625,
+		"chart-id": 12625,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnungen nach Belegungsart",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Wohnviertel St. Johann überwiegt 2023 der Mietwohnungsanteil mit 78,7%. Der Anteil an Genossenschaftswohnungen betrug 10,1%, was unter dem Wert für die Stadt Basel (11,0%) lag. Selbstbewohnte Eigentümerwohnungen weisen einen Anteil von 9,7% auf.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnungen nach Belegungsart",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12625",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.04",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:18",
+		"id": 12625
+	},
+	{
+		"template": "line001",
+		"data-id": 12626,
+		"chart-id": 12626,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnfläche pro Person",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Die mittlere Wohnfläche des Wohnviertels St. Johann liegt 2023 mit 36,8 m² tiefer als in der Stadt Basel (40,7 m²). Nach Bezirk betrachtet, zeigen sich Unterschiede: Im Bezirk Kannenfeld liegt die mittlere Wohnfläche mit 42,7 m² über dem städtischen Durchschnitt, im Bezirk Landskron mit 34,2 m² darunter.",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12626",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.02",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:16",
+		"id": 12626
+	},
+	{
+		"template": "line001",
+		"data-id": 12627,
+		"chart-id": 12627,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Leerwohnungsquote",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die Leerwohnungsquote im Wohnviertel St. Johann liegt für 2024 mit 0,79% auf ähnlichem Niveau wie jene der Stadt Basel mit 0,77%.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Leerwohnungsquote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12627",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.05",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:19",
+		"id": 12627
+	},
+	{
+		"template": "line001",
+		"data-id": 12628,
+		"chart-id": 12628,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nettomietpreise nach Wohnviertel",
+		"subtitle": "in Franken pro m<sup>2</sup>, Basel-Stadt, 2018-2022",
+		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel St. Johann bei ungefähr 17,9 Franken.",
+		"erlaeuterungen": "Der Quadratmeter-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettomietpreise nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.12628",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.06",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:20",
+		"id": 12628
+	},
+	{
+		"template": "line001",
+		"data-id": 12629,
+		"chart-id": 12629,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Einfamilienhäuser",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Der Einfamilienhausanteil im Wohnviertel St. Johann liegt unter dem städtischen Durchschnitt, die Bezirke weisen aber grosse Unterschiede auf. Im Bezirk Friedmatt ist der Anteil mit rund 60% relativ hoch. In den Bezirken Pestalozzi, Kannenfeld und Lysbüchel ist er sehr niedrig.",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent. Die Daten stamme aus dem kantonalen Gebäude- und Wohnungsregister GWR.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil Einfamilienhäuser",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12629",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.07",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:20",
+		"id": 12629
+	},
+	{
+		"template": "template001",
+		"data-id": 12630,
+		"chart-id": 12630,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Umgebaute Wohnungen",
+		"subtitle": "nach Art des Umbaus, Wohnviertel St. Johann",
+		"lesehilfe": "Im Wohnviertel St. Johann kamen 2023 73 Wohnungen neu hinzu (Umbausaldo). Insbesondere Umnutzungen gewerblich genutzter Objekte in Wohnungen sowie Ausbauten trugen dazu bei.",
+		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Umgebaute Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12630",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.08",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:21",
+		"id": 12630
+	},
+	{
+		"template": "template001",
+		"data-id": 12631,
+		"chart-id": 12631,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die Nettowohnungsproduktion wurde 2010, 2018, 2021 und 2022 massgeblich von grossen Neubauprojekten beeinflusst. 2023 enstand aus einem Lagergebäude ein Wohngebäude mit 64 Wohnungen.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12631",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.09",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:22",
+		"id": 12631
+	},
+	{
+		"template": "template001",
+		"data-id": 12632,
+		"chart-id": 12632,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Genossenschaftswohnungen",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Wohnviertel St. Johann sind 2023 10,1% der Wohnungen Genossenschaftswohnungen. Das ist nahe am städtischen Durchschnitt von 11,0%. Der Schwerpunkt des genossenschaftlichen Wohnungsbaus liegt im Wohnbezirk Friedmatt mit einem Anteil von 29,9%. Der Wohnbezirk Kannenfeld dagegen weist keine Genossenschaftswohnungen auf.",
+		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Genossenschaftswohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12632",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "4.10",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_010",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:23",
+		"id": 12632
+	},
+	{
+		"template": "line001",
+		"data-id": 12633,
+		"chart-id": 12633,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2022 findet man 5,9% der Beschäftigen der Stadt Basel im Bezirk Lysbüchel und 0,3% im Bezirk Kannenfeld. Insgesamt entfallen 10,0% der Beschäftigung der Stadt Basel auf das Wohnviertel St. Johann.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.12633",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.01",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:05",
+		"id": 12633
+	},
+	{
+		"template": "line001",
+		"data-id": 12634,
+		"chart-id": 12634,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Beschäftigung nach ausgewählten Branchen",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die wichtigste Branche im Wohnviertel St. Johann ist die pharmazeutische Industrie  mit 7 883 Beschäftigten im Jahr 2022, gefolgt von den sonstigen wirtschaftlichen Dienstleistungen (2 742) und der Schiff- und Luftfahrt (2 313). Die Gastronomie (2 306), das Gesundheitswesen (2 146) sowie die Lagerei (1 692) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handelt kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte (oder Adresse) tätig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Beschäftigung nach ausgewählten Branchen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.12634",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.03",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:09",
+		"id": 12634
+	},
+	{
+		"template": "template001",
+		"data-id": 12635,
+		"chart-id": 12635,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Rotlichtsalons",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im St.Johann gab es im Jahr 2023 insgesamt 7 Rotlichtsalons (2007 waren es deren 22). In den Bezirken Landskron und Pestalozzi waren es drei bzw. zwei, in den Bezirken Kannenfeld und Friedmatt je einer. Im Bezirk Lysbüchel wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2023 im Kanton Basel-Stadt 130 Rotlichtsalons registriert.",
+		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anzahl Rotlichtsalons",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.12635",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.09",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:14",
+		"id": 12635
+	},
+	{
+		"template": "line001",
+		"data-id": 12636,
+		"chart-id": 12636,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nettoerwerbstätigenquote",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die Nettoerwerbstätigenquote im Wohnviertel St. Johann betrug im Durchschnitt der Jahre 2018 bis 2022 71,5%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettoerwerbstätigenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.12636",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.04",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:09",
+		"id": 12636
+	},
+	{
+		"template": "line001",
+		"data-id": 12637,
+		"chart-id": 12637,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Bezirk Lysbüchel hat die Bruttogeschossfläche für Wohnen zwischen 1995 und 2022 von 94 705 m<sup>2</sup> auf 117 226 m<sup>2</sup> zugenommen. Diejenige für Arbeiten ist von 888 332 m<sup>2</sup> auf 693 764 m<sup>2</sup> gesunken. In der Stadt Basel hat die Bruttogeschossfläche sowohl für Wohnen als auch für Arbeiten zwischen 1995 und 2022 zugenommen.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Bruttogeschossfläche Wohnen und Arbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.12637",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.02",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:06",
+		"id": 12637
+	},
+	{
+		"template": "line001",
+		"data-id": 12638,
+		"chart-id": 12638,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nettoerwerbsquote der Frauen",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Im Wohnviertel St. Johann lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2018 bis 2022 bei 72,3%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 74,0%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettoerwerbsquote der Frauen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.12638",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "3.05",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:10",
+		"id": 12638
+	},
+	{
+		"template": "line001",
+		"data-id": 12639,
+		"chart-id": 12639,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Sozialhilfequote",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Der Bezirk Landskron weist 2023 mit 8,2% die höchste Sozialhilfequote im St. Johann auf. Im Bezirk Kannenfeld liegt sie mit 2,5% am tiefsten. Gegenüber 2017 ist die Sozialhilfequote in allen Bezirken des St.Johann gesunken, am stärksten im Bezirk Landskron.",
+		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Sozialhilfequote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe",
+		"kuerzel": "I.13.3.12639",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "5.04",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:27",
+		"id": 12639
+	},
+	{
+		"template": "line001",
+		"data-id": 12640,
+		"chart-id": 12640,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Sek P-Quote nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2024 im Wohnviertel St. Johann mit 13,1% tiefer als jene der Schweizerinnen und Schweizer (37,5%). Für die Stadt Basel beträgt das Total 2024 36,7%.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Sek P-Quote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.12640",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "5.02",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:25",
+		"id": 12640
+	},
+	{
+		"template": "line001",
+		"data-id": 12641,
+		"chart-id": 12641,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "In den Bezirken Pestalozzi und Kannenfeld ist der Anteil deutschsprachiger Kinder höher als im städtischen Durchschnitt, in den Bezirken Lysbüchel, Landskron und Friedmatt dagegen tiefer.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.12641",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "5.01",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:24",
+		"id": 12641
+	},
+	{
+		"template": "line001",
+		"data-id": 12642,
+		"chart-id": 12642,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018-2022",
+		"lesehilfe": "Im Wohnviertel St. Johann betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2018 bis 2022 im Mittel 43,9 Prozent.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss «Tertiärstufe» an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Die Frage zur höchsten abgeschlossenen Ausbildung wurde im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.12642",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "5.03",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:25",
+		"id": 12642
+	},
+	{
+		"template": "line001",
+		"data-id": 12643,
+		"chart-id": 12643,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung",
+		"subtitle": "Wohnviertel St. Johann",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel St. Johann beziehen Ende des Jahres 2023 Familienmietzinsbeiträge (FAMI). In 20,9% der Haushalte bezieht mindestens eine Person Prämienverbilligung (PV). Zum Vergleich: Die FAMI-Quote der Stadt-Basel liegt bei 2,2%, die PV-Quote bei 16,2%.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.12643",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "5.05",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:28",
+		"id": 12643
+	},
+	{
+		"template": "template001",
+		"data-id": 12644,
+		"chart-id": 8080,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Bodenbedeckung nach Nutzungsart",
+		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2024 sind im Bezirk Lysbüchel 17,6% der Fläche Grünflächen. 2005 waren es 6,7%.",
+		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Bodenbedeckung nach Nutzungsart",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.12644",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.01",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-01-07T09:34:20",
+		"id": 12644
+	},
+	{
+		"template": "template001",
+		"data-id": 12645,
+		"chart-id": 12645,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Grünflächen nach Kategorie",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Bezirk Friedmatt (mit dem Kannenfeldpark) macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2024: 250 500 m<sup>2</sup>). Im Bezirk Lysbüchel wuchs die Grünfläche seit 2005 von rund 48 600 auf 128 000 m<sup>2</sup>.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Grünflächen nach Kategorie",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.12645",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.02",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-01-13T12:16:27",
+		"id": 12645
+	},
+	{
+		"template": "map002",
+		"data-id": 12646,
+		"chart-id": 12646,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7701
+		],
+		"title": "Städtischer Wärmeinseleffekt",
+		"subtitle": "im Siedlungsraum, nach Wohnviertel, Basel-Stadt, 2017",
+		"lesehilfe": "Die dichtbebauten innenstädtischen Wohnviertel sind am stärksten vom städtischen Wärmeinseleffekt betroffen: In der Altstadt Grossbasel liegt die berechnete nächtliche (4 Uhr) Lufttemperatur im Mittel 4,5 °C über der mittleren Temperatur im unbebauten Umland (14,2 °C). Aber auch im Siedlungsraum der Gemeinde Riehen ist die Temperatur noch um 1,1 °C erhöht.",
+		"erlaeuterungen": "Die Daten stammen aus der 2019 publizierten Stadtklimaanalyse Basel-Stadt und wurden räumlich für den Siedlungsraum gemäss Zonenplan gemittelt. Es handelt sich um mit einem numerischen Modell berechnete Temperaturwerte in 2 m über Grund für eine stabile sommerliche Hochdruckwetterlage mit wolkenlosem Himmel und geringen Windgeschwindigkeiten.",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch/' target = '_blank'>https://www.stadtklima.bs.ch</a>",
+			"<a href = 'https://map.geo.bs.ch/file_proxy/KL_Stadtklima_Windstroemungsfeld/Endbericht_Basel_Klimaanalyse_Rev09_ohne_Anhang.pdf' target = '_blank'>Bericht Stadtklimaanalyse Kanton Basel-Stadt 2019</a>",
+			"<a href = 'https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_group_layers_Stadtklima%20Basel-Stadt=KL_Stadtklima_Waermeinseleffekt&tree_groups=Stadtklima%20Basel-Stadt' target = '_blank'>Detailierte Klimaanalysekarte im Geoportal Basel-Stadt</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Städtischer Wärmeinseleffekt",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.12646",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.04",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_004",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:33",
+		"id": 12646
+	},
+	{
+		"template": "template001",
+		"data-id": 12648,
+		"chart-id": 12648,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Gebäude nach Energieträger der Hauptheizung",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Mit dem Ausbau des baselstädtischen Fernwärmenetzes nimmt in den Bezirken Friedmatt, Kannenfeld, Landskron, Lysbüchel und Pestalozzi der Anteil fernwärmebeheizter Gebäude zu. Gleichzeitig ist der Einsatz von Heizöl rückläufig.",
+		"erlaeuterungen": "Die Anzahl Gebäude nach Energieträger der Hauptheizung stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Gebäude nach Energieträger der Hauptheizung",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.12648",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.07",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:36",
+		"id": 12648
+	},
+	{
+		"template": "line001",
+		"data-id": 12649,
+		"chart-id": 12649,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Stromverbrauch",
+		"subtitle": "in Gigawattstunden (GWh), Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "2022 betrug der gesamte Stromverbrauch im Bezirk Lysbüchel 35,4 GWh, im flächenmässig kleinsten Bezirk Kannenfeld nur 3,2 GWh.",
+		"erlaeuterungen": "Die kantonale Energiestatistik erscheint seit dem Jahr 2012 im Zweijahresrhythmus. Ausgewiesen werden hier ausschliesslich Endverbräuche in Gigawattstunden (GWh).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stromverbrauch",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.12649",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.06",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:35",
+		"id": 12649
+	},
+	{
+		"template": "line001",
+		"data-id": 12650,
+		"chart-id": 12650,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "2023 waren im Bezirk Pestalozzi im Schnitt 0,33 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 177,9 privaten Personenwagen pro 1 000 Einwohnern.",
+		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Strassen (ASTRA)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Personenwagen pro Haushalt, Motorisierungsgrad",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.12650",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.08",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:37",
+		"id": 12650
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7707,
+		"chart-id": 7707,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Feinstaubbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel St. Johann 84 Personen (0,45% der dortigen Wohnbevölkerung) an ihrem Wohnort Feinstaub-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Feinstaubbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.12651",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.09",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_009",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:38",
+		"id": 12651
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7708,
+		"chart-id": 7708,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Stickoxidbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Rosental 2 170 Personen (11,7% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stickoxidbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.12652",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.10",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:42",
+		"id": 12652
+	},
+	{
+		"template": "line001",
+		"data-id": 12653,
+		"chart-id": 12653,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Freiraumfläche",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Bezirk Friedmatt waren 2024 7,4% der Bezirksfläche Freiraumflächen, in den Bezirken Kannenfeld und Landskron gab es keine Freiraumflächen (Stadt Basel: 3,1%).",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Freiraumfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "7.03",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-01-09T09:33:14",
+		"id": 12653
+	},
+	{
+		"template": "line001",
+		"data-id": 12655,
+		"chart-id": 12655,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Delikte",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2022 wurden im Bezirk Pestalozzi 30 Delikte gemeldet. Im dargestellten Zeitraum wurden in diesem Bezirk 2019 am wenigsten (14) und 2012 am meisten Delikte (45) registriert. In der Stadt Basel gab es im Jahr 2022 1 559 Delikte. Der Minimalwert wurde dort 2020 (1 158), der Maximalwert 2012 (2 069) registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Delikte",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.12655",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "6.01",
+		"stufe1": "6 Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:29",
+		"id": 12655
+	},
+	{
+		"template": "line001",
+		"data-id": 12656,
+		"chart-id": 12656,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Einbruch- und Einschleichdiebstähle",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2022 gab es im Bezirk Pestalozzi 27 Einbruch- oder Einschleichdiebstähle. Im dargestellten Zeitraum wurden in diesem Bezirk 2019 am wenigsten (13) und 2012 am meisten Einbruch- oder Einschleichdiebstähle (39) registriert. In der Stadt Basel gab es im Jahr 2022 1 358 Einbruch- oder Einschleichdiebstähle. Der Minimalwert wurde dort 2020 (995), der Maximalwert 2012 (1 819) registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Einbruch- und Einschleichdiebstähle",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.12656",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "6.02",
+		"stufe1": "6 Sicherheit",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "06_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:30",
+		"id": 12656
+	},
+	{
+		"template": "template001",
+		"data-id": 12657,
+		"chart-id": 12657,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Umzugssaldo",
+		"subtitle": "Wohnviertel St. Johann, nach Bezirk",
+		"lesehilfe": "Im Jahr 2023 weisen die Bezirke Kannenfeld, Landskron und Pestalozzi einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesen Bezirken ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in diese Bezirke. Hingegen weisen 2023 die Bezirke Friedmatt und Lysbüchel positive Umzugssaldi auf. Die hohen Umzugsgewinne im Bezirk Lysbüchel 2022 und 2023 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
+		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Umzugssaldo",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.10",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_014",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:03",
+		"id": 12657
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12611,
+		"chart-id": 12659,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Bezirk Kannenfeld, 2023",
+		"lesehilfe": "Im Bezirk Kannenfeld des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.12659",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02b",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:54",
+		"id": 12659
 	},
 	{
 		"template": "template001",
@@ -1834,6 +3602,443 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-07-26T09:12:53",
 		"id": 12715
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12611,
+		"chart-id": 12719,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Bezirk Landskron, 2023",
+		"lesehilfe": "Im Bezirk Landskron des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02c",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:55",
+		"id": 12719
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12611,
+		"chart-id": 12720,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Bezirk Lysbüchel, 2023",
+		"lesehilfe": "Im Bezirk Lysbüchel des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02d",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:56",
+		"id": 12720
+	},
+	{
+		"template": "populationPyramid001",
+		"data-id": 12611,
+		"chart-id": 12721,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung nach Alter und Geschlecht",
+		"subtitle": "Bezirk Pestalozzi, 2023",
+		"lesehilfe": "Im Bezirk Pestalozzi des Wohnviertels St. Johann sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen, was auch der Bevölkerungsverteilung im Gesamtkanton entspricht.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen) und Geschlecht.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring St. Johann",
+		"kuerzelKunde": "2.02e",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:10:57",
+		"id": 12721
+	},
+	{
+		"template": "line001",
+		"data-id": 12727,
+		"chart-id": 12727,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegetage nach Pflegestufen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2023: 200 652 Pflegetage) zu finden. Danach folgt die Stufe 8 (2023: 177 085 Pflegetage).<br><br>Diese Reihenfolge ist seit 2017 unverändert.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#kosten-betreuung-und-pflege-im-pflegeheim' target = '_blank'>Pflegeheim Tagestaxen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegetage nach Pflegestufen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.4",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:22",
+		"id": 12727
+	},
+	{
+		"template": "line001",
+		"data-id": 12730,
+		"chart-id": 12730,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die meisten Pflegetage sind in Stufe 4 (2023: 9 221 Pflegetage) zu finden. Danach folgt die Stufe 6 (2023: 4 285 Pflegetage).",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter' target = '_blank'>Tagestaxen der Tagespflegeeinrichtungen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.12",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_012",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:10",
+		"id": 12730
+	},
+	{
+		"template": "line001",
+		"data-id": 12732,
+		"chart-id": 12732,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Der grösste Anteil (37,4%) der Gäste in Tages- und Nachpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 12,9%. Die durchschnittliche Pflegestufe lag 2023 bei 3,9.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter' target = '_blank'>Tagestaxen der Tagespflegeeinrichtungen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.13",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_013",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:11",
+		"id": 12732
+	},
+	{
+		"template": "line001",
+		"data-id": 12733,
+		"chart-id": 12733,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2023 betrug die Anzahl aller Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450. Der Grossteil der Aufenthaltstage entfiel auf Einwohnerinnen und Einwohner der Stadt Basel (20 975).",
+		"erlaeuterungen": "Aufgrund der geringen Fallzahlen werden die Gemeinden Riehen und Bettingen gemeinsam dargestellt.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.14",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_014",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:11",
+		"id": 12733
+	},
+	{
+		"template": "line001",
+		"data-id": 12734,
+		"chart-id": 12734,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Spezialisierung",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Mehrheit aller Aufenthaltstage fällt seit 2019 auf Plätze in allgemeinen Tages- und Nachtpflegeeinrichtungen. 2023 waren dies 17 511 von 27 450 Tagen.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Spezialisierung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.15",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_015",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:12",
+		"id": 12734
+	},
+	{
+		"template": "line001",
+		"data-id": 12735,
+		"chart-id": 12735,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br><br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.19",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_019",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:15",
+		"id": 12735
+	},
+	{
+		"template": "line001",
+		"data-id": 12736,
+		"chart-id": 12736,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Der Anteil an Pflegeleistungen der Bedarfsabklärung steigt seit 2011 kontinuierlich an (2023: 7,7%). Der Anteil der Leistungen der Behandlungspflge beträgt über die Jahre etwa 31% und bei der Grundpflege etwa 63%.",
+		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung, sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.20",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_020",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-20T03:23:17",
+		"id": 12736
+	},
+	{
+		"template": "line001",
+		"data-id": 12737,
+		"chart-id": 12737,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Pflegestunden Spitex nach Gemeinden",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Der Grossteil wird (2023: 524 270 Pflegestunden) bei Einwohnerinnen und Einwohnern der Stadt Basel erbracht.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Gemeinde"
+		],
+		"description": "Anzahl Pflegestunden Spitex nach Gemeinden",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.21",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_021",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-31T10:43:59",
+		"id": 12737
 	},
 	{
 		"template": "line001",
@@ -2074,6 +4279,46 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-03-19T08:03:18",
 		"id": 2173
+	},
+	{
+		"template": "template001",
+		"data-id": 21847,
+		"chart-id": 21847,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Hitzebedingte Todesfälle",
+		"subtitle": "in Abhängigkeit der Lufttemperatur, Basel-Stadt",
+		"lesehilfe": "Die grösste Anzahl hitzebedingter Todesfälle wird in Basel-Stadt im dargestellten Zeitraum für den bisher wärmsten Sommer 2003 geschätzt: Rund 80 Todesfälle (95%-Konfidenzintervall: 69,9-94,6) werden der Hitze zugeschrieben.",
+		"erlaeuterungen": "Das Bundesamt für Umwelt (BAFU) schätzt mittels <a href='https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNzcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html#chart16366' target='_blank'>attributabler Fallberechnung</a> schweizweit die Anzahl Todesfälle, die statistisch auf die Hitzebelastung in der Schweiz zwischen Mai und September zurückzuführen sind. Hohe Temperaturen und Hitzewellen stellen ein Risiko für die menschliche Gesundheit dar. Hitze kann Erschöpfung und Hitzschlag auslösen sowie bestehende Erkrankungen wie Herz-Kreislauf‑, Atemwegs-, Nieren- oder psychische Erkrankungen verschlimmern.",
+		"quellenangabe": [
+			"Bundesamt für Umwelt (BAFU)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNzcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html#chart16366' target = '_blank'>Hitzebedingte Todesfälle Schweiz</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Hitzebedingte Todesfälle",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-11-28T08:56:42",
+		"id": 21847
 	},
 	{
 		"template": "line001",
@@ -2892,7 +5137,7 @@ var indikatoren = [
 		"title": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
 		"lesehilfe": "92,0% der Bevölkerung sind 2023 sehr oder eher zufrieden mit der Gesundheitsversorgung. Bei Personen ab 70 Jahren liegt die Zufriedenheit mit 96,4% am höchsten.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). «Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). «Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -2917,7 +5162,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:36",
+		"aktualisierungsdatum": "2024-12-31T10:44:13",
 		"id": 2956
 	},
 	{
@@ -4126,7 +6371,7 @@ var indikatoren = [
 		],
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrugen die Freiraumflächen insgesamt 95,74 ha (2,59% der Kantonsfläche). Die Zunahme seit 2021 erfolgte u. a. aufgrund der Öffnung des Novartis Campus und der dortigen Parkanlagen für die Öffentlichkeit. Im Jahr 2013 reduzierten sich die Freiraumflächen vorübergehend aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte bis auf rund 83,9 Hektar. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf 88,5 Hektar.",
+		"lesehilfe": "Im Jahr 2024 betrugen die Freiraumflächen insgesamt 95,28 ha (2,58% der Kantonsfläche). Die Zunahme seit 2021 erfolgte u. a. aufgrund der Öffnung des Novartis Campus und der dortigen Parkanlagen für die Öffentlichkeit. Im Jahr 2013 reduzierten sich die Freiraumflächen vorübergehend aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte bis auf rund 83,9 Hektaren. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf 88,5 Hektaren.",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -4152,7 +6397,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-01T08:57:34",
+		"aktualisierungsdatum": "2025-01-08T09:18:24",
 		"id": 4149
 	},
 	{
@@ -4398,44 +6643,6 @@ var indikatoren = [
 		"id": 4155
 	},
 	{
-		"template": "befragungen001",
-		"data-id": 4156,
-		"chart-id": 4156,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"subtitle": "«Wie zufrieden sind Sie mit der altersangepassten Einrichtung des Wohngebäudes?», Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind gut zwei Drittel der Befragten mit der altersangepassten Einrichtung des Wohngebäudes eher bis sehr zufrieden.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.04156",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzelKunde": "4.2.C",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "05_02_00_00_00_030",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:38",
-		"id": 4156
-	},
-	{
 		"template": "template001",
 		"data-id": 4221,
 		"chart-id": 4221,
@@ -4470,7 +6677,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:48",
+		"aktualisierungsdatum": "2024-12-02T11:33:57",
 		"id": 4221
 	},
 	{
@@ -4511,7 +6718,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:45",
+		"aktualisierungsdatum": "2024-12-02T11:33:55",
 		"id": 4222
 	},
 	{
@@ -4552,7 +6759,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:51",
+		"aktualisierungsdatum": "2024-12-02T11:33:59",
 		"id": 4223
 	},
 	{
@@ -4565,7 +6772,7 @@ var indikatoren = [
 		"title": "Eigenproduktion Strom",
 		"subtitle": "in Gigawattstunden",
 		"lesehilfe": "Die Eigenproduktion von Elektrizität hat von 2010 bis 2020 von 374 auf 477 GWh zugenommen, dies trotz des Rückganges von 12% zwischen 2016 und 2018.",
-		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.",
+		"erlaeuterungen": "Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.<br><br>Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Hinweis Photovoltaik: Während ein Grossteil der durch Photovoltaik erzeugten Elektrizität ins Netz eingespeist wird, wird ein kleiner Teil direkt lokal verbraucht (Eigenverbrauch). Dieser Eigenverbrauch ist jedoch nur teilweise erfasst und bekannt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -4593,7 +6800,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:52",
+		"aktualisierungsdatum": "2024-12-02T11:34:01",
 		"id": 4224
 	},
 	{
@@ -4606,7 +6813,7 @@ var indikatoren = [
 		"title": "Energieimportabhängigkeit",
 		"subtitle": "in Prozent",
 		"lesehilfe": "Die Energieimportabhängigkeit hat seit 1995 kontinuiertlich von 86,4%  auf 66,4% abgenommen.",
-		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung.",
+		"erlaeuterungen": "Anteil der von ausserhalb des Kantons importierten Energie am gesamten Bruttoenergieeinsatz.<br><br>Summe der von ausserhalb des Kantons importierten Energie dividiert durch den gesamten Energieverbrauch. Die kantonale Energiestatistik dient als Datengrundlage der Berechnung. Hinweis: Die Energieproduktion aus der Kehrrichtverbrennung im Kanton Basel-Stadt wird als Eigenproduktion betrachtet. Es ist jedoch zu beachten, dass ein Grossteil der verwerteten Abfälle von ausserhalb des Kantons stammen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -4634,7 +6841,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:54",
+		"aktualisierungsdatum": "2024-12-02T11:34:02",
 		"id": 4225
 	},
 	{
@@ -4676,7 +6883,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:57",
+		"aktualisierungsdatum": "2024-12-02T11:34:05",
 		"id": 4226
 	},
 	{
@@ -4717,7 +6924,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:59",
+		"aktualisierungsdatum": "2024-12-02T11:34:07",
 		"id": 4227
 	},
 	{
@@ -4758,7 +6965,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:00",
+		"aktualisierungsdatum": "2024-12-02T11:34:08",
 		"id": 4228
 	},
 	{
@@ -4771,7 +6978,7 @@ var indikatoren = [
 		"title": "Energieeffizienz",
 		"subtitle": "in Indexwert (Basis 2000 = 100)",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das <a title=\"Bruttoinlandprodukt\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-1701\" target=\"_parent\">Bruttoinlandprodukt</a> (BIP) sowie die <a title=\"Bevölkerung\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-1702\" target=\"_parent\">Bevölkerung</a> (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das <a title=\"Bruttoinlandprodukt\" href=\"https://www.bs.ch/indikatoren-06-1701\" target=\"_parent\">Bruttoinlandprodukt</a> (BIP) sowie die <a title=\"Bevölkerung\" href=\"https://www.bs.ch/indikatoren-06-1702\" target=\"_parent\">Bevölkerung</a> (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
 		],
@@ -4799,7 +7006,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:02",
+		"aktualisierungsdatum": "2024-12-02T11:34:10",
 		"id": 4229
 	},
 	{
@@ -4809,7 +7016,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Bruttoenergieverbrauch nach Energieträger",
+		"title": "Bruttoenergieverbrauch",
 		"subtitle": "in Gigawattstunden",
 		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 6 490 GWh im Jahr 1995 zurück auf 4 420 GWh im Jahr 2020. Am markantesten ist der Rückgang mit über 84% beim Heizöl.",
 		"erlaeuterungen": "Bruttoenergieverbrauch pro Jahr nach Energieträger. Der Bruttoverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert oder im Kanton aus natürlichen Quellen gewonnen wird (ohne Flugtreibstoffe). Im Gegensatz dazu bildet der Endenergieverbrauch die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen den beiden Grössen entspricht den Zu- respektive Abgängen in Folge der Umwandlung in Elektrizität und Fernwärme.<br><br>Der Bruttoenergieverbrauch wird für die leitungsgebundenen Energieträger erhoben und für die nicht leitungsgebundenen Energieträger geschätzt. Für detaillierte Angaben zur Methodik siehe weiterführende Informationen.",
@@ -4824,7 +7031,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bruttoenergieverbrauch nach Energieträger",
+		"description": "Bruttoenergieverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"kuerzel": "I.08.1.04230",
@@ -4840,7 +7047,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:47",
+		"aktualisierungsdatum": "2024-12-02T11:33:56",
 		"id": 4230
 	},
 	{
@@ -4850,7 +7057,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "AOX-Fracht Abwasser",
+		"title": "AOX Konzentration Abwasser",
 		"subtitle": "in Milligramm pro Liter",
 		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
@@ -4865,7 +7072,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "AOX-Fracht Abwasser",
+		"description": "AOX Konzentration Abwasser",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kuerzel": "I.02.19.04231",
@@ -4881,7 +7088,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:17",
+		"aktualisierungsdatum": "2024-12-02T11:35:35",
 		"id": 4231
 	},
 	{
@@ -4923,7 +7130,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:16",
+		"aktualisierungsdatum": "2024-12-02T11:35:33",
 		"id": 4232
 	},
 	{
@@ -4963,7 +7170,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:18",
+		"aktualisierungsdatum": "2024-12-02T11:35:37",
 		"id": 4233
 	},
 	{
@@ -5003,7 +7210,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:20",
+		"aktualisierungsdatum": "2024-12-02T11:35:39",
 		"id": 4234
 	},
 	{
@@ -5044,7 +7251,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:21",
+		"aktualisierungsdatum": "2024-12-02T11:35:41",
 		"id": 4236
 	},
 	{
@@ -5057,7 +7264,7 @@ var indikatoren = [
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "in °C",
 		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2018 14,9&nbsp;°C.",
-		"erlaeuterungen": "Mittelwert der kantonalen Jahrestemperatur des Grundwassers berechnet aus Temperaturdaten von mehreren Messstellen.<br><br>Die Grundwassertemperatur wird an mehreren Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen.<br><br>Im Kanton Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen erfasst.",
+		"erlaeuterungen": "Mittelwert der kantonalen Jahrestemperatur des Grundwassers berechnet aus Temperaturdaten von mehreren Messstellen.<br><br>Die Grundwassertemperatur wird an mehreren Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen.<br><br>Im Kanton Basel-Stadt wird die Grundwassertemperatur an rund 80 Messstellen erfasst.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -5085,7 +7292,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:26",
+		"aktualisierungsdatum": "2024-12-02T11:35:46",
 		"id": 4237
 	},
 	{
@@ -5123,7 +7330,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:27",
+		"aktualisierungsdatum": "2024-12-02T11:35:48",
 		"id": 4238
 	},
 	{
@@ -5165,7 +7372,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:24",
+		"aktualisierungsdatum": "2024-12-02T11:35:44",
 		"id": 4240
 	},
 	{
@@ -5207,7 +7414,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:33",
+		"aktualisierungsdatum": "2024-12-02T11:35:55",
 		"id": 4241
 	},
 	{
@@ -5249,7 +7456,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:30",
+		"aktualisierungsdatum": "2024-12-02T11:35:51",
 		"id": 4243
 	},
 	{
@@ -5289,7 +7496,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:29",
+		"aktualisierungsdatum": "2024-12-02T11:35:49",
 		"id": 4244
 	},
 	{
@@ -5330,7 +7537,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:32",
+		"aktualisierungsdatum": "2024-12-02T11:35:53",
 		"id": 4245
 	},
 	{
@@ -5371,7 +7578,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:59",
+		"aktualisierungsdatum": "2024-12-02T11:35:14",
 		"id": 4246
 	},
 	{
@@ -5455,7 +7662,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:40",
+		"aktualisierungsdatum": "2024-12-02T11:33:50",
 		"id": 4249
 	},
 	{
@@ -5499,7 +7706,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:41",
+		"aktualisierungsdatum": "2024-12-02T11:33:51",
 		"id": 4250
 	},
 	{
@@ -5540,7 +7747,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:38",
+		"aktualisierungsdatum": "2024-12-02T11:33:48",
 		"id": 4252
 	},
 	{
@@ -5582,7 +7789,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:35",
+		"aktualisierungsdatum": "2024-12-02T11:33:45",
 		"id": 4253
 	},
 	{
@@ -5626,7 +7833,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:37",
+		"aktualisierungsdatum": "2024-12-02T11:33:46",
 		"id": 4254
 	},
 	{
@@ -5670,7 +7877,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:34",
+		"aktualisierungsdatum": "2024-12-02T11:33:43",
 		"id": 4255
 	},
 	{
@@ -5711,7 +7918,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:19",
+		"aktualisierungsdatum": "2024-12-02T11:33:27",
 		"id": 4257
 	},
 	{
@@ -5752,7 +7959,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:16",
+		"aktualisierungsdatum": "2024-12-02T11:33:24",
 		"id": 4258
 	},
 	{
@@ -5793,7 +8000,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:17",
+		"aktualisierungsdatum": "2024-12-02T11:33:25",
 		"id": 4259
 	},
 	{
@@ -5834,7 +8041,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:14",
+		"aktualisierungsdatum": "2024-12-02T11:33:23",
 		"id": 4260
 	},
 	{
@@ -5875,7 +8082,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:20",
+		"aktualisierungsdatum": "2024-12-02T11:33:28",
 		"id": 4261
 	},
 	{
@@ -5916,7 +8123,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:32",
+		"aktualisierungsdatum": "2024-12-02T11:33:41",
 		"id": 4262
 	},
 	{
@@ -5958,7 +8165,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:28",
+		"aktualisierungsdatum": "2024-12-02T11:33:37",
 		"id": 4263
 	},
 	{
@@ -6041,7 +8248,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:30",
+		"aktualisierungsdatum": "2024-12-02T11:33:39",
 		"id": 4265
 	},
 	{
@@ -6082,7 +8289,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:33",
+		"aktualisierungsdatum": "2024-12-02T11:34:44",
 		"id": 4266
 	},
 	{
@@ -6123,7 +8330,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:30",
+		"aktualisierungsdatum": "2024-12-02T11:34:41",
 		"id": 4267
 	},
 	{
@@ -6164,7 +8371,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:31",
+		"aktualisierungsdatum": "2024-12-02T11:34:43",
 		"id": 4268
 	},
 	{
@@ -6206,7 +8413,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:29",
+		"aktualisierungsdatum": "2024-12-02T11:34:39",
 		"id": 4269
 	},
 	{
@@ -6247,7 +8454,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:34",
+		"aktualisierungsdatum": "2024-12-02T11:34:47",
 		"id": 4270
 	},
 	{
@@ -6289,7 +8496,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:36",
+		"aktualisierungsdatum": "2024-12-02T11:34:48",
 		"id": 4272
 	},
 	{
@@ -6331,7 +8538,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:38",
+		"aktualisierungsdatum": "2024-12-02T11:34:50",
 		"id": 4273
 	},
 	{
@@ -6373,7 +8580,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:40",
+		"aktualisierungsdatum": "2024-12-02T11:34:52",
 		"id": 4274
 	},
 	{
@@ -6414,7 +8621,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:41",
+		"aktualisierungsdatum": "2024-12-02T11:34:54",
 		"id": 4275
 	},
 	{
@@ -6459,7 +8666,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:42",
+		"aktualisierungsdatum": "2024-12-02T11:34:56",
 		"id": 4276
 	},
 	{
@@ -6500,7 +8707,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:45",
+		"aktualisierungsdatum": "2024-12-02T11:34:59",
 		"id": 4277
 	},
 	{
@@ -6513,7 +8720,7 @@ var indikatoren = [
 		"title": "Feinstaub-Immissionen (PM10)",
 		"subtitle": "in Mikrogramm pro Kubikmeter",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 µg/m<sup>3</sup>. <br><br>Für die feinere Fraktion des Feinstaubs (PM2.5), siehe Indikator <a title=\"Feinstaub-Immissionen (PM2.5)\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1112\" target=\"_parent\">Feinstaub-Immissionen (PM2.5)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 µg/m<sup>3</sup>. <br><br>Für die feinere Fraktion des Feinstaubs (PM2.5), siehe Indikator <a title=\"Feinstaub-Immissionen (PM2.5)\" href=\"https://www.bs.ch/indikatoren-11-1112\" target=\"_parent\">Feinstaub-Immissionen (PM2.5)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -6542,7 +8749,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:47",
+		"aktualisierungsdatum": "2024-12-02T11:35:01",
 		"id": 4278
 	},
 	{
@@ -6584,7 +8791,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:48",
+		"aktualisierungsdatum": "2024-12-02T11:35:03",
 		"id": 4279
 	},
 	{
@@ -6626,7 +8833,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:44",
+		"aktualisierungsdatum": "2024-12-02T11:34:58",
 		"id": 4280
 	},
 	{
@@ -6668,7 +8875,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:50",
+		"aktualisierungsdatum": "2024-12-02T11:35:05",
 		"id": 4281
 	},
 	{
@@ -6706,7 +8913,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:09",
+		"aktualisierungsdatum": "2024-12-02T11:35:24",
 		"id": 4283
 	},
 	{
@@ -6724,7 +8931,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung</a></a>",
+			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1509' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -6747,7 +8954,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:10",
+		"aktualisierungsdatum": "2024-12-02T11:35:26",
 		"id": 4284
 	},
 	{
@@ -6765,7 +8972,7 @@ var indikatoren = [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Luftreinhalteplan beider Basel' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a></a>",
+			"<a href = 'Luftreinhalteplan beider Basel' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1505' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -6788,7 +8995,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:05",
+		"aktualisierungsdatum": "2024-12-02T11:35:21",
 		"id": 4285
 	},
 	{
@@ -6806,7 +9013,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Waldschutz Schweiz' target = '_blank'><a href=http://www.wsl.ch/fe/walddynamik/waldschutz/index_DE?redir=1& target=_blank rel=nofollow>http://www.wsl.ch/fe/walddynamik/waldschutz/index_DE?redir=1&</a></a>",
+			"<a href = 'Waldschutz Schweiz' target = '_blank'><a href=https://waldschutz.wsl.ch/de/ target=_blank rel=nofollow>https://waldschutz.wsl.ch/de/</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1506' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -6829,7 +9036,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:07",
+		"aktualisierungsdatum": "2024-12-02T11:35:22",
 		"id": 4287
 	},
 	{
@@ -6842,12 +9049,12 @@ var indikatoren = [
 		"title": "Waldreservate",
 		"subtitle": "in Prozent",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche (siehe <a title=\"Waldfläche\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1501\" target=\"_parent\">Waldfläche</a>) wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
+		"erlaeuterungen": "Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche (siehe <a title=\"Waldfläche\" href=\"https://www.bs.ch/indikatoren-15-1501\" target=\"_parent\">Waldfläche</a>) wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
 		"quellenangabe": [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald</a></a>",
+			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1511' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -6870,7 +9077,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:11",
+		"aktualisierungsdatum": "2024-12-02T11:35:28",
 		"id": 4288
 	},
 	{
@@ -6888,7 +9095,7 @@ var indikatoren = [
 			"Amt für Wald beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/landw-zentrum-ebenrain/natur/naturschutz/naturschutz-im-wald</a></a>",
+			"<a href = 'Naturschutz im Wald (LZE)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/ebenrain/natur/naturschutz-im-wald</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1514' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -6911,7 +9118,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:14",
+		"aktualisierungsdatum": "2024-12-02T11:35:32",
 		"id": 4290
 	},
 	{
@@ -6949,7 +9156,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:13",
+		"aktualisierungsdatum": "2024-12-02T11:35:30",
 		"id": 4291
 	},
 	{
@@ -6960,7 +9167,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
-		"subtitle": "in Kilogramm",
+		"subtitle": "in CO2-Äquivalent der Kältemittelmengen in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). In der Luft stabile Kältemittel weisen eine sehr hohe Verweildauer in der Atmosphäre auf und tragen deshalb wesentlich zum Treibhauseffekt bei. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten HFKW (synthetische Kältemittel, welche eine sehr hohe Verweildauer in der Atmosphäre aufweisen). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
@@ -6990,7 +9197,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:54",
+		"aktualisierungsdatum": "2024-12-02T11:35:08",
 		"id": 4292
 	},
 	{
@@ -7001,7 +9208,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Ozonschichtabbauende Stoffe in Kälteanlagen",
-		"subtitle": "in Kilogramm",
+		"subtitle": "in Kältemittelmenge in KIlogramm",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). Ozonabbauende Kältemittel tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten ozonabbauenden synthetischen Kältemittel (FCKW, HFCKW). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
@@ -7031,7 +9238,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:56",
+		"aktualisierungsdatum": "2024-12-02T11:35:10",
 		"id": 4293
 	},
 	{
@@ -7072,7 +9279,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:57",
+		"aktualisierungsdatum": "2024-12-02T11:35:12",
 		"id": 4294
 	},
 	{
@@ -7113,7 +9320,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:14",
+		"aktualisierungsdatum": "2024-12-02T11:34:22",
 		"id": 4298
 	},
 	{
@@ -7155,7 +9362,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:17",
+		"aktualisierungsdatum": "2024-12-02T11:34:25",
 		"id": 4299
 	},
 	{
@@ -7197,7 +9404,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:12",
+		"aktualisierungsdatum": "2024-12-02T11:34:21",
 		"id": 4301
 	},
 	{
@@ -7239,7 +9446,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:15",
+		"aktualisierungsdatum": "2024-12-02T11:34:24",
 		"id": 4302
 	},
 	{
@@ -7281,7 +9488,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:23",
+		"aktualisierungsdatum": "2024-12-02T11:35:42",
 		"id": 4303
 	},
 	{
@@ -7322,7 +9529,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:22",
+		"aktualisierungsdatum": "2024-12-02T11:33:30",
 		"id": 4305
 	},
 	{
@@ -7364,7 +9571,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:24",
+		"aktualisierungsdatum": "2024-12-02T11:33:32",
 		"id": 4306
 	},
 	{
@@ -7404,7 +9611,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:27",
+		"aktualisierungsdatum": "2024-12-02T11:33:36",
 		"id": 4307
 	},
 	{
@@ -7446,7 +9653,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:25",
+		"aktualisierungsdatum": "2024-12-02T11:33:34",
 		"id": 4308
 	},
 	{
@@ -7487,7 +9694,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:26",
+		"aktualisierungsdatum": "2024-12-02T11:34:35",
 		"id": 4309
 	},
 	{
@@ -7528,7 +9735,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:27",
+		"aktualisierungsdatum": "2024-12-02T11:34:36",
 		"id": 4310
 	},
 	{
@@ -7569,7 +9776,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:24",
+		"aktualisierungsdatum": "2024-12-02T11:34:33",
 		"id": 4312
 	},
 	{
@@ -7611,7 +9818,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:06",
+		"aktualisierungsdatum": "2024-12-02T11:34:14",
 		"id": 4314
 	},
 	{
@@ -7651,7 +9858,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:08",
+		"aktualisierungsdatum": "2024-12-02T11:34:16",
 		"id": 4315
 	},
 	{
@@ -7693,7 +9900,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:09",
+		"aktualisierungsdatum": "2024-12-02T11:34:17",
 		"id": 4316
 	},
 	{
@@ -7711,7 +9918,7 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Bevölkerungsstatistik Basel-Stadt<br>Einwohner: Zentrale Begriffe Basel-Stadt' target = '_blank'><a href=http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html target=_blank rel=nofollow>http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html</a><br><a href=http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html target=_blank rel=nofollow>http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html</a></a>",
+			"<a href = 'Bevölkerungsstatistik Basel-Stadt<br>Einwohner: Zentrale Begriffe Basel-Stadt' target = '_blank'><a href=https://statistik.bs.ch/thema/1 target=_blank rel=nofollow>https://statistik.bs.ch/thema/1</a><br><a href=https://statistik.bs.ch/unterthema/1 target=_blank rel=nofollow>https://statistik.bs.ch/unterthema/1</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1702' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -7734,7 +9941,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-19T08:16:48",
+		"aktualisierungsdatum": "2024-12-02T11:35:59",
 		"id": 4318
 	},
 	{
@@ -7775,7 +9982,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:40",
+		"aktualisierungsdatum": "2024-12-02T11:36:04",
 		"id": 4319
 	},
 	{
@@ -7816,7 +10023,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-10-10T07:46:48",
+		"aktualisierungsdatum": "2024-12-02T11:34:04",
 		"id": 4321
 	},
 	{
@@ -7857,7 +10064,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:03",
+		"aktualisierungsdatum": "2024-12-02T11:34:11",
 		"id": 4322
 	},
 	{
@@ -7898,7 +10105,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:36",
+		"aktualisierungsdatum": "2024-12-02T11:35:58",
 		"id": 4323
 	},
 	{
@@ -7913,10 +10120,10 @@ var indikatoren = [
 		"lesehilfe": "In den letzten Jahren war eine Abnahme der Anzahl der verkehrsberechtigten Motorfahrzeuge und des Motorisierungsgrad zu beobachten. 2020 wurden erstmals seit fünf Jahren mehr Motorfahrzeuge verzeichnet. Trotzdem liegt der diesjährige Wert unter dem Mittel der letzten fünf Jahre.",
 		"erlaeuterungen": "Der Motorfahrzeugbestand entspricht der Anzahl an verkehrsberechtigten Motorfahrzeugen, der Motorisierungsgrad der Anzahl Personenwagen pro 1000 Einwohnern der mittleren Wohnbevölkerung.<br><br>Verkehrsberechtigte Fahrzeuge gemäss Register der Motorfahrzeugkontrolle (Stichdatum 30. September). Der Motorfahrzeugbestand (linke Skala) umfasst die folgenden Fahrzeugkategorien:<br>- Personenwagen<br>- Lieferwagen<br>- Lastwagen<br>- Sattelschlepper<br>- Car, Autobus, Kleinbus<br>- Motorräder<br>- Übrige: Arbeitsmaschinen, Industrietraktoren etc.<br><br>Zur Berechnung des Motorisierungsgrades (rechte Skala) werden hingegen nur Personenwagen berücksichtigt.",
 		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+			"Bundesamt für Strassen (ASTRA), Motorfahrzeugstatistik; Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Motorfahrzeugkontrolle Basel-Stadt' target = '_blank'><a href=http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html target=_blank rel=nofollow>http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html</a></a>",
+			"<a href = 'Motorfahrzeugkontrolle Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/jsd/polizei/unsere-hauptabteilungen/verkehr/motorfahrzeugkontrolle target=_blank rel=nofollow>https://www.bs.ch/jsd/polizei/unsere-hauptabteilungen/verkehr/motorfahrzeugkontrolle</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1704' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -7939,7 +10146,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:38",
+		"aktualisierungsdatum": "2024-12-02T11:36:02",
 		"id": 4325
 	},
 	{
@@ -7979,7 +10186,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:08",
+		"aktualisierungsdatum": "2024-12-02T11:33:16",
 		"id": 4330
 	},
 	{
@@ -8021,7 +10228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:02",
+		"aktualisierungsdatum": "2024-12-02T11:33:10",
 		"id": 4331
 	},
 	{
@@ -8063,7 +10270,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:11",
+		"aktualisierungsdatum": "2024-12-02T11:33:19",
 		"id": 4332
 	},
 	{
@@ -8105,7 +10312,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:13",
+		"aktualisierungsdatum": "2024-12-02T11:33:21",
 		"id": 4333
 	},
 	{
@@ -8147,7 +10354,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:05",
+		"aktualisierungsdatum": "2024-12-02T11:33:13",
 		"id": 4334
 	},
 	{
@@ -8160,7 +10367,7 @@ var indikatoren = [
 		"title": "Deponierte Klärschlammasche",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
+		"erlaeuterungen": "Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -8185,7 +10392,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:10",
+		"aktualisierungsdatum": "2024-12-02T11:33:18",
 		"id": 4335
 	},
 	{
@@ -8198,7 +10405,7 @@ var indikatoren = [
 		"title": "Verbrennungsrückstände",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Menge der in der Kehrichtverbrennungsanlage (KVA Basel) anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen). Bei Schlacke handelt es sich um gesteinsartige, poröse Verbrennungsrückstände. Der Filterstaub und der Filterkuchen fallen bei der Rauchgasbehandlung an. Filterstaub wird im Elektrofilter mittels elektrostatischer Abscheidung aus den Rauchgasen entfernt. Im Nasswäscher werden Feinstpartikel und gasförmige Stoffe aus den Rauchgasen entfernt. Das anfallende Abwasser wird vorbehandelt und dabei fällt als Reststoff der Filterkuchen an.<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
+		"erlaeuterungen": "Menge der in der Kehrichtverbrennungsanlage (KVA Basel) anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen). Bei Schlacke handelt es sich um gesteinsartige, poröse Verbrennungsrückstände. Der Filterstaub und der Filterkuchen fallen bei der Rauchgasbehandlung an. Filterstaub wird im Elektrofilter mittels elektrostatischer Abscheidung aus den Rauchgasen entfernt. Im Nasswäscher werden Feinstpartikel und gasförmige Stoffe aus den Rauchgasen entfernt. Das anfallende Abwasser wird vorbehandelt und dabei fällt als Reststoff der Filterkuchen an.<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
 		],
@@ -8226,7 +10433,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:06",
+		"aktualisierungsdatum": "2024-12-02T11:33:15",
 		"id": 4336
 	},
 	{
@@ -8268,7 +10475,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:40:59",
+		"aktualisierungsdatum": "2024-12-02T11:33:09",
 		"id": 4337
 	},
 	{
@@ -8309,7 +10516,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:03",
+		"aktualisierungsdatum": "2024-12-02T11:33:12",
 		"id": 4338
 	},
 	{
@@ -8444,7 +10651,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2021 sind in Basel-Stadt rund 74 000 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 30 000 Personen sind Schweizer mit Migrationshintergrund. Fast 56 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und etwas weniger als 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
+		"lesehilfe": "2022 sind in Basel-Stadt rund 72 500 Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Knapp 31 000 Personen sind Schweizer mit Migrationshintergrund. Fast 57 000 Personen sind Ausländer der ersten Generation, rund 4 000 sind Ausländer der zweiten Generation und etwas mehr als 50 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
 		"erlaeuterungen": "Migrationshintergrund: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -8470,7 +10677,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T11:05:04",
+		"aktualisierungsdatum": "2024-11-29T09:06:20",
 		"id": 4462
 	},
 	{
@@ -8482,7 +10689,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Rund 91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2021 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%, bei jenen aus anderen Herkunftsländern 34%.",
+		"lesehilfe": "Rund 91% der Schweizerinnen und Schweizer über 15 Jahren in Basel-Stadt geben im Jahr 2022 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%, bei jenen aus anderen Herkunftsländern 33%.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -8495,7 +10702,7 @@ var indikatoren = [
 		"description": "Zu Hause gesprochene Sprachen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Sprachen",
-		"kuerzel": "I.01.8.4463",
+		"kuerzel": "",
 		"kennzahlenset": "",
 		"kuerzelKunde": "",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
@@ -8508,7 +10715,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-31T08:40:39",
+		"aktualisierungsdatum": "2024-11-29T09:06:21",
 		"id": 4463
 	},
 	{
@@ -8552,48 +10759,6 @@ var indikatoren = [
 		"chart-id": 4716,
 		"filter": "",
 		"id": 4716
-	},
-	{
-		"title": "Erhaltene materielle Hilfeleistungen",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
-		"kuerzel": "I.50.4.4718",
-		"kuerzelKunde": "1.1.02",
-		"description": "Erhaltene materielle Hilfeleistungen",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
-		"stufe1": "1 Soziale Beziehungen",
-		"stufe2": "1.1 Soziale Netze",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Von den Befragten erhielten 2019 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn. Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 4,1% der Befragten materielle Hilfeleistungen. 22% der Befragten gaben an, dass materielle Unterstützungen durch Arbeitskolleginnen oder -kollegen nicht möglich sind.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
-		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_012",
-		"parentId": null,
-		"children": [
-			"8381"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4718,
-		"chart-id": 4718,
-		"filter": "",
-		"id": 4718
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
@@ -9162,7 +11327,7 @@ var indikatoren = [
 			8555
 		],
 		"title": "Anteil Grünflächen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
@@ -9191,7 +11356,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-17T01:37:54",
+		"aktualisierungsdatum": "2025-01-09T09:33:16",
 		"id": 4832
 	},
 	{
@@ -9575,45 +11740,43 @@ var indikatoren = [
 		"id": 4850
 	},
 	{
-		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?», Basel-Stadt",
-		"kuerzel": "I.50.4.4851",
-		"kuerzelKunde": "1.1.06",
-		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"template": "befragungen001",
+		"data-id": 4851,
+		"chart-id": 4851,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8390
+		],
+		"title": "Zufriedenheit mit Kontakten in der Nachbarschaft",
+		"subtitle": "«Wie zufrieden sind Sie mit Ihren Kontakten zu Nachbarinnen und Nachbarn am aktuellen Wohnort?», Basel-Stadt",
+		"lesehilfe": "2023 waren 89% der Personen ab 55 Jahren sehr oder eher zufrieden mit ihren Kontakten in der Nachbarschaft. Der Anteil sehr zufriedener Personen lag bei 42%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
+		"description": "Zufriedenheit mit Kontakten in der Nachbarschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.1.05",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 waren 87,9% der Befragten zufrieden mit dem Austausch mit den Nachbarn, wobei der Anteil sehr zufriedener Personen bei 43,8% lag. Im Vergleich zu 2015 liegt der Anteil zufriedener Personen gleich hoch.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "01_01_00_00_00_015",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_016",
-		"parentId": null,
-		"children": [
-			"8390"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4851,
-		"chart-id": 4851,
-		"filter": "",
+		"aktualisierungsdatum": "2024-11-28T08:56:43",
 		"id": 4851
 	},
 	{
@@ -10055,8 +12218,8 @@ var indikatoren = [
 		],
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
-		"lesehilfe": "6,9% der Bevölkerung ist 2023 sehr und 19,1% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten. 29,0% sind mit der Aussage eher bzw. überhaupt nicht einverstanden. Der Anteil Befragter, welcher diese Aussage nicht beurteilt hat, ist im Vergleich zu den Vorjahren gestiegen.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"lesehilfe": "6,9% der Bevölkerung sind 2023 sehr und 19,1% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten. 29,0% sind mit der Aussage eher bzw. überhaupt nicht einverstanden. Der Anteil Befragter, welcher diese Aussage nicht beurteilt hat, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -10081,7 +12244,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-15T09:04:20",
+		"aktualisierungsdatum": "2024-12-31T10:44:20",
 		"id": 4862
 	},
 	{
@@ -10167,45 +12330,43 @@ var indikatoren = [
 		"id": 4864
 	},
 	{
-		"title": "Ehrenamtliche Tätigkeit/Freiwilligenarbeit im Alter",
+		"template": "befragungen001",
+		"data-id": 4865,
+		"chart-id": 4865,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8404
+		],
+		"title": "Freiwilligenarbeit der über 54-Jährigen",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
-		"kuerzel": "I.50.4.4865",
-		"kuerzelKunde": "3.1.03",
-		"description": "Ehrenamtliche Tätigkeit/Freiwilligenarbeit im Alter",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "2023 leisteten 38% der Bevölkerung ab 55 Jahren Freiwilligenarbeit. 2019 waren es 28%. Der Anteil derjenigen, die keine Angabe machten, lag bei 5% bzw. 8%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:14.1414",
+		"description": "Freiwilligenarbeit der über 54-Jährigen",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.1.03",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 gaben 29,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2015 waren es 27,5%, 2011 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 um rund 10 Prozentpunkte auf 8,3% im Jahr 2019 ab.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "03_01_00_00_00_054",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_054",
-		"parentId": null,
-		"children": [
-			"8404"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4865,
-		"chart-id": 4865,
-		"filter": "",
+		"aktualisierungsdatum": "2024-11-28T08:56:56",
 		"id": 4865
 	},
 	{
@@ -10461,87 +12622,43 @@ var indikatoren = [
 		"id": 4872
 	},
 	{
-		"title": "Politikinteresse der über 54-Jährigen",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
-		"kuerzel": "I.50.4.4874",
-		"kuerzelKunde": "3.3.06",
-		"description": "Politikinteresse der über 54-Jährigen",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:19.1919",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.3 Gesellschaftliche Teilhabe",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 gaben 77,3% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Das sind fast gleich viele wie 2015.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungen001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_065",
+		"data-id": 4875,
+		"chart-id": 4875,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8412"
+			8413
 		],
-		"renderLink": [],
+		"title": "Zufriedenheit mit Kontakten im Wohnquartier",
+		"subtitle": "«Wie zufrieden sind Sie mit Ihren Kontakten im Wohnquartier?», Basel-Stadt",
+		"lesehilfe": "2023 gaben 80% der Personan ab 55 Jahren an, mit ihren Kontakten im Wohnquartier sehr oder eher zufrieden zu sein. 26% sind damit sehr zufrieden.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre die Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4874,
-		"chart-id": 4874,
-		"filter": "",
-		"id": 4874
-	},
-	{
-		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?», Basel-Stadt",
-		"kuerzel": "I.50.4.4875",
-		"kuerzelKunde": "1.1.07",
-		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
+		"description": "Zufriedenheit mit Kontakten im Wohnquartier",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.1.06",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2015 betrug die Zufriedenheit auch 80,0%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2015 um 3,6 Prozentpunkte höher lag.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "01_01_00_00_00_019",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_017",
-		"parentId": null,
-		"children": [
-			"8413"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4875,
-		"chart-id": 4875,
-		"filter": "",
+		"aktualisierungsdatum": "2024-11-28T08:56:44",
 		"id": 4875
 	},
 	{
@@ -10593,7 +12710,7 @@ var indikatoren = [
 		],
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
 		"subtitle": "Basis Dezember 1982 = 100",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2023 weiter gestiegen, wenn auch etwas weniger stark als 2022. Das Jahresmittel liegt neu bei 171,2 Punkten.",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2024 weiter gestiegen, wenn auch deutlich weniger stark als 2023. Das Jahresmittel liegt neu bei 172,8 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -10620,7 +12737,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:41",
+		"aktualisierungsdatum": "2025-01-07T08:54:47",
 		"id": 4909
 	},
 	{
@@ -10632,7 +12749,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"subtitle": "",
-		"lesehilfe": "Gegenüber 2022 hat sich die Teuerung insbesondere in der zweiten Jahreshälfte 2023 wieder etwas abgekühlt: Die mittlere Jahresteuerung 2023 liegt in Basel-Stadt bei 2,0% und in der Schweiz bei 2,1%.",
+		"lesehilfe": "Gegenüber 2023 hat sich die Teuerung deutlich abgekühlt: Die mittlere Jahresteuerung 2024 liegt in Basel-Stadt bei 0,9%.",
 		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2020 entspricht der Veränderungsrate zwischen dem Jahresmittel 2020 und dem Jahresmittel 2019.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -10659,7 +12776,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-08T02:24:41",
+		"aktualisierungsdatum": "2025-01-07T08:54:42",
 		"id": 4911
 	},
 	{
@@ -10747,7 +12864,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Landwirtschaft: Nutzfläche und Betriebe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 bewirtschafteten 14 Betriebe 422,3 ha landwirtschaftliche Nutzfläche.",
+		"lesehilfe": "Im Jahr 2023 bewirtschafteten 13 Betriebe 414,7 ha landwirtschaftliche Nutzfläche.",
 		"erlaeuterungen": "Die landwirtschaftliche Nutzfläche eines baselstädtischen Betriebes kann auch in anderen Kantonen oder im Ausland liegen. Die Daten vor 1996 entstammen der Eidgenössischen Betriebszählung (1975, 1985) bzw. der Eidgenössischen Landwirtschafts- und Gartenbauzählung (1980, 1990) und wurden an die seit 1996 geltende Definition des landwirtschaftlichen Betriebes angepasst.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung"
@@ -10773,7 +12890,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:37",
+		"aktualisierungsdatum": "2025-01-07T09:34:18",
 		"id": 4914
 	},
 	{
@@ -11073,7 +13190,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2021 wurden in Basel-Stadt 1 166 neue Unternehmen gegründet, 42 mehr als im Jahr 2020. Rund ein Viertel (307 im Jahr 2021) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (132) sowie Kunst, Unterhaltung, Erholung (129).",
+		"lesehilfe": "Im Jahr 2022 wurden in Basel-Stadt 1 407 neue Unternehmen gegründet, 241 mehr als im Jahr 2021. Rund ein Viertel (364 im Jahr 2022) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (169).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -11099,7 +13216,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:40",
+		"aktualisierungsdatum": "2024-12-20T03:23:23",
 		"id": 5041
 	},
 	{
@@ -11999,7 +14116,7 @@ var indikatoren = [
 		],
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 pendeln rund 86 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 60% von ihnen aus der Schweiz. Rund 21 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 65 000 Personen.",
+		"lesehilfe": "Im Jahr 2022 pendeln rund 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 61% von ihnen aus der Schweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -12026,7 +14143,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:22",
+		"aktualisierungsdatum": "2025-01-06T09:57:41",
 		"id": 5203
 	},
 	{
@@ -12090,7 +14207,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Nachhaltige Holznutzung' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wald-und-holz/wald-und-holz--daten--indikatoren-und-karten/wald-und-holz--indikatoren/indikator-wald-und-holz.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V0gwMDcmbG5nPWRl.html target=_blank rel=nofo</a>",
-			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-wald/wald/waldentwicklung</a></a>",
+			"<a href = 'Waldplanung (Amt für Wald beider Basel)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/wald/waldplanung</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-15-1504' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12113,7 +14230,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:04",
+		"aktualisierungsdatum": "2024-12-02T11:35:19",
 		"id": 5797
 	},
 	{
@@ -12157,7 +14274,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:01",
+		"aktualisierungsdatum": "2024-12-02T11:35:16",
 		"id": 5798
 	},
 	{
@@ -12202,7 +14319,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:41:43",
+		"aktualisierungsdatum": "2024-12-02T11:33:53",
 		"id": 5799
 	},
 	{
@@ -12244,7 +14361,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:02",
+		"aktualisierungsdatum": "2024-12-02T11:35:17",
 		"id": 5800
 	},
 	{
@@ -12381,7 +14498,7 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
 		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2022 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -12406,7 +14523,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:21",
+		"aktualisierungsdatum": "2024-12-18T11:11:45",
 		"id": 5818
 	},
 	{
@@ -12546,7 +14663,7 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2022 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -12571,7 +14688,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:23",
+		"aktualisierungsdatum": "2024-12-18T11:11:46",
 		"id": 5825
 	},
 	{
@@ -13648,7 +15765,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2021 um 117,9% höher. Die letzten drei Datenjahre des ökologischen Fussabdruckes sind Schätzungen.",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt um 143,3% höher. Die letzten drei Datenjahre des ökologischen Fussabdrucks sind Schätzungen.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"quellenangabe": [
 			"BAK Economics",
@@ -13677,7 +15794,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:42",
+		"aktualisierungsdatum": "2025-01-08T09:18:26",
 		"id": 6051
 	},
 	{
@@ -15709,7 +17826,7 @@ var indikatoren = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2023 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2023 gibt es in der Stadt Basel gut 90 000 Privathaushalte; gut 9 200 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -15723,7 +17840,7 @@ var indikatoren = [
 		"description": "Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.06220",
+		"kuerzel": "I.01.TRKE.06220",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-4",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -15736,7 +17853,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:31",
+		"aktualisierungsdatum": "2024-12-20T03:23:33",
 		"id": 6220
 	},
 	{
@@ -18705,7 +20822,7 @@ var indikatoren = [
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2023",
 		"lesehilfe": "Schweizer Staatsangehörige verfügen mit 45 m² über die höchste mittlere Wohnfläche, Personen aus den Balkanländern über die tiefste (25 m²).",
-		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -18731,7 +20848,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-07T09:17:30",
+		"aktualisierungsdatum": "2024-11-28T08:57:10",
 		"id": 6476
 	},
 	{
@@ -25359,7 +27476,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Oktober 2024 bei 3,8% und damit deutlich höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 3,8% und ist höher als im Vorjahr, aber tiefer als im Sommer 2024.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Dezember 2024 bei 4,2% und damit deutlich höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 4,3% und ist ebenfalls höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -25385,7 +27502,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:25:57",
+		"aktualisierungsdatum": "2025-01-10T08:19:13",
 		"id": 7510
 	},
 	{
@@ -25397,7 +27514,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2024 sind in Basel-Stadt ähnlich viele offene Stellen gemeldet als ein Jahr zuvor. Tiefer als im Vorjahr ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat gestiegen ist.",
+		"lesehilfe": "Ende Dezember 2024 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Deutlich tiefer als im Vorjahr ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat leicht gestiegen ist.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -25423,7 +27540,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:25:59",
+		"aktualisierungsdatum": "2025-01-10T08:19:14",
 		"id": 7511
 	},
 	{
@@ -25435,7 +27552,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im Oktober 2024 auf 0,5% gesunken; dies nach 0,8% im September und 1,0% im August.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Dezember 2024 0,4%. Für das gesamte Jahr 2024 resultiert eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25463,7 +27580,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:06:53",
+		"aktualisierungsdatum": "2025-01-07T08:54:44",
 		"id": 7512
 	},
 	{
@@ -25475,7 +27592,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im Oktober 2024 gegenüber dem Vormonat um 0,1% zurück; im September hatte die Monatsteuerung -0,3% betragen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Dezember 2024 gegenüber dem Vormonat um 0,1% auf 106,1 Punkte gesunken. Rundungsbedingt beträgt die Monatsteuerung des Basler Index trotzdem 0,0%.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -25502,7 +27619,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-01T08:13:42",
+		"aktualisierungsdatum": "2025-01-07T08:54:45",
 		"id": 7513
 	},
 	{
@@ -25540,7 +27657,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:30",
+		"aktualisierungsdatum": "2024-12-18T09:25:06",
 		"id": 7515
 	},
 	{
@@ -25552,7 +27669,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "142 593 Logiernächte wurden im Oktober 2024 in den Basler Hotelbetrieben gebucht, 7 389 bzw. 5,5% mehr als im September. Im Vergleich zum Oktober 2023 entspricht dies einer Zunahme um 10,7% bzw.13 769 Übernachtungen. Die inländischen Gäste buchten 53 361 Logiernächte (+12,4%), die Gäste aus dem Ausland 89 232 Übernachtungen (+9,7%).",
+		"lesehilfe": "134 488 Logiernächte wurden im November 2024 in den Basler Hotelbetrieben gebucht, 8 105 bzw. 5,7% weniger als im Oktober. Im Vergleich zum November 2023 entspricht dies einer Zunahme um 3,5% bzw.4 509 Übernachtungen. Die inländischen Gäste buchten 56 786 Logiernächte (+4,1%), die Gäste aus dem Ausland 77 702 Übernachtungen (+3,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25578,7 +27695,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-18T07:48:02",
+		"aktualisierungsdatum": "2024-12-23T02:42:42",
 		"id": 7516
 	},
 	{
@@ -25589,8 +27706,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25616,7 +27733,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-18T07:48:04",
+		"aktualisierungsdatum": "2024-12-23T02:42:43",
 		"id": 7517
 	},
 	{
@@ -26634,7 +28751,7 @@ var indikatoren = [
 		],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe hat die Bevölkerung seit 2002 leicht zugenommen (+6,3%). Im Gesamtkanton hat die Bevölkerungszahl etwas stärker zugenommen (+7,3%). Ein drastischer Anstieg zeigt sich im Bezirk Erlenmatt: Mit dem Bau von Wohnungen auf dem ehemaligen Areal der Deutschen Bahn stieg die Einwohnerzahl von unter 200 bis zum Jahr 2008 auf 2 955 (2021).",
+		"lesehilfe": "Im Bezirk Messe hat die Bevölkerungszahl seit 2004 weniger stark zugenommen als im Kanton Basel-Stadt (+5,5% gegenüber +9,5%). Mit dem Bau von Wohnungen auf dem ehemaligen Areal der Deutschen Bahn ist die Einwohnerzahl im Bezirk Erlenmatt von unter 200 in den Jahren bis 2008 auf 3 107 (2023) gewachsen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26647,7 +28764,7 @@ var indikatoren = [
 		"description": "Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07665",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.01",
 		"stufe1": "2 Bevölkerung",
@@ -26660,7 +28777,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-17T09:56:00",
+		"aktualisierungsdatum": "2024-11-28T08:56:45",
 		"id": 7665
 	},
 	{
@@ -26673,8 +28790,8 @@ var indikatoren = [
 			7904
 		],
 		"title": "Alterspyramide nach Geschlecht",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2021",
-		"lesehilfe": "In den Bezirken Messe und Erlenmatt sowie im Gesamtkanton sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen. Im Bezirk Erlenmatt zählt auch die Gruppe der unter 5-Jährigen dazu.",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2023",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sowie im Gesamtkanton sind die grössten Fünfjahresklassen diejenigen der 25- bis 44-Jährigen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26687,7 +28804,7 @@ var indikatoren = [
 		"description": "Alterspyramide nach Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07666",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.02",
 		"stufe1": "2 Bevölkerung",
@@ -26700,7 +28817,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:00",
+		"aktualisierungsdatum": "2024-11-28T08:56:46",
 		"id": 7666
 	},
 	{
@@ -26714,7 +28831,7 @@ var indikatoren = [
 		],
 		"title": "Jugendquotient",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2002 und 2021 von 30,2 auf 23,9 gesunken, im Kanton Basel-Stadt im gleichen Zeitraum von 27,6 auf 26,9. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und liegt 2021 bei 33,0.",
+		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2004 und 2023 von 28,5 auf 24,1 gesunken, im Kanton Basel-Stadt auf 27,2. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und liegt 2023 bei 34,4.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26728,7 +28845,7 @@ var indikatoren = [
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.07667",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.03",
 		"stufe1": "2 Bevölkerung",
@@ -26741,7 +28858,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:01",
+		"aktualisierungsdatum": "2024-11-28T08:56:46",
 		"id": 7667
 	},
 	{
@@ -26876,7 +28993,7 @@ var indikatoren = [
 		],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2022 bei 19,2 Prozent. Das ist der niedrigste Anteil aller Wohnviertel. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Wohnungen erstellt wurden. Dies gilt insbesondere für den Bezirk Erlenmatt, der in den letzten Jahren daher stets Quoten unter 10% aufweist.",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2023 bei 19,1%. Das ist der niedrigste Anteil aller Wohnviertel. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Wohnungen erstellt wurden. Dies gilt insbesondere für den Bezirk Erlenmatt, der in den letzten Jahren stets Quoten unter 10% aufweist.",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26902,7 +29019,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-15T08:14:04",
+		"aktualisierungsdatum": "2024-11-28T08:56:47",
 		"id": 7671
 	},
 	{
@@ -26916,7 +29033,7 @@ var indikatoren = [
 		],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Erlenmatt weist in den letzten Jahren keine grossen Veränderungen auf. 2022 machen Einpersonenhaushalte 48% aus, 44% sind Familienhaushalte. 14% werden anderen Haushalten zugeordnet. Im Bezirk Messe gab es in den letzten drei Jahren ebenfalls keine grossen Veränderungen.",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Erlenmatt weist in den letzten Jahren keine grösseren Veränderungen auf. 2023 machen Einpersonenhaushalte 46% aus, 43% sind Familienhaushalte. 11% werden anderen Haushalten zugeordnet. Im Bezirk Messe gab es zuletzt ebenfalls keine grösseren Veränderungen.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privat- und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe \"Andere Haushalte\" umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26930,7 +29047,7 @@ var indikatoren = [
 		"description": "Haushalte nach Art des Haushalts",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.07672",
+		"kuerzel": "I.01.TRKE.07672",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "4.01",
 		"stufe1": "4 Bauen und Wohnen",
@@ -26943,7 +29060,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-09T08:20:02",
+		"aktualisierungsdatum": "2024-11-28T08:56:57",
 		"id": 7672
 	},
 	{
@@ -26957,7 +29074,7 @@ var indikatoren = [
 		],
 		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Jahr 2022 weist das Rosentalviertel einen positiven Wanderungssaldo auf. Dieser ist hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen.",
+		"lesehilfe": "Im Jahr 2023 weist das Rosentalviertel einen positiven Wanderungssaldo auf. Dieser ist auf Zuzüge aus dem Ausland zurückzuführen.",
 		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -26970,7 +29087,7 @@ var indikatoren = [
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "I.01.5.07673",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
@@ -26983,7 +29100,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-07-20T09:49:32",
+		"aktualisierungsdatum": "2024-11-28T08:56:48",
 		"id": 7673
 	},
 	{
@@ -26997,7 +29114,7 @@ var indikatoren = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "2021 weisen Personen aus der Türkei den höchsten Segregationsindex auf (31,5). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert sind. Im Vergleich zum Jahr 2002 haben die Segregationsindices fast aller Ländergruppen abgenommen.",
+		"lesehilfe": "2023 weisen Personen aus der Türkei den höchsten Segregationsindex auf (33,4). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert sind. Im Vergleich zum Jahr 2004 haben die Segregationsindices fast aller Ländergruppen abgenommen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Wohnviertel Rosental von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Wohnviertel Rosental verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -27023,7 +29140,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:02",
+		"aktualisierungsdatum": "2024-11-28T08:56:49",
 		"id": 7674
 	},
 	{
@@ -27077,7 +29194,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2019 bei rund 79 100 Franken, der Median bei 59 100 Franken. Es liegen dort aktuell 1 331 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 46 400 Franken, der Median 39 300 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2018 insgesamt 2 505 (2005: 2 443).",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2021 bei rund 85 000 Franken, der Median bei 64 000 Franken. Es liegen dort aktuell 1 446 Veranlagungen vor. Im Jahr 2005 waren es 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 48 400 Franken, der Median 39 600 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2021 insgesamt 2 491 (2005: 2 443).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -27103,7 +29220,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:02",
+		"aktualisierungsdatum": "2024-11-28T08:56:53",
 		"id": 7676
 	},
 	{
@@ -27117,7 +29234,7 @@ var indikatoren = [
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2019 bei rund 130 800 Franken, der Median bei 17 700 Franken. Es liegen dort akutell 1 331 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert rund 67 600 Franken, der Median ca. 2 400 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2019 insgesamt 2 505 (2005: 2 443).",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2021 bei rund 151 000 Franken, der Median bei 25 000 Franken. Es liegen dort aktuell 1 446 Veranlagungen vor. Im Jahr 2005 waren es 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert rund 89 200 Franken, der Median ca. 3 400 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2021 insgesamt 2 491 (2005: 2 443).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -27143,7 +29260,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:02",
+		"aktualisierungsdatum": "2024-11-28T08:56:54",
 		"id": 7677
 	},
 	{
@@ -27157,7 +29274,7 @@ var indikatoren = [
 		],
 		"title": "Steuerertrag durch Zu- und Wegzüger",
 		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind in fast allen Jahren durch Zuzüger mehr Steuereinnahmen erzielt worden, als durch Wegzüger verloren gingen. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind in den meisten Jahren durch Zuzüger mehr Steuereinnahmen erzielt worden, als durch Wegzüger verloren gingen. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -27183,7 +29300,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:03",
+		"aktualisierungsdatum": "2024-11-28T08:56:54",
 		"id": 7678
 	},
 	{
@@ -27223,7 +29340,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:23",
+		"aktualisierungsdatum": "2024-11-28T08:56:58",
 		"id": 7679
 	},
 	{
@@ -27237,7 +29354,7 @@ var indikatoren = [
 		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "2022 sind im Wohnviertel Rosental 3 279 Mietwohnungen, 168 selbstbewohnte Eigentümerwohnungen und 104 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "2023 sind im Wohnviertel Rosental 3 365 Mietwohnungen, 164 selbstbewohnte Eigentümerwohnungen und 106 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -27263,7 +29380,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-22T08:31:00",
+		"aktualisierungsdatum": "2024-11-28T08:56:59",
 		"id": 7680
 	},
 	{
@@ -27277,8 +29394,8 @@ var indikatoren = [
 		],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2022 beträgt sie 35,1 m<sup>2</sup> (Erlenmatt) respektive 33,9 m<sup>2</sup> (Messe).",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2023 beträgt sie 36,8 m<sup>2</sup> (Erlenmatt) respektive 34,5 m<sup>2</sup> (Messe).",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -27303,7 +29420,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:22",
+		"aktualisierungsdatum": "2024-11-28T08:56:58",
 		"id": 7681
 	},
 	{
@@ -27317,7 +29434,7 @@ var indikatoren = [
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote wieder und erreichte mit 0,3% ihren Tiefstwert. Danach stieg sie überwiegend wieder leicht an, ausser im Jahr 2019, in welchem die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag entgegen dem Trend eine sehr hohe Quote bewirkte.",
+		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote wieder und erreichte mit 0,3% ihren Tiefstwert. Danach stieg sie bis 2023 überwiegend, ausser im Jahr 2019, in welchem die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag entgegen dem Trend eine sehr hohe Quote bewirkte.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -27343,7 +29460,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-08-18T10:17:42",
+		"aktualisierungsdatum": "2024-11-28T08:57:00",
 		"id": 7682
 	},
 	{
@@ -27356,9 +29473,9 @@ var indikatoren = [
 			7921
 		],
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Fr. pro m<sup>2</sup>, Basel-Stadt, 2016-2020",
+		"subtitle": "in Fr. pro m<sup>2</sup>, Basel-Stadt, 2017-2021",
 		"lesehilfe": "Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,2 Franken.",
-		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet.Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet.Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -27383,7 +29500,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:05",
+		"aktualisierungsdatum": "2024-11-28T08:57:00",
 		"id": 7683
 	},
 	{
@@ -27423,7 +29540,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:24",
+		"aktualisierungsdatum": "2024-11-28T08:57:01",
 		"id": 7684
 	},
 	{
@@ -27463,7 +29580,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:26",
+		"aktualisierungsdatum": "2024-11-28T08:57:02",
 		"id": 7685
 	},
 	{
@@ -27503,7 +29620,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:27",
+		"aktualisierungsdatum": "2024-11-28T08:57:03",
 		"id": 7686
 	},
 	{
@@ -27543,7 +29660,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-16T08:20:28",
+		"aktualisierungsdatum": "2024-11-28T08:57:04",
 		"id": 7687
 	},
 	{
@@ -27557,8 +29674,8 @@ var indikatoren = [
 		],
 		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Jahr 2020 sind in der Stadt Basel 183 626 Beschäftigte tätig. Davon arbeiten 3 893 im Bezirk Messe und 1 119 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,6%. Insgesamt entfallen somit 2,7% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"lesehilfe": "Im Jahr 2022 arbeiten 2,4% der Beschäftigten der Stadt Basel im Bezirk Messe und 0,6% im Bezirk Erlenmatt. Insgesamt entfallen somit 3,0% der Beschäftigten der Stadt Basel auf das Wohnviertel Rosental.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handelt und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -27583,7 +29700,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:06",
+		"aktualisierungsdatum": "2024-11-28T08:56:50",
 		"id": 7688
 	},
 	{
@@ -27597,8 +29714,8 @@ var indikatoren = [
 		],
 		"title": "Beschäftigung nach ausgewählten Branchen",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 530 Beschäftigten im Jahr 2020, gefolgt von der Branche Erziehung und Unterricht (702) und den sonstigen wirtschaftlichen Dienstleistungen (420). Das Baunebengewerbe (304), der Grosshandel (288) sowie das Gesundheitswesen (243) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
+		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 752 Beschäftigten im Jahr 2022, gefolgt von den Branchen Erziehung und Unterricht (959), dem Baunebengewerbe (495) sowie den sonstigen wirtschaftlichen Dienstleistungen (479).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handelt und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -27623,7 +29740,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:07",
+		"aktualisierungsdatum": "2024-11-28T08:56:52",
 		"id": 7689
 	},
 	{
@@ -27637,7 +29754,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2022 insgesamt 15 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2022 im Kanton Basel-Stadt 119 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2023 insgesamt 15 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2023 im Kanton Basel-Stadt 130 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -27663,7 +29780,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:32",
+		"aktualisierungsdatum": "2024-11-28T08:56:55",
 		"id": 7690
 	},
 	{
@@ -27677,8 +29794,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Wohnviertel Rosental liegt die Nettoerwerbstätigenquote im Mittel der Jahre 2016 bis 2020 bei 70,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 72,8%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental liegt die Nettoerwerbstätigenquote im Mittel der Jahre 2017 bis 2021 bei 69,5%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 72,6%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2017 bis 2021 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -27704,7 +29821,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:07",
+		"aktualisierungsdatum": "2024-11-28T08:56:52",
 		"id": 7691
 	},
 	{
@@ -27719,7 +29836,7 @@ var indikatoren = [
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
 		"lesehilfe": "Die Bruttogeschossflächen Wohnen und Arbeiten haben im Bezirk Erlenmatt aufgrund der Bautätigkeit seit 2005 deutlich zugenommen.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet, sie sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -27744,7 +29861,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:29",
+		"aktualisierungsdatum": "2024-12-18T11:11:07",
 		"id": 7692
 	},
 	{
@@ -27758,8 +29875,8 @@ var indikatoren = [
 		],
 		"title": "Nettoerwerbsquote der Frauen",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2016 bis 2020 bei 69,8%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,1%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2018 bis 2022 bei 66,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 74,0%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2018-2022 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -27785,7 +29902,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:07",
+		"aktualisierungsdatum": "2024-12-18T11:11:11",
 		"id": 7693
 	},
 	{
@@ -27799,7 +29916,7 @@ var indikatoren = [
 		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "2022 beträgt die Sozialhilfequote im Bezirk Messe 10,2%. 484 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,2% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 5.",
+		"lesehilfe": "2023 beträgt die Sozialhilfequote im Bezirk Messe 9,7%. 457 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,6% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 18.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als fünf bzw. sieben Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -27811,7 +29928,7 @@ var indikatoren = [
 		],
 		"description": "Sozialhilfebezüger und -quote",
 		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"unterthema": "Sozialhilfe",
 		"kuerzel": "I.13.3.07694",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "5.04",
@@ -27825,7 +29942,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:43",
+		"aktualisierungsdatum": "2024-11-28T08:57:06",
 		"id": 7694
 	},
 	{
@@ -27839,8 +29956,8 @@ var indikatoren = [
 		],
 		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2022 im Wohnviertel Rosental mit 34,2% bereits zum dritten Mal in Folge höher als jene der Schweizerinnen und Schweizer (21,2%). Für die Stadt Basel beträgt der Wert 2022 35,8%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2022 in der Grafik entspricht Schuljahr 2022/23.",
+		"lesehilfe": "Die Sek P-Quote der Schülerinnen und Schüler ohne Schweizer Pass liegt 2023 im Wohnviertel Rosental mit 30,5% zum vierten Mal in Folge höher als jene der Schweizerinnen und Schweizer (27,6%). Für die Stadt Basel beträgt der Wert 2023 36,5%. Unruhiger Kurvenverlauf aufgrund der geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2023 in der Grafik entspricht Schuljahr 2023/24.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -27865,7 +29982,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-15T08:14:09",
+		"aktualisierungsdatum": "2024-11-28T08:57:05",
 		"id": 7695
 	},
 	{
@@ -27879,7 +29996,7 @@ var indikatoren = [
 		],
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt im Beobachtungszeitraum eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2022 liegen die Quoten für beide Bezirke tiefer als im Vorjahr.",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder nur langsam steigt, verzeichnete der sich im baulichen Umbruch befindliche Bezirk Erlenmatt zumindest bis 2021 eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder. 2023 liegen die Quoten für beide Bezirke höher als im Vorjahr.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -27905,7 +30022,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-15T08:14:07",
+		"aktualisierungsdatum": "2024-11-28T08:57:04",
 		"id": 7696
 	},
 	{
@@ -27918,9 +30035,9 @@ var indikatoren = [
 			7935
 		],
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016-2020",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2016 bis 2020 im Mittel 37,9 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018-2022",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2018 bis 2022 im Mittel 39,4%.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegen zwei methodische Brüche innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -27945,7 +30062,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:08",
+		"aktualisierungsdatum": "2024-12-18T11:11:26",
 		"id": 7697
 	},
 	{
@@ -27957,10 +30074,10 @@ var indikatoren = [
 		"children": [
 			7936
 		],
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2021 Familienmietzinsbeiträge (Kanton: 2,3%). In 20,2% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 17,0%).",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "3,6% der Haushalte im Wohnviertel Rosental erhalten Ende des Jahres 2023 Familienmietzinsbeiträge (FAMI). In 18,3% der Haushalte im Wohnviertel Rosental bezieht mindestens eine Person reine Prämienverbilligung (PV). Zum Vergleich: Die FAMI-Quote im Kanton Basel-Stadtl liegt bei 2,1%, die PV-Quote bei 15,9%.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, die die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -27970,7 +30087,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"description": "Quote der Haushalte mit Familienmietzinsbeiträgen und reiner Prämienverbilligung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.07698",
@@ -27986,7 +30103,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-07-28T08:49:47",
+		"aktualisierungsdatum": "2024-11-28T08:57:07",
 		"id": 7698
 	},
 	{
@@ -28000,7 +30117,7 @@ var indikatoren = [
 		],
 		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2021: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2009: 56,7%; 2021: 24,8%) und die Grünflächen haben zugenommen (2009: 2,8%; 2021: 25,6%).",
+		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2023: 46,2%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2009: 56,7%; 2023: 23,4%) und die Grünflächen haben zugenommen (2009: 2,8%; 2023: 25,6%).",
 		"erlaeuterungen": "Grünfläche: alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten Flächen (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige). Gewässer: stehende und fliessende Gewässer. Verkehrsfläche: Befestigte Flächen wie Strassen, Wege, Trottoirs (inkl. Rabatten) und Verkehrsinseln sowie Bahn- und Tramareale. Übrige befestigte Flächen: Hafen- und Fabrikareale; Tankanlagen; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; alle weiteren befestigten Flächen. Als befestigt gelten künstlich hergerichtete Flächen, insbesondere asphaltierte, betonierte, bekieste, gemergelte oder mit Steinen oder Platten belegte Flächen. <br>Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -28028,7 +30145,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-01T09:02:34",
+		"aktualisierungsdatum": "2024-11-28T08:57:09",
 		"id": 7699
 	},
 	{
@@ -28072,48 +30189,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-06-13T09:54:55",
 		"id": 7700
-	},
-	{
-		"template": "map002",
-		"data-id": 7701,
-		"chart-id": 7701,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			7939,
-			8455,
-			8958
-		],
-		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
-		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"description": "Anzahl Tropennächte",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kuerzel": "I.02.12.07701",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzelKunde": "7.04",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "07_00_00_00_00_004",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:44",
-		"id": 7701
 	},
 	{
 		"template": "template001",
@@ -28166,7 +30241,7 @@ var indikatoren = [
 		],
 		"title": "Stromverbrauch",
 		"subtitle": "in Gigawattstunden (GWh), Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Zwischen 2016 und 2018 ist der Stromverbrauch im Bezirk Messe stabil geblieben. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
+		"lesehilfe": "Zwischen 2016 und 2022 hat der Stromverbrauch im Bezirk Messe leicht abgenommen. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
 		"erlaeuterungen": "Die kantonale Energiestatistik basiert seit 2010 auf einer neuen methodischen Grundlage und erscheint im Zweijahresrhythmus. Abgebildet ist der jeweilige Endverbrauch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -28192,7 +30267,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:09",
+		"aktualisierungsdatum": "2024-12-03T08:42:53",
 		"id": 7705
 	},
 	{
@@ -28239,91 +30314,91 @@ var indikatoren = [
 		"id": 7706
 	},
 	{
-		"title": "Feinstaubbelastung",
-		"subtitle": "nach Wohnviertel, 2015",
-		"kuerzel": "I.02.15.07707",
-		"kuerzelKunde": "7.09",
-		"description": "Feinstaubbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:42:30.3030",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental waren 2015 im Jahresmittel mit 1 407 Personen rund 23% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20 µg/m<sup>3</sup> ausgesetzt.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10 x 10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"7945"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Lufthygieneamt beider Basel"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
-			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
-		],
 		"data-id": 7707,
 		"chart-id": 7707,
 		"filter": "",
-		"id": 7707
-	},
-	{
-		"title": "Stickoxidbelastung",
-		"subtitle": "nach Wohnviertel, 2015",
-		"kuerzel": "I.02.15.07708",
-		"kuerzelKunde": "7.10",
-		"description": "Stickoxidbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7945
+		],
+		"title": "Feinstaubbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Rosental 246 Personen (3,2% der dortigen Wohnbevölkerung) an ihrem Wohnort Feinstaub-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:42:23.2323",
+		"description": "Feinstaubbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07707",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.09",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental waren 2015 im Jahresmittel mit 1 980 Personen rund 32% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
-		"template": "mappie001",
+		"orderKey": "07_00_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_010",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:38",
+		"id": 7707
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7708,
+		"chart-id": 7708,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7946"
+			7946
 		],
-		"renderLink": [],
+		"title": "Stickoxidbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Rosental 1 130 Personen (15% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
 			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
 		],
-		"data-id": 7708,
-		"chart-id": 7708,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stickoxidbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07708",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.10",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:41",
 		"id": 7708
 	},
 	{
@@ -28407,45 +30482,43 @@ var indikatoren = [
 		"id": 7710
 	},
 	{
+		"template": "line001",
+		"data-id": 7711,
+		"chart-id": 7711,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7949"
+			7949
 		],
-		"template": "line001",
 		"title": "Delikte",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "",
-		"kuerzelKunde": "6.01",
-		"description": "Delikte",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
+		"lesehilfe": "Im Bezirk Messe wurden im Jahr 2022 40 Delikte registriert und im Bezirk Erlenmatt 21.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:28.2828",
+		"description": "Delikte",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.07711",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "6.01",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 20 auf 52 gestiegen. Danach ist die Deliktzahl zurückgegangen, 2019 wurden noch 24 Delikte registriert. Im Jahr 2020 erhöhte sich die Deliktzahl wieder auf 38. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 7 Delikte pro Jahr). Seit 2015 werden dort zwischen 5 und 39 Delikte registriert.",
-		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
+		"orderKey": "06_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "06_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7711,
-		"chart-id": 7711,
-		"filter": "",
+		"aktualisierungsdatum": "2024-11-28T08:57:07",
 		"id": 7711
 	},
 	{
@@ -28459,7 +30532,7 @@ var indikatoren = [
 		],
 		"title": "Einbruch- und Einschleichdiebstähle",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2021 insgesamt 48 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 20.",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2022 30 Einbruch- oder Einschleichdiebstähle und im Bezirk Erlenmatt 19.",
 		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -28485,7 +30558,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-14T08:45:09",
+		"aktualisierungsdatum": "2024-11-28T08:57:08",
 		"id": 7712
 	},
 	{
@@ -29464,8 +31537,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Im Oktober 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen. Nur in den Wohnvierteln Bruderholz und Hirzbrunnen sowie in der Gemeinde Bettingen ging sie zurück.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Im November 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln und in Riehen. In zwölf Wohnvierteln und in Bettingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29492,7 +31565,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:32",
+		"aktualisierungsdatum": "2024-12-18T09:25:07",
 		"id": 7763
 	},
 	{
@@ -29506,7 +31579,7 @@ var indikatoren = [
 		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2022 einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
+		"lesehilfe": "Der Bezirk Messe weist für das Jahr 2023 einen negativen Umzugssaldo auf, d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Die hohen Umzugsgewinne im Bezirk Erlenmatt 2015 und 2019 sind auf die Fertigstellung von Wohngebäuden zurückzuführen.",
 		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29519,7 +31592,7 @@ var indikatoren = [
 		"description": "Umzugssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "I.01.5.07764",
+		"kuerzel": "",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.10",
 		"stufe1": "2 Bevölkerung",
@@ -29532,7 +31605,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:39",
+		"aktualisierungsdatum": "2024-11-28T08:56:49",
 		"id": 7764
 	},
 	{
@@ -29585,7 +31658,7 @@ var indikatoren = [
 		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"lesehilfe": "Sowohl die für Wohn- als auch die für Arbeitszwecke genutzte Bruttogeschossfläche hat seit 1995 zugenommen. Dies ist auf die Bautätigkeit im Kanton zurückzuführen.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Ergebnisse sind damit nicht direkt vergleichbar mit den Vorjahren. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -29610,7 +31683,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:20",
+		"aktualisierungsdatum": "2024-12-18T11:11:44",
 		"id": 7774
 	},
 	{
@@ -29797,7 +31870,7 @@ var indikatoren = [
 		],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2023 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2023 bei 134,1 Punkten (Basis 2000 = 100).",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis 2000 = 100).",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -29823,7 +31896,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:32",
+		"aktualisierungsdatum": "2025-01-06T09:57:42",
 		"id": 7782
 	},
 	{
@@ -31679,8 +33752,8 @@ var indikatoren = [
 		],
 		"title": "Bruttogeschossfläche Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"lesehilfe": "Während die Bruttogeschossfläche für Wohnen in Klybeck seit 1995 stabil blieb, hat sie für Arbeiten insbesondere seit 2015 deutlich abgenommen. In Kleinhüningen hat sie für Wohnen zwischen 1995 und 2015 zugenommen und ging bis 2020 wieder etwas zurück, für Arbeiten war sie zwischen 1995 und 2015 leicht rückläufig, ehe sie bis 2020 deutlich zu zunahm.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Daten sind damit nicht direkt vergleichbar mit den Vorjahren. Ab 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"lesehilfe": "Während die Bruttogeschossfläche für Wohnen in Klybeck seit 1995 stabil blieb, hat sie für Arbeiten insbesondere seit 2015 deutlich abgenommen. In Kleinhüningen hat sie für Wohnen zwischen 1995 und 2015 zugenommen und ging bis 2020 wieder etwas zurück, für Arbeiten war sie zwischen 1995 und 2015 leicht rückläufig, ehe sie bis 2020 deutlich zu zunahm. Nach 2020 haben sich die Werte nur leicht verändert.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -31705,7 +33778,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-11-24T08:58:30",
+		"aktualisierungsdatum": "2024-12-18T11:11:08",
 		"id": 8073
 	},
 	{
@@ -32200,93 +34273,91 @@ var indikatoren = [
 		"id": 8087
 	},
 	{
-		"title": "Feinstaubbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"kuerzel": "I.02.15.07707",
-		"kuerzelKunde": "7.09",
-		"description": "Feinstaubbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 456 Personen 15,7% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20&nbsp;µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck lag die Belastung für alle Einwohner unter dem Grenzwert.",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20&nbsp;µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10x10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"8657"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Lufthygieneamt beider Basel"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Karte der <a href = 'https://map.geo.bs.ch/s/nojy' target = '_blank'>Feinstaub-Imissionen (PM10) 2015</a> im kantonalen Geoportal",
-			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
-			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
-		],
 		"data-id": 7707,
 		"chart-id": 7707,
 		"filter": "",
-		"id": 8088
-	},
-	{
-		"title": "Stickoxidbelastung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015",
-		"kuerzel": "I.02.15.07708",
-		"kuerzelKunde": "7.10",
-		"description": "Stickoxidbelastung",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luft",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"parentId": null,
+		"children": [
+			8657
+		],
+		"title": "Feinstaubbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 lag für alle Personen in den Wohnvierteln Kleinhüningen und Klybeck die Feinstaub-Belastung an ihrem Wohnort unter dem Jahresgrenzwert. Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2613974.25&map_y=1267407.75&map_zoom=4&tree_group_layers_Luft=luftqualitaet_pm10_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohe Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zu <a href = 'http://www.bs.ch/indikator-1109' target = '_blank'>Feinstaub-Immissionen</a> in der Region Basel",
+			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"description": "Feinstaubbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07707",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.09",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 1 490 Personen 51,4% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck waren es 590 Personen (8,1%).",
-		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
-		"template": "mappie001",
+		"orderKey": "07_00_00_00_00_009",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_010",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:39",
+		"id": 8088
+	},
+	{
+		"template": "mappie001",
+		"data-id": 7708,
+		"chart-id": 7708,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8658"
+			8658
 		],
-		"renderLink": [],
+		"title": "Stickoxidbelastung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"lesehilfe": "2020 waren im Wohnviertel Kleinhüningen 140 Personen (5% der dortigen Wohnbevölkerung) an ihrem Wohnort Stickstoffdioxid-Belastungen ausgesetzt, welche über dem zulässigen Jahresgrenzwert lagen. Im Wohnviertel Klybeck waren es 33 Personen (0,5%). Die den Berechnungen zugrunde liegenden <a href='https://geoview.bl.ch/?map_x=2612751.75&map_y=1267417.75&map_zoom=5&tree_group_layers_Luft=luftqualitaet_no2_gesamt_2020&tree_groups=Luft' target='_blank'>Immissionskarten</a> zeigen, dass hohen Belastungen primär nahe viel befahrenen Strassen erfolgen, v. a. neben den Autobahnabschnitten.",
+		"erlaeuterungen": "Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Immissionen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters für 2020). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Lufthygieneamt beider Basel"
 		],
-		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Karte der <a href = 'https://map.geo.bs.ch/s/5WPK' target = '_blank'>Stickstoffdioxid-Immissionsbelastung 2015</a> im kantonalen Geoportal.",
 			"Weitere Informationen zu <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1111' target = '_blank'>Stickstoffdioxid-Immissionen</a>in der Region Basel",
 			"Nationale <a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html#app7ahref0' target = '_blank'>Luftreinhalte-Verordnung (LRV), Anhang 7</a>"
 		],
-		"data-id": 7708,
-		"chart-id": 7708,
-		"filter": "",
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Stickoxidbelastung",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luft",
+		"kuerzel": "I.02.15.07708",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "7.10",
+		"stufe1": "7 Raum und Umwelt",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "07_00_00_00_00_010",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-12-18T11:11:40",
 		"id": 8089
 	},
 	{
@@ -34720,7 +36791,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt seit Juli 2024 bei rund 3800 Personen. Die Zahl der Langzeitarbeitslosen ist im Oktober 2024 leicht gestiegen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Dezember 2024 bei rund 4300 Personen. Die Zahl der Langzeitarbeitslosen ist im Dezember 2024 auf über 800 gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -34746,7 +36817,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:26:00",
+		"aktualisierungsdatum": "2025-01-10T08:19:15",
 		"id": 8980
 	},
 	{
@@ -34784,7 +36855,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:26:01",
+		"aktualisierungsdatum": "2025-01-10T08:19:16",
 		"id": 8981
 	},
 	{
@@ -34862,7 +36933,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:26:02",
+		"aktualisierungsdatum": "2025-01-10T08:19:16",
 		"id": 8992
 	},
 	{
@@ -34903,7 +36974,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-25T11:13:53",
+		"aktualisierungsdatum": "2025-01-09T09:33:10",
 		"id": 8995
 	},
 	{
@@ -35074,7 +37145,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-25T11:13:55",
+		"aktualisierungsdatum": "2025-01-09T09:33:12",
 		"id": 9022
 	},
 	{
@@ -35112,7 +37183,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-25T11:13:56",
+		"aktualisierungsdatum": "2025-01-09T09:33:13",
 		"id": 9023
 	},
 	{
@@ -36443,46 +38514,6 @@ var indikatoren = [
 		"id": 9377
 	},
 	{
-		"template": "befragungen001",
-		"data-id": 9378,
-		"chart-id": 9029,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9435
-		],
-		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "Insgesamt 51,1% der 2019 befragten Personen ab 55 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.09378",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "2.10",
-		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_010",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:37",
-		"id": 9378
-	},
-	{
 		"template": "template001",
 		"data-id": 9379,
 		"chart-id": 9379,
@@ -36867,7 +38898,7 @@ var indikatoren = [
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 sind im kantonalen Datenportal 270 Datensätze von 38 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 187 Geodatensätze öffentlich verfügbar.",
+		"lesehilfe": "Ende 2024 sind im kantonalen Datenportal 331 Datensätze von 42 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 192 Geodatensätze öffentlich verfügbar.",
 		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen; die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -36897,7 +38928,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-29T08:32:37",
+		"aktualisierungsdatum": "2025-01-14T08:52:56",
 		"id": 9394
 	},
 	{
@@ -36991,7 +39022,7 @@ var indikatoren = [
 		],
 		"title": "Aktive E-Government-Konten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Per Stichdatum 17.10.2023 haben sich 25 443 von 47 727 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
+		"lesehilfe": "Per 31.12.2024 haben sich 25 593 von 58 313 registrierten Benutzenden mit ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt bereits mit der neuen, verbindlichen Anmelde-Lösung AGOV (Authentifizierungsdienst der Schweizer Behörden) angemeldet. Aufgrund der Umstellung ist diese Zahl mit den Vorjahren nicht vergleichbar.",
 		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben. Konten von Benutzern, welche sich länger als zwei Jahre nicht angemeldet haben, werden nach Vorankündigung gelöscht.",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt"
@@ -37005,8 +39036,8 @@ var indikatoren = [
 		],
 		"description": "Aktive E-Government-Konten",
 		"thema": "17 Politik",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.17.1.09398",
+		"unterthema": "",
+		"kuerzel": "I.17.PTAN.09398",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "6.2",
 		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
@@ -37019,7 +39050,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-07T09:10:54",
+		"aktualisierungsdatum": "2025-01-06T09:57:39",
 		"id": 9398
 	},
 	{
@@ -37295,7 +39326,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-29T08:32:35",
+		"aktualisierungsdatum": "2025-01-13T12:16:23",
 		"id": 9475
 	},
 	{
@@ -37470,7 +39501,7 @@ var indikatoren = [
 		"title": "Feinstaub-Immissionen (PM2.5)",
 		"subtitle": "in Mikrogramm pro Kubikmeter",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen PM2.5 an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub PM2.5 versteht man Partikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub PM2.5 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub PM2.5 10 µg/m<sup>3</sup>. <br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Immissionen (PM10)\" href=\"http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1109\" target=\"_parent\">Feinstaub-Immissionen (PM10)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen PM2.5 an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub PM2.5 versteht man Partikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub PM2.5 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub PM2.5 10 µg/m<sup>3</sup>. <br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Immissionen (PM10)\" href=\"https://www.bs.ch/indikatoren-11-1109\" target=\"_parent\">Feinstaub-Immissionen (PM10)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -37499,7 +39530,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:52",
+		"aktualisierungsdatum": "2024-12-02T11:35:06",
 		"id": 9507
 	},
 	{
@@ -39623,7 +41654,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:05",
+		"aktualisierungsdatum": "2024-12-02T11:34:13",
 		"id": 9885
 	},
 	{
@@ -39664,7 +41695,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:21",
+		"aktualisierungsdatum": "2024-12-02T11:34:30",
 		"id": 9886
 	},
 	{
@@ -39706,7 +41737,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:18",
+		"aktualisierungsdatum": "2024-12-02T11:34:27",
 		"id": 9887
 	},
 	{
@@ -39725,7 +41756,7 @@ var indikatoren = [
 		],
 		"externalLinks": [
 			"<a href = 'Indikator Tropennächte' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-klima/klima--daten--indikatoren-und-karten/klima--indikatoren/indikator-klima.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9S0wwNjMmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://ww</a>",
-			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten</a></a>",
+			"<a href = 'Messnetz Luftqualität Nordwestschweiz<br>Tropennacht - MeteoSchweiz<br>Klimaanalysekarten BL (Lufthygienamt beider Basel)' target = '_blank'><a href=https://luftqualitaet.ch/messdaten target=_blank rel=nofollow>https://luftqualitaet.ch/messdaten</a> <br><a href=https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html target=_blank rel=nofollow>https://www.meteoschweiz.admin.ch/wetter/wetter-und-klima-von-a-bis-z/tropennacht.html</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/klima-1/klimaanalysekarten target=_blan</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -39748,7 +41779,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:23",
+		"aktualisierungsdatum": "2024-12-02T11:34:31",
 		"id": 9888
 	},
 	{
@@ -39789,7 +41820,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:43:34",
+		"aktualisierungsdatum": "2024-12-02T11:35:56",
 		"id": 9889
 	},
 	{
@@ -39830,7 +41861,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": true,
-		"aktualisierungsdatum": "2024-07-22T10:42:20",
+		"aktualisierungsdatum": "2024-12-02T11:34:28",
 		"id": 9891
 	},
 	{

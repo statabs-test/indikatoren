@@ -87,7 +87,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
 		"lesehilfe": "92,0% der Bevölkerung sind 2023 sehr oder eher zufrieden mit der Gesundheitsversorgung. Bei Personen ab 70 Jahren liegt die Zufriedenheit mit 96,4% am höchsten.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). «Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). «Zufriedenheit» fasst die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammen. Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -111,7 +111,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:36",
+		"aktualisierungsdatum": "2024-12-31T10:44:13",
 		"id": 2956
 	},
 	{
@@ -206,7 +206,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Neugründungen in Basel-Stadt",
 		"subtitle": "in ausgewählten Branchen",
-		"lesehilfe": "Im Jahr 2021 wurden in Basel-Stadt 1 166 neue Unternehmen gegründet, 42 mehr als im Jahr 2020. Rund ein Viertel (307 im Jahr 2021) der Neugründungen sind im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (132) sowie Kunst, Unterhaltung, Erholung (129).",
+		"lesehilfe": "Im Jahr 2022 wurden in Basel-Stadt 1 407 neue Unternehmen gegründet, 241 mehr als im Jahr 2021. Rund ein Viertel (364 im Jahr 2022) der Neugründungen ist im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen angesiedelt. An zweiter und dritter Stelle kommen die Branchen Gesundheits- und Sozialwesen (200) sowie Kunst, Unterhaltung, Erholung (169).",
 		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
@@ -231,7 +231,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-11T09:32:40",
+		"aktualisierungsdatum": "2024-12-20T03:23:23",
 		"id": 5041
 	},
 	{
@@ -1194,8 +1194,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
-		"lesehilfe": "6,9% der Bevölkerung ist 2023 sehr und 19,1% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten. 29,0% sind mit der Aussage eher bzw. überhaupt nicht einverstanden. Der Anteil Befragter, welcher diese Aussage nicht beurteilt hat, ist im Vergleich zu den Vorjahren gestiegen.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"lesehilfe": "6,9% der Bevölkerung sind 2023 sehr und 19,1% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten. 29,0% sind mit der Aussage eher bzw. überhaupt nicht einverstanden. Der Anteil Befragter, welcher diese Aussage nicht beurteilt hat, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -1219,7 +1219,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-15T09:04:21",
+		"aktualisierungsdatum": "2024-12-31T10:44:27",
 		"id": 9374
 	},
 	{
@@ -1341,45 +1341,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-11-21T06:57:39",
 		"id": 9377
-	},
-	{
-		"template": "befragungen001",
-		"data-id": 9378,
-		"chart-id": 9029,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			9435
-		],
-		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"lesehilfe": "Insgesamt 51,1% der 2019 befragten Personen ab 55 Jahren stimmen der Aussage genau (4,9%) oder eher (46,2%) zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,5% stimmen dieser Aussage eher nicht (27,4%) oder gar nicht (4,1%) zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kuerzel": "I.50.4.09378",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzelKunde": "2.10",
-		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "02_00_00_00_00_010",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:37",
-		"id": 9378
 	},
 	{
 		"template": "template001",
@@ -1625,7 +1586,7 @@ var indikatorensetData = [
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
 		"lesehilfe": "15,0% der Bevölkerung ist 2023 mit dem Wohnungsangebot sehr zufrieden und 32,5% eher zufrieden. Gegenüber 2019 ist die Unzufriedenheit mit dem Wohnungsangebot gestiegen.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: seit 2019 in schriftlicher Form (Papier- bzw. Onlinefragebogen), zuvor telefonisch; seit 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppe (2011, 2015 und 2019 wurden nachgewichtet, die Werte weichen daher von früher publizierten ab). Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -1649,7 +1610,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-15T09:04:22",
+		"aktualisierungsdatum": "2024-12-31T10:44:42",
 		"id": 9385
 	},
 	{
@@ -1661,7 +1622,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrugen die Freiraumflächen insgesamt 95,74 ha (2,59% der Kantonsfläche). Die Zunahme seit 2021 erfolgte u. a. aufgrund der Öffnung des Novartis Campus und der dortigen Parkanlagen für die Öffentlichkeit. Im Jahr 2013 reduzierten sich die Freiraumflächen vorübergehend aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte bis auf rund 83,9 Hektar. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf 88,5 Hektar.",
+		"lesehilfe": "Im Jahr 2024 betrugen die Freiraumflächen insgesamt 95,28 ha (2,58% der Kantonsfläche). Die Zunahme seit 2021 erfolgte u. a. aufgrund der Öffnung des Novartis Campus und der dortigen Parkanlagen für die Öffentlichkeit. Im Jahr 2013 reduzierten sich die Freiraumflächen vorübergehend aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte bis auf rund 83,9 Hektaren. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf 88,5 Hektaren.",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1686,7 +1647,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-01T08:57:35",
+		"aktualisierungsdatum": "2025-01-13T12:16:25",
 		"id": 9386
 	},
 	{
@@ -1942,7 +1903,7 @@ var indikatorensetData = [
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 sind im kantonalen Datenportal 270 Datensätze von 38 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 187 Geodatensätze öffentlich verfügbar.",
+		"lesehilfe": "Ende 2024 sind im kantonalen Datenportal 331 Datensätze von 42 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 192 Geodatensätze öffentlich verfügbar.",
 		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen; die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1971,7 +1932,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-01-29T08:32:37",
+		"aktualisierungsdatum": "2025-01-14T08:52:56",
 		"id": 9394
 	},
 	{
@@ -2063,7 +2024,7 @@ var indikatorensetData = [
 		],
 		"title": "Aktive E-Government-Konten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Per Stichdatum 17.10.2023 haben sich 25 443 von 47 727 registrierten Benutzern innerhalb des letzten Jahres mindestens einmal bei ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt angemeldet.",
+		"lesehilfe": "Per 31.12.2024 haben sich 25 593 von 58 313 registrierten Benutzenden mit ihrem E-Government-Konto (eKonto) des Kantons Basel-Stadt bereits mit der neuen, verbindlichen Anmelde-Lösung AGOV (Authentifizierungsdienst der Schweizer Behörden) angemeldet. Aufgrund der Umstellung ist diese Zahl mit den Vorjahren nicht vergleichbar.",
 		"erlaeuterungen": "Registrierte Benutzer können Privatpersonen und Firmen sein; aktive Benutzer sind Benutzer, welche sich in den letzten 365 Tagen mindestens einmal angemeldet haben. Konten von Benutzern, welche sich länger als zwei Jahre nicht angemeldet haben, werden nach Vorankündigung gelöscht.",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt"
@@ -2077,8 +2038,8 @@ var indikatorensetData = [
 		],
 		"description": "Aktive E-Government-Konten",
 		"thema": "17 Politik",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.17.1.09398",
+		"unterthema": "",
+		"kuerzel": "I.17.PTAN.09398",
 		"kennzahlenset": "Legislaturplan",
 		"kuerzelKunde": "6.2",
 		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
@@ -2090,7 +2051,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-11-07T09:10:54",
+		"aktualisierungsdatum": "2025-01-06T09:57:39",
 		"id": 9398
 	},
 	{
@@ -2127,7 +2088,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-30T12:46:03",
+		"aktualisierungsdatum": "2024-12-31T10:44:08",
 		"id": 9457
 	}
 ];

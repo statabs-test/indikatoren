@@ -169,7 +169,7 @@ var indikatorensetData = [
 		],
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
 		"subtitle": "Basis Dezember 1982 = 100",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2023 weiter gestiegen, wenn auch etwas weniger stark als 2022. Das Jahresmittel liegt neu bei 171,2 Punkten.",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2024 weiter gestiegen, wenn auch deutlich weniger stark als 2023. Das Jahresmittel liegt neu bei 172,8 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:41",
+		"aktualisierungsdatum": "2025-01-07T08:54:47",
 		"id": 4909
 	},
 	{
@@ -1815,7 +1815,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2021 um 117,9% höher. Die letzten drei Datenjahre des ökologischen Fussabdruckes sind Schätzungen.",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt um 143,3% höher. Die letzten drei Datenjahre des ökologischen Fussabdrucks sind Schätzungen.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"quellenangabe": [
 			"BAK Economics",
@@ -1843,7 +1843,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:42",
+		"aktualisierungsdatum": "2025-01-08T09:18:26",
 		"id": 6051
 	},
 	{

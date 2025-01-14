@@ -319,7 +319,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Basel-Stadt und Umgebung",
-		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2020 bei 2,8. Er liegt damit höher als in der Agglomeration, wo er 1,83 beträgt.",
+		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2023 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,85 beträgt.",
 		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen. Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (4,5 für PM10, 4,5 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		],
 		"description": "Langzeitbelastungsindex",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Lärm",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-7",
@@ -346,7 +346,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:33",
+		"aktualisierungsdatum": "2024-12-20T03:23:34",
 		"id": 11908
 	},
 	{
@@ -409,7 +409,7 @@ var indikatorensetData = [
 		],
 		"description": "Revitalisierungsrate Oberflächengewässer",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-2",
@@ -422,7 +422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:04",
+		"aktualisierungsdatum": "2024-12-20T03:23:29",
 		"id": 11910
 	},
 	{
@@ -545,7 +545,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fruchtfolgeflächen",
 		"subtitle": "in Hektaren, Basel-Stadt",
-		"lesehilfe": "2023 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
+		"lesehilfe": "2024 sind im gesamten Kanton 249 ha Fruchtfolgeflächen ausgeschieden.",
 		"erlaeuterungen": "Fruchtfolgeflächen (FFF) sind die wertvollsten Landwirtschaftsflächen. Der vom Bund im <a href='http://www.are.admin.ch/are/de/home/raumentwicklung-und-raumplanung/strategie-und-planung/konzepte-und-sachplaene/sachplaene-des-bundes/sachplan-fruchtfolgeflaechen-sp-fff.html' target='_blank'>Sachplan Fruchtfolgeflächen</a> geforderte Mindestumfang an FFF von 240 ha im Kanton Basel-Stadt ist gesichert.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
@@ -557,7 +557,7 @@ var indikatorensetData = [
 		],
 		"description": "Fruchtfolgeflächen",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Landwirtschaft",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 12-1",
@@ -570,7 +570,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:08",
+		"aktualisierungsdatum": "2025-01-07T09:34:21",
 		"id": 11915
 	},
 	{
@@ -582,7 +582,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "2022 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11,3 Mio. m<sup>3</sup>.",
+		"lesehilfe": "2023 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 12,2 Mio. m<sup>3</sup>.",
 		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
@@ -594,7 +594,7 @@ var indikatorensetData = [
 		],
 		"description": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-1",
@@ -607,7 +607,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:30",
 		"id": 11916
 	},
 	{
@@ -619,7 +619,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2022 auf gesamthaft 20,9 Mio. m<sup>3</sup>. Davon entfielen 12,4 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2023 auf gesamthaft 20,7 Mio. m<sup>3</sup>. Davon entfielen 13,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
 		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
@@ -631,7 +631,7 @@ var indikatorensetData = [
 		],
 		"description": "Wasserverbrauch Gewerbe und Industrie",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-2",
@@ -644,7 +644,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:13",
+		"aktualisierungsdatum": "2024-12-20T03:23:31",
 		"id": 11917
 	},
 	{
@@ -656,8 +656,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wassertemperatur Grundwasser",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Temperatur des Grundwassers beträgt 2022 rund 14,9 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 12,7 und 17,3 °C.",
-		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell 82) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5% und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
+		"lesehilfe": "2023 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,3 und 17,6 °C.",
+		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell rund 80) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5%- und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -668,7 +668,7 @@ var indikatorensetData = [
 		],
 		"description": "Wassertemperatur Grundwasser",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 14-3",
@@ -681,7 +681,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-27T09:25:28",
+		"aktualisierungsdatum": "2024-12-20T03:23:32",
 		"id": 11918
 	},
 	{
@@ -812,7 +812,7 @@ var indikatorensetData = [
 		],
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 pendeln rund 86 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 60% von ihnen aus der Schweiz. Rund 21 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 65 000 Personen.",
+		"lesehilfe": "Im Jahr 2022 pendeln rund 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 61% von ihnen aus der Schweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -838,7 +838,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:22",
+		"aktualisierungsdatum": "2025-01-06T09:57:41",
 		"id": 5203
 	},
 	{
@@ -1047,7 +1047,7 @@ var indikatorensetData = [
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
 		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2022 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -1071,7 +1071,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:21",
+		"aktualisierungsdatum": "2024-12-18T11:11:45",
 		"id": 5818
 	},
 	{
@@ -1245,7 +1245,7 @@ var indikatorensetData = [
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2022 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -1269,7 +1269,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:23",
+		"aktualisierungsdatum": "2024-12-18T11:11:46",
 		"id": 5825
 	},
 	{
@@ -1604,7 +1604,7 @@ var indikatorensetData = [
 		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Stadt Basel",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2022 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2022 gibt es in der Stadt Basel gut 90 000 Privathaushalte; knapp 9 900 liegen in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2023 prozentual stärker gestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2023 gibt es in der Stadt Basel gut 90 000 Privathaushalte; gut 9 200 liegen in Begegnungszonen.",
 		"erlaeuterungen": "In den Begegnungszonen gilt eine Höchstgeschwindigkeit von 20 km/h. Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1618,7 +1618,7 @@ var indikatorensetData = [
 		"description": "Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kuerzel": "I.01.2.06220",
+		"kuerzel": "I.01.TRKE.06220",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 6-4",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -1630,7 +1630,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:31",
+		"aktualisierungsdatum": "2024-12-20T03:23:33",
 		"id": 6220
 	},
 	{
@@ -1725,7 +1725,7 @@ var indikatorensetData = [
 		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"lesehilfe": "Sowohl die für Wohn- als auch die für Arbeitszwecke genutzte Bruttogeschossfläche hat seit 1995 zugenommen. Dies ist auf die Bautätigkeit im Kanton zurückzuführen.",
-		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) wurden bis 2020 fünfjährlich aktualisiert. Die Erhebungsmethodik wurde im Rahmen der Berechnung der Daten für das Jahr 2020 überarbeitet. Die Ergebnisse sind damit nicht direkt vergleichbar mit den Vorjahren. Seit 2020 werden die Daten jährlich aktualisiert. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
 		"quellenangabe": [
 			"Bau- und Verkehrsdepartement Basel-Stadt"
 		],
@@ -1749,7 +1749,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:20",
+		"aktualisierungsdatum": "2024-12-18T11:11:44",
 		"id": 7774
 	},
 	{
@@ -1932,7 +1932,7 @@ var indikatorensetData = [
 		],
 		"title": "Mietpreisindex Basel-Stadt",
 		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2023 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2023 bei 134,1 Punkten (Basis 2000 = 100).",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis 2000 = 100).",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -1957,7 +1957,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:32",
+		"aktualisierungsdatum": "2025-01-06T09:57:42",
 		"id": 7782
 	},
 	{

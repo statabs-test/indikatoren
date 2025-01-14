@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im Oktober 2024 bei 3,8% und damit deutlich höher als im gleichen Vorjahresmonat. Auch die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 3,8% und ist höher als im Vorjahr, aber tiefer als im Sommer 2024.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Dezember 2024 bei 4,2% und damit deutlich höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 4,3% und ist ebenfalls höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden ab Juli 2022 (mit den Juni-Daten) neu die Erwerbspersonen der Jahre 2018-2020 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:25:57",
+		"aktualisierungsdatum": "2025-01-10T08:19:13",
 		"id": 7510
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende Oktober 2024 sind in Basel-Stadt ähnlich viele offene Stellen gemeldet als ein Jahr zuvor. Tiefer als im Vorjahr ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat gestiegen ist.",
+		"lesehilfe": "Ende Dezember 2024 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Deutlich tiefer als im Vorjahr ist die Zahl der meldepflichtigen Stellen, während die Zahl der nicht meldepflichtigen Stellen im Vergleich zum Vorjahresmonat leicht gestiegen ist.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:25:59",
+		"aktualisierungsdatum": "2025-01-10T08:19:14",
 		"id": 7511
 	},
 	{
@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise ist im Oktober 2024 auf 0,5% gesunken; dies nach 0,8% im September und 1,0% im August.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Dezember 2024 0,4%. Für das gesamte Jahr 2024 resultiert eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2024 und Januar 2023.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:06:53",
+		"aktualisierungsdatum": "2025-01-07T08:54:44",
 		"id": 7512
 	},
 	{
@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ging im Oktober 2024 gegenüber dem Vormonat um 0,1% zurück; im September hatte die Monatsteuerung -0,3% betragen.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Dezember 2024 gegenüber dem Vormonat um 0,1% auf 106,1 Punkte gesunken. Rundungsbedingt beträgt die Monatsteuerung des Basler Index trotzdem 0,0%.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-01T08:13:42",
+		"aktualisierungsdatum": "2025-01-07T08:54:45",
 		"id": 7513
 	},
 	{
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:30",
+		"aktualisierungsdatum": "2024-12-18T09:25:06",
 		"id": 7515
 	},
 	{
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "142 593 Logiernächte wurden im Oktober 2024 in den Basler Hotelbetrieben gebucht, 7 389 bzw. 5,5% mehr als im September. Im Vergleich zum Oktober 2023 entspricht dies einer Zunahme um 10,7% bzw.13 769 Übernachtungen. Die inländischen Gäste buchten 53 361 Logiernächte (+12,4%), die Gäste aus dem Ausland 89 232 Übernachtungen (+9,7%).",
+		"lesehilfe": "134 488 Logiernächte wurden im November 2024 in den Basler Hotelbetrieben gebucht, 8 105 bzw. 5,7% weniger als im Oktober. Im Vergleich zum November 2023 entspricht dies einer Zunahme um 3,5% bzw.4 509 Übernachtungen. Die inländischen Gäste buchten 56 786 Logiernächte (+4,1%), die Gäste aus dem Ausland 77 702 Übernachtungen (+3,0%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-18T07:48:02",
+		"aktualisierungsdatum": "2024-12-23T02:42:42",
 		"id": 7516
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-18T07:48:04",
+		"aktualisierungsdatum": "2024-12-23T02:42:43",
 		"id": 7517
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Im Oktober 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in fast allen Wohnvierteln sowie in Riehen. Nur in den Wohnvierteln Bruderholz und Hirzbrunnen sowie in der Gemeinde Bettingen ging sie zurück.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Im November 2024 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln und in Riehen. In zwölf Wohnvierteln und in Bettingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:57:32",
+		"aktualisierungsdatum": "2024-12-18T09:25:07",
 		"id": 7763
 	},
 	{
@@ -308,7 +308,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt seit Juli 2024 bei rund 3800 Personen. Die Zahl der Langzeitarbeitslosen ist im Oktober 2024 leicht gestiegen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, liegt im Dezember 2024 bei rund 4300 Personen. Die Zahl der Langzeitarbeitslosen ist im Dezember 2024 auf über 800 gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:26:00",
+		"aktualisierungsdatum": "2025-01-10T08:19:15",
 		"id": 8980
 	},
 	{
@@ -370,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:26:01",
+		"aktualisierungsdatum": "2025-01-10T08:19:16",
 		"id": 8981
 	},
 	{
@@ -407,7 +407,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-05T09:26:02",
+		"aktualisierungsdatum": "2025-01-10T08:19:16",
 		"id": 8992
 	}
 ];
