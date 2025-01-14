@@ -26,7 +26,7 @@ const colors = Object.keys(COLORS).reduce((acc, color) => {
 }, {});
 
 export default {
-  content: ["./*.html"],
+  content: ["./*.html", "./assets/js/*.js"],
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),

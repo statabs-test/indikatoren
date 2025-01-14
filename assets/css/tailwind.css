@@ -2043,6 +2043,28 @@ body {
       padding: 5px;
     }
 
+.arrow-icon {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-icon svg {
+    height: 100%;
+  }
+
+.arrow-icon svg {
+    width: 100%;
+  }
+
+.footer-button .arrow-icon {
+  /* Positional adjustment to make the icon flush with the rounded border */
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
 .page-header {
   margin-left: auto;
   margin-right: auto;
@@ -2560,6 +2582,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   border-width: 0;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 .relative {
   position: relative;
 }
@@ -2591,6 +2621,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .ml-\[0\.3em\] {
   margin-left: 0.3em;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }
 
 .mt-30 {
@@ -2643,10 +2677,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .max-w-\[2560px\] {
   max-width: 2560px;
-}
-
-.scroll-mt-\[120px\] {
-  scroll-margin-top: 120px;
 }
 
 .items-center {
@@ -2722,6 +2752,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   line-height: 1;
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2745,8 +2779,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 @font-face {
   font-family: "Inter";
 
-  src: url(/lwz/static/fonts/Inter-Regular.woff2) format("woff2"),
-    url(/lwz/static/fonts/Inter-Regular.woff) format("woff");
+  src: url(/assets/fonts/Inter-Regular.woff2) format("woff2"),
+    url(/assets/fonts/Inter-Regular.woff) format("woff");
 
   font-weight: 400;
 
@@ -2756,8 +2790,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 @font-face {
   font-family: "Inter";
 
-  src: url(/lwz/static/fonts/Inter-Medium.woff2) format("woff2"),
-    url(/lwz/static/fonts/Inter-Medium.woff) format("woff");
+  src: url(/assets/fonts/Inter-Medium.woff2) format("woff2"),
+    url(/assets/fonts/Inter-Medium.woff) format("woff");
 
   font-weight: 500;
 
@@ -2767,8 +2801,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 @font-face {
   font-family: "Inter";
 
-  src: url(/lwz/static/fonts/Inter-Bold.woff2) format("woff2"),
-    url(/lwz/static/fonts/Inter-Bold.woff) format("woff");
+  src: url(/assets/fonts/Inter-Bold.woff2) format("woff2"),
+    url(/assets/fonts/Inter-Bold.woff) format("woff");
 
   font-weight: 700;
 
@@ -2784,10 +2818,6 @@ body {
     margin-top: 40px;
   }
 
-  .md\:scroll-mt-\[60px\] {
-    scroll-margin-top: 60px;
-  }
-
   .md\:px-20 {
     padding-left: 20px;
     padding-right: 20px;
@@ -2798,11 +2828,6 @@ body {
   .lg\:px-25 {
     padding-left: 25px;
     padding-right: 25px;
-  }
-
-  .lg\:text-2xl {
-    font-size: 24px;
-    line-height: 32px;
   }
 
   .lg\:text-lg {
@@ -2817,10 +2842,6 @@ body {
 }
 
 @media (min-width: 1210px) {
-  .xl\:mt-50 {
-    margin-top: 50px;
-  }
-
   .xl\:px-40 {
     padding-left: 40px;
     padding-right: 40px;
@@ -2833,11 +2854,6 @@ body {
   .xl\:text-2xl {
     font-size: 24px;
     line-height: 32px;
-  }
-
-  .xl\:text-4xl {
-    font-size: 36px;
-    line-height: 40px;
   }
 
   .xl\:text-xl {

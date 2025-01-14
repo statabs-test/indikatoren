@@ -217,15 +217,22 @@
         id="title"
         class="<%= (hideTitle ? 'hidden' : '') %> text-xl print:!text-xl mb-20 mt-30 md:mt-40  font-bold xl:pr-140">
         <%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %>
-      </h2>        <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
-          <h1 id='lesehilfeTitle' class=<%= ((hideLesehilfeTitle) ? "'hidden'": "''" ) %>>Lesehilfe</h1>
-          <div class='lesehilfe'><%= lesehilfe %>
-          </div>
+        </h2>
+        <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
+          <h3
+            id="lesehilfeTitle"
+            class="<%= (hideLesehilfeTitle ? 'hidden' : '') %> font-bold">
+            Lesehilfe
+          </h3>
+          <div class='lesehilfe paragraph-text mb-20'><%= lesehilfe %></div>
         </div>
         <div id='erlaeuterungen' class=<%= ((hideErlaeuterungen || erlaeuterungen==="") ? "'hidden'": "''" ) %>>
-          <h1 id='erlaeuterungeTitle'  class=<%= ((hideErlaeuterungenTitle) ? "'hidden'": "''" ) %>>Erläuterungen  und methodische Hinweise</h1>
-          <div class='lesehilfe'><%= erlaeuterungen %>
-          </div>
+          <h3
+            id='erlaeuterungeTitle'
+            class="<%= (hideErlaeuterungenTitle ? 'hidden' : '') %> font-bold">
+            Erläuterungen  und methodische Hinweise
+          </h3>
+          <div class='lesehilfe paragraph-text mb-20'><%= erlaeuterungen %></div>
         </div>
         <%= renderLinksHTML((typeof(kennzahlenset)!=='undefined' ? kennzahlenset: null), (typeof(renderLink) !== 'undefined' ? renderLink : null), (typeof(externalLinks)!=='undefined' ? externalLinks : null ), view, stufe1, 'link', hideLinks, hideLinksTitle) %>
       </div>
