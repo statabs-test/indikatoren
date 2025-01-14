@@ -2043,6 +2043,102 @@ body {
       padding: 5px;
     }
 
+.page-header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 560px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-header {
+    max-width: 836px;
+  }
+}
+
+@media (min-width: 1210px) {
+  .page-header {
+    max-width: 1120px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.page-header {
+  display: grid;
+  align-items: center;
+}
+
+@media(min-width:1660px) {
+  .page-header {
+    max-width: 2560px;
+  }
+}
+
+.page-header {
+  height: var(--page-header-height);
+  grid-template:
+      'logo controls' 46px
+      'console console' auto /
+      1fr auto;
+}
+
+@media (min-width: 768px) {
+
+.page-header {
+    grid-template:
+        'logo console controls' 1fr /
+        1fr 1fr 1fr
+}
+  }
+
+.page-header .page-header-console {
+    grid-area: console;
+  }
+
+.page-header .page-header-console {
+    display: flex;
+  }
+
+.page-header .page-header-console {
+    align-items: center;
+  }
+
+.page-header .page-header-console {
+    justify-content: center;
+  }
+
+.page-header .page-header-controls {
+    display: grid;
+  }
+
+.page-header .page-header-controls {
+    height: 30px;
+  }
+
+.page-header .page-header-controls {
+    justify-content: flex-end;
+  }
+
+.page-header .page-header-controls {
+    gap: 8px;
+  }
+
+.page-header .page-header-controls {
+    grid-area: controls;
+    /* If we do not set the grid area explicitly here, the controls move one to the left on Bettingen. */
+    grid-template-columns: auto auto auto;
+  }
+
 .link {
   color: #1E4557;
 }
@@ -2472,12 +2568,33 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   top: 0px;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .z-\[200\] {
   z-index: 200;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .ml-\[0\.3em\] {
   margin-left: 0.3em;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mt-\[0\.18em\] {
@@ -2488,20 +2605,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
 
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .contents {
@@ -2524,20 +2637,24 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 1.7em;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-\[1em\] {
   width: 1em;
 }
 
-.w-full {
-  width: 100%;
+.max-w-\[2560px\] {
+  max-width: 2560px;
+}
+
+.scroll-mt-\[120px\] {
+  scroll-margin-top: 120px;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .whitespace-nowrap {
@@ -2567,9 +2684,9 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(50 131 74 / var(--tw-bg-opacity, 1));
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .pl-\[0\.25em\] {
@@ -2582,6 +2699,11 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .text-\[0\.59em\] {
   font-size: 0.59em;
+}
+
+.text-xl {
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .font-bold {
@@ -2657,20 +2779,76 @@ body {
   font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-.hover\:opacity-80:hover {
-  opacity: 0.8;
+@media (min-width: 768px) {
+  .md\:mt-40 {
+    margin-top: 40px;
+  }
+
+  .md\:scroll-mt-\[60px\] {
+    scroll-margin-top: 60px;
+  }
+
+  .md\:px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:px-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .lg\:text-2xl {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
   .lg\:text-lg {
     font-size: 18px;
     line-height: 24px;
   }
+
+  .lg\:text-sm {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 @media (min-width: 1210px) {
+  .xl\:mt-50 {
+    margin-top: 50px;
+  }
+
+  .xl\:px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .xl\:pr-140 {
+    padding-right: 140px;
+  }
+
   .xl\:text-2xl {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .xl\:text-4xl {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .xl\:text-xl {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media print {
+  .print\:\!text-xl {
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
 }

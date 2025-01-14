@@ -13,4 +13,5 @@ build/convertArgs.json
 build/config.json
 npm-debug.log.*
 /node_cache
+.vscode
 
