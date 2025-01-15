@@ -21,7 +21,7 @@
               enabled: true,
               y: -35,
               x: -50,
-              format: 'Zielbereich {key}: +/- 10% um Zielpfad',
+              format: 'Konvergierender Zielbereich<br>{key}: +/- 10% um Zielpfad<br>2037: +/- 0%',
               connectorColor:  "#999999",
               connectorWidth: 2,
               style: {
