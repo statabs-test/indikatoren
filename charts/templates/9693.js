@@ -116,6 +116,7 @@
       { "color": "#2B0099", legendIndex: 4, visible: false },
       { "color": "#B00000", legendIndex: 6, visible: false },
       { "color": "#73B97C", legendIndex: 8, visible: false },
+      { "color": "#73B97C", legendIndex: 10, visible: false },
     ],
   };
 }());
