@@ -16,6 +16,20 @@
             );
           }
 
+          this.series[1].points[9].update({
+            dataLabels: {
+              enabled: true,
+              y: -35,
+              x: -50,
+              format: 'Zielbereich {key}: +/- 10% um Zielpfad',
+              connectorColor:  "#999999",
+              connectorWidth: 2,
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            },
+          });
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
@@ -28,7 +42,7 @@
               }
             },
             marker: {
-              enabled: true
+              enabled: true,
             }
           });
 
@@ -129,37 +143,37 @@
           }
           //console.log(this);
           if (linePoint.y !== null) firstLine = "<span style='color:" + linePoint.series.color + "'>●</span> " +
-            linePoint.series.name + ": <b>" + linePoint.y + "%</b><br>";
+            linePoint.series.name + ": <b>" + Highcharts.numberFormat(linePoint.y, 1) + "%</b><br>";
 
-          return "<span style='font-size: 10px'>" +  this.x + "</span><br>" +
+          return "<span style='font-size: 10px'>" + this.key + "</span><br>" +
             firstLine +
-            arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + arearangePoint.low + "%</b> bis <b>" + arearangePoint.high + "%</b>";
+            arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + Highcharts.numberFormat(arearangePoint.low, 1) + "%</b> bis <b>" + Highcharts.numberFormat(arearangePoint.high, 1) + "%</b>";
         }
       }
     },
     "series": [
       {
         "color": "#0091f7",
-        zIndex: 2
+        zIndex: 3
       },
       {
         id: "Zielpfad",
         dashStyle: 'ShortDash',
         color: "#999999",
+        zIndex: 2,
       },
       {
         "color": "#ccc",
         type: 'arearange',
         linkedTo: "Zielpfad",
         zIndex: 1,
-        marker:{
-          states:{
-            hover:{
+        marker: {
+          states: {
+            hover: {
               enabled: false
             }
           }
         }
-
       },
       {
         visible: false,
