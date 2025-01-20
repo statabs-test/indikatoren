@@ -21,29 +21,29 @@
             colors = ['#59fb59', '#fbf659', '#fb9999'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
-            data.forEach(function (element, i) {
-              if (assessed[i].y !== null) {
+          data.forEach(function (element, i) {
+            if (assessed[i].y !== null) {
+              element.update({
+                color: colors[assessed[i].y],
+                marker: {
+                  enabled: true,
+                  lineWidth: 1,
+                  lineColor: "#0091f7",
+                  radius: 3
+                }
+              });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
                 element.update({
-                  color: colors[assessed[i].y],
                   marker: {
                     enabled: true,
                     lineWidth: 1,
                     lineColor: "#0091f7",
-                    radius: 3
+                    radius: 4.5
                   }
                 });
-                if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
-                  element.update({
-                    marker: {
-                      enabled: true,
-                      lineWidth: 1,
-                      lineColor: "#0091f7",
-                      radius: 4.5
-                    }
-                  });
-                }
               }
-            });
+            }
+          });
         }
       }
     },
@@ -74,7 +74,7 @@
       itemStyle: {
         textOverflow: "none",
         whiteSpace: "nowrap"
-      }
+      },
     },
     "tooltip": {
       "pointFormatter": function () {
@@ -116,8 +116,8 @@
       { "color": "#2B0099", legendIndex: 4, visible: false },
       { "color": "#B00000", legendIndex: 6, visible: false },
       { "color": "#73B97C", legendIndex: 8, visible: false },
-      { "color": "#ffbb58", legendIndex: 10, visible: false },
-      { "color": "#cd9c00", legendIndex: 10, visible: false },
+      { "color": "#ffbb58", legendIndex: 12, visible: false },
+      { "color": "#cd9c00", legendIndex: 14, visible: false },
     ],
   };
 }());
