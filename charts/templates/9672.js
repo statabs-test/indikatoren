@@ -179,6 +179,22 @@
         visible: false,
         showInLegend: false
       },
+      {
+        dashStyle: 'ShortDash',
+        color: "#999999",
+      },
+      {
+        dashStyle: 'ShortDash',
+        color: "#999999",
+      },
+      {
+        dashStyle: 'ShortDash',
+        color: "#999999",
+      },
+      {
+        dashStyle: 'ShortDash',
+        color: "#999999",
+      },
     ],
   }
 }());
