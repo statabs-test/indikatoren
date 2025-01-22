@@ -16,6 +16,7 @@
             );
           }
 
+/*          
           this.series[1].points[9].update({
             dataLabels: {
               enabled: true,
@@ -30,6 +31,7 @@
               }
             },
           });
+*/
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
@@ -166,6 +168,7 @@
         "color": "#ccc",
         type: 'arearange',
         linkedTo: "Zielpfad",
+        showInLegend: true,
         zIndex: 1,
         marker: {
           states: {
@@ -178,45 +181,7 @@
       {
         visible: false,
         showInLegend: false
-      },
-      {
-        dashStyle: 'ShortDash',
-        color: "#999999",
-        id: "Zielpfad 1.5",
-        zIndex: 2,
-      },
-      {
-        "color": "#ccc",
-        type: 'arearange',
-        linkedTo: "Zielpfad 1.5",
-        zIndex: 1,
-        marker: {
-          states: {
-            hover: {
-              enabled: false
-            }
-          }
-        }
-      },
-      {
-        dashStyle: 'ShortDash',
-        color: "#999999",
-        id: "Zielpfad 2",
-        zIndex: 2,
-      },
-      {
-        "color": "#ccc",
-        type: 'arearange',
-        linkedTo:  "Zielpfad 2",
-        zIndex: 1,
-        marker: {
-          states: {
-            hover: {
-              enabled: false
-            }
-          }
-        }
-      },
-    ],
+      }
+    ]
   }
 }());
