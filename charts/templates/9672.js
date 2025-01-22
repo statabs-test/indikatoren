@@ -21,7 +21,7 @@
               enabled: true,
               y: -35,
               x: -50,
-              format: 'Konvergierender Zielbereich<br>{key}: +/- 10% um Zielpfad<br>2037: +/- 0%',
+              format: 'Konvergierender Zielbereich<br>{key}: 0%-10% unter Zielpfad<br>2037: +/- 0%',
               connectorColor:  "#999999",
               connectorWidth: 2,
               style: {
@@ -182,18 +182,40 @@
       {
         dashStyle: 'ShortDash',
         color: "#999999",
+        id: "Zielpfad 1.5",
+        zIndex: 2,
+      },
+      {
+        "color": "#ccc",
+        type: 'arearange',
+        linkedTo: "Zielpfad 1.5",
+        zIndex: 1,
+        marker: {
+          states: {
+            hover: {
+              enabled: false
+            }
+          }
+        }
       },
       {
         dashStyle: 'ShortDash',
         color: "#999999",
+        id: "Zielpfad 2",
+        zIndex: 2,
       },
       {
-        dashStyle: 'ShortDash',
-        color: "#999999",
-      },
-      {
-        dashStyle: 'ShortDash',
-        color: "#999999",
+        "color": "#ccc",
+        type: 'arearange',
+        linkedTo:  "Zielpfad 2",
+        zIndex: 1,
+        marker: {
+          states: {
+            hover: {
+              enabled: false
+            }
+          }
+        }
       },
     ],
   }
