@@ -22591,7 +22591,7 @@ var indikatoren = [
 		],
 		"title": "Geöffnete Betriebe nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 waren 64 Hotelbetriebe an mindestens einem Tag des Jahres geöffnet. 21 Betriebe gehörten zur Kategorie der 4- und 5-Sterne-Hotels, 22 Betriebe zur Kategorie der 3-Sterne-Hotels und 8 Betriebe zu den 1- und 2-Sterne-Hotels. 13 der geöffneten Hotels waren nicht klassiert.",
+		"lesehilfe": "2024 waren 64 Hotelbetriebe an mindestens einem Tag des Jahres geöffnet. 20 Betriebe gehörten zur Kategorie der 4- und 5-Sterne-Hotels, 21 Betriebe zur Kategorie der 3-Sterne-Hotels und 8 Betriebe zu den 1- und 2-Sterne-Hotels. 14 der geöffneten Hotels waren nicht klassiert.",
 		"erlaeuterungen": "Anzahl der im Erhebungsjahr während mindestens einem Tag geöffneten Hotels, Appartementhäuser, Hostels, Jugendherbergen, Backpackers und B&Bs, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -22631,7 +22631,7 @@ var indikatoren = [
 		],
 		"title": "Durchschnittliche Betriebsgrösse",
 		"subtitle": "in Zimmern, Basel-Stadt",
-		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2023 im Durchschnitt 100 Zimmer an, 3-Sterne-Häuser im Schnitt 70 Zimmer, 1- bis 2-Sterne-Betriebe 69 Zimmer. Mit Ausnahme der 1- und 2-Sterne-Häuser lag 2023 die Zahl der Zimmer je Betrieb über dem Zehnjahresschnitt.",
+		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2024 im Durchschnitt 100 Zimmer an, 3-Sterne-Häuser im Schnitt 70 Zimmer, 1- bis 2-Sterne-Betriebe 69 Zimmer.",
 		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -22667,12 +22667,11 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			7543,
 			7974
 		],
 		"title": "Anzahl Zimmer und Auslastung nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 standen den Gästen der baselstädtischen Hotellerie insgesamt 4 765 Zimmer zur Verfügung. Davon entfielen 2 104 Zimmer auf Betriebe mit 4 und 5 Sternen und 1 546 auf die Kategorie der 3-Sterne-Hotels, 552 Zimmer auf 1- und 2-Sterne-Hotels sowie 563 Zimmer auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben nahm die Nettozimmerauslastung von 2014 bis 2023 um 6,8 Prozentpunkte zu. Bei den 1- und 2-Sterne-Betrieben stieg die Nettozimmerauslastung über denselben Zeitraum leicht. Bei den 3-, 4- und 5-Sterne-Hotels sank diese. Über alle Kategorien betrachtet waren die Zimmer 2023 zu 56,3% ausgelastet.",
+		"lesehilfe": "2024 standen den Gästen der baselstädtischen Hotellerie insgesamt 4 690 Zimmer zur Verfügung. Davon entfielen 1 995 Zimmer auf Betriebe mit 4 und 5 Sternen und 1 520 auf die Kategorie der 3-Sterne-Hotels, 559 Zimmer auf 1- und 2-Sterne-Hotels sowie 616 Zimmer auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben nahm die Nettozimmerauslastung von 2015 bis 2024 um 11,1 Prozentpunkte zu. Bei den 1- und 2-Sterne-Betrieben stieg die Nettozimmerauslastung über denselben Zeitraum um 5,1 Prozentpunkte. Bei den 3-, 4- und 5-Sterne-Hotels sank diese. Über alle Kategorien betrachtet waren die Zimmer 2024 zu 56,3% ausgelastet.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -22712,7 +22711,7 @@ var indikatoren = [
 		],
 		"title": "Nettozimmerauslastung nach Wochentag",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach weitgehender Kontinuität in den Jahren 2013 bis 2019 sank die durchschnittliche Nettozimmerauslastung 2020 und 2021 deutlich. 2023 lag sie bei 56,3%, 3,9 Prozentpunkte höher als 2022. Lag die durchschnittliche Nettozimmerauslastung von Sonntag bis Donnerstag 2022 bei 51,5%, schliesst sie 2023 bei 56,8%. Von Freitag bis Samstag lag die Nettozimmerauslastung im Jahr 2022 bei durchschnittlich 54,9%, 2023 bei 55,2%.",
+		"lesehilfe": "Nach weitgehender Kontinuität in den Jahren 2013 bis 2019 sank die durchschnittliche Nettozimmerauslastung 2020 und 2021 deutlich. 2024 lag sie bei 60,1%, 1,6 Prozentpunkte tiefer als 2023. Lag die durchschnittliche Nettozimmerauslastung von Sonntag bis Donnerstag 2023 bei 56,8%, schliesst sie 2024 bei 60,1%. Von Freitag bis Samstag lag die Nettozimmerauslastung im Jahr 2023 bei durchschnittlich 55,2%, 2024 bei 59,9%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2014 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -22752,7 +22751,7 @@ var indikatoren = [
 		],
 		"title": "Hotelbetriebe und Anzahl Betten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 boten die 64 baselstädtischen Hotels insgesamt 9 397 Betten an. Im Jahr 2022 waren es 9 280 Betten in 65 Hotelbetrieben. Dies entspricht einer Zunahme um 117 Betten. In der Erhebung von 1939 gab es in 42 Betrieben insgesamt 2 137 Betten.",
+		"lesehilfe": "2024 boten die 64 baselstädtischen Hotels insgesamt 9 291 Betten an. Im Jahr 2023 waren es 9 397 Betten in 64 Hotelbetrieben. Dies entspricht einer Abnahme um 106 Betten. In der Erhebung von 1939 gab es in 42 Betrieben insgesamt 2 137 Betten.",
 		"erlaeuterungen": "Seit 2016 werden in den Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
