@@ -54,7 +54,8 @@
         }
   ],  
      tooltip: {
-         pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>'
+         pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} ({point.percentage:.1f}%)</b><br/>',
+         footerFormat: '<span style="color: black">\u25CF</span> Total: <b>{point.total:,.0f}</b>'
      }, 
 };
 }());
