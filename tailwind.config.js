@@ -28,9 +28,6 @@ const colors = Object.keys(COLORS).reduce((acc, color) => {
 export default {
   content: ["./*.html", "./assets/js/*.js"],
   plugins: [
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/aspect-ratio"),
     plugin(function ({ addVariant }) {
       addVariant(
         "mobile-only",

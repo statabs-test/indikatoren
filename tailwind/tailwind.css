@@ -91,4 +91,12 @@ body {
   .comma-list > li {
     @apply not-last:after:content-[',_'] not-last:after:whitespace-pre inline-block;
   }
+
+  .indikatoren-pagination > nav > ul {
+    @apply flex space-x-2 overflow-hidden;
+  }
+
+  .indikatoren-pagination > nav > .pagination > .active {
+    @apply bg-primary-100;
+  }
 }

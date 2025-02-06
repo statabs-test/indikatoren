@@ -218,8 +218,8 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     FJS = FilterJS(indikatoren, "#indikatoren", fjsConfig);
     FJS.addCriteria({
       field: "thema",
-      ele: "#thema",
-      all: "all",
+      ele: "#thema_criteria input:radio",
+      all: "Alle",
     });
     FJS.addCriteria({
       field: "unterthema",
@@ -330,7 +330,7 @@ function getSortOptions(name) {
 //change DOM and render controls to accomodate portal view
 function preparePortalView() {
   $("#main-control-element-indikatorenset").remove();
-  renderDropdownFromJson(indikatoren, "thema", "#thema", "thema");
+  renderThema();
   renderMultiselectDropdownFromJson(
     [
       "Schweiz",
@@ -365,8 +365,6 @@ function preparePortalView() {
     "unterthema",
     baseQuery
   );
-
-  // hier!
 
   //pre-populate fields with url parameter values
   var themaUrlParameterVal = window.decodeURIComponent($.url("?thema"));
@@ -514,15 +512,17 @@ function renderLastUpdatedSets(selector) {
       $.each(datenliste, function (i, c) {
         //only add if row is not empty
         if (c.Datum && i < 9) {
-          container.find("tbody").append(
-            templateFunction({
-              Datum: c.Datum,
-              ThemaLink: c.ThemaLink,
-              Thema: c.Thema,
-              Bereich: c.Bereich,
-              Datenstand: c.Datenstand,
-            })
-          );
+          container
+            .find("tbody")
+            .append(
+              templateFunction({
+                Datum: c.Datum,
+                ThemaLink: c.ThemaLink,
+                Thema: c.Thema,
+                Bereich: c.Bereich,
+                Datenstand: c.Datenstand,
+              })
+            );
         }
       });
     }
@@ -560,28 +560,23 @@ function setDropdownValFromUrlParameter(field) {
 }
 
 function renderThema() {
-  var JQ = JsonQuery(indikatoren);
-  var allValues = JQ.pluck("thema").all;
-  var uniqueValues = allValues.filter(function (item, i, ar) {
-    return ar.indexOf(item) === i && item != "";
-  });
-
-  var html = $("#option-template").html();
+  //get all values of thema and add value "Alle" as the first one
+  var values = ["Alle"].concat(
+    JsonQuery(indikatoren).uniq("thema").order({ thema: "asc" }).pluck("thema")
+      .all
+  );
+  var html = $("#radio-template").html();
   var templateFunction = FilterJS.templateBuilder(html);
-  var container = $("#thema");
+  var container = $("#thema_criteria");
 
-  // Clear existing options and add "All" option
-  container.children().remove();
-  container.append('<option value="all">Alle</option>');
-
-  $.each(uniqueValues, function (i, c) {
-    container.append(templateFunction({ key: c, value: c }));
+  $.each(values, function (i, c) {
+    container.append(
+      templateFunction({ value: c, radioGroupName: "themaRadioGroup" })
+    );
   });
 
-  // Attach event listener for change event
-  $("#thema").change(function () {
-    FJS.filter();
-  });
+  //check first radio ('Alle')
+  $("#thema_criteria :radio:first()").prop("checked", true);
 }
 
 //create a single-select dropdown that contain values from a given json object at a specified place in the DOM
@@ -823,7 +818,6 @@ var afterFilter = function (result, jQ) {
     query && query.criteria && query.criteria.where
       ? updateCountsExclusive
       : updateCountsInclusive;
-
   updateFunction(
     "#thema_criteria :input:gt(0)",
     "thema",
@@ -831,7 +825,6 @@ var afterFilter = function (result, jQ) {
     result,
     jQ
   );
-
   updateFunction(
     "#raeumlicheGliederung_filter > option",
     "raeumlicheGliederung",
@@ -839,7 +832,6 @@ var afterFilter = function (result, jQ) {
     result,
     jQ
   );
-
   updateFunction(
     "#darstellungsart_filter > option",
     "darstellungsart",
