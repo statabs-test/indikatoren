@@ -2375,6 +2375,36 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   }
 }
 
+.\!container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 560px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .\!container {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .\!container {
+    max-width: 836px;
+  }
+}
+
+@media (min-width: 1210px) {
+  .\!container {
+    max-width: 1120px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
 .indikatoren-pagination > nav > ul {
   display: flex;
 }
@@ -2649,6 +2679,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
+}
+
+.pb-\[120px\] {
+  padding-bottom: 120px;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
 }
 
 .text-right {
