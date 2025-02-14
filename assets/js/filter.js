@@ -1816,6 +1816,22 @@
 
   views["pagination"] =
     '<nav>  <ul class="pagination">    <% if(currentPage > 1) { %>      <li> <a href="#" data-page="first" aria-label="First"><span class="glyphicon glyphicon-fast-backward" aria-hidden="true"</span></a> </li>      <li><a href="#" data-page="prev" aria-label="Previous"><span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span></a></li>    <% } %>    <% for(var i = 0, l = pages.length; i < l; i++ ){ %>      <li class="<%= pages[i] == currentPage ? \'active\' : \'\' %>">        <a href="#" data-page="<%= pages[i] %>"><%= pages[i] %></a>      </li>    <% } %>    <% if( currentPage < totalPages ) { %>      <li><a href="#" data-page="next" aria-label="Next"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a></li>      <li><a href="#" data-page="last" aria-label="Last"><span class="glyphicon glyphicon-fast-forward" aria-hidden="true"></span></a></li>    <% } %>  </ul></nav>';
+
+  views["pagination"] =
+    '<nav>  <ul class="pagination h-[25px]">    <% if(currentPage > 1) { %>      \
+      <li> <a href="#" data-page="first" aria-label="First"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-west-simple-double.svg" alt="First Page" /></a> </li>      \
+      <li><a href="#" data-page="prev" aria-label="Previous"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-west-simple.svg" alt="Previous Page" /></a></li>    \
+    <% } %>    \
+    <% for(var i = 0, l = pages.length; i < l; i++ ){ %>      \
+      <li class="<%= pages[i] == currentPage ? \'active\' : \'\' %>">        \
+        <a href="#" data-page="<%= pages[i] %>"><%= pages[i] %></a>      \
+      </li>    \
+    <% } %>    \
+    <% if( currentPage < totalPages ) { %>      \
+      <li><a href="#" data-page="next" aria-label="Next"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-east-simple.svg" alt="Next Page" /></a></li>      \
+      <li> <a href="#" data-page="first" aria-label="First"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-east-simple-double.svg" alt="First Page" /></a> </li>      \
+    <% } %>  </ul></nav>';
+
   views["per_page"] =
     '<select size="1" name="per_page" data-perpage="true" class="per-page">  <% for(var i = 0; i < values.length; i++ ){ %>    <option value="<%= values[i] %>"><%= values[i] %></option>  <% } %></select>';
 

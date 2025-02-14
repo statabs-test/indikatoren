@@ -2345,36 +2345,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
     color: #403F3F;
   }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 560px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 836px;
-  }
-}
-
-@media (min-width: 1210px) {
-  .container {
-    max-width: 1120px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
 .\!container {
   margin-left: auto;
   margin-right: auto;
@@ -2399,6 +2369,36 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 @media (min-width: 1210px) {
   .\!container {
+    max-width: 1120px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 560px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 836px;
+  }
+}
+
+@media (min-width: 1210px) {
+  .container {
     max-width: 1120px;
     padding-left: 40px;
     padding-right: 40px;
@@ -2504,8 +2504,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 30px;
 }
 
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
+}
+
+.mt-\[-22px\] {
+  margin-top: -22px;
 }
 
 .block {
@@ -2544,12 +2552,20 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 1.7em;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
 .h-\[50px\] {
   height: 50px;
 }
 
 .h-\[60px\] {
   height: 60px;
+}
+
+.h-\[25px\] {
+  height: 25px;
 }
 
 .w-1\/2 {
@@ -2665,8 +2681,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding-right: 15px;
 }
 
-.pb-\[220px\] {
-  padding-bottom: 220px;
+.pb-\[20px\] {
+  padding-bottom: 20px;
 }
 
 .pl-20 {
@@ -2679,14 +2695,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
-}
-
-.pb-\[120px\] {
-  padding-bottom: 120px;
-}
-
-.pb-\[20px\] {
-  padding-bottom: 20px;
 }
 
 .text-right {
@@ -2823,10 +2831,6 @@ body {
   .md\:px-20 {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .md\:pb-\[140px\] {
-    padding-bottom: 140px;
   }
 }
 
