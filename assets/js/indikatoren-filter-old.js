@@ -512,17 +512,15 @@ function renderLastUpdatedSets(selector) {
       $.each(datenliste, function (i, c) {
         //only add if row is not empty
         if (c.Datum && i < 9) {
-          container
-            .find("tbody")
-            .append(
-              templateFunction({
-                Datum: c.Datum,
-                ThemaLink: c.ThemaLink,
-                Thema: c.Thema,
-                Bereich: c.Bereich,
-                Datenstand: c.Datenstand,
-              })
-            );
+          container.find("tbody").append(
+            templateFunction({
+              Datum: c.Datum,
+              ThemaLink: c.ThemaLink,
+              Thema: c.Thema,
+              Bereich: c.Bereich,
+              Datenstand: c.Datenstand,
+            })
+          );
         }
       });
     }
@@ -858,6 +856,7 @@ var afterFilter = function (result, jQ) {
   //add Counts in brackets after each option
   //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
   function updateCountsExclusive(selector, field, renderFunction) {
+    console.log("uhere?");
     var items = $(selector);
     //iterate over each displayed value of the criterion
     items.each(function () {
