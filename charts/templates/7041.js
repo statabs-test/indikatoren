@@ -21,9 +21,9 @@
         }
       },
       "yAxis": {
-          max: 200000,
+          /*max: 200000,*/
           tickAmount: 6,
-          tickInterval: 40000,
+          tickInterval: 50000,
           reversedStacks: false, 
          
       },

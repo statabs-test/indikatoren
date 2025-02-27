@@ -8,9 +8,9 @@
         }
   },
   "yAxis": {
-   tickAmount: 6,
+   tickAmount: 7,
    tickInterval: 500,
-   max: 2500,
+   /*max: 2500,*/
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
