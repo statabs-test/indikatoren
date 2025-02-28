@@ -2443,12 +2443,52 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   visibility: hidden;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .top-0 {
   top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-20 {
+  left: 20px;
+}
+
+.right-20 {
+  right: 20px;
+}
+
+.left-30 {
+  left: 30px;
+}
+
+.right-30 {
+  right: 30px;
 }
 
 .z-10 {
@@ -2457,6 +2497,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .z-\[200\] {
   z-index: 200;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .col-span-1 {
@@ -2564,6 +2608,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 60px;
 }
 
+.h-3 {
+  height: 3px;
+}
+
+.max-h-\[90vh\] {
+  max-height: 90vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -2576,8 +2628,21 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 100%;
 }
 
+.w-3 {
+  width: 3px;
+}
+
 .max-w-\[2560px\] {
   max-width: 2560px;
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -2625,6 +2690,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
        column-gap: 20px;
 }
 
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2px * var(--tw-space-x-reverse));
+  margin-left: calc(2px * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -2635,6 +2706,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .rounded-\[30px\] {
   border-radius: 30px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
@@ -2668,8 +2743,49 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 148 148 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#DDECDE\]\/30 {
+  background-color: rgb(221 236 222 / 0.3);
+}
+
+.bg-\[\#DDECDE\]\/60 {
+  background-color: rgb(221 236 222 / 0.6);
+}
+
+.bg-\[\#000000\]\/60 {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.bg-\[\#000000\]\/20 {
+  background-color: rgb(0 0 0 / 0.2);
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-5 {
+  --tw-bg-opacity: 0.05;
+}
+
 .p-10 {
   padding: 10px;
+}
+
+.p-2 {
+  padding: 2px;
 }
 
 .px-15 {
@@ -2706,6 +2822,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   line-height: 28px;
 }
 
+.text-2xl {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-4xl {
+  font-size: 36px;
+  line-height: 40px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2720,6 +2846,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .text-gray-600 {
   color: #777777;
+}
+
+.text-white {
+  color: #ffffff;
 }
 
 .underline {

@@ -84,7 +84,7 @@
     <script src="geojson/rhein_EPSG_2056.js"></script>
     <script src="geojson/UA_Gemeinden_100.js"></script>
     <script src="geojson/GemeindenBSBL_EPSG_2056.js"></script>
-
+    <script src="assets/js/lightbox.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child"
       type="text/javascript"
@@ -291,6 +291,49 @@
       </div>
     </div>
 
+    <!-- Lightbox Modal -->
+    <div
+      id="lightbox"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-[#DDECDE]/60 hidden"
+    >
+      <div class="relative w-full max-w-3xl">
+        <!-- Close Button -->
+        <button
+          id="close-lightbox"
+          class="absolute top-4 right-30 text-black text-4xl"
+        >
+          &times;
+        </button>
+
+        <!-- Image/Chart Container -->
+        <div class="relative overflow-hidden">
+          <div id="lightbox-content" class="w-full">
+            <!-- Dynamically inserted content will go here -->
+          </div>
+
+          <!-- Navigation Buttons -->
+          <button
+            id="prev-slide"
+            class="absolute left-30 top-1/2 transform -translate-y-1/2 text-black text-4xl p-2"
+          >
+            ❮
+          </button>
+          <button
+            id="next-slide"
+            class="absolute right-30 top-1/2 transform -translate-y-1/2 bg-black text-black text-4xl p-2"
+          >
+            ❯
+          </button>
+        </div>
+
+        <!-- Dots for navigation -->
+        <div
+          id="carousel-indicators"
+          class="flex justify-center mt-4 space-x-2"
+        ></div>
+      </div>
+    </div>
+
     <!-- html templates -->
     <!-- chart thumbnail template for portal view -->
     <script id="indikator-template-carousel-portal" type="text/html">
@@ -302,21 +345,17 @@
       >
         <div class="thumbnail">
           <a
-            id="thumbnail-lightbox-link-<%= _fid %>"
-            href="#lightbox"
-            data-toggle="modal"
-            data-slide-to="<%= getIndexByFid(_fid) %>"
-            indikator-id-data="<%= id %>"
-            indikator-kuerzel-data="<%= kuerzel %>"
-            indikator-fid-data="<%= _fid %>"
+            href="javascript:void(0);"
+            class="lightbox-trigger"
+            data-src="images/portal/<%= id %>.svg"
+            data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
               <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
             </div>
             <img
-              src="<%= 'images/portal/' + id + '.svg' %>"
+              src="images/portal/<%= id %>.svg"
               alt="<%= kuerzel %>: <%= description %>"
-              title="<%= kuerzel %>: <%= description %>"
               class="w-full"
             />
           </a>
@@ -334,24 +373,18 @@
       >
         <div class="thumbnail">
           <a
-            id="thumbnail-lightbox-link-<%= _fid %>"
-            href="#lightbox"
-            data-toggle="modal"
-            data-slide-to="<%= getIndexByFid(_fid) %>"
-            indikator-id-data="<%= id %>"
-            indikator-kuerzel-data="<%= kuerzel %>"
-            indikator-fid-data="<%= _fid %>"
+            href="javascript:void(0);"
+            class="lightbox-trigger"
+            data-src="images/portal/<%= id %>.svg"
+            data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 title="<%= kuerzelKunde %>: <%= description %>">
-                <%= kuerzelKunde + ' ' + title %>
-              </h5>
+              <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
             </div>
             <img
-              src="<%= 'images/portal/' + id + '.svg' %>"
-              alt="<%= kuerzelKunde %>: <%= description %>"
-              title="<%= kuerzelKunde %>: <%= description %>"
-              class="img-responsive"
+              src="images/portal/<%= id %>.svg"
+              alt="<%= kuerzel %>: <%= description %>"
+              class="w-full"
             />
           </a>
         </div>
