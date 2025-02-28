@@ -825,9 +825,9 @@ var afterFilter = function (result, jQ) {
       : updateCountsInclusive;
 
   updateFunction(
-    "#thema_criteria > option",
+    "#thema_criteria option:gt(0)",
     "thema",
-    checkboxCountRenderFunction,
+    optionCountRenderFunction,
     result,
     jQ
   );
