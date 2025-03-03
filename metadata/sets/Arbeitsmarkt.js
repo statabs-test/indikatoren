@@ -2751,7 +2751,7 @@ var indikatorensetData = [
 		"children": [
 			7487
 		],
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche <br>IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Ende 2023 sind in Basel-Stadt im Bereich IT-Dienstleistungen 86 Personen arbeitslos. Dies ist eine Zunahme gegenüber 2022 (Ende 2022: 48 Personen). Die mittlere jährliche Arbeitslosenquote liegt 2023 bei 3,4%. Diesem Wert liegen Hochrechnungen der Erwerbstätigen zugrunde, weshalb er mit statistischer Unsicherheit behaftet ist.",
 		"erlaeuterungen": "",
@@ -2790,7 +2790,7 @@ var indikatorensetData = [
 		"children": [
 			7488
 		],
-		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
+		"title": "Ausländische Erwerbstätige in der Branche <br>IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2023 arbeiten in Basel-Stadt 1 512 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 17 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",

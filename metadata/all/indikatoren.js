@@ -40803,7 +40803,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Grenzgänger nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2024 gab es im Vergleich mit dem Jahresbeginn 2015 vor allem bei der jüngsten und der ältesten Altersgruppe einen starken relativen Zuwachs. Der Anstieg in Gruppe der Personen über 54 Jahre beträgt 45,9%, auf nun rund 7 700 Personen. Verglichen mit dem 4. Quartal 2023 verzeichnet diese Altersgruppe einen Anstieg um rund 400 Personen.",
+		"lesehilfe": "Im 4. Quartal 2024 gab es im Vergleich zum Jahresbeginn 2015 vor allem bei der jüngsten und der ältesten Altersgruppe einen starken relativen Zuwachs. Der Anstieg in der Gruppe der Personen über 54 Jahre beträgt 45,9% auf nun rund 7 700 Personen. Verglichen mit dem 4. Quartal 2023 verzeichnet diese Altersgruppe einen Anstieg um rund 400 Personen.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -40879,7 +40879,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Grenzgänger im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Vergleich zum Jahr 2015 ist die Zahl der Grenzgänger in der Branche Information und Kommunikation um 60,3% gestiegen. Im Vergleich zum 4. Quartal 2023 stieg dieser Wert um 6,6%. Auch das Gastgewerbe verzeichnete im 4. Quartal 2024 ein Plus von 9,0% gegenüber dem Vorjahr, ebenso die Branche Verkehr und Lagerei mit 3,1%. Der Bereich Handel und Reparatur wies ein Minus von 0,2% aus.",
+		"lesehilfe": "Im Vergleich zum Jahr 2015 ist die Zahl der Grenzgänger in der Branche Information und Kommunikation um 60,3% gestiegen. Im Vergleich zum 4. Quartal 2023 stieg dieser Wert um 6,6%. Auch das Gastgewerbe verzeichnete im 4. Quartal 2024 ein Plus von 9,0% gegenüber dem Vorjahr, ebenso die Branche Verkehr und Lagerei mit 3,1%. Der Bereich Handel und Reparatur wies ein Minus von 0,2% auf.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten (inkl. UK) mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
@@ -40955,7 +40955,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"subtitle": "in Franken",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2022 beträgt es rund 218  000 Franken. Dies sind 31,1% mehr als 2013. Gegenüber 2021 ist ein Anstieg um 7,2% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2022 rund 89 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2023 beträgt es rund 212  000 Franken. Dies sind 25,2% mehr als 2014. Gegenüber 2022 ist ein Anstieg um 1,0% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2023 rund 91 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -40993,7 +40993,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Wachstumsrate des realen BIP gegenüber Vorjahr",
 		"subtitle": "nach Kanton",
-		"lesehilfe": "Das reale BIP von Basel-Stadt ist 2022 gegenüber dem Vorjahr um 6,9% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2022 um 2,6% gestiegen.",
+		"lesehilfe": "Das reale BIP von Basel-Stadt ist 2023 gegenüber dem Vorjahr um 4,0% gewachsen. In der gesamten Schweiz ist das BIP gegenüber 2022 um 0,7% gestiegen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -41031,8 +41031,8 @@ var indikatoren = [
 		"parentId": "2402",
 		"children": [],
 		"title": "Nominale Wertschöpfung nach Branche",
-		"subtitle": "Anteile, 2022",
-		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2022 beträgt dieser 44,9%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 10,5%, vor den Finanz- und Versicherungsdienstleistungen mit 8,7%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 20,5% am grössten, im Aargau ebenfalls mit 18,1% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 18,0%. Die Branche Handel und Reparatur ist auch im Schweizer Durchschnitt mit 16,2% die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
+		"subtitle": "Anteile, 2023",
+		"lesehilfe": "In Basel-Stadt hat vor allem die Branche Chemie und Pharma einen grossen Anteil an der nominalen Wertschöpfung. Im Jahr 2023 beträgt dieser 39,2%. Die Branche Beratung, Planung, Forschung und Immobilien folgt mit 12,4%, vor den Finanz- und Versicherungsdienstleistungen mit 9,6%. In Basel-Landschaft ist die Branche Handel und Reparatur mit 19,4% am grössten, im Kanton Aargau die Industrie (ohne Chemie und Pharma) mit 18,7% und in Zürich die Branche Finanz- und Versicherungsdienstleistungen mit 18,2%. Die Branche Handel und Reparatur ist im Schweizer Durchschnitt mit 15,0% knapp die grösste. Die Branche Öffentliche Verwaltung und Sozialversicherungen enthält in dieser Abbildung auch die staatlichen Bildungsinstitutionen.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -41070,8 +41070,8 @@ var indikatoren = [
 		"parentId": "2404",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung in Industrie und Baugewerbe",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
-		"lesehilfe": "Seit dem Jahr 2013 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdreifacht. 2022 betrug der Zuwachs gegenüber dem Vorjahr 11,8%. Bei der Industrie insgesamt hat sich der Wert seit 2013 mehr als verdoppelt (gegenüber Vorjahr +11,5%). Im Baugewerbe wurde seit 2013 ein Zuwachs von 3,1% verzeichnet (gegenüber Vorjahr -11,3%).",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+		"lesehilfe": "Seit dem Jahr 2014 hat sich die reale Wertschöpfung der Pharmazeutischen Industrie mehr als verdreifacht. 2023 betrug der Zuwachs gegenüber dem Vorjahr 9,1%. Bei der Industrie insgesamt hat sich der Wert seit 2014 ebenfalls fast verdreifacht (gegenüber Vorjahr +6,9%). Im Baugewerbe wurde seit 2014 ein Rückgang von 7,7% verzeichnet (gegenüber Vorjahr -7,6%).",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -41108,8 +41108,8 @@ var indikatoren = [
 		"parentId": "2405",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnete im Vergleich zum Vorjahr einen Rückgang der realen Wertschöpfung (-2,3%), ebenso der Bereich Information und Kommunikation (-0,2%). Bei den Branchen Verkehr und Lagerei (+15,5%) sowie vor allem beim Gastgewerbe (+75,1%) stieg der Wert deutlich. Die starken Rückgänge, die im Zuge der COVID-19-Pandemie zu beobachten waren, sind noch nicht aufgeholt.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+		"lesehilfe": "Alle abgebildeten Branchen verzeichneten gegenüber dem Vorjahr einen Anstieg der realen Wertschöpfung. Das Vor-Pandemie-Niveau ist noch nicht bei allen wieder erreicht. Den grössten relativen Anstieg im Vergleich zum Vorjahr verzeichnete mit 9,4% das Gastgewerbe. In der Branche Handel und Reparatur beträgt der Anstieg 4,1%, im Bereich Verkehr und Lagerei 4,9% und in der Branche Information und Kommunikation 6,2%.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -41945,8 +41945,8 @@ var indikatoren = [
 		"parentId": "6448",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
-		"lesehilfe": "Im Vergleich zum Vorjahr verzeichnete die Branche  Beratung, Planung und Forschung einen Rückgang der realen Wertschöpfung (-5,6%). Den stärksten Zuwachs gegenüber 2021 gab es mit 9,1% im Bereich Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen. Die darin enthaltene Branche Personalvermittlung und -überlassung wuchs um 6,8%. Auch in der Branche Finanz- und Versicherungsdienstleistungen stieg die reale Wertschöpfung (+1,7%).",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+		"lesehilfe": "Im Vergleich zum Vorjahr verzeichnete 2023 nur die Branche Finanz- und Versicherungsdienstleistungen einen Rückgang der realen Wertschöpfung (-0,5%). Den stärksten Zuwachs gegenüber 2022 gab es mit 7,5% im Bereich Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -41983,8 +41983,8 @@ var indikatoren = [
 		"parentId": "6449",
 		"children": [],
 		"title": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)",
-		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
-		"lesehilfe": "Im Vergleich zum Vorjahr verzeichnete 2022 vor allem die Branche Kultur und Unterhaltung einen Anstieg der realen Wertschöpfung (+27,8%). Sie liegt damit insgesamt leicht über dem Vor-Pandemie-Niveau 2019. Auch die übrigen abgebildeten Branchen verzeichneten ein Plus gegenüber 2021.<br>Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
+		"subtitle": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+		"lesehilfe": "Im Vergleich zum Vorjahr verzeichnete 2023 nur die Branche Kultur und Unterhaltung einen Rückgang der realen Wertschöpfung (-0,7%). Die übrigen abgebildeten Branchen verzeichneten ein Plus gegenüber 2022.<br>Die staatlichen Bildungsinstitutionen sind in dieser Abbildung in der Öffentlichen Verwaltung, nicht in der Branche Erziehung und Unterricht enthalten.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -43490,7 +43490,7 @@ var indikatoren = [
 		"children": [
 			7487
 		],
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche <br>IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Ende 2023 sind in Basel-Stadt im Bereich IT-Dienstleistungen 86 Personen arbeitslos. Dies ist eine Zunahme gegenüber 2022 (Ende 2022: 48 Personen). Die mittlere jährliche Arbeitslosenquote liegt 2023 bei 3,4%. Diesem Wert liegen Hochrechnungen der Erwerbstätigen zugrunde, weshalb er mit statistischer Unsicherheit behaftet ist.",
 		"erlaeuterungen": "",
@@ -43530,7 +43530,7 @@ var indikatoren = [
 		"children": [
 			7488
 		],
-		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
+		"title": "Ausländische Erwerbstätige in der Branche <br>IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2023 arbeiten in Basel-Stadt 1 512 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 17 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
@@ -43611,7 +43611,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigung im Detailhandel",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) war zwischen 2013 und 2022 rückläufig. 2022 war die Anzahl Beschäftigte im Detailhandel leicht tiefer als im Vorjahr. Sie lag im Jahr 2022 bei gut 6 200 Vollzeitäquivalenten (2013: 7 500). Knapp 1 900 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (800 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
+		"lesehilfe": "Die Beschäftigung im Detailhandel (NOGA 47) war zwischen 2013 und 2022 rückläufig. 2022 war die Anzahl Beschäftigte im Detailhandel leicht tiefer als im Vorjahr. Sie lag im Jahr 2022 bei gut 6 200 Vollzeitäquivalenten (2013: 7 500). Knapp 1 900 VZÄ sind im Bereich Waren verschiedener Art tätig, welcher insbesondere die Supermärkte umfasst. Es folgen Kleider, Schuhe, Lederwaren (850 VZÄ), Apotheken und Kosmetik (800 VZÄ) sowie Bücher, Sport und Spielwaren (600 VZÄ).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -43764,7 +43764,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigung im Landverkehr",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Rund 3 600 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2022 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 800 weniger als 2013, wobei ein Grossteil des gesamten Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind die Personenbeförderung auf der Schiene mit rund 1 300 VZÄ, die Personenbeförderung im Nahverkehr (ohne Taxis) mit 1 100 VZÄ sowie die Güterbeförderung im Strassenverkehr mit rund 800 VZÄ. Der Betrieb von Taxis macht rund 200 VZÄ aus.",
+		"lesehilfe": "Rund 3 600 Beschäftigte in Vollzeitäquivalenten (VZÄ) waren 2022 in der Branche Landverkehr (NOGA 49) tätig. Dies sind rund 800 weniger als 2013, wobei ein Grossteil des gesamten Rückgangs auf die Güterbeförderung auf der Schiene zurückzuführen ist. Bedeutend sind die Personenbeförderung auf der Schiene mit rund 1 300 VZÄ, die Personenbeförderung im Nahverkehr (ohne Taxis) mit 1 100 VZÄ sowie die Güterbeförderung im Strassenverkehr mit rund 800 VZÄ. Der Betrieb von Taxis macht gut 200 VZÄ aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -43802,7 +43802,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose und Arbeitslosenquote im Landverkehr",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 lag die Zahl der Arbeitslosen in der Branche Landverkehr bei 70 Personen und somit höher als im gleichen Vorjahresmonat. Die mittlere jährliche Arbeitslosenquote für das Jahr 2023 betrug 4,4%. Diesem Wert liegen Hochrechnungen der Erwerbstätigen zugrunde, weshalb er mit statistischer Unsicherheit behaftet ist.",
+		"lesehilfe": "Ende 2024 lag die Zahl der Arbeitslosen in der Branche Landverkehr bei 70 Personen und somit höher als im gleichen Vorjahresmonat. Die mittlere jährliche Arbeitslosenquote für das Jahr 2024 betrug 4,4%. Diesem Wert liegen Hochrechnungen der Erwerbstätigen zugrunde, weshalb er mit statistischer Unsicherheit behaftet ist.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -43991,7 +43991,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": "7454",
 		"children": [],
-		"title": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
+		"title": "Ausländische Erwerbstätige in der Branche <br>IT-Dienstleistungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In der Branche IT-Dienstleistungen zeigt sich in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2024 arbeiten in Basel-Stadt 1 634 Grenzgänger. In Vollzeitäquivalente umgerechnet machen die Meldepflichtigen in der Branche IT-Dienstleistungen 23 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
 		"erlaeuterungen": "",
@@ -66396,7 +66396,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Erwerbstätige in der Branche Private Haushaltsdienstleistungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im 4. Quartal 2024 sind in Basel-Stadt 226 Grenzgänger im Branchenaggregat Private Haushaltsdienstleistungen als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) liegt bei 11 Stellen. Die Zuwanderung von Erwerbstätigen war in den letzten zehn Jahren mit 21 Personen am höchsten im 4. Quartal 2014.",
+		"lesehilfe": "Im 4. Quartal 2024 sind in Basel-Stadt 226 Grenzgänger im Branchenaggregat Private Haushaltsdienstleistungen als Arbeitgeber und Hersteller von Waren (NOGA 97 und 98) tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) liegt bei 11 Stellen. In den letzten zehn Jahren war die Zuwanderung von Erwerbstätigen mit 21 Personen im 4. Quartal 2014 am höchsten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
@@ -66435,7 +66435,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigung in der Branche Lagerei und Zustelldienste",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Beschäftigung in der Branchengruppe Lagerei und Zustelldienste (NOGA 52 und 53) hat im Vergleich zu 2021 zugenommen. Im Jahr 2022 beträgt sie 3 900 Vollzeitäquivalente. Der Bereich Erbringung von sonstigen Dienstleistungen für den Verkehr a. n. g. macht mit rund 1 900 VZÄ den grössten Anteil aus.",
+		"lesehilfe": "Die Beschäftigung in der Branchengruppe Lagerei und Zustelldienste (NOGA 52 und 53) hat im Vergleich zu 2021 zugenommen. Im Jahr 2022 beträgt sie 3 900 Vollzeitäquivalente. Der Bereich Erbringung von sonstigen Dienstleistungen für den Verkehr a. n. g. (anderweitig nicht genannt) macht mit rund 1 900 VZÄ den grössten Anteil aus.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
