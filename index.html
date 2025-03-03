@@ -297,32 +297,38 @@
       class="fixed inset-0 z-50 flex items-center justify-center bg-[#DDECDE]/60 hidden"
     >
       <div class="relative w-full max-w-3xl">
-        <!-- Close Button -->
-        <button
-          id="close-lightbox"
-          class="absolute top-4 right-30 text-black text-4xl"
-        >
-          &times;
-        </button>
-
         <!-- Image/Chart Container -->
         <div class="relative overflow-hidden">
           <div id="lightbox-content" class="w-full">
             <!-- Dynamically inserted content will go here -->
           </div>
 
-          <!-- Navigation Buttons -->
+          <button
+            id="close-lightbox"
+            class="absolute top-20 right-50 text-black text-4xl"
+          >
+            &times;
+          </button>
+
           <button
             id="prev-slide"
             class="absolute left-30 top-1/2 transform -translate-y-1/2 text-black text-4xl p-2"
           >
-            ❮
+            <img
+              class="h-[60px]"
+              src="/assets/symbols/arrow-west-simple.svg"
+              alt="Next Page"
+            />
           </button>
           <button
             id="next-slide"
             class="absolute right-30 top-1/2 transform -translate-y-1/2 bg-black text-black text-4xl p-2"
           >
-            ❯
+            <img
+              class="h-[60px]"
+              src="/assets/symbols/arrow-east-simple.svg"
+              alt="Next Page"
+            />
           </button>
         </div>
 

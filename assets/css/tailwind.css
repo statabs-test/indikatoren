@@ -2491,6 +2491,26 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   right: 30px;
 }
 
+.top-40 {
+  top: 40px;
+}
+
+.right-40 {
+  right: 40px;
+}
+
+.right-60 {
+  right: 60px;
+}
+
+.right-50 {
+  right: 50px;
+}
+
+.top-20 {
+  top: 20px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -2554,6 +2574,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
+}
+
+.mt-\[-66px\] {
+  margin-top: -66px;
 }
 
 .block {
