@@ -16,7 +16,16 @@
             "type": "category",
             "labels": {
                 rotation: -45
-            }
+            },
+            tickPositioner: function () {
+                var maxlabels = 10,
+                  ext = this.getExtremes(),
+                  i = Math.round(ext.max),
+                  interval = Math.round((i - ext.min)/maxlabels),
+                  pos = [i];
+                while (i >= ext.min) pos.unshift(i = i - interval);
+                return pos;
+              }
         },
         "yAxis": {
             tickAmount: 8,
