@@ -8,12 +8,11 @@
     },
   },
   "yAxis": {
-    min: 60,
-    max: 260,
-    tickAmount: 11,
     tickInterval: 20,
-    
-	"labels": {
+    min: 40,
+    max: 320,
+    tickAmount: 15,
+  	"labels": {
 		"format": "{value:,.0f}"
 	}
   },	
