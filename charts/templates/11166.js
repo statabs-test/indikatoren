@@ -60,6 +60,11 @@
 			},
 			bubbleLegend: {
 				enabled: true,
+				ranges: [{
+					value: null
+				}, {
+					value: null
+				}],
 				borderColor: '#ffffff',
 				borderWidth: 1,
 				color: '#bbbbbb',
