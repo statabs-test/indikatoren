@@ -1,5 +1,55 @@
 (function () {
 	return {
+		chart: {
+			events: {
+				load: function () {
+					const chart = this;
+
+					var seriesNames = chart.series.map(function (series) {
+						return series.userOptions.data.map(function (data) {
+							return data.type;
+						});
+					});
+
+
+					const zValues = chart.series
+						.filter(series => series.type === 'mapbubble')
+						.flatMap(series =>
+							(series.userOptions.data || [])
+								.map(point => point.z)
+								.filter(z => z != null) // remove null & undefined
+						);
+
+					const minZ = Math.min(...zValues);
+					const maxZ = Math.max(...zValues);
+
+					console.log('zValues:', zValues);
+					console.log('Min z:', minZ);
+					console.log('Max z:', maxZ);
+
+
+					//var seriesData = [...chart.series[2].userOptions.data.map(p => p.z), ...chart.series[3].userOptions.data.map(p => p.z)];
+					//var seriesData = chart.series.filter(s => s.type === 'mapbubble').userOptions.data.map(p => p.z);
+					//seriesData = seriesData.filter(value => value !== null);
+					//console.log(seriesData);
+					//var maxValue = Math.max(...seriesData);
+					//var minValue = Math.min(...seriesData);
+					//console.log('Max/Min:', maxValue, minValue);
+
+
+					// Update bubble legend with only min and max
+					chart.update({
+						bubbleLegend: {
+							ranges: [
+								{ value: minZ },
+								{ value: maxZ }
+							]
+						}
+					});
+
+				}
+			}
+		},
 		plotOptions: {
 			series: {
 				showInLegend: false
@@ -60,17 +110,13 @@
 			},
 			bubbleLegend: {
 				enabled: true,
-				ranges: [{
-					value: null
-				}, {
-					value: null
-				}],
+				ranges: [{}, {}, { color: '#e4d354' }],
 				borderColor: '#ffffff',
 				borderWidth: 1,
 				color: '#bbbbbb',
 				connectorColor: '#cccccc',
 				connectorDistance: 20,
-				labels:{
+				labels: {
 					format: '{value:.0f}'
 				}
 			}
