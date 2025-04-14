@@ -3822,9 +3822,33 @@
   ],
   "chart": {
     "events": {
-      "load": function() {                
-                    this.credits.element.onclick = function() {};
-                }
+      "load": function () {
+					const chart = this;
+
+					
+					//check all series if in sub-array data there is type='mapbubble' and then get z-value
+					const zValues = chart.series
+						.filter(series => series.type === 'mapbubble')
+						.flatMap(series =>
+							(series.userOptions.data || [])
+								.map(point => point.z)
+								.filter(z => z != null) // remove null & undefined
+						);
+
+					const minZ = Math.min(...zValues);
+					const maxZ = Math.max(...zValues);
+
+					// Update bubble legend with only min and max
+					chart.legend.update({
+						bubbleLegend: {
+							ranges: [
+								{ value: minZ },
+								{ value: maxZ }
+							]
+						}
+					});
+
+				}
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",

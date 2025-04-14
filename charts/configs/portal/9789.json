@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#68AB2B",
+      "color": "#67A9CF",
       "type": "column",
       "zIndex": 0,
       "data": [
@@ -346,7 +346,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#053061",
       "yAxis": 1,
       "zIndex": 1,
       "data": [
@@ -749,7 +749,7 @@
 					}
 				}
     },
-    "marginRight": 50,
+    "marginRight": 70,
     "renderTo": "container-9789"
   },
   "plotOptions": {

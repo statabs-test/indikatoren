@@ -5,13 +5,8 @@
 				load: function () {
 					const chart = this;
 
-					var seriesNames = chart.series.map(function (series) {
-						return series.userOptions.data.map(function (data) {
-							return data.type;
-						});
-					});
-
-
+					
+					//check all series if in sub-array data there is type='mapbubble' and then get z-value
 					const zValues = chart.series
 						.filter(series => series.type === 'mapbubble')
 						.flatMap(series =>
@@ -23,22 +18,8 @@
 					const minZ = Math.min(...zValues);
 					const maxZ = Math.max(...zValues);
 
-					console.log('zValues:', zValues);
-					console.log('Min z:', minZ);
-					console.log('Max z:', maxZ);
-
-
-					//var seriesData = [...chart.series[2].userOptions.data.map(p => p.z), ...chart.series[3].userOptions.data.map(p => p.z)];
-					//var seriesData = chart.series.filter(s => s.type === 'mapbubble').userOptions.data.map(p => p.z);
-					//seriesData = seriesData.filter(value => value !== null);
-					//console.log(seriesData);
-					//var maxValue = Math.max(...seriesData);
-					//var minValue = Math.min(...seriesData);
-					//console.log('Max/Min:', maxValue, minValue);
-
-
 					// Update bubble legend with only min and max
-					chart.update({
+					chart.legend.update({
 						bubbleLegend: {
 							ranges: [
 								{ value: minZ },
@@ -110,7 +91,6 @@
 			},
 			bubbleLegend: {
 				enabled: true,
-				ranges: [{}, {}, { color: '#e4d354' }],
 				borderColor: '#ffffff',
 				borderWidth: 1,
 				color: '#bbbbbb',
