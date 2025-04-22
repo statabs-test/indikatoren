@@ -1819,8 +1819,8 @@
 
   views["pagination"] =
     '<nav>  <ul class="pagination h-[25px]">    <% if(currentPage > 1) { %>      \
-      <li> <a href="#" data-page="first" aria-label="First"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-west-simple-double.svg" alt="First Page" /></a> </li>      \
-      <li><a href="#" data-page="prev" aria-label="Previous"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-west-simple.svg" alt="Previous Page" /></a></li>    \
+      <li> <a href="#" data-page="first" aria-label="First"><img class="h-[20px] mt-[-22px]" src="assets/symbols/arrow-west-simple-double.svg" alt="First Page" /></a> </li>      \
+      <li><a href="#" data-page="prev" aria-label="Previous"><img class="h-[20px] mt-[-22px]" src="assets/symbols/arrow-west-simple.svg" alt="Previous Page" /></a></li>    \
     <% } %>    \
     <% for(var i = 0, l = pages.length; i < l; i++ ){ %>      \
       <li class="<%= pages[i] == currentPage ? \'active\' : \'\' %>">        \
@@ -1828,8 +1828,8 @@
       </li>    \
     <% } %>    \
     <% if( currentPage < totalPages ) { %>      \
-      <li><a href="#" data-page="next" aria-label="Next"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-east-simple.svg" alt="Next Page" /></a></li>      \
-      <li> <a href="#" data-page="first" aria-label="First"><img class="h-[20px] mt-[-22px]" src="/assets/symbols/arrow-east-simple-double.svg" alt="First Page" /></a> </li>      \
+      <li><a href="#" data-page="next" aria-label="Next"><img class="h-[20px] mt-[-22px]" src="assets/symbols/arrow-east-simple.svg" alt="Next Page" /></a></li>      \
+      <li> <a href="#" data-page="first" aria-label="First"><img class="h-[20px] mt-[-22px]" src="assets/symbols/arrow-east-simple-double.svg" alt="First Page" /></a> </li>      \
     <% } %>  </ul></nav>';
 
   views["per_page"] =

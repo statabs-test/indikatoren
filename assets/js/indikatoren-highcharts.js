@@ -488,7 +488,7 @@ function renderLinksHTML(
         '<li>Indikatorenset: <a class="button has-icon is-sm" href="http://www.statistik.bs.ch/indikatorenset/"' +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
-        '<img src="/assets/symbols/arrow-north-east.svg" alt="Arrow Icon" class="arrow-icon mr-10">' +
+        '<img src="assets/symbols/arrow-north-east.svg" alt="Arrow Icon" class="arrow-icon mr-10">' +
         kennzahlenset.replace("-", " ") +
         "</a>";
       //in indikatorenset View, add the stufe1 text here
