@@ -263,6 +263,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
 
   //add event listener to render chart on modal show
   $("#lightbox").on("show.bs.modal", function (e) {
+    console.log('lightbox');
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
     lazyRenderChartById(targetId, undefined, view);
     var targetItem = $("#container-" + targetId).parent();
