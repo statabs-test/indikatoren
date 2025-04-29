@@ -476,19 +476,18 @@ function renderLinksHTML(
         <div id='links'" +
       (hideLinks ? "class='hidden'" : "") +
       "> \
-          <div><h3 id='linksTitle' " +
-      (hideLinksTitle ? "class='hidden'" : "class='font-bold'") +
-      ">Links</h3></div> \
+          <div><h1 id='linksTitle' " +
+      (hideLinksTitle ? "class='hidden'" : "") +
+      ">Links</h1></div> \
           <div class='lesehilfe'> \
             <ul class='list-unstyled'>\
         ";
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        '<li>Indikatorenset: <a class="button has-icon is-sm" href="http://www.statistik.bs.ch/indikatorenset/"' +
+        "<li><img src='assets/img/icon-link.png' class='link-icon'/>Indikatorenset: <a href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
-        '<img src="assets/symbols/arrow-north-east.svg" alt="Arrow Icon" class="arrow-icon mr-10">' +
         kennzahlenset.replace("-", " ") +
         "</a>";
       //in indikatorenset View, add the stufe1 text here
@@ -497,6 +496,9 @@ function renderLinksHTML(
       }
       //if do not add a dot at the ned if there's already one present
       var lastChar = returnText[returnText.length - 1];
+      if (lastChar != ".") {
+        returnText += ".";
+      }
       returnText += "</li>";
     }
     if (displayRenderLink) {

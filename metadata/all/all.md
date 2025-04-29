@@ -2020,10 +2020,10 @@ id | visible | visibleInPortal | indikatorenset
 9220 | true | false | Arbeitsmarkt
 9221 | true | false | Arbeitsmarkt
 9222 | true | true | Arbeitsmarkt
-9223 | true | false | Arbeitsmarkt
-9224 | true | false | Arbeitsmarkt
-9225 | true | true | Arbeitsmarkt
-9226 | true | true | Arbeitsmarkt
+9223 | false |  | Arbeitsmarkt
+9224 | false |  | Arbeitsmarkt
+9225 | false |  | Arbeitsmarkt
+9226 | false |  | Arbeitsmarkt
 9232 | true | false | Arbeitsmarkt (Print)
 9233 | true | false | Arbeitsmarkt (Print)
 9234 | true | false | Arbeitsmarkt (Print)
@@ -2123,7 +2123,7 @@ id | visible | visibleInPortal | indikatorenset
 9432 | true | false | Legislaturplan (Print)
 9433 | true | false | Legislaturplan (Print)
 9434 | true | false | Legislaturplan (Print)
-9435 | true | false | Legislaturplan (Print)
+9435 | false |  | Legislaturplan (Print)
 9436 | true | false | Legislaturplan (Print)
 9437 | true | false | Legislaturplan (Print)
 9438 | true | false | Legislaturplan (Print)
@@ -2139,7 +2139,7 @@ id | visible | visibleInPortal | indikatorenset
 9449 | true | false | Legislaturplan (Print)
 9450 | true | false | Legislaturplan (Print)
 9451 | true | false | Legislaturplan (Print)
-9452 | true | false | Legislaturplan (Print)
+9452 | false |  | Legislaturplan (Print)
 9453 | true | false | Legislaturplan (Print)
 9454 | true | false | Legislaturplan (Print)
 9455 | true | false | Legislaturplan (Print)
@@ -2207,7 +2207,7 @@ id | visible | visibleInPortal | indikatorenset
 9622 | true | true | Energiestatistik
 9623 | true | true | Energiestatistik
 9624 | true | true | Energiestatistik
-9625 | true | false | 
+9625 | false |  | 
 9636 | true | false | Energiestatistik (Print)
 9641 | true | false | Energiestatistik (Print)
 9643 | true | false | Energiestatistik (Print)
@@ -2245,10 +2245,10 @@ id | visible | visibleInPortal | indikatorenset
 9739 | true | true | Nachhaltigkeit
 9740 | true | true | Nachhaltigkeit
 9741 | true | true | Nachhaltigkeit
-9750 | true | false | Arbeitsmarkt
-9751 | true | false | Arbeitsmarkt
-9752 | true | false | Arbeitsmarkt
-9753 | true | false | Arbeitsmarkt
+9750 | false |  | Arbeitsmarkt
+9751 | false |  | Arbeitsmarkt
+9752 | false |  | Arbeitsmarkt
+9753 | false |  | Arbeitsmarkt
 9754 | true | false | Arbeitsmarkt
 9755 | true | false | Arbeitsmarkt
 9756 | false |  | Arbeitsmarkt
@@ -2264,6 +2264,7 @@ id | visible | visibleInPortal | indikatorenset
 9785 | true | false | Nachhaltigkeit
 9786 | true | false | Nachhaltigkeit
 9787 | true | true | Nachhaltigkeit
+9789 | true | true | 
 9800 | true | true | 
 9862 | true | true | 
 9885 | true | true | Umwelt
