@@ -4,6 +4,7 @@ global geojson_wohnviertelEPSG2056
 */
 (function(){
     return {
+	
 		"colorAxis": {
             stops: [
                 [0, "#662673"],
@@ -45,15 +46,28 @@ global geojson_wohnviertelEPSG2056
 						"brightness": 0
 					},
 				},
-				tooltip: {
+			/*	tooltip: {
 					pointFormatter: function () {
 						//console.log(this);
 						return this.properties.LIBGEO + '<b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
 					}
-				},
+				},*/
 			},
 			
 		],
+		"tooltip": {
+            formatter: function(args){
+        		if (! this.point["Wohnviertel Id"]) {
+        		    //Rhein
+        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+        		}
+                else {
+                    //Wohnviertel
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value), 3) + '</b><br/>';
+                }
+            }
+        },
 	chart: {
 			events: {
 	            load: function (e) {
