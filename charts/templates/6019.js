@@ -32,8 +32,8 @@
             }
         },
         yAxis: [{
-            max: 18000,
-            tickInterval: 6000,
+            //max: 18000,
+            //tickInterval: 6000,
             min: 0,
             title: {
                 text: null
@@ -87,12 +87,12 @@
         ],
         series: [
             {
-                color: "#71A3B5", // rot 73B97C
+                color: "#71A3B5", // rot
                 //borderWidth: 0,
                 //pointWidth: 15
             },
-            {
-                color: "#73B97C", //blau 71A3B5
+           /* {
+                color: "#73B97C", //blau
                 //borderWidth: 0,
                 //pointWidth: 15
             },
@@ -100,10 +100,10 @@
                 color: "#000000", //schwarz
                 //borderWidth: 0,
                 //pointWidth: 15
-            }
+            }*/
         ],
         "legend": {
-            "enabled": true,
+            "enabled": false,
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
