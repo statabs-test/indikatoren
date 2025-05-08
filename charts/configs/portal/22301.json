@@ -1,150 +1,106 @@
 {
   "series": [
     {
-      "color": "#FFDA80 ",
+      "stack": 1,
+      "legendIndex": 0,
+      "color": "#D3E2E4",
       "data": [
         [
-          "2011",
-          45
+          2022,
+          2
         ],
         [
-          "2012",
-          79
-        ],
-        [
-          "2013",
-          42
-        ],
-        [
-          "2014",
-          36
-        ],
-        [
-          "2015",
-          59
-        ],
-        [
-          "2016",
-          49
-        ],
-        [
-          "2017",
-          39
-        ],
-        [
-          "2018",
-          111
-        ],
-        [
-          "2019",
-          77
-        ],
-        [
-          "2020",
-          59
-        ],
-        [
-          "2021",
-          41
-        ],
-        [
-          "2022",
+          2023,
           27
         ],
         [
-          "2023",
-          29
-        ],
-        [
-          "2024",
-          15
+          2024,
+          73
         ]
       ],
-      "name": "bewilligte Gebäude",
-      "turboThreshold": 0
+      "name": "U., R., S.: einfaches Prüfungsverfahren"
     },
     {
-      "color": "#A0BEC8",
+      "stack": 1,
+      "legendIndex": 2,
+      "color": "#A8C3CA",
       "data": [
         [
-          "2011",
-          360
+          2022,
+          8
         ],
         [
-          "2012",
-          150
+          2023,
+          20
         ],
         [
-          "2013",
-          728
-        ],
-        [
-          "2014",
-          357
-        ],
-        [
-          "2015",
-          520
-        ],
-        [
-          "2016",
-          606
-        ],
-        [
-          "2017",
-          389
-        ],
-        [
-          "2018",
-          735
-        ],
-        [
-          "2019",
-          670
-        ],
-        [
-          "2020",
-          616
-        ],
-        [
-          "2021",
-          242
-        ],
-        [
-          "2022",
-          154
-        ],
-        [
-          "2023",
-          121
-        ],
-        [
-          "2024",
-          442
+          2024,
+          41
         ]
       ],
-      "name": "bewilligte Wohnungen",
-      "turboThreshold": 0
+      "name": "U., R., S.: vereinfachtes Bewilligungsverfahren"
+    },
+    {
+      "stack": 1,
+      "legendIndex": 3,
+      "color": "#689199",
+      "data": [
+        [
+          2022,
+          2
+        ],
+        [
+          2023,
+          6
+        ],
+        [
+          2024,
+          10
+        ]
+      ],
+      "name": "U., R., S.: umfassendes Bewilligungsverfahren"
+    },
+    {
+      "stack": 2,
+      "legendIndex": 4,
+      "color": "#B00000",
+      "data": [
+        [
+          2022,
+          1
+        ],
+        [
+          2023,
+          11
+        ],
+        [
+          2024,
+          18
+        ]
+      ],
+      "name": "Begründung von Stockwerkeigentum"
+    },
+    {
+      "stack": 3,
+      "legendIndex": 5,
+      "color": "#68AB2B",
+      "data": [
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          3
+        ],
+        [
+          2024,
+          3
+        ]
+      ],
+      "name": "F. m. N. bei Abbruch und Ersatzneubau"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "rotation": 0
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -179,9 +135,8 @@
                 }
     },
     "type": "column",
-    "inverted": false,
-    "spacingBottom": 60,
-    "renderTo": "container-22298"
+    "renderTo": "container-22301",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -192,6 +147,9 @@
         }
       },
       "pointPadding": 0
+    },
+    "column": {
+      "stacking": "normal"
     }
   },
   "title": {
@@ -201,18 +159,32 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "useHTML": true,
-    "text": "Bewilligte Wohnungen und Gebäude"
+    "text": "Anzahl Gesuche WSK"
   },
   "subtitle": {
-    "text": "Anzahl bewilligte Gebäude und Wohnungen",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
-    "useHTML": true
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -228,9 +200,9 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    }
+      }
+    },
+    "reversedStacks": false
   },
   "legend": {
     "symbolRadius": 0,
@@ -241,9 +213,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 3,
-    "symbolPadding": 3,
-    "padding": 0
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -264,13 +234,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "22298"
+    "filename": "22301"
   }
 }

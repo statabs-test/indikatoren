@@ -260,7 +260,7 @@ var indikatorensetData = [
 		"id": 22294
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 22295,
 		"chart-id": 22295,
 		"filter": "",
@@ -452,11 +452,12 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bodenpreisindex",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"subtitle": "Basel-Stadt, Basis 2014 = 100",
+		"lesehilfe": "Der Index für Einfamilienhaus-Grundstücke erreichte im Jahr 2023 den Stand von 168 Punkten, was einem prozentualen Anstieg von 68% gegenüber dem Basisjahr 2014 entspricht. Bei den Mehrfamilienhaus-Grundstücken lag er bei 218 Punkten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+			"Statistisches Amt Basel-Stadt",
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
 		"externalLinks": [],
 		"renderLink": [],

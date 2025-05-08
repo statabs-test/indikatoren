@@ -1,53 +1,72 @@
 (function(){
     return {
-   title: {
-      useHTML: true
-    },
-    subtitle: {
-      useHTML: true
-    },
-   plotOptions: {
-        series: {
-          pointPadding: 0,
-          borderWidth: 0,
+      "plotOptions": {
+          column: {
+              stacking: 'normal'
+          },
+        "series": {  
+            pointPadding: 0,
+            borderWidth: 0,
+            //pointWidth: 10, 
+          "dataLabels": {
+            "style": {
+              "fontSize": "10px"
+            }
+          }
+        },
+      },
+      "xAxis": {
+      },
+      "yAxis": {
+          reversedStacks: false, 
+          //tickAmount: 9,
+          //tickInterval:200,
+      },
+      "series": [
+        {
+            stack: 1,
+            legendIndex: 0,
+            color: "#D3E2E4"
+        },
+        {
+            stack: 1,
+            legendIndex: 2,
+            color: "#A8C3CA" 
+        },
+        {
+          stack: 1,
+          legendIndex: 3,
+          color: "#689199"
+      },
+        {
+            stack: 2,
+            legendIndex: 4,
+            color: "#B00000"
+        },
+        {
+            stack: 3,
+            legendIndex: 5,
+            color: "#68AB2B"
         }
-   },
-  "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": 0 
-    } 
-  },
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}"
-    }    
-  },
- "series": [
-  {"color": "#FFDA80 "}, /* gelb */
-	{"color": "#A0BEC8"},/* blau  */
-	{"color": "#68AB2B"},/* grün  */
-  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	  itemDistance: 3,
-	  symbolPadding: 3,
-	  padding: 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m²</b><br/>',
-    "shared": false
-  },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 50
-  }
-}
+      ],
+      "legend": {
+        "enabled": true,
+        "layout": "horizontal",
+        "verticalAlign": "top",
+        "align": "left",
+        //itemWidth: 200, 
+        itemMarginBottom: 5,
+		    //"y": 35,    
+        "itemStyle": {
+          "fontWeight": "normal"
+        }
+      },
+      "chart": {      
+        "type": "column"
+      },
+	tooltip: {
+           //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+           pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
+            }
+	};
 }());

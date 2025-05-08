@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#FFDA80 ",
+      "color": "#A0BEC8",
       "data": [
         [
           "2005",
@@ -86,12 +86,6 @@
       ],
       "name": "Abbruch",
       "turboThreshold": 0
-    },
-    {
-      "color": "#A0BEC8"
-    },
-    {
-      "color": "#68AB2B"
     }
   ],
   "xAxis": {
@@ -109,7 +103,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -45
     }
   },
   "chart": {

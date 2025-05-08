@@ -6,35 +6,47 @@
       "zIndex": 2,
       "data": [
         [
+          2014,
+          100
+        ],
+        [
+          2015,
+          99.4228680337236
+        ],
+        [
+          2016,
+          103.679467160955
+        ],
+        [
           2017,
-          920070
+          120.955091180427
         ],
         [
           2018,
-          562280
+          130.969836067766
         ],
         [
           2019,
-          1251050
+          137.199279310995
         ],
         [
           2020,
-          680748
+          155.187279144859
         ],
         [
           2021,
-          646505
+          159.130804517651
         ],
         [
           2022,
-          841570
+          179.604983321562
         ],
         [
           2023,
-          708140
+          168.187445675893
         ]
       ],
-      "name": "Einfamilienhaus"
+      "name": "Einfamilienhaus-Grundstücke"
     },
     {
       "color": "#008AC3",
@@ -42,42 +54,54 @@
       "zIndex": 2,
       "data": [
         [
+          2014,
+          100
+        ],
+        [
+          2015,
+          133.726689976514
+        ],
+        [
+          2016,
+          136.77500717097
+        ],
+        [
           2017,
-          848520
+          194.83650695452
         ],
         [
           2018,
-          1166550
+          182.174542942543
         ],
         [
           2019,
-          1341110
+          198.726158784847
         ],
         [
           2020,
-          1912650
+          233.309817092882
         ],
         [
           2021,
-          1965040
+          298.743179354715
         ],
         [
           2022,
-          2329790
+          261.986894109845
         ],
         [
           2023,
-          2683990
+          217.559509278168
         ]
       ],
-      "name": "Mehrfamilienhaus"
+      "name": "Mehrfamilienhaus-Grundstücke"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -103,7 +127,7 @@
 				}
     },
     "marginRight": 20,
-    "renderTo": "container-22295"
+    "renderTo": "container-22300"
   },
   "plotOptions": {
     "series": {
@@ -125,10 +149,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Fördervolumen Gebäudeprogramm"
+    "text": "Bodenpreisindex"
   },
   "subtitle": {
-    "text": "Auszahlungen pro Jahr für Wärmedämmung in Mio. CHF",
+    "text": "Basel-Stadt, Basis 2014 = 100",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -171,7 +195,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 100
   },
   "legend": {
     "enabled": true,
@@ -195,9 +220,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Gebäudeprogramm.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -239,6 +264,6 @@
   }
   },
   "exporting": {
-    "filename": "22295"
+    "filename": "22300"
   }
 }

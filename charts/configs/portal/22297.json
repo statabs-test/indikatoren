@@ -1,285 +1,556 @@
 {
   "series": [
     {
-      "color": "#FFDA80 ",
+      "color": "#b475ab",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 0,
       "data": [
         [
-          "2005",
+          2005,
           301
         ],
         [
-          "2006",
+          2006,
           353
         ],
         [
-          "2007",
+          2007,
           120
         ],
         [
-          "2008",
+          2008,
           201
         ],
         [
-          "2009",
+          2009,
           468
         ],
         [
-          "2010",
+          2010,
           372
         ],
         [
-          "2011",
+          2011,
           351
         ],
         [
-          "2012",
+          2012,
           268
         ],
         [
-          "2013",
+          2013,
           177
         ],
         [
-          "2014",
+          2014,
           369
         ],
         [
-          "2015",
+          2015,
           788
         ],
         [
-          "2016",
+          2016,
           412
         ],
         [
-          "2017",
+          2017,
           369
         ],
         [
-          "2018",
+          2018,
           807
         ],
         [
-          "2019",
+          2019,
           865
         ],
         [
-          "2020",
+          2020,
           607
         ],
         [
-          "2021",
+          2021,
           851
         ],
         [
-          "2022",
+          2022,
           902
         ],
         [
-          "2023",
+          2023,
           778
         ],
         [
-          "2024",
+          2024,
           151
         ]
       ],
-      "name": "Neubau",
-      "turboThreshold": 0
+      "name": "Neubau"
     },
     {
-      "color": "#A0BEC8",
+      "color": "#E7CEE2",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 1,
       "data": [
         [
-          "2005",
+          2005,
           null
         ],
         [
-          "2006",
+          2006,
           null
         ],
         [
-          "2007",
+          2007,
           null
         ],
         [
-          "2008",
+          2008,
           null
         ],
         [
-          "2009",
+          2009,
           null
         ],
         [
-          "2010",
+          2010,
           null
         ],
         [
-          "2011",
+          2011,
           null
         ],
         [
-          "2012",
+          2012,
           null
         ],
         [
-          "2013",
+          2013,
           14
         ],
         [
-          "2014",
+          2014,
           0
         ],
         [
-          "2015",
+          2015,
           0
         ],
         [
-          "2016",
+          2016,
           9
         ],
         [
-          "2017",
+          2017,
           111
         ],
         [
-          "2018",
+          2018,
           173
         ],
         [
-          "2019",
+          2019,
           53
         ],
         [
-          "2020",
+          2020,
           43
         ],
         [
-          "2021",
+          2021,
           279
         ],
         [
-          "2022",
+          2022,
           92
         ],
         [
-          "2023",
+          2023,
           321
         ],
         [
-          "2024",
+          2024,
           41
         ]
       ],
-      "name": "davon Genossenschaftswohnungen",
-      "turboThreshold": 0
+      "name": "davon Genossenschaftswohnungen"
     },
     {
-      "color": "#68AB2B",
+      "color": "#a8c4cb",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 2,
       "data": [
         [
-          "2005",
+          2005,
           -14
         ],
         [
-          "2006",
+          2006,
           -134
         ],
         [
-          "2007",
+          2007,
           -107
         ],
         [
-          "2008",
+          2008,
           -125
         ],
         [
-          "2009",
+          2009,
           -150
         ],
         [
-          "2010",
+          2010,
           -146
         ],
         [
-          "2011",
+          2011,
           -58
         ],
         [
-          "2012",
+          2012,
           -26
         ],
         [
-          "2013",
+          2013,
           -41
         ],
         [
-          "2014",
+          2014,
           -53
         ],
         [
-          "2015",
+          2015,
           -178
         ],
         [
-          "2016",
+          2016,
           -75
         ],
         [
-          "2017",
+          2017,
           -59
         ],
         [
-          "2018",
+          2018,
           -114
         ],
         [
-          "2019",
+          2019,
           -186
         ],
         [
-          "2020",
+          2020,
           -154
         ],
         [
-          "2021",
+          2021,
           -96
         ],
         [
-          "2022",
+          2022,
           -138
         ],
         [
-          "2023",
+          2023,
           -53
         ],
         [
-          "2024",
+          2024,
           -77
         ]
       ],
-      "name": "Abbruch",
-      "turboThreshold": 0
+      "name": "Abbruch"
+    },
+    {
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "pointWidth": "15",
+      "legendIndex": 3,
+      "data": [
+        [
+          2005,
+          -72
+        ],
+        [
+          2006,
+          -56
+        ],
+        [
+          2007,
+          -74
+        ],
+        [
+          2008,
+          -28
+        ],
+        [
+          2009,
+          -18
+        ],
+        [
+          2010,
+          -18
+        ],
+        [
+          2011,
+          18
+        ],
+        [
+          2012,
+          28
+        ],
+        [
+          2013,
+          35
+        ],
+        [
+          2014,
+          180
+        ],
+        [
+          2015,
+          25
+        ],
+        [
+          2016,
+          106
+        ],
+        [
+          2017,
+          54
+        ],
+        [
+          2018,
+          67
+        ],
+        [
+          2019,
+          158
+        ],
+        [
+          2020,
+          219
+        ],
+        [
+          2021,
+          222
+        ],
+        [
+          2022,
+          405
+        ],
+        [
+          2023,
+          140
+        ],
+        [
+          2024,
+          437
+        ]
+      ],
+      "name": "Umbausaldo"
+    },
+    {
+      "color": "#000000",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 4,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          215
+        ],
+        [
+          2006,
+          163
+        ],
+        [
+          2007,
+          -61
+        ],
+        [
+          2008,
+          48
+        ],
+        [
+          2009,
+          300
+        ],
+        [
+          2010,
+          208
+        ],
+        [
+          2011,
+          311
+        ],
+        [
+          2012,
+          270
+        ],
+        [
+          2013,
+          171
+        ],
+        [
+          2014,
+          496
+        ],
+        [
+          2015,
+          635
+        ],
+        [
+          2016,
+          443
+        ],
+        [
+          2017,
+          364
+        ],
+        [
+          2018,
+          760
+        ],
+        [
+          2019,
+          837
+        ],
+        [
+          2020,
+          672
+        ],
+        [
+          2021,
+          977
+        ],
+        [
+          2022,
+          1169
+        ],
+        [
+          2023,
+          865
+        ],
+        [
+          2024,
+          511
+        ]
+      ],
+      "name": "Nettowohnungsproduktion"
+    },
+    {
+      "color": "#67401E",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 5,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2005,
+          109
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          331
+        ],
+        [
+          2010,
+          166
+        ],
+        [
+          2011,
+          99
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          200
+        ],
+        [
+          2015,
+          603
+        ],
+        [
+          2016,
+          242
+        ],
+        [
+          2017,
+          75
+        ],
+        [
+          2018,
+          337
+        ],
+        [
+          2019,
+          581
+        ],
+        [
+          2020,
+          292
+        ],
+        [
+          2021,
+          617
+        ],
+        [
+          2022,
+          295
+        ],
+        [
+          2023,
+          669
+        ],
+        [
+          2024,
+          27
+        ]
+      ],
+      "name": "davon aus Arealentwicklungen"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "rotation": 0
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -313,10 +584,8 @@
                     }
                 }
     },
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 60,
-    "renderTo": "container-22297"
+    "renderTo": "container-22297",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -326,7 +595,9 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
     }
   },
   "title": {
@@ -336,7 +607,6 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "useHTML": true,
     "text": "Nettowohnungsproduktion"
   },
   "subtitle": {
@@ -346,8 +616,24 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
-    "useHTML": true
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -365,7 +651,16 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "min": -200,
+    "tickInterval": 250,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 2
+      }
+    ]
   },
   "legend": {
     "symbolRadius": 0,
@@ -376,9 +671,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 3,
-    "symbolPadding": 3,
-    "padding": 0
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -402,8 +695,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": true
   },
   "exporting": {
     "filename": "22297"
