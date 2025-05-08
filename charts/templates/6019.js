@@ -18,12 +18,12 @@
                         }
                     });
                 };
-                negateNumbersInColumn(1);
+               // negateNumbersInColumn(1);
             }
         },
         plotOptions: {
             series: {
-                minPointLength: 1.5
+                minPointLength: 2
             }
         },
         tooltip: {
