@@ -157,7 +157,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl baubewilligungspflichtige Sanierungen",
 		"subtitle": "Anzahl Bauprojekte nach Baueingabe",
-		"lesehilfe": "Hat die Anzahl Projekte seit der ersten Jahreshälfte 2018 insbesondere seit 2021 deutlich zugenommen, ist seit der zweiten Jahreshälfte 2022 ein Eindbruch frestzustellen, und zwar sowohl generell bei Umbauprojekten wie auch bei den durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl nicht betroffener Projekte ging gleichzeitig nur leicht zurück.",
+		"lesehilfe": "Hat die Anzahl Projekte seit der ersten Jahreshälfte 2018 insbesondere seit 2021 deutlich zugenommen, ist seit der zweiten Jahreshälfte 2022 ein Einbruch festzustellen, und zwar sowohl generell bei Umbauprojekten wie auch bei den durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl nicht betroffener Projekte ging gleichzeitig nur leicht zurück.",
 		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -408,9 +408,9 @@ var indikatorensetData = [
 		"id": 22298
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 22299,
-		"chart-id": 22299,
+		"chart-id": 7586,
 		"filter": "",
 		"parentId": "7586",
 		"children": [],
@@ -491,8 +491,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Gesuche WSK",
 		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "2024 gab es 124 Prüfungs- und Bewilligungsverfahren für Umbauten, Renovationen- und Sanierungen. 18 Gesuche wurden für die Begründung von Stockwerkeigentum eingereicht und 3 Gesuche für die Festlegung von maximalen Nettomietzinsen.",
+		"erlaeuterungen": "Es werden die jährlich neu eintreffenden Gesuche ausgewiesen.",
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],

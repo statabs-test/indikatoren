@@ -10,12 +10,13 @@
         series: {
           pointPadding: 0,
           borderWidth: 0,
+          stacking: "normal"
         }
    },
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": -45 
     } 
   },
   "yAxis": {
@@ -41,8 +42,9 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m²</b><br/>',
-    "shared": false
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mio. CHF</b><br/>',
+    footerFormat: 'Total: <b>{point.total:,.0f} Mio. CHF</b>',
+    "shared": true
   },
   "chart": {      
     "type": "column",

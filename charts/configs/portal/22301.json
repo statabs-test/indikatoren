@@ -18,7 +18,7 @@
           73
         ]
       ],
-      "name": "U., R., S.: einfaches Prüfungsverfahren"
+      "name": "Einfaches Prüfungsverfahren"
     },
     {
       "stack": 1,
@@ -38,7 +38,7 @@
           41
         ]
       ],
-      "name": "U., R., S.: vereinfachtes Bewilligungsverfahren"
+      "name": "Vereinfachtes Bewilligungsverfahren"
     },
     {
       "stack": 1,
@@ -58,7 +58,7 @@
           10
         ]
       ],
-      "name": "U., R., S.: umfassendes Bewilligungsverfahren"
+      "name": "Umfassendes Bewilligungsverfahren"
     },
     {
       "stack": 2,
@@ -98,7 +98,7 @@
           3
         ]
       ],
-      "name": "F. m. N. bei Abbruch und Ersatzneubau"
+      "name": "Festlegung max. Nettomietzins bei Abbruch und Ersatzneubau"
     }
   ],
   "chart": {
