@@ -60,7 +60,7 @@
                 },
             }
         }],
-        xAxis: [{
+       /* xAxis: [{
             reversed: false,
             type: 'category',
             labels: {
@@ -84,7 +84,7 @@
             reversed: false,
             linkedTo: 0
         }
-        ],
+        ],*/
         series: [
             {
                 color: "#71A3B5", // rot
