@@ -25,9 +25,8 @@
   },
  "series": [
   {"color": "#FFDA80 "}, /* gelb */
-	{"color": "#A0BEC8"},/* blau  */
-	{"color": "#68AB2B"},/* grün  */
-  ],
+	{"color": "#A0BEC8"}/* blau  */
+	  ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -38,10 +37,15 @@
 	  padding: 0,
     "itemStyle": {
       "fontWeight": "normal"
+    },
+    labelFormatter: function () {
+      return this.name.split(' mit')[0];
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m²</b><br/>',
+    useHTML: true,
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    /*"footerFormat": 'Total: <b>{point.total:,.0f}</b>',*/
     "shared": false
   },
   "chart": {      
