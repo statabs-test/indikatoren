@@ -14,8 +14,11 @@
       },
       "xAxis": {
         "type": "category",
-      },
+             },
       "yAxis": {
+        "labels": {
+            "format": "{value:,.0f}",
+          },
        // "tickInterval": 20,
       "min": -4000,
       "max": 6000,
@@ -28,7 +31,7 @@
       },
       "series": [
         {
-          "color": "#71A3B5"
+          "color": "#689199"
         },
       
       ],

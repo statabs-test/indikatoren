@@ -16,6 +16,9 @@
         "type": "category",
       },
       "yAxis": {
+        "labels": {
+            "format": "{value:,.0f}",
+          },
        // "tickInterval": 20,
       "min": -1000,
       "max": 10000,
@@ -28,7 +31,7 @@
       },
       "series": [
         {
-          "color": "#71A3B5"
+          "color": "#689199"
         },
       
       ],
