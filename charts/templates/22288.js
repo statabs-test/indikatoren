@@ -13,12 +13,23 @@
         }
    },
   "xAxis": {
+    "tickInterval": 2,
     "type": "category",
     "labels": {
       "rotation": 0 
+    },
+    tickPositioner: function () {
+      var maxlabels = 12,
+        ext = this.getExtremes(),
+        i = Math.round(ext.max),
+        interval = Math.round((i - ext.min)/maxlabels),
+        pos = [i];
+      while (i >= ext.min) pos.unshift(i = i - interval);
+      return pos;
     } 
   },
   "yAxis": {
+    min: 50,
     "labels": {
       "format": "{value:,.0f}"
     }    
@@ -40,14 +51,10 @@
       "fontWeight": "normal"
     }
   },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m²</b><br/>',
-    "shared": false
-  },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 50
-  }
+  "tooltip": {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
+      "shared": false
+    },
+  
 }
 }());

@@ -27,8 +27,7 @@
  "series": [
   {"color": "#FFDA80 "}, /* gelb */
 	{"color": "#A0BEC8"},/* blau  */
-	{"color": "#68AB2B"},/* grün  */
-  ],
+	  ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -42,14 +41,14 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} Mio. CHF</b><br/>',
-    footerFormat: 'Total: <b>{point.total:,.0f} Mio. CHF</b>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} CHF</b><br/>',
+    footerFormat: 'Total: <b>{point.total:,.0f} CHF</b>',
     "shared": true
   },
   "chart": {      
     "type": "column",
     "inverted": false,
     "spacingBottom": 50
-  }
+    }
 }
 }());
