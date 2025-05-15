@@ -14,6 +14,7 @@
       },
       "xAxis": {
         "type": "category",
+        reversed: false
       },
       "yAxis": {
         "labels": {
