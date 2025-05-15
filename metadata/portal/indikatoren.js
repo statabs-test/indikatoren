@@ -14791,8 +14791,8 @@ var indikatoren = [
 		],
 		"title": "Wanderungssaldo",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 1 353 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo. Die meisten Wegzüger des Jahres 2023 (insgesamt rund 4 500 Personen) gingen ins Ausland. Die meisten Zuzüger kamen ebenfalls aus dem Ausland nach Basel-Stadt, zuletzt ca. 8 100 Personen.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
+		"lesehilfe": "2024 ergab sich durch Zu- und Wegzüge im Kanton Basel-Stadt ein Plus von 1 133 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -14817,7 +14817,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:44",
+		"aktualisierungsdatum": "2025-05-13T02:46:11",
 		"id": 6011
 	},
 	{
@@ -14831,8 +14831,8 @@ var indikatoren = [
 		],
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "2023 ergibt sich für den Kanton ein Wanderungsgewinn von total 1 353 Personen. Dieser kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -783 bei den Schweizern ein Wanderungsgewinn von +2 136 bei den Ausländern gegenübersteht. Im Jahr 2022 wurde ein Wanderungsgewinn von rund 2 700 Personen verzeichnet.",
-		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"lesehilfe": "2024 ergibt sich für den Kanton ein Wanderungsgewinn von total 1 133 Personen. Dieser kommt vor allem dadurch zustande, dass dem Wanderungsverlust von -711 bei den Schweizern ein Wanderungsgewinn von +1 844 bei den Ausländern gegenübersteht. Im Jahr 2023 wurde ein Wanderungsgewinn von 1 353 Personen verzeichnet.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen. Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -14871,7 +14871,7 @@ var indikatoren = [
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
 		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2024",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2023. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 360 Personen). An zweiter Stelle folgt Frankreich mit einem deutlich tieferen Wert (496). Aus der Kategorie Übriges Ausland stammen 4 025 Menschen.",
+		"lesehilfe": "Die grösste Gruppe der aus dem Ausland Zugewanderten kommt im Jahr 2024 aus Deutschland (2 347 Personen). An zweiter Stelle folgt Italien mit einem deutlich tieferen Wert (463). Aus der Kategorie Übriges Ausland stammen 3 542 Menschen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14897,7 +14897,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:51",
+		"aktualisierungsdatum": "2025-05-15T07:11:42",
 		"id": 6013
 	},
 	{
@@ -14981,7 +14981,7 @@ var indikatoren = [
 		"id": 6017
 	},
 	{
-		"template": "populationPyramid001",
+		"template": "template001",
 		"data-id": 6018,
 		"chart-id": 6018,
 		"filter": "",
@@ -14991,8 +14991,8 @@ var indikatoren = [
 		],
 		"title": "Wanderungssaldo gegenüber der Schweiz nach Alter",
 		"subtitle": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
-		"lesehilfe": "Zwischen 2014 und 2023 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Zwischen 2015 und 2024 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen bei zwei jüngeren Altersgruppen (15- bis 19- und 20- bis 24-Jährige) sowie den Personen ab 75 Jahren positiv. Bei allen anderen Altersgruppen war der Saldo negativ.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -15021,7 +15021,7 @@ var indikatoren = [
 		"id": 6018
 	},
 	{
-		"template": "populationPyramid001",
+		"template": "template001",
 		"data-id": 6019,
 		"chart-id": 6019,
 		"filter": "",
@@ -15031,8 +15031,8 @@ var indikatoren = [
 		],
 		"title": "Wanderungssaldo gegenüber dem Ausland nach Alter",
 		"subtitle": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
-		"lesehilfe": "In den Jahren 2014 bis 2023 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In den Jahren 2015 bis 2024 sind in allen Altersklassen bis 59 Jahre in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Nur für die Altersklassen ab 60 Jahre ist der Wanderungssaldo negativ.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -15071,7 +15071,7 @@ var indikatoren = [
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
 		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2024",
-		"lesehilfe": "2023 kamen 29% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (76%) und Riehen (54%) besonders hoch.",
+		"lesehilfe": "2024 kamen 31% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Deren Anteil ist in Bettingen (54%) und Riehen (52%) besonders hoch.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15098,7 +15098,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:47",
+		"aktualisierungsdatum": "2025-05-15T07:11:40",
 		"id": 6021
 	},
 	{
@@ -15112,8 +15112,8 @@ var indikatoren = [
 		],
 		"title": "Saldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
 		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen der Schweiz oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2023 verbucht das Wohnviertel Kleinhüningen den grössten relativen Wanderungsgewinn. Einen Wanderungsverlust verzeichnet beispielsweise das Viertel Bachletten. <br>Bei den innerkantonalen Umzügen weist das Wohnviertel Iselin den grössten Wert für den Umzugsgewinn pro 100 Einwohner auf. <br>Den höchsten positiven Saldo infolge sämtlicher räumlicher Bevölkerungsbewegungen pro 100 Einwohner (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) weist ebenfalls das Iselin auf. Den höchsten relativen Bevölkerungsverlust gibt es im Wohnviertel Vorstädte.",
-		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
+		"lesehilfe": "Der Saldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner illustriert die Differenz aus Zu- und Wegzügern (inner- und ausserkantonal) in den baselstädtischen Wohnvierteln und Gemeinden. Im Jahr 2024 verbucht das Wohnviertel Clara den grössten positiven Saldo pro 100 Einwohner, den grössten negativen Saldo das Wohnviertel Rosental.",
+		"erlaeuterungen": "Der Saldo räumlicher Bevölkerungsbewegungen ergibt sich aus der Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -15139,7 +15139,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:48",
+		"aktualisierungsdatum": "2025-05-15T07:11:41",
 		"id": 6022
 	},
 	{
@@ -15151,10 +15151,10 @@ var indikatoren = [
 		"children": [
 			6772
 		],
-		"title": "Wanderungssaldo",
+		"title": "Wanderungssaldo Top 5",
 		"subtitle": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2024",
-		"lesehilfe": "Den grössten Zuzugsüberschuss verzeichnete Basel-Stadt im Jahr 2023 gegenüber Deutschland (+1 281), gefolgt von Italien (+ 227).",
-		"erlaeuterungen": "",
+		"lesehilfe": "Den grössten Zuzugsüberschuss verzeichnete Basel-Stadt im Jahr 2024 gegenüber Deutschland (+1 302), gefolgt von Italien (+ 232).",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -15163,7 +15163,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Wanderungssaldo",
+		"description": "Wanderungssaldo Top 5",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kuerzel": "",
@@ -15179,7 +15179,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:53",
+		"aktualisierungsdatum": "2025-05-15T07:11:43",
 		"id": 6023
 	},
 	{
@@ -15193,7 +15193,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
 		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2015 = 100)",
-		"lesehilfe": "Im Jahr 2023 zogen 25% mehr Personen aus Deutschland nach Basel-Stadt als 2014. Einen deutlichen Rückgang gegenüber 2014 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-30,6%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Zugezogenen aus der Ukraine zurückzuführen.",
+		"lesehilfe": "Im Jahr 2024 zogen 23% mehr Personen aus Deutschland nach Basel-Stadt als 2015. Einen deutlichen Rückgang gegenüber 2015 gab es bei den Zugezogenen aus den Vereinigten Staaten von Amerika (-39%). Der vergleichsweise hohe Wert in der Gruppe «Übriges Ausland» im Jahr 2022 ist auf die Zugezogenen aus der Ukraine zurückzuführen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -15219,7 +15219,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-21T09:17:54",
+		"aktualisierungsdatum": "2025-05-15T07:11:44",
 		"id": 6024
 	},
 	{

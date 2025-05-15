@@ -7123,10 +7123,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.5.2025"
   },
   "colorAxis": {
-    "min": -4,
+    "min": -2,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -7137,16 +7137,35 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value/1000),0); 
-				}
+                    return Highcharts.numberFormat((this.value), 0);
+                }
     },
     "marker": {
       "color": "black"
     },
-    "max": 4,
-    "tickAmount": 5,
-    "minColor": "#E7CEE2",
-    "maxColor": "#2E1435"
+    "stops": [
+      [
+        0,
+        "#662673"
+      ],
+      [
+        0.4999999999,
+        "#E7CEE2"
+      ],
+      [
+        0.5,
+        "#ffffff"
+      ],
+      [
+        0.5000000001,
+        "#D3E2E4"
+      ],
+      [
+        1,
+        "#246370"
+      ]
+    ],
+    "max": 2
   },
   "mapNavigation": {
     "enabled": true,
@@ -7165,10 +7184,9 @@
     },
     "title": {
       "style": {
-        "fontWeight": " bold",
+        "fontWeight": "normal",
         "fontSize": "12px"
-      },
-      "text": "Bevölkerungsaldo"
+      }
     }
   },
   "tooltip": {
@@ -7180,7 +7198,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value), 3) + '</b><br/>';
                 }
             }
   },

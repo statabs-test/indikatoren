@@ -5,202 +5,196 @@
       "data": [
         [
           "0-4",
-          2442
+          -2442
         ],
         [
           "5-9",
-          1290
+          -1290
         ],
         [
           "10-14",
-          769
+          -769
         ],
         [
           "15-19",
-          -731
+          731
         ],
         [
           "20-24",
-          -5469
+          5469
         ],
         [
           "25-29",
-          362
+          -362
         ],
         [
           "30-34",
-          3859
+          -3859
         ],
         [
           "35-39",
-          3756
+          -3756
         ],
         [
           "40-44",
-          2479
+          -2479
         ],
         [
           "45-49",
-          1514
+          -1514
         ],
         [
           "50-54",
-          848
+          -848
         ],
         [
           "55-59",
-          725
+          -725
         ],
         [
           "60-64",
-          665
+          -665
         ],
         [
           "65-69",
-          350
+          -350
         ],
         [
           "70-74",
-          139
+          -139
         ],
         [
           "75-79",
-          -12
+          12
         ],
         [
           "\u003E79",
-          -117
+          117
         ]
       ],
       "name": "Saldo",
       "turboThreshold": 0
     }
   ],
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickColor": "#FFFFFF"
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
     }
-  ],
+  },
   "chart": {
-    "type": "bar",
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-                    this.credits.element.onclick = function() {};
-                    
-                    //create symmetric xAxes
-                    var fn = this.options.customFunctions;
-                    fn.createSymmetricAxis(this.yAxis[0]);
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){ // && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                          }
-                        }
-                      );
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
                 }
     },
-    "renderTo": "container-6018"
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6018",
+    "spacingBottom": 40
   },
   "plotOptions": {
-    "bar": {
-      "grouping": false
-    },
     "series": {
-      "stacking": null,
-      "pointPadding": 0,
       "borderWidth": 0,
-      "groupPadding": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "minPointLength": 1.5
+      "pointPadding": 0
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Wanderungssaldo gegenüber der Schweiz nach Alter"
   },
   "subtitle": {
+    "text": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
     },
-    "text": "Basel-Stadt, 2015 bis 2024 zusammengefasst",
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": -4000,
+    "max": 6000,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0
+      }
+    ]
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "align": "left"
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "title": {
-        "text": null
-      },
-      "labels": {
-        "formatter": function () {
-                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
-                },
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none"
-        }
-      },
-      "plotLines": [
-        {
-          "value": 0,
-          "color": "white",
-          "width": 1,
-          "zIndex": 4
-        }
-      ],
-      "events": {
-        "afterSetExtremes": function (args) {
-                    this.chart.options.customFunctions.createSymmetricAxis(this);
-                }
-      }
-    }
-  ],
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -222,26 +216,8 @@
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
   },
-  "legend": {
-    "symbolRadius": 0,
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
   "tooltip": {
-    "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( this.series.name == 'Saldo' ? this.y : Math.abs(this.y), 0, ",", " ") + '</b><br/>';
-            }
-  },
-  "customFunctions": {
-    "createSymmetricAxis": function(axis){
-                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
-                axis.setExtremes(-absMax, absMax);
-        	}
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6018"
