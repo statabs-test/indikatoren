@@ -1,49 +1,54 @@
 (function(){
   return {
+ title: {
+    useHTML: true
+  },
+  subtitle: {
+    useHTML: true
+  },
+ plotOptions: {
+      series: {
+        pointPadding: 0,
+        borderWidth: 0,
+      }
+ },
 "xAxis": {
-  tickInterval: 1     
+  "type": "category",
+  "labels": {
+    "rotation": 0 
+  } 
 },
 "yAxis": {
-  //tickInterval: 100,
-"labels": {
-  "format": "{value:,.0f}",
-}
-},	
-tooltip: {
-"pointFormatter": function(){
-    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>' 
-  },
+  "labels": {
+    "format": "{value:,.0f}"
+  }    
 },
 "series": [
- {"color": "#246370", legendIndex: 1, zIndex: 2},/**/
-//{"color": "#A0BEC8", legendIndex: 3, zIndex: 1, dashStyle: 'ShortDash',}, /**/	  
-{"color": "#008AC3", legendIndex: 2, zIndex: 2}, /**/
-//{"color": "#689199", legendIndex: 4, zIndex: 1, dashStyle: 'ShortDash',}, /**/
-
-
+{"color": "#FFDA80 "}, /* gelb */
+{"color": "#A0BEC8"}/* blau  */
   ],
 "legend": {
   "enabled": true,
   "layout": "horizontal",
   "verticalAlign": "top",
-  "itemMarginBottom": 5,
-
-  //itemDistance: 10,
   "align": "left",
+  itemDistance: 3,
+  symbolPadding: 3,
+  padding: 0,
   "itemStyle": {
     "fontWeight": "normal"
   }
 },
-"plotOptions": {
-  "line": {
-    "marker":{
-      "enabled": false,
-      "symbol": "circle",
-    } 
-  }
+ tooltip: {
+  useHTML: true,
+  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} CHF</b><br/>',
+  /*"footerFormat": 'Total: <b>{point.total:,.0f}</b>',*/
+  "shared": false
 },
-chart:{
-  marginRight: 20,
+"chart": {      
+  "type": "column",
+  "inverted": false,
+  "spacingBottom": 50
 }
 }
 }());
