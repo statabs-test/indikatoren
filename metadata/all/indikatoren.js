@@ -7041,7 +7041,7 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Sanierungsvolumen in Mio. Franken",
+		"title": "Sanierungsvolumen in Franken",
 		"subtitle": "Projektgesamtkosten nach Baueingabe",
 		"lesehilfe": "Die gemäss eingereichtem Umbauprojekt angegebenen Projektgesamtkosten sind insbesondere ab 2021 deutlich angestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. Die Projektgesamtkosten nicht von der geänderter Gesetzgebung betroffener Umbauprojekte blieben in diesem Zeitraum stabil.",
 		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten.",
