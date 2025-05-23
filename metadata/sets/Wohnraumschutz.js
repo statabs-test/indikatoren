@@ -8,8 +8,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreisindex",
 		"subtitle": "Vergleich von Basel-Stadt mit anderen Schweizer Städten",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Mietpreisindex von Basel-Stadt liegt bei 139 Punkten, er ist also von Mai 2000 bis Mai 2025 um 39 Prozent gestiegen.",
+		"erlaeuterungen": "Indexstand im Mai des jeweiligen Jahres, Basis (=100) ist Mai des Jahres 2000. Die Indizes unterscheiden sich methodisch, also bezüglich Stichprobengrösse und Erhebungsvorgehen. Die unterschiedlichen zeitlichen Entwicklungen sind also mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
 		],
@@ -44,9 +44,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Mietpreise nach Quartil",
-		"subtitle": "Nettomietpreise pro Quadratmeter nach Quartil",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2015 - 2023",
+		"lesehilfe": "Der Median der Preise von Mietwohnungen lag 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil der Mieten lag bei 16,3 Franken pro m<sup>2</sup>, das dritte Quartil bei 23,4 Franken pro m<sup>2</sup>.",
+		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Das 1. Quartil beschreibt die günstigsten 25% der Mieten, das 3. Quartil die teuersten 25% der Mieten. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -81,9 +81,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bestandes- und Einzugsmieten",
-		"subtitle": "Nettomietpreise in Franken pro Quadratmeter",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2020 - 2023",
+		"lesehilfe": "Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnisse lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>). Die Mietpreisdifferenz von älteren und neueren Mietverhältnissen lag somit bei 15,7%.",
+		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Als Einzugsmieten gelten die in den letzten zwei Jahren abgeschlossenen Mietverträge. Bestandesmieten gelten für Mietverhältnisse, die bereits länger als zwei Jahre dauern. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -221,6 +221,43 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-04-10T12:50:45",
 		"id": 22293
+	},
+	{
+		"template": "template001",
+		"data-id": 22294,
+		"chart-id": 22294,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Umwandlungen in Stockwerkeigentum",
+		"subtitle": "Anzahl Bewilligungen durch die Wohnschutzkommission",
+		"lesehilfe": "Nach Inkraftreten der Wohnraumschutzverordnung (WRSchV) gab es 2023 insgesamt 3 Fälle und ein Jahr danach 4 Fälle, wo für die Begründung von Stockwerkeigentum eine Bewilligung der Wohnschutzkommission Voraussetzung war.",
+		"erlaeuterungen": "Fälle, in denen eine Bewilligung der Wohnschutzkommission Voraussetzung ist für die Begründung von Stockwerkeigentum.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Umwandlungen in Stockwerkeigentum",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wohnraumschutz",
+		"kuerzelKunde": "002-3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-04-10T12:50:45",
+		"id": 22294
 	},
 	{
 		"template": "template001",
@@ -453,8 +490,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Gesuche WSK",
-		"subtitle": "",
-		"lesehilfe": "2024 gab es 124 Prüfungs- und Bewilligungsverfahren für Umbauten, Renovationen- und Sanierungen. 18 Gesuche wurden für die Begründung von Stockwerkeigentum eingereicht und 3 Gesuche für die Festlegung von maximalen Nettomietzinsen.",
+		"subtitle": "Basel-Stadt, 2022 - 2024",
+		"lesehilfe": "2024 gab es 124 Prüfungs- und Bewilligungsverfahren für Umbauten, Renovationen- und Sanierungen. 18 Gesuche wurden für die Begründung von Stockwerkeigentum eingereicht und 3 Gesuche für die Festlegung von maximalen Nettomietzinsen bei Abbruch und Ersatzneubau.",
 		"erlaeuterungen": "Es werden die jährlich neu eintreffenden Gesuche ausgewiesen.",
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
@@ -481,5 +518,79 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-04-10T12:50:45",
 		"id": 22301
+	},
+	{
+		"template": "template001",
+		"data-id": 22302,
+		"chart-id": 22302,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Verfügungen inkl. Anzahl betroffener Wohnverhältnisse",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Verfügungen inkl. Anzahl betroffener Wohnverhältnisse",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wohnraumschutz",
+		"kuerzelKunde": "003-2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-04-10T12:50:45",
+		"id": 22302
+	},
+	{
+		"template": "template001",
+		"data-id": 22303,
+		"chart-id": 22303,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Höhe der bewilligten Mietzinsaufschläge/Mietzinsfestlegungen",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Höhe der bewilligten Mietzinsaufschläge/Mietzinsfestlegungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wohnraumschutz",
+		"kuerzelKunde": "003-3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-04-10T12:50:45",
+		"id": 22303
 	}
 ];

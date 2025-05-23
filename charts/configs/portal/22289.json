@@ -1,7 +1,8 @@
 {
   "series": [
     {
-      "color": "#FFDA80 ",
+      "color": "#7F5F1A",
+      "pointPlacement": -0.05,
       "data": [
         [
           "2015",
@@ -34,13 +35,18 @@
         [
           "2022",
           16
+        ],
+        [
+          "2023",
+          16.3
         ]
       ],
-      "name": "Mietwohnung: 1. Quartil",
+      "name": "Mietwohnungen, 1. Quartil",
       "turboThreshold": 0
     },
     {
-      "color": "#A0BEC8",
+      "color": "#CD9C00",
+      "pointPlacement": -0.05,
       "data": [
         [
           "2015",
@@ -73,13 +79,18 @@
         [
           "2022",
           19.1
+        ],
+        [
+          "2023",
+          19.7
         ]
       ],
-      "name": "Mietwohnung: Median",
+      "name": "Mietwohnungen, Median",
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#FFBB58 ",
+      "pointPlacement": -0.05,
       "data": [
         [
           "2015",
@@ -112,13 +123,18 @@
         [
           "2022",
           22.7
+        ],
+        [
+          "2023",
+          23.4
         ]
       ],
-      "name": "Mietwohnung: 3. Quartil",
+      "name": "Mietwohnungen, 3. Quartil",
       "turboThreshold": 0
     },
     {
-      "color": "#FFDA80 ",
+      "color": "#246370",
+      "pointPlacement": 0.05,
       "data": [
         [
           "2015",
@@ -151,13 +167,18 @@
         [
           "2022",
           12.4
+        ],
+        [
+          "2023",
+          12.6
         ]
       ],
-      "name": "Genossenschaftswohnung: 1. Quartil",
+      "name": "Genossenschaftswohnungen, 1. Quartil",
       "turboThreshold": 0
     },
     {
-      "color": "#A0BEC8",
+      "color": "#689199",
+      "pointPlacement": 0.05,
       "data": [
         [
           "2015",
@@ -190,13 +211,18 @@
         [
           "2022",
           14.8
+        ],
+        [
+          "2023",
+          15.2
         ]
       ],
-      "name": "Genossenschaftswohnung: Median",
+      "name": "Genossenschaftswohnungen, Median",
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#A8C3CA ",
+      "pointPlacement": 0.05,
       "data": [
         [
           "2015",
@@ -229,9 +255,13 @@
         [
           "2022",
           17.8
+        ],
+        [
+          "2023",
+          18.7
         ]
       ],
-      "name": "Genossenschaftswohnung: 3. Quartil",
+      "name": "Genossenschaftswohnungen, 3. Quartil",
       "turboThreshold": 0
     }
   ],
@@ -276,12 +306,12 @@
         this.legend.title
           .attr({
             text:
-              this.series[0].name.split(": ").slice(0,1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+              this.series[0].name.split(", ").slice(0,1).toString() //holt 'Mietwohnungen'
               + ':<br>'
-              + this.series[4].name.split(": ").slice(0,1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+              + this.series[3].name.split(", ").slice(0,1).toString() //holt 'Genossenschaftswohnungen'
               + ':<br>'
           })
-          .translate(-4, 2); //move -140 to the left and 8 down
+          .translate(-160, 39); //move -140 to the left and 8 down
       }
     },
     "type": "column",
@@ -311,7 +341,7 @@
     "text": "Mietpreise nach Quartil"
   },
   "subtitle": {
-    "text": "Nettomietpreise pro Quadratmeter nach Quartil",
+    "text": "Nettomietpreise in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt, 2015 - 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -336,20 +366,26 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 25,
+    "tickInterval": 5
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemDistance": 3,
-    "symbolPadding": 3,
-    "padding": 0,
+    "itemMarginBottom": 2,
+    "x": 190,
+    "y": -45,
+    "itemWidth": 80,
+    "width": 240,
     "title": {
       "text": "-\u003Cbr\u003E-",
       "style": {
@@ -358,7 +394,7 @@
       }
     },
     "labelFormatter": function () {
-      return this.name.split(": ").slice(-1).toString();  //holt z.B. '2015' aus '2015 Wöchentlich'
+      return this.name.split(", ").slice(-1).toString();  //holt 1. Quartil etc.
     }
   },
   "navigation": {

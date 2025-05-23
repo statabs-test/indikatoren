@@ -96,6 +96,7 @@
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 1,
+      "visible": false,
       "data": [
         [
           2005,
@@ -186,6 +187,7 @@
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 2,
+      "visible": false,
       "data": [
         [
           2005,
@@ -276,6 +278,7 @@
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 3,
+      "visible": false,
       "data": [
         [
           2005,
@@ -371,6 +374,7 @@
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
+      "visible": false,
       "data": [
         [
           2005,

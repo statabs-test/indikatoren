@@ -18,7 +18,7 @@
           73
         ]
       ],
-      "name": "Einfaches Prüfungsverfahren"
+      "name": "einfaches Prüfungsverfahren"
     },
     {
       "stack": 1,
@@ -38,7 +38,7 @@
           41
         ]
       ],
-      "name": "Vereinfachtes Bewilligungsverfahren"
+      "name": "vereinfachtes Bewilligungsverfahren"
     },
     {
       "stack": 1,
@@ -58,7 +58,7 @@
           10
         ]
       ],
-      "name": "Umfassendes Bewilligungsverfahren"
+      "name": "umfassendes Bewilligungsverfahren"
     },
     {
       "stack": 2,
@@ -98,7 +98,7 @@
           3
         ]
       ],
-      "name": "Festlegung max. Nettomietzins bei Abbruch und Ersatzneubau"
+      "name": "Festlegung max. Nettomietzins"
     }
   ],
   "chart": {
@@ -162,7 +162,7 @@
     "text": "Anzahl Gesuche WSK"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt, 2022 - 2024",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -237,7 +237,9 @@
     "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total : \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "22301"
