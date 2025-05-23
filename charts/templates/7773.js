@@ -75,6 +75,7 @@
       },
       xAxis: {
         min: 2010,
+        tickInterval: 5,
       },
       yAxis: {
         min: null,
