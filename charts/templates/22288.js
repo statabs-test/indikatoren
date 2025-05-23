@@ -30,14 +30,18 @@
   },
   "yAxis": {
     min: 50,
+    max: 150,
     "labels": {
       "format": "{value:,.0f}"
     }    
   },
  "series": [
-  {"color": "#FFDA80 "}, /* gelb */
-	{"color": "#A0BEC8"},/* blau  */
-	{"color": "#68AB2B"},/* grün  */
+  {"color": "black"}, // Kanton BS
+	{"color": "#DC440E"}, // KT Genf
+	{"color": "#008AC3"}, // Stadt Zürich
+  {"color": "#B00000",
+    "dashStyle": "Dash"
+  }, // Schweiz
   ],
   "legend": {
     "enabled": true,

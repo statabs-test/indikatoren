@@ -1,107 +1,173 @@
 {
   "series": [
     {
-      "color": "#246370",
-      "legendIndex": 1,
-      "zIndex": 2,
+      "color": "#FFDA80 ",
       "data": [
         [
-          2014,
-          100
+          "1995",
+          97.2
         ],
         [
-          2015,
-          99.4228680337236
+          "1996",
+          99
         ],
         [
-          2016,
-          103.679467160955
+          "1997",
+          98.8
         ],
         [
-          2017,
-          120.955091180427
+          "1998",
+          99
         ],
         [
-          2018,
-          130.969836067766
+          "1999",
+          99.5
         ],
         [
-          2019,
-          137.199279310995
+          "2000",
+          101.2
         ],
         [
-          2020,
-          155.187279144859
+          "2001",
+          102.9
         ],
         [
-          2021,
-          159.130804517651
+          "2002",
+          103.8
         ],
         [
-          2022,
-          179.604983321562
+          "2003",
+          104.3
         ],
         [
-          2023,
-          168.187445675893
+          "2004",
+          105.3
+        ],
+        [
+          "2005",
+          106.3
+        ],
+        [
+          "2006",
+          107.6
+        ],
+        [
+          "2007",
+          110.1
+        ],
+        [
+          "2008",
+          112.6
+        ],
+        [
+          "2009",
+          114.7
+        ],
+        [
+          "2010",
+          115.8
+        ],
+        [
+          "2011",
+          117
+        ],
+        [
+          "2012",
+          117.5
+        ],
+        [
+          "2013",
+          118.8
+        ],
+        [
+          "2014",
+          119.5
+        ],
+        [
+          "2015",
+          120.9
+        ],
+        [
+          "2016",
+          122.8
+        ],
+        [
+          "2017",
+          124.3
+        ],
+        [
+          "2018",
+          125.7
+        ],
+        [
+          "2019",
+          127.4
+        ],
+        [
+          "2020",
+          128.8
+        ],
+        [
+          "2021",
+          129.8
+        ],
+        [
+          "2022",
+          131.4
+        ],
+        [
+          "2023",
+          134.1
+        ],
+        [
+          "2024",
+          138.2
         ]
       ],
-      "name": "Einfamilienhaus-Grundstücke"
+      "name": "Index",
+      "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
-      "legendIndex": 2,
-      "zIndex": 2,
-      "data": [
-        [
-          2014,
-          100
-        ],
-        [
-          2015,
-          133.726689976514
-        ],
-        [
-          2016,
-          136.77500717097
-        ],
-        [
-          2017,
-          194.83650695452
-        ],
-        [
-          2018,
-          182.174542942543
-        ],
-        [
-          2019,
-          198.726158784847
-        ],
-        [
-          2020,
-          233.309817092882
-        ],
-        [
-          2021,
-          298.743179354715
-        ],
-        [
-          2022,
-          261.986894109845
-        ],
-        [
-          2023,
-          217.559509278168
-        ]
-      ],
-      "name": "Mehrfamilienhaus-Grundstücke"
+      "color": "#A0BEC8"
+    },
+    {
+      "color": "#68AB2B"
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickInterval": 2,
+    "tickPositioner": function () {
+      var maxlabels = 12,
+        ext = this.getExtremes(),
+        i = Math.round(ext.max),
+        interval = Math.round((i - ext.min)/maxlabels),
+        pos = [i];
+      while (i >= ext.min) pos.unshift(i = i - interval);
+      return pos;
+    }
+  },
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -126,20 +192,15 @@
 					}
 				}
     },
-    "marginRight": 20,
-    "renderTo": "container-22300"
+    "renderTo": "container-22288"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "title": {
@@ -149,37 +210,21 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bodenpreisindex"
+    "useHTML": true,
+    "text": "Mietpreisindex"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Basis 2014 = 100",
+    "text": "Vergleich von Basel-Stadt mit anderen Schweizer Städten",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
     },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
+    "useHTML": true
   },
   "yAxis": {
-    "min": 0,
+    "min": 50,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -195,8 +240,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickInterval": 100
+    }
   },
   "legend": {
     "enabled": true,
@@ -207,7 +251,9 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemMarginBottom": 5
+    "itemDistance": 3,
+    "symbolPadding": 3,
+    "padding": 0
   },
   "credits": {
     "enabled": true,
@@ -220,9 +266,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -259,11 +305,10 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b>' 
-    }
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
-    "filename": "22300"
+    "filename": "22288"
   }
 }

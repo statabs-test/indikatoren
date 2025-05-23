@@ -4,141 +4,234 @@
       "color": "#FFDA80 ",
       "data": [
         [
-          "2014",
-          4134
-        ],
-        [
           "2015",
-          4138
+          14.5
         ],
         [
           "2016",
-          3451
+          14.8
         ],
         [
           "2017",
-          4369
+          14.8
         ],
         [
           "2018",
-          3600
+          15.5
         ],
         [
           "2019",
-          3504
+          15.7
         ],
         [
           "2020",
-          3238
+          15.7
         ],
         [
           "2021",
-          3026
+          16
         ],
         [
           "2022",
-          3289
-        ],
-        [
-          "2023",
-          2733
+          16
         ]
       ],
-      "name": "Anzahl von Umbau und nicht von Leerkündigung betroffener Wohnungen",
+      "name": "Mietwohnung: 1. Quartil",
       "turboThreshold": 0
     },
     {
       "color": "#A0BEC8",
       "data": [
         [
-          "2014",
-          314
-        ],
-        [
           "2015",
-          393
+          17.4
         ],
         [
           "2016",
-          379
+          17.5
         ],
         [
           "2017",
-          557
+          17.6
         ],
         [
           "2018",
-          440
+          18.3
         ],
         [
           "2019",
-          620
+          18.7
         ],
         [
           "2020",
-          493
+          18.7
         ],
         [
           "2021",
-          506
+          18.9
         ],
         [
           "2022",
-          276
-        ],
-        [
-          "2023",
-          103
+          19.1
         ]
       ],
-      "name": "Anzahl von Umbau und Leerkündigung betroffener Wohnungen",
+      "name": "Mietwohnung: Median",
       "turboThreshold": 0
     },
     {
       "color": "#68AB2B",
       "data": [
         [
-          "2014",
-          30
-        ],
-        [
           "2015",
-          178
+          20.5
         ],
         [
           "2016",
-          66
+          20.7
         ],
         [
           "2017",
-          43
+          20.6
         ],
         [
           "2018",
-          108
+          21.7
         ],
         [
           "2019",
-          227
+          22.1
         ],
         [
           "2020",
-          115
+          22.3
         ],
         [
           "2021",
-          108
+          22.4
         ],
         [
           "2022",
-          71
-        ],
-        [
-          "2023",
-          19
+          22.7
         ]
       ],
-      "name": "Anzahl von Abbruch betroffener Wohnungen",
+      "name": "Mietwohnung: 3. Quartil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80 ",
+      "data": [
+        [
+          "2015",
+          11.1
+        ],
+        [
+          "2016",
+          11.2
+        ],
+        [
+          "2017",
+          11.2
+        ],
+        [
+          "2018",
+          12
+        ],
+        [
+          "2019",
+          12.2
+        ],
+        [
+          "2020",
+          12.3
+        ],
+        [
+          "2021",
+          12.4
+        ],
+        [
+          "2022",
+          12.4
+        ]
+      ],
+      "name": "Genossenschaftswohnung: 1. Quartil",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A0BEC8",
+      "data": [
+        [
+          "2015",
+          13.2
+        ],
+        [
+          "2016",
+          13.6
+        ],
+        [
+          "2017",
+          13.8
+        ],
+        [
+          "2018",
+          13.9
+        ],
+        [
+          "2019",
+          14.4
+        ],
+        [
+          "2020",
+          14.3
+        ],
+        [
+          "2021",
+          14.3
+        ],
+        [
+          "2022",
+          14.8
+        ]
+      ],
+      "name": "Genossenschaftswohnung: Median",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "2015",
+          15.3
+        ],
+        [
+          "2016",
+          16.3
+        ],
+        [
+          "2017",
+          16.4
+        ],
+        [
+          "2018",
+          16.7
+        ],
+        [
+          "2019",
+          17.4
+        ],
+        [
+          "2020",
+          16.8
+        ],
+        [
+          "2021",
+          17.5
+        ],
+        [
+          "2022",
+          17.8
+        ]
+      ],
+      "name": "Genossenschaftswohnung: 3. Quartil",
       "turboThreshold": 0
     }
   ],
@@ -179,24 +272,22 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+        //add and move legend title (get it from series names)
+        this.legend.title
+          .attr({
+            text:
+              this.series[0].name.split(": ").slice(0,1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+              + ':<br>'
+              + this.series[4].name.split(": ").slice(0,1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+              + ':<br>'
+          })
+          .translate(-4, 2); //move -140 to the left and 8 down
+      }
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 70,
-    "renderTo": "container-22291"
+    "spacingBottom": 60,
+    "renderTo": "container-22289"
   },
   "plotOptions": {
     "series": {
@@ -217,10 +308,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Leerkündigungen"
+    "text": "Mietpreise nach Quartil"
   },
   "subtitle": {
-    "text": "Anzahl von Umbau oder Abbruch betroffener Wohnungen",
+    "text": "Nettomietpreise pro Quadratmeter nach Quartil",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -258,7 +349,17 @@
     "align": "left",
     "itemDistance": 3,
     "symbolPadding": 3,
-    "padding": 0
+    "padding": 0,
+    "title": {
+      "text": "-\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 18
+      }
+    },
+    "labelFormatter": function () {
+      return this.name.split(": ").slice(-1).toString();  //holt z.B. '2015' aus '2015 Wöchentlich'
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -277,15 +378,15 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "22291"
+    "filename": "22289"
   }
 }

@@ -5,69 +5,6 @@
       "data": [
         [
           "2018-H1",
-          104073017
-        ],
-        [
-          "2018-H2",
-          138957985
-        ],
-        [
-          "2019-H1",
-          124904096
-        ],
-        [
-          "2019-H2",
-          71870279
-        ],
-        [
-          "2020-H1",
-          130055203
-        ],
-        [
-          "2020-H2",
-          100979915
-        ],
-        [
-          "2021-H1",
-          203957284
-        ],
-        [
-          "2021-H2",
-          226998210
-        ],
-        [
-          "2022-H1",
-          230039031
-        ],
-        [
-          "2022-H2",
-          74961563
-        ],
-        [
-          "2023-H1",
-          50661882
-        ],
-        [
-          "2023-H2",
-          148943178
-        ],
-        [
-          "2024-H1",
-          78977813
-        ],
-        [
-          "2024-H2",
-          58712971
-        ]
-      ],
-      "name": "Umbauprojekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#A0BEC8",
-      "data": [
-        [
-          "2018-H1",
           76714228
         ],
         [
@@ -127,7 +64,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68AB2B",
+      "color": "#A0BEC8",
       "data": [
         [
           "2018-H1",
@@ -307,7 +244,10 @@
     "align": "left",
     "itemDistance": 3,
     "symbolPadding": 3,
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function () {
+      return this.name.split(' mit')[0];
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -331,8 +271,8 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Mio. CHF\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} Mio. CHF\u003C\u002Fb\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} CHF\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} CHF\u003C\u002Fb\u003E",
     "shared": true
   },
   "exporting": {

@@ -90,9 +90,6 @@
   }  
 ],
  "series": [
- // {"color": "#FFDA80 "}, /* gelb */
-	//{"color": "#A0BEC8"},/* blau  */
-	//{"color": "#68AB2B"},/* grün  */
   {
     "index": 0,
     color: "#FFDA80",
@@ -138,6 +135,9 @@
       "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
       }
+    },
+    marker: {
+      radius:6
     }
   }, 
 ],

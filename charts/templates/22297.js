@@ -48,21 +48,24 @@ plotOptions: {
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 1
+    legendIndex: 1,
+    visible:false
   },
   {
     "color": "#a8c4cb",
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 2
+    legendIndex: 2,
+    visible: false
   },
   {
     "color": "#fabd24",
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 3
+    legendIndex: 3,
+    visible: false
   },
 {
     "color": "#000000",
@@ -76,7 +79,8 @@ plotOptions: {
     legendIndex: 4,
     tooltip: {
       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-  }
+  },
+    visible: false
   },
   {
     "color": "#67401E",

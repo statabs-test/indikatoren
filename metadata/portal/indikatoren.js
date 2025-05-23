@@ -4323,7 +4323,7 @@ var indikatoren = [
 		"id": 21847
 	},
 	{
-		"template": "template001",
+		"template": "line001",
 		"data-id": 22288,
 		"chart-id": 22288,
 		"filter": "",
@@ -4368,7 +4368,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mietpreise nach Quartil",
-		"subtitle": "",
+		"subtitle": "Nettomietpreise pro Quadratmeter nach Quartil",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -4406,7 +4406,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bestandes- und Einzugsmieten",
-		"subtitle": "",
+		"subtitle": "Nettomietpreise in Franken pro Quadratmeter",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -4485,7 +4485,7 @@ var indikatoren = [
 		"title": "Anzahl baubewilligungspflichtige Sanierungen",
 		"subtitle": "Anzahl Bauprojekte nach Baueingabe",
 		"lesehilfe": "Hat die Anzahl Projekte seit der ersten Jahreshälfte 2018 insbesondere seit 2021 deutlich zugenommen, ist seit der zweiten Jahreshälfte 2022 ein Einbruch festzustellen, und zwar sowohl generell bei Umbauprojekten wie auch bei den durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl nicht betroffener Projekte ging gleichzeitig nur leicht zurück.",
-		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe.",
+		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4523,7 +4523,7 @@ var indikatoren = [
 		"title": "Sanierungsvolumen in Mio. Franken",
 		"subtitle": "Projektgesamtkosten nach Baueingabe",
 		"lesehilfe": "Die gemäss eingereichtem Umbauprojekt angegebenen Projektgesamtkosten sind insbesondere ab 2021 deutlich angestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. Die Projektgesamtkosten nicht von der geänderter Gesetzgebung betroffener Umbauprojekte blieben in diesem Zeitraum stabil.",
-		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten.",
+		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4553,51 +4553,13 @@ var indikatoren = [
 	},
 	{
 		"template": "template001",
-		"data-id": 22294,
-		"chart-id": 22294,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Anzahl Umwandlungen in Stockwerkeigentum",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Umwandlungen in Stockwerkeigentum",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wohnraumschutz",
-		"kuerzelKunde": "002-3",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-10T12:50:45",
-		"id": 22294
-	},
-	{
-		"template": "line001",
 		"data-id": 22295,
 		"chart-id": 22295,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Fördervolumen Gebäudeprogramm",
-		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung in Mio. CHF",
+		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung in CHF",
 		"lesehilfe": "Die jährlich ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden haben sich seit 2017 von gut CHF 2 Mio. auf über CHF 4 Mio. verdoppelt, wobei insbesondere bei Mehrfamilienhäuser ein starker Anstieg zu verzeichnen ist, während sich die Entwicklung bei den Einfamilienhäusern auf stabilem Niveau verhält.",
 		"erlaeuterungen": "Gemäss Gebäudeprogramm ausbezahlte Förderbeiträge nach Kanton und Gebäudekategorie.",
 		"quellenangabe": [
@@ -4713,7 +4675,7 @@ var indikatoren = [
 		"title": "Bewilligte Wohnungen und Gebäude",
 		"subtitle": "Anzahl bewilligte Gebäude und Wohnungen",
 		"lesehilfe": "Von 2021 bis 2023 wurde eine geringe Anzahl Wohnungen bewilligt. 2024 nahm sie wieder zu und lässt ab 2026 eine höhere Wohnbauproduktion erwarten.",
-		"erlaeuterungen": "Es werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten gezählt. Umbauprojekte mit Wohnungszuwachs werden denzufolge nicht berücksichtigt.",
+		"erlaeuterungen": "Es werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten gezählt. Umbauprojekte mit Wohnungszuwachs werden demzufolge nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4744,9 +4706,9 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 22300,
-		"chart-id": 22300,
+		"chart-id": 12722,
 		"filter": "",
-		"parentId": null,
+		"parentId": "12722",
 		"children": [],
 		"title": "Bodenpreisindex",
 		"subtitle": "Basel-Stadt, Basis 2014 = 100",
@@ -4817,82 +4779,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-04-10T12:50:45",
 		"id": 22301
-	},
-	{
-		"template": "template001",
-		"data-id": 22302,
-		"chart-id": 22302,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Anzahl Verfügungen inkl. Anzahl betroffener Wohnverhältnisse",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Verfügungen inkl. Anzahl betroffener Wohnverhältnisse",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wohnraumschutz",
-		"kuerzelKunde": "003-2",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-10T12:50:45",
-		"id": 22302
-	},
-	{
-		"template": "template001",
-		"data-id": 22303,
-		"chart-id": 22303,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Höhe der bewilligten Mietzinsaufschläge/Mietzinsfestlegungen",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Höhe der bewilligten Mietzinsaufschläge/Mietzinsfestlegungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wohnraumschutz",
-		"kuerzelKunde": "003-3",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-10T12:50:45",
-		"id": 22303
 	},
 	{
 		"template": "line001",
