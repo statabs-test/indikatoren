@@ -10,7 +10,7 @@
         series: {
           pointPadding: 0,
           borderWidth: 0,
-          stacking: "normal"
+          //stacking: "normal"
         }
    },
   "xAxis": {
@@ -45,8 +45,8 @@
   },
    tooltip: {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} CHF</b><br/>',
-    footerFormat: 'Total: <b>{point.total:,.0f} CHF</b>', 
-    "shared": true
+    //footerFormat: 'Total: <b>{point.total:,.0f} CHF</b>', 
+    "shared": false
   },
   "chart": {      
     "type": "column",

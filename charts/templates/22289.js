@@ -38,13 +38,16 @@
     pointPlacement: -0.05
   },
   {"color": "#246370",
-    pointPlacement: 0.05
+    pointPlacement: 0.05,
+    visible: false
   }, 
 	{"color": "#689199",
-    pointPlacement: 0.05
+    pointPlacement: 0.05,
+    visible: false
   },
 	{"color": "#A8C3CA ",
-    pointPlacement: 0.05
+    pointPlacement: 0.05,
+    visible: false
   }
   ],
   "legend": {
