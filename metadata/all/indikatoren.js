@@ -7006,7 +7006,7 @@ var indikatoren = [
 		"title": "Anzahl baubewilligungspflichtige Sanierungen",
 		"subtitle": "Anzahl Bauprojekte nach Baueingabe",
 		"lesehilfe": "Hat die Anzahl Projekte seit der ersten Jahreshälfte 2018 insbesondere seit 2021 deutlich zugenommen, ist seit der zweiten Jahreshälfte 2022 ein Einbruch festzustellen, und zwar sowohl generell bei Umbauprojekten wie auch bei den durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl nicht betroffener Projekte ging gleichzeitig nur leicht zurück.",
-		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe.",
+		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. Unter \"betroffenen Projekten\" versteht man Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -7044,7 +7044,7 @@ var indikatoren = [
 		"title": "Sanierungsvolumen in Franken",
 		"subtitle": "Projektgesamtkosten nach Baueingabe",
 		"lesehilfe": "Die gemäss eingereichtem Umbauprojekt angegebenen Projektgesamtkosten sind insbesondere ab 2021 deutlich angestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. Die Projektgesamtkosten nicht von der geänderter Gesetzgebung betroffener Umbauprojekte blieben in diesem Zeitraum stabil.",
-		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten.",
+		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten. Unter \"betroffenen Projekten\" versteht man Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -7120,7 +7120,7 @@ var indikatoren = [
 		"title": "Abbruch",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In den letzten zwanzig Jahren wurden im Durchschnitt rund hundert Wohnungen abgebrochen. Im Jahr 2024 war die Anzahl abgebrochener Wohnungen mit 77 unterdurchschnittlich.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Abgebrochene Wohnungen nach Jahr des Abbruches.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
