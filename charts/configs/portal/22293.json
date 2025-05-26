@@ -202,7 +202,7 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Sanierungsvolumen in Mio. Franken"
+    "text": "Sanierungsvolumen in Franken"
   },
   "subtitle": {
     "text": "Projektgesamtkosten nach Baueingabe",

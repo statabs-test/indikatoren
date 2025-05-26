@@ -5,83 +5,83 @@
       "data": [
         [
           "2005",
-          -14
+          14
         ],
         [
           "2006",
-          -134
+          134
         ],
         [
           "2007",
-          -107
+          107
         ],
         [
           "2008",
-          -125
+          125
         ],
         [
           "2009",
-          -150
+          150
         ],
         [
           "2010",
-          -146
+          146
         ],
         [
           "2011",
-          -58
+          58
         ],
         [
           "2012",
-          -26
+          26
         ],
         [
           "2013",
-          -41
+          41
         ],
         [
           "2014",
-          -53
+          53
         ],
         [
           "2015",
-          -178
+          178
         ],
         [
           "2016",
-          -75
+          75
         ],
         [
           "2017",
-          -59
+          59
         ],
         [
           "2018",
-          -114
+          114
         ],
         [
           "2019",
-          -186
+          186
         ],
         [
           "2020",
-          -154
+          154
         ],
         [
           "2021",
-          -96
+          96
         ],
         [
           "2022",
-          -138
+          138
         ],
         [
           "2023",
-          -53
+          53
         ],
         [
           "2024",
-          -77
+          77
         ]
       ],
       "name": "Abbruch",
@@ -228,7 +228,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
