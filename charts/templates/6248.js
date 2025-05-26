@@ -13,7 +13,7 @@
       }
     },
     "yAxis": {
-      max: 1200,
+      max: 1350,
       tickInterval: 150,
       min: -300,
       "labels": {

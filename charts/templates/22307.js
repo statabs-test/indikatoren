@@ -41,6 +41,9 @@
         rotation: -45
       },
     },
+    yAxis: {
+      tickInterval: 1,
+    },
     legend: {
       enabled: true,
       layout: "horizontal",

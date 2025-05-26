@@ -15,6 +15,9 @@
 				return pos;
 			}
 		},
+		yAxis:{
+			tickInterval: 5
+		},
 		"tooltip": {
 			useHTML: true,
 			"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} Mio m<sup>3</sup></b><br/>'

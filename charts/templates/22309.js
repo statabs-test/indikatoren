@@ -1,31 +1,37 @@
-(function(){
+(function () {
     return {
         "chart": {
             "type": "column",
             marginTop: 70,
         },
+        plotOptions: {
+            column: {
+                borderWidth: 0
+            }
+        },
         "yAxis": {
             showLastLabel: true,
             endOnTick: true,
             tickAmount: 6,
-            
+
             labels: {
                 format: "{value:,.0f}",
                 y: 2,
-            }, 
+            },
             opposite: false,
         },
         "xAxis": {
-            endOnTick: true,    
+            tickInterval: 1,
+            /*endOnTick: true,    
             startOnTick: true,
             showFirstLabel: true,
             showLastLabel: true,
-            tickInterval: 1,
+            
             //minTickInterval: 365 * 24 * 3600 * 1000,
-            ordinal: false
+            ordinal: false*/
         },
         "series": [{
-          "color": "#8b2223"
+            "color": "#8b2223"
         }
         ],
         "tooltip": {
@@ -40,35 +46,35 @@
                 });
             }
         }, */
-    	rangeSelector: {
-    		buttons: 
-    			[
-        			{
-                      count: 10,
-                      type: 'year',
-                      text: '10 J'
-    	            }, 
-        			{
-                      count: 20,
-                      type: 'year',
-                      text: '20 J'
-    	            }, 
-    	            {
-                      count: 50,
-                      type: 'year',
-                      text: '50 J'
-    	            }, 
-    	            {
-                      type: 'all',
-                      text: 'Alle J'
-    	            }
+        rangeSelector: {
+            buttons:
+                [
+                    {
+                        count: 10,
+                        type: 'year',
+                        text: '10 J'
+                    },
+                    {
+                        count: 20,
+                        type: 'year',
+                        text: '20 J'
+                    },
+                    {
+                        count: 50,
+                        type: 'year',
+                        text: '50 J'
+                    },
+                    {
+                        type: 'all',
+                        text: 'Alle J'
+                    }
                 ],
-            buttonSpacing: 15,                
+            buttonSpacing: 15,
             inputEnabled: false,
-            selected: 1, 
+            selected: 1,
             inputDateFormat: '%Y',
-    		inputEditDateFormat: '%Y'
-        }          
+            inputEditDateFormat: '%Y'
+        }
     };
 }());
 

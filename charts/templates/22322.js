@@ -3,9 +3,9 @@
     chart: {
       type: "column",
     },
-    subtitle:{
-			useHTML: true,
-		},
+    subtitle: {
+      useHTML: true,
+    },
     plotOptions: {
       column: {
         stacking: 'normal',
@@ -15,7 +15,7 @@
     series: [
       { "color": "#68ab2b" }, // Tagesgäste
       { "color": "#246370" }, // Krankenversicherer
-//      { "color": "#fabd24" }, // Kanton/Gemeinde
+      //      { "color": "#fabd24" }, // Kanton/Gemeinde
     ],
     "xAxis": { //label last tick
       tickPositioner: function () {
@@ -58,11 +58,12 @@
       footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.1f} Mio. m<sup>3</sup></b></td><td></td></tr></table>',
     },
 
-    yAxis: 
-      {
-        min: 0,
-        reversedStacks: true,
-      },
+    yAxis:
+    {
+      min: 0,
+      reversedStacks: true,
+      tickInterval: 5
+    },
     legend: {
       enabled: true,
       layout: "horizontal",

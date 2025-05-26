@@ -84,7 +84,7 @@
       }
     },
     yAxis: {
-      min: 0
+      min: null
     },
     legend: {
       enabled: true,

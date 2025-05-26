@@ -1,7 +1,7 @@
 (function () {
   return {
     "xAxis": {
-      tickInterval: 5
+      tickInterval: 2
     },
     "yAxis": {
       tickInterval: 10,
@@ -35,11 +35,14 @@
 
     ],
     "legend": {
-      "enabled": true,
-      "layout": "horizontal",
-      "verticalAlign": "top",
-      "itemMarginBottom": 3,
-      "align": "left",
+      enabled: true,
+      layout: "vertical",
+      verticalAlign: "middle",
+      align: "right",
+      "itemMarginBottom": 6,
+      labelFormatter: function () {
+        return this.name.replace(" (","<br>(");
+      },
     },
     "plotOptions": {
       "line": {
@@ -51,7 +54,7 @@
       }
     },
     chart: {
-      marginRight: 20
+      "width": 665
     }
   }
 }());
