@@ -4,7 +4,15 @@
       marginRight: 10
     },
     "xAxis": {
-      "tickInterval": 3
+      tickPositioner: function () {
+				var maxlabels = 8,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
+			}
     },
     "yAxis": {
       tickInterval: 0.2,

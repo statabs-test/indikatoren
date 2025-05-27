@@ -3,6 +3,7 @@
         "chart": {
             "type": "column",
             marginTop: 70,
+            marginRight: 10
         },
         plotOptions: {
             column: {
@@ -10,10 +11,7 @@
             }
         },
         "yAxis": {
-            showLastLabel: true,
-            endOnTick: true,
             tickAmount: 6,
-
             labels: {
                 format: "{value:,.0f}",
                 y: 2,
@@ -21,14 +19,14 @@
             opposite: false,
         },
         "xAxis": {
-            tickInterval: 1,
-            /*endOnTick: true,    
-            startOnTick: true,
-            showFirstLabel: true,
-            showLastLabel: true,
-            
-            //minTickInterval: 365 * 24 * 3600 * 1000,
-            ordinal: false*/
+            tickPositioner: function () {
+                var interval = 10,
+                  ext = this.getExtremes(),
+                  i = ext.dataMax,
+                  pos = [i];
+                while (i >= ext.dataMin) pos.unshift(i = i - interval);
+                return pos;
+              }
         },
         "series": [{
             "color": "#8b2223"

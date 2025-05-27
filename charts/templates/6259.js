@@ -54,29 +54,13 @@
     ],
     "xAxis": { //label last tick
       tickPositioner: function () {
-        var positions = [],
-          ext = this.getExtremes(),
-          xMax = Math.round(ext.max),
-          xMin = Math.round(ext.min) + 1;
-        var xMin_even = Math.round(ext.min);
-
-        if (xMax % 2 == 1) {
-          for (var i = xMin; i < xMax; i++) {
-            if (i % 2 == 1) {
-              positions.push(i);
-            }
-          }
-          positions.push(xMax);
-          return positions;
-        } else if (xMax % 2 == 0) {
-          for (var i = xMin_even; i < xMax; i++) {
-            if (i % 2 == 0) {
-              positions.push(i);
-            }
-          }
-          positions.push(xMax);
-          return positions;
-        }
+				var maxlabels = 16,
+					ext = this.getExtremes(),
+					i = Math.round(ext.max-1),
+					interval = Math.round((i - ext.min) / maxlabels),
+					pos = [i];
+				while (i >= ext.min) pos.unshift(i = i - interval);
+				return pos;
       },
       labels: {
         rotation: -45
