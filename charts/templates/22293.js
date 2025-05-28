@@ -25,8 +25,8 @@
     }    
   },
  "series": [
-  {"color": "#FFDA80 "}, /* gelb */
-	{"color": "#A0BEC8"},/* blau  */
+  {"color": "#008AC3"}, /*  */
+	{"color": "#8AB77D"}
 	  ],
   "legend": {
     "enabled": true,

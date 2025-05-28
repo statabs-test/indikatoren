@@ -41,14 +41,15 @@ plotOptions: {
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 0
+    legendIndex: 0,
+    stack: 'group1'
   },
   {
     "color": "#E7CEE2",
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 1,
+    legendIndex: 0,
     visible:false
   },
   {
@@ -56,7 +57,7 @@ plotOptions: {
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 2,
+    legendIndex: 1,
     visible: false
   },
   {
@@ -64,7 +65,7 @@ plotOptions: {
     "index": 0,
     "type": "column",
     "pointWidth": "15",
-    legendIndex: 3,
+    legendIndex: 2,
     visible: false
   },
 {
