@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#FFDA80 ",
+      "color": "#2E1435 ",
       "data": [
         [
           "2011",
@@ -64,7 +64,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A0BEC8",
+      "color": "#9A86A6",
       "data": [
         [
           "2011",
