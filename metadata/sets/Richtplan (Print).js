@@ -13,7 +13,9 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/zukuenftige-entwicklung/kantonale-szenarien.html' target = '_blank'>Kantonale Szenarien, Bundesamt für Statistik</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -88,7 +90,9 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Energiestatistik",
 			"Klimaschutzstrategie Kanton Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.htm' target = '_blank'>Klimaschutzstrategie Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -162,7 +166,9 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -199,7 +205,10 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"<a href = 'https://data.bs.ch/explore/dataset/100357' target = '_blank'>OGD-Datensatz</a>",
+			"<a href = 'https://tiefbauamt-bs.ch/geoviewer/kronenbedeckung' target = '_blank'>Baumkronenbedeckung als Karte</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -239,7 +248,9 @@ var indikatorensetData = [
 			"Meteorologischer Verein der Region Basel",
 			"MeteoSchweiz"
 		],
-		"externalLinks": [],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -567,8 +578,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "2023 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 12,2 Mio. m<sup>3</sup>.",
-		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
+		"lesehilfe": "2024 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11 Mio. m<sup>3</sup>.",
+		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauches auf die Verbrauchergruppen wurde 2015 revidiert. Die Daten vor 2015 sind nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
 		],
@@ -604,8 +615,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2023 auf gesamthaft 20,7 Mio. m<sup>3</sup>. Davon entfielen 13,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
-		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2024 auf gesamthaft 21,1 Mio. m<sup>3</sup>. Davon entfielen 14,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
+		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauches auf die Verbrauchergruppen wurde 2015 revidiert. Die Daten vor 2015 sind nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
 		],
@@ -640,8 +651,8 @@ var indikatorensetData = [
 		"parentId": "11918",
 		"children": [],
 		"title": "Wassertemperatur Grundwasser",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,3 und 17,6 °C.",
+		"subtitle": "in C°, Basel-Stadt",
+		"lesehilfe": "2024 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,0 und 17,5 °C.",
 		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell rund 80) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5%- und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -753,7 +764,7 @@ var indikatorensetData = [
 		"title": "Bevölkerungsdichte",
 		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2024",
 		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2024 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2005 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +49,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
-		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgwertet (ohne Meldeadressen).",
+		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgewertet (ohne Meldeadressen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -789,7 +800,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 pendeln rund 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 61% von ihnen aus der Schweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
+		"lesehilfe": "Im Jahr 2023 pendeln rund 92 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 63% von ihnen aus der Schweiz. Rund 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1125,7 +1136,7 @@ var indikatorensetData = [
 		"title": "Anteil Einwohnerinnen und Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Fast zwei Drittel der Wohnbevölkerung des Kantons Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 30% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
-		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnortes einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -1200,7 +1211,7 @@ var indikatorensetData = [
 		"parentId": "5825",
 		"children": [],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2023 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
 		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
@@ -1239,7 +1250,7 @@ var indikatorensetData = [
 		"title": "Kontinentale Erreichbarkeit",
 		"subtitle": "Stadt Basel im nationalen Vergleich",
 		"lesehilfe": "Durch die starken Reiseeinschränkungen als Massnahmen zur Bekämpfung der COVID-19-Pandemie sank die Erreichbarkeit der europäischen Regionen im Jahr 2020 markant. Der Erreichbarkeitsindex 2022 (z. B. Basel: 118,4) ist höher als 2020 (106,8), aber immer noch tiefer als 2018 (133,3) und als im Jahr 2000 (126,6).",
-		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), das heisst es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit; die Reisedestinationen werden jedoch über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 kurzfristig zu beobachten, wurde die Erreichbarkeit engegen dem zweijährlichen Rhythmus ausnahmsweise auch für das Jahr 2021 berechnet.",
+		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), das heisst es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit; die Reisedestinationen werden jedoch über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet. Um die Entwicklung nach den starken Reiseeinschränkungen im Jahr 2020 kurzfristig zu beobachten, wurde die Erreichbarkeit entgegen dem zweijährlichen Rhythmus ausnahmsweise auch für das Jahr 2021 berechnet.",
 		"quellenangabe": [
 			"BAK Economics"
 		],
@@ -1258,7 +1269,7 @@ var indikatorensetData = [
 		"kennzahlenset": "Richtplan (Print)",
 		"kuerzelKunde": "ST 9-1",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 9: Bedingugen für Wirtschaft und Bildung verbessern",
+		"stufe2": "Strategie 9: Bedingungen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1522,7 +1533,7 @@ var indikatorensetData = [
 		"kennzahlenset": "Richtplan (Print)",
 		"kuerzelKunde": "ST 9-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 9: Bedingugen für Wirtschaft und Bildung verbessern",
+		"stufe2": "Strategie 9: Bedingungen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",

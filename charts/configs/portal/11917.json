@@ -141,7 +141,11 @@
         ],
         [
           2023,
-          7.44
+          8.08
+        ],
+        [
+          2024,
+          6.78
         ]
       ],
       "name": "Trinkwasserbezug öffentliches Netz"
@@ -288,6 +292,10 @@
         [
           2023,
           13.3
+        ],
+        [
+          2024,
+          14.3
         ]
       ],
       "name": "Private Grundwasserförderungen"
