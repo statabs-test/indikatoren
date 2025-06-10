@@ -13,10 +13,9 @@
         }
    },
   "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": -45 
-    } 
+    "type": "numeric",
+    min:2015,
+    tickInterval:1
   },
   "yAxis": {
     "labels": {

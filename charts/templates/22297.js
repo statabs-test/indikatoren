@@ -45,45 +45,6 @@ plotOptions: {
     stack: 'group1'
   },
   {
-    "color": "#E7CEE2",
-    "index": 0,
-    "type": "column",
-    "pointWidth": "15",
-    legendIndex: 0,
-    visible:false
-  },
-  {
-    "color": "#a8c4cb",
-    "index": 0,
-    "type": "column",
-    "pointWidth": "15",
-    legendIndex: 1,
-    visible: false
-  },
-  {
-    "color": "#fabd24",
-    "index": 0,
-    "type": "column",
-    "pointWidth": "15",
-    legendIndex: 2,
-    visible: false
-  },
-{
-    "color": "#000000",
-    "index": 1,
-    "type": "line",
-    "marker": {
-      "enabled": false
-    }, 
-
-    //"yAxis": 1,
-    legendIndex: 4,
-    tooltip: {
-      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-  },
-    visible: false
-  },
-  {
     "color": "#67401E",
     "index": 1,
     "type": "line",
@@ -96,6 +57,14 @@ plotOptions: {
     tooltip: {
       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   }
+  },
+  {
+    "color": "#E7CEE2",
+    "index": 0,
+    "type": "column",
+    "pointWidth": "15",
+    legendIndex: 0,
+    visible:true
   },
 ],  
 "tooltip": {

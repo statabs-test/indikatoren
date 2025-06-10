@@ -1,53 +1,58 @@
-(function(){
-    return {
-   title: {
-      useHTML: true
+(function () {
+  return {
+    "xAxis": {
+     "tickInterval": 1,
+     min: 2015,
+     
+      //"type": "category",
     },
-    subtitle: {
-      useHTML: true
-    },
-   plotOptions: {
-        series: {
-          pointPadding: 0,
-          borderWidth: 0,
+    "yAxis": {
+      /*labels: {
+        formatter: function(){
+          return Highcharts.numberFormat(this.value, 1);
         }
-   },
-  "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": -45 
-    } 
-  },
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.1f}"
-    }    
-  },
- "series": [
-  {"color": "#FFDA80 "}, /* gelb */
-	{"color": "#A0BEC8"},/* blau  */
-	{"color": "#68AB2B"},/* grün  */
-  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-	  itemDistance: 3,
-	  symbolPadding: 3,
-	  padding: 0,
-    "itemStyle": {
-      "fontWeight": "normal"
+      },*/
+      "labels": {
+        format: "{value:,.0f}%"
+      },
+      /*tickInterval: 20,*/
+      "min": 0,
+    },
+    "tooltip": {
+      "shared": false,
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>'
+    }, 
+    "series": [
+      {color: "black"}, //Basel
+      {color: "#67401E"}, //Bern
+      {color: "#CD9C00"}, //Genf
+      {color: "#007A2F"}, //Lausanne
+      {color: "#8A8A8A"}, //Winterthur
+      {color: "#008AC3"}, //Zürich
+      {color: "#B00000"}  //Schweiz
+    ],
+    "legend": {
+      "enabled": true,
+      //"x": 30,
+      //"y": 35,
+      //"itemWidth": 145,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "itemMarginBottom": 5,
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      }
+    },
+    "plotOptions": {
+      "line": {
+        "connectNulls": true,
+        "marker": {
+          "enabled": false,
+          "symbol": "circle",
+          "radius": 3
+        }
+      }
     }
-  },
-   tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} %</b><br/>',
-    "shared": false
-  },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingBottom": 50
-  }
-}
+  };
 }());

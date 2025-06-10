@@ -7268,7 +7268,7 @@ var indikatoren = [
 	{
 		"template": "line001",
 		"data-id": 22299,
-		"chart-id": 7586,
+		"chart-id": 22299,
 		"filter": "",
 		"parentId": "7586",
 		"children": [],

@@ -709,10 +709,10 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": -45
+      }
     },
-    "tickInterval": 1
+    "tickInterval": 1,
+    "min": 2015
   },
   "yAxis": {
     "min": 0,
