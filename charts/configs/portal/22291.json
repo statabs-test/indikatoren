@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#FF8028 ",
+      "visible": false,
       "data": [
         [
           "2014",
@@ -44,7 +45,7 @@
           2733
         ]
       ],
-      "name": "Anzahl von Umbau und nicht von Leerkündigung betroffener Wohnungen",
+      "name": "Anzahl Wohnungsumbauten ohne Leerkündigung",
       "turboThreshold": 0
     },
     {
@@ -91,7 +92,7 @@
           103
         ]
       ],
-      "name": "Anzahl von Umbau und Leerkündigung betroffener Wohnungen",
+      "name": "Anzahl Leerkündigungen (Wohnungen) aufgrund Umbau",
       "turboThreshold": 0
     },
     {
@@ -138,7 +139,7 @@
           19
         ]
       ],
-      "name": "Anzahl von Abbruch betroffener Wohnungen",
+      "name": "Anzahl Leerkündigungen (Wohnungen) aufgrund Abbruch",
       "turboThreshold": 0
     }
   ],

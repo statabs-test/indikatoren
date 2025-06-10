@@ -479,7 +479,7 @@
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 85,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -523,10 +523,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Mietpreisindex"
+    "text": "Schweizer Mietpreisindizes im Vergleich"
   },
   "subtitle": {
-    "text": "Vergleich von Basel-Stadt mit anderen Schweizer Städten",
+    "text": "Basis Mai 2000 = 100",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -579,9 +579,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -55
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung;\u003Cbr\u002F\u003EStatistik Stadt Zürich, Mietpreisindex;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Mietpreisindex;\u003Cbr\u002F\u003EOffice cantonal de la statistique Genève, Loyers.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -60,7 +60,7 @@
           35
         ]
       ],
-      "name": "Betroffene Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
+      "name": "Unter Gesetzgebung fallende Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
       "turboThreshold": 0
     },
     {
@@ -123,7 +123,7 @@
           33
         ]
       ],
-      "name": "Nicht betroffene Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
+      "name": "Andere Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
       "turboThreshold": 0
     }
   ],
@@ -202,7 +202,7 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Anzahl baubewilligungspflichtige Sanierungen"
+    "text": "Anzahl Baugesuche für Sanierungen, Umbau oder Renovation"
   },
   "subtitle": {
     "text": "Anzahl Bauprojekte nach Baueingabe",

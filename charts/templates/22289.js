@@ -77,7 +77,7 @@
     },
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m²</b><br/>',
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} CHF/m²</b><br/>',
     "shared": false
   },
   "chart": {      

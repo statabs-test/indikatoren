@@ -344,7 +344,7 @@
     "text": "Mietpreise nach Quartil"
   },
   "subtitle": {
-    "text": "Nettomietpreise in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt, 2015 - 2023",
+    "text": "Nettomietpreise in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Kanton Basel-Stadt, 2015 - 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -422,7 +422,7 @@
     "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} CHF\u002Fm²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

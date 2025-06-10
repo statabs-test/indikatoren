@@ -24,7 +24,9 @@
     }    
   },
  "series": [
-  {"color": "#FF8028 "},
+  {"color": "#FF8028 ",
+    visible: false
+  },
 	{"color": "#B375AB"},
 	{"color": "#67401E"},
   ],

@@ -244,10 +244,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Bestandes- und Einzugsmieten"
+    "text": "Mietpreise nach Dauer des Mietverhältnisses"
   },
   "subtitle": {
-    "text": "Nettomietpreise in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Basel-Stadt, 2020 - 2023",
+    "text": "Nettomietpreise in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E Wohnfläche, Kanton Basel-Stadt, 2020 - 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
