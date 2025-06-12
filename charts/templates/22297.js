@@ -9,7 +9,7 @@ plotOptions: {
       }
 },
 "yAxis": {
-  "min": -200,
+  "min": 0,
   tickInterval: 250,
   "labels": {
     "format": "{value:,.0f}",

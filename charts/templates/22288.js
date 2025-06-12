@@ -48,8 +48,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-	  itemDistance: 3,
-	  symbolPadding: 3,
+	  itemDistance: 5,
+	  symbolPadding: 5,
 	  padding: 0,
     "itemStyle": {
       "fontWeight": "normal"

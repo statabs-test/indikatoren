@@ -58,7 +58,7 @@
     },
     
     labels: {
-      format: "{value:,.0f} CHF",
+      format: "{value:,.0f}",
       style: {
         color: "black",
       },
@@ -95,7 +95,7 @@
     color: "#FFDA80",
     "tooltip": {
       "pointFormatter": function () {
-        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' CHF/m²</b>';
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Fr./m²</b>';
       }
     }
   },
@@ -104,7 +104,7 @@
     "type": "errorbar",
     "tooltip": {
       "pointFormatter": function () {
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' CHF/m²</b>)';
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Fr./m²</b>)';
       },
     }
   },
@@ -113,7 +113,7 @@
     color: "#A0BEC8",
     "tooltip": {
       "pointFormatter": function () {
-        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' CHF/m²</b>';
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Fr./m²</b>';
       }
     }
 
@@ -123,7 +123,7 @@
     "type": "errorbar",
     "tooltip": {
       "pointFormatter": function () {
-        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' CHF/m²</b>)';
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Fr./m²</b>)';
       }
     }
   }, 
@@ -131,9 +131,10 @@
     "index": 4,
     color: "black",
     "type": "line",
+    "name": "Preisdifferenz in % (rechte Skala)",
     "tooltip": {
       "pointFormatter": function () {
-        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ' (rechte Skala) : <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
       }
     },
     marker: {
