@@ -131,8 +131,7 @@
     "index": 4,
     color: "black",
     "type": "line",
-    "name": "Preisdifferenz in % (rechte Skala)",
-    "tooltip": {
+     "tooltip": {
       "pointFormatter": function () {
         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ' (rechte Skala) : <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
       }
