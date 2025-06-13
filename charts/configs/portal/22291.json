@@ -45,7 +45,7 @@
           2733
         ]
       ],
-      "name": "Anzahl Wohnungsumbauten ohne Leerkündigung",
+      "name": "Anzahl von Umbau betroffene Wohnungen",
       "turboThreshold": 0
     },
     {
@@ -221,7 +221,7 @@
     "text": "Leerkündigungen"
   },
   "subtitle": {
-    "text": "Anzahl von Umbau oder Abbruch betroffener Wohnungen",
+    "text": "Anzahl von Umbau oder Abbruch betroffener Wohnungen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

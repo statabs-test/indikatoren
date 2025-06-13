@@ -4330,7 +4330,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Schweizer Mietpreisindizes im Vergleich",
-		"subtitle": "Basis Mai 2000 = 100",
+		"subtitle": "indexiert (Basis Mai 2000 = 100)",
 		"lesehilfe": "Der Mietpreisindex von Basel-Stadt liegt bei 139 Punkten, die Nettomieten sind damit von Mai 2000 bis Mai 2025 um 39 Prozent gestiegen.",
 		"erlaeuterungen": "Indexstand im Mai des jeweiligen Jahres, Referenzzeitpunkt ist Mai des Jahres 2000. Die Indizes unterscheiden sich methodisch, bezüglich Stichprobengrösse und Erhebungsvorgehen. Die unterschiedlichen zeitlichen Entwicklungen sind daher mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
@@ -4371,9 +4371,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mietpreise nach Quartil",
-		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Kanton Basel-Stadt, 2015 - 2023",
-		"lesehilfe": "Der Median der Preise von Mietwohnungen lag 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil der Mieten lag bei 16,3 Franken pro m<sup>2</sup>, das bedeutet ein Viertel aller Mieten pro m<sup>2</sup> war günstiger als dieser Wert. Das dritte Quartil bei 23,4 Franken pro m<sup>2</sup>. Alle drei Quartilsmieten sind kontinuierlich gestiegen.",
-		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Quartile sind die drei Werte einer Häufigkeitsverteilung (hier Nettomietpreise pro m<sup>2</sup>), die diese in vier gleich große Bereiche teilen: 25% aller Fälle liegen im Bereich bis zum 1. Quartil der Verteilung. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
+		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2015 - 2023",
+		"lesehilfe": "Der Median der Preise von Mietwohnungen lag 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil der Mieten lag bei 16,3 Franken pro m<sup>2</sup>; das bedeutet ein Viertel aller Mieten pro m<sup>2</sup> war günstiger als dieser Wert. Das dritte Quartil stand bei bei 23,4 Franken pro m<sup>2</sup>. Alle drei Quartilsmieten sind kontinuierlich gestiegen.",
+		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Quartile sind die drei Werte einer Häufigkeitsverteilung (hier Nettomietpreise pro m<sup>2</sup>), die diese in vier gleich große Bereiche teilen: 25% aller Fälle liegen im Bereich bis zum 1. Quartil der Verteilung. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -4409,8 +4409,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mietpreise nach Dauer des Mietverhältnisses",
-		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Kanton Basel-Stadt, 2020 - 2023",
-		"lesehilfe": "Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnisse lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>. Die Mieten von neueren Mietverhältnissen lagen somit 15,7% über denjenigen von älteren Mietverhältnissen.",
+		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2020 - 2023",
+		"lesehilfe": "Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnissen lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>. Die Mieten von neueren Mietverhältnissen lagen somit 15,7% über denjenigen von älteren Mietverhältnissen.",
 		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Als Einzugsmieten gelten die in den letzten zwei Jahren abgeschlossenen Mietverträge. Bestandesmieten gelten für Mietverhältnisse, die bereits länger als zwei Jahre dauern. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -4447,7 +4447,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Leerkündigungen",
-		"subtitle": "Anzahl von Umbau oder Abbruch betroffener Wohnungen",
+		"subtitle": "Anzahl von Umbau oder Abbruch betroffener Wohnungen, Basel-Stadt",
 		"lesehilfe": "Die Anzahl leergekündigter Wohnungen aufgrund von Umbau lag in den Jahren 2022 (276 Wohnungen) und 2023 (103 Wohnungen) deutlich tiefer als in den Vorjahren.",
 		"erlaeuterungen": "Gemäss Bautätigkeit des Gebäude- und Wohnungsregisters sowie Belegungsangaben aus dem Einwohnerregister. Ein Gebäude muss beim Umbau seit mindestens 15 Jahren bestehen, mindestens über vier Wohnungen verfügen zwei Jahre vor Baubeginn und 90% Neumieter aufweisen ein Jahr nach Bauvollendung des Umbaus, um als betroffen berücksichtigt zu werden. Ein Abbruch hat stets den Auszug der kompletten Mieterschaft zur Folge. Die hier verwendeten Registerangaben geben keinen Aufschluss darüber, welche Partei das Mietverhältnis beendet hat und aus welchem Grund. Auch wird nicht berücksichtig, ob das Mietverhältnis befristet oder unbefristet war.",
 		"quellenangabe": [
@@ -4486,8 +4486,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Baugesuche für Sanierungen, Umbau oder Renovation",
-		"subtitle": "Anzahl Bauprojekte nach Baueingabe",
-		"lesehilfe": "Im 2021 und im 1. Halbjahr 2022 (2022-H1)  ist ein deutlicher Anstieg unter den Projekten, die unter die Bedingungen der Wohnschutzgesetzgebung erfüllt hätten, sichtbar. Seit der zweiten Jahreshälfte 2022 ist ein Einbruch festzustellen. Dieser betrifft Umbauprojekte generell, wie auch die durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig.",
+		"subtitle": "Anzahl Bauprojekte nach Baueingabe, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 und im 1. Halbjahr 2022 (2022-H1) ist ein deutlicher Anstieg bei den Projekten, welche die Bedingungen der Wohnschutzgesetzgebung erfüllt hätten, sichtbar. Seit der zweiten Jahreshälfte 2022 ist ein Einbruch festzustellen. Dieser betrifft sowohl Umbauprojekte generell, als auch die durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig.",
 		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -4523,9 +4523,9 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Sanierungsvolumen in Mio. Franken",
-		"subtitle": "Projektgesamtkosten nach Baueingabe",
-		"lesehilfe": "Die gemäss eingereichtem Umbauprojekt angegebenen Projektgesamtkosten sind insbesondere ab 2021 deutlich angestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. Die Projektgesamtkosten nicht von der geänderter Gesetzgebung betroffener Umbauprojekte blieben in diesem Zeitraum stabil.",
+		"title": "Sanierungsvolumen in Franken",
+		"subtitle": "Projektgesamtkosten nach Baueingabe, Basel-Stadt",
+		"lesehilfe": "Die gemäss eingereichtem Umbauprojekt angegebenen Projektgesamtkosten sind insbesondere seit 2021 deutlich gestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. Die Projektgesamtkosten der nicht von der geänderten Gesetzgebung betroffenen Umbauprojekte blieben in diesem Zeitraum stabil.",
 		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -4535,7 +4535,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Sanierungsvolumen in Mio. Franken",
+		"description": "Sanierungsvolumen in Franken",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "",
 		"kuerzel": "",
@@ -4562,9 +4562,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Fördervolumen Gebäudeprogramm",
-		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung in CHF",
-		"lesehilfe": "Die jährlich ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich seit 2017 von gut CHF 0,9 Mio. auf knapp CHF 3,4 Mio. erhöht. Insbesondere bei Mehrfamilienhäuser ist ein starker Anstieg zu verzeichnen ist, während sich die Entwicklung bei den Einfamilienhäusern auf stabilem Niveau verhält.",
-		"erlaeuterungen": "Gemäss Gebäudeprogramm ausbezahlte Förderbeiträge nach Kanton und Gebäudekategorie.",
+		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung in Franken, Basel-Stadt",
+		"lesehilfe": "Die jährlich ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich seit 2017 von gut 0,9 Mio. Franken auf knapp 3,4 Mio. Franken erhöht. Insbesondere bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
+		"erlaeuterungen": "Gemäss Gebäudeprogramm ausbezahlte Förderbeiträge nach Gebäudekategorie. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
 		"quellenangabe": [
 			"Gebäudeprogramm"
 		],
@@ -4639,8 +4639,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Wohnungsneubau",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl der neugebauten Wohnungen lag 2024 bei 151 Einheiten und damit deutlich unter dem Wert der Vorjahre. Dies lag mitunter daran, dass sehr wenige neue Wohnungen aus Arealentwicklungen verzeichnet werden  konnten.",
-		"erlaeuterungen": "Als Arealentwicklungen werden Areale bezeichnet, auf denen vorher keine oder nur eine sehr kleine Wohnutzung (bspw. vereinzelte Dienstwohnungen) bestand. Zu den grössten Arealentwicklungen der letzten Jahre gehören beispielsweise Projekte auf den Arealen Erlenmatt, Westfeld und Lysbüchel sowie das Meret Oppenheim Hochhaus.",
+		"lesehilfe": "Die Anzahl der neugebauten Wohnungen lag 2024 bei 151 Einheiten und damit deutlich unter dem Wert der Vorjahre. Insbesondere resultierten aus Arealentwicklungen nur sehr wenige neue Wohnungen.",
+		"erlaeuterungen": "Als Arealentwicklungen werden Areale bezeichnet, auf denen vorher keine oder kaum Wohnnutzung bestand. Zu den grössten Arealentwicklungen der letzten Jahre gehören beispielsweise Projekte auf den Arealen Erlenmatt, Westfeld und Lysbüchel sowie das Meret Oppenheim Hochhaus.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4676,9 +4676,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Baubewilligte Wohnungen und Gebäude",
-		"subtitle": "Anzahl bewilligte Gebäude und Wohnungen",
-		"lesehilfe": "Von 2021 bis 2023 wurde eine geringe Anzahl Wohnungen bewilligt. 2024 nahm sie wieder zu und lässt ab 2026 eine höhere Wohnbauproduktion erwarten.",
-		"erlaeuterungen": "Es werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten gezählt. Umbauprojekte mit Wohnungszuwachs werden demzufolge nicht berücksichtigt.",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Von 2021 bis 2023 wurde eine geringe Anzahl Wohnungen bewilligt. 2024 nahmen die Bewilligungen wieder zu. Dies lässt ab 2026 eine höhere Wohnbauproduktion erwarten.",
+		"erlaeuterungen": "Gezählt werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten nach Jahr der Baubewilligung. Umbauprojekte mit Wohnungszuwachs werden demzufolge nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4714,9 +4714,9 @@ var indikatoren = [
 		"parentId": "12722",
 		"children": [],
 		"title": "Bodenpreisindex",
-		"subtitle": "Basel-Stadt, Basis 2014 = 100",
+		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
 		"lesehilfe": "Der Index für Einfamilienhaus-Grundstücke erreichte im Jahr 2023 den Stand von 168 Punkten, was einem prozentualen Anstieg von 68% gegenüber dem Basisjahr 2014 entspricht. Bei den Mehrfamilienhaus-Grundstücken lag er bei 218 Punkten.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Das methodische Vorgehen ist im <a href='https://statistik.bs.ch/files/berichte-analysen/Methodenbericht-Bodenpreisindex.pdf' target='_blank'>Methodenbericht</a> beschrieben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -4753,9 +4753,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Gesuche Wohnschutzkommission (WSK)",
-		"subtitle": "Basel-Stadt, 2022 - 2024",
-		"lesehilfe": "2024 gab es 124 Prüfungs- und Bewilligungsverfahren für Umbauten, Renovationen- und Sanierungen. 18 Gesuche wurden für die Begründung von Stockwerkeigentum eingereicht und 3 Gesuche für die Festlegung von maximalen Nettomietzinsen bei Abbruch und Ersatzneubau.",
-		"erlaeuterungen": "Es werden die jährlich neu eintreffenden Gesuche ausgewiesen.",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2024 gab es 124 Prüfungs- und Bewilligungsverfahren für Umbauten, Renovationen und Sanierungen. 18 Gesuche wurden für die Begründung von Stockwerkeigentum eingereicht und 3 Gesuche für die Festlegung von maximalen Nettomietzinsen bei Abbruch und Ersatzneubau.",
+		"erlaeuterungen": "Ausgewiesen werden die jährlich neu eintreffenden Gesuche.",
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],

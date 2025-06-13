@@ -32,7 +32,7 @@
           708140
         ]
       ],
-      "name": "Einfamilienhaus",
+      "name": "Einfamilienhäuser",
       "turboThreshold": 0
     },
     {
@@ -67,7 +67,7 @@
           2683990
         ]
       ],
-      "name": "Mehrfamilienhaus",
+      "name": "Mehrfamilienhäuser",
       "turboThreshold": 0
     }
   ],
@@ -149,7 +149,7 @@
     "text": "Fördervolumen Gebäudeprogramm"
   },
   "subtitle": {
-    "text": "Auszahlungen pro Jahr für Wärmedämmung in CHF",
+    "text": "Auszahlungen pro Jahr für Wärmedämmung in Franken, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

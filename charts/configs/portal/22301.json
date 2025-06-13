@@ -18,7 +18,7 @@
           73
         ]
       ],
-      "name": "einfaches Prüfungsverfahren"
+      "name": "Einfaches Prüfungsverfahren"
     },
     {
       "stack": 1,
@@ -38,7 +38,7 @@
           41
         ]
       ],
-      "name": "vereinfachtes Bewilligungsverfahren"
+      "name": "Vereinfachtes Bewilligungsverfahren"
     },
     {
       "stack": 1,
@@ -58,7 +58,7 @@
           10
         ]
       ],
-      "name": "umfassendes Bewilligungsverfahren"
+      "name": "Umfassendes Bewilligungsverfahren"
     },
     {
       "stack": 2,
@@ -162,7 +162,7 @@
     "text": "Anzahl Gesuche Wohnschutzkommission (WSK)"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2022 - 2024",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

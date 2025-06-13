@@ -60,7 +60,7 @@
           15
         ]
       ],
-      "name": "bewilligte Gebäude",
+      "name": "Bewilligte Gebäude",
       "turboThreshold": 0
     },
     {
@@ -123,7 +123,7 @@
           442
         ]
       ],
-      "name": "bewilligte Wohnungen",
+      "name": "Bewilligte Wohnungen",
       "turboThreshold": 0
     }
   ],
@@ -205,7 +205,7 @@
     "text": "Baubewilligte Wohnungen und Gebäude"
   },
   "subtitle": {
-    "text": "Anzahl bewilligte Gebäude und Wohnungen",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

@@ -108,7 +108,7 @@
           139.0264837
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "Kanton Basel-Stadt",
       "turboThreshold": 0
     },
     {
@@ -526,7 +526,7 @@
     "text": "Schweizer Mietpreisindizes im Vergleich"
   },
   "subtitle": {
-    "text": "Basis Mai 2000 = 100",
+    "text": "indexiert (Basis Mai 2000 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -564,8 +564,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 3,
-    "symbolPadding": 3,
+    "itemDistance": 5,
+    "symbolPadding": 5,
     "padding": 0
   },
   "credits": {

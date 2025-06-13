@@ -45,6 +45,14 @@ plotOptions: {
     stack: 'group1'
   },
   {
+    "color": "#E7CEE2",
+    "index": 0,
+    "type": "column",
+    "pointWidth": "15",
+    legendIndex: 0,
+    visible:true
+  },
+  {
     "color": "#67401E",
     "index": 1,
     "type": "line",
@@ -57,14 +65,6 @@ plotOptions: {
     tooltip: {
       "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   }
-  },
-  {
-    "color": "#E7CEE2",
-    "index": 0,
-    "type": "column",
-    "pointWidth": "15",
-    legendIndex: 0,
-    visible:true
   },
 ],  
 "tooltip": {
