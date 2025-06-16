@@ -1,13 +1,10 @@
 (function(){
   return {
 plotOptions: {
-      series: {
-        "stacking": "normal",
-          pointPadding: 0,
-          groupPadding: 0.5, // exaclty overlaps columns
-          borderWidth: 0
+  "series": {
+        "stacking": "normal"
       }
-},
+  },
 "yAxis": {
   "min": 0,
   tickInterval: 250,
@@ -50,6 +47,7 @@ plotOptions: {
     "type": "column",
     "pointWidth": "15",
     legendIndex: 0,
+    stack: 'group1',
     visible:true
   },
   {
