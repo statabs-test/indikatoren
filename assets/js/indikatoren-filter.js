@@ -171,6 +171,11 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     callbacks: {
       afterFilter: afterFilter,
       shortResult: sortResult,
+      onFilterSelect: (records) => {
+        console.log("befrorender");
+        console.log(records);
+        if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+      },
     },
     pagination: {
       container: "#pagination",
@@ -263,7 +268,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
 
   //add event listener to render chart on modal show
   $("#lightbox").on("show.bs.modal", function (e) {
-    console.log('lightbox');
+    console.log("lightbox");
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
     lazyRenderChartById(targetId, undefined, view);
     var targetItem = $("#container-" + targetId).parent();
@@ -863,6 +868,7 @@ var afterFilter = function (result, jQ) {
     : $("#pagination").removeClass("invisible");
 
   createCarousel(result);
+  if (window.attachLightboxTriggers) window.attachLightboxTriggers();
 
   //add Counts in brackets after each option
   //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
@@ -989,6 +995,10 @@ var afterFilter = function (result, jQ) {
         $(".carousel").modal("hide");
       }
     });
+  }
+
+  if (window.attachLightboxTriggers) {
+    window.attachLightboxTriggers();
   }
 }; //afterFilter
 
