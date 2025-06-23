@@ -171,11 +171,6 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     callbacks: {
       afterFilter: afterFilter,
       shortResult: sortResult,
-      onFilterSelect: (records) => {
-        console.log("befrorender");
-        console.log(records);
-        if (window.attachLightboxTriggers) window.attachLightboxTriggers();
-      },
     },
     pagination: {
       container: "#pagination",
@@ -241,6 +236,13 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
       ele: "#darstellungsart_filter",
       all: "all",
     });
+
+    const builtin = FJS.paginator.onPagination.bind(FJS.paginator);
+    FJS.paginator.onPagination = function (currentPage, perPage) {
+      builtin(currentPage, perPage);
+      console.log("Page changed to", currentPage);
+      if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+    };
 
     //reset all filter criteria
     $("#portal-reset-button").click(function () {
