@@ -6895,6 +6895,85 @@
 		"id": 22291
 	},
 	{
+		"template": "template001",
+		"data-id": 22343,
+		"chart-id": 22343,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ammoniak-Emissionen",
+		"subtitle": "in Tonnen",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt die jährlichen Emissionen an Ammoniak (NH<sub>3</sub>). Ammoniak ist eine gasförmige Verbindung des Stickstoffs und entsteht hauptsächlich bei der Nutztierhaltung in der Landwirtschaft und beim Lagern und Ausbringen von Hofdünger. Freigesetztes Ammoniak breitet sich in der Luft aus, reagiert mit anderen Luftschadstoffen und ist an der Bildung von sekundärem Feinstaub beteiligt.<br><br>Die Emissionen sind das Produkt aus der Jahresleistung der Aktivitäten in den Bereichen Industrie, Verkehr und Feuerungen und den jeweiligen schadstoffspezifischen Emissionsfaktoren. Die Daten werden mittels Erhebungen, Modellierungen und Berechnungen ermittelt.",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'Ammoniak-Emissionen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-luft/luft--daten--indikatoren-und-karten/luft--indikatoren/indikator-luft.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFUwMDkmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://www.ba</a>",
+			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>BAFU: Ammoniak (NH<sub>3</sub>)' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/ammoniak target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/ammoniak</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1114' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [],
+		"description": "Ammoniak-Emissionen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "02 Luft",
+		"kuerzel": "",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "1114",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2025-06-25T09:10:18",
+		"id": 22343
+	},
+	{
+		"template": "template001",
+		"data-id": 22344,
+		"chart-id": 22344,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Feinstaub-Emissionen (PM2.5)",
+		"subtitle": "in Tonnen",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "Der Indikator zeigt die jährlichen Emissionen an Feinstaub (PM2.5). Feinstaub PM2.5 ist wie PM10 ein Gemisch aus primär emittierten Partikeln und sekundär gebildeten Staubteilchen. Zum PM2.5 tragen aber nur jene Staubteilchen bei, deren Durchmesser kleiner ist als 2.5 µm. Bei der Erhebung der PM2.5-Emissionen werden nur die primären Partikel berücksichtigt, welche direkt aus einer Quelle ausgestossen werden.<br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Emissionen (PM10)\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1103\" target=\"_parent\">Feinstaub-Emissionen (PM10)</a>.<br><br>Die Emissionen sind das Produkt aus der Jahresleistung der Aktivitäten in den Bereichen Industrie, Verkehr und Feuerungen und den jeweiligen schadstoffspezifischen Emissionsfaktoren. Die Daten werden mittels Erhebungen, Modellierungen und Berechnungen ermittelt.",
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"externalLinks": [
+			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>BAFU: Feinstaub' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanu</a>",
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1113' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [],
+		"description": "Feinstaub-Emissionen (PM2.5)",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "02 Luft",
+		"kuerzel": "",
+		"kennzahlenset": "Umwelt",
+		"kuerzelKunde": "1113",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": true,
+		"aktualisierungsdatum": "2025-06-25T09:10:18",
+		"id": 22344
+	},
+	{
 		"template": "line001",
 		"data-id": 2400,
 		"chart-id": 2400,
@@ -9264,7 +9343,7 @@
 		"title": "Energiepreise Schweiz",
 		"subtitle": "in Indexwert (Basis Dezember 2020 = 100)",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Preisentwicklung (indexiert) der Heizenergie für die Energieträger Gas, Heizöl, Brennholz und Fernwärme.<br><br>Die Jahreswerte entsprechen jeweils dem Mittelwert aller monatlichen Indizes eines Jahres. Basis des Index bildet der Monat Dezember 2020 (=100). Die Daten zur Preisentwicklung der verschiedenen Energieträger stammen aus dem Landesindex der Konsumentenpreise (LIK). Die hier verwendeten Zahlen beziehen sich auf die gesamte Schweiz.<br>Der LIK misst die Preisentwicklung der für die privaten Haushalte bedeutsamen Waren und Dienstleistungen. Er gibt an, in welchem Umfang die Konsumentinnen und Konsumenten bei Preisveränderungen die Ausgaben erhöhen oder senken müssen, um das Verbrauchsvolumen konstant halten zu können.",
+		"erlaeuterungen": "Preisentwicklung (indexiert) der Heizenergie für die Energieträger Elektrizität, Gas, Heizöl, Brennholz und Fernwärme.<br><br>Die Jahreswerte entsprechen jeweils dem Mittelwert aller monatlichen Indizes eines Jahres. Basis des Index bildet der Monat Dezember 2020 (=100). Die Daten zur Preisentwicklung der verschiedenen Energieträger stammen aus dem Landesindex der Konsumentenpreise (LIK). Die hier verwendeten Zahlen beziehen sich auf die gesamte Schweiz.<br>Der LIK misst die Preisentwicklung der für die privaten Haushalte bedeutsamen Waren und Dienstleistungen. Er gibt an, in welchem Umfang die Konsumentinnen und Konsumenten bei Preisveränderungen die Ausgaben erhöhen oder senken müssen, um das Verbrauchsvolumen konstant halten zu können.",
 		"quellenangabe": [
 			"Bundesamt für Statistik, Landesindex der Konsumentenpreise"
 		],
@@ -9552,7 +9631,7 @@
 		"title": "Energieeffizienz",
 		"subtitle": "in Indexwert (Basis 2000 = 100)",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das <a title=\"Bruttoinlandprodukt\" href=\"https://www.bs.ch/indikatoren-06-1701\" target=\"_parent\">Bruttoinlandprodukt</a> (BIP) sowie die <a title=\"Bevölkerung\" href=\"https://www.bs.ch/indikatoren-06-1702\" target=\"_parent\">Bevölkerung</a> (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
+		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.<br><br>Skalierung des Bruttoenergieverbrauchs über das <a title=\"Bruttoinlandprodukt\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1701\" target=\"_parent\">Bruttoinlandprodukt</a> (BIP) sowie die <a title=\"Bevölkerung\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1702\" target=\"_parent\">Bevölkerung</a> (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
 		],
@@ -9639,7 +9718,7 @@
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Gewässerschutzverordnung, Anhang 3.1' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4 target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4</a></a>",
+			"<a href = 'Gewässerschutzverordnung, Anhang 3.1' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/1998/2863_2863_2863/de#app4 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1998/2863_2863_2863/de#app4</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -9681,7 +9760,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Nitrat im Grundwasser' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MwNDgmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Gewässerschutzverordnung (GSchV, SR 814.201)' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19983281/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19983281/index.html</a></a>",
+			"<a href = 'Gewässerschutzverordnung (GSchV, SR 814.201)' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/1998/2863_2863_2863/de target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1998/2863_2863_2863/de</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1602' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -9802,7 +9881,7 @@
 			"ProRheno AG"
 		],
 		"externalLinks": [
-			"<a href = 'Gewässerschutzverordnung, Anhang 3.1' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4 target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4</a></a>",
+			"<a href = 'Gewässerschutzverordnung, Anhang 3.1' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/1998/2863_2863_2863/de#app4 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1998/2863_2863_2863/de#app4</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1607' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -9843,7 +9922,7 @@
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Hydrologisches Jahrbuch BS<br>Datenportal BS' target = '_blank'><a href=https://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html target=_blank rel=nofollow>https://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html</a><br><a href=https://data.bs.ch/explore/?sort=modified&q=aue_grundwasser target=_blank rel=nofollow>https://data.bs.ch/explore/?sort=modified&q=aue_grundwasser</a></a>",
+			"<a href = 'Hydrologisches Jahrbuch BS<br>Datenportal BS' target = '_blank'><a href=https://www.bs.ch/wsu/aue/umweltdaten target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/umweltdaten</a><br><a href=https://data.bs.ch/explore/?sort=modified&q=aue_grundwasser target=_blank rel=nofollow>https://data.bs.ch/explore/?sort=modified&q=aue_grundwasser</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -9922,7 +10001,7 @@
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Temperatur von Fliessgewässern' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MxMDUmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin</a>",
+			"<a href = 'Temperatur von Fliessgewässern' target = '_blank'><a href=https://www.hydrodaten.admin.ch/de/seen-und-fluesse/stationen-und-daten/2613 target=_blank rel=nofollow>https://www.hydrodaten.admin.ch/de/seen-und-fluesse/stationen-und-daten/2613</a></a>",
 			"<a href = 'BAFU Messstation Rhein, Palmrainbrücke (ID: 2613)' target = '_blank'><a href=https://www.hydrodaten.admin.ch/de/2613.html target=_blank rel=nofollow>https://www.hydrodaten.admin.ch/de/2613.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1609' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -10007,7 +10086,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Biologischer Zustand der Fliessgewässer' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MxMDcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Modul-Stufen-Konzept' target = '_blank'><a href=http://www.modul-stufen-konzept.ch/fg/index target=_blank rel=nofollow>http://www.modul-stufen-konzept.ch/fg/index</a></a>",
+			"<a href = 'Modul-Stufen-Konzept' target = '_blank'><a href=https://modul-stufen-konzept.ch/ target=_blank rel=nofollow>https://modul-stufen-konzept.ch/</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1613' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10041,7 +10120,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Organische Spurenstoffe in Gewässern",
-		"subtitle": "in Anzahl Grenzwertüberschreitungen",
+		"subtitle": "in Anzahl Überschreitungen der Melde- und Nachforschungsschwelle von 0.1 mikrog/L",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Die organischen Spurenstoffe umfassen eine grosse Anzahl an chemischen Stoffen, die unter anderem aus Medikamenten, Haushaltschemikalien, Industriechemikalien oder Pflanzenschutzmitteln stammen. <br><br>Der Indikator zeigt die Anzahl Messungen pro Jahr in der Rheinüberwachungsstation welche die Spurenstoffen-Konzentration von 0,1 µg/L überschreiten. Werden Spurenstoff-Konzentrationen von über 0,1 µg/L überschritten, so werden Abklärungen zur Feststellung der Ursache der Belastung vorgenommen und Massnahmen zur Reduktion oder Beseitigung der Stoffe aus dem Rhein getroffen.<br><br>Die Rheinüberwachungsstation (RÜS) misst täglich eine grosse Anzahl von Spurenstoffen im Rhein. Werden bei Pflanzenschutzmitteln, Medikamenten oder anderen organischen Chemikalien Konzentrationen von über 0,1 µg/L festgestellt, werden Abklärungen zur Feststellung der Ursache der Belastung vorgenommen und Massnahmen zur Reduktion oder Beseitigung der Stoffe aus dem Rhein getroffen.",
 		"quellenangabe": [
@@ -10088,7 +10167,7 @@
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'AUE BS, Lebensraum Oberflächengewässer' target = '_blank'><a href=https://www.aue.bs.ch/wasser/oberflaechengewaesser/lebensraum.html target=_blank rel=nofollow>https://www.aue.bs.ch/wasser/oberflaechengewaesser/lebensraum.html</a></a>",
+			"<a href = 'AUE BS, Lebensraum Oberflächengewässer' target = '_blank'><a href=https://www.bs.ch/wsu/aue/abteilung-gewaesser-und-boden/lebensraeume-und-artenvielfalt target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/abteilung-gewaesser-und-boden/lebensraeume-und-artenvielfalt</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1616' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10129,7 +10208,7 @@
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19910033/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19910033/index.html</a></a>",
+			"<a href = 'Verordnung über den Schutz vor Störfällen (Störfallverordnung, StFV)' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/1991/748_748_748/de target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1991/748_748_748/de</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-14-1401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10674,7 +10753,7 @@
 			"Kantonales Laboratorium Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Jahresberichte Kantonales Laboratorium Basel-Stadt' target = '_blank'><a href=https://www.kantonslabor.bs.ch/berichte/jahresberichte.html target=_blank rel=nofollow>https://www.kantonslabor.bs.ch/berichte/jahresberichte.html</a></a>",
+			"<a href = 'Jahresberichte Kantonales Laboratorium Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/gd/kantonslabor/berichte-und-publikationen/jahresberichte-des-kantonalen-laboratoriums-basel-stadt target=_blank rel=nofollow>https://www.bs.ch/gd/kantonslabor/berichte-und-publikationen/jahresberichte-des-kantonalen-laboratoriums-basel-stadt</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0403' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10716,7 +10795,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Hochsicherheitslaboratorien in Biotechnologiebetrieben' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-biotechnologie/biotechnologie--daten--indikatoren-und-karten/biotechnologie--indikatoren/indikator-biotechnologie.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QlQwMTEmbG5nPWRl.html target=_blank rel=</a>",
-			"<a href = 'Gefahrenkataster BS (Kataster der Störfallverordnung)' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612970&map_y=1267896&map_zoom=3&tree_groups=Risikokataster%20 target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612970&map_y=1267896&map_zoom=3&tree_groups=Risikokataster%20</a>(Kataster%20der%20St%C3%B6rfallverordnung)&tree_group_layers_Risikokataster%20(Kataster%20der%20St%C3%B6rfallverordnung)=GE_BiologischeGefahrenKlasse2_B2Text%2CGE_BiologischeGefahrenKlasse2_Bi</a>",
+			"<a href = 'Gefahrenkataster BS (Kataster der Störfallverordnung)' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612950&map_y=1267191&map_zoom=2&tree_group_layers_Risikokataster%20 target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612950&map_y=1267191&map_zoom=2&tree_group_layers_Risikokataster%20</a>(Kataster%20der%20St%C3%B6rfallverordnung)=GE_BiologischeGefahrenKlasse2_B2Text%2CGE_BiologischeGefahrenKlasse2_BiologischeGefahrKl2%2CGE_BiologischeGefahrenKlasse3_B3Text%2CGE_Bio</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0401' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10799,7 +10878,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Tätigkeiten in geschlossenen Systemen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-biotechnologie/biotechnologie--daten--indikatoren-und-karten/biotechnologie--indikatoren/indikator-biotechnologie.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QlQwMTImbG5nPWRl.html target=_blank rel=</a>",
-			"<a href = 'Einschliessungsverordnung (ESV)' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/20100803/201506010000/814.912.pdf</a></a>",
+			"<a href = 'Einschliessungsverordnung (ESV)' target = '_blank'><a href=https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/329/20240901/de/pdf-a/fedlex-data-admin-ch-eli-cc-2012-329-20240901-de-pdf-a-1.pdf target=_blank rel=nofollow>https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/329/20240901/de/pdf-a/fedlex-data-admin-ch-eli-cc-2012-329-20240901-de-pdf-a-1.pdf</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-04-0402' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10840,7 +10919,7 @@
 			"EuroAirport Basel-Mulhouse"
 		],
 		"externalLinks": [
-			"<a href = 'Flughafen Basel-Mulhouse<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.euroairport.com/de/euroairport/umwelt/luftverkehr-und-umwelt/luftverkehr-und-umwelt.html target=_blank rel=nofollow>https://www.euroairport.com/de/euroairport/umwelt/luftverkehr-und-umwelt/luftverkehr-und-umwelt.html</a><br><a href=https://www.admin.ch/opc/de/classified-compilation/19860372/index.html#app5 target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19860372/index.html#app5</a></a>",
+			"<a href = 'Flughafen Basel-Mulhouse<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.euroairport.com/de/euroairport/umwelt/luftverkehr-und-umwelt/luftverkehr-und-umwelt.html target=_blank rel=nofollow>https://www.euroairport.com/de/euroairport/umwelt/luftverkehr-und-umwelt/luftverkehr-und-umwelt.html</a><br><a href=https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#app5 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#app5</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1005' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10848,7 +10927,7 @@
 			"Kanton"
 		],
 		"description": "Fluglärm",
-		"thema": "02 Raum, Umwelt",
+		"thema": "11 Verkehr",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.4266",
 		"kennzahlenset": "Umwelt",
@@ -10889,7 +10968,7 @@
 			"Kanton"
 		],
 		"description": "Lärmreklamationen",
-		"thema": "02 Raum, Umwelt",
+		"thema": "11 Verkehr",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.4267",
 		"kennzahlenset": "Umwelt",
@@ -10917,12 +10996,12 @@
 		"title": "Eingebaute Schallschutzfenster",
 		"subtitle": "in Anzahl Fenster (kumuliert)",
 		"lesehilfe": "<Bitte hier die neue Lesehilfe eingeben>",
-		"erlaeuterungen": "Das Umweltschutzgesetz sieht vor, dass die Lärmsanierung in erster Linie an der Quelle erfolgen soll. Da dies im innerstädtischen Bereich respektive in Kernzonen von Dörfern nicht immer möglich ist, werden als Ersatzmassnahme Schallschutzfenster eingebaut. Der Indikator zeigt, wie viele Schallschutzfenster aufgrund von Strassenlärmsanierungen mit Kantons- und Bundesbeiträgen eingebaut wurden.<br><br>Alle bis zum Erhebungsjahr eingebauten Schallschutzfenster, welche durch Kantons- und Bundesbeiträge finanziert wurden, werden als Summe im Erhebungsjahr dargestellt.",
+		"erlaeuterungen": "Das Umweltschutzgesetz sieht vor, dass die Lärmsanierung in erster Linie an der Quelle erfolgen soll. Da dies im innerstädtischen Bereich respektive in Kernzonen von Dörfern nicht immer möglich ist, werden als Ersatzmassnahme Schallschutzfenster eingebaut. Der Indikator zeigt, wie viele Schallschutzfenster aufgrund von Strassenlärmsanierungen mit Kantons- und Bundesbeiträgen eingebaut wurden.<br><br>Alle bis zum Erhebungsjahr eingebauten Schallschutzfenster, welche durch Kantons- und Bundesbeiträge finanziert wurden, werden als Summe im Erhebungsjahr dargestellt. Ab dem Jahr 2025 leistet der Bund keine Beiträge mehr an Schallschutzfenster, da die finanziellen Mittel dafür fehlen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Schallschutzfensterbeiträge<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html target=_blank rel=nofollow>https://www.aue.bs.ch/laerm/verkehrslaerm/schallschutzfensterbeitraege.html</a></a>",
+			"<a href = 'Schallschutzfensterbeiträge<br>Lärmschutz-Verordnung (LSV)' target = '_blank'><a href=https://grosserrat.bs.ch/dokumente/100393/000000393415.pdf target=_blank rel=nofollow>https://grosserrat.bs.ch/dokumente/100393/000000393415.pdf</a><br><a href=https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/782.100 target=_blank rel=nofollow>https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/782.100</a><br></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1004' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10964,7 +11043,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Lärmbelastung durch Verkehr nach WHO' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-laerm/laerm--daten--indikatoren-und-karten/laerm--indikatoren/indikator-laerm.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFIwMDcmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/</a>",
-			"<a href = 'Strassenlärmkataster BS' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=L%C3%A4rmkataster%2CGew%C3%A4ssernetz%2CGew%C3%A4sserraum%20nach%20%C3%9Cbergangsbestimmungen%2CGew%C3%A4sserschutzkarte%2CGew%C3%A4sserzustand%2CGrundwasservorkommen&tree_group_layers_L%C3%A4rmkataster=LA_Strassenlaerm_aktuell_LaermbelastungTag%2CLA_Strassenlaerm_aktuell_LaermbelastungNacht%2CLA_Strassenlaerm_Prognose2030_LaermbelastungTag2030%2CLA_Strassenlaerm_Prognose2030_LaermbelastungNacht2030 target=_bla</a>",
+			"<a href = 'Strassenlärmkataster BS' target = '_blank'><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_group_layers_L%C3%A4rmkataster=LA_Strassenlaerm_aktuell_LaermbelastungTag%2CLA_Strassenlaerm_aktuell_LaermbelastungNacht&tree_groups=L%C3%A4rmkataster%2CGew%C3%A4ssernetz%2CGew%C3%A4sserschutzkarte%2CGrundwasservorkommen&tree_group_layers_Gew%C3%A4ssernetz=&tree_group_layers_Gew%C3%A4sserschutzkarte=&tree_group_layers_Grundwasservorkommen= target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grun</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -10972,7 +11051,7 @@
 			"Kanton"
 		],
 		"description": "Lärmbelastete Personen",
-		"thema": "02 Raum, Umwelt",
+		"thema": "50 Befragungen",
 		"unterthema": "Lärm",
 		"kuerzel": "I.02.14.04269",
 		"kennzahlenset": "Umwelt",
@@ -11041,13 +11120,13 @@
 		"title": "Stickoxid-Emissionen",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt die jährlichen Emissionen an Stickoxiden (NO<sub>x</sub>). Unter dem Begriff Stickoxide werden Stickstoffdioxid (NO<sub>2</sub>) und Stickstoffmonoxid (NO) zusammengefasst. Sie entstehen beim Verbrennen von Brenn- und Treibstoffen und ihre Hauptquelle ist der Strassenverkehr. Stickoxid ist eine wichtige Vorläufersubstanz für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit den flüchtigen organischen Verbindungen - von Ozon und Sommersmog. <br><br>Die Emissionen sind das Produkt aus der Jahresleistung der Aktivitäten in den Bereichen Industrie, Verkehr und Feuerungen und den jeweiligen schadstoffspezifischen Emissionsfaktoren. Die Daten werden mittels Erhebungen, Modellierungen und Berechnungen ermittelt.",
+		"erlaeuterungen": "Der Indikator zeigt die jährlichen Emissionen an Stickoxiden (NO<sub>x</sub>). Unter dem Begriff Stickoxide werden Stickstoffdioxid (NO<sub>2</sub>) und Stickstoffmonoxid (NO) zusammengefasst. Stickstoffoxide entstehen hauptsächlich bei Verbrennungsprozessen in Anlagen und Motoren. Geringe Emissionen entstehen auch in bestimmten Industrieprozessen und in der Landwirtschaft. Die höchsten Emissionen weist der Verkehrsbereich auf, gefolgt von den Feuerungen.  Stickoxid ist eine wichtige Vorläufersubstanz für die Bildung von sekundärem Feinstaub und - zusammen mit den flüchtigen organischen Verbindungen - von Ozon.<br><br>Die Emissionen sind das Produkt aus der Jahresleistung der Aktivitäten in den Bereichen Industrie, Verkehr und Feuerungen und den jeweiligen schadstoffspezifischen Emissionsfaktoren. Die Daten werden mittels Erhebungen, Modellierungen und Berechnungen ermittelt.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
 			"<a href = 'Stickoxid-Emissionen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-luft/luft--daten--indikatoren-und-karten/luft--indikatoren/indikator-luft.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFUwMTQmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu</a>",
-			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>Informationen zu Stickoxiden (BAFU)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/stickoxide-nox-no2 target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/stickoxide-nox-no2</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=no</a>",
+			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>Informationen zu Stickoxiden (BAFU)' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/stickoxide target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/stickoxide</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhaltepla</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11089,7 +11168,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Emissionen flüchtiger organischer Verbindungen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-luft/luft--daten--indikatoren-und-karten/luft--indikatoren/indikator-luft.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFUwMTAmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu</a>",
-			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>BAFU: Flüchtige organische Verbindungen (VOC)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/fluechtige-organische-verbindungen-voc target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/fluechtige-organische-verbindungen-voc</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftr</a>",
+			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>BAFU: Flüchtige organische Verbindungen (VOC)' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/fluechtige-organische-verbindungen-voc target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/fluechtige-organische-verbindungen-voc</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umwelt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11130,8 +11209,8 @@
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Feinstaub-Emissionen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-luft/luft--daten--indikatoren-und-karten/luft--indikatoren/indikator-luft.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFUwMTYmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin.ch/bafu</a>",
-			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>BAFU: Feinstaub' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://ww</a>",
+			"<a href = 'Feinstaub-Emissionen' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-luft/luft--daten--indikatoren-und-karten/luft--indikatoren/indikator-luft.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9TFUwMTEmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https://www.ba</a>",
+			"<a href = 'Lufthygieneamt beider Basel: Quellen der Luftbelastung<br>Luftreinhalteplan beider Basel<br>BAFU: Feinstaub' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/schadstoffe/feinstaub</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanu</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11172,7 +11251,7 @@
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air)<br>Lufthygieneamt beider Basel<br>Luftreinhalteplan beider Basel<br>Luftreinhalte-Verordnung (LRV)<br>BAFU: Informationen zum Thema Luft' target = '_blank'><a href=https://cerclair.ch/assets/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf target=_blank rel=nofollow>https://cerclair.ch/assets/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf</a><br><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/Wer%20wir%20sind target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/Wer%20wir%20sind</a><br><a hre</a>",
+			"<a href = 'Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air)<br>Lufthygieneamt beider Basel<br>Luftreinhalteplan beider Basel<br>Luftreinhalte-Verordnung (LRV)<br>BAFU: Informationen zum Thema Luft' target = '_blank'><a href=https://cerclair.ch/assets/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf target=_blank rel=nofollow>https://cerclair.ch/assets/pdf/27b_2015_06_10_D_Langzeit_Luftbelastungs_Index.pdf</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/Wer%20wir%20sind target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/Wer%20wir%20sind</a><br><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11258,7 +11337,7 @@
 			"Lufthygieneamt beider Basel"
 		],
 		"externalLinks": [
-			"<a href = 'Luftreinhalteplan beider Basel<br>Luftreinhalte-Verordnung (LRV)' target = '_blank'><a href=https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a><br><a href=https://www.admin.ch/opc/de/classified-compilation/19850321/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19850321/index.html</a></a>",
+			"<a href = 'Luftreinhalteplan beider Basel<br>Luftreinhalte-Verordnung (LRV)' target = '_blank'><a href=https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung target=_blank rel=nofollow>https://kanton.baselland.ch/bau-und-umweltschutzdirektion/lufthygiene/lufthygiene/luftreinhalteplanung</a><br><a href=https://www.admin.ch/opc/de/classified-compilation/19850321/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19850321/index.html</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-11-1108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11294,7 +11373,7 @@
 		"title": "Feinstaub-Immissionen (PM10)",
 		"subtitle": "in Mikrogramm pro Kubikmeter",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 µg/m<sup>3</sup>. <br><br>Für die feinere Fraktion des Feinstaubs (PM2.5), siehe Indikator <a title=\"Feinstaub-Immissionen (PM2.5)\" href=\"https://www.bs.ch/indikatoren-11-1112\" target=\"_parent\">Feinstaub-Immissionen (PM2.5)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 µg/m<sup>3</sup>. <br><br>Für die feinere Fraktion des Feinstaubs (PM2.5), siehe Indikator <a title=\"Feinstaub-Immissionen (PM2.5)\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1112\" target=\"_parent\">Feinstaub-Immissionen (PM2.5)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -11623,7 +11702,7 @@
 		"title": "Waldreservate",
 		"subtitle": "in Prozent",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche (siehe <a title=\"Waldfläche\" href=\"https://www.bs.ch/indikatoren-15-1501\" target=\"_parent\">Waldfläche</a>) wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
+		"erlaeuterungen": "Kumulierte Fläche der Waldreservate im Verhältnis zur gesamten Waldfläche.<br><br>Aufsummierung der kantonal geschützten Waldflächen (Schutz per Regierungsratsbeschluss oder langfristigem Dienstbarkeitsvertrag). Kommunale Unterschutzstellungen sind darin nicht enthalten. Der Ausgangswert stellt den Vorbestand bis und mit dem Jahr 1997 dar.<br>Die gesamte Waldfläche (siehe <a title=\"Waldfläche\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1501\" target=\"_parent\">Waldfläche</a>) wird der Arealstatistik entnommen (Summe aller bestockten Flächen).",
 		"quellenangabe": [
 			"Amt für Wald beider Basel"
 		],
@@ -11743,12 +11822,12 @@
 		"title": "In der Luft stabile Stoffe in Kälte- und Wärmepumpenanlagen",
 		"subtitle": "in CO2-Äquivalent der Kältemittelmengen in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). In der Luft stabile Kältemittel weisen eine sehr hohe Verweildauer in der Atmosphäre auf und tragen deshalb wesentlich zum Treibhauseffekt bei. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten HFKW (synthetische Kältemittel, welche eine sehr hohe Verweildauer in der Atmosphäre aufweisen). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
+		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonschichtabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). In der Luft stabile Kältemittel weisen eine sehr hohe Verweildauer in der Atmosphäre auf und tragen deshalb wesentlich zum Treibhauseffekt bei. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten HFKW (synthetische Kältemittel, welche eine sehr hohe Verweildauer in der Atmosphäre aufweisen). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			"<a href = 'Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30 target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30</a></a>",
+			"<a href = 'Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/2005/478/de#app30 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/2005/478/de#app30</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1301' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11784,12 +11863,12 @@
 		"title": "Ozonschichtabbauende Stoffe in Kälteanlagen",
 		"subtitle": "in Kältemittelmenge in KIlogramm",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). Ozonabbauende Kältemittel tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten ozonabbauenden synthetischen Kältemittel (FCKW, HFCKW). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
+		"erlaeuterungen": "In Kälte- und Wärmepumpenanlagen eingesetzte synthetische Kältemittel können, wenn sie in die Atmosphäre gelangen, ozonschichtabbauend (FCKW, HFCKW) oder als Treibhausgase wirken (HFKW). Ozonschichtabbauende Kältemittel tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der verwendeten Kältemittel ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Kälte- und Wärmepumpenanlagen in den Kantonen eingesetzten ozonschichtabbauenden synthetischen Kältemittel (FCKW, HFCKW). Die Angaben stammen aus dem Melderegister des Bundesamtes für Umwelt (BAFU). Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			"<a href = 'Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30 target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app30</a></a>",
+			"<a href = 'Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.10 - Kältemittel' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/2005/478/de#app30 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/2005/478/de#app30</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1303' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -11825,12 +11904,12 @@
 		"title": "Ozonschichtabbauende Stoffe (Halone) in Löschanlagen",
 		"subtitle": "in Kilogramm",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Halone (vollständig halogenierte bromhaltige Fluorkohlenwasserstoffe) tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der als Löschmittel verwendeten Halone ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Löschanlagen in den Kantonen eingesetzten ozonabbauenden Löschmittel (Halone). Die Angaben stammen aus dem Halonkataster der envico AG, welche im Auftrag des BAFU die Meldungen der Betreiber von halonhaltigen Löschanlagen verwaltet. Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
+		"erlaeuterungen": "Halone (vollständig halogenierte bromhaltige Fluorkohlenwasserstoffe) tragen zur Zerstörung der Ozonschicht bei, welche die Erde vor der gefährlichen ultravioletten Strahlung abschirmt. Die Menge der als Löschmittel verwendeten Halone ist ein Indikator für die potenzielle Belastung der Luft mit solchen Stoffen.<br><br>Total der Menge der in allen gemeldeten Löschanlagen in den Kantonen eingesetzten ozonschichtabbauenden Löschmittel (Halone). Die Angaben stammen aus dem Halonkataster der Carbotech AG, welche im Auftrag des BAFU die Meldungen der Betreiber von halonhaltigen Löschanlagen verwaltet. Die Inhaber von Anlagen sind einer gesetzlichen Meldepflicht unterstellt.",
 		"quellenangabe": [
 			"Bundesamt für Umwelt (BAFU)"
 		],
 		"externalLinks": [
-			"<a href = 'Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.11 - Löschmittel' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app31 target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/20021520/index.html#app31</a></a>",
+			"<a href = 'Chemikalien-Risikoreduktions-Verordnung (ChemRRV), Anhang 2.11 - Löschmittel' target = '_blank'><a href=https://www.fedlex.admin.ch/eli/cc/2005/478/de#app31 target=_blank rel=nofollow>https://www.fedlex.admin.ch/eli/cc/2005/478/de#app31</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-13-1304' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12080,7 +12159,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Strukturen der Fliessgewässer' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-wasser/wasser--daten--indikatoren-und-karten/wasser--indikatoren/indikator-wasser.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9V1MwMTUmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin</a>",
-			"<a href = 'Modul-Stufen-Konzept<br>Karte Gewässerzustand Basel-Stadt' target = '_blank'><a href=http://www.modul-stufen-konzept.ch/fg/index target=_blank rel=nofollow>http://www.modul-stufen-konzept.ch/fg/index</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Gew%C3%A4sserzustand&map_x=2613816&map_y=1267781&map_zoom=2&tree_group_layers_Gew%C3%A4sserzustand=GW_Oekomorphologie_Abschnitte target=_blank rel=nofollow>https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Gew%C3%A4sserzustand&map_x=2613816&map_y=126</a>",
+			"<a href = 'Modul-Stufen-Konzept<br>Karte Gewässerzustand Basel-Stadt' target = '_blank'><a href=https://modul-stufen-konzept.ch/ target=_blank rel=nofollow>https://modul-stufen-konzept.ch/</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2613816&map_y=1267781&map_zoom=2&tree_group_layers_Gew%C3%A4sserzustand=GW_Oekomorphologie_Abschnitte&tree_groups=%C3%96komorphologischer%20Gew%C3%A4sserzustand%2CBiologischer%20Gew%C3%A4sserzustand&tree_group_layers_Biologischer%20Gew%C3%A4sserzustand=MZ_Makrozoobenthos target=_blank rel=nofollow>http</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1608' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12211,7 +12290,7 @@
 			"Kanton"
 		],
 		"description": "Biodiversitätsförderflächen in der Landwirtschaft",
-		"thema": "02 Raum, Umwelt",
+		"thema": "07 Landwirtschaft",
 		"unterthema": "Biodiversität",
 		"kuerzel": "I.02.8.4307",
 		"kennzahlenset": "Umwelt",
@@ -12368,7 +12447,7 @@
 			"Planungsamt Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Raumplanungsgesetz (RPG)<br>Zonenplan BS (MapBS)<br>Kantonaler Richtplan BS' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19790171/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19790171/index.html</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20farbig&map_x=2611316&map_y=1266874&map_zoom=4&tree_groups=Zonenplan%20Bettingen%2CZonenplan%20Riehen%2CZonenplan%20Stadt%20Basel&tree_group_layers_Zonenplan%20Bettingen=NB_Nutzungsplanung_Rekurs%2CNB_Nutzungsplanung_Linien%2CNB_Nutzungsplanung</a>",
+			"<a href = 'Raumplanungsgesetz (RPG)<br>Zonenplan BS (MapBS)<br>Kantonaler Richtplan BS' target = '_blank'><a href=https://www.admin.ch/opc/de/classified-compilation/19790171/index.html target=_blank rel=nofollow>https://www.admin.ch/opc/de/classified-compilation/19790171/index.html</a><br><a href=https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20farbig&tree_groups=Zonenplan%20Bettingen%2CZonenplan%20Riehen%2CZonenplan%20Stadt%20Basel&map_x=2610927&map_y=1266922&map_zoom=5&tree_group_layers_Zonenplan%20Bettingen=NB_Nutzungsplanung_Rekurs%2CNB_Nutzungsplanung_Linien%2CNB_Nutzungsplanung</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-09-0901' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12574,7 +12653,7 @@
 			"Statistisches Amt Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'Verkehrsindex Amt für Mobilität Kanton Basel-Stadt' target = '_blank'><a href=https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html target=_blank rel=nofollow>https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html</a></a>",
+			"<a href = 'Verkehrsindex Amt für Mobilität Kanton Basel-Stadt' target = '_blank'><a href=https://www.bs.ch/bvd/amt-fuer-mobilitaet target=_blank rel=nofollow>https://www.bs.ch/bvd/amt-fuer-mobilitaet</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-17-1705' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12862,7 +12941,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Recyclingquote' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMzEmbG5nPWRl.html target=_blank rel=nofollow>https://www.bafu.admin</a>",
-			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.aue.bs.ch/abfaelle.html target=_blank rel=nofollow>https://www.aue.bs.ch/abfaelle.html</a></a>",
+			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.bs.ch/wsu/aue target=_blank rel=nofollow>https://www.bs.ch/wsu/aue</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0102' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12895,7 +12974,7 @@
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Inertstoffe",
+		"title": "Bauabfälle",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
 		"erlaeuterungen": "Jährliche Menge an Inertstoffen (ohne unverschmutzen Aushub), welche auf Deponien vom Typ B entsorgt werden. <br><br>Unter Inertstoffen subsumiert man nicht verwertbare, mineralische Bauabfälle wie beispielsweise Mauerabbruch und schwach belastetes Aushubmaterial sowie mengenmässig untergeordnet gewisse betriebliche Abfälle.<br>Als chemisch inert (lat. für untätig, unbeteiligt, träge) bezeichnet man Substanzen, die mit potenziellen Reaktionspartnern (Luft, Wasser) nicht oder nur in verschwindend geringem Masse reagieren. Inertstoffe lösen sich nicht auf, sind nicht brennbar und bauen sich nicht biologisch ab. Sie beeinträchtigen andere Materialien, mit denen sie in Berührung kommen nicht in einer Weise, die zu Umweltverschmutzung führt oder sich negativ auf die menschliche Gesundheit auswirken könnte.<br><br>Summe der jährlich auf Deponien vom Typ B (bis 2015 Inertstoffdeponien) abgelagerten Inertstoffe. Unverschmutztes Aushubmaterial, welches auf Deponien vom Typ B abgelagert wird, wird dabei nicht berücksichtigt. Die Inerstoffmengen umfassen einen Anteil von rund 20 % an Abfällen von ausserhalb der Kantone Basel-Landschaft und Basel-Stadt. Datengrundlage bildet die Deponiestatistik Kanton Basel-Landschaft.",
@@ -12904,14 +12983,14 @@
 		],
 		"externalLinks": [
 			"<a href = 'Bauabfälle (mineralische Bauabfälle aus dem Abbruch)' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwNDYmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Bauabfälle (Kanton Basel-Stadt)' target = '_blank'><a href=https://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html target=_blank rel=nofollow>https://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html</a></a>",
+			"<a href = 'Bauabfälle (Kanton Basel-Stadt)' target = '_blank'><a href=https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit/industrie-und-gewerbeabfaelle/bauabfaelle-recyceln-und-entsorgen target=_blank rel=nofollow>https://www.bs.ch/themen/umwelt-und-bauen/abfall-und-sauberkeit/industrie-und-gewerbeabfaelle/bauabfaelle-recyceln-und-entsorgen</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0108' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Inertstoffe",
+		"description": "Bauabfälle",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Entsorgung",
 		"kuerzel": "I.02.6.4332",
@@ -12946,7 +13025,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'In der Schweiz anfallende Sonderabfälle ' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMDMmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Bauabfälle (Kanton Basel-Stadt)' target = '_blank'><a href=https://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html target=_blank rel=nofollow>https://www.aue.bs.ch/abfaelle/industrie-gewerbe/bauabfaelle.html</a></a>",
+			"<a href = 'Bauabfälle (Kanton Basel-Stadt)' target = '_blank'><a href=https://www.bs.ch/wsu/aue/bauvorgaben-umwelt-und-energie target=_blank rel=nofollow>https://www.bs.ch/wsu/aue/bauvorgaben-umwelt-und-energie</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0109' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -12988,7 +13067,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Abfallverbrennung' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMDcmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'KVA Basel (IWB)' target = '_blank'><a href=https://www.iwb.ch/Ueber-uns/Kehrichtverwertung.html target=_blank rel=nofollow>https://www.iwb.ch/Ueber-uns/Kehrichtverwertung.html</a></a>",
+			"<a href = 'KVA Basel (IWB)' target = '_blank'><a href=https://www.iwb.ch/ueber-uns/kraftwerke/basel target=_blank rel=nofollow>https://www.iwb.ch/ueber-uns/kraftwerke/basel</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0104' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13024,7 +13103,7 @@
 		"title": "Deponierte Klärschlammasche",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
+		"erlaeuterungen": "Bei der Abwasserreinigung fällt Klärschlamm an, welcher verbrannt wird. Die dabei als Restprodukt zurückbleibende Klärschlammasche wird auf der Deponie Elbisgraben (Kanton Basel-Landschaft) abgelagert.<br><br>Menge der jährlich in der Deponie Elbisgraben angelieferten Klärschlammasche aus den kantonalen Abwasserreinigungsanlagen (ARA). Die deponierte Klärschlammasche ist in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -13062,12 +13141,12 @@
 		"title": "Verbrennungsrückstände",
 		"subtitle": "in Tonnen",
 		"lesehilfe": "<Bitte Kommentar erfassen>",
-		"erlaeuterungen": "Menge der in der Kehrichtverbrennungsanlage (KVA Basel) anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen). Bei Schlacke handelt es sich um gesteinsartige, poröse Verbrennungsrückstände. Der Filterstaub und der Filterkuchen fallen bei der Rauchgasbehandlung an. Filterstaub wird im Elektrofilter mittels elektrostatischer Abscheidung aus den Rauchgasen entfernt. Im Nasswäscher werden Feinstpartikel und gasförmige Stoffe aus den Rauchgasen entfernt. Das anfallende Abwasser wird vorbehandelt und dabei fällt als Reststoff der Filterkuchen an.<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/indikatoren-01-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
+		"erlaeuterungen": "Menge der in der Kehrichtverbrennungsanlage (KVA Basel) anfallenden Verbrennungsrückstände (Schlacke, Filterstaub und Filterkuchen). Bei Schlacke handelt es sich um gesteinsartige, poröse Verbrennungsrückstände. Der Filterstaub und der Filterkuchen fallen bei der Rauchgasbehandlung an. Filterstaub wird im Elektrofilter mittels elektrostatischer Abscheidung aus den Rauchgasen entfernt. Im Nasswäscher werden Feinstpartikel und gasförmige Stoffe aus den Rauchgasen entfernt. Das anfallende Abwasser wird vorbehandelt und dabei fällt als Reststoff der Filterkuchen an.<br><br>Berechnung auf Grundlage der Werte der Jahresberichte der Kehrichtverwertungsanlage Basel. Es werden nur die Anteile der Kantone Basel-Stadt und Basel-Landschaft berücksichtigt, basierend auf den jeweiligen Anlieferungsmengen bzw. deren Anteil an den gesamthaft verbrannten Abfällen. Die deponierten Verbrennungsrückstände sind in der totalen Menge deponierter Abfälle beider Kantone enthalten (siehe Indikator <a title=\"Auf Deponien abgelagerte Abfälle\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0106\" target=\"_parent\">Auf Deponien abgelagerte Abfälle</a>).",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
 		],
 		"externalLinks": [
-			"<a href = 'KVA Basel (IWB): Reststoffentsorgung' target = '_blank'><a href=https://www.iwb.ch/Ueber-uns/Kehrichtverwertung/Alles-ueber-die-KVA.html target=_blank rel=nofollow>https://www.iwb.ch/Ueber-uns/Kehrichtverwertung/Alles-ueber-die-KVA.html</a></a>",
+			"<a href = 'KVA Basel (IWB): Reststoffentsorgung' target = '_blank'><a href=https://www.iwb.ch/ueber-uns/kraftwerke/basel target=_blank rel=nofollow>https://www.iwb.ch/ueber-uns/kraftwerke/basel</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0105' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13109,7 +13188,7 @@
 		],
 		"externalLinks": [
 			"<a href = 'Siedlungsabfälle' target = '_blank'><a href=https://www.bafu.admin.ch/bafu/de/home/themen/thema-abfall/abfall--daten--indikatoren-und-karten/abfall--indikatoren/indikator-abfall.pt.html/aHR0cHM6Ly93d3cuaW5kaWthdG9yZW4uYWRtaW4uY2gvUHVibG/ljL0FlbURldGFpbD9pbmQ9QUIwMDUmbG5nPWRlJlN1Ymo9Tg%3d%3d.html target=_blank rel=nofollow>https:</a>",
-			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.aue.bs.ch/abfaelle.html target=_blank rel=nofollow>https://www.aue.bs.ch/abfaelle.html</a></a>",
+			"<a href = 'Amt für Umwelt und Energie Basel-Stadt: Abfälle' target = '_blank'><a href=https://www.bs.ch/wsu/aue target=_blank rel=nofollow>https://www.bs.ch/wsu/aue</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0101' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -13150,7 +13229,7 @@
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
 		"externalLinks": [
-			"<a href = 'Bau- und Wohnungswesen BS' target = '_blank'><a href=https://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen.html target=_blank rel=nofollow>https://www.statistik.bs.ch/zahlen/tabellen/9-bau-wohnungswesen.html</a></a>",
+			"<a href = 'Bau- und Wohnungswesen BS' target = '_blank'><a href=https://statistik.bs.ch/thema/3 target=_blank rel=nofollow>https://statistik.bs.ch/thema/3</a></a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-01-0103' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
@@ -79124,7 +79203,7 @@
 		"title": "Feinstaub-Immissionen (PM2.5)",
 		"subtitle": "in Mikrogramm pro Kubikmeter",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen PM2.5 an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub PM2.5 versteht man Partikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub PM2.5 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub PM2.5 10 µg/m<sup>3</sup>. <br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Immissionen (PM10)\" href=\"https://www.bs.ch/indikatoren-11-1109\" target=\"_parent\">Feinstaub-Immissionen (PM10)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Feinstaub-Immissionen PM2.5 an verschiedenen Messstandorten in den Kantonen Basel-Stadt und Basel-Landschaft. Unter Feinstaub PM2.5 versteht man Partikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub PM2.5 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub PM2.5 10 µg/m<sup>3</sup>. <br><br>Für die gröbere Fraktion des Feinstaubs (PM10), siehe Indikator <a title=\"Feinstaub-Immissionen (PM10)\" href=\"https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-1109\" target=\"_parent\">Feinstaub-Immissionen (PM10)</a>.<br><br>Die Jahresmittelwerte berechnen sich aus den Messdaten verschiedener Stationen in den Kantonen Basel-Stadt und Basel-Landschaft: Stark verkehrsexponiert (Basel Feldbergstrasse, Muttenz A2 Hard), Stadt Basel (Basel St. Johanns-Platz) und Agglomeration (Binningen (NABEL), Dornach (SO)). Für Details zu den Stationen siehe Link «Luftqualität in der Nordwestschweiz» unter weiterführende Informationen.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
@@ -83236,7 +83315,7 @@
 			"Kanton"
 		],
 		"description": "Öffentliche Ladestationen für Elektrofahrzeuge",
-		"thema": "02 Raum, Umwelt",
+		"thema": "11 Verkehr",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.09886",
 		"kennzahlenset": "Umwelt",
@@ -83278,7 +83357,7 @@
 			"Kanton"
 		],
 		"description": "Rheinschiffbarkeit",
-		"thema": "02 Raum, Umwelt",
+		"thema": "11 Verkehr",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.09887",
 		"kennzahlenset": "Umwelt",
@@ -83402,7 +83481,7 @@
 			"Kanton"
 		],
 		"description": "Bestand Elektroautos",
-		"thema": "02 Raum, Umwelt",
+		"thema": "11 Verkehr",
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.09891",
 		"kennzahlenset": "Umwelt",
