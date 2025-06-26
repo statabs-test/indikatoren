@@ -150,17 +150,16 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!elements.length) return;
     window.slides = [...elements]
       .map((el) => {
-        console.log(el.dataset.kuerzel);
         const id = el.dataset.id;
         const kuerzel = el.dataset.kuerzel;
         const src = el.dataset.src;
+        console.log(el.dataset);
 
         if (id) return { id, kuerzel };
         if (src) return src;
         return null;
       })
       .filter(Boolean);
-    console.log(window.slides);
     elements.forEach((item, index) => {
       item.addEventListener("click", () => openLightbox(index));
     });
