@@ -6,43 +6,43 @@
       "data": [
         [
           "2014",
-          4134
+          2143
         ],
         [
           "2015",
-          4138
+          1964
         ],
         [
           "2016",
-          3451
+          1670
         ],
         [
           "2017",
-          4369
+          1920
         ],
         [
           "2018",
-          3600
+          1958
         ],
         [
           "2019",
-          3504
+          2244
         ],
         [
           "2020",
-          3238
+          2278
         ],
         [
           "2021",
-          3026
+          2450
         ],
         [
           "2022",
-          3289
+          2486
         ],
         [
           "2023",
-          2733
+          1789
         ]
       ],
       "name": "Anzahl von Umbau betroffene Wohnungen",
@@ -53,43 +53,43 @@
       "data": [
         [
           "2014",
-          314
+          257
         ],
         [
           "2015",
-          393
+          281
         ],
         [
           "2016",
-          379
+          336
         ],
         [
           "2017",
-          557
+          472
         ],
         [
           "2018",
-          440
+          402
         ],
         [
           "2019",
-          620
+          480
         ],
         [
           "2020",
-          493
+          456
         ],
         [
           "2021",
-          506
+          441
         ],
         [
           "2022",
-          276
+          239
         ],
         [
           "2023",
-          103
+          83
         ]
       ],
       "name": "Anzahl Leerkündigungen (Wohnungen) aufgrund Umbau",
@@ -108,7 +108,7 @@
         ],
         [
           "2016",
-          66
+          61
         ],
         [
           "2017",
@@ -120,7 +120,7 @@
         ],
         [
           "2019",
-          227
+          219
         ],
         [
           "2020",
@@ -128,11 +128,11 @@
         ],
         [
           "2021",
-          108
+          63
         ],
         [
           "2022",
-          71
+          63
         ],
         [
           "2023",
@@ -221,7 +221,7 @@
     "text": "Leerkündigungen"
   },
   "subtitle": {
-    "text": "Anzahl von Umbau oder Abbruch betroffener Wohnungen, Basel-Stadt",
+    "text": "Anzahl betroffene Wohnungen, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -280,7 +280,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 23.6.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

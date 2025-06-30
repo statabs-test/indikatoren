@@ -4372,7 +4372,7 @@
 		"children": [],
 		"title": "Mietpreise nach Quartil",
 		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2015 - 2023",
-		"lesehilfe": "Der Median der Preise von Mietwohnungen lag 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil der Mieten lag bei 16,3 Franken pro m<sup>2</sup>; das bedeutet ein Viertel aller Mieten pro m<sup>2</sup> war günstiger als dieser Wert. Das dritte Quartil stand bei bei 23,4 Franken pro m<sup>2</sup>. Alle drei Quartilsmieten sind kontinuierlich gestiegen.",
+		"lesehilfe": "Der Median der Preise von Mietwohnungen lag im Jahr 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil lag bei 16,3 Franken pro m<sup>2</sup>; das bedeutet, dass ein Viertel aller Mieten pro m<sup>2</sup> unter und drei Viertel über diesem Preis lagen. Das dritte Quartil stand bei bei 23,4 Franken pro m<sup>2</sup>. Alle drei Quartilsmieten sind kontinuierlich gestiegen.",
 		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Quartile sind die drei Werte einer Häufigkeitsverteilung (hier Nettomietpreise pro m<sup>2</sup>), die diese in vier gleich große Bereiche teilen: 25% aller Fälle liegen im Bereich bis zum 1. Quartil der Verteilung. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -4410,7 +4410,7 @@
 		"children": [],
 		"title": "Mietpreise nach Dauer des Mietverhältnisses",
 		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2020 - 2023",
-		"lesehilfe": "Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnissen lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>. Die Mieten von neueren Mietverhältnissen lagen somit 15,7% über denjenigen von älteren Mietverhältnissen.",
+		"lesehilfe": "Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen im Jahr 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnissen lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>. Die Mieten von neueren Mietverhältnissen lagen somit 15,7% über denjenigen von älteren Mietverhältnissen.",
 		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Als Einzugsmieten gelten die in den letzten zwei Jahren abgeschlossenen Mietverträge. Bestandesmieten gelten für Mietverhältnisse, die bereits länger als zwei Jahre dauern. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -4447,9 +4447,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Leerkündigungen",
-		"subtitle": "Anzahl von Umbau oder Abbruch betroffener Wohnungen, Basel-Stadt",
-		"lesehilfe": "Die Anzahl leergekündigter Wohnungen aufgrund von Umbau lag in den Jahren 2022 (276 Wohnungen) und 2023 (103 Wohnungen) deutlich tiefer als in den Vorjahren.",
-		"erlaeuterungen": "Gemäss Bautätigkeit des Gebäude- und Wohnungsregisters sowie Belegungsangaben aus dem Einwohnerregister. Ein Gebäude muss beim Umbau seit mindestens 15 Jahren bestehen, mindestens über vier Wohnungen verfügen zwei Jahre vor Baubeginn und 90% Neumieter aufweisen ein Jahr nach Bauvollendung des Umbaus, um als betroffen berücksichtigt zu werden. Ein Abbruch hat stets den Auszug der kompletten Mieterschaft zur Folge. Die hier verwendeten Registerangaben geben keinen Aufschluss darüber, welche Partei das Mietverhältnis beendet hat und aus welchem Grund. Auch wird nicht berücksichtig, ob das Mietverhältnis befristet oder unbefristet war.",
+		"subtitle": "Anzahl betroffene Wohnungen, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 wurden für 480 Wohnungen Leerkündigungen aufgrund eines Umbaus registriert – die Zahl ist gegen Ende des Beobachtungszeitraums deutlich rückläufig. Für 219 weitere erfolgte eine Leerkündigung aufgrund eines Abbruchs. Auch hier ist seit 2019 ein deutlicher Rückgang sichtbar.",
+		"erlaeuterungen": "Die Auswertung erfolgt anhand der im Gebäude- und Wohnungsregister (GWR) hinterlegten Bautätigkeit sowie Belegungsangaben aus dem Einwohnerregister. Um für die Auswertung berücksichtigt werden zu können, muss ein Gebäude beim <i>Umbau</i> seit mindestens 15 Jahren bestehen und zwei Jahre vor Baubeginn über mindestens vier Wohnungen verfügen. Damit die Wohnungen als von Leerkündigungen betroffen gezählt werden, müssen 90% der Mieterschaft (relativ zu den Bewohnenden zwei Jahre vor Baubeginn) ein Jahr nach Bauvollendung  weniger als 2 Jahre in der Liegenschaft angemeldet sein. Ein <i>Abbruch</i> hat stets den Auszug der kompletten Mieterschaft zur Folge, wobei hier der Wohnungsbestand drei Jahre vor Baubeginn als Grundlage dient. Die verwendeten Registerangaben geben keinen Aufschluss darüber, welche Partei das Mietverhältnis beendet hat und aus welchem Grund. Auch wird nicht berücksichtigt, ob das Mietverhältnis befristet oder unbefristet war. Das Jahr bezeichnet das Jahr des Baubeginns.<br><br>Datenstand ist Mitte Juni 2025. Aufgrund der Zählweise, die sich auf ein Jahr nach Bauvollendung bezieht, werden nur Werte bis 2023 publiziert. Bei überdurchschnittlich langen Bauprojekten können sich die Werte der letzten Jahre (insbesondere die Leerkündigungen nach Umbau 2023) bei einer Aktualisierung erhöhen, da diese Projekte allenfalls hinzukommen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Bevölkerungsdienste und Migration Basel-Stadt"
@@ -4461,7 +4461,7 @@
 		],
 		"description": "Leerkündigungen",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
+		"unterthema": "Gebäude und Wohnungen",
 		"kuerzel": "",
 		"kennzahlenset": "Wohnraumschutz",
 		"kuerzelKunde": "001-4",
@@ -4475,7 +4475,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-10T12:50:45",
+		"aktualisierungsdatum": "2025-06-23T07:42:50",
 		"id": 22291
 	},
 	{
@@ -4486,9 +4486,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Baugesuche für Sanierungen, Umbau oder Renovation",
-		"subtitle": "Anzahl Bauprojekte nach Baueingabe, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 und im 1. Halbjahr 2022 (2022-H1) ist ein deutlicher Anstieg bei den Projekten, welche die Bedingungen der Wohnschutzgesetzgebung erfüllt hätten, sichtbar. Seit der zweiten Jahreshälfte 2022 ist ein Einbruch festzustellen. Dieser betrifft sowohl Umbauprojekte generell, als auch die durch die geänderte Gesetzgebung betroffenen Umbauprojekte. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig.",
-		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
+		"subtitle": "Anzahl Bauprojekte von Wohngebäuden nach Baueingabe, Basel-Stadt",
+		"lesehilfe": "Seit der zweiten Jahreshälfte 2022 ist ein Einbruch bei Baugesuchen für Sanierung, Umbau oder Renovation festzustellen. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig. Kurz davor im Jahr 2021 und im 1. Halbjahr 2022 ist ein deutlicher Anstieg von Bauge-suchen sichtbar, welche unter die Wohnschutzgesetzgebung gefallen wäre.",
+		"erlaeuterungen": "Berücksichtigt sind nur Projekte mit einer Baueingabe. Umbau-, Sanierungs- und Renovationspro-jekte ohne Baubewilligungspflicht fallen nicht unter die Auswertung. Ausgewertet sind. Baueingaben (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude und mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4525,8 +4525,8 @@
 		"children": [],
 		"title": "Sanierungsvolumen in Franken",
 		"subtitle": "Projektgesamtkosten nach Baueingabe, Basel-Stadt",
-		"lesehilfe": "Die gemäss eingereichtem Umbauprojekt angegebenen Projektgesamtkosten sind insbesondere seit 2021 deutlich gestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. Die Projektgesamtkosten der nicht von der geänderten Gesetzgebung betroffenen Umbauprojekte blieben in diesem Zeitraum stabil.",
-		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
+		"lesehilfe": "Die in Baugesuchen für Sanierungen, Umbauten und Re-novationen angegebenen Projektgesamtkosten sind insbesondere im Jahr 2021 deutlich gestiegen, ehe sie ab der zweiten Hälfte 2022 wieder deutlich zurückgingen. In Bezug auf Projekte, die nicht von der geänderten Gesetzgebung betroffenen ist der Effekt weniger deutlich.",
+		"erlaeuterungen": "Bewilligungspflichte Umbauprojekte (Baubegehren sowie vereinfachte und technische Baubegehren) mit Berücksichtigt sind nur Projekte mit einer Baueingabe. Umbau-, Sanierungs- und Renovationsprojekte ohne Baubewilligungspflicht fallen nicht unter die Auswertung. Ausgewertet sind Baueingaben (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe, ohne Baunebenkosten. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude und mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4563,8 +4563,8 @@
 		"children": [],
 		"title": "Fördervolumen Gebäudeprogramm",
 		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung in Franken, Basel-Stadt",
-		"lesehilfe": "Die jährlich ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich seit 2017 von gut 0,9 Mio. Franken auf knapp 3,4 Mio. Franken erhöht. Insbesondere bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
-		"erlaeuterungen": "Gemäss Gebäudeprogramm ausbezahlte Förderbeiträge nach Gebäudekategorie. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
+		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio . Franken auf knapp 3,4 Mio. Franken erhöht. Insbesondere bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
+		"erlaeuterungen": "Gemäss Gebäudeprogramm von Kanton und Bund ausbezahlte Förderbeiträge nach Gebäudekategorie. Die Auszahlung der Fördergelder erfolgt nach Abschluss der Sanierung, zwischen Förderzusage und Auszahlung können mehrere Jahre vergehen. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
 		"quellenangabe": [
 			"Gebäudeprogramm"
 		],
@@ -4601,8 +4601,8 @@
 		"children": [],
 		"title": "Abgebrochene Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In den letzten zwanzig Jahren wurden im Durchschnitt rund hundert Wohnungen abgebrochen. Im Jahr 2024 war die Anzahl abgebrochener Wohnungen mit 77 unterdurchschnittlich.",
-		"erlaeuterungen": "Abgebrochene Wohnungen nach Jahr des Abbruches.",
+		"lesehilfe": "In den letzten 20 Jahren wurden im Durchschnitt jährlich rund hundert Wohnungen abgebrochen. Im Jahr 2024 war die Anzahl abgebrochener Wohnungen mit 77 unterdurchschnittlich.",
+		"erlaeuterungen": "Abgebrochene Wohnungen nach Jahr des Abbruchs.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
