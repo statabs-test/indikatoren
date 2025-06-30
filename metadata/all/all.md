@@ -374,15 +374,15 @@ id | visible | visibleInPortal | indikatorenset
 6011 | true | true | Wanderungen
 6012 | true | true | Wanderungen
 6013 | true | true | Wanderungen
-6016 | true | true | Wanderungen
-6017 | true | true | Wanderungen
+6016 | false |  | Wanderungen
+6017 | false |  | Wanderungen
 6018 | true | true | Wanderungen
 6019 | true | true | Wanderungen
 6021 | true | true | Wanderungen
 6022 | true | true | Wanderungen
 6023 | true | true | Wanderungen
 6024 | true | true | Wanderungen
-6025 | true | true | Wanderungen
+6025 | false |  | Wanderungen
 6026 | false |  | Nachhaltigkeit
 6027 | true | false | Nachhaltigkeit
 6028 | true | true | Nachhaltigkeit
@@ -1151,7 +1151,7 @@ id | visible | visibleInPortal | indikatorenset
 7511 | true | true | Monatsindikatoren
 7512 | true | true | Monatsindikatoren
 7513 | true | true | Monatsindikatoren
-7515 | true | true | Monatsindikatoren
+7515 | false |  | Monatsindikatoren
 7516 | true | true | Monatsindikatoren
 7517 | true | true | Monatsindikatoren
 7519 | true | true | Tourismus
@@ -2041,7 +2041,7 @@ id | visible | visibleInPortal | indikatorenset
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 
 9294 | true | true | Soziales
-9295 | true | true | Soziales
+9295 | false |  | Soziales
 9298 | false |  | Soziales
 9315 | true | false | Steuern (Print)
 9316 | true | false | Steuern (Print)
@@ -2319,7 +2319,7 @@ id | visible | visibleInPortal | indikatorenset
 10046 | false |  | CMS Kennzahlen Soziales
 10047 | true | false | CMS Kennzahlen Soziales
 10048 | true | false | CMS Kennzahlen Soziales
-10049 | true | false | CMS Kennzahlen Soziales
+10049 | true | false | CMS Kennzahlen
 10050 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
 10052 | true | false | CMS Kennzahlen Soziales
@@ -2470,3 +2470,6 @@ id | visible | visibleInPortal | indikatorenset
 12737 | true | true | Gesundheitsversorgung
 21847 | true | true | 
 22143 | true | false | Legislaturplan (Print)
+22291 | true | true | Wohnraumschutz
+22343 | true | true | Umwelt
+22344 | true | true | Umwelt

@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im März 2025 bei 4,3% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 4,0% und ist ebenfalls höher als im Vorjahr.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Mai 2025 bei 4,2% und ist damit höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) liegt bei 3,9% und ist ebenfalls höher als im Vorjahr.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2018-2020 verwendet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:22",
+		"aktualisierungsdatum": "2025-06-05T08:30:31",
 		"id": 7510
 	},
 	{
@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende März 2025 sind in Basel-Stadt mehr offene Stellen gemeldet als ein Jahr zuvor. Die Zahl der meldepflichtigen Stellen hat im Vergleich zum Vorjahresmonat zugenommen, während sich die Zahl der nicht meldepflichtigen Stellen verringert hat.",
+		"lesehilfe": "Ende Mai 2025 sind in Basel-Stadt weniger offene Stellen gemeldet als ein Jahr zuvor. Die Zahlen der meldepflichtigen sowie nicht meldepflichtigen Stellen haben im Vergleich zum Vorjahresmonat abgenommen.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Massgebend ist die Arbeitslosenquote nach Berufsgruppe im Vorjahr.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -70,7 +70,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:23",
+		"aktualisierungsdatum": "2025-06-05T08:30:33",
 		"id": 7511
 	},
 	{
@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im März 2025 0,5%; dies nach 0,5% im Januar und 0,6% im Februar. Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Mai 2025 -0,1%. Sie ist somit zum ersten Mal seit März 2021 negativ (damals ebenfalls -0,1%). Für das vergangene Jahr 2024 resultierte eine durchschnittliche Jahresteuerung von 0,9%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2025 und Januar 2024.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-03T08:35:39",
+		"aktualisierungsdatum": "2025-06-03T08:37:40",
 		"id": 7512
 	},
 	{
@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im März 2025 gegenüber Februar 2025 unverändert bei 106,8 Punkte geblieben.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Mai 2025 gegenüber April um 0,1% gestiegen und beträgt 106,9 Punkte.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,45 +147,8 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-03T08:35:41",
+		"aktualisierungsdatum": "2025-06-03T08:37:42",
 		"id": 7513
-	},
-	{
-		"template": "template001",
-		"data-id": 7515,
-		"chart-id": 7515,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Bilanz der Wohnbevölkerung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
-		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Bilanz der Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.07515",
-		"kennzahlenset": "Monatsindikatoren",
-		"kuerzelKunde": "",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_003",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T09:25:06",
-		"id": 7515
 	},
 	{
 		"template": "line001",
@@ -196,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "125 592 Logiernächte wurden im März 2025 in den Basler Hotelbetrieben gebucht, 28 002 bzw. 28,7% mehr als im Februar. Im Vergleich zum März 2024 entspricht dies einer Zunahme um 20,0% bzw. 20 972 Übernachtungen. Die inländischen Gäste buchten 51 255 Logiernächte (+32,4%), die Gäste aus dem Ausland 74 337 Übernachtungen (+12,8%).",
+		"lesehilfe": "150 854 Logiernächte wurden im Mai 2025 in den Basler Hotelbetrieben gebucht, 27 303 bzw. 22,1% mehr als im April. Im Vergleich zum Mai 2024 entspricht dies einer Zunahme um 8,4% bzw. 11 676 Übernachtungen. Die inländischen Gäste buchten 60 871 Logiernächte (+15,3%), die Gäste aus dem Ausland 89 983 Übernachtungen (+4,2%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-23T09:32:30",
+		"aktualisierungsdatum": "2025-06-24T07:16:58",
 		"id": 7516
 	},
 	{
@@ -232,8 +195,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, März",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien ausser den nicht klassierten Hotels über 45%.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Rund 85 Prozent der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien ausser den nicht klassierten Hotels über 55%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-23T09:32:32",
+		"aktualisierungsdatum": "2025-06-24T07:16:59",
 		"id": 7517
 	},
 	{
@@ -269,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, März",
-		"lesehilfe": "Im März 2025 stieg die Einwohnerzahl gegenüber dem Vormonat in 11 Wohnvierteln und in Riehen. In sieben Wohnvierteln und in der Gemeinde Bettingen ging sie zurück. Im Wohnviertel Matthäus veränderte sich die Einwohnerzahl nicht",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2025 sank die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln. In elf Wohnvierteln und in den Gemeinden Riehen und Bettingen stieg sie. Im Klybeck blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-22T01:02:52",
+		"aktualisierungsdatum": "2025-06-23T07:59:09",
 		"id": 7763
 	},
 	{
@@ -308,7 +271,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im März 2025 rund 4400 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Mai 2025 knapp 4300 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 800 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -333,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:24",
+		"aktualisierungsdatum": "2025-06-05T08:30:34",
 		"id": 8980
 	},
 	{
@@ -370,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:25",
+		"aktualisierungsdatum": "2025-06-05T08:30:35",
 		"id": 8981
 	},
 	{
@@ -382,7 +345,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. In den Jahren 2021 und 2022 sind die Zahlen deutlich zurück gegangen. Die beantragte Kurzarbeit liegt seit September 2023 bei maximal 150 Personen.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. 2021 und 2022 ging die Zahl deutlich zurück. Seit Februar 2023 liegt sie unter 40.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt. Für April, Mai und Juni war die beantragte Kurzarbeit am höchsten und betraf mehr als 90 000 Personen. In den Jahren 2021 und 2022 sind die Zahlen deutlich zurück gegangen. Die beantragte Kurzarbeit liegt seit September 2023 bei maximal 160 Personen.<br><br>Wie viel Kurzarbeit wurde tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer Kurzarbeit abgerechnet. 2021 und 2022 ging die Zahl deutlich zurück. Seit Februar 2023 liegt sie unter 50.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit zwei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -407,7 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-08T09:47:26",
+		"aktualisierungsdatum": "2025-06-05T08:30:36",
 		"id": 8992
 	}
 ];

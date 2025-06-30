@@ -5,11 +5,13 @@ var indikatorensetData = [
 		"chart-id": 11899,
 		"filter": "",
 		"parentId": null,
-		"children": [],
-		"title": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"children": [
+			22305
+		],
+		"title": "Bevölkerungsszenarien 2025-2055, Bundesamt für Statistik",
 		"subtitle": "Ständige Wohnbevölkerung, Basel-Stadt",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Das Referenzszenario (AR-00-2020) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2020) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2020) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
+		"lesehilfe": "Gemäss Referenzszenario des BFS steigt die ständige Wohnbevölkerung von 200 031 Personen im Jahr 2023 auf 212 809 Personen im Jahr 2055.",
+		"erlaeuterungen": "Das Referenzszenario (AR-00-2025) schreibt die im Lauf der letzten Jahrzehnte beobachteten Entwicklungen fort. Das «hohe» Szenario (BR-00-2025) kombiniert die Hypothesen, die das Bevölkerungswachstum begünstigen. Das «tiefe» Szenario (CR-00-2025) geht von Hypothesen aus, die dem Bevölkerungswachstum weniger förderlich sind.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
 		],
@@ -20,10 +22,10 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Bevölkerungsszenarien 2020-2050, Bundesamt für Statistik",
+		"description": "Bevölkerungsszenarien 2025-2055, Bundesamt für Statistik",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.11899",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 1-2",
 		"stufe1": "Querschnittsthemen",
@@ -35,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:07",
+		"aktualisierungsdatum": "2025-05-27T10:03:14",
 		"id": 11899
 	},
 	{
@@ -200,8 +202,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"lesehilfe": "Im Jahr 2024 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 24,4% der gesamten Kantonsfläche und 17,2% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16,5% respektive 15,1%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. Seit 2021 finden alle drei Jahre Befliegungen statt, um die Entwicklung der Kronenbedeckung verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
@@ -228,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-06T07:28:48",
+		"aktualisierungsdatum": "2025-05-20T08:24:58",
 		"id": 11905
 	},
 	{
@@ -240,8 +242,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 24 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 3 Tropennächte verzeichnet wurden.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
+		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
 			"Lufthygieneamt beider Basel",
@@ -249,7 +251,7 @@ var indikatorensetData = [
 			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -270,7 +272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:18",
+		"aktualisierungsdatum": "2025-05-21T02:31:52",
 		"id": 11906
 	},
 	{
@@ -319,7 +321,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Langzeitbelastungsindex",
 		"subtitle": "Basel-Stadt und Umgebung",
-		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2023 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,85 beträgt.",
+		"lesehilfe": "Der Langzeitbelastungsindex für die Stadt Basel lag 2024 bei 2,3. Er liegt damit höher als in der Agglomeration, wo er 1,9 beträgt.",
 		"erlaeuterungen": "Der Langzeitbelastungsindex (LBI) ist ein Mischindex zur Luftbelastung, der den Auswirkungen auf die menschliche Gesundheit durch die chronische Einwirkung von verschmutzter Luft Rechnung trägt. Er kann Werte von 1 (gering) bis 6 (sehr hoch) annehmen. Der LBI wird auf Basis der jährlichen Werte der Konzentrationen der drei Schadstoffe Feinstaub (PM10), Stickstoffdioxid (NO<sub>2</sub>) und Ozon (O<sub>3</sub>) berechnet. Die Konzentrationen dieser drei Schadstoffe werden in Bezug zu den Immissionsgrenzwerten der Luftreinhalte-Verordnung (LRV) gesetzt. Die sich daraus ergebenden Werte werden zusätzlich aufgrund der unterschiedlichen chronischen gesundheitlichen Auswirkungen dieser Schadstoffe gewichtet (4,5 für PM10, 4,5 für NO<sub>2</sub>, 1 für O<sub>3</sub>). Die Berechnung des LBI ist in der Empfehlung Nr. 27 der Schweizerischen Gesellschaft der Lufthygiene-Fachleute (Cercl'Air) im Detail beschrieben.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -346,7 +348,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:34",
+		"aktualisierungsdatum": "2025-05-21T02:31:55",
 		"id": 11908
 	},
 	{
@@ -358,13 +360,13 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Strukturen der Fliessgewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 47 km Fliessstrecke werden 2014 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
-		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wurde eine Fliesstrecke von insgesamt 47 km bewertet. Die Daten wurden im Jahr 2014 im Rahmen der Revitalisierungsplanung aktualisiert und neu der Rhein miteinbezogen.",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
-			"<a href = 'http://www.modul-stufen-konzept.ch/fg/index' target = '_blank'>Modul-Stufen-Konzept des Bundesamtes für Umwelt</a>"
+			"<a href = 'http://www.modul-stufen-konzept.ch' target = '_blank'>Modul-Stufen-Konzept des Bundesamtes für Umwelt</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -372,7 +374,7 @@ var indikatorensetData = [
 		],
 		"description": "Strukturen der Fliessgewässer",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-1",
@@ -385,7 +387,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:03",
+		"aktualisierungsdatum": "2025-05-21T02:31:47",
 		"id": 11909
 	},
 	{
@@ -394,10 +396,12 @@ var indikatorensetData = [
 		"chart-id": 11910,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22316
+		],
 		"title": "Revitalisierungsrate Oberflächengewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen 2015 und 2023 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
+		"lesehilfe": "Seit 2015 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
 		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -422,7 +426,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:29",
+		"aktualisierungsdatum": "2025-06-05T08:30:40",
 		"id": 11910
 	},
 	{
@@ -446,7 +450,7 @@ var indikatorensetData = [
 		],
 		"description": "Waldfläche",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 10-3",
@@ -459,7 +463,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:04",
+		"aktualisierungsdatum": "2025-05-21T02:31:50",
 		"id": 11911
 	},
 	{
@@ -579,11 +583,13 @@ var indikatorensetData = [
 		"chart-id": 11916,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22321
+		],
 		"title": "Trinkwasserverbrauch Haushalte und Kleingewerbe",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "2023 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 12,2 Mio. m<sup>3</sup>.",
-		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
+		"lesehilfe": "2024 belief sich der Trinkwasserverbrauch durch Haushalte und Kleingewerbe auf 11 Mio. m<sup>3</sup>.",
+		"erlaeuterungen": "Jährliche Wassermenge ab dem öffentlichen Netz, welche durch Haushalte und Kleingewerbe verbraucht wird. Private Quellen und Grundwasserfassungen werden dabei nicht berücksichtigt. Die Zuteilung des Wasserverbrauches auf die Verbrauchergruppen wurde 2015 revidiert. Die Daten vor 2015 sind nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Industrielle Werke Basel (IWB)"
 		],
@@ -607,7 +613,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:30",
+		"aktualisierungsdatum": "2025-06-12T07:33:30",
 		"id": 11916
 	},
 	{
@@ -616,11 +622,13 @@ var indikatorensetData = [
 		"chart-id": 11917,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22322
+		],
 		"title": "Wasserverbrauch Gewerbe und Industrie",
 		"subtitle": "in Mio. m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2023 auf gesamthaft 20,7 Mio. m<sup>3</sup>. Davon entfielen 13,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
-		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauchs auf die Verbrauchergruppen wurde für die Jahre ab 2015 revidiert. Die Daten vor 2015 sind entsprechend nicht direkt mit jenen nach 2015 vergleichbar.",
+		"lesehilfe": "Der Wasserverbrauch durch Gewerbe und Industrie belief sich 2024 auf gesamthaft 21,1 Mio. m<sup>3</sup>. Davon entfielen 14,3 Mio. m<sup>3</sup> auf private Grundwasserförderungen.",
+		"erlaeuterungen": "Jährliche Brauchwassermenge der Industrie und des Gewerbes für Kühlung und Produktion; sowohl Verbrauch aus dem öffentlichen Netz als auch private Grundwasserförderungen. Die Daten werden durch die IWB (Summe von Verbrauch durch Gewerbe, Temporär, Bau, Industrie) und das Amt für Umwelt und Energie (Grundwasserförderung privat) erhoben. Die Zuteilung des Wasserverbrauches auf die Verbrauchergruppen wurde 2015 revidiert. Die Daten vor 2015 sind nicht direkt mit jenen nach 2015 vergleichbar.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Industrielle Werke Basel-Stadt (IWB)"
 		],
@@ -644,7 +652,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:31",
+		"aktualisierungsdatum": "2025-06-05T08:30:41",
 		"id": 11917
 	},
 	{
@@ -653,10 +661,12 @@ var indikatorensetData = [
 		"chart-id": 11918,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22323
+		],
 		"title": "Wassertemperatur Grundwasser",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,3 und 17,6 °C.",
+		"subtitle": "in C°, Basel-Stadt",
+		"lesehilfe": "2024 beträgt die mittlere Temperatur des Grundwassers 15,3 °C. Für 90% aller Messstellen liegt der Wert dabei im Jahresmittel zwischen 13,0 und 17,5 °C.",
 		"erlaeuterungen": "Die Grundwassertemperatur wird an mehreren Messstellen (aktuell rund 80) kontinuierlich gemessen, und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Zusätzlich werden die 5%- und 95%-Quantile bestimmt, um die Schwankungsbreite der Grundwassertemperaturen (ohne Ausreisser) darzustellen. Aus den Daten lässt sich ableiten, dass die Grundwassertemperaturen gegenüber natürlichen Verhältnissen anthropogen stark erhöht sind. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -681,7 +691,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:32",
+		"aktualisierungsdatum": "2025-06-12T07:33:31",
 		"id": 11918
 	},
 	{
@@ -745,7 +755,7 @@ var indikatorensetData = [
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.5201",
+		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 5-2",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -757,7 +767,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:22",
+		"aktualisierungsdatum": "2025-06-19T07:43:15",
 		"id": 5201
 	},
 	{
@@ -772,9 +782,9 @@ var indikatorensetData = [
 			8978
 		],
 		"title": "Bevölkerungsdichte",
-		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2023",
-		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2023 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2004 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +50,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
-		"erlaeuterungen": "",
+		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Mit 254,8 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2024 die höchste Bevölkerungsdichte auf. Im Vergleich zu 2005 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental mit +49,8 Einwohnern pro Hektar; dies aufgrund der Bebauung des Erlenmattareals.",
+		"erlaeuterungen": "Es wurden ausschliesslich Personen an Wohnadressen ausgewertet (ohne Meldeadressen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -786,7 +796,7 @@ var indikatorensetData = [
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.5202",
+		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 5-3",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
@@ -798,7 +808,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:23",
+		"aktualisierungsdatum": "2025-05-27T10:03:14",
 		"id": 5202
 	},
 	{
@@ -812,7 +822,7 @@ var indikatorensetData = [
 		],
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 pendeln rund 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 61% von ihnen aus der Schweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
+		"lesehilfe": "Im Jahr 2023 pendeln rund 92 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 63% von ihnen aus der Schweiz. Rund 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -838,7 +848,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-06T09:57:41",
+		"aktualisierungsdatum": "2025-06-05T08:30:43",
 		"id": 5203
 	},
 	{
@@ -1045,9 +1055,9 @@ var indikatorensetData = [
 			6250
 		],
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
-		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2022 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, verfügen die Wohnviertel Bruderholz und Bachletten über die höchsten Werte.",
-		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
+		"lesehilfe": "Die grösste Bruttogeschossfläche (BGF) Wohnen weist im Jahr 2023 die Gemeinde Riehen vor dem Wohnviertel Gundeldingen auf. Werden die Anteile der BGF Wohnen an der gesamten BGF betrachtet, erreichen die Wohnviertel Bruderholz und Bachletten die höchsten Werte.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -1071,7 +1081,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:45",
+		"aktualisierungsdatum": "2025-05-21T02:31:53",
 		"id": 5818
 	},
 	{
@@ -1164,7 +1174,7 @@ var indikatorensetData = [
 		"title": "Anteil Einwohnerinnen und Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Fast zwei Drittel der Wohnbevölkerung des Kantons Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 30% in einem Gebiet der Güteklasse B. Die Anteile haben sich in den letzten Jahren kaum verändert.",
-		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
+		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnortes einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -1191,7 +1201,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:34",
+		"aktualisierungsdatum": "2025-06-05T08:30:45",
 		"id": 5822
 	},
 	{
@@ -1243,9 +1253,9 @@ var indikatorensetData = [
 			6255
 		],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2022",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2022 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
-		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können. Aufgrund eines Methodenwechsels sind die Daten der Jahre seit 2020 nicht direkt mit denjenigen der Vorjahre vergleichbar. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2023 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
+		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
@@ -1269,7 +1279,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:46",
+		"aktualisierungsdatum": "2025-06-03T08:37:44",
 		"id": 5825
 	},
 	{
@@ -1564,7 +1574,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2021 beträgt dieser Anteil 49%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 20% eine auf Niveau Sekundarstufe I.",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2023 beträgt dieser Anteil knapp 50%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und knapp 20% eine auf Niveau Sekundarstufe I.",
 		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal obligatorische Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1582,7 +1592,7 @@ var indikatorensetData = [
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 9-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 9: Bedingugen für Wirtschaft und Bildung verbessern",
+		"stufe2": "Strategie 9: Bedingungen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1590,7 +1600,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-12T07:39:19",
+		"aktualisierungsdatum": "2025-06-19T07:43:17",
 		"id": 6218
 	},
 	{
@@ -1749,7 +1759,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-18T11:11:44",
+		"aktualisierungsdatum": "2025-05-21T02:31:51",
 		"id": 7774
 	},
 	{
@@ -1897,7 +1907,8 @@ var indikatorensetData = [
 			"Bundesamt für Strassen (ASTRA)"
 		],
 		"externalLinks": [
-			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
+			"<a href = 'https://www.astra.admin.ch/astra/de/home/fachleute/weitere-bereiche/fachanwendungen/ivz.html' target = '_blank'>IVZ - Informationssystem Verkehrszulassung</a>",
+			"<a href = 'https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/fahrzeugdaten.html' target = '_blank'>Infos zu den Fahrzeugdaten des ASTRA</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -1918,7 +1929,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:25",
+		"aktualisierungsdatum": "2025-06-19T07:43:14",
 		"id": 7779
 	},
 	{

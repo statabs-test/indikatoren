@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          77.52
+          78.31
         ],
         [
           "Bern",
-          82.86
+          83.1
         ],
         [
           "Genf",
-          72.44
+          73.88
         ],
         [
           "Lausanne",
-          74.98
+          76.1
         ],
         [
           "Zürich",
-          80.73
+          82.42
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          74.92
+          75.88
         ],
         [
           "Bern",
-          82.53
+          82.99
         ],
         [
           "Genf",
-          68.54
+          69.73
         ],
         [
           "Lausanne",
-          72.82
+          74.54
         ],
         [
           "Zürich",
-          81.15
+          82.86
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          77.72
+          78.95
         ],
         [
           "Bern",
-          83.03
+          83.16
         ],
         [
           "Genf",
-          70.21
+          72.09
         ],
         [
           "Lausanne",
-          76.07
+          76.9
         ],
         [
           "Zürich",
-          80.54
+          82.23
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          74.96
+          75.5
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          77.18
+          77.64
         ],
         [
           "Lausanne",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 23.1.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

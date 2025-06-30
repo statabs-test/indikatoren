@@ -323,10 +323,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6011",
 		"children": [],
-		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"title": "Wanderungssaldo",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 1 353 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo. Die meisten Wegzüger des Jahres 2023 (insgesamt rund 4 500 Personen) gingen ins Ausland. Die meisten Zuzüger kamen ebenfalls aus dem Ausland nach Basel-Stadt, zuletzt ca. 8 100 Personen.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
+		"lesehilfe": "2024 ergab sich durch Zu- und Wegzüge im Kanton Basel-Stadt ein Plus von 1 133 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -335,9 +335,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"description": "Wanderungssaldo",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Wanderungen",
 		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE6",
@@ -350,7 +350,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-01T08:57:37",
+		"aktualisierungsdatum": "2025-05-16T09:31:46",
 		"id": 5155
 	},
 	{
@@ -359,10 +359,12 @@ var indikatorensetData = [
 		"chart-id": 5160,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			8890
+		],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2023 liegt sie mit -0,6 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2024 liegt sie mit -0,5 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -387,7 +389,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:49",
+		"aktualisierungsdatum": "2025-06-05T08:30:39",
 		"id": 5160
 	},
 	{
@@ -633,11 +635,11 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			8900,
-			8901
+			9926
 		],
 		"title": "Quote der Haushalte mit Prämienverbilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In 15,9% der Haushalte bezieht Ende des Jahres 2023 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im zweiten Jahr in Folge.",
+		"lesehilfe": "In 15,4% der Haushalte bezieht Ende des Jahres 2024 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im dritten Jahr in Folge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -655,15 +657,15 @@ var indikatorensetData = [
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW5",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Gesundheit",
+		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_02_00_00_00_305",
+		"orderKey": "03_03_00_00_00_305",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:42",
+		"aktualisierungsdatum": "2025-04-30T12:03:01",
 		"id": 5183
 	},
 	{
@@ -1096,7 +1098,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-24T12:45:41",
+		"aktualisierungsdatum": "2025-06-19T07:43:12",
 		"id": 5795
 	},
 	{
@@ -1225,7 +1227,7 @@ var indikatorensetData = [
 		],
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Die Jahresmittelwerte liegen 2023 alle unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 13,85 μg/m<sup>3</sup> für PM10 und 9,5 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 18,9 μg/m<sup>3</sup>.",
+		"lesehilfe": "Alle Jahresmittelwerte liegen 2024 unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 12,5 μg/m<sup>3</sup> für PM10 und 8,8 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 17,4 μg/m<sup>3</sup>.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 seit 2019, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -1253,7 +1255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:38",
+		"aktualisierungsdatum": "2025-05-02T08:43:13",
 		"id": 6029
 	},
 	{
@@ -1899,7 +1901,7 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat sich von 3,0% im Jahr 2022 auf 3,1% im Jahr 2023 kaum verändert. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) blieb von 3,1% im Jahr 2022 auf 3,2% 2023 ebenfalls fast unverändert. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 2,7% im Jahr 2023 weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat von 3,1% im Jahr 2023 auf 3,8% im Jahr 2024 zugenommen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2024 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,2% im Jahr 2024 weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1911,8 +1913,8 @@ var indikatorensetData = [
 		],
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kuerzel": "I.03.4.06053",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "WE12",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
@@ -1924,7 +1926,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-10T07:47:39",
+		"aktualisierungsdatum": "2025-04-30T12:03:03",
 		"id": 6053
 	},
 	{
@@ -1977,8 +1979,8 @@ var indikatorensetData = [
 		],
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2023 liegt die Platzzahl bei 4 492. Auch die Tagesstrukturen wurden stetig ausgebaut: 2023 bieten die Frühhorte Platz für 720 Kinder, die Mittagsmodule  4 080 und die Nachmittagsmodule 3 748 Plätze.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Mittags- und Nachmittagsmodule werden einerseits von schuleigenen und andererseits schulexternen Tagesstrukturen bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, gibt es keine feste Anzahl Plätze. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2024 liegt die Platzzahl bei 4 605. Auch die Tagesstrukturen wurden stetig ausgebaut: 2024 bieten die Frühhorte Platz für 720 Kinder, die Mittagsmodule 4 240 und die Nachmittagsmodule 3 908 Plätze.",
+		"erlaeuterungen": "Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober. <br>Tagesstrukturen: Schuleigene und -externe Tagesstrukturen stellen Mittags- und Nachmittagsmodule bereit. Stichwoche im September.<br>Sekundarschulen bieten ebenfalls Verpflegungsangebote an und die Möglichkeit, dass sich Schüler und Schülerinnen am Nachmittag beaufsichtigt in den Schulräumlichkeiten aufhalten. Hier besteht keine Anmeldepflicht, und es gibt keine fixe Anzahl an Plätzen. Aus diesem Grund berücksichtigen wir diese Plätze nicht in der Grafik.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -2003,7 +2005,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:32",
+		"aktualisierungsdatum": "2025-05-02T08:43:14",
 		"id": 6055
 	},
 	{
@@ -2136,8 +2138,8 @@ var indikatorensetData = [
 		],
 		"title": "Baumkronenbedeckung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2021 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 25,4% der gesamten Kantonsfläche und 18% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16% respektive 15,7%.",
-		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. In Zukunft werden alle 3 Jahre neue Befliegungen stattfinden, um die Entwicklung der Kronenbedeckung noch besser verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
+		"lesehilfe": "Im Jahr 2024 betrug die Kronenbedeckung (durch Bäume beschattete Fläche) 24,4% der gesamten Kantonsfläche und 17,2% der Stadt Basel. Schliesst man die reinen Waldflächen von der Betrachtung aus, so reduzieren sich die Anteile auf 16,5% respektive 15,1%.",
+		"erlaeuterungen": "Durch flugzeuggestützte Laserabtastung der Oberfläche (LiDAR - Light Detecting And Ranging) werden Daten zur Kronenbedeckung abgeleitet. Seit 2021 finden alle drei Jahre Befliegungen statt, um die Entwicklung der Kronenbedeckung verfolgen zu können. <br>Berücksichtigt werden bei der Auswertung nur Kronen mit einer Höhe über 3 m. Die LiDAR-Methodologie wurde in den letzten Jahren verbessert. Änderungen unter 1% (zwischen 2012 und 2021) sollten nicht als reale Veränderungen betrachtet und mit Vorsicht interpretiert werden. Es gibt eine gewisse Variabilität bei Flugmethode, Flugzeitpunkt und Klassifizierungsmethode; diese befindet sich im Prozentbereich.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
@@ -2154,17 +2156,17 @@ var indikatorensetData = [
 		"unterthema": "Landschaft",
 		"kuerzel": "I.02.13.6574",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL17",
+		"kuerzelKunde": "NL18",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_417",
+		"orderKey": "04_02_00_00_00_418",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-06T07:28:46",
+		"aktualisierungsdatum": "2025-05-20T08:24:57",
 		"id": 6574
 	},
 	{
@@ -2254,7 +2256,7 @@ var indikatorensetData = [
 		],
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2023 57,5, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,5 Personen, die jünger oder älter sind.",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2024 57,8, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,8 Personen, die jünger oder älter sind.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2267,7 +2269,7 @@ var indikatorensetData = [
 		"description": "Abhängigkeitsquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.08379",
+		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "BE4",
 		"stufe1": "Bereich Bevölkerung",
@@ -2279,7 +2281,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:35",
+		"aktualisierungsdatum": "2025-05-27T10:03:11",
 		"id": 8379
 	},
 	{
@@ -2445,8 +2447,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 24 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 3 Tropennächte verzeichnet wurden.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
+		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
 			"Lufthygieneamt beider Basel",
@@ -2454,7 +2456,7 @@ var indikatorensetData = [
 			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -2465,17 +2467,17 @@ var indikatorensetData = [
 		"unterthema": "Klima",
 		"kuerzel": "I.02.12.08455",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL13",
+		"kuerzelKunde": "NL16",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_02_00_00_00_413",
+		"orderKey": "04_02_00_00_00_416",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T08:39:32",
+		"aktualisierungsdatum": "2025-05-21T02:31:45",
 		"id": 8455
 	},
 	{
@@ -2772,7 +2774,7 @@ var indikatorensetData = [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
 		],
 		"externalLinks": [
-			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/uebertritte-verlaeufe-bildungsbereich/abschlussquoten.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -2794,7 +2796,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-11T07:18:40",
+		"aktualisierungsdatum": "2025-05-20T08:24:55",
 		"id": 9733
 	},
 	{
@@ -2803,10 +2805,12 @@ var indikatorensetData = [
 		"chart-id": 9734,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12547
+		],
 		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,1% der baselstädtischen Haushalte erhalten Ende 2023 Familienmietzinsbeiträge. Diese Quote bleibt gegenüber dem Vorjahr unverändert.",
+		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende 2024 Familienmietzinsbeiträge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2828,11 +2832,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "03_05_00_00_00_317",
+		"orderKey": "03_06_00_00_00_317",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-18T09:00:41",
+		"aktualisierungsdatum": "2025-05-15T07:11:45",
 		"id": 9734
 	},
 	{
@@ -2885,7 +2889,7 @@ var indikatorensetData = [
 		],
 		"title": "Energieeffizienz",
 		"subtitle": "Indexwert (Basis 2000 = 100), Basel-Stadt",
-		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken. 2022 wurde also weniger Energie eingesetzt um einen Franken zu erwirtschaften und pro Person wurde weniger Energie verbraucht als im Jahr 2000.",
+		"lesehilfe": "Die Energieeffizienz, das Verhältnis des Bruttoinlandproduktes (BIP) zum Bruttoenergieverbrauch, ist zwischen 2000 und 2022 um 203,2% gestiegen. Der Bruttoenergieverbrauch pro Kopf ist in derselben Periode um 39,0% gesunken. 2022 wurde also weniger Energie eingesetzt, um einen Franken zu erwirtschaften, und pro Person wurde weniger Energie verbraucht als im Jahr 2000.",
 		"erlaeuterungen": "Entwicklung des Energieverbrauchs im Kontext der wirtschaftlichen Produktion (BIP/Bruttoenergieverbrauch) sowie der Bevölkerungsentwicklung (Bruttoenergieverbrauch/mittlere Wohnbevölkerung), jeweils indexiert auf das Basisjahr 2000.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik"
@@ -2913,7 +2917,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:58:55",
+		"aktualisierungsdatum": "2025-06-30T07:40:07",
 		"id": 9736
 	},
 	{

@@ -820,7 +820,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat im Jahr 2022 auf 169 344 zugenommen. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihr Vermögen in der Regel in Basel-Stadt.",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat im Jahr 2023 auf 170 874 zugenommen. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihr Vermögen in der Regel in Basel-Stadt.",
 		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
@@ -833,7 +833,7 @@ var indikatorensetData = [
 		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.4148",
+		"kuerzel": "I.01.1.04148",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzelKunde": "2.2.A",
 		"stufe1": "Ziel 2: Fiskalpolitik",
@@ -845,7 +845,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:36",
+		"aktualisierungsdatum": "2025-05-12T03:17:08",
 		"id": 4148
 	},
 	{
@@ -978,10 +978,10 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge betragen 2022 rund 11,3 Mio. Franken. Sie sind nach zuvor kontinuierlichem Anstieg das zweite Jahr in Folge gesunken.",
-		"erlaeuterungen": "Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge (FAMI) betragen 2024 insgesamt rund 12,1 Mio. Franken.",
+		"erlaeuterungen": "Familien, die in bescheidenen wirtschaftlichen Verhältnissen leben, können Beiträge an den Mietzins ihrer Wohnung erhalten. Der Bezug von Familienmietzinsbeiträgen (FAMI) setzt unter anderem voraus, dass das Einkommen eines Haushalts eine bestimmte Grenze nicht überschreitet, dass in dem Haushalt Kinder leben und dass der Wohnsitz seit mindestens fünf Jahren im Kanton Basel-Stadt liegt.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -999,11 +999,11 @@ var indikatorensetData = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "05_01_00_00_00_000",
+		"orderKey": "05_01_00_00_00_027",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-22T02:05:16",
+		"aktualisierungsdatum": "2025-05-13T02:46:12",
 		"id": 4153
 	},
 	{
@@ -1054,7 +1054,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende des Jahres 2023 beziehen 2 144 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt. Ende 2022 waren es ebenfalls 2,1%. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2021 zurück.",
+		"lesehilfe": "Ende des Jahres 2024 beziehen 2 092 Haushalte Familienmietzinsbeiträge. Dies entspricht 2% aller Haushalte im Kanton Basel-Stadt. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2020 zurück.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -1079,7 +1079,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-25T03:27:36",
+		"aktualisierungsdatum": "2025-04-30T12:03:00",
 		"id": 9292
 	},
 	{
@@ -1091,7 +1091,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"lesehilfe": "2024 stehen 97 Notwohnungen und 104 Wohneinheiten nach WRFG bereit. Die Auslastungsquote beträgt 94%.",
 		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
@@ -1116,7 +1116,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-11T08:43:21",
+		"aktualisierungsdatum": "2025-05-15T07:11:39",
 		"id": 9924
 	}
 ];

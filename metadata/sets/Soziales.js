@@ -159,7 +159,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende des Jahres 2023 beziehen 2 144 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,1% aller Haushalte im Kanton Basel-Stadt. Ende 2022 waren es ebenfalls 2,1%. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2021 zurück.",
+		"lesehilfe": "Ende des Jahres 2024 beziehen 2 092 Haushalte Familienmietzinsbeiträge. Dies entspricht 2% aller Haushalte im Kanton Basel-Stadt. Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte geht seit 2020 zurück.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:36",
+		"aktualisierungsdatum": "2025-04-30T12:02:53",
 		"id": 4152
 	},
 	{
@@ -198,7 +198,7 @@ var indikatorensetData = [
 		],
 		"title": "Bestand und Auslastungsquote der Notwohnungen und Wohneinheiten nach WRFG",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zum Jahresende 2023 stehen 116 Notwohnungen zur Verfügung. Nach WRFG stehen 82 Wohneinheiten bereit. Damit stehen insgesamt 198 Wohnmöglichkeiten zur Verfügung. Über alle Wohnmöglichkeiten gesehen, resultiert zum Ende des Jahres 2023 eine Auslastungsquote von 90%.",
+		"lesehilfe": "2024 stehen 97 Notwohnungen und 104 Wohneinheiten nach WRFG bereit. Die Auslastungsquote beträgt 94%.",
 		"erlaeuterungen": "Bestand am Ende des Jahres. Die Sozialhilfe des Kantons Basel-Stadt kann Wohnungen einerseits an Familien und Personen in Not, andererseits im Rahmen des Sozialen Wohnens nach dem Gesetz über die Wohnraumförderung (WRFG) vermieten. Das Angebot des Sozialen Wohnens nach WRFG umfasst auch Einzelzimmer. Die Auslastungsquote unterscheidet nicht zwischen Notwohnen und Sozialem Wohnen. Sie entspricht dem Verhältnis der belegten Wohnungen und Einzelzimmer zum Gesamtbestand an Wohnmöglichkeiten im Sinne des Notwohnens und des Sozialen Wohnens nach WRFG. Die Datenquelle wurde 2024 für den gesamten Beobachtungszeitraum rückwirkend angepasst und die Datenbasis vereinheitlicht.",
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Wohnen"
@@ -223,7 +223,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:39",
+		"aktualisierungsdatum": "2025-05-02T08:43:07",
 		"id": 4154
 	},
 	{
@@ -343,43 +343,6 @@ var indikatorensetData = [
 		"id": 9294
 	},
 	{
-		"template": "line001",
-		"data-id": 9295,
-		"chart-id": 9295,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Minderjährige weisen 2022 mit 8,5% die höchste Sozialhilfequote im Kanton auf. Mit 4,8% ist die Sozialhilfequote der 26- bis 35-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Stand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt<br>Die Berechnungsmethode wurde 2022 für die Jahre ab 2017 rückwirkend angepasst.",
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Sozialhilfequote nach Altersgruppe",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kuerzel": "I.13.2.09295",
-		"kennzahlenset": "Soziales",
-		"kuerzelKunde": "1-04",
-		"stufe1": "Kernindikatoren",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "01_00_00_00_00_004",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-05-25T07:08:40",
-		"id": 9295
-	},
-	{
 		"template": "template001",
 		"data-id": 9915,
 		"chart-id": 9915,
@@ -388,7 +351,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Stipendien nach Ausbildungstyp",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 werden insgesamt 1 877 Stipendien vergeben. Davon gehen 28% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. 36% der Begünstigten befinden sich in der beruflichen Grundbildung und 35% absolvieren eine Ausbildung auf Tertiärstufe. 8 Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
+		"lesehilfe": "2024 werden insgesamt 1 822 Stipendien vergeben. Davon gehen 27% an Personen in Gymnasien und anderen Schulen für Allgemeinbildung. 38% der Begünstigten befinden sich in der beruflichen Grundbildung und 35% absolvieren eine Ausbildung auf Tertiärstufe. Zwei Stipendien gehen an Personen in übrigen weiterführenden Ausbildungen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Ausbildungsbeiträge Basel-Stadt"
@@ -399,7 +362,7 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Anzahl Stipendien nach Ausbildungstyp",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "15 Bildung",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09915",
 		"kennzahlenset": "Soziales",
@@ -413,7 +376,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-17T08:40:17",
+		"aktualisierungsdatum": "2025-06-12T07:33:26",
 		"id": 9915
 	},
 	{
@@ -425,8 +388,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Kostenübernahmegarantien nach Leistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von den insgesamt 3 316 Kostenübernahmegarantien per Ende 2023 entfallen 622 auf die Ambulante Wohnbegleitung.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "Von den insgesamt 3 392 Kostenübernahmegarantien per Ende 2024 entfallen 659 auf die ambulante Wohnbegleitung.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für ambulante Wohnbegleitung und begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -450,7 +413,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:17",
+		"aktualisierungsdatum": "2025-05-02T08:43:08",
 		"id": 9916
 	},
 	{
@@ -462,8 +425,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Personen mit Kostenübernahmegarantien",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2 254 Personen werden per Ende 2023 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 316 KüG zugute.",
-		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für Ambulante Wohnbegleitung und Begleitete Arbeit.",
+		"lesehilfe": "2 316 Personen werden per Ende 2024 mit mindestens einer Kostenübernahmegarantie (KüG) unterstützt. Den begünstigten Personen kommen insgesamt 3 392 KüG zugute.",
+		"erlaeuterungen": "Bestand per Ende des Jahres. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie. Eine Person kann mehrere Kostenübernahmegarantien erhalten, beispielsweise für ambulante Wohnbegleitung und begleitete Arbeit.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -487,7 +450,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:19",
+		"aktualisierungsdatum": "2025-05-02T08:43:09",
 		"id": 9917
 	},
 	{
@@ -538,7 +501,7 @@ var indikatorensetData = [
 		],
 		"title": "Quote der Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "71% der Personen mit IV erhalten zum Jahresende 2023 Ergänzungsleistungen (EL), 45% werden mittels Beihilfen unterstützt. Bei den Personen mit AHV liegt die Quote bei 22% bzw. 13%.",
+		"lesehilfe": "70% der Personen mit IV erhalten zum Jahresende 2024 Ergänzungsleistungen (EL), 46% werden mittels Beihilfen unterstützt. Bei den Personen mit AHV liegt die Quote bei 22% bzw. 13%.",
 		"erlaeuterungen": "Die Quote der Leistungsbeziehenden entspricht dem Verhältnis der Beziehenden von Ergänzungsleistungen bzw. Beihilfen zur Gesamtheit der Beziehenden von Renten per Ende Jahr. Ergänzungsleistungen und Beihilfen sind Zusatzleistungen zur Alters- und Hinterlassenenversicherung (AHV) und zur Invalidenversicherung (IV).",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen",
@@ -564,7 +527,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:17",
+		"aktualisierungsdatum": "2025-05-20T08:24:34",
 		"id": 9919
 	},
 	{
@@ -687,7 +650,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Quote der Haushalte mit Prämienverbilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In 15,9% der Haushalte bezieht Ende des Jahres 2023 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im zweiten Jahr in Folge.",
+		"lesehilfe": "In 15,4% der Haushalte bezieht Ende des Jahres 2024 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im dritten Jahr in Folge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -713,7 +676,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:07",
+		"aktualisierungsdatum": "2025-04-30T12:02:57",
 		"id": 9926
 	},
 	{
@@ -873,7 +836,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fälle der Alimentenhilfe nach Fallart",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 werden bei der Alimentenhilfe insgesamt 1 140 Fälle geführt. Davon werden in 591 Fällen Alimente bevorschusst, während in 549 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle der Alimentenhilfe ist im Beobachtungszeitraum rückläufig, steigt 2023 gegenüber dem Vorjahr jedoch an. Dies ist auf einen Ansteig bei den reinen Inkassofällen zurückzuführen.",
+		"lesehilfe": "Ende 2024 werden bei der Alimentenhilfe insgesamt 1 167 Fälle geführt. Davon werden in 579 Fällen Alimente bevorschusst, während in 588 Fällen nur das Inkasso durchgeführt wird. Die Gesamtzahl der Fälle steigt aufgrund der reinen Inkassofälle gegenüber dem Vorjahr an.",
 		"erlaeuterungen": "Bestand per Ende des Jahres. Ein Fall umfasst eine Mutter oder einen Vater mit einem oder mehreren Kindern mit Anrecht auf Alimentenbevorschussung. Bei reinen Inkassofällen führt die Alimentenhilfe das Inkasso durch, leistet aber keine Bevorschussung.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Alimentenhilfe"
@@ -898,7 +861,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:43:51",
+		"aktualisierungsdatum": "2025-05-02T08:43:12",
 		"id": 9933
 	}
 ];

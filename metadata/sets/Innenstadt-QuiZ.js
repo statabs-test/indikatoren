@@ -238,7 +238,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt leben im Jahr 2023 14 517 Menschen. Dies sind 12,4% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,0% auf 206 308.",
+		"lesehilfe": "In der Innenstadt leben im Jahr 2024 14 586 Menschen. Dies sind 12,9% mehr als 2008. Im Kanton Basel-Stadt wuchs die Einwohnerzahl in diesem Zeitraum um 9,7% auf 207 515.",
 		"erlaeuterungen": "Bevölkerungsbestand am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -252,7 +252,7 @@ var indikatorensetData = [
 		"description": "Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09581",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-1",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -264,7 +264,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:41",
+		"aktualisierungsdatum": "2025-05-20T08:24:41",
 		"id": 9581
 	},
 	{
@@ -276,7 +276,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "Basel-Stadt und Innenstadt",
-		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2023 bei 28,6%, im Kanton Basel-Stadt bei 33,2%.",
+		"lesehilfe": "In der Innenstadt liegt der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2024 bei 29,0%, im Kanton Basel-Stadt bei 33,0%.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung eines Gebietes in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -290,7 +290,7 @@ var indikatorensetData = [
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.09582",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "2.1-2",
 		"stufe1": "Ziel 2: Finanzkraft des Kantons Basel-Stadt stärken",
@@ -302,7 +302,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-05-03T08:44:43",
+		"aktualisierungsdatum": "2025-05-21T02:31:41",
 		"id": 9582
 	},
 	{
@@ -875,10 +875,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": "6011",
 		"children": [],
-		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"title": "Wanderungssaldo",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ergab sich durch Zu- und Wegzüger im Kanton Basel-Stadt ein Plus von 1 353 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo. Die meisten Wegzüger des Jahres 2023 (insgesamt rund 4 500 Personen) gingen ins Ausland. Die meisten Zuzüger kamen ebenfalls aus dem Ausland nach Basel-Stadt, zuletzt ca. 8 100 Personen.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden des Kantons Aargau.",
+		"lesehilfe": "2024 ergab sich durch Zu- und Wegzüge im Kanton Basel-Stadt ein Plus von 1 133 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -887,7 +887,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"description": "Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kuerzel": "",
@@ -902,7 +902,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-07T09:17:29",
+		"aktualisierungsdatum": "2025-06-05T08:30:37",
 		"id": 9599
 	},
 	{
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hotelübernachtungen",
 		"subtitle": "pro Einwohner, 2021",
-		"lesehilfe": "Im Jahr 2021 waren die Übernachtungszahlen in allen Agglomerationen leicht höher als 2020, aber immer noch deutlich tiefer als in den Jahren vor der Pandemie. Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
+		"lesehilfe": "Am meisten Hotelübernachtungen pro Einwohner werden 2021 in der Kernstadt Genf (5,4) registriert. In der Agglomeration Basel zeigen die Kernstadt (4,5 Hotelübernachtungen pro Einwohner) und die deutschen Gemeinden (2,7) eine höhere touristische Attraktivität als die übrige Agglomeration.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), City Statistics"
@@ -964,7 +964,7 @@ var indikatorensetData = [
 		"description": "Hotelübernachtungen",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
-		"kuerzel": "I.10.1.09601",
+		"kuerzel": "",
 		"kennzahlenset": "Innenstadt-QuiZ",
 		"kuerzelKunde": "5.3-2",
 		"stufe1": "Ziel 5: Internationale Ausstrahlung und Anziehungskraft Basels stärken",
@@ -976,7 +976,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-05T02:12:06",
+		"aktualisierungsdatum": "2025-05-21T02:31:43",
 		"id": 9601
 	},
 	{
