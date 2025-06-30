@@ -963,7 +963,10 @@ var afterFilter = function (result, jQ) {
       ? "#indikator-template-modal-indikatorenset"
       : "#indikator-template-modal-portal";
     var html = $(template).html();
+    console.log(template);
     var templateFunction = FilterJS.templateBuilder(html);
+    console.log(templateFunction);
+
     var container = $("#carousel-inner");
     //first remove all carousel divs
     container.children().remove();

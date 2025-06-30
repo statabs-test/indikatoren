@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Highcharts slide (object with id + kuerzel)
     if (typeof slide === "object" && slide.id) {
+      console.log(slide);
+      console.log("test");
       renderHighchartInModal(slide.id, slide.kuerzel);
     }
 
@@ -153,7 +155,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const id = el.dataset.id;
         const kuerzel = el.dataset.kuerzel;
         const src = el.dataset.src;
-        console.log(el.dataset);
 
         if (id) return { id, kuerzel };
         if (src) return src;
