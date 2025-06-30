@@ -97,6 +97,7 @@
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 0,
+      "stack": "group1",
       "visible": true,
       "data": [
         [
@@ -180,7 +181,7 @@
           124
         ]
       ],
-      "name": "Neubau innerhalb Arealentwicklungenn"
+      "name": "Neubau ausserhalb Arealentwicklungen"
     },
     {
       "color": "#67401E",
@@ -196,35 +197,35 @@
       "data": [
         [
           2005,
-          null
+          0
         ],
         [
           2006,
-          null
+          0
         ],
         [
           2007,
-          null
+          0
         ],
         [
           2008,
-          null
+          0
         ],
         [
           2009,
-          null
+          0
         ],
         [
           2010,
-          null
+          0
         ],
         [
           2011,
-          null
+          0
         ],
         [
           2012,
-          null
+          0
         ],
         [
           2013,
@@ -316,15 +317,13 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5
+      "stacking": "normal"
     }
   },
   "title": {

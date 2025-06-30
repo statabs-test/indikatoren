@@ -1,92 +1,94 @@
 {
   "series": [
     {
-      "color": "#A0BEC8",
+      "color": "#008AC3",
       "data": [
         [
-          2005,
-          14
+          "2017",
+          100
         ],
         [
-          2006,
-          134
-        ],
-        [
-          2007,
-          107
-        ],
-        [
-          2008,
+          "2018",
           125
         ],
         [
-          2009,
-          150
+          "2019",
+          173
         ],
         [
-          2010,
-          146
+          "2020",
+          180
         ],
         [
-          2011,
-          58
+          "2021",
+          245
         ],
         [
-          2012,
-          26
+          "2022",
+          111
         ],
         [
-          2013,
-          41
-        ],
-        [
-          2014,
-          53
-        ],
-        [
-          2015,
-          178
-        ],
-        [
-          2016,
-          75
-        ],
-        [
-          2017,
-          59
-        ],
-        [
-          2018,
-          114
-        ],
-        [
-          2019,
-          186
-        ],
-        [
-          2020,
-          154
-        ],
-        [
-          2021,
-          96
-        ],
-        [
-          2022,
-          138
-        ],
-        [
-          2023,
-          53
-        ],
-        [
-          2024,
-          77
+          "2023",
+          193
         ]
       ],
-      "name": "Abbruch"
+      "name": "BS",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8AB77D",
+      "data": [
+        [
+          "2017",
+          100
+        ],
+        [
+          "2018",
+          93
+        ],
+        [
+          "2019",
+          93
+        ],
+        [
+          "2020",
+          99
+        ],
+        [
+          "2021",
+          102
+        ],
+        [
+          "2022",
+          105
+        ],
+        [
+          "2023",
+          113
+        ]
+      ],
+      "name": "CH",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -123,7 +125,7 @@
     "type": "column",
     "inverted": false,
     "spacingBottom": 60,
-    "renderTo": "container-22296"
+    "renderTo": "container-22326"
   },
   "plotOptions": {
     "series": {
@@ -144,10 +146,10 @@
       "color": "#000000"
     },
     "useHTML": true,
-    "text": "Abgebrochene Wohnungen"
+    "text": "Förderzusagen Gebäudeprogramm"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "Verpflichtungen pro Jahr für Wärmedämmung indexiert (Basis 2017 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -155,25 +157,6 @@
       "color": "#000000"
     },
     "useHTML": true
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "type": "numeric",
-    "min": 2015,
-    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -198,13 +181,16 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "itemDistance": 3,
     "symbolPadding": 3,
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function () {
+      return this.name.split(' mit')[0];
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -225,13 +211,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.6.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} CHF\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "22296"
+    "filename": "22326"
   }
 }

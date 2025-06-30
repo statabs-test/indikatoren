@@ -2476,7 +2476,7 @@ id | visible | visibleInPortal | indikatorenset
 22291 | true | true | Wohnraumschutz
 22292 | true | true | Wohnraumschutz
 22293 | true | true | Wohnraumschutz
-22294 | false |  | Wohnraumschutz
+22294 | true | false | Wohnraumschutz
 22295 | true | true | Wohnraumschutz
 22296 | true | true | Wohnraumschutz
 22297 | true | true | Wohnraumschutz
@@ -2486,3 +2486,4 @@ id | visible | visibleInPortal | indikatorenset
 22301 | true | true | Wohnraumschutz
 22302 | false |  | Wohnraumschutz
 22303 | false |  | Wohnraumschutz
+22326 | true | true | Wohnraumschutz

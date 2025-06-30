@@ -4784,6 +4784,44 @@ var indikatoren = [
 		"id": 22301
 	},
 	{
+		"template": "template001",
+		"data-id": 22326,
+		"chart-id": 22326,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Förderzusagen Gebäudeprogramm",
+		"subtitle": "Verpflichtungen pro Jahr für Wärmedämmung indexiert (Basis 2017 = 100), Basel-Stadt",
+		"lesehilfe": "Zwischen 2017 und 2023 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit umd 13% zugenommen. Im Kanton Basel-Stadt haben sich diese Beiträge bis 2021 fast verzweieinhalbfacht, während sie 2022 dann stark zurückgingen und ab 2023 dann wieder deutlich zunahmen.",
+		"erlaeuterungen": "Gemäss Gebäudeprogramm indexierte zugesagte Förderbeiträge. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Förderzusagen Gebäudeprogramm",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wohnraumschutz",
+		"kuerzelKunde": "002-5",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-06-16T09:09:32",
+		"id": 22326
+	},
+	{
 		"template": "line001",
 		"data-id": 2400,
 		"chart-id": 2400,

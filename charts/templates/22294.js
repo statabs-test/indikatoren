@@ -10,12 +10,13 @@
         series: {
           pointPadding: 0,
           borderWidth: 0,
+          minPointLength: 2
         }
    },
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+      "rotation": -45 
     } 
   },
   "yAxis": {
@@ -25,8 +26,8 @@
   },
  "series": [
   {"color": "#FFDA80 "}, /* gelb */
-	{"color": "#A0BEC8"},/* blau  */
-	{"color": "#68AB2B"},/* grün  */
+	{"color": "#2E1435"},/* blau  */
+	{"color": "#9A86A6"},/* grün  */
   ],
   "legend": {
     "enabled": true,
@@ -41,8 +42,8 @@
     }
   },
    tooltip: {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f} m²</b><br/>',
-    "shared": false
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "shared": true
   },
   "chart": {      
     "type": "column",

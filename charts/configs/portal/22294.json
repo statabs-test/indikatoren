@@ -4,26 +4,190 @@
       "color": "#FFDA80 ",
       "data": [
         [
-          "2022",
-          0
+          "2018-H1",
+          4
         ],
         [
-          "2023",
+          "2018-H2",
+          8
+        ],
+        [
+          "2019-H1",
+          8
+        ],
+        [
+          "2019-H2",
+          10
+        ],
+        [
+          "2020-H1",
+          11
+        ],
+        [
+          "2020-H2",
+          9
+        ],
+        [
+          "2021-H1",
+          13
+        ],
+        [
+          "2021-H2",
+          25
+        ],
+        [
+          "2022-H1",
+          207
+        ],
+        [
+          "2022-H2",
+          2
+        ],
+        [
+          "2023-H1",
+          6
+        ],
+        [
+          "2023-H2",
+          7
+        ],
+        [
+          "2024-H1",
           3
         ],
         [
-          "2024",
-          4
+          "2024-H2",
+          5
         ]
       ],
-      "name": "Anzahl WSK-Bewilligungen",
+      "name": "Anzahl Stammparzellen",
       "turboThreshold": 0
     },
     {
-      "color": "#A0BEC8"
+      "color": "#2E1435",
+      "data": [
+        [
+          "2018-H1",
+          4
+        ],
+        [
+          "2018-H2",
+          8
+        ],
+        [
+          "2019-H1",
+          7
+        ],
+        [
+          "2019-H2",
+          11
+        ],
+        [
+          "2020-H1",
+          12
+        ],
+        [
+          "2020-H2",
+          11
+        ],
+        [
+          "2021-H1",
+          14
+        ],
+        [
+          "2021-H2",
+          31
+        ],
+        [
+          "2022-H1",
+          237
+        ],
+        [
+          "2022-H2",
+          2
+        ],
+        [
+          "2023-H1",
+          8
+        ],
+        [
+          "2023-H2",
+          7
+        ],
+        [
+          "2024-H1",
+          5
+        ],
+        [
+          "2024-H2",
+          5
+        ]
+      ],
+      "name": "Anzahl Wohngebäude",
+      "turboThreshold": 0
     },
     {
-      "color": "#68AB2B"
+      "color": "#9A86A6",
+      "data": [
+        [
+          "2018-H1",
+          25
+        ],
+        [
+          "2018-H2",
+          32
+        ],
+        [
+          "2019-H1",
+          37
+        ],
+        [
+          "2019-H2",
+          70
+        ],
+        [
+          "2020-H1",
+          56
+        ],
+        [
+          "2020-H2",
+          38
+        ],
+        [
+          "2021-H1",
+          66
+        ],
+        [
+          "2021-H2",
+          175
+        ],
+        [
+          "2022-H1",
+          1800
+        ],
+        [
+          "2022-H2",
+          3
+        ],
+        [
+          "2023-H1",
+          67
+        ],
+        [
+          "2023-H2",
+          38
+        ],
+        [
+          "2024-H1",
+          190
+        ],
+        [
+          "2024-H2",
+          20
+        ]
+      ],
+      "name": "Anzahl Wohnungen",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -41,7 +205,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": -45
     }
   },
   "chart": {
@@ -90,7 +254,8 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
+      "pointPadding": 0,
+      "minPointLength": 2
     }
   },
   "title": {
@@ -104,7 +269,7 @@
     "text": "Anzahl Umwandlungen in Stockwerkeigentum"
   },
   "subtitle": {
-    "text": "Anzahl Bewilligungen durch die Wohnschutzkommission",
+    "text": "Anzahl Bewilligungen durch die Wohnschutzkommission, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -166,8 +331,8 @@
     "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.4.2025"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "22294"

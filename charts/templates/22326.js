@@ -25,8 +25,8 @@
     }    
   },
  "series": [
-  {"color": "#008AC3"}, /*  */
-	{"color": "#8AB77D"}
+  {"color": "#6F6F6F"}, /* BS */
+	{"color": "#B00000"} /* CH */
 	  ],
   "legend": {
     "enabled": true,
