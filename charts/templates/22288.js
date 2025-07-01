@@ -30,7 +30,7 @@
   },
   "yAxis": {
     min: 50,
-    max: 150,
+    //max: 150,
     "labels": {
       "format": "{value:,.0f}"
     }    
@@ -48,6 +48,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    useHTML: true,
 	  itemDistance: 5,
 	  symbolPadding: 5,
 	  padding: 0,
