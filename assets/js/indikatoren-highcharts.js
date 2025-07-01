@@ -8,6 +8,55 @@ global templatesById
 
 "use strict";
 
+/*
+global $
+global dataLayer
+global Highcharts
+global indikatoren
+global templatesById
+*/
+
+"use strict";
+
+// ✅ Set global font for all Highcharts
+Highcharts.setOptions({
+  chart: {
+    style: {
+      fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+    },
+  },
+  legend: {
+    itemStyle: {
+      fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+    },
+  },
+  tooltip: {
+    style: {
+      fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+    },
+  },
+});
+
+//parse csv and configure HighCharts object
+function parseData(chartOptions, data, completeHandler) {
+  try {
+    //create data options, guess delimiter
+    var dataOptions = Highcharts.merge(chartOptions.data, {
+      csv: data,
+      itemDelimiter: data.indexOf("\t") !== -1 ? "\t" : ",",
+    });
+
+    //delete data node in chartOptions after merging into dataOptions
+    delete chartOptions.data;
+
+    //dataOptions.sort = true;
+    dataOptions.complete = completeHandler;
+    Highcharts.data(dataOptions, chartOptions);
+  } catch (error) {
+    completeHandler(undefined);
+  }
+}
+
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
   try {
@@ -224,6 +273,7 @@ function injectMetadataToChartConfig(
     //options['chart']["height"] = 415;
     delete options.exporting.buttons;
   }
+  options["chart"]["width"] = null;
   return options;
 }
 
@@ -485,7 +535,7 @@ function renderLinksHTML(
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        "<li><img src='assets/img/icon-link.png' class='link-icon'/>Indikatorenset: <a href='http://www.statistik.bs.ch/indikatorenset/" +
+        "<li>Indikatorenset: <a class='button' href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
         kennzahlenset.replace("-", " ") +

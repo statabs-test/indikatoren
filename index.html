@@ -330,7 +330,7 @@
               />
             </button>
 
-            <div id="lightbox-content" class=""></div>
+            <div id="lightbox-content" class="basis-2/3"></div>
 
             <button
               id="next-slide"
@@ -408,7 +408,7 @@
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="indikator">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="max-w-[600px] w-full text-left"></div>
         <h1><%= 'Indikator ' + kuerzel %></h1>
 
         <!-- hide lesehilfe if empty -->
@@ -431,7 +431,7 @@
     <!-- full modal chart template for indikatorenset view -->
     <script id="indikator-template-modal-indikatorenset" type="text/html">
       <div class="item">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full"></div>
         <h1><%= 'Indikator ' + kuerzelKunde %></h1>
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>

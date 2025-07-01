@@ -2437,16 +2437,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   inset: 0px;
 }
 
-.left-30 {
-  left: 30px;
-}
-
-.right-30 {
-  right: 30px;
-}
-
-.right-50 {
-  right: 50px;
+.right-\[20px\] {
+  right: 20px;
 }
 
 .top-0 {
@@ -2455,26 +2447,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .top-1\/2 {
   top: 50%;
-}
-
-.top-20 {
-  top: 20px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.right-10 {
-  right: 10px;
-}
-
-.right-\[20px\] {
-  right: 20px;
 }
 
 .z-10 {
@@ -2506,6 +2478,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .mb-15 {
   margin-bottom: 15px;
 }
@@ -2526,6 +2502,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-left: 0.3em;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -2536,34 +2516,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
-}
-
-.mr-40 {
-  margin-right: 40px;
-}
-
-.mt-5 {
-  margin-top: 5px;
-}
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.mr-\[20px\] {
-  margin-right: 20px;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
-.mt-10 {
-  margin-top: 10px;
-}
-
-.mb-10 {
-  margin-bottom: 10px;
 }
 
 .block {
@@ -2646,32 +2598,28 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 100%;
 }
 
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-80 {
-  width: 80px;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
 .max-w-\[2560px\] {
   max-width: 2560px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .flex-grow {
   flex-grow: 1;
 }
 
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.basis-1\/6 {
+  flex-basis: 16.666667%;
 }
 
-.transform {
+.basis-2\/3 {
+  flex-basis: 66.666667%;
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2691,10 +2639,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -2709,10 +2653,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .items-center {
   align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -2798,18 +2738,9 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding: 10px;
 }
 
-.p-2 {
-  padding: 2px;
-}
-
 .px-15 {
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.py-2 {
-  padding-top: 2px;
-  padding-bottom: 2px;
 }
 
 .pb-\[20px\] {
@@ -2826,6 +2757,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-right {
@@ -2851,16 +2786,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   line-height: 28px;
 }
 
-.text-3xl {
-  font-size: 30px;
-  line-height: 34px;
-}
-
-.text-5xl {
-  font-size: 48px;
-  line-height: 48px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -2881,18 +2806,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   color: #ffffff;
 }
 
-.text-gray-500 {
-  color: #949494;
-}
-
 .underline {
   text-decoration-line: underline;
-}
-
-.shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-lg {
