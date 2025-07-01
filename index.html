@@ -228,35 +228,6 @@
                       ></div>
                     </form>
                   </div>
-                  <div class="row" id="indikatorensetFilterControls">
-                    <div class="col-xs-3">
-                      <label class="sr-only" for="searchbox">Search</label>
-                      <input
-                        type="search"
-                        class="form-control"
-                        id="searchbox"
-                        placeholder="Suche&hellip;"
-                      />
-                    </div>
-
-                    <div class="col-xs-3" id="stufe1_criteria">
-                      <select class="form-control" id="stufe1_filter">
-                        <option value="all">Kapitel: Alle</option>
-                      </select>
-                    </div>
-
-                    <div class="col-xs-3" id="stufe2_criteria">
-                      <select class="form-control" id="stufe2_filter">
-                        <option value="all">Unterkapitel: Alle</option>
-                      </select>
-                    </div>
-
-                    <div class="col-xs-3" id="stufe3_criteria">
-                      <select class="form-control" id="stufe3_filter">
-                        <option value="all">Unterkapitel: Alle</option>
-                      </select>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -380,7 +351,7 @@
 
     <script id="indikator-template-carousel-indikatorenset" type="text/html">
       <div
-        class="col-xs-3 indikator"
+        class="w-1/2 lg:w-1/4 p-10 indikator"
         indikator-fid-data="<%= _fid %>"
         indikator-id-data="<%= id %>"
         indikator-kuerzel-data="<%= kuerzel %>"
@@ -389,17 +360,20 @@
           <a
             href="javascript:void(0);"
             class="lightbox-trigger"
-            data-src="images/portal/<%= id %>.svg"
+            data-id="<%= id %>"
+            data-kuerzel="<%= kuerzel %>"
             data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
               <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
             </div>
-            <img
-              src="images/portal/<%= id %>.svg"
-              alt="<%= kuerzel %>: <%= description %>"
-              class="w-full"
-            />
+            <div>
+              <img
+                src="images/portal/<%= id %>.svg"
+                alt="<%= kuerzel %>: <%= description %>"
+                class="w-full"
+              />
+            </div>
           </a>
         </div>
       </div>
