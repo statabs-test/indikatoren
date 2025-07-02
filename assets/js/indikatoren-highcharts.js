@@ -526,30 +526,19 @@ function renderLinksHTML(
         <div id='links'" +
       (hideLinks ? "class='hidden'" : "") +
       "> \
-          <div><h1 id='linksTitle' " +
-      (hideLinksTitle ? "class='hidden'" : "") +
+          <div><h3 id='linksTitle' " +
+      (hideLinksTitle ? "class='hidden'" : "class='font-bold'") +
       ">Links</h1></div> \
           <div class='lesehilfe'> \
-            <ul class='list-unstyled'>\
         ";
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        "<li>Indikatorenset: <a class='button' href='http://www.statistik.bs.ch/indikatorenset/" +
+        "<div>Indikatorenset:</div><div class='mt-20'><a class='button' href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
         kennzahlenset.replace("-", " ") +
-        "</a>";
-      //in indikatorenset View, add the stufe1 text here
-      if (isIndikatorensetView(view) && stufe1) {
-        //returnText += ", " + stufe1;
-      }
-      //if do not add a dot at the ned if there's already one present
-      var lastChar = returnText[returnText.length - 1];
-      if (lastChar != ".") {
-        returnText += ".";
-      }
-      returnText += "</li>";
+        "</a></div>";
     }
     if (displayRenderLink) {
       if (
@@ -558,30 +547,33 @@ function renderLinksHTML(
       ) {
         //we're in carousel mode, slide to other chart
         returnText +=
-          "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" +
+          "<div class='mt-30'><a <a class='button' href='javascript:javascript:slideToLinkedChart(" +
           renderLink[0] +
           ", window.FJS, " +
           isIndikatorensetView(view) +
-          ")'>Andere Darstellungsform</a> dieser Daten.</li>";
+          ")'>Andere Darstellungsform</a> dieser Daten.</div>";
       } else {
         //we're in chart-detail.html, open link to other chart
         returnText +=
-          "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" +
+          "<div class='mt-30'><a class='button' href='chart-details.html?id=" +
           renderLink[0] +
-          "'>Andere Darstellungsform</a> dieser Daten.</li>";
+          "'>Andere Darstellungsform</a> dieser Daten.</div>";
       }
     }
     if (displayExternalLinks) {
       externalLinks.forEach(function (v, i, arr) {
-        returnText +=
-          "<li><img src='assets/img/icon-link.png' class='link-icon'/>" +
-          v +
-          "</li>";
+        // Add class to <a> tag if it exists
+        const updatedLink = v.replace(
+          /<a\s+(?![^>]*\bclass=)[^>]*?/i,
+          (match) => match + "class='button' "
+        );
+
+        console.log(updatedLink);
+        returnText += "<div class='mt-20'>" + updatedLink + "</div>";
       });
     }
     returnText +=
       " \
-            </ul> \
           </div> \
         </div> \
         ";

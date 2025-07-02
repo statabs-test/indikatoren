@@ -2526,6 +2526,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: -200px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .block {
   display: block;
 }

@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Highcharts slide (object with id + kuerzel)
     if (typeof slide === "object" && slide.id) {
+      console.log(slide);
       renderHighchartInModal(slide.id, slide.kuerzel);
     }
 
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (indicators.firstChild) {
       indicators.firstChild.textContent = `${currentIndex + 1} / ${
-        slides.length
+        window.slides.length
       }`;
     }
   }
@@ -76,6 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
       externalLinks: null,
     });
 
+    console.log("heelo");
+    console.log(compiled);
     lightboxContent.innerHTML = html;
 
     setTimeout(() => {
@@ -141,14 +144,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });*/
 
   window.attachLightboxTriggers = function () {
-    const lightbox = document.getElementById("lightbox");
-    const lightboxContent = document.getElementById("lightbox-content");
     const indicators = document.getElementById("carousel-indicators");
 
     const elements = document.querySelectorAll(".lightbox-trigger");
     if (!elements.length) return;
     window.slides = [...elements]
       .map((el) => {
+        console.log(el);
         const id = el.dataset.id;
         const kuerzel = el.dataset.kuerzel;
         const src = el.dataset.src;
