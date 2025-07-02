@@ -122,9 +122,9 @@
           </div>
         </div>
         <div
-          class="mt-30 max-w-10/12 grid grid-rows-1 grid-cols-[1fr_1fr] md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 items-end"
+          class="mt-30 max-w-[83.333333%] grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 items-end"
         >
-          <label class="font-bold col-span-1 md:col-span-1">
+          <label class="font-bold">
             <span class="font-bold block mb-5">Thema</span>
             <div class="relative" id="thema_criteria">
               <select class="input select peer is-placeholder" id="thema">
@@ -133,7 +133,7 @@
             </div>
           </label>
 
-          <label class="font-bold col-span-1 md:col-span-1">
+          <label class="font-bold">
             <span class="font-bold block mb-5">Unterthema</span>
             <div class="relative" id="unterthema_criteria">
               <select
@@ -267,11 +267,9 @@
     <!-- Lightbox Modal -->
     <div
       id="lightbox"
-      class="fixed inset-0 z-50 flex items-center justify-center bg-[#DDECDE]/80 hidden"
+      class="fixed inset-0 z-50 flex items-start md:items-center justify-center bg-[#DDECDE]/80 hidden pt-4"
     >
-      <div
-        class="w-full max-w-3xl flex items-center justify-center mt-[-200px]"
-      >
+      <div class="w-full max-w-3xl flex items-center justify-center">
         <div
           class="w-full sm:w-4/5 lg:w-3/5 flex flex-col bg-white p-4 min-h-[60vh] rounded-xl shadow-lg"
         >
