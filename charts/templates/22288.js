@@ -48,7 +48,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    useHTML: true,
 	  itemDistance: 5,
 	  symbolPadding: 5,
 	  padding: 0,

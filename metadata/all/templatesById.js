@@ -2152,7 +2152,5 @@ var templatesById = {
 	"22299": "line001",
 	"22300": "line001",
 	"22301": "template001",
-	"22302": "template001",
-	"22303": "template001",
 	"22326": "template001"
 };

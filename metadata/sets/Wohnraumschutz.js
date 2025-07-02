@@ -48,8 +48,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreise nach Quartil",
 		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2015 - 2023",
-		"lesehilfe": "Der Median der Preise von Mietwohnungen lag im Jahr 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil lag bei 16,3 Franken pro m<sup>2</sup>; das bedeutet, dass ein Viertel aller Mieten pro m<sup>2</sup> unter und drei Viertel über diesem Preis lagen. Das dritte Quartil stand bei bei 23,4 Franken pro m<sup>2</sup>. Alle drei Quartilsmieten sind kontinuierlich gestiegen.",
-		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Quartile sind die drei Werte einer Häufigkeitsverteilung (hier Nettomietpreise pro m<sup>2</sup>), die diese in vier gleich große Bereiche teilen: 25% aller Fälle liegen im Bereich bis zum 1. Quartil der Verteilung. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
+		"lesehilfe": "Der Median der Preise von Mietwohnungen lag im Jahr 2023 bei geschätzt 19,7 Franken pro m<sup>2</sup>. Das erste Quartil lag bei 16,3 Franken pro m<sup>2</sup>; das bedeutet, dass ein Viertel aller Mieten unter und drei Viertel über diesem Preis lagen. Das dritte Quartil stand bei bei 23,4 Franken pro m<sup>2</sup>. Alle drei Quartilsmieten sind kontinuierlich gestiegen.",
+		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Quartile sind die drei Werte einer Häufigkeitsverteilung (hier Nettomietpreise pro m<sup>2</sup>), die diese in vier gleich grosse Bereiche teilen: 25% aller Fälle liegen im Bereich bis zum 1. Quartil der Verteilung. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung können die Ergebnisse nur bedingt mit jenen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -85,7 +85,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreise nach Dauer des Mietverhältnisses",
 		"subtitle": "Nettomietpreise in Franken pro m<sup>2</sup> Wohnfläche, Basel-Stadt, 2020 - 2023",
-		"lesehilfe": "Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen im Jahr 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnissen lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>. Die Mieten von neueren Mietverhältnissen lagen somit 15,7% über denjenigen von älteren Mietverhältnissen.",
+		"lesehilfe": "Die Einzugsmieten von Wohnungen im Kanton Basel-Stadt betrugen im Jahr 2023 im Schnitt 21,4 Franken pro m<sup>2</sup> (95%-Konfidenzintervall: 20,9 - 21,9 Franken pro m<sup>2</sup>). Die Mieten von älteren Mietverhältnissen lagen durchschnittlich bei 18,5 Franken pro m<sup>2</sup>. Die Mieten von neueren Mietverhältnissen lagen somit 15,7% über denjenigen von älteren Mietverhältnissen.",
 		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche. Als Einzugsmieten gelten die in den letzten zwei Jahren abgeschlossenen Mietverträge. Bestandesmieten gelten für Mietverhältnisse, die bereits länger als zwei Jahre dauern. Die Daten stammen aus der Strukturerhebung und beruhen auf der Hochrechnung einer Stichprobe; sie sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle, welche den wahren Wert mit einer Wahrscheinlichkeit von 95% umfassen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -160,8 +160,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Baugesuche für Sanierungen, Umbau oder Renovation",
 		"subtitle": "Anzahl Bauprojekte von Wohngebäuden nach Baueingabe, Basel-Stadt",
-		"lesehilfe": "Seit der zweiten Jahreshälfte 2022 ist ein Einbruch bei Baugesuchen für Sanierung, Umbau oder Renovation festzustellen. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig. Kurz davor im Jahr 2021 und im 1. Halbjahr 2022 ist ein deutlicher Anstieg von Bauge-suchen sichtbar, welche unter die Wohnschutzgesetzgebung gefallen wäre.",
-		"erlaeuterungen": "Berücksichtigt sind nur Projekte mit einer Baueingabe. Umbau-, Sanierungs- und Renovationspro-jekte ohne Baubewilligungspflicht fallen nicht unter die Auswertung. Ausgewertet sind. Baueingaben (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude und mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
+		"lesehilfe": "Seit der zweiten Jahreshälfte 2022 ist ein Einbruch bei Baugesuchen für Sanierung, Umbau oder Renovation festzustellen. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig. Kurz davor, im Jahr 2021 und im 1. Halbjahr 2022, ist ein deutlicher Anstieg von Baugesuchen sichtbar, welche unter die Wohnschutzgesetzgebung gefallen wäre.",
+		"erlaeuterungen": "Berücksichtigt sind nur Projekte mit einer Baueingabe. Umbau-, Sanierungs- und Renovationsprojekte ohne Baubewilligungspflicht fallen nicht unter die Auswertung. Ausgewertet sind. Baueingaben (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. \"Unter Gesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen können (oder hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude und mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -233,9 +233,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Umwandlungen in Stockwerkeigentum",
-		"subtitle": "Anzahl Bewilligungen durch die Wohnschutzkommission, Basel-Stadt",
-		"lesehilfe": "Die Anzahl betroffener Stammparzellen verhält sich auf tiefen Nivau, steigt in der zweiten Jahreshälfte 2021 jedoch deutlich an auf 25 und dann in der ersten Jahreshälfte 2022 äusserst stark auf 207, bevor sie danach wieder auf das vorangegangene Nivau sinkt. Entsprechend verhält sich die auf diesen Parzellen ermittelte Anzahl Wohnungen, welche insbesondere in der ersten Jahreshälfte 2022 mit 1'800 ihren absoluten Höchstwert erreicht.",
-		"erlaeuterungen": "Anzahl Stammparzellen gemäss Grundbuch, auf denen Stockwerkeigentum begründet wurde und auf denen Wohngebäude mit Wohnungen gemäss Gebäude- und Wohnunngsregister existieren. Unberücksichtig sind Mansarden bzw. bewohnbare Einzelzimmer, Alters- und Genossenschaftswohnungen sowie Büros, Garagen, Lager, Ateliers und andere nicht zum Wohnen genutzte Einheiten. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
+		"subtitle": "Betroffene Stammparzellen, Gebäude und Wohnungen, Basel-Stadt",
+		"lesehilfe": "Die Anzahl umgewandelter Stammparzellen steigt in der zweiten Jahreshälfte 2021 auf 25 an und dann in der ersten Jahreshälfte 2022 äusserst stark auf 207, bevor sie danach wieder auf ein deutlich tieferes Niveau sinkt. Entsprechend verhält sich die auf diesen Parzellen ermittelte Anzahl Wohnungen, welche in der ersten Jahreshälfte 2022 mit 1'800 ihren absoluten Höchstwert erreicht.",
+		"erlaeuterungen": "Anzahl Stammparzellen gemäss Grundbuch, auf denen Stockwerkeigentum begründet wurde und auf denen Wohngebäude mit Wohnungen gemäss Gebäude- und Wohnungsregister existieren. Unberücksichtigt sind Mansarden bzw. bewohnbare Einzelzimmer, Alters- und Genossenschaftswohnungen sowie Büros, Garagen, Lager, Ateliers und andere nicht zum Wohnen genutzte Einheiten. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -522,80 +522,6 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-04-10T12:50:45",
 		"id": 22301
-	},
-	{
-		"template": "template001",
-		"data-id": 22302,
-		"chart-id": 22302,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Anzahl Verfügungen inkl. Anzahl betroffener Wohnverhältnisse",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Verfügungen inkl. Anzahl betroffener Wohnverhältnisse",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wohnraumschutz",
-		"kuerzelKunde": "003-2",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-10T12:50:45",
-		"id": 22302
-	},
-	{
-		"template": "template001",
-		"data-id": 22303,
-		"chart-id": 22303,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Höhe der bewilligten Mietzinsaufschläge/Mietzinsfestlegungen",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Höhe der bewilligten Mietzinsaufschläge/Mietzinsfestlegungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Wohnraumschutz",
-		"kuerzelKunde": "003-3",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-10T12:50:45",
-		"id": 22303
 	},
 	{
 		"template": "template001",

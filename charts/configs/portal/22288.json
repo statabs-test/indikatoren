@@ -216,7 +216,7 @@
         ],
         [
           "2025",
-          null
+          151.1267606
         ]
       ],
       "name": "Kanton Genf",
@@ -327,7 +327,7 @@
         ],
         [
           "2025",
-          null
+          132.2
         ]
       ],
       "name": "Stadt Zürich",
@@ -439,7 +439,7 @@
         ],
         [
           "2025",
-          null
+          141.5
         ]
       ],
       "name": "Schweiz",
@@ -552,8 +552,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "max": 150
+    }
   },
   "legend": {
     "enabled": true,
