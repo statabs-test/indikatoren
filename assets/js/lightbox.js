@@ -26,20 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function nextSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;
+    currentIndex = (currentIndex + 1) % window.slides.length;
     updateLightbox();
   }
 
   function updateLightbox() {
     if (!window.slides.length) return;
-
     const slide = window.slides[currentIndex];
     lightboxContent.innerHTML = "";
 
     // Highcharts slide (object with id + kuerzel)
     if (typeof slide === "object" && slide.id) {
-      console.log(slide);
-      console.log("test");
       renderHighchartInModal(slide.id, slide.kuerzel);
     }
 
