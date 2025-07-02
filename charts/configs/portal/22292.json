@@ -60,7 +60,7 @@
           35
         ]
       ],
-      "name": "Unter Gesetzgebung fallende Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
+      "name": "Unter Wohnschutzgesetzgebung fallende Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
       "turboThreshold": 0
     },
     {
@@ -205,7 +205,7 @@
     "text": "Anzahl Baugesuche für Sanierungen, Umbau oder Renovation"
   },
   "subtitle": {
-    "text": "Anzahl Bauprojekte von Wohngebäuden nach Baueingabe, Basel-Stadt",
+    "text": "Wohngebäuden nach Datum der Baueingabe, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

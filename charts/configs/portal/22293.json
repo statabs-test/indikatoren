@@ -60,7 +60,7 @@
           37098595
         ]
       ],
-      "name": "Unter Gesetzgebung fallende Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
+      "name": "Unter Wohnschutgesetzgebung fallende Projekte mit Schlagwort Umbau\u002FSanierung\u002FRenovation",
       "turboThreshold": 0
     },
     {
@@ -205,7 +205,7 @@
     "text": "Sanierungsvolumen in Franken"
   },
   "subtitle": {
-    "text": "Projektgesamtkosten nach Baueingabe, Basel-Stadt",
+    "text": "Projektgesamtkosten nach Datum der Baueingabe, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
