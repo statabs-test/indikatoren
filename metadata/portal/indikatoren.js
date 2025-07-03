@@ -4449,7 +4449,7 @@ var indikatoren = [
 		"title": "Leerkündigungen",
 		"subtitle": "Anzahl betroffene Wohnungen, Basel-Stadt",
 		"lesehilfe": "Im Jahr 2019 wurden für 480 Wohnungen Leerkündigungen aufgrund eines Umbaus registriert – die Zahl ist gegen Ende des Beobachtungszeitraums deutlich rückläufig. Für 219 weitere erfolgte eine Leerkündigung aufgrund eines Abbruchs. Auch hier ist seit 2019 ein deutlicher Rückgang sichtbar.",
-		"erlaeuterungen": "Die Auswertung erfolgt anhand der im Gebäude- und Wohnungsregister (GWR) hinterlegten Bautätigkeit sowie Belegungsangaben aus dem Einwohnerregister. Um für die Auswertung berücksichtigt werden zu können, muss ein Gebäude beim <i>Umbau</i> seit mindestens 15 Jahren bestehen und zwei Jahre vor Baubeginn über mindestens vier Wohnungen verfügen. Damit die Wohnungen als von Leerkündigungen betroffen gezählt werden, müssen 90% der Mieterschaft (relativ zu den Bewohnenden zwei Jahre vor Baubeginn) ein Jahr nach Bauvollendung  weniger als 2 Jahre in der Liegenschaft angemeldet sein. Ein <i>Abbruch</i> hat stets den Auszug der kompletten Mieterschaft zur Folge, wobei hier der Wohnungsbestand drei Jahre vor Baubeginn als Grundlage dient. Die verwendeten Registerangaben geben keinen Aufschluss darüber, welche Partei das Mietverhältnis beendet hat und aus welchem Grund. Auch wird nicht berücksichtigt, ob das Mietverhältnis befristet oder unbefristet war. Das Jahr bezeichnet das Jahr des Baubeginns.<br><br>Datenstand ist Mitte Juni 2025. Aufgrund der Zählweise, die sich auf ein Jahr nach Bauvollendung bezieht, werden nur Werte bis 2023 publiziert. Bei überdurchschnittlich langen Bauprojekten können sich die Werte der letzten Jahre (insbesondere die Leerkündigungen nach Umbau 2023) bei einer Aktualisierung erhöhen, da diese Projekte allenfalls hinzukommen.",
+		"erlaeuterungen": "Die Auswertung erfolgt anhand der im Gebäude- und Wohnungsregister (GWR) hinterlegten Bautätigkeit sowie Belegungsangaben aus dem Einwohnerregister. Um für die Auswertung berücksichtigt werden zu können, muss ein Gebäude beim <i>Umbau</i> seit mindestens 15 Jahren bestehen und zwei Jahre vor Baubeginn über mindestens vier Wohnungen verfügen. Damit die Wohnungen als von Leerkündigungen betroffen gezählt werden, müssen 90% der Mieterschaft (relativ zu den Bewohnenden zwei Jahre vor Baubeginn) ein Jahr nach Bauvollendung  weniger als 2 Jahre in der Liegenschaft angemeldet sein. Ein <i>Abbruch</i> hat stets den Auszug der kompletten Mieterschaft zur Folge, wobei hier der Wohnungsbestand drei Jahre vor Baubeginn als Grundlage dient. Die verwendeten Registerangaben geben keinen Aufschluss darüber, welche Partei das Mietverhältnis beendet hat und aus welchem Grund. Auch wird nicht berücksichtigt, ob das Mietverhältnis befristet oder unbefristet war. Das Jahr bezeichnet das Jahr des Baubeginns.<br><br>Datenstand ist Mitte Juni 2025. Aufgrund der Zählweise, die sich auf ein Jahr nach Bauvollendung bezieht, werden nur Werte bis 2023 publiziert. Bei überdurchschnittlich langen Bauprojekten können sich die Werte der letzten Jahre (insbesondere die Leerkündigungen nach Umbau 2023) bei einer Aktualisierung erhöhen, da diese Projekte allenfalls hinzukommen.<br><br>Weitere Informationen zur Methode finden sich hier: <a href='https://statistik.bs.ch/artikel/leerkuendigungen' target='_blank'>Leerkündigungen</a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Bevölkerungsdienste und Migration Basel-Stadt"
@@ -4486,7 +4486,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Anzahl Baugesuche für Sanierungen, Umbau oder Renovation",
-		"subtitle": "Wohngebäuden nach Datum der Baueingabe, Basel-Stadt",
+		"subtitle": "Wohngebäude nach Datum der Baueingabe, Basel-Stadt",
 		"lesehilfe": "Seit der zweiten Jahreshälfte 2022 ist ein Einbruch bei Baugesuchen für Sanierung, Umbau oder Renovation festzustellen. Die Anzahl der nicht unter die Wohnschutzgesetzgebung fallenden Projekte war weniger stark rückläufig. Kurz davor, im Jahr 2021 und im 1. Halbjahr 2022, ist ein deutlicher Anstieg von Baugesuchen sichtbar, welche unter die Wohnschutzgesetzgebung gefallen wären.",
 		"erlaeuterungen": "\"Unter Wohnschutzgesetzgebung fallende Projekte\" bezeichnet Projekte, die potentiell unter den Wohnraumschutz fallen (oder vor Inkrafttreten hätten fallen können), also Projekte mit mehr als 3 Wohnungen pro Gebäude und mit mehrheitlicher Wohnnutzung. Dabei ausgeschlossen sind Projekte von Genossenschaften. <br>Ausgewertet sind Baueingaben (Baubegehren sowie vereinfachte und technische Baubegehren) mit Schlagwort \"Umbau/Sanierung/Renovation\" in Zusammenhang mit Wohngebäuden nach Datum der Baueingabe. Umbau-, Sanierungs- und Renovationsprojekte ohne Baubewilligungspflicht fallen nicht unter die Auswertung. Die Verordnung zum Wohnraumschutz ist am 28. Mai 2022 in Kraft getreten. H1 oder H2 bezeichnen das erste beziehungsweise das zweite Halbjahr eines Jahres.",
 		"quellenangabe": [
@@ -4602,7 +4602,7 @@ var indikatoren = [
 		"title": "Abgebrochene Wohnungen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "In den letzten 10 Jahren wurden im Durchschnitt jährlich rund 110 Wohnungen abgebrochen. Im Jahr 2024 war die Anzahl abgebrochener Wohnungen mit 77 unterdurchschnittlich.",
-		"erlaeuterungen": "Abgebrochene Wohnungen nach Jahr des Abbruchs.",
+		"erlaeuterungen": "Abgebrochene Wohnungen nach Jahr des Abbruchs.Zwischen Bewilligung für den Abbruch und erfolgtem Abbruch können mehrere Jahre liegen. Bei den Zahlen der Jahre 2023 und 2024 handelt es sich somit auch um Abbruchprojekte, die noch vor der Inkraftsetzung der Wohnraumschutzbestimmungen am 28. Mai 2022 bewilligt wurden.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4640,7 +4640,7 @@ var indikatoren = [
 		"title": "Wohnungsneubau",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Anzahl der neugebauten Wohnungen lag 2024 bei 151 Einheiten und damit deutlich unter dem Wert der Vorjahre. Vor allem aus Arealentwicklungen resultierten nur sehr wenige neue Wohnungen.",
-		"erlaeuterungen": "Als Arealentwicklungen werden Areale bezeichnet, auf denen vorher keine oder kaum Wohnnutzung bestand. Zu den grössten Arealentwicklungen der letzten Jahre gehören beispielsweise Projekte auf den Arealen Erlenmatt, Westfeld und Lysbüchel sowie das Meret Oppenheim Hochhaus.",
+		"erlaeuterungen": "Als Arealentwicklungen werden Areale bezeichnet, auf denen ein massgeblicher Gewinn an Wohnraum im Vergleich zur vorherigen Nutzung resultiert. Zu den grössten Arealentwicklungen der letzten Jahre gehören beispielsweise Projekte auf den Arealen Erlenmatt, Westfeld und Lysbüchel (Volta Nord) sowie das Meret Oppenheim Hochhaus. Grössere Ersatzneubauten (z.B. der Claraturm) werden hier ebenfalls zu den Arealentwicklungen gezählt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -4677,8 +4677,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Baubewilligte Wohnungen und Gebäude",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2021 bis 2023 wurde eine geringe Anzahl Wohnungen bewilligt. 2024 nahmen die Bewilligungen wieder zu. Dies lässt ab 2026 eine höhere Wohnbauproduktion erwarten.",
-		"erlaeuterungen": "Gezählt werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten, nach Jahr der Baubewilligung. Umbauprojekte mit Wohnungszuwachs werden demzufolge nicht berücksichtigt.",
+		"lesehilfe": "Im Jahr 2024 wurden 442 Neubauwohnungen bewilligt. Nach einer Phase mit weniger Bewilligungen (2021–2023) liegt dieser Wert im Durchschnitt der vorangegangenen zehn Jahre.",
+		"erlaeuterungen": "Gezählt werden bewilligte Wohnungen und bewohnbare Gebäude in Neubauprojekten, nach Jahr der Baubewilligung. Umbauprojekte mit Wohnungszuwachs werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
