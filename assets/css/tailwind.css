@@ -2930,6 +2930,10 @@ body {
     margin-top: 40px;
   }
 
+  .md\:mt-\[-400px\] {
+    margin-top: -400px;
+  }
+
   .md\:grid-cols-\[2fr_1fr_1fr_1fr\] {
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
