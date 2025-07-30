@@ -2461,10 +2461,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   z-index: 200;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
@@ -2506,6 +2502,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 10px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -2516,18 +2516,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.mt-\[-200px\] {
-  margin-top: -200px;
-}
-
-.mt-20 {
-  margin-top: 20px;
 }
 
 .block {
@@ -2622,10 +2610,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   max-width: 83.333333%;
 }
 
-.flex-grow {
-  flex-grow: 1;
-}
-
 .basis-2\/3 {
   flex-basis: 66.666667%;
 }
@@ -2639,20 +2623,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   cursor: pointer;
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-\[1fr_1fr\] {
-  grid-template-columns: 1fr 1fr;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -2758,6 +2734,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding: 10px;
 }
 
+.p-20 {
+  padding: 20px;
+}
+
 .px-15 {
   padding-left: 15px;
   padding-right: 15px;
@@ -2777,6 +2757,22 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.pr-25 {
+  padding-right: 25px;
 }
 
 .text-left {
@@ -2922,10 +2918,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
   .md\:mt-40 {
     margin-top: 40px;
   }

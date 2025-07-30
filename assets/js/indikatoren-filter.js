@@ -134,7 +134,7 @@ function resetPortalFilter(FJS, view) {
   //portal view
   else {
     $("#searchbox").val("");
-    $("#thema_criteria :radio:first()").prop("checked", true);
+    $("#thema").prop("selectedIndex", 0);
     $("#unterthema_filter").prop("selectedIndex", 0);
     $("#raeumlicheGliederung_filter")
       .multiselect("selectAll", false)
