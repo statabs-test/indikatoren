@@ -469,7 +469,6 @@ function exportThumbnail(id, exportType, offline, exportServer, filename) {
   filename = filename || id;
   filename = filename.toString();
   var chart = $(escapeCssChars("#container-" + id)).highcharts();
-  console.log(chart);
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
   //change scale and background color for png
@@ -568,7 +567,6 @@ function renderLinksHTML(
           (match) => match + "class='button' "
         );
 
-        console.log(updatedLink);
         returnText += "<div class='mt-20'>" + updatedLink + "</div>";
       });
     }

@@ -150,7 +150,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!elements.length) return;
     window.slides = [...elements]
       .map((el) => {
-        console.log(el);
         const id = el.dataset.id;
         const kuerzel = el.dataset.kuerzel;
         const src = el.dataset.src;
