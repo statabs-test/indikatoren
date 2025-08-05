@@ -2734,13 +2734,13 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding: 10px;
 }
 
-.p-20 {
-  padding: 20px;
-}
-
 .px-15 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
 }
 
 .pb-\[20px\] {
@@ -2755,24 +2755,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding-left: 0.25em;
 }
 
-.pt-30 {
-  padding-top: 30px;
-}
-
-.pb-20 {
-  padding-bottom: 20px;
-}
-
-.pr-20 {
-  padding-right: 20px;
-}
-
-.pb-25 {
-  padding-bottom: 25px;
-}
-
 .pr-25 {
   padding-right: 25px;
+}
+
+.pt-30 {
+  padding-top: 30px;
 }
 
 .text-left {
@@ -2922,8 +2910,8 @@ body {
     margin-top: 40px;
   }
 
-  .md\:mt-\[-400px\] {
-    margin-top: -400px;
+  .md\:mt-\[-100px\] {
+    margin-top: -100px;
   }
 
   .md\:grid-cols-\[2fr_1fr_1fr_1fr\] {
