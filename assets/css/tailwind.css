@@ -2518,6 +2518,38 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 0.18em;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 2px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-\[20px\] {
+  margin-right: 20px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
 .block {
   display: block;
 }
@@ -2572,6 +2604,18 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .h-\[60px\] {
   height: 60px;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
+.h-\[10px\] {
+  height: 10px;
+}
+
+.h-\[15px\] {
+  height: 15px;
 }
 
 .max-h-\[90vh\] {
@@ -2810,6 +2854,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   color: #ffffff;
 }
 
+.text-blue-700 {
+  color: #146C8B;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2818,6 +2866,11 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter {
@@ -2906,6 +2959,17 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
   .md\:mt-40 {
     margin-top: 40px;
   }

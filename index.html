@@ -100,7 +100,7 @@
         <div class="relative h-[50px] z-10 max-w-10/12">
           <div
             id="search"
-            class="grid grid-cols-4 w-full gap-x-20 overflow-hidden bg-white text-gray-600 border rounded-[30px] focus-within:border-purple-500 focus-within:shadow-purple-600 transition-all ease-in-out duration-250"
+            class="flex justify-between ngrid grid-cols-4 w-full gap-x-20 overflow-hidden bg-white text-gray-600 border rounded-[30px] focus-within:border-purple-500 focus-within:shadow-purple-600 transition-all ease-in-out duration-250"
             role="search"
           >
             <label for="searchterm" class="sr-only">Suchbegriff</label>
@@ -119,6 +119,17 @@
               aria-label="Search input"
               placeholder="Suchbegriff eingeben"
             />
+            <button
+              type="submit"
+              class="button m-[4px] is-icon-only md:has-icon is-strong h-[40px] mt-10"
+            >
+              <img
+                class="h-[20px] mr-10 filter invert"
+                src="assets/symbols/search.svg"
+                alt="Vorherige Seite"
+              />
+              <span class="mb-2 mr-[10px]">Suchen</span>
+            </button>
           </div>
         </div>
         <div
