@@ -2807,6 +2807,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding-top: 30px;
 }
 
+.pb-\[35px\] {
+  padding-bottom: 35px;
+}
+
+.pr-\[35px\] {
+  padding-right: 35px;
+}
+
 .text-left {
   text-align: left;
 }

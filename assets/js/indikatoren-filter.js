@@ -599,6 +599,7 @@ function renderDropdownFromJson(
   sortKey,
   filterQueryString
 ) {
+  console.log(data);
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== "undefined") {
@@ -616,6 +617,7 @@ function renderDropdownFromJson(
   var uniqueValues = allValues.filter(function (item, i, ar) {
     return ar.indexOf(item) === i && item != "";
   });
+  console.log(uniqueValues);
   var html = $("#option-template").html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
