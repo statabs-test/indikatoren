@@ -7,7 +7,7 @@
   "yAxis": [
     {
       min: 0,
-      max: 300000,
+      //max: 300000,
     "labels": {
       "format": "{value:,.0f}",
       },

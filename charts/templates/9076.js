@@ -8,8 +8,8 @@
         endOnTick: true,
         startOnTick: true,
         tickInterval: 1,
-        min: 2011,
-        max: 2021
+        min: 2016,
+        max: 2025
       },
       "yAxis": {
         min: -500,
@@ -56,10 +56,10 @@
     enableMouseTracking: false,
     showInLegend: false,
     data: [
-      [2020.4, -500],
-      [2020.4, 2000],
-      [2022, 2000],
-      [2022, -500]
+      [2024.4, -500],
+      [2024.4, 2000],
+      [2026, 2000],
+      [2026, -500]
     ],
     zIndex: -99,
     color: '#E7CEE2'
