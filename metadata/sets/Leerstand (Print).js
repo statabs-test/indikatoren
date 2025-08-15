@@ -118,9 +118,9 @@ var indikatorensetData = [
 		"parentId": "7576",
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2022",
-		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Liestal (1,2%) und Laufen (1,2%) die höchsten Quoten auf. In den Bezirken Sissach (0,7%) und Arlesheim (0,8%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 0,9%. In Waldenburg bewegen sie sich im Kantonsdurchschnitt. Im Stadtkanton (1,2%) liegen die Quoten in Gross- (1,2%) und Kleinbasel (1,1%) über jener von Riehen und Bettingen (0,9%).",
-		"erlaeuterungen": "",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2025",
+		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Arlesheim und Laufen (je 0,9%) die höchsten Quoten auf. In den Bezirken Sissach (0,4%) und Waldenburg (0,5%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 0,8%. Im Bezirk Liestal bewegt sie sich im Kantonsdurchschnitt. Im Stadtkanton (0,9%) liegen die Quoten von Kleinbasel (1,0%) und Grossbasel (0,9%) über jener der Landgemeinden Riehen und Bettingen (0,7%).",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -134,7 +134,7 @@ var indikatorensetData = [
 		"description": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09069",
+		"kuerzel": "",
 		"kennzahlenset": "Leerstand (Print)",
 		"kuerzelKunde": "LEB-2-5",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:44",
+		"aktualisierungsdatum": "2022-08-15T08:12:29",
 		"id": 9069
 	},
 	{
@@ -232,7 +232,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2020 672 Einheiten. Davon  stammen 607 aus Neu- und 219 aus Umbauten. Durch Abbrüche gehen 158 Wohnungen verloren. 2021 wird mit einer Nettoproduktion von rund 850 Wohnungen gerechnet.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2024 511 Einheiten. Davon stammen 151 aus Neu- und 437 aus Umbauten. Durch Abbrüche gehen 77 Wohnungen verloren. 2025 wird eine Nettoproduktion von rund 525 Wohnungen prognostiziert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"description": "Nettoproduktion an Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09072",
+		"kuerzel": "",
 		"kennzahlenset": "Leerstand (Print)",
 		"kuerzelKunde": "LEB-3-3",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
@@ -257,7 +257,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-28T11:02:21",
+		"aktualisierungsdatum": "2022-08-15T08:12:31",
 		"id": 9072
 	},
 	{
@@ -380,7 +380,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen steigt seit dem Rückgang zwischen 2015 und 2018 wieder an. Bei den Werten von 2022 handelt es sich um eine Prognose.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen stieg seit dem Rückgang zwischen 2015 und 2018 bis 2022. 2023 nahm sie wieder ab. Bei den Werten von 2024 handelt es sich um eine Prognose.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -393,7 +393,7 @@ var indikatorensetData = [
 		"description": "Nettoproduktion an Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09076",
+		"kuerzel": "",
 		"kennzahlenset": "Leerstand (Print)",
 		"kuerzelKunde": "LEB-4-3",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
@@ -405,7 +405,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:54",
+		"aktualisierungsdatum": "2022-08-15T08:12:32",
 		"id": 9076
 	},
 	{
@@ -417,7 +417,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen und Wohnbevölkerung",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Zum zweiten Mal in Folge geht der Leerwohungsbestand auch 2022 zurück. Dies bei weiterhin steigender Bevölkerung und einer Zunahme bei den belegten Wohnungen.",
+		"lesehilfe": "Der Leerwohungsbestand ist 2025 höher als 2024. Dies bei weiterhin steigender Bevölkerung, einer geringeren Nettoproduktion aber einer Zunahme bei den belegten Wohnungen.",
 		"erlaeuterungen": "Seit 1994 mit Bezirk Laufen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -430,7 +430,7 @@ var indikatorensetData = [
 		"description": "Wohnungen und Wohnbevölkerung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
-		"kuerzel": "I.09.2.09077",
+		"kuerzel": "",
 		"kennzahlenset": "Leerstand (Print)",
 		"kuerzelKunde": "LEB-4-4",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
@@ -442,7 +442,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-03-07T08:20:55",
+		"aktualisierungsdatum": "2022-08-15T08:12:32",
 		"id": 9077
 	},
 	{

@@ -24,15 +24,15 @@
       "data": [
         [
           "neu erstellt",
-          24
+          10
         ],
         [
           "renoviert",
-          158
+          229
         ],
         [
           "unverändert",
-          715
+          840
         ]
       ],
       "name": "Anzahl",
@@ -104,7 +104,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2024",
+    "text": "Basel-Stadt, 2025",
     "align": "left"
   },
   "tooltip": {
