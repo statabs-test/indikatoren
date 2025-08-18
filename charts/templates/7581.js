@@ -42,10 +42,10 @@
 			dataLabels: {
 				enabled: true,
 				useHTML: true,
-				/*formatter: function () {
-					return this.point.name.replace("Zimmer", "Zi.");
+				formatter: function () {
+					return this.point.name.replace("Zimmer", "Zi.<br>");
 
-				},*/
+				},
 				distance: 15,
 				connectorWidth: 1,
 				overflow: "allow",
