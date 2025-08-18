@@ -3,6 +3,7 @@
    "chart": {
     "type": "area",
    },
+   
   plotOptions: {
         /*series: {
         	"stacking": "normal",
