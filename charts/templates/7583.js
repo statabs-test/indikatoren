@@ -8,12 +8,12 @@
   endOnTick: true,
   startOnTick: true,
   tickInterval: 1,
-  min: 2014,
+  min: 2016,
   max: 2024
 },
 "yAxis": {
   min: -500,
-  max: 2500,
+  max: 2000,
   tickAmount: 7,
 "labels": {
   "format": "{value:,.0f}"
