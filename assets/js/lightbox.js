@@ -67,23 +67,35 @@ document.addEventListener("DOMContentLoaded", () => {
       "indikator-template-modal-portal"
     ).innerHTML;
     const compiled = _.template(templateHtml);
+
+    const chartMeta = findChartById(indikatoren, id);
+
+    if (!kuerzel) {
+      kuerzel = chartMeta
+        ? chartMeta.kuerzel
+        : findKuerzelById(indikatoren, id);
+    }
+
     const html = compiled({
       id,
       kuerzel,
-      lesehilfe: "",
-      erlaeuterungen: "",
-      kennzahlenset: null,
-      renderLink: null,
-      externalLinks: null,
+      lesehilfe: chartMeta?.lesehilfe || "",
+      erlaeuterungen: chartMeta?.erlaeuterungen || "",
+      kennzahlenset: chartMeta?.kennzahlenset || null,
+      renderLink: chartMeta?.renderLink || null,
+      externalLinks: chartMeta?.externalLinks || null,
     });
 
-    console.log("heelo");
+    nextBtn.classList.add("hidden");
+    prevBtn.classList.add("hidden");
+
     console.log(compiled);
     lightboxContent.innerHTML = html;
 
     setTimeout(() => {
       if (typeof getChartOptionsById === "function") {
         const options = getChartOptionsById(id);
+        console.log(options);
         Highcharts.chart(`container-${id}`, options);
       } else if (typeof lazyRenderChartById === "function") {
         lazyRenderChartById(id, undefined, window.view);
@@ -91,6 +103,11 @@ document.addEventListener("DOMContentLoaded", () => {
         console.warn(`No chart render function available for ID: ${id}`);
       }
     }, 50);
+
+    setTimeout(() => {
+      nextBtn.classList.remove("hidden");
+      prevBtn.classList.remove("hidden");
+    }, 70);
   }
 
   closeBtn.addEventListener("click", closeLightbox);

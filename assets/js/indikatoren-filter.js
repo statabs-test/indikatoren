@@ -599,7 +599,6 @@ function renderDropdownFromJson(
   sortKey,
   filterQueryString
 ) {
-  console.log(data);
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== "undefined") {
