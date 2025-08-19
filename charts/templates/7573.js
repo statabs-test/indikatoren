@@ -95,17 +95,6 @@
         enabled: false
       }, 
       legendIndex: 3,
-      tooltip: {
-        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-        pointFormatter: function(){ 
-          if(this.series.type == 'line' ){
-            return "" ;
-          // to disable the tooltip at a point return false 
-          }else {
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>'; /* number of decimals adjusted from 2 to 1 */
-        }
-      }
-      }
     },
   ],  
 tooltip: {
@@ -133,7 +122,7 @@ tooltip: {
     } else {
       return '<span style="font-size: 10px">Jahr: ' + this.x +
         '</span><br><span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>'
-        + Highcharts.numberFormat(this.y, 2, ",", " ") + '</b><br/>';
+        + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
     }
   }
 }
