@@ -62,7 +62,7 @@
         enabled: true,
         formatter: function(){
           return this.point.name.replace("Zimmer", "Zi.<br>");
-  
+
         },
         distance: 15,
         connectorWidth: 1,
