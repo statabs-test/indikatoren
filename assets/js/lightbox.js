@@ -89,7 +89,12 @@ document.addEventListener("DOMContentLoaded", () => {
     nextBtn.classList.add("hidden");
     prevBtn.classList.add("hidden");
 
-    console.log(compiled);
+    lightbox.addEventListener("click", function (e) {
+      if (e.target.id === "lightbox-wrapper") {
+        closeLightbox();
+      }
+    });
+
     lightboxContent.innerHTML = html;
 
     setTimeout(() => {
