@@ -338,6 +338,17 @@ function getSortOptions(name) {
 function preparePortalView() {
   $("#main-control-element-indikatorenset").remove();
   renderDropdownFromJson(indikatoren, "thema", "#thema", "thema");
+
+  $("#thema").on("change", function () {
+    const val = $(this).val();
+    if (val && val !== "all") {
+      $("#unterthema_filter_container").removeClass("hidden");
+    } else {
+      $("#unterthema_filter_container").addClass("hidden").val("all");
+      if (window.FJS) FJS.filter();
+    }
+  });
+
   renderMultiselectDropdownFromJson(
     [
       "Schweiz",
@@ -616,7 +627,6 @@ function renderDropdownFromJson(
   var uniqueValues = allValues.filter(function (item, i, ar) {
     return ar.indexOf(item) === i && item != "";
   });
-  console.log(uniqueValues);
   var html = $("#option-template").html();
   var templateFunction = FilterJS.templateBuilder(html);
   var container = $(selector);
@@ -819,10 +829,7 @@ var afterFilter = function (result, jQ) {
 
   //define how counts in dropdowns or checkboxes are rendered
   var optionCountRenderFunction = function (c, count) {
-    c.text(c.val() + " (" + count + ")");
-  };
-  var checkboxCountRenderFunction = function (c, count) {
-    c.next().text(c.val() + " (" + count + ")");
+    //c.text(c.val() + " (" + count + ")");
   };
 
   //render new counts after each control

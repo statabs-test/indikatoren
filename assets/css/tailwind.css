@@ -2482,6 +2482,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-bottom: 15px;
 }
 
+.mb-2 {
+  margin-bottom: 2px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -2496,6 +2500,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .ml-\[0\.3em\] {
   margin-left: 0.3em;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
 }
 
 .mt-10 {
@@ -2516,38 +2528,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
-}
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.mb-2 {
-  margin-bottom: 2px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.ml-20 {
-  margin-left: 20px;
-}
-
-.ml-\[100px\] {
-  margin-left: 100px;
-}
-
-.mr-20 {
-  margin-right: 20px;
-}
-
-.mr-\[20px\] {
-  margin-right: 20px;
-}
-
-.mr-\[10px\] {
-  margin-right: 10px;
 }
 
 .block {
@@ -2598,24 +2578,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 25px;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[50px\] {
   height: 50px;
 }
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
-.h-\[10px\] {
-  height: 10px;
-}
-
-.h-\[15px\] {
-  height: 15px;
 }
 
 .max-h-\[90vh\] {
@@ -2640,6 +2612,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .w-full {
   width: 100%;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .max-w-\[2560px\] {
@@ -2807,14 +2787,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding-top: 30px;
 }
 
-.pb-\[35px\] {
-  padding-bottom: 35px;
-}
-
-.pr-\[35px\] {
-  padding-right: 35px;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2860,10 +2832,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .text-white {
   color: #ffffff;
-}
-
-.text-blue-700 {
-  color: #146C8B;
 }
 
 .underline {
@@ -2967,17 +2935,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:not-sr-only {
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-  }
-
   .md\:mt-40 {
     margin-top: 40px;
   }
