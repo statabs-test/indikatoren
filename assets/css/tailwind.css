@@ -2530,6 +2530,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 0.18em;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .block {
   display: block;
 }
@@ -2622,6 +2626,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 350px;
 }
 
+.min-w-0 {
+  min-width: 0px;
+}
+
 .max-w-\[2560px\] {
   max-width: 2560px;
 }
@@ -2700,6 +2708,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .whitespace-nowrap {
@@ -2785,6 +2797,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
+}
+
+.pt-5 {
+  padding-top: 5px;
 }
 
 .text-left {

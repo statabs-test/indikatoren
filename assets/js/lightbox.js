@@ -21,8 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function prevSlide() {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateLightbox();
+    if (currentIndex > 0) {
+      currentIndex = (currentIndex - 1) % window.slides.length;
+      updateLightbox();
+    }
   }
 
   function nextSlide() {
@@ -100,7 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       if (typeof getChartOptionsById === "function") {
         const options = getChartOptionsById(id);
-        console.log(options);
         Highcharts.chart(`container-${id}`, options);
       } else if (typeof lazyRenderChartById === "function") {
         lazyRenderChartById(id, undefined, window.view);
@@ -124,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("keydown", function (e) {
-    if (lightbox.classList.contains("hidden")) return; // nur wenn Lightbox offen
+    if (lightbox.classList.contains("hidden")) return;
 
     if (e.key === "ArrowRight") {
       nextBtn.click();

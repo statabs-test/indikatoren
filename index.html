@@ -273,17 +273,16 @@
       </div>
     </div>
 
-    <!-- Lightbox -->
     <div
       id="lightbox"
-      class="fixed inset-0 z-50 flex items-start md:items-center justify-center bg-[#DDECDE]/80 hidden pt-4"
+      class="fixed inset-0 z-50 flex items-start justify-center bg-[#DDECDE]/80 hidden pt-5 overflow-y-auto"
     >
       <div
         id="lightbox-wrapper"
-        class="w-full max-w-3xl flex items-center justify-center mt-10"
+        class="w-full max-w-3xl flex items-center justify-center mt-0"
       >
         <div
-          class="w-full sm:w-4/5 lg:w-3/5 flex flex-col bg-white p-4 min-h-[60vh] rounded-xl shadow-lg"
+          class="w-full sm:w-4/5 lg:w-3/5 flex flex-col bg-white p-4 rounded-xl shadow-lg mx-4"
         >
           <div class="relative flex justify-center mt-4">
             <div
@@ -313,7 +312,7 @@
               />
             </button>
 
-            <div id="lightbox-content" class="basis-2/3"></div>
+            <div id="lightbox-content" class="basis-2/3 min-w-0 w-full"></div>
 
             <button
               id="next-slide"
