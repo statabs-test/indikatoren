@@ -123,6 +123,18 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === lightbox) closeLightbox();
   });
 
+  document.addEventListener("keydown", function (e) {
+    if (lightbox.classList.contains("hidden")) return; // nur wenn Lightbox offen
+
+    if (e.key === "ArrowRight") {
+      nextBtn.click();
+    } else if (e.key === "ArrowLeft") {
+      prevBtn.click();
+    } else if (e.key === "Escape") {
+      closeLightbox();
+    }
+  });
+
   function waitForElements(selector, callback) {
     const elements = document.querySelectorAll(selector);
     if (elements.length > 0) {
