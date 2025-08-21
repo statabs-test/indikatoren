@@ -17,7 +17,7 @@
                   }
               }
           }
-      }
+      },
   },
   data: {
     seriesMapping: 
@@ -97,13 +97,44 @@
           textOutline: "0px black", 
           fontWeight: "normal", 
           fontSize: "10px"
+        },
+        positioner: function(labelWidth, labelHeight, point) {
+          var position = point.labelPos;
+          
+          // Adjust position for series 5 and 6 (index 4 and 5)
+          if (point.index === 4 || point.index === 5) {
+            // Move these labels slightly to avoid overlap
+            return {
+              x: position[0] - labelWidth/2,
+              y: position[1] - labelHeight + 55 // Move up 5 pixels
+            };
+          }
+          
+          // Default position for other labels
+          return {
+            x: position[0] - labelWidth/2,
+            y: position[1] - labelHeight
+          };
         }
-    }
-  }],
       
-  "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
-    "shared": false
-  }
-};
-}());
+
+
+
+
+      }
+    }],
+        
+    "tooltip": {
+      "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} </b> ({point.percentage:.1f}%)<br/><br/>',
+      "shared": false
+    }
+  };
+  }());
+
+
+
+
+        
+
+
+        
