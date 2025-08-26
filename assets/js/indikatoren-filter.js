@@ -32,7 +32,7 @@ var indikatoren;
 var view = false;
 var perPage = 16;
 var itemsToShow = 16;
-var itemsIncrement = 32;
+var itemsIncrement = 64;
 
 $(document).ready(function () {
   //display header if requested
@@ -110,7 +110,7 @@ $(document).ready(function () {
       //perPage defined globally with a default value
       perPage = perPageParam;
       itemsToShow = perPage;
-      itemsIncrement = perPage;
+      //itemsIncrement = perPage;
     }
 
     //determine sort order
@@ -806,6 +806,7 @@ function renderCardsSlice(result) {
   $container.empty();
 
   var count = Math.min(itemsToShow, result.length);
+  console.log(itemsToShow);
   for (var i = 0; i < count; i++) {
     $container.append(tpl(result[i]));
   }
@@ -933,7 +934,6 @@ var afterFilter = function (result, jQ) {
   if (window.attachLightboxTriggers) window.attachLightboxTriggers();
   // --- Load-More-Grid steuern ---
   // initial immer auf Startwert zurücksetzen
-  itemsToShow = itemsIncrement; // z.B. 16
   // FilterJS-eigene Pagination im UI ausblenden
   $("#pagination").addClass("hidden");
   // unser Slicing-Render

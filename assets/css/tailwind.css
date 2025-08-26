@@ -2510,6 +2510,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-right: 10px;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -2530,12 +2534,23 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 0.18em;
 }
 
-.mt-0 {
-  margin-top: 0px;
+.ml-2 {
+  margin-left: 2px;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -2594,12 +2609,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 60px;
 }
 
-.max-h-\[90vh\] {
-  max-height: 90vh;
+.h-20 {
+  height: 20px;
 }
 
-.min-h-\[60vh\] {
-  min-height: 60vh;
+.max-h-\[90vh\] {
+  max-height: 90vh;
 }
 
 .w-1\/2 {
@@ -2614,16 +2629,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 1em;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-\[280px\] {
-  width: 280px;
-}
-
-.w-\[350px\] {
-  width: 350px;
+.w-20 {
+  width: 20px;
 }
 
 .min-w-0 {
@@ -2683,6 +2698,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -2695,6 +2718,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   gap: 10px;
 }
 
+.gap-5 {
+  gap: 5px;
+}
+
 .gap-x-20 {
   -moz-column-gap: 20px;
        column-gap: 20px;
@@ -2704,6 +2731,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   --tw-space-x-reverse: 0;
   margin-right: calc(2px * var(--tw-space-x-reverse));
   margin-left: calc(2px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .overflow-hidden {
@@ -2770,6 +2801,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding: 10px;
 }
 
+.p-2 {
+  padding: 2px;
+}
+
 .px-15 {
   padding-left: 15px;
   padding-right: 15px;
@@ -2805,6 +2840,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .text-left {
   text-align: left;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
@@ -2846,8 +2885,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   color: #777777;
 }
 
+.text-red-700 {
+  color: #DB1A00;
+}
+
 .text-white {
   color: #ffffff;
+}
+
+.text-primary-500 {
+  color: var(--color-primary-500);
 }
 
 .underline {
@@ -2883,8 +2930,18 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   transition-duration: 150ms;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-250 {
   transition-duration: 250ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 .ease-in-out {
@@ -2950,21 +3007,18 @@ body {
   outline-offset: 2px;
 }
 
+.group:hover .group-hover\:translate-y-1 {
+  --tw-translate-y: 1px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @media (min-width: 768px) {
   .md\:mt-40 {
     margin-top: 40px;
   }
 
-  .md\:mt-\[-100px\] {
-    margin-top: -100px;
-  }
-
   .md\:grid-cols-\[2fr_1fr_1fr_1fr\] {
     grid-template-columns: 2fr 1fr 1fr 1fr;
-  }
-
-  .md\:items-center {
-    align-items: center;
   }
 
   .md\:px-20 {

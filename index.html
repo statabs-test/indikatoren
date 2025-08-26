@@ -160,7 +160,7 @@
     </section>
 
     <div class="container">
-      <div class="w-full flex justify-between">
+      <div class="w-full flex justify-end mb-20">
         <div id="pagination" class="indikatoren-pagination"></div>
         <div id="portal-reset-button" class="underline m-[4px] cursor-pointer">
           <div>Alle Filter löschen</div>
@@ -245,8 +245,28 @@
 
           <div class="indikatoren flex flex-wrap" id="indikatoren"></div>
 
-          <div id="load-more-container" class="text-center mt-10 mb-20 hidden">
-            <button id="load-more" class="button is-strong">Mehr laden</button>
+          <div id="load-more-container" class="mt-10 mb-20 hidden">
+            <button id="load-more" class="mt-4 p-2 text-primary-500">
+              <div class="flex gap-5 items-center mb-10">
+                <svg
+                  class="w-20 h-20 self-start font-thin inline-block ml-2 h-4 w-4"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.99996 5V15M9.99996 15L15.5 10.5M9.99996 15L4.5 10.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <div class="font-bold line-clamp-2">
+                  Mehr Resultate anzeigen
+                </div>
+              </div>
+            </button>
           </div>
         </div>
       </div>
