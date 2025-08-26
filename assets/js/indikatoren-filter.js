@@ -31,6 +31,8 @@ global lazyRenderChartById
 var indikatoren;
 var view = false;
 var perPage = 16;
+var itemsToShow = 16;
+var itemsIncrement = 32;
 
 $(document).ready(function () {
   //display header if requested
@@ -107,6 +109,8 @@ $(document).ready(function () {
     if (perPageParam > 0 && perPageParam <= 32) {
       //perPage defined globally with a default value
       perPage = perPageParam;
+      itemsToShow = perPage;
+      itemsIncrement = perPage;
     }
 
     //determine sort order
@@ -239,9 +243,9 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
 
     const builtin = FJS.paginator.onPagination.bind(FJS.paginator);
     FJS.paginator.onPagination = function (currentPage, perPage) {
-      builtin(currentPage, perPage);
-      console.log("Page changed to", currentPage);
-      if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+      //builtin(currentPage, perPage);
+      //console.log("Page changed to", currentPage);
+      //if (window.attachLightboxTriggers) window.attachLightboxTriggers();
     };
 
     //reset all filter criteria
@@ -249,6 +253,17 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
       resetPortalFilter(FJS, false);
     });
   }
+
+  // Klick-Handler einmalig setzen
+  $("#load-more")
+    .off("click")
+    .on("click", function (e) {
+      e.preventDefault();
+      itemsToShow += itemsIncrement;
+      // letztes Filter-Ergebnis erneut schneiden
+      var result = getLastFjsResult(); // helper existiert bei dir bereits
+      renderCardsSlice(result);
+    });
 
   //implement default sorting, add event listener, and implement sortResult function
   $("#sortBy").on("change", function (e) {
@@ -768,6 +783,44 @@ function getIndexByFid(fid) {
   }
 }
 
+function getCardTemplateId() {
+  // gleiche Templates wie bisher fürs Grid
+  return isIndikatorensetView(view)
+    ? "#indikator-template-carousel-indikatorenset"
+    : "#indikator-template-carousel-portal";
+}
+
+function renderCardsSlice(result) {
+  var templateId = getCardTemplateId();
+  var html = $(templateId).html();
+  if (typeof html !== "string" || html.trim() === "") {
+    console.error("[Grid] Template fehlt/leer:", templateId);
+    $("#indikatoren").html(
+      "<div class='p-4 text-sm text-red-700'>Template fehlt</div>"
+    );
+    return;
+  }
+  var tpl = FilterJS.templateBuilder(html); // nutzt deine FilterJS-Template Engine
+
+  var $container = $("#indikatoren");
+  $container.empty();
+
+  var count = Math.min(itemsToShow, result.length);
+  for (var i = 0; i < count; i++) {
+    $container.append(tpl(result[i]));
+  }
+
+  // Button ein-/ausblenden
+  if (itemsToShow < result.length) {
+    $("#load-more-container").removeClass("hidden");
+  } else {
+    $("#load-more-container").addClass("hidden");
+  }
+
+  // Lightbox-Trigger neu binden, nachdem DOM ersetzt wurde
+  if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+}
+
 //after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function (result, jQ) {
   //$('#total_indikatoren').text(result.length);
@@ -878,6 +931,13 @@ var afterFilter = function (result, jQ) {
 
   createCarousel(result);
   if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+  // --- Load-More-Grid steuern ---
+  // initial immer auf Startwert zurücksetzen
+  itemsToShow = itemsIncrement; // z.B. 16
+  // FilterJS-eigene Pagination im UI ausblenden
+  $("#pagination").addClass("hidden");
+  // unser Slicing-Render
+  renderCardsSlice(result);
 
   //add Counts in brackets after each option
   //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
