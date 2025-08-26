@@ -970,6 +970,16 @@ var afterFilter = function (result, jQ) {
       ? "#indikator-template-modal-indikatorenset"
       : "#indikator-template-modal-portal";
     var html = $(template).html();
+    if (typeof html !== "string" || html.trim() === "") {
+      console.error("[Lightbox] Template nicht gefunden oder leer:", template);
+      // optional: Nutzerfreundliche Fallback-Box
+      $("#carousel-inner").html(
+        "<div class='p-4 text-sm text-red-700'>Fehlendes Template: " +
+          template +
+          "</div>"
+      );
+      return; // Crash verhindern
+    }
     var templateFunction = FilterJS.templateBuilder(html);
 
     var container = $("#carousel-inner");
