@@ -2506,3 +2506,5 @@ id | visible | visibleInPortal | indikatorenset
 22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt
+22354 | true | true | Stadtteilrichtplan Gundeldingen
+22355 | true | true | Stadtteilrichtplan Gundeldingen

@@ -1,0 +1,289 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#008AC3",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
+          }
+      },
+      "data": [
+        [
+          "2011",
+          7.69101
+        ],
+        [
+          "2015",
+          8.00777
+        ],
+        [
+          "2019",
+          7.98298
+        ],
+        [
+          "2023",
+          7.88844
+        ]
+      ],
+      "name": "Gundeldingen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '' + Highcharts.numberFormat((this.high), 1) + '';
+            }
+      },
+      "data": [
+        {
+          "name": "2011",
+          "low": 7.4371,
+          "high": 7.94492
+        },
+        {
+          "name": "2015",
+          "low": 7.7682,
+          "high": 8.24735
+        },
+        {
+          "name": "2019",
+          "low": 7.79355,
+          "high": 8.17241
+        },
+        {
+          "name": "2023",
+          "low": 7.6563,
+          "high": 8.12059
+        }
+      ],
+      "name": "Gundeldingen 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#DC440E",
+      "tooltip": {
+        "pointFormatter": function () {
+              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
+            }
+      },
+      "data": [
+        [
+          "2011",
+          7.74884
+        ],
+        [
+          "2015",
+          7.84102
+        ],
+        [
+          "2019",
+          8.01379
+        ],
+        [
+          "2023",
+          7.84951
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+                return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '' + Highcharts.numberFormat((this.high), 1) + '';
+              }
+      },
+      "data": [
+        {
+          "name": "2011",
+          "low": 7.67372,
+          "high": 7.82396
+        },
+        {
+          "name": "2015",
+          "low": 7.76882,
+          "high": 7.91323
+        },
+        {
+          "name": "2019",
+          "low": 7.94745,
+          "high": 8.08013
+        },
+        {
+          "name": "2023",
+          "low": 7.77549,
+          "high": 7.92352
+        }
+      ],
+      "name": "Basel-Stadt 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "renderTo": "container-22354"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Bewertung der Lebensqualität"
+  },
+  "subtitle": {
+    "text": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?»",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "exporting": {
+    "filename": "22354"
+  }
+}

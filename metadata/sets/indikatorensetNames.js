@@ -16,6 +16,7 @@ var indikatorensetNames = [
 	"Wohnraumschutz",
 	"Richtplan (Print)",
 	"Umwelt",
+	"Stadtteilrichtplan Gundeldingen",
 	"Wohnraumentwicklung",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
