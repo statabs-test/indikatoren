@@ -35,7 +35,7 @@
     },
     "series": [
       { index:0,
-        "color": "#008AC3",
+        "color": "#246370",
         "tooltip": {
           "pointFormatter": function () {
             return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
@@ -51,7 +51,7 @@
           }
         },
         { index:2,
-          "color": "#DC440E",
+          "color": "#8A8A8A",
           "tooltip": {
             "pointFormatter": function () {
               return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
@@ -79,12 +79,12 @@
         "fontWeight": "normal"
       }
     },
-    "plotOptions": {
-      series: {
-        pointPadding: 0,
-        borderWidth: 0
-      }
-    },
+    plotOptions: {
+        series: {
+          pointPadding: 0.05,
+          borderWidth: 0,
+        }
+      },
     chart: {
       "type": "column",
     }
