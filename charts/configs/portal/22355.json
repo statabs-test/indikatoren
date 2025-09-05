@@ -11,19 +11,19 @@
       "data": [
         [
           "2011",
-          0.167668
+          0.838274
         ],
         [
           "2015",
-          0.177112
+          0.839298
         ],
         [
           "2019",
-          0.247141
+          0.751863
         ],
         [
           "2023",
-          0.18972
+          0.728977
         ]
       ],
       "name": "Gundeldingen",
@@ -40,23 +40,23 @@
       "data": [
         {
           "name": "2011",
-          "low": 0.135808,
-          "high": 0.199528
+          "low": 0.770854,
+          "high": 0.905695
         },
         {
           "name": "2015",
-          "low": 0.141175,
-          "high": 0.21305
+          "low": 0.769276,
+          "high": 0.909319
         },
         {
           "name": "2019",
-          "low": 0.209561,
-          "high": 0.284722
+          "low": 0.680854,
+          "high": 0.822872
         },
         {
           "name": "2023",
-          "low": 0.155318,
-          "high": 0.224121
+          "low": 0.649555,
+          "high": 0.8084
         }
       ],
       "name": "Gundeldingen 95% Konfidenzintervall Untergrenze",
@@ -73,19 +73,19 @@
       "data": [
         [
           "2011",
-          0.180876
+          0.842615
         ],
         [
           "2015",
-          0.181321
+          0.852471
         ],
         [
           "2019",
-          0.222766
+          0.764865
         ],
         [
           "2023",
-          0.209053
+          0.742928
         ]
       ],
       "name": "Basel-Stadt",
@@ -102,23 +102,23 @@
       "data": [
         {
           "name": "2011",
-          "low": 0.171271,
-          "high": 0.190481
+          "low": 0.823894,
+          "high": 0.861337
         },
         {
           "name": "2015",
-          "low": 0.170716,
-          "high": 0.191926
+          "low": 0.831686,
+          "high": 0.873257
         },
         {
           "name": "2019",
-          "low": 0.211885,
-          "high": 0.233648
+          "low": 0.744413,
+          "high": 0.785316
         },
         {
           "name": "2023",
-          "low": 0.198281,
-          "high": 0.219825
+          "low": 0.721192,
+          "high": 0.764664
         }
       ],
       "name": "Basel-Stadt 95% Konfidenzintervall Untergrenze",
@@ -193,7 +193,7 @@
     "text": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild"
   },
   "subtitle": {
-    "text": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
+    "text": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?», Anteil Zufriedene",
     "align": "left",
     "style": {
       "fontSize": "12px",

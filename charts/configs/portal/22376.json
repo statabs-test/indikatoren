@@ -5,25 +5,25 @@
       "color": "#246370",
       "tooltip": {
         "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
           }
       },
       "data": [
         [
-          "2011",
-          7.69101
+          "2009",
+          0.70229
         ],
         [
-          "2015",
-          8.00777
+          "2013",
+          0.774747
         ],
         [
-          "2019",
-          7.98298
+          "2017",
+          0.891632
         ],
         [
-          "2023",
-          7.88844
+          "2022",
+          0.872691
         ]
       ],
       "name": "Gundeldingen",
@@ -34,29 +34,29 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '' + Highcharts.numberFormat((this.high), 1) + '';
-            }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
+          }
       },
       "data": [
         {
-          "name": "2011",
-          "low": 7.4371,
-          "high": 7.94492
+          "name": "2009",
+          "low": 0.646559,
+          "high": 0.758022
         },
         {
-          "name": "2015",
-          "low": 7.7682,
-          "high": 8.24735
+          "name": "2013",
+          "low": 0.712912,
+          "high": 0.836581
         },
         {
-          "name": "2019",
-          "low": 7.79355,
-          "high": 8.17241
+          "name": "2017",
+          "low": 0.828029,
+          "high": 0.955234
         },
         {
-          "name": "2023",
-          "low": 7.6563,
-          "high": 8.12059
+          "name": "2022",
+          "low": 0.811085,
+          "high": 0.934297
         }
       ],
       "name": "Gundeldingen 95% Konfidenzintervall Untergrenze",
@@ -67,25 +67,25 @@
       "color": "#8A8A8A",
       "tooltip": {
         "pointFormatter": function () {
-              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
-            }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
-          "2011",
-          7.74884
+          "2009",
+          0.736454
         ],
         [
-          "2015",
-          7.84102
+          "2013",
+          0.82318
         ],
         [
-          "2019",
-          8.01379
+          "2017",
+          0.844819
         ],
         [
-          "2023",
-          7.84951
+          "2022",
+          0.838438
         ]
       ],
       "name": "Basel-Stadt",
@@ -96,29 +96,29 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-                return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '' + Highcharts.numberFormat((this.high), 1) + '';
-              }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)';
+          }
       },
       "data": [
         {
-          "name": "2011",
-          "low": 7.67372,
-          "high": 7.82396
+          "name": "2009",
+          "low": 0.72099,
+          "high": 0.751918
         },
         {
-          "name": "2015",
-          "low": 7.76882,
-          "high": 7.91323
+          "name": "2013",
+          "low": 0.807148,
+          "high": 0.839211
         },
         {
-          "name": "2019",
-          "low": 7.94745,
-          "high": 8.08013
+          "name": "2017",
+          "low": 0.826655,
+          "high": 0.862984
         },
         {
-          "name": "2023",
-          "low": 7.77549,
-          "high": 7.92352
+          "name": "2022",
+          "low": 0.818609,
+          "high": 0.858268
         }
       ],
       "name": "Basel-Stadt 95% Konfidenzintervall Untergrenze",
@@ -172,7 +172,7 @@
 					}
 				}
     },
-    "renderTo": "container-22354"
+    "renderTo": "container-22376"
   },
   "plotOptions": {
     "series": {
@@ -190,10 +190,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bewertung der Lebensqualität"
+    "text": "Zufriedenheit mit Spielplätzen"
   },
   "subtitle": {
-    "text": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?»",
+    "text": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Kinderspielplätzen?», Anteil Zufriedene",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -217,9 +217,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
       "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0);
+          return Highcharts.numberFormat((100 * this.value), 0) + '%';
         }
     }
   },
@@ -231,8 +230,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -247,7 +245,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -283,7 +281,10 @@
 				}, true, true);
 			}
   },
+  "tooltip": {
+    "shared": true
+  },
   "exporting": {
-    "filename": "22354"
+    "filename": "22376"
   }
 }
