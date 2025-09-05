@@ -2506,3 +2506,8 @@ id | visible | visibleInPortal | indikatorenset
 22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt
+22357 | true | true | Steuern
+22358 | true | true | Steuern
+22359 | true | true | Steuern
+22421 | true | true | Steuern
+22422 | true | true | Steuern

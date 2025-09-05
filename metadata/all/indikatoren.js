@@ -8254,6 +8254,196 @@ var indikatoren = [
 		"id": 22344
 	},
 	{
+		"template": "template001",
+		"data-id": 22357,
+		"chart-id": 22357,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Veranlagungen natürlicher Personen",
+		"subtitle": "in Franken, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anzahl Veranlagungen natürlicher Personen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "",
+		"kennzahlenset": "Steuern",
+		"kuerzelKunde": "2.2.9",
+		"stufe1": "2 Kernindikatoren",
+		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T03:21:37",
+		"id": 22357
+	},
+	{
+		"template": "template001",
+		"data-id": 22358,
+		"chart-id": 22358,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ertrag aus Einkommenssteuer",
+		"subtitle": "in Franken, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Ertrag aus Einkommenssteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "",
+		"kennzahlenset": "Steuern",
+		"kuerzelKunde": "2.2.9",
+		"stufe1": "2 Kernindikatoren",
+		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T03:21:37",
+		"id": 22358
+	},
+	{
+		"template": "template001",
+		"data-id": 22359,
+		"chart-id": 22359,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ertrag aus Vermögenssteuer",
+		"subtitle": "in Franken, Basel-Stadt",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Ertrag aus Vermögenssteuer",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "",
+		"kennzahlenset": "Steuern",
+		"kuerzelKunde": "2.2.9",
+		"stufe1": "2 Kernindikatoren",
+		"stufe2": "2.2 Ordentliche Veranlagung natürlicher Personen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T03:21:37",
+		"id": 22359
+	},
+	{
+		"template": "template001",
+		"data-id": 22421,
+		"chart-id": 22421,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Veranlagungen Quellensteuerpflichtige",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anzahl Veranlagungen Quellensteuerpflichtige",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "",
+		"kennzahlenset": "Steuern",
+		"kuerzelKunde": "2.2.3",
+		"stufe1": "2 Kernindikatoren",
+		"stufe2": "2.4 Quellensteuer",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-05T11:13:40",
+		"id": 22421
+	},
+	{
+		"template": "template001",
+		"data-id": 22422,
+		"chart-id": 22422,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Quellensteuerertrag",
+		"subtitle": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Quellensteuerertrag",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "",
+		"kennzahlenset": "Steuern",
+		"kuerzelKunde": "2.2.3",
+		"stufe1": "2 Kernindikatoren",
+		"stufe2": "2.4 Quellensteuer",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-05T11:13:40",
+		"id": 22422
+	},
+	{
 		"template": "line001",
 		"data-id": 2400,
 		"chart-id": 2400,
@@ -38771,7 +38961,7 @@ var indikatoren = [
 		"id": 6897
 	},
 	{
-		"template": "line001",
+		"template": "pie001",
 		"data-id": 6898,
 		"chart-id": 6898,
 		"filter": "",
@@ -38779,9 +38969,9 @@ var indikatoren = [
 		"children": [
 			9317
 		],
-		"title": "Veranlagungen natürlicher Personen und Bevölkerung",
-		"subtitle": "nach Tarif und Alter, Basel-Stadt, 2021",
-		"lesehilfe": "Im Jahr 2021 gibt es rund 119 000 Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen und wohnhaften Personen. Die meisten Veranlagungen mit jeweils über 2 000 liegen zwischen 30 und 40 Jahre sowie um die 56 Jahre vor. Rund 81 000 Veranlagungen stammen von Alleinstehenden (Anteil 68%), 31 000 von Verheirateten (26%) und ca. 6 600 von Alleinstehenden mit Kind oder einer anderen unterstützten Person (6%). Nicht berücksichtigt sind Veranlagungen von Auswärtigen (insgesamt rund 8 400 Veranlagungen) und von Unterjährigen (ca. 4 700 Veranlagungen).",
+		"title": "Veranlagungen natürlicher Personen",
+		"subtitle": "Basel-Stadt, 2022",
+		"lesehilfe": "",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -38791,7 +38981,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Veranlagungen natürlicher Personen und Bevölkerung",
+		"description": "Veranlagungen natürlicher Personen",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.06898",
@@ -38819,8 +39009,8 @@ var indikatoren = [
 		"children": [
 			9318
 		],
-		"title": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
-		"subtitle": "indexiert (2012 = 100), Basel-Stadt",
+		"title": "Summe von Reineinkommen, -vermögen und Steuerertrag",
+		"subtitle": "indexiert (2013 = 100), Basel-Stadt",
 		"lesehilfe": "Die indexierten Linien für die Wohnbevölkerung in Basel-Stadt und die Anzahl der Veranlagungen verlaufen relativ gleichmässig. Die grössten Schwankungen seit 2012 zeigt das Reinvermögen, das seitdem nominal um 60% gewachsen ist. Das Reineinkommen stieg um rund 22%. Der Ertrag aus Einkommens- und Vermögenssteuer lag 2021 um ca. 32% über dem Wert von 2012. Der grössere Anstieg des Reinvermögens liegt unter anderem am steigenden Wert von Kapitalanlagen bzw. Wertschriften. Ein weiterer Grund für die Schwankungen kann auch der Bearbeitungsstand der Veranlagungen sein. In den Auswertungen sind in der Regel zum Zeitpunkt des Datenexports 98% der gesamten Veranlagungen berücksichtigt.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"quellenangabe": [
@@ -38831,7 +39021,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag",
+		"description": "Summe von Reineinkommen, -vermögen und Steuerertrag",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kuerzel": "I.18.2.06899",

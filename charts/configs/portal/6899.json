@@ -9,52 +9,6 @@
         ],
         [
           2013,
-          100.5
-        ],
-        [
-          2014,
-          101.2
-        ],
-        [
-          2015,
-          101.1
-        ],
-        [
-          2016,
-          101.5
-        ],
-        [
-          2017,
-          101.4
-        ],
-        [
-          2018,
-          102
-        ],
-        [
-          2019,
-          102.7
-        ],
-        [
-          2020,
-          103.1
-        ],
-        [
-          2021,
-          104.2
-        ]
-      ],
-      "name": "Veranlagungen"
-    },
-    {
-      "color": "#A8C3CA",
-      "data": [
-        [
-          2012,
-          100
-        ],
-        [
-          2013,
           103.2
         ],
         [
@@ -93,7 +47,7 @@
       "name": "Reineinkommen"
     },
     {
-      "color": "#662673",
+      "color": "#A8C3CA",
       "data": [
         [
           2012,
@@ -139,8 +93,7 @@
       "name": "Reinvermögen"
     },
     {
-      "color": "#67401E",
-      "legendIndex": 4,
+      "color": "#662673",
       "data": [
         [
           2012,
@@ -184,52 +137,6 @@
         ]
       ],
       "name": "Einkommens- und Vermögenssteuerertrag"
-    },
-    {
-      "color": "#DC440E",
-      "data": [
-        [
-          2012,
-          100
-        ],
-        [
-          2013,
-          101
-        ],
-        [
-          2014,
-          101.6
-        ],
-        [
-          2015,
-          101.9
-        ],
-        [
-          2016,
-          102.5
-        ],
-        [
-          2017,
-          102.9
-        ],
-        [
-          2018,
-          103.5
-        ],
-        [
-          2019,
-          103.6
-        ],
-        [
-          2020,
-          104.4
-        ],
-        [
-          2021,
-          104.3
-        ]
-      ],
-      "name": "Wohnbevölkerung"
     }
   ],
   "chart": {
@@ -283,10 +190,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag"
+    "text": "Summe von Reineinkommen, -vermögen und Steuerertrag"
   },
   "subtitle": {
-    "text": "indexiert (2012 = 100), Basel-Stadt",
+    "text": "indexiert (2013 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -342,9 +249,6 @@
       "fontWeight": "normal"
     },
     "itemDistance": 5,
-    "labelFormatter": function(){
-      return this.name.replace("und ", "und<br/>");
-    },
     "itemMarginBottom": 5
   },
   "credits": {
