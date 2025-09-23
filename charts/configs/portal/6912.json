@@ -5,34 +5,34 @@
       "data": [
         [
           "Erwerb",
-          246377275
+          260404948
         ],
         [
           "Versicherung",
-          1591104
+          1676524
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          87232515
+          87589311
         ],
         [
           "Künstler, Sport",
-          1635868
+          1643226
         ],
         [
           "Verwaltungsräte",
-          5695505
+          4753746
         ],
         [
           "Renten",
-          3175223
+          3011396
         ],
         [
           "Kapitalleistungen",
-          19568201
+          21813115
         ]
       ],
-      "name": "Quellensteuerertrag 2013",
+      "name": "Quellensteuerertrag 2014",
       "turboThreshold": 0
     },
     {
@@ -40,34 +40,34 @@
       "data": [
         [
           "Erwerb",
-          390096682
+          397186986
         ],
         [
           "Versicherung",
-          2932637
+          3271462
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          87655292
+          87053788
         ],
         [
           "Künstler, Sport",
-          1150027
+          996198
         ],
         [
           "Verwaltungsräte",
-          12358638
+          10337424
         ],
         [
           "Renten",
-          3540702
+          3579920
         ],
         [
           "Kapitalleistungen",
-          41033541
+          43372012
         ]
       ],
-      "name": "Quellensteuerertrag 2022",
+      "name": "Quellensteuerertrag 2023",
       "turboThreshold": 0
     }
   ],
@@ -148,7 +148,7 @@
     "text": "Quellensteuerertrag nach Status"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2013 und 2022",
+    "text": "in Franken, Basel-Stadt, 2014 und 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -206,7 +206,7 @@
     "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
