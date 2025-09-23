@@ -1,0 +1,250 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "2023",
+          "Unternehmensverwaltung, -führung, -beratung"
+        ],
+        [
+          "2023",
+          "Landverkehr"
+        ],
+        [
+          "2023",
+          "Architektur- und Ingenieurbüros"
+        ],
+        [
+          "2023",
+          "Detailhandel"
+        ],
+        [
+          "2023",
+          "Energieversorgung"
+        ],
+        [
+          "2023",
+          "IT-Dienstleistungen"
+        ],
+        [
+          "2023",
+          "Gesundheitswesen"
+        ],
+        [
+          "2023",
+          "Baunebengewerbe"
+        ],
+        [
+          "2023",
+          "Hoch- und Tiefbau"
+        ],
+        [
+          "2023",
+          "Erziehung, Unterricht"
+        ]
+      ],
+      "name": "Branche",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2023",
+          1605
+        ],
+        [
+          "2023",
+          779
+        ],
+        [
+          "2023",
+          729
+        ],
+        [
+          "2023",
+          711
+        ],
+        [
+          "2023",
+          562
+        ],
+        [
+          "2023",
+          538
+        ],
+        [
+          "2023",
+          487
+        ],
+        [
+          "2023",
+          482
+        ],
+        [
+          "2023",
+          431
+        ],
+        [
+          "2023",
+          376
+        ]
+      ],
+      "name": "VZA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370"
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -180,
+      "formatter": function() {
+            return this.value.replace("/", "<br/>")
+        }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 663,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginRight": 50,
+    "marginLeft": 200,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-22375",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Beschäftigung nach Branche"
+  },
+  "subtitle": {
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "22375"
+  }
+}

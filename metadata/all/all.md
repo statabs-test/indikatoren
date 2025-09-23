@@ -2508,6 +2508,8 @@ id | visible | visibleInPortal | indikatorenset
 22344 | true | true | Umwelt
 22354 | true | true | Stadtteilrichtplan Gundeldingen
 22355 | true | true | Stadtteilrichtplan Gundeldingen
+22373 | true | true | Stadtteilrichtplan Gundeldingen
+22375 | true | true | Stadtteilrichtplan Gundeldingen
 22376 | true | true | Stadtteilrichtplan Gundeldingen
 22377 | true | true | Stadtteilrichtplan Gundeldingen
 22380 | true | true | Stadtteilrichtplan Gundeldingen
