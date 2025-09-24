@@ -1,0 +1,647 @@
+{
+  "series": [
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          "2002",
+          6289198
+        ],
+        [
+          "2003",
+          6321939
+        ],
+        [
+          "2004",
+          6333090
+        ],
+        [
+          "2005",
+          6366843
+        ],
+        [
+          "2006",
+          6401643
+        ],
+        [
+          "2007",
+          6428838
+        ],
+        [
+          "2008",
+          6409160
+        ],
+        [
+          "2009",
+          6409632
+        ],
+        [
+          "2010",
+          6416042
+        ],
+        [
+          "2011",
+          6441078
+        ],
+        [
+          "2012",
+          6453312
+        ],
+        [
+          "2013",
+          6527505
+        ],
+        [
+          "2014",
+          6549324
+        ],
+        [
+          "2015",
+          6537944
+        ],
+        [
+          "2016",
+          6572747
+        ],
+        [
+          "2017",
+          6694971
+        ],
+        [
+          "2018",
+          6708530
+        ],
+        [
+          "2019",
+          6719007
+        ],
+        [
+          "2020",
+          6706123
+        ],
+        [
+          "2021",
+          6754742
+        ],
+        [
+          "2022",
+          6733966
+        ],
+        [
+          "2023",
+          6736710
+        ],
+        [
+          "2024",
+          6741832
+        ]
+      ],
+      "name": "Grünfläche",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2002",
+          5398008
+        ],
+        [
+          "2003",
+          5345331
+        ],
+        [
+          "2004",
+          5326959
+        ],
+        [
+          "2005",
+          5321193
+        ],
+        [
+          "2006",
+          5322809
+        ],
+        [
+          "2007",
+          5328572
+        ],
+        [
+          "2008",
+          5375076
+        ],
+        [
+          "2009",
+          5372403
+        ],
+        [
+          "2010",
+          5386742
+        ],
+        [
+          "2011",
+          5372387
+        ],
+        [
+          "2012",
+          5362222
+        ],
+        [
+          "2013",
+          5294195
+        ],
+        [
+          "2014",
+          5250763
+        ],
+        [
+          "2015",
+          5263172
+        ],
+        [
+          "2016",
+          5262642
+        ],
+        [
+          "2017",
+          5161201
+        ],
+        [
+          "2018",
+          5163425
+        ],
+        [
+          "2019",
+          5155520
+        ],
+        [
+          "2020",
+          5157253
+        ],
+        [
+          "2021",
+          5108884
+        ],
+        [
+          "2022",
+          5094222
+        ],
+        [
+          "2023",
+          5133054
+        ],
+        [
+          "2024",
+          5134147
+        ]
+      ],
+      "name": "Verkehrsfläche",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2002",
+          5531678
+        ],
+        [
+          "2003",
+          5549141
+        ],
+        [
+          "2004",
+          5561192
+        ],
+        [
+          "2005",
+          5477222
+        ],
+        [
+          "2006",
+          5419296
+        ],
+        [
+          "2007",
+          5389340
+        ],
+        [
+          "2008",
+          5244236
+        ],
+        [
+          "2009",
+          5245688
+        ],
+        [
+          "2010",
+          5307269
+        ],
+        [
+          "2011",
+          5301612
+        ],
+        [
+          "2012",
+          5278896
+        ],
+        [
+          "2013",
+          5260345
+        ],
+        [
+          "2014",
+          5249349
+        ],
+        [
+          "2015",
+          5250178
+        ],
+        [
+          "2016",
+          5258704
+        ],
+        [
+          "2017",
+          5260265
+        ],
+        [
+          "2018",
+          5261024
+        ],
+        [
+          "2019",
+          5270814
+        ],
+        [
+          "2020",
+          5259179
+        ],
+        [
+          "2021",
+          5274257
+        ],
+        [
+          "2022",
+          5282533
+        ],
+        [
+          "2023",
+          5304315
+        ],
+        [
+          "2024",
+          5321215
+        ]
+      ],
+      "name": "Gebäude",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "2002",
+          207738
+        ],
+        [
+          "2003",
+          148576
+        ],
+        [
+          "2004",
+          135614
+        ],
+        [
+          "2005",
+          135849
+        ],
+        [
+          "2006",
+          136460
+        ],
+        [
+          "2007",
+          135929
+        ],
+        [
+          "2008",
+          137127
+        ],
+        [
+          "2009",
+          136637
+        ],
+        [
+          "2010",
+          136642
+        ],
+        [
+          "2011",
+          136668
+        ],
+        [
+          "2012",
+          136344
+        ],
+        [
+          "2013",
+          136332
+        ],
+        [
+          "2014",
+          136208
+        ],
+        [
+          "2015",
+          136227
+        ],
+        [
+          "2016",
+          136242
+        ],
+        [
+          "2017",
+          136245
+        ],
+        [
+          "2018",
+          136390
+        ],
+        [
+          "2019",
+          136038
+        ],
+        [
+          "2020",
+          136507
+        ],
+        [
+          "2021",
+          144483
+        ],
+        [
+          "2022",
+          144483
+        ],
+        [
+          "2023",
+          144462
+        ],
+        [
+          "2024",
+          144525
+        ]
+      ],
+      "name": "Gewässer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#474747",
+      "data": [
+        [
+          "2002",
+          3582009
+        ],
+        [
+          "2003",
+          3643789
+        ],
+        [
+          "2004",
+          3651919
+        ],
+        [
+          "2005",
+          3707153
+        ],
+        [
+          "2006",
+          3728047
+        ],
+        [
+          "2007",
+          3725111
+        ],
+        [
+          "2008",
+          3843182
+        ],
+        [
+          "2009",
+          3844418
+        ],
+        [
+          "2010",
+          3762035
+        ],
+        [
+          "2011",
+          3757034
+        ],
+        [
+          "2012",
+          3778007
+        ],
+        [
+          "2013",
+          3790411
+        ],
+        [
+          "2014",
+          3823282
+        ],
+        [
+          "2015",
+          3821405
+        ],
+        [
+          "2016",
+          3778591
+        ],
+        [
+          "2017",
+          3756244
+        ],
+        [
+          "2018",
+          3739556
+        ],
+        [
+          "2019",
+          3727547
+        ],
+        [
+          "2020",
+          3749863
+        ],
+        [
+          "2021",
+          3722441
+        ],
+        [
+          "2022",
+          3749602
+        ],
+        [
+          "2023",
+          3686265
+        ],
+        [
+          "2024",
+          3663086
+        ]
+      ],
+      "name": "Übrige befestigte Flächen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -90,
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-22419",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil der Verkehrsflächen an der Siedlungsfläche"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 2,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} ha\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "22419"
+  }
+}

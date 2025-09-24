@@ -2168,5 +2168,18 @@ var templatesById = {
 	"22324": "template001_print",
 	"22326": "template001",
 	"22343": "template001",
-	"22344": "template001"
+	"22344": "template001",
+	"22408": "befragungen001",
+	"22409": "befragungen001",
+	"22410": "befragungen001",
+	"22411": "template001",
+	"22412": "template001",
+	"22413": "template001",
+	"22414": "template001",
+	"22415": "template001",
+	"22416": "template001",
+	"22417": "template001",
+	"22418": "template001",
+	"22419": "template001",
+	"22420": "template001"
 };

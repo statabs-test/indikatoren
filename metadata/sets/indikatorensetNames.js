@@ -16,6 +16,7 @@ var indikatorensetNames = [
 	"Wohnraumschutz",
 	"Richtplan (Print)",
 	"Umwelt",
+	"Stadtklimakonzept",
 	"Wohnraumentwicklung",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
