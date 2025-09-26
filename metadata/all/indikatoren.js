@@ -8328,6 +8328,44 @@ var indikatoren = [
 		"id": 22355
 	},
 	{
+		"template": "line001",
+		"data-id": 22372,
+		"chart-id": 22372,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Wohnbevölkerung",
+		"subtitle": "Lebensraum Gundeldingen",
+		"lesehilfe": "Am Jahresende 2024 zählte der Lebensraum Gundeldingen 22 250 Einwohnerinnen und Einwohner.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilrichtplan Gundeldingen",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T04:17:47",
+		"id": 22372
+	},
+	{
 		"template": "template001",
 		"data-id": 22373,
 		"chart-id": 22373,
