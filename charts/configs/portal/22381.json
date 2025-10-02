@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#71a3b5",
+      "color": "#662673",
       "data": [
         [
           2016,
@@ -41,6 +41,48 @@
         ]
       ],
       "name": "Peter-Merian Weg"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          3486
+        ],
+        [
+          2021,
+          3237
+        ],
+        [
+          2022,
+          3626
+        ],
+        [
+          2023,
+          3735
+        ],
+        [
+          2024,
+          3819
+        ]
+      ],
+      "name": "Dorenbachviadukt"
     }
   ],
   "chart": {
@@ -145,7 +187,7 @@
     }
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
