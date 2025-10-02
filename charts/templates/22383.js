@@ -27,12 +27,18 @@
     },
     "series": [
       {
-        "color": "#71a3b5" /*Innenstadt*/
+        "color": "#73B97C" /*Innenstadt*/
+      },
+      {
+        "color": "#B375AB" /*Innenstadt*/
+      },
+      {
+        "color": "#083038" /*Innenstadt*/
       },
       
     ],
     "legend": {
-      "enabled": false,
+      "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
