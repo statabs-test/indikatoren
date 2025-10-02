@@ -4,98 +4,142 @@
       "color": "#A8C3CA",
       "data": [
         [
-          "2023",
-          "Unternehmensverwaltung, -führung, -beratung"
+          "Unternehmensverwaltung, -führung, -beratung",
+          null
         ],
         [
-          "2023",
-          "Landverkehr"
+          "Baunebengewerbe",
+          null
         ],
         [
-          "2023",
-          "Architektur- und Ingenieurbüros"
+          "Landverkehr",
+          null
         ],
         [
-          "2023",
-          "Detailhandel"
+          "Grosshandel",
+          null
         ],
         [
-          "2023",
-          "Energieversorgung"
+          "Detailhandel",
+          null
         ],
         [
-          "2023",
-          "IT-Dienstleistungen"
+          "Sonstige Produktion",
+          null
         ],
         [
-          "2023",
-          "Gesundheitswesen"
+          "Architektur- und Ingenieurbüros",
+          null
         ],
         [
-          "2023",
-          "Baunebengewerbe"
+          "IT-Dienstleistungen",
+          null
         ],
         [
-          "2023",
-          "Hoch- und Tiefbau"
+          "Personalvermittlung, -überlassung",
+          null
         ],
         [
-          "2023",
-          "Erziehung, Unterricht"
+          "Erziehung, Unterricht",
+          null
         ]
       ],
-      "name": "Branche",
+      "name": "2021",
       "turboThreshold": 0
     },
     {
       "color": "#689199",
       "data": [
         [
-          "2023",
-          1605
+          "Unternehmensverwaltung, -führung, -beratung",
+          null
         ],
         [
-          "2023",
-          779
+          "Baunebengewerbe",
+          null
         ],
         [
-          "2023",
-          729
+          "Landverkehr",
+          null
         ],
         [
-          "2023",
-          711
+          "Grosshandel",
+          null
         ],
         [
-          "2023",
-          562
+          "Detailhandel",
+          null
         ],
         [
-          "2023",
-          538
+          "Sonstige Produktion",
+          null
         ],
         [
-          "2023",
-          487
+          "Architektur- und Ingenieurbüros",
+          null
         ],
         [
-          "2023",
-          482
+          "IT-Dienstleistungen",
+          null
         ],
         [
-          "2023",
-          431
+          "Personalvermittlung, -überlassung",
+          null
         ],
         [
-          "2023",
-          376
+          "Erziehung, Unterricht",
+          null
         ]
       ],
-      "name": "VZA",
+      "name": "2022",
       "turboThreshold": 0
     },
     {
-      "color": "#246370"
+      "color": "#246370",
+      "data": [
+        [
+          "Unternehmensverwaltung, -führung, -beratung",
+          1808
+        ],
+        [
+          "Baunebengewerbe",
+          1513
+        ],
+        [
+          "Landverkehr",
+          1369
+        ],
+        [
+          "Grosshandel",
+          1259
+        ],
+        [
+          "Detailhandel",
+          1105
+        ],
+        [
+          "Sonstige Produktion",
+          936
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          861
+        ],
+        [
+          "IT-Dienstleistungen",
+          861
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          791
+        ],
+        [
+          "Erziehung, Unterricht",
+          717
+        ]
+      ],
+      "name": "2023",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -182,7 +226,7 @@
     "text": "Beschäftigung nach Branche"
   },
   "subtitle": {
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "in Vollzeitäquivalenten, Lebensraum Gundeldingen",
     "align": "left",
     "style": {
       "fontSize": "12px",

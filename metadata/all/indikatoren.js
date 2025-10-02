@@ -8373,8 +8373,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Beschäftigte",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten im Wohnviertel Gundeldingen sank zwischen 2013 und 2023 von 14 600 auf 14 416.",
+		"subtitle": "Lebensraum Gundeldingen",
+		"lesehilfe": "Die Zahl der Beschäftigten im Lebensraum Gundeldingen sank zwischen 2013 und 2023 von 14 600 auf 14 416.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -8404,6 +8404,44 @@ var indikatoren = [
 		"id": 22373
 	},
 	{
+		"template": "line001",
+		"data-id": 22374,
+		"chart-id": 22374,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittlicher Tagesverkehr Fussverkehr",
+		"subtitle": "",
+		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 6 123 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Durchschnittlicher Tagesverkehr Fussverkehr",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilrichtplan Gundeldingen",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T04:17:47",
+		"id": 22374
+	},
+	{
 		"template": "template001",
 		"data-id": 22375,
 		"chart-id": 22375,
@@ -8411,8 +8449,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die wichtigste Branche im Wohnviertel Gundeldingen ist die Unternehmensverwaltung, -führung, -beratung\t mit 1605 Vollzeitäquivalenten im Jahr 2023, gefolgt von den Branchen Landverkehr (779), den Architektur- und Ingenieurbüros (729) sowie dem Detailhandel (711).",
+		"subtitle": "in Vollzeitäquivalenten, Lebensraum Gundeldingen",
+		"lesehilfe": "Die wichtigste Branche im Lebensraum Gundeldingen ist die Unternehmensverwaltung, -führung, -beratung\t mit 1605 Vollzeitäquivalenten im Jahr 2023, gefolgt von den Branchen Landverkehr (779), den Architektur- und Ingenieurbüros (729) sowie dem Detailhandel (711).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -8557,6 +8595,44 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
+		"data-id": 22381,
+		"chart-id": 22381,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittlicher Tagesverkehr Veloverkehr",
+		"subtitle": "",
+		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 2 692 Velos die Zählstelle am Peter-Merian Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 819.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Durchschnittlicher Tagesverkehr Veloverkehr",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilrichtplan Gundeldingen",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T04:17:47",
+		"id": 22381
+	},
+	{
+		"template": "line001",
 		"data-id": 22382,
 		"chart-id": 22382,
 		"filter": "",
@@ -8592,6 +8668,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-09-04T04:17:47",
 		"id": 22382
+	},
+	{
+		"template": "line001",
+		"data-id": 22383,
+		"chart-id": 22383,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittlicher Tagesverkehr MIV",
+		"subtitle": "",
+		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 5 651 Motorfahrzeuge die Zählstelle an der Dornacherstrasse 49. Bei der Zählstelle an der Gundeldingerstrasse 107 waren es 7 418, an der Sempacherstrasse 68 waren es 1 054.",
+		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Durchschnittlicher Tagesverkehr MIV",
+		"thema": "11 Verkehr",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilrichtplan Gundeldingen",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-04T04:17:47",
+		"id": 22383
 	},
 	{
 		"template": "line001",

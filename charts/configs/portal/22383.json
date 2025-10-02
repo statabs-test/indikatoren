@@ -4,103 +4,47 @@
       "color": "#71a3b5",
       "data": [
         [
-          2001,
-          20970
-        ],
-        [
-          2002,
-          21002
-        ],
-        [
-          2003,
-          21108
-        ],
-        [
-          2004,
-          21100
-        ],
-        [
-          2005,
-          21019
-        ],
-        [
-          2006,
-          21000
-        ],
-        [
-          2007,
-          21083
-        ],
-        [
-          2008,
-          21362
-        ],
-        [
-          2009,
-          21420
-        ],
-        [
-          2010,
-          21203
-        ],
-        [
-          2011,
-          21333
-        ],
-        [
-          2012,
-          21459
-        ],
-        [
-          2013,
-          21640
-        ],
-        [
-          2014,
-          21747
-        ],
-        [
           2015,
-          21637
+          6348
         ],
         [
           2016,
-          21694
+          6403
         ],
         [
           2017,
-          21804
+          null
         ],
         [
           2018,
-          21807
+          6317
         ],
         [
           2019,
-          21752
+          6013
         ],
         [
           2020,
-          21870
+          5226
         ],
         [
           2021,
-          21914
+          4830
         ],
         [
           2022,
-          21972
+          4604
         ],
         [
           2023,
-          22006
+          5476
         ],
         [
           2024,
-          22250
+          5651
         ]
       ],
-      "name": "Lebensraum Gundeldingen"
+      "name": "Dornacherstrasse 49"
     }
   ],
   "chart": {
@@ -133,7 +77,7 @@
 				}
     },
     "marginRight": 20,
-    "renderTo": "container-22372"
+    "renderTo": "container-22383"
   },
   "plotOptions": {
     "series": {
@@ -156,10 +100,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Wohnbevölkerung"
+    "text": "Durchschnittlicher Tagesverkehr MIV "
   },
   "subtitle": {
-    "text": "Lebensraum Gundeldingen",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -228,7 +172,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -269,6 +213,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": "22372"
+    "filename": "22383"
   }
 }
