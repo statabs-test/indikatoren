@@ -417,19 +417,18 @@
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="indikator text-sm leading-relaxed">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full text-left"></div>
-        <h1><%= 'Indikator ' + kuerzel %></h1>
+        <div class="mb-20" id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full text-left"></div>
 
         <!-- hide lesehilfe if empty -->
-        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
-          <h1>Lesehilfe</h1>
-          <div class='lesehilfe'><%= lesehilfe %>
+        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden mb-20'": "'mb-20'" ) %>>
+          <h2 class="text-base font-bold">Lesehilfe</h2>
+          <div class='text-sm'><%= lesehilfe %>
           </div>
         </div>
         <!-- hide erlaeuterungen info if empty -->
-        <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden'": "''" ) %>>
-          <h1>Erläuterungen  und methodische Hinweise</h1>
-          <div class='lesehilfe'><%= erlaeuterungen %>
+        <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden mb-20'": "'mb-20'" ) %>>
+          <h2 class="text-base font-bold">Erläuterungen  und methodische Hinweise</h2>
+          <div class='text-sm'><%= erlaeuterungen %>
           </div>
         </div>
         <!-- hide Links if empty -->

@@ -234,32 +234,6 @@ input::-ms-clear {
   margin-top: 30px;
 }
 
-h1 {
-  font-size: 8pt;
-  text-transform: uppercase;
-  letter-spacing: none;
-  font-weight: bold;
-  color: #204453;
-  line-height: 100%;
-  margin-top: 14px;
-  margin-bottom: 8px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-h2 {
-  color: #333;
-  font-size: 12px;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 2px;
-}
-
-.lesehilfe {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .highcharts-container {
   margin: 0 40px;
 }

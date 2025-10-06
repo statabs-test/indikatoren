@@ -37,6 +37,34 @@ Highcharts.setOptions({
   },
 });
 
+Highcharts.wrap(
+  Highcharts.Chart.prototype,
+  "init",
+  function (proceed, userOptions, callback) {
+    if (userOptions.title) {
+      userOptions.title.useHTML = true;
+      if (
+        userOptions.title.text &&
+        !userOptions.title.text.includes("class=")
+      ) {
+        userOptions.title.text = `<h2 class="text-xl font-bold text-gray-800">${userOptions.title.text}</h2>`;
+      }
+    }
+
+    if (userOptions.subtitle) {
+      userOptions.subtitle.useHTML = true;
+      if (
+        userOptions.subtitle.text &&
+        !userOptions.subtitle.text.includes("class=")
+      ) {
+        userOptions.subtitle.text = `<p class="text-sm text-gray-500">${userOptions.subtitle.text}</p>`;
+      }
+    }
+
+    proceed.call(this, userOptions, callback);
+  }
+);
+
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
   try {
@@ -508,6 +536,7 @@ function renderLinksHTML(
   hideLinksTitle
 ) {
   var returnText = "";
+  hideLinksTitle = true;
   var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
   var displayRenderLink =
@@ -533,11 +562,11 @@ function renderLinksHTML(
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        "<div>Indikatorenset:</div><div class='mt-20'><a class='button' href='http://www.statistik.bs.ch/indikatorenset/" +
+        "<div class='flex'><div class='font-bold text-sm'>Indikatorenset:</div><div class='ml-2'><a class='' href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
         kennzahlenset.replace("-", " ") +
-        "</a></div>";
+        "</a></div></div>";
     }
     if (displayRenderLink) {
       if (
@@ -560,15 +589,18 @@ function renderLinksHTML(
       }
     }
     if (displayExternalLinks) {
+      returnText +=
+        "<div class='flex'><div class='font-bold'>Weitere Links: </div>";
       externalLinks.forEach(function (v, i, arr) {
         // Add class to <a> tag if it exists
         const updatedLink = v.replace(
           /<a\s+(?![^>]*\bclass=)[^>]*?/i,
-          (match) => match + "class='button' "
+          (match) => match + "class='' "
         );
 
-        returnText += "<div class='mt-20'>" + updatedLink + "</div>";
+        returnText += "<div class='ml-2'>" + updatedLink + "</div>";
       });
+      returnText += "</div>";
     }
     returnText +=
       " \
