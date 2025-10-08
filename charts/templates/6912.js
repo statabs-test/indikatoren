@@ -11,6 +11,8 @@ plotOptions: {
   "type": "category"
 },
 "yAxis": {
+  max: 400000000,
+  tickInterval: 100000000,
   //"min": 0,
   //"max": 0.5,
   "labels": {
