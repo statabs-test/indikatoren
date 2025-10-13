@@ -15634,8 +15634,8 @@ var indikatoren = [
 			5125
 		],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Bruderholz gibt es 2022 die wenigsten Arbeitsplätze pro Kopf (0,13) und im Wohnviertel Vorstädte die meisten (4,61).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "In den Wohnvierteln Breite und Bruderholz gibt es 2023 die wenigsten Arbeitsplätze pro Kopf (0,12) und im Wohnviertel Vorstädte die meisten (4,78).",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -15665,6 +15665,47 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-11-04T04:07:12",
 		"id": 4838
+	},
+	{
+		"template": "dotplot",
+		"data-id": 4839,
+		"chart-id": 4839,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5126
+		],
+		"title": "Arbeitslosenquote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016",
+		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
+		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent,Ende Jahr 2016. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet. Aktuellere Arbeitslosendaten auf Ebene Wohnviertel sind nicht verfügbar.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Arbeitslosenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.04839",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-5.A",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_018",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-03-18T11:56:38",
+		"id": 4839
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
@@ -22003,7 +22044,7 @@ var indikatoren = [
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 kamen 1 878 Lebendgeborene zur Welt, davon waren  1 056 Schweizer Staatsangehörige.",
+		"lesehilfe": "2024 kamen 1 776 Kinder zur Welt, davon waren 986 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

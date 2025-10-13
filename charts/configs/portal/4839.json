@@ -4,88 +4,80 @@
       "color": "#689199",
       "data": [
         [
-          "Riehen",
-          0.0193855888
+          "Grossbasel Altstadt",
+          3.2
         ],
         [
-          "Bettingen",
-          0.0193855888
-        ],
-        [
-          "Bachletten",
-          0.0241987109
-        ],
-        [
-          "VorstÃ¤dte",
-          0.0242808282
-        ],
-        [
-          "Bruderholz",
-          0.0251482114
-        ],
-        [
-          "Altstadt Grossbasel",
-          0.0257474605
-        ],
-        [
-          "St. Alban",
-          0.0295674895
+          "Vorstädte",
+          3.1
         ],
         [
           "Am Ring",
-          0.0313845067
-        ],
-        [
-          "Gotthelf",
-          0.0344512819
-        ],
-        [
-          "Wettstein",
-          0.038280833
-        ],
-        [
-          "Hirzbrunnen",
-          0.0404742079
-        ],
-        [
-          "Gundeldingen",
-          0.0418457558
+          3.3
         ],
         [
           "Breite",
-          0.0492950163
+          4.3
+        ],
+        [
+          "St.Alban",
+          3.4
+        ],
+        [
+          "Gundeldingen",
+          3.7
+        ],
+        [
+          "Bruderholz",
+          2.4
+        ],
+        [
+          "Bachletten",
+          2.6
+        ],
+        [
+          "Gotthelf",
+          3
         ],
         [
           "Iselin",
-          0.0501539147
+          4.6
         ],
         [
-          "St. Johann",
-          0.050458782
+          "St.Johann",
+          4.2
+        ],
+        [
+          "Kleinbasel Altstadt",
+          4.1
         ],
         [
           "Clara",
-          0.0539961926
+          4
         ],
         [
-          "Altstadt Kleinbasel",
-          0.0542989532
+          "Wettstein",
+          2.7
         ],
         [
-          "MatthÃ¤us",
-          0.0555946177
-        ],
-        [
-          "KleinhÃ¼ningen",
-          0.0631074121
+          "Hirzbrunnen",
+          2.9
         ],
         [
           "Rosental",
-          0.0654724892
+          5.1
+        ],
+        [
+          "Matthäus",
+          5.1
         ],
         [
           "Klybeck",
-          0.0719648949
+          5.6
+        ],
+        [
+          "Kleinhüningen",
+          5.9
         ]
       ],
       "name": "Arbeitslosenquote",
@@ -95,88 +87,80 @@
       "visible": false,
       "data": [
         [
-          "Riehen",
-          1
-        ],
-        [
-          "Bettingen",
-          1
-        ],
-        [
-          "Bachletten",
-          3
-        ],
-        [
-          "VorstÃ¤dte",
-          4
-        ],
-        [
-          "Bruderholz",
-          5
-        ],
-        [
-          "Altstadt Grossbasel",
-          6
-        ],
-        [
-          "St. Alban",
+          "Grossbasel Altstadt",
           7
+        ],
+        [
+          "Vorstädte",
+          6
         ],
         [
           "Am Ring",
           8
         ],
         [
-          "Gotthelf",
-          9
-        ],
-        [
-          "Wettstein",
-          10
-        ],
-        [
-          "Hirzbrunnen",
-          11
-        ],
-        [
-          "Gundeldingen",
-          12
-        ],
-        [
           "Breite",
-          13
-        ],
-        [
-          "Iselin",
           14
         ],
         [
-          "St. Johann",
+          "St.Alban",
+          9
+        ],
+        [
+          "Gundeldingen",
+          10
+        ],
+        [
+          "Bruderholz",
+          1
+        ],
+        [
+          "Bachletten",
+          2
+        ],
+        [
+          "Gotthelf",
+          5
+        ],
+        [
+          "Iselin",
           15
         ],
         [
+          "St.Johann",
+          13
+        ],
+        [
+          "Kleinbasel Altstadt",
+          12
+        ],
+        [
           "Clara",
-          16
+          11
         ],
         [
-          "Altstadt Kleinbasel",
-          17
+          "Wettstein",
+          3
         ],
         [
-          "MatthÃ¤us",
-          18
-        ],
-        [
-          "KleinhÃ¼ningen",
-          19
+          "Hirzbrunnen",
+          4
         ],
         [
           "Rosental",
-          20
+          16
+        ],
+        [
+          "Matthäus",
+          17
         ],
         [
           "Klybeck",
-          21
+          18
+        ],
+        [
+          "Kleinhüningen",
+          19
         ]
       ],
       "name": "Rang",
@@ -302,7 +286,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.3.2021"
   },
   "legend": {
     "enabled": false,
