@@ -8299,10 +8299,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Zufriedenheit mit Wohnumfeld",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
+		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Basel-Stadt",
+		"lesehilfe": "Mit 48,1% ist beinahe die Hälfte der befragten Familien sehr zufrieden mit dem Wohnumfeld. 2,2% zeigen sich sehr unzufrieden.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
+		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -8335,10 +8337,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Empfinden Hitzetage Sommer",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
+		"subtitle": "«Wie empfinden Sie die Hitzetage (Temperatur 30 Grad und mehr) in den Sommermonaten an Ihrem Wohnort?», Basel-Stadt, 2023",
+		"lesehilfe": "22,8% der Bevölkerung empfinden Hitzetage als unangenehm und 26,0% als eher unangenehm.Demgegenüber finden 9,8% Hitzetage als angenehm und 22,4% als eher angenehm.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Die Ergebnisse sind gewichtet nach Geschlecht, Staatsangehörigkeit und Altersgruppen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -8479,19 +8483,21 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 22414,
-		"chart-id": 22414,
+		"chart-id": 11910,
 		"filter": "",
-		"parentId": null,
+		"parentId": "11910",
 		"children": [],
 		"title": "Revitalisierungsrate Oberflächengewässer",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Seit 2015 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
+		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Gemeinde"
+			"Kanton"
 		],
 		"description": "Revitalisierungsrate Oberflächengewässer",
 		"thema": "02 Raum, Umwelt",
@@ -8507,7 +8513,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-09-04T04:41:12",
 		"id": 22414
@@ -8515,19 +8521,23 @@ var indikatoren = [
 	{
 		"template": "template001",
 		"data-id": 22415,
-		"chart-id": 22415,
+		"chart-id": 11909,
 		"filter": "",
-		"parentId": null,
+		"parentId": "11909",
 		"children": [],
 		"title": "Strukturen der Fliessgewässer",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
-		"externalLinks": [],
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'http://www.modul-stufen-konzept.ch' target = '_blank'>Modul-Stufen-Konzept des Bundesamtes für Umwelt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
-			"Gemeinde"
+			"Kanton"
 		],
 		"description": "Strukturen der Fliessgewässer",
 		"thema": "02 Raum, Umwelt",
@@ -8543,7 +8553,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-09-04T04:41:12",
 		"id": 22415

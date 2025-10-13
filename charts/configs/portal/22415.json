@@ -1,151 +1,118 @@
 {
   "series": [
     {
+      "color": "#007a2f",
       "data": [
         [
-          2006,
+          "2006",
           1
         ],
         [
-          2014,
+          "2014",
           1.98
         ],
         [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
+          "2025",
           1.98
         ]
       ],
-      "name": "nat�rlich, naturnah"
+      "name": "Natürlich, naturnah",
+      "turboThreshold": 0
     },
     {
+      "color": "#68ab2b",
       "data": [
         [
-          2006,
+          "2006",
           4.54
         ],
         [
-          2014,
+          "2014",
           9.69
         ],
         [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
+          "2025",
           9.87
         ]
       ],
-      "name": "wenig beeintr�chtigt"
+      "name": "Wenig beeinträchtigt",
+      "turboThreshold": 0
     },
     {
+      "color": "#ffbb58",
       "data": [
         [
-          2006,
+          "2006",
           13.19
         ],
         [
-          2014,
+          "2014",
           11.87
         ],
         [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
+          "2025",
           13.01
         ]
       ],
-      "name": "stark beeintr�chtigt"
+      "name": "Stark beeinträchtigt",
+      "turboThreshold": 0
     },
     {
+      "color": "#dc440e",
       "data": [
         [
-          2006,
+          "2006",
           6.77
         ],
         [
-          2014,
+          "2014",
           14.63
         ],
         [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
+          "2025",
           13.38
         ]
       ],
-      "name": "k�nstlich, naturfremd"
+      "name": "Künstlich, naturfremd",
+      "turboThreshold": 0
     },
     {
+      "color": "#6F6F6F",
       "data": [
         [
-          2006,
+          "2006",
           9.52
         ],
         [
-          2014,
+          "2014",
           9.27
         ],
         [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
+          "2025",
           9.33
         ]
       ],
-      "name": "eingedolt"
+      "name": "Eingedolt",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -179,8 +146,9 @@
                     }
                 }
     },
+    "type": "column",
     "renderTo": "container-22415",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -189,7 +157,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "stacking": "percent"
     }
   },
   "title": {
@@ -202,28 +171,12 @@
     "text": "Strukturen der Fliessgewässer"
   },
   "subtitle": {
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
     }
   },
   "yAxis": {
@@ -240,14 +193,19 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value}%"
     }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
   },
   "navigation": {
     "menuItemStyle": {
@@ -266,9 +224,13 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} km\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "22415"
