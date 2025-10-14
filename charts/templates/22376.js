@@ -80,6 +80,7 @@
       "type": "category"
     },
     "yAxis": {
+      max:1,
       "labels": {
         "formatter": function () {
           return Highcharts.numberFormat((100 * this.value), 0) + '%';
