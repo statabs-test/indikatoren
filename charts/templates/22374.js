@@ -32,7 +32,7 @@
       
     ],
     "legend": {
-      "enabled": false,
+      "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
