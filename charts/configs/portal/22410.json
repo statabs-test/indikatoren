@@ -7,7 +7,11 @@
       "data": [
         [
           "Total",
-          201.65296
+          156.30263
+        ],
+        [
+          " ",
+          undefined
         ],
         [
           "Nettohaushaltseinkommen",
@@ -42,8 +46,72 @@
           45.35033
         ],
         [
-          "Riehen, Bettingen",
-          32.72646
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          79.30375
+        ],
+        [
+          "Weiblich",
+          88.19233
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          20.72943
+        ],
+        [
+          "30-39 Jahre",
+          34.06078
+        ],
+        [
+          "40-49 Jahre",
+          27.73076
+        ],
+        [
+          "50-59 Jahre",
+          28.86058
+        ],
+        [
+          "60-69 Jahre",
+          32.13802
+        ],
+        [
+          "\u003E69 Jahre",
+          25.40694
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          121.88227
+        ],
+        [
+          "Ausland",
+          47.04424
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          51.84053
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          88.9625
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          28.12348
         ]
       ],
       "name": "Angenehm",
@@ -56,7 +124,11 @@
       "data": [
         [
           "Total",
-          459.4071
+          367.336
+        ],
+        [
+          " ",
+          undefined
         ],
         [
           "Nettohaushaltseinkommen",
@@ -91,8 +163,72 @@
           92.0711
         ],
         [
-          "Riehen, Bettingen",
-          74.91396
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          180.92534
+        ],
+        [
+          "Weiblich",
+          203.5678
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          47.72997
+        ],
+        [
+          "30-39 Jahre",
+          54.03965
+        ],
+        [
+          "40-49 Jahre",
+          81.16103
+        ],
+        [
+          "50-59 Jahre",
+          58.68337
+        ],
+        [
+          "60-69 Jahre",
+          67.77696
+        ],
+        [
+          "\u003E69 Jahre",
+          75.10217
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          274.18355
+        ],
+        [
+          "Ausland",
+          110.3096
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          101.94749
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          191.26098
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          91.28468
         ]
       ],
       "name": "Eher angenehm",
@@ -105,7 +241,11 @@
       "data": [
         [
           "Total",
-          534.74968
+          424.08791
+        ],
+        [
+          " ",
+          undefined
         ],
         [
           "Nettohaushaltseinkommen",
@@ -140,8 +280,72 @@
           110.66177
         ],
         [
-          "Riehen, Bettingen",
-          57.2092
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          225.41231
+        ],
+        [
+          "Weiblich",
+          250.49181
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          58.74193
+        ],
+        [
+          "30-39 Jahre",
+          82.20378
+        ],
+        [
+          "40-49 Jahre",
+          84.62659
+        ],
+        [
+          "50-59 Jahre",
+          62.64423
+        ],
+        [
+          "60-69 Jahre",
+          82.55817
+        ],
+        [
+          "\u003E69 Jahre",
+          106.76578
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          343.31989
+        ],
+        [
+          "Ausland",
+          134.22059
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          155.88071
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          232.16542
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          89.49434
         ]
       ],
       "name": "Eher unangenehm",
@@ -154,7 +358,11 @@
       "data": [
         [
           "Total",
-          467.9442
+          347.19357
+        ],
+        [
+          " ",
+          undefined
         ],
         [
           "Nettohaushaltseinkommen",
@@ -189,8 +397,72 @@
           120.75063
         ],
         [
-          "Riehen, Bettingen",
-          44.99073
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          169.16527
+        ],
+        [
+          "Weiblich",
+          246.36402
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          66.43838
+        ],
+        [
+          "30-39 Jahre",
+          65.44483
+        ],
+        [
+          "40-49 Jahre",
+          83.49505
+        ],
+        [
+          "50-59 Jahre",
+          63.7731
+        ],
+        [
+          "60-69 Jahre",
+          78.03819
+        ],
+        [
+          "\u003E69 Jahre",
+          65.76392
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          281.79451
+        ],
+        [
+          "Ausland",
+          141.15896
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          129.64783
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          204.32556
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          88.98008
         ]
       ],
       "name": "Unangenehm",
@@ -203,7 +475,11 @@
       "data": [
         [
           "Total",
-          33.56517
+          16.85595
+        ],
+        [
+          " ",
+          undefined
         ],
         [
           "Nettohaushaltseinkommen",
@@ -238,8 +514,72 @@
           16.70922
         ],
         [
-          "Riehen, Bettingen",
-          4.39558
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          15.94933
+        ],
+        [
+          "Weiblich",
+          12.50504
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          10.10681
+        ],
+        [
+          "30-39 Jahre",
+          6.88837
+        ],
+        [
+          "40-49 Jahre",
+          4.3327
+        ],
+        [
+          "50-59 Jahre",
+          0.78107
+        ],
+        [
+          "60-69 Jahre",
+          3.13829
+        ],
+        [
+          "\u003E69 Jahre",
+          3.92234
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          17.95841
+        ],
+        [
+          "Ausland",
+          11.21118
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          9.90761
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          11.4255
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          7.83648
         ]
       ],
       "name": "Weiss nicht",
@@ -252,7 +592,11 @@
       "data": [
         [
           "Total",
-          356.68089
+          255.19853
+        ],
+        [
+          " ",
+          undefined
         ],
         [
           "Nettohaushaltseinkommen",
@@ -287,8 +631,72 @@
           101.48236
         ],
         [
-          "Riehen, Bettingen",
-          41.6164
+          "Geschlecht",
+          null
+        ],
+        [
+          "Männlich",
+          188.0248
+        ],
+        [
+          "Weiblich",
+          127.0397
+        ],
+        [
+          "Altersgruppe",
+          null
+        ],
+        [
+          "18-29 Jahre",
+          83.68962
+        ],
+        [
+          "30-39 Jahre",
+          89.55303
+        ],
+        [
+          "40-49 Jahre",
+          65.3063
+        ],
+        [
+          "50-59 Jahre",
+          35.59642
+        ],
+        [
+          "60-69 Jahre",
+          18.36828
+        ],
+        [
+          "\u003E69 Jahre",
+          22.55085
+        ],
+        [
+          "Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz",
+          119.66676
+        ],
+        [
+          "Ausland",
+          195.39773
+        ],
+        [
+          "Haushaltstyp",
+          null
+        ],
+        [
+          "Single-HH",
+          68.9034
+        ],
+        [
+          "Übrige HH ohne Kinder",
+          146.73425
+        ],
+        [
+          "HH mit mind. 1 Kind",
+          99.42685
         ]
       ],
       "name": "Keine Angabe",
@@ -357,7 +765,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 713,
     "spacing": [
       10,
       10,
@@ -388,7 +796,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie empfinden Sie die Hitzetage (Temperatur 30 Grad und mehr) in den Sommermonaten an Ihrem Wohnort?», Basel-Stadt, 2023"
+    "text": "«Wie empfinden Sie die Hitzetage (Temperatur 30 Grad und mehr) in den Sommermonaten an Ihrem Wohnort?», Stadt Basel, 2023"
   },
   "navigation": {
     "menuItemStyle": {

@@ -8258,11 +8258,11 @@ var indikatoren = [
 		"data-id": 22408,
 		"chart-id": 22408,
 		"filter": "",
-		"parentId": "4150",
+		"parentId": null,
 		"children": [],
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2023",
-		"lesehilfe": "85,8% der Bevölkerung sind 2023 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Stadt Basel",
+		"lesehilfe": "84,4% der Bevölkerung sind 2023 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppe gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -8286,7 +8286,7 @@ var indikatoren = [
 		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2025-09-04T04:41:12",
 		"id": 22408
@@ -8299,8 +8299,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Zufriedenheit mit Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Basel-Stadt",
-		"lesehilfe": "Mit 48,1% ist beinahe die Hälfte der befragten Familien sehr zufrieden mit dem Wohnumfeld. 2,2% zeigen sich sehr unzufrieden.",
+		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Stadt Basel",
+		"lesehilfe": "Mit 46,9% ist beinahe die Hälfte der befragten Familien sehr zufrieden mit dem Wohnumfeld. 2,4% zeigen sich sehr unzufrieden.",
 		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -8337,8 +8337,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Empfinden Hitzetage Sommer",
-		"subtitle": "«Wie empfinden Sie die Hitzetage (Temperatur 30 Grad und mehr) in den Sommermonaten an Ihrem Wohnort?», Basel-Stadt, 2023",
-		"lesehilfe": "22,8% der Bevölkerung empfinden Hitzetage als unangenehm und 26,0% als eher unangenehm.Demgegenüber finden 9,8% Hitzetage als angenehm und 22,4% als eher angenehm.",
+		"subtitle": "«Wie empfinden Sie die Hitzetage (Temperatur 30 Grad und mehr) in den Sommermonaten an Ihrem Wohnort?», Stadt Basel, 2023",
+		"lesehilfe": "22,2% der Bevölkerung empfinden Hitzetage als unangenehm und 27,1% als eher unangenehm. Demgegenüber finden 10,0% Hitzetage angenehm und 23,4% als eher angenehm.",
 		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Die Ergebnisse sind gewichtet nach Geschlecht, Staatsangehörigkeit und Altersgruppen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

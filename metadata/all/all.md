@@ -2506,7 +2506,7 @@ id | visible | visibleInPortal | indikatorenset
 22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt
-22408 | true | false | Stadtklimakonzept
+22408 | true | true | Stadtklimakonzept
 22409 | true | true | Stadtklimakonzept
 22410 | true | true | Stadtklimakonzept
 22411 | true | true | Stadtklimakonzept
