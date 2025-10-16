@@ -1,47 +1,10 @@
 {
   "series": [
     {
-      "color": "#ffbb58",
-      "data": [
-        [
-          "Hoher Handlungsbedarf - Fokusgebiet",
-          109916
-        ],
-        [
-          "Situation Verbessern",
-          60222
-        ],
-        [
-          "Situation Erhalten",
-          35922
-        ],
-        [
-          "übriges Gebiet",
-          1455
-        ]
-      ],
-      "name": "Anzahl Einwohner",
-      "turboThreshold": 0
+      "visible": false,
+      "showInLegend": false
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "rotation": 0
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -75,21 +38,17 @@
                     }
                 }
     },
-    "type": "column",
-    "inverted": true,
-    "marginRight": 30,
-    "renderTo": "container-22413",
-    "spacingBottom": 40
+    "renderTo": "container-22417",
+    "spacingBottom": 30
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointPadding": 0
+      }
     }
   },
   "title": {
@@ -99,15 +58,31 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bevölkerung in Stadtklimakonzept-Fokusgebieten"
+    "text": "Bodenversiegelung"
   },
   "subtitle": {
-    "text": "Stadt Basel, 2024",
+    "text": "Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
     }
   },
   "yAxis": {
@@ -124,19 +99,14 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -155,11 +125,11 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -15
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
   "exporting": {
-    "filename": "22413"
+    "filename": "22417"
   }
 }

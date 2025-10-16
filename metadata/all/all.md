@@ -2514,7 +2514,7 @@ id | visible | visibleInPortal | indikatorenset
 22413 | true | true | Stadtklimakonzept
 22414 | true | false | Stadtklimakonzept
 22415 | true | false | Stadtklimakonzept
-22416 | true | true | Stadtklimakonzept
+22416 | false |  | Stadtklimakonzept
 22417 | true | true | Stadtklimakonzept
 22418 | true | true | Stadtklimakonzept
 22419 | true | true | Stadtklimakonzept

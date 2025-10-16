@@ -1,3 +1,7 @@
 (function () {
-  return {}
+  return {
+    series: [
+      { visible: false, showInLegend: false }
+    ]
+  }
 }());

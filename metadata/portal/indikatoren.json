@@ -4927,7 +4927,7 @@
 		"children": [],
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Stadt Basel",
-		"lesehilfe": "84,4% der Bevölkerung sind 2023 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
+		"lesehilfe": "84,4% der Bevölkerung in der Stadt Basel sind 2023 mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppe gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -4965,7 +4965,7 @@
 		"children": [],
 		"title": "Zufriedenheit mit Wohnumfeld",
 		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Stadt Basel",
-		"lesehilfe": "Mit 46,9% ist beinahe die Hälfte der befragten Familien sehr zufrieden mit dem Wohnumfeld. 2,4% zeigen sich sehr unzufrieden.",
+		"lesehilfe": "Mit 46,9% ist beinahe die Hälfte der befragten Familien in der Stadt Basel sehr zufrieden mit dem Wohnumfeld. 2,4% zeigen sich sehr unzufrieden.",
 		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
@@ -5002,8 +5002,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Empfinden Hitzetage Sommer",
-		"subtitle": "«Wie empfinden Sie die Hitzetage (Temperatur 30 Grad und mehr) in den Sommermonaten an Ihrem Wohnort?», Stadt Basel, 2023",
-		"lesehilfe": "22,2% der Bevölkerung empfinden Hitzetage als unangenehm und 27,1% als eher unangenehm. Demgegenüber finden 10,0% Hitzetage angenehm und 23,4% als eher angenehm.",
+		"subtitle": "«Wie empfinden Sie die Hitzetage (Temperatur 30 °C und mehr) in den Sommermonaten an Ihrem Wohnort?», Stadt Basel, 2023",
+		"lesehilfe": "22,2% der Bevölkerung in der Stadt Basel empfinden Hitzetage als unangenehm und 27,1% als eher unangenehm. Demgegenüber finden 10,0% Hitzetage angenehm und 23,4% eher angenehm.",
 		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Die Ergebnisse sind gewichtet nach Geschlecht, Staatsangehörigkeit und Altersgruppen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -5040,7 +5040,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Freiraumfläche und Anteil im Siedlungsgebiet",
-		"subtitle": "",
+		"subtitle": "Stadt Basel",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [],
@@ -5076,11 +5076,15 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung in Stadtklimakonzept-Fokusgebieten",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
-		"externalLinks": [],
+		"subtitle": "Stadt Basel, 2024",
+		"lesehilfe": "Ende 2024 lebten im Kanton Basel-Stadt 109 916 Personen in Fokusgebieten, welche laut Stadtklimakonzept einen hohen Handlungsbedarf aufweisen.",
+		"erlaeuterungen": "Im <a href='https://www.bs.ch/schwerpunkte/klima/stadtklima#strategie-stadtklimakonzept' target='_blank'>Stadtklimakonzept Basel-Stadt</a> sind, basierend auf der Klimaanalyse für das Jahr 2030, für die Priorisierung von Massnahmen zur Reduktion der bioklimatischen Belastung sogenannte Fokusgebiete eingegrenzt worden, in denen die Betroffenheit besonders gross ist.",
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement Basel-Stadt, Städtebau & Architektur"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.stadtklima.bs.ch' target = '_blank'>Stadtklima Basel-Stadt</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -5106,49 +5110,13 @@
 	},
 	{
 		"template": "template001",
-		"data-id": 22416,
-		"chart-id": 22416,
-		"filter": "",
-		"parentId": null,
-		"children": [],
-		"title": "Trockenheitsindex",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Trockenheitsindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
-		"kuerzel": "",
-		"kennzahlenset": "Stadtklimakonzept",
-		"kuerzelKunde": "3.4.3",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_000",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-04T04:41:12",
-		"id": 22416
-	},
-	{
-		"template": "template001",
 		"data-id": 22417,
 		"chart-id": 22417,
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Bodenversiegelung",
-		"subtitle": "",
+		"subtitle": "Stadt Basel",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [],
@@ -5184,9 +5152,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteil der Gebäudeflächen an der Siedlungsfläche",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "Ein Viertel (2024: 25,3%) der <a href='https://map.geo.bs.ch/?lang=de&baselayer_ref=blank&tree_groups=Richtplankarte&tree_group_layers_Richtplankarte=RP_Ausgangslage_Siedlung_Siedlungsgebiet&map_x=2614535&map_y=1267844&map_zoom=2&tree_group_opacity_Richtplankarte=1' target='_blank'>Siedlungsfläche</a> der Stadt Basel sind Gebäudeflächen.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -5222,9 +5190,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteil der Verkehrsflächen an der Siedlungsfläche",
-		"subtitle": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "Ein Viertel (2024: 24,4%) der <a href='https://map.geo.bs.ch/?lang=de&baselayer_ref=blank&tree_groups=Richtplankarte&tree_group_layers_Richtplankarte=RP_Ausgangslage_Siedlung_Siedlungsgebiet&map_x=2614535&map_y=1267844&map_zoom=2&tree_group_opacity_Richtplankarte=1' target='_blank'>Siedlungsfläche</a> der Stadt Basel sind Verkehrsflächen.",
+		"erlaeuterungen": "Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden. Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert. Befestigte Objekte wie Gebäude, Strassenräume oder öffentliche Pärke werden detaillierter erfasst und bei baulichen Änderungen nachgeführt.",
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -5260,7 +5228,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Anteil der Freiflächen an den Arealentwicklungsflächen",
-		"subtitle": "",
+		"subtitle": "Stadt Basel",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
 		"quellenangabe": [],
