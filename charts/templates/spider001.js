@@ -5,18 +5,14 @@
 				load: function () {
 					this.credits.element.onclick = function () { };
 					//draw spider backgrounds
-					//colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
-					var top = -Math.PI / 2; 
-					//var top = -Math.PI / 2.3; wenn Farbtrennung nicht in der Mitte sein soll. 
-					var endPurple = top + 2 * Math.PI / 16 * 7;
-					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
-					var endBlue = top;
-					//var centerX = 247;
-					var centerX = 247.5;
-					//var centerY = 212.5;
-					var centerY = 207;
-					var radius = 142;
-					//var radius = 136;
+                    var top = -Math.PI/2;
+                    var endPurple = top + 2*Math.PI/17*7;
+					var endGreen = endPurple + 2 * Math.PI / 17 * 5;
+                    var endBlue = top;
+                    var centerX = 242.5;
+                    var centerY = 207;
+                    var radius = 142;
+
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
 						fill: '#923F8D',
 						stroke: '#923F8D',
