@@ -1,105 +1,75 @@
-(function () {
+(function(){
   return {
-    "chart": {
-      "type": "line",
-      events: {
-        load: function () {
-          this.credits.element.onclick = function () { };
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            );
-          }
-/*
-          this.series[1].points[this.series[1].points.length - 1].update({
-            dataLabels: {
-              enabled: true,
-              y: -10,
-              x: -50,
-              format: 'Zielwert {key}: {y:,.0f}',
-              style: {
-                textOutline: false,
-                color: "#999999",
-              }
-            },
-            marker: {
-              enabled: true
-            }
-          });
-
-          const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
-            data = chart.series[0].data,
-            assessed = chart.series[2].data;
-          data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
-              element.update({
-                color: colors[assessed[i].y],
-                marker: {
-                  enabled: true,
-                  lineWidth: 1,
-                  lineColor: "#0091f7"
-                }
-              })
-            }
-          });
-          */
-        }
-        
-      }
+"yAxis": [{
+  "labels": {
+    "format": "{value:,.0f}",
+    "style": {
+      "color": "#000000"
+    }
+  },
+  "min": 0,
+  "max": undefined,
+  "title": ""
+},
+{
+  "title": {
+    "style": {
+      "color": "#000000",
+      "fontSize": null
     },
-    plotOptions: {
-      series: {
-        connectNulls: true,
-        "marker": {
-          "enabled": false,
-          "symbol": "circle",
-        }
-      }
+    "text": null
+  },
+  "labels": {
+    "format": "{value:,.0f}%",
+    "style": {
+      "color": "#000000"
+    }
+  },
+  "min": 0,
+  "max": undefined,
+  "gridLineWidth": 0,
+  "opposite": true
+}
+],
+"xAxis": {
+  "tickInterval": 1
+},
+"legend": {
+  "enabled": true,
+  "layout": "horizontal",
+  "verticalAlign": "top",
+  "align": "left",
+  "itemMarginBottom": 5,
+  "itemStyle": {
+  "fontWeight": "normal"
+  }
+},
+"series": [
+  {
+    "color": "#71a3b5",
+    "index": 0,
+    "type": "column",
+    //"pointWidth": "20"
+  },
+  {
+    "color": "#7d60a0",
+    "index": 2,
+    "type": "line",
+    "yAxis": 1,
+     "marker": {
+      "enabled": false
     },
-    title: {
-      useHTML: true
-    },
-    xAxis: {
-      tickInterval: 1,
-      labels: {
-        step: 1,
-        rotation: -45
-      }
-    },
-    yAxis: {
-      min: 0
-    },
-    legend: {
-      enabled: false,
-      layout: "horizontal",
-      verticalAlign: "top",
-      align: "left",
-    },
-    tooltip: {
-      valueDecimals: 0,
-      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
-    },
-    series: [
-      {
-        color: "#0091f7",
-        zIndex: 2
-      },
-      /*{
-        type: "line",
-        dashStyle: 'ShortDash',
-        color: "#999999",
-      },
-      {
-        visible: false,
-        showInLegend: false
-      },*/
-    ],
-  };
+    "tooltip": {
+     "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
+    }
+  }
+],  
+"tooltip": {
+  "shared": true,
+},
+"chart": {
+  "type": "line",
+  "alignTicks": false
+}
+}
 }());
