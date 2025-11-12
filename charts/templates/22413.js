@@ -10,7 +10,15 @@
     "xAxis": {
       "type": "category",
       "labels": {
-        "rotation": 0
+        rotation: 0,
+        useHTML: true,
+            style: {
+                whiteSpace: 'normal', 
+                width: '80px',
+                textOverflow: 'none',
+                textAlign: 'center'
+            }
+
       }
     },
     "yAxis": {
@@ -33,7 +41,7 @@
     },*/
     "chart": {
       "type": "column",
-      "inverted": true,
+      "inverted": false,
       marginRight: 30,
       //"spacingTop": 100
     }
