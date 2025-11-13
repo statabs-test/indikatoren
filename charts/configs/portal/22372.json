@@ -2,6 +2,8 @@
   "series": [
     {
       "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
       "data": [
         [
           2001,
@@ -100,14 +102,125 @@
           22250
         ]
       ],
-      "name": "Lebensraum Gundeldingen"
+      "name": "Gundeldingen"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 2,
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2001,
+          11.19
+        ],
+        [
+          2002,
+          11.17
+        ],
+        [
+          2003,
+          11.22
+        ],
+        [
+          2004,
+          11.19
+        ],
+        [
+          2005,
+          11.21
+        ],
+        [
+          2006,
+          11.21
+        ],
+        [
+          2007,
+          11.23
+        ],
+        [
+          2008,
+          11.29
+        ],
+        [
+          2009,
+          11.27
+        ],
+        [
+          2010,
+          11.14
+        ],
+        [
+          2011,
+          11.11
+        ],
+        [
+          2012,
+          11.09
+        ],
+        [
+          2013,
+          11.07
+        ],
+        [
+          2014,
+          11.07
+        ],
+        [
+          2015,
+          10.97
+        ],
+        [
+          2016,
+          10.95
+        ],
+        [
+          2017,
+          10.96
+        ],
+        [
+          2018,
+          10.89
+        ],
+        [
+          2019,
+          10.85
+        ],
+        [
+          2020,
+          10.83
+        ],
+        [
+          2021,
+          10.86
+        ],
+        [
+          2022,
+          10.74
+        ],
+        [
+          2023,
+          10.67
+        ],
+        [
+          2024,
+          10.72
+        ]
+      ],
+      "name": "Anteil Gundeldingen an Kanton (rechte Skala)"
     }
   ],
   "chart": {
     "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 60,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -132,20 +245,13 @@
 					}
 				}
     },
-    "marginRight": 20,
+    "alignTicks": false,
     "renderTo": "container-22372"
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },
@@ -185,27 +291,40 @@
     },
     "tickInterval": 1
   },
-  "yAxis": {
-    "min": 0,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
-      "text": null
+      "min": 0,
+      "max": undefined,
+      "title": ""
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "format": "{value:,.0f}"
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "gridLineWidth": 0,
+      "opposite": true
     }
-  },
+  ],
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -265,8 +384,7 @@
 			}
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true
   },
   "exporting": {
     "filename": "22372"

@@ -5,7 +5,7 @@
       "color": "#246370",
       "tooltip": {
         "pointFormatter": function () {
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
           }
       },
       "data": [
@@ -34,8 +34,8 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-              return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '' + Highcharts.numberFormat((this.high), 1) + '';
-            }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '</b>)';
+          }
       },
       "data": [
         {
@@ -67,8 +67,8 @@
       "color": "#8A8A8A",
       "tooltip": {
         "pointFormatter": function () {
-              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '';
-            }
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
+          }
       },
       "data": [
         [
@@ -96,8 +96,8 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
-                return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '' + Highcharts.numberFormat((this.high), 1) + '';
-              }
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '</b>)';
+          }
       },
       "data": [
         {
@@ -193,7 +193,7 @@
     "text": "Bewertung der Lebensqualität"
   },
   "subtitle": {
-    "text": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?»",
+    "text": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Wohnviertel Gundeldingen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -217,9 +217,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
       "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0);
+          return Highcharts.numberFormat((this.value), 0) + '';
         }
     }
   },
@@ -231,8 +230,7 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    },
-    "itemMarginBottom": 5
+    }
   },
   "credits": {
     "enabled": true,
@@ -282,6 +280,9 @@
 					}]
 				}, true, true);
 			}
+  },
+  "tooltip": {
+    "shared": true
   },
   "exporting": {
     "filename": "22354"

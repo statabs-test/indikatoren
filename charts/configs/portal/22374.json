@@ -83,7 +83,7 @@
     "text": "Durchschnittlicher Tagesverkehr Fussverkehr "
   },
   "subtitle": {
-    "text": "",
+    "text": "Perimeter Stadtteilrichtplan Gundeldingen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -129,7 +129,7 @@
     }
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

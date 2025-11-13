@@ -1,8 +1,9 @@
 {
   "series": [
     {
-      "color": "#0091f7",
-      "zIndex": 2,
+      "color": "#71a3b5",
+      "index": 0,
+      "type": "column",
       "data": [
         [
           2011,
@@ -57,18 +58,81 @@
           25553
         ]
       ],
-      "name": "Beschäftigte"
+      "name": "Gundeldingen"
+    },
+    {
+      "color": "#7d60a0",
+      "index": 2,
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2011,
+          12.51
+        ],
+        [
+          2012,
+          12.55
+        ],
+        [
+          2013,
+          12.47
+        ],
+        [
+          2014,
+          12.81
+        ],
+        [
+          2015,
+          12.65
+        ],
+        [
+          2016,
+          12.65
+        ],
+        [
+          2017,
+          12.78
+        ],
+        [
+          2018,
+          13.08
+        ],
+        [
+          2019,
+          13.19
+        ],
+        [
+          2020,
+          13.6
+        ],
+        [
+          2021,
+          13.61
+        ],
+        [
+          2022,
+          13.18
+        ],
+        [
+          2023,
+          12.79
+        ]
+      ],
+      "name": "Anteil Gundeldingen an Kanton (rechte Skala)"
     }
   ],
   "chart": {
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -79,70 +143,27 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () { };
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            );
-          }
-/*
-          this.series[1].points[this.series[1].points.length - 1].update({
-            dataLabels: {
-              enabled: true,
-              y: -10,
-              x: -50,
-              format: 'Zielwert {key}: {y:,.0f}',
-              style: {
-                textOutline: false,
-                color: "#999999",
-              }
-            },
-            marker: {
-              enabled: true
-            }
-          });
-
-          const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
-            data = chart.series[0].data,
-            assessed = chart.series[2].data;
-          data.forEach(function (element, i) {
-            if (assessed[i].y != null) {
-              element.update({
-                color: colors[assessed[i].y],
-                marker: {
-                  enabled: true,
-                  lineWidth: 1,
-                  lineColor: "#0091f7"
-                }
-              })
-            }
-          });
-          */
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
-    "type": "line",
-    "renderTo": "container-22373",
-    "spacingBottom": 40
+    "alignTicks": false,
+    "renderTo": "container-22373"
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "connectNulls": true,
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
+        "enabled": false
       }
     }
   },
@@ -153,7 +174,6 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "useHTML": true,
     "text": "Beschäftigte"
   },
   "subtitle": {
@@ -177,46 +197,54 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
-      },
-      "step": 1,
-      "rotation": -45
+        "color": "#000000",
+        "textOverflow": "none"
+      }
     },
     "tickInterval": 1
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
       },
-      "text": null
+      "min": 0,
+      "max": undefined,
+      "title": ""
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "min": 0
-  },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
   "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -233,9 +261,42 @@
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
   "tooltip": {
-    "valueDecimals": 0,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true
   },
   "exporting": {
     "filename": "22373"
