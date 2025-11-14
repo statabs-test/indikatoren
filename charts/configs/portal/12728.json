@@ -5,19 +5,19 @@
       "data": [
         [
           2020,
-          6.3
+          882262
         ],
         [
           2021,
-          6.44
+          836271
         ],
         [
           2022,
-          6.48
+          833832
         ],
         [
           2023,
-          6.41
+          843844
         ]
       ],
       "name": "Stadt Basel"
@@ -27,19 +27,19 @@
       "data": [
         [
           2020,
-          5.52
+          125502
         ],
         [
           2021,
-          5.71
+          118627
         ],
         [
           2022,
-          5.98
+          122710
         ],
         [
           2023,
-          6.01
+          122544
         ]
       ],
       "name": "Riehen"
@@ -49,66 +49,66 @@
       "data": [
         [
           2020,
-          4.52
+          5747
         ],
         [
           2021,
-          4.77
+          5065
         ],
         [
           2022,
-          5.58
+          5559
         ],
         [
           2023,
-          5.89
+          5828
         ]
       ],
       "name": "Bettingen"
-    },
-    {
-      "color": "#010101",
-      "data": [
-        [
-          2020,
-          6.2
-        ],
-        [
-          2021,
-          6.35
-        ],
-        [
-          2022,
-          6.41
-        ],
-        [
-          2023,
-          6.36
-        ]
-      ],
-      "name": "Kanton Basel-Stadt"
     },
     {
       "color": "#671a7f",
       "data": [
         [
           2020,
-          6.66
+          24236
         ],
         [
           2021,
-          6.64
+          28196
         ],
         [
           2022,
-          6.33
+          32097
         ],
         [
           2023,
-          6.38
+          39523
         ]
       ],
-      "name": "Ausserkantonal\u002FAusland"
+      "name": "Ausserkantonal"
+    },
+    {
+      "color": "#010101",
+      "data": [
+        [
+          2020,
+          29
+        ],
+        [
+          2021,
+          28
+        ],
+        [
+          2022,
+          106
+        ],
+        [
+          2023,
+          14
+        ]
+      ],
+      "name": "Ausland"
     }
   ],
   "chart": {
@@ -140,7 +140,7 @@
 					}
 				}
     },
-    "renderTo": "container-12729"
+    "renderTo": "container-12728"
   },
   "plotOptions": {
     "series": {
@@ -160,10 +160,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Pflegestufen-Durchschnitt nach Herkunft Bewohnende in Pflegeheimen"
+    "text": "Durchschnittliche Pflegestufen"
   },
   "subtitle": {
-    "text": "nach Herkunft der Bewohnenden",
+    "text": "nach Gemeinden, Kanton Basel-Stadt, Nordwest- und Deutschschweiz im Vergleich",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -235,7 +235,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -278,6 +278,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": "12729"
+    "filename": "12728"
   }
 }

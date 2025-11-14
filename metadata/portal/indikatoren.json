@@ -3820,6 +3820,50 @@
 	},
 	{
 		"template": "line001",
+		"data-id": 12728,
+		"chart-id": 12728,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Durchschnittliche Pflegestufen",
+		"subtitle": "nach Gemeinden, Kanton Basel-Stadt, Nordwest- und Deutschschweiz im Vergleich",
+		"lesehilfe": "Der Pflegestufendurchschnitt im Kanton Basel statt liegt im Vergleich zur Nordwest- und Deutschschweiz grundsätzlich höher. Im Jahr 2022 betrug der Pflegestufendurchschnitt für den Kanton Basel-Stadt 6,4, während er in der NWCH bei 5.7 und in der DCH bei 5,6 betrug.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>DCH sind die deutschsprachigen Kantone sowie der mehrsprachige Kanton BE.Nordwestschweiz (NWCH) sind die Kantone BS, BL, SO und AG. <br>Die Pflegestufe nach Gemeinden wird anhand der Pflegetage der in den jeweiligen Gemeinden gelegenen Pflegeheimen berechnet. Aufgrund der geringen Fallzahlen in der Gemeinde Bettingen ist der Pflegestufendurchschnitt anfälliger auf Sprünge. <br>Zur besseren Übersicht wird die Skala, welche gemäss KLV von Stufe 1 bis 12 geht, auf 3 bis 8 angepasst.",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+			"<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#kosten-betreuung-und-pflege-im-pflegeheim' target = '_blank'>Pflegeheim Tagestaxen</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Gemeinde",
+			"Grossregion"
+		],
+		"description": "Durchschnittliche Pflegestufen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "",
+		"kennzahlenset": "Gesundheitsversorgung",
+		"kuerzelKunde": "1.6",
+		"stufe1": "1 Langzeitpflege",
+		"stufe2": "1.2 Kennzahlen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2024-09-24T02:05:33",
+		"id": 12728
+	},
+	{
+		"template": "line001",
 		"data-id": 12729,
 		"chart-id": 12729,
 		"filter": "",

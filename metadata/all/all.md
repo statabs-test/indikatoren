@@ -2461,6 +2461,7 @@ id | visible | visibleInPortal | indikatorenset
 12721 | true | true | Stadtteilmonitoring St. Johann
 12722 | true | true | 
 12727 | true | true | Gesundheitsversorgung
+12728 | true | true | Gesundheitsversorgung
 12729 | true | true | Gesundheitsversorgung
 12730 | true | true | Gesundheitsversorgung
 12732 | true | true | Gesundheitsversorgung

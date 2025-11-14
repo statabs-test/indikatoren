@@ -10,7 +10,7 @@
 
     },
     xAxis: {
-//      type: "category",
+      //      type: "category",
       tickInterval: 1
     },
     legend: {
@@ -33,22 +33,31 @@
         color: '#FF8028',
       },
       {
-        color: '#010101',
+        color: '#671a7f',
       },
       {
         color: '#671a7f',
       },
+      {
+        type: 'line',
+        color: '#010101',
+      },
     ],
     tooltip: {
       pointFormatter: function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + " Tage" + '</b><br/><b>'
       },
-      "shared": false
+      shared: false
     },
     chart: {
+      type: "column"
     },
     plotOptions: {
-      "series": {
+      column: {
+        stacking: 'normal',
+        borderWidth: 0,
+      },
+      series: {
         "marker": {
           "enabled": false,
           "symbol": "circle"
