@@ -1,0 +1,45 @@
+﻿{
+    "id": 12729,
+    "template": "line001",
+    "data-id": 12729,
+    "chart-id": 12729,
+    "filter": "",
+    "parentId": null,
+    "children": [],
+    "title": "Pflegestufen-Durchschnitt nach Herkunft Bewohnende in Pflegeheimen",
+    "subtitle": "nach Herkunft der Bewohnenden",
+    "lesehilfe": "Die durchschnittliche Pflegestufe ist in der Stadt Basel tendenziell höher als in den Gemeinden Riehen und Bettingen. Im Jahr 2023 betrug der Pflegstufendurchschnitt in der Stadt Basel 6,4.",
+    "erlaeuterungen": "Aufgrund der etwas kleineren Fallzahl bei EinwohnerInnen aus der Gemeinde Bettingen kann es zu höheren Schwankungen kommen.",
+    "quellenangabe": [
+        "Gesundheitsdepartement Basel-Stadt",
+        "Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
+    ],
+    "externalLinks": [
+        "<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
+        "<a href = 'https://www.bs.ch/themen/persoenliches-und-wohnen/wohnen/wohnen-im-alter/finanzierung-wohnen-im-alter#kosten-betreuung-und-pflege-im-pflegeheim' target = '_blank'>Pflegeheim Tagestaxen</a>"
+    ],
+    "renderLink": [],
+    "raeumlicheGliederung": [
+        "Kanton",
+        "Gemeinde",
+        "Grossregion"
+    ],
+    "description": "Pflegestufen-Durchschnitt nach Herkunft Bewohnende in Pflegeheimen",
+    "thema": "14 Gesundheit",
+    "unterthema": "Heime und Spitex",
+    "kuerzel": "",
+    "kennzahlenset": "Gesundheitsversorgung",
+    "kuerzelKunde": "",
+    "stufe1": "1 Langzeitpflege",
+    "stufe2": "1.2 Kennzahlen",
+    "stufe3": "",
+    "stufe4": "",
+    "stufe5": "",
+    "orderKey": "01_01_00_00_00_006",
+    "darstellungsart": "",
+    "printformat": "",
+    "visible": true,
+    "visibleInPortal": true,
+    "datenInChartIntegriert": false,
+    "aktualisierungsdatum": "2024-09-25T12:16:39"
+}
