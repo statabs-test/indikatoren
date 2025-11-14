@@ -13,11 +13,13 @@ document.addEventListener("DOMContentLoaded", () => {
     currentIndex = index;
     updateLightbox();
     lightbox.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
   }
 
   function closeLightbox() {
     lightbox.classList.add("hidden");
     lightboxContent.innerHTML = "";
+    document.body.style.overflow = "";
   }
 
   function prevSlide() {
@@ -202,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (indicators) {
       indicators.innerHTML = "";
       const label = document.createElement("div");
-      label.className = "text-sm text-white";
+      label.className = "text-sm";
       label.textContent = `1 / ${elements.length}`;
       indicators.appendChild(label);
     }

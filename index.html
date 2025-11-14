@@ -299,58 +299,52 @@
 
     <div
       id="lightbox"
-      class="fixed inset-0 z-50 flex items-start justify-center bg-[#DDECDE]/80 hidden pt-5 overflow-y-auto"
+      class="fixed inset-0 z-50 flex justify-center bg-[#DDECDE]/80 hidden overflow-y-auto"
     >
       <div
         id="lightbox-wrapper"
-        class="w-full max-w-3xl flex items-center justify-center mt-0"
+        class="w-full container max-w-5xl bg-white p-6 mx-4 my-10 rounded-xl flex flex-col relative"
       >
-        <div
-          class="w-full sm:w-4/5 lg:w-3/5 flex flex-col bg-white p-4 rounded-xl shadow-lg mx-4"
+        <!-- Close Button -->
+        <button
+          id="close-lightbox"
+          class="absolute right-6 top-4 text-black text-4xl"
+          aria-label="Schliessen"
         >
-          <div class="relative flex justify-center mt-4">
-            <div
-              id="carousel-indicators"
-              class="flex space-x-2 mt-10 mb-10"
-            ></div>
+          &times;
+        </button>
 
-            <button
-              id="close-lightbox"
-              class="absolute right-[20px] text-black text-4xl"
-              aria-label="Schliessen"
-            >
-              &times;
-            </button>
-          </div>
+        <!-- Top Navigation: Prev / Counter / Next -->
+        <div class="w-full flex items-center justify-center gap-10 mt-6 mb-6">
+          <button
+            id="prev-slide"
+            class="text-gray-600 hover:text-black"
+            aria-label="Zurück"
+          >
+            <img
+              class="h-[40px]"
+              src="assets/symbols/arrow-west-simple.svg"
+              alt="Vorherige Seite"
+            />
+          </button>
 
-          <div class="flex items-center justify-center relative mt-4">
-            <button
-              id="prev-slide"
-              class="-translate-y-1/2 text-gray-600 hover:text-black"
-              aria-label="Zurück"
-            >
-              <img
-                class="h-[60px]"
-                src="assets/symbols/arrow-west-simple.svg"
-                alt="Vorherige Seite"
-              />
-            </button>
+          <div id="carousel-indicators" class="text-sm text-gray-700"></div>
 
-            <div id="lightbox-content" class="basis-2/3 min-w-0 w-full"></div>
-
-            <button
-              id="next-slide"
-              class="top-1/2 -translate-y-1/2 text-gray-600 hover:text-black"
-              aria-label="Weiter"
-            >
-              <img
-                class="h-[60px]"
-                src="assets/symbols/arrow-east-simple.svg"
-                alt="Nächste Seite"
-              />
-            </button>
-          </div>
+          <button
+            id="next-slide"
+            class="text-gray-600 hover:text-black"
+            aria-label="Weiter"
+          >
+            <img
+              class="h-[40px]"
+              src="assets/symbols/arrow-east-simple.svg"
+              alt="Nächste Seite"
+            />
+          </button>
         </div>
+
+        <!-- Content Area (wide) -->
+        <div id="lightbox-content" class="w-full"></div>
       </div>
     </div>
 
