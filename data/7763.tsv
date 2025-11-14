@@ -1,22 +1,22 @@
-﻿"Wohnviertel"	"wohnviertel_name"	"Veränderung zum Vormonat in %"	"Anzahl Einwohner"
-1	Altstadt Grossbasel	-0.474972598	2724
-2	Vorstädte	0.3861003861	4940
-3	Am Ring	0.0086490227	11563
-4	Breite	0.0643707757	9327
-5	St. Alban	0.2690299098	12672
-6	Gundeldingen	-0.051429747	19434
-7	Bruderholz	0.0519372598	9632
-8	Bachletten	-0.136907335	13859
-9	Gotthelf	0.1816911251	7168
-10	Iselin	-0.005550006	18017
-11	St. Johann	0.0864172428	19689
-12	Altstadt Kleinbasel	0.1599360256	2505
-13	Clara	0.5922551253	4416
-14	Wettstein	0.0339904827	5886
-15	Hirzbrunnen	0.2018367141	9929
-16	Rosental	-0.205549846	7768
-17	Matthäus	-0.039486673	15189
-18	Klybeck	0	7215
-19	Kleinhüningen	-0.463458111	2792
-20	Riehen	0.1941319215	22709
-30	Bettingen	0.0771010023	1298
+﻿"adrWohnviertelId"	"adrWohnviertelName"	"Veränderung zum Vormonat in %"	"Anzahl Einwohner"
+1	Altstadt Grossbasel	0.2985074627	2688
+2	Vorstädte	1.3354917038	5008
+3	Am Ring	0.6588072122	11612
+4	Breite	0.3008165019	9336
+5	St. Alban	0.2443060919	12720
+6	Gundeldingen	0.385346555	19538
+7	Bruderholz	0.0206270627	9698
+8	Bachletten	-0.03599712	13885
+9	Gotthelf	0.2073828287	7248
+10	Iselin	0.3878546099	18118
+11	St. Johann	0.2827568796	19861
+12	Altstadt Kleinbasel	0.471883602	2555
+13	Clara	0.8310871518	4489
+14	Wettstein	0.2546257002	5906
+15	Hirzbrunnen	0.4332057223	9969
+16	Rosental	0.6144393241	7860
+17	Matthäus	0.4614978903	15238
+18	Klybeck	0.3170227429	7278
+19	Kleinhüningen	0.94970102	2870
+20	Riehen	0.259511766	22794
+30	Bettingen	1.2355212355	1311

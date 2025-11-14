@@ -242,7 +242,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Pensions- und Pflegetage in Pflegeheimen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2023 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 94,8%. Die Pensions- und Pflegetage beliefen sich 2023 auf über 1 Million.",
+		"lesehilfe": "2024 ist die Auslastung im Vergleich zum Vorjahr gestiegen und beträgt in den Pflegeheimen 95,6%. Die Pensions- und Pflegetage beliefen sich 2024 auf über 1 Million.",
 		"erlaeuterungen": "Auslastung ohne Pflegetage in ausserkantonalen Pflegeheimen. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Pensions- und Pflegetage dividiert durch die maximal mögliche Anzahl Pensions- und Pflegetage.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -268,7 +268,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:21",
+		"aktualisierungsdatum": "2025-09-26T08:47:46",
 		"id": 11171
 	},
 	{
@@ -278,10 +278,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anteil Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
+		"title": "Anteil Pflegetage nach Pflegestufe in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 8,9%. Die durchschnittliche Pflegestufe lag 2023 bei 6,4.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
+		"lesehilfe": "Der grösste Anteil (19,8%) der Pflegeheimbewohnenden ist in der Pflegestufe 6 zu finden. Seit 2017 stieg die durchschnittliche Pflegestufe bis zum Jahr 2024 um 10,2%. Die durchschnittliche Pflegestufe lag 2024 bei 6,4.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -294,7 +294,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Pflegetage nach Pflegestufen in Pflegeheimen und Pflegestufen-Durchschnitt",
+		"description": "Anteil Pflegetage nach Pflegestufe in Pflegeheimen und Pflegestufen-Durchschnitt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -309,7 +309,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-06T08:02:03",
+		"aktualisierungsdatum": "2025-10-13T12:35:14",
 		"id": 11172
 	},
 	{
@@ -321,8 +321,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 71,5%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2023 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450.",
-		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"lesehilfe": "Im Jahr 2024 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 77,2%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2024 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 31 228.",
+		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet. Die Auslastung berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -346,7 +346,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:09",
+		"aktualisierungsdatum": "2025-09-24T08:41:32",
 		"id": 11173
 	},
 	{
@@ -358,7 +358,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Pflegestunden Spitex",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 293 844. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2023 auf total 598 236 Stunden.",
+		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt mit Ausnahme der Jahre 2018 und 2022 stetig gestiegen. Im Jahr 2024 betrug die Anzahl Spitex-Pflegestunden mit Leistungsauftrag 284 132. Alle geleisteten Pflegestunden (ohne und mit Leistungsauftrag) summierten sich 2024 auf total 633 382 Stunden.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -383,7 +383,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:14",
+		"aktualisierungsdatum": "2025-09-24T08:41:40",
 		"id": 11174
 	},
 	{
@@ -395,7 +395,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2023 verglichen mit dem Vorjahr leicht auf 278 gesunken. Zu deren Gunsten wurden an insgesamt 73 521 Tagen Pflegeleistungen erbracht.",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahr leicht auf 279 gesunken. Zu deren Gunsten wurden an insgesamt 76 165 Tagen Pflegeleistungen erbracht.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -422,7 +422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:20",
+		"aktualisierungsdatum": "2025-09-24T08:41:46",
 		"id": 11175
 	},
 	{
@@ -434,7 +434,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Pflegeheime",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 62,5 Mio. Franken, derjenige der Krankenversicherer 61,7 Mio. Franken und die kantonale Restfinanzierung 55,1 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 354,0 Mio. Franken.",
+		"lesehilfe": "Im Jahr 2024 betrug der Finanzierungsbeitrag aus Ergänzungsleistungen 65,9 Mio. Franken, derjenige der Krankenversicherer 63,5 Mio. Franken und die kantonale Restfinanzierung 57,3 Mio. Franken. Das Gesamtfinanzierungsvolumen der Pflegeheime belief sich auf 366,5 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
@@ -460,7 +460,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:24",
+		"aktualisierungsdatum": "2025-09-26T08:47:49",
 		"id": 11176
 	},
 	{
@@ -472,8 +472,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"lesehilfe": "2023 stieg das Finanzierungsvolumen mit total 4,2 Mio. Franken gegenüber dem Vorjahr um 0,3 Mio. Davon finanzierten der Kanton bzw. die Gemeinden 2,1 Mio. Franken, die Krankenversicherer 0,9 Mio. Franken und die Tagesgäste 1,2 Mio. Franken.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2024 stieg das Finanzierungsvolumen mit total 5,1 Mio. Franken gegenüber dem Vorjahr um 0,9 Mio Franken. Davon finanzierten der Kanton bzw. die Gemeinden 2,7 Mio. Franken, die Krankenversicherer 1,0 Mio. Franken und die Tagesgäste 1,4 Mio. Franken.",
+		"erlaeuterungen": "Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -497,7 +497,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:13",
+		"aktualisierungsdatum": "2025-10-13T12:35:12",
 		"id": 11177
 	},
 	{
@@ -509,7 +509,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Spitex-Leistungen",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"lesehilfe": "2023 sind die Spitex-Kosten im Vergleich zum Vorjahr gestiegen und zwar auf 62,3 Mio. Franken. Im Jahr 2023 lag der grösste Beitrag mit 24,6 Mio. Franken bei den Kantonen und Gemeinden, gefolgt von den Krankenversicherern  mit 34,5 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,2 Mio. Franken.",
+		"lesehilfe": "2024 sind die Spitex-Kosten im Vergleich zum Vorjahr auf 65,5 Mio. Franken gestiegen. Der grösste Beitrag lag mit 36,6 Mio. Franken bei den Krankenversicherern, gefolgt von den Kantonen und Gemeinden mit 25,6 Mio. Franken und schliesslich dem Eigenbetrag der Klientinnen und Klienten von 3,3 Mio. Franken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -534,7 +534,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:18",
+		"aktualisierungsdatum": "2025-09-24T08:41:45",
 		"id": 11178
 	},
 	{
@@ -546,7 +546,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,2 Franken. Der Kanton zahlte im Jahr 2023 2,3 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,6 Mio. Franken auf die Stadt Basel.",
+		"lesehilfe": "Im Jahr 2024 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,8 Franken. Der Kanton zahlte im Jahr 2024 2,4 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,7 Mio. Franken auf die Stadt Basel.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -571,7 +571,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:20",
+		"aktualisierungsdatum": "2025-09-24T08:41:48",
 		"id": 11179
 	},
 	{
@@ -777,10 +777,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen",
+		"title": "Anzahl Pflegetage nach Pflegestufe in Pflegeheimen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2023: 200 652 Pflegetage) zu finden. Danach folgt die Stufe 8 (2023: 177 085 Pflegetage).<br><br>Diese Reihenfolge ist seit 2017 unverändert.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
+		"lesehilfe": "Die meisten Pflegetage sind in Stufe 6 (2024: 203 551 Pflegetage) zu finden. Danach folgt Stufe 8 (2024: 187 422 Pflegetage). Diese Reihenfolge ist seit 2017 unverändert.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
@@ -793,7 +793,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen",
+		"description": "Anzahl Pflegetage nach Pflegestufe in Pflegeheimen",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -808,7 +808,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-30T12:02:59",
+		"aktualisierungsdatum": "2025-09-26T08:47:48",
 		"id": 12727
 	},
 	{
@@ -820,8 +820,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die meisten Pflegetage sind in Stufe 4 (2023: 9 221 Pflegetage) zu finden. Danach folgt die Stufe 6 (2023: 4 285 Pflegetage).",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"lesehilfe": "Im Jahr 2024 finden sich die meisten Pflegetage mit 11 002 Tagen in Stufe 4. Danach folgt mit 4 969 Pflegetagen die Stufe 6.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -848,7 +848,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:10",
+		"aktualisierungsdatum": "2025-09-24T08:41:33",
 		"id": 12730
 	},
 	{
@@ -860,8 +860,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (37,4%) der Gäste in Tages- und Nachpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2023 um 12,9%. Die durchschnittliche Pflegestufe lag 2023 bei 3,9.",
-		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 zeigt einen Pflegebedarf von bis zu 20 Minuten am Tag an, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"lesehilfe": "Der grösste Anteil (39,2%) der Gäste in Tages- und Nachtpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2024 um 11,4%. Die durchschnittliche Pflegestufe lag 2024 bei 3,9.",
+		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -888,7 +888,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:11",
+		"aktualisierungsdatum": "2025-09-24T08:41:35",
 		"id": 12732
 	},
 	{
@@ -898,10 +898,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
+		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 betrug die Anzahl aller Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 27 450. Der Grossteil der Aufenthaltstage entfiel auf Einwohnerinnen und Einwohner der Stadt Basel (20 975).",
-		"erlaeuterungen": "Aufgrund der geringen Fallzahlen werden die Gemeinden Riehen und Bettingen gemeinsam dargestellt.<br><br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl aller Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 31 228. Der Grossteil der Aufenthaltstage entfiel mit 23 785 auf Einwohnerinnen und Einwohner der Stadt Basel.",
+		"erlaeuterungen": "Aufgrund der geringen Fallzahlen werden die Gemeinden Riehen und Bettingen gemeinsam dargestellt.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -912,7 +912,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinden",
+		"description": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen nach Gemeinde",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -927,7 +927,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:11",
+		"aktualisierungsdatum": "2025-09-24T08:41:36",
 		"id": 12733
 	},
 	{
@@ -974,10 +974,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
+		"title": "Anzahl Pflegestunden Spitex nach Pflegeleistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
-		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br><br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
+		"lesehilfe": "Mit Ausnahme von 2018 und 2022 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt seit 2011 stetig gestiegen. Im Jahr 2024 betrug die Anzahl Pflegestunden 633 382 Stunden. Die Leistungsstunden der Bedarfsabklärung haben sich seit 2011 etwa verdreifacht.",
+		"erlaeuterungen": "- Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>- Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br>- Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.<br>Die Unterscheidung der drei Pflegearten ist in Art. 7 Verordnung des EDI über Leistungen in der obligatorischen Krankenpflegeversicherung (KLV) geregelt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -988,7 +988,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anzahl Pflegestunden Spitex nach Pflegeleistungen",
+		"description": "Anzahl Pflegestunden Spitex nach Pflegeleistung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -1003,7 +1003,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:15",
+		"aktualisierungsdatum": "2025-09-24T08:41:41",
 		"id": 12735
 	},
 	{
@@ -1013,10 +1013,10 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
+		"title": "Anteil Pflegestunden Spitex nach Pflegeleistung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil an Pflegeleistungen der Bedarfsabklärung steigt seit 2011 kontinuierlich an (2023: 7,7%). Der Anteil der Leistungen der Behandlungspflge beträgt über die Jahre etwa 31% und bei der Grundpflege etwa 63%.",
-		"erlaeuterungen": "Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung, sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br><br>Behandlungspflege umfasst medizinische Leistungen, wie z. B. das Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Verbände, Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br><br>Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
+		"lesehilfe": "Der Anteil an Pflegeleistungen der Bedarfsabklärung ist seit 2011 gestiegen (2024: 7,8%). Der Anteil der Leistungen der Behandlungspflge beträgt über die Jahre knapp 31% und bei der Grundpflege 61%.",
+		"erlaeuterungen": "- Die Bedarfsabklärung wird zu Beginn und in regelmässigen Abständen durchgeführt. Sie dient der Beurteilung der Gesamtsituation, der Abklärung des Pflege- und Hilfebedarfs, der Beratung sowie der Koordination mit anderen Leistungserbringern wie z. B. dem Hausarzt.<br>- Behandlungspflege umfasst medizinische Leistungen, wie z. B. Richten und Verabreichen von Medikamenten, verordnetes Hauteinreiben, Anlegen von Verbänden, Verabreichen von Augentropfen, Blutdruckmessung, Pulskontrolle, Blutentnahme oder Wundversorgung. <br>- Die Grundpflege beinhaltet Hilfe beim Duschen, Baden und Waschen, bei Kompressionsstrümpfen, beim An- und Auskleiden, beim Essen und Trinken, beim Toilettengang, beim Aufstehen, Hinlegen und Gehen oder bei der Zahnpflege.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1027,7 +1027,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Anteil Pflegestunden Spitex nach Pflegeleistungen",
+		"description": "Anteil Pflegestunden Spitex nach Pflegeleistung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -1042,7 +1042,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-20T03:23:17",
+		"aktualisierungsdatum": "2025-09-24T08:41:43",
 		"id": 12736
 	},
 	{
@@ -1052,9 +1052,9 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Anzahl Pflegestunden Spitex nach Gemeinden",
+		"title": "Anzahl Pflegestunden Spitex nach Gemeinde",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2011 sind die geleisteten Spitex-Pflegestunden im Kanton Basel-Stadt stetig gestiegen. Im Jahr 2023 betrug die Anzahl Pflegestunden 598 236 Stunden.<br>Der Grossteil wird (2023: 524 270 Pflegestunden) bei Einwohnerinnen und Einwohnern der Stadt Basel erbracht.",
+		"lesehilfe": "Im Jahr 2024 betrug die Anzahl Pflegestunden 633 382 Stunden. Der Grossteil wird mit 562 355 Pflegestunden bei Einwohnerinnen und Einwohnern der Stadt Basel erbracht.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -1067,7 +1067,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Gemeinde"
 		],
-		"description": "Anzahl Pflegestunden Spitex nach Gemeinden",
+		"description": "Anzahl Pflegestunden Spitex nach Gemeinde",
 		"thema": "14 Gesundheit",
 		"unterthema": "Heime und Spitex",
 		"kuerzel": "",
@@ -1082,7 +1082,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-31T10:43:59",
+		"aktualisierungsdatum": "2025-09-24T08:41:44",
 		"id": 12737
 	}
 ];

@@ -250,8 +250,8 @@ var indikatorensetData = [
 			8546
 		],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2024 im Wohnviertel Altstadt Grossbasel (1,3%) beobachtet, die tiefste in der Gemeinde Bettingen (0,2%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2025 im Wohnviertel Vorstädte (2,5%) beobachtet, die tiefste im Wohnviertel Bachletten (0,5%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -276,7 +276,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:01",
+		"aktualisierungsdatum": "2025-08-22T08:38:44",
 		"id": 6379
 	},
 	{
@@ -328,8 +328,8 @@ var indikatorensetData = [
 			6778
 		],
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (53%) und Kleinhüningen (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 war der Ausländeranteil in den Wohnvierteln Rosental (58%),  Klybeck (54%) und Kleinhüningen (51%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (24%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). Im Wohnviertel Klybeck bildeten Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln waren es Personen mit deutscher Staatsangehörigkeit.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -343,7 +343,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06381",
+		"kuerzel": "",
 		"kennzahlenset": "Gefragte Karten",
 		"kuerzelKunde": "C1-3",
 		"stufe1": "kontinuierlich klassifiziert",
@@ -355,7 +355,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-04T11:56:32",
+		"aktualisierungsdatum": "2025-09-02T10:25:43",
 		"id": 6381
 	},
 	{
@@ -635,8 +635,8 @@ var indikatorensetData = [
 		"parentId": "6379",
 		"children": [],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2024 im Wohnviertel Altstadt Grossbasel (1,3%) beobachtet, die tiefste in der Gemeinde Bettingen (0,2%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2025 im Wohnviertel Vorstädte (2,5%) beobachtet, die tiefste im Wohnviertel Bachletten (0,5%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -661,7 +661,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T10:22:46",
+		"aktualisierungsdatum": "2025-08-22T08:38:46",
 		"id": 6391
 	},
 	{

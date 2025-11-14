@@ -5,114 +5,121 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 14,
-          "Wert": 0.053,
-          "Jahr": 2023
+          "y": 15,
+          "Wert": 0.055,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 12,
-          "Wert": 0.4026872964,
-          "Jahr": 2023
+          "y": 13,
+          "Wert": 0.4103405827,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 21,
-          "Wert": 0.3525054466,
-          "Jahr": 2023
+          "Wert": 0.356830122591944,
+          "Jahr": 2024
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 4,
-          "Wert": 0.28,
-          "Jahr": 2023
+          "y": 2,
+          "Wert": 0.1538,
+          "Jahr": 2024
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 8,
-          "Wert": 0.2857967667,
-          "Jahr": 2023
+          "y": 7,
+          "Wert": 0.2876234747,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 0.2748371336,
-          "Jahr": 2023
+          "Wert": 0.2732868281,
+          "Jahr": 2024
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 1,
-          "Wert": 0.1322170901,
-          "Jahr": 2023
+          "Wert": 0.128413713,
+          "Jahr": 2024
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 1881.503472222222,
-          "Jahr": 2023
+          "Wert": 1881.782758620689,
+          "Jahr": 2024
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.097222222222,
-          "Jahr": 2023
+          "Wert": 0.096551724137,
+          "Jahr": 2024
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
           "Wert": 0.079,
-          "Jahr": 2023
+          "Jahr": 2024
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 9,
-          "Wert": 71.101967,
-          "Jahr": 2023
+          "y": 5,
+          "Wert": 68.982485,
+          "Jahr": 2024
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 12,
-          "Wert": 43.799128,
-          "Jahr": 2023
+          "Wert": 43.74074,
+          "Jahr": 2024
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 11,
-          "Wert": 1339,
-          "Jahr": 2021
+          "Wert": 1224,
+          "Jahr": 2022
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 11,
-          "Wert": 9097,
-          "Jahr": 2021
+          "y": 12,
+          "Wert": 9722,
+          "Jahr": 2022
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 20,
-          "Wert": 0.8067397,
-          "Jahr": "2018-2022"
+          "y": 19,
+          "Wert": 0.7848757,
+          "Jahr": "2019-2023"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 16,
-          "Wert": 1.8234557,
-          "Jahr": 2021
+          "Wert": 1.6487677,
+          "Jahr": 2022
+        },
+        {
+          "name": "Arbeitslosenquote",
+          "Wohnviertel": "Altstadt Kleinbasel",
+          "y": 14,
+          "Wert": 0.041,
+          "Jahr": 2024
         }
       ],
       "name": "jahr_char",
@@ -134,8 +141,8 @@
       },
       "useHTML": false,
       "formatter": function () {
-					return (this.value + "").replace(/&nbsp;/g, "\u00A0");
-				}
+          return (this.value + "").replace(/&nbsp;/g, "\u00A0");
+        }
     },
     "tickLength": 0,
     "tickmarkPlacement": "on",
@@ -146,39 +153,44 @@
   "chart": {
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-					//draw spider backgrounds
-					//colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199
-					var top = -Math.PI / 2; 
-					//var top = -Math.PI / 2.3; wenn Farbtrennung nicht in der Mitte sein soll. 
-					var endPurple = top + 2 * Math.PI / 16 * 7;
-					var endGreen = endPurple + 2 * Math.PI / 16 * 5;
-					var endBlue = top;
-					//var centerX = 247;
-					var centerX = 247.5;
-					//var centerY = 212.5;
-					var centerY = 207;
-					var radius = 142;
-					//var radius = 136;
-					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
-						fill: '#923F8D',
-						stroke: '#923F8D',
-						'stroke-width': 0,
-						'fill-opacity': 0.5
-					}).add();
-					this.renderer.arc(centerX, centerY, radius, 0, endPurple, endGreen).attr({
-						fill: '#68AB2B',
-						stroke: '#68AB2B',
-						'stroke-width': 0,
-						'fill-opacity': 0.5
-					}).add();
-					this.renderer.arc(centerX, centerY, radius, 0, endGreen, endBlue).attr({
-						fill: '#689199',
-						stroke: '#689199',
-						'stroke-width': 0,
-						'fill-opacity': 0.5
-					}).add();
-				}
+          this.credits.element.onclick = function () {};
+          //draw spider backgrounds
+          var top = -Math.PI / 2;
+          var endPurple = top + ((2 * Math.PI) / 17) * 7;
+          var endGreen = endPurple + ((2 * Math.PI) / 17) * 5;
+          var endBlue = top;
+          var centerX = 242.5;
+          var centerY = 207;
+          var radius = 142;
+
+          this.renderer
+            .arc(centerX, centerY, radius, 0, top, endPurple)
+            .attr({
+              fill: "#923F8D",
+              stroke: "#923F8D",
+              "stroke-width": 0,
+              "fill-opacity": 0.5,
+            })
+            .add();
+          this.renderer
+            .arc(centerX, centerY, radius, 0, endPurple, endGreen)
+            .attr({
+              fill: "#68AB2B",
+              stroke: "#68AB2B",
+              "stroke-width": 0,
+              "fill-opacity": 0.5,
+            })
+            .add();
+          this.renderer
+            .arc(centerX, centerY, radius, 0, endGreen, endBlue)
+            .attr({
+              fill: "#689199",
+              stroke: "#689199",
+              "stroke-width": 0,
+              "fill-opacity": 0.5,
+            })
+            .add();
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -279,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "legend": {
     "enabled": false,
@@ -289,36 +301,62 @@
     "padding": 0,
     "useHTML": true,
     "formatter": function () {
+        //individual units and numberFormat in tooltips, depending on series name
+        var w,
+          d = undefined,
+          e = "",
+          f = 1,
+          t = " ";
+        switch (this.point.name) {
+          case "Altersquotient":
+          case "Jugendquotient":
+            d = 1;
+            f = 100;
+            break;
+          case "Baujahr&nbsp;Wohngebäude":
+            d = 0;
+            t = "";
+            break;
+          case "Fläche&nbsp;pro&nbsp;Wohnung":
+          case "Wohnfläche&nbsp;pro&nbsp;Kopf":
+            d = 1;
+            e = " m²";
+            break;
+          case "Vermögenssteuer":
+          case "Einkommenssteuer":
+            d = 0;
+            e = " Fr.";
+            break;
+          case "Arbeitsplätze&nbsp;pro&nbsp;Kopf":
+            d = 2;
+            break;
+          case (this.point.name.match(/anteil|quote/i) || {}).input:
+            d = 1;
+            e = "%";
+            f = 100;
+            break;
+        }
+        w = Highcharts.numberFormat(this.point.Wert * f, d, ",", t) + e;
 
-				//individual units and numberFormat in tooltips, depending on series name
-				var w, d = undefined, e = '', f = 1, t = ' ';
-				switch (this.point.name) {
-					case 'Altersquotient':
-					case 'Jugendquotient':
-						d = 1; f = 100; break;
-					case 'Baujahr&nbsp;Wohngebäude':
-						d = 0; t = ''; break;
-					case 'Fläche&nbsp;pro&nbsp;Wohnung':
-					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
-						d = 1; e = ' m²'; break;
-					case 'Vermögenssteuer':
-					case 'Einkommenssteuer':
-						d = 0; e = ' Fr.'; break;
-					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
-						d = 2; break;
-					case (this.point.name.match(/anteil|quote/i) || {}).input:
-						d = 1; e = '%'; f = 100; break;
-				}
-				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
-
-				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
-				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
-				return "" +
-					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
-					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
-					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ' ' + this.point.Jahr + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
-					'</div>';
-			}
+        //fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/
+        //replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+        return (
+          "" +
+          '<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+          '<span style="font-size: 10px">' +
+          this.point.Wohnviertel +
+          "</span><br/>" +
+          this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") +
+          " " +
+          this.point.Jahr +
+          ": <b>" +
+          w +
+          " </b> (Rang <b>" +
+          this.point.y +
+          "</b>)<br/>" +
+          "</div>"
+        );
+      }
   },
   "exporting": {
     "allowHTML": false,

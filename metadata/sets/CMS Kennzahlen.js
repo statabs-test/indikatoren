@@ -1,5 +1,81 @@
 var indikatorensetData = [
 	{
+		"template": "template001",
+		"data-id": 10040,
+		"chart-id": 4722,
+		"filter": "",
+		"parentId": "4722",
+		"children": [],
+		"title": "Einbürgerungen und Einbürgerungsziffer",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2024 erwarben 1 330 Personen das Schweizer Bürgerrecht. Dies entspricht einer Einbürgerungsziffer von 16,6.",
+		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 ausländische Staatsangehörige am Jahresende. Ausländische Staatsangehörige, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene ausländische Staatsangehörige der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (beispielsweise infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Einbürgerungen und Einbürgerungsziffer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Einbürgerungen",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen",
+		"kuerzelKunde": "2.1.3",
+		"stufe1": "Zusammenhalt",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_01_00_00_00_404",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-02T10:25:23",
+		"id": 10040
+	},
+	{
+		"template": "template001",
+		"data-id": 10041,
+		"chart-id": 6215,
+		"filter": "",
+		"parentId": "6215",
+		"children": [],
+		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen",
+		"kuerzelKunde": "2.1.4",
+		"stufe1": "Zusammenhalt",
+		"stufe2": "2.1 Kulturelles Erbe und Identitäten",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_01_00_00_00_405",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-08-06T07:44:19",
+		"id": 10041
+	},
+	{
 		"template": "line001",
 		"data-id": 10049,
 		"chart-id": 9390,
@@ -77,5 +153,42 @@ var indikatorensetData = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2024-11-04T04:06:59",
 		"id": 10265
+	},
+	{
+		"template": "line001",
+		"data-id": 8252,
+		"chart-id": 8252,
+		"filter": "",
+		"parentId": "2424",
+		"children": [],
+		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosenquote der ausländischen Männer ist stark von saisonalen Schwankungen geprägt. Sie ist von 5,2% im September auf 6,4% im Dezember 2024 gestiegen. Bei den ausländischen Frauen ist die Quote zum Jahresende 2024 auf 5,1% gestiegen.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Abgebildet sind Monatswerte.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen",
+		"kuerzelKunde": "1.1.7",
+		"stufe1": "Leben",
+		"stufe2": "1.1 Armut",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_108",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-09-02T10:25:18",
+		"id": 8252
 	}
 ];

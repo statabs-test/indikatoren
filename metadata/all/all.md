@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | true | true | 
+4374 | false |  | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
@@ -235,7 +235,7 @@ id | visible | visibleInPortal | indikatorenset
 4836 | true | true | Wohnviertel
 4837 | true | true | Wohnviertel
 4838 | true | true | Wohnviertel
-4839 | false |  | Wohnviertel
+4839 | true | true | Wohnviertel
 4848 | true | true | Gesellschaftlicher-Zusammenhalt
 4849 | true | true | Gesellschaftlicher-Zusammenhalt
 4850 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -305,7 +305,7 @@ id | visible | visibleInPortal | indikatorenset
 5123 | true | false | Wohnviertel
 5124 | true | false | Wohnviertel
 5125 | true | false | Wohnviertel
-5126 | false |  | Wohnviertel
+5126 | true | false | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
 5138 | true | false | Nachhaltigkeit
@@ -929,18 +929,18 @@ id | visible | visibleInPortal | indikatorenset
 6897 | true | true | Steuern
 6898 | true | true | Steuern
 6899 | true | true | Steuern
-6900 | true | true | Steuern
+6900 | false |  | Steuern
 6901 | true | true | Steuern
 6902 | true | true | Steuern
-6903 | true | true | Steuern
+6903 | false |  | Steuern
 6904 | true | true | Steuern
 6905 | true | true | Steuern
-6906 | true | true | Steuern
+6906 | false |  | Steuern
 6907 | true | true | Steuern
 6908 | true | true | Steuern
 6909 | true | true | Steuern
 6910 | true | true | Steuern
-6911 | true | true | Steuern
+6911 | false |  | Steuern
 6912 | true | true | Steuern
 6915 | true | true | Wohnviertel
 6916 | true | true | Wohnviertel
@@ -1003,7 +1003,7 @@ id | visible | visibleInPortal | indikatorenset
 6975 | true | true | Wohnviertel
 6976 | true | true | Wohnviertel
 6979 | true | true | 
-6980 | true | true | Steuern
+6980 | false |  | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern
 6983 | true | true | Steuern
@@ -1257,8 +1257,8 @@ id | visible | visibleInPortal | indikatorenset
 7742 | true | true | Bevoelkerungsszenarien
 7743 | true | true | Bevoelkerungsszenarien
 7744 | true | true | Bevoelkerungsszenarien
-7745 | true | false | 
-7746 | true | false | 
+7745 | false |  | 
+7746 | false |  | 
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
@@ -1390,7 +1390,7 @@ id | visible | visibleInPortal | indikatorenset
 8079 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8080 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8081 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
-8082 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8082 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8085 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8086 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8087 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
@@ -1430,7 +1430,7 @@ id | visible | visibleInPortal | indikatorenset
 8249 | false |  | CMS Kennzahlen Soziales
 8250 | false |  | CMS Kennzahlen Soziales
 8251 | true | false | CMS Kennzahlen Soziales
-8252 | true | false | CMS Kennzahlen Soziales
+8252 | true | false | CMS Kennzahlen
 8253 | false |  | CMS Kennzahlen Soziales
 8254 | false |  | CMS Kennzahlen Soziales
 8255 | true | false | CMS Kennzahlen Soziales
@@ -1503,7 +1503,7 @@ id | visible | visibleInPortal | indikatorenset
 8352 | true | true | Wirtschaftsbericht BS_BL_JU
 8353 | true | true | Wirtschaftsbericht BS_BL_JU
 8354 | true | true | Wirtschaftsbericht BS_BL_JU
-8355 | true | true | Wirtschaftsbericht BS_BL_JU
+8355 | true | false | Wirtschaftsbericht BS_BL_JU
 8356 | true | true | Wirtschaftsbericht BS_BL_JU
 8357 | true | true | Wirtschaftsbericht BS_BL_JU
 8358 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -2068,7 +2068,7 @@ id | visible | visibleInPortal | indikatorenset
 9346 | true | true | 
 9359 | true | false | 
 9360 | true | false | 
-9361 | true | false | Legislaturplan
+9361 | true | true | Legislaturplan
 9363 | true | false | Legislaturplan
 9365 | true | false | Legislaturplan
 9366 | true | true | Legislaturplan
@@ -2311,8 +2311,8 @@ id | visible | visibleInPortal | indikatorenset
 10037 | true | false | CMS Kennzahlen Soziales
 10038 | true | false | CMS Kennzahlen Soziales
 10039 | true | false | CMS Kennzahlen Soziales
-10040 | true | false | CMS Kennzahlen Soziales
-10041 | true | false | CMS Kennzahlen Soziales
+10040 | true | false | CMS Kennzahlen
+10041 | true | false | CMS Kennzahlen
 10043 | false |  | CMS Kennzahlen Soziales
 10044 | true | false | CMS Kennzahlen Soziales
 10045 | true | false | CMS Kennzahlen Soziales
@@ -2459,7 +2459,7 @@ id | visible | visibleInPortal | indikatorenset
 12719 | true | true | Stadtteilmonitoring St. Johann
 12720 | true | true | Stadtteilmonitoring St. Johann
 12721 | true | true | Stadtteilmonitoring St. Johann
-12722 | true | false | 
+12722 | true | true | 
 12727 | true | true | Gesundheitsversorgung
 12730 | true | true | Gesundheitsversorgung
 12732 | true | true | Gesundheitsversorgung
@@ -2470,6 +2470,47 @@ id | visible | visibleInPortal | indikatorenset
 12737 | true | true | Gesundheitsversorgung
 21847 | true | true | 
 22143 | true | false | Legislaturplan (Print)
+22288 | true | true | Wohnraumschutz
+22289 | true | true | Wohnraumschutz
+22290 | true | true | Wohnraumschutz
 22291 | true | true | Wohnraumschutz
+22292 | true | true | Wohnraumschutz
+22293 | true | true | Wohnraumschutz
+22294 | true | false | Wohnraumschutz
+22295 | true | true | Wohnraumschutz
+22296 | true | true | Wohnraumschutz
+22297 | true | true | Wohnraumschutz
+22298 | true | true | Wohnraumschutz
+22299 | true | false | Wohnraumschutz
+22300 | true | false | Wohnraumschutz
+22301 | true | true | Wohnraumschutz
+22305 | true | false | Richtplan (Print)
+22306 | true | false | Richtplan (Print)
+22307 | true | false | Richtplan (Print)
+22308 | true | false | Richtplan (Print)
+22309 | true | false | Richtplan (Print)
+22311 | true | false | Richtplan (Print)
+22312 | true | false | Richtplan (Print)
+22313 | true | false | Richtplan (Print)
+22314 | true | false | Richtplan (Print)
+22315 | true | false | Richtplan (Print)
+22316 | true | false | Richtplan (Print)
+22317 | true | false | Richtplan (Print)
+22318 | true | false | Richtplan (Print)
+22319 | true | false | Richtplan (Print)
+22320 | true | false | Richtplan (Print)
+22321 | true | false | Richtplan (Print)
+22322 | true | false | Richtplan (Print)
+22323 | true | false | Richtplan (Print)
+22324 | true | false | Richtplan (Print)
+22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt
+22357 | true | true | Steuern
+22358 | true | true | Steuern
+22359 | true | true | Steuern
+22421 | true | true | Steuern
+22422 | true | true | Steuern
+22423 | true | true | Steuern
+22424 | true | true | Steuern
+22425 | true | true | Steuern

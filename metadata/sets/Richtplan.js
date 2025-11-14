@@ -472,10 +472,12 @@ var indikatorensetData = [
 		"chart-id": 11912,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22318
+		],
 		"title": "Kantonale Unterschutzstellungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "0,2% der Kantonsfläche galten 2021 als geschützte Flächen.",
+		"lesehilfe": "4,47% der Kantonsfläche galten 2024 als geschützte Flächen.",
 		"erlaeuterungen": "Zu den kantonalen Unterschutzstellungen werden Naturschutzgebiete (inkl. Waldreservate) mit effektivem Flächenschutz (grundeigentümerverbindlicher Schutz oder Schutz durch Vertrag mit dem Eigentümer) gezählt. Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -487,7 +489,7 @@ var indikatorensetData = [
 		],
 		"description": "Kantonale Unterschutzstellungen",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 11-1",
@@ -500,7 +502,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:06",
+		"aktualisierungsdatum": "2025-09-02T10:25:44",
 		"id": 11912
 	},
 	{
@@ -509,10 +511,12 @@ var indikatorensetData = [
 		"chart-id": 11914,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22319
+		],
 		"title": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2021 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 20,13% Biodiversitätsförderflächen.",
+		"lesehilfe": "2024 sind von der gesamten Landwirtschaftlichen Nutzfläche im Kanton Basel-Stadt 21,05% Biodiversitätsförderflächen.",
 		"erlaeuterungen": "Anteil der Biodiversitätsförderflächen (BFF) an der gesamten Landwirtschaftlichen Nutzfäche (LN). Qualitative Veränderungen der geschützten Gebiete werden durch den Indikator nicht abgebildet. Die Biodiversitätsförderflächen dienen dem Erhalt und der Förderung der Arten und der ökologisch wertvollen Lebensräume.",
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
@@ -524,7 +528,7 @@ var indikatorensetData = [
 		],
 		"description": "Biodiversitätsförderflächen in der Landwirtschaft",
 		"thema": "07 Landwirtschaft",
-		"unterthema": "",
+		"unterthema": "Biodiversität",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
 		"kuerzelKunde": "ST 11-2",
@@ -537,7 +541,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:06",
+		"aktualisierungsdatum": "2025-08-11T03:06:11",
 		"id": 11914
 	},
 	{
@@ -700,10 +704,12 @@ var indikatorensetData = [
 		"chart-id": 12564,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22324
+		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2013 und 2022 von 188 491 auf 199 737.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2014 und 2023 von 191 155 auf 199 745.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -728,7 +734,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:10",
+		"aktualisierungsdatum": "2025-09-03T02:46:36",
 		"id": 12564
 	},
 	{
@@ -863,7 +869,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote liegt 2024 bei 0,77%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022). Seit 2023 sinkt sie wieder.",
+		"lesehilfe": "Die Leerwohnungsquote liegt 2025 bei 0,92%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -888,7 +894,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:21",
+		"aktualisierungsdatum": "2025-08-22T08:39:08",
 		"id": 5813
 	},
 	{
@@ -901,8 +907,8 @@ var indikatorensetData = [
 			6246
 		],
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2024",
-		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2024 im Wohnviertel Altstadt Grossbasel verzeichnet (1,3%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Altstadt Grossbasel am grössten (von 0,1% auf 1,3%).",
+		"subtitle": "Basel-Stadt, 2025",
+		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2025 im Wohnviertel Vorstädte verzeichnet (2,5%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Vorstädte am grössten (von 0,5% auf 2,5%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -927,7 +933,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:22",
+		"aktualisierungsdatum": "2025-08-22T08:39:09",
 		"id": 5814
 	},
 	{
@@ -1215,7 +1221,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 44 Beschäftigte (2013: rund 40 Beschäftigte).",
+		"lesehilfe": "Im Jahr 2023 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 43 Beschäftigte (2014: rund 41 Beschäftigte).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1240,7 +1246,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:11",
+		"aktualisierungsdatum": "2025-09-03T02:46:38",
 		"id": 5823
 	},
 	{
@@ -1334,8 +1340,8 @@ var indikatorensetData = [
 			6257
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2013 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2013 und 2022 um 4,7% gestiegen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 6,0%.",
+		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2014 und 2023 um 5,0% gestiegen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 4,5%.",
 		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1361,7 +1367,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:09",
+		"aktualisierungsdatum": "2025-09-03T02:46:35",
 		"id": 5901
 	},
 	{
@@ -1456,9 +1462,9 @@ var indikatorensetData = [
 			10041
 		],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2024",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 206 308 am Ende des Jahres 2023 um 9,2% auf rund 225 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2024. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -1484,7 +1490,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-15T08:15:39",
+		"aktualisierungsdatum": "2025-07-15T09:02:18",
 		"id": 6215
 	},
 	{
@@ -1535,7 +1541,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 beträgt die leerstehende Fläche insgesamt 249 200 m², 58 600 m²  mehr als im Vorjahr. Die Büroflächen machen mit 175 100 m² rund 70% der leerstehenden Geschäftsflächen aus.",
+		"lesehilfe": "Im Jahr 2025 beträgt die leerstehende Fläche insgesamt 200 400 m², 48 800 m²  weniger als im Vorjahr. Die Büroflächen machen mit 132 700 m² rund zwei Drittel der leerstehenden Geschäftsflächen aus.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -1560,7 +1566,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-08-16T09:26:24",
+		"aktualisierungsdatum": "2025-08-22T08:39:10",
 		"id": 6217
 	},
 	{
@@ -1658,7 +1664,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 sind in Basel-Stadt 199 737 Personen beschäftigt. Das sind 6 735 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit 19,8% im Vergleich zum Vorjahr, während die Branche «Übriges verarbeitendes Gewerbe» mit -2,4% als einzige Branche eine Beschäftigungsabnahme aufweist.",
+		"lesehilfe": "Im Jahr 2023 sind in Basel-Stadt 199 745 Personen beschäftigt. Das sind 8 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branche «Übriges verarbeitendes Gewerbe» mit +4,0% im Vergleich zum Vorjahr, während die Branche «Unternehmensdienstleistungen und Freiberufe» mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1683,7 +1689,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-30T12:46:28",
+		"aktualisierungsdatum": "2025-09-12T11:18:36",
 		"id": 6236
 	},
 	{
@@ -1861,7 +1867,7 @@ var indikatorensetData = [
 		],
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Nach einem leichten Anstieg beim Eingang auf der Strasse im Jahr 2022 gab es 2023 wieder einen Rückgang.",
+		"lesehilfe": "Nachdem der Transit durch die Region Basel auf der Strasse seit 2010 kontinuierlich abgenommen hat, ist er 2024 leicht gestiegen.",
 		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -1886,7 +1892,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:27",
+		"aktualisierungsdatum": "2025-11-13T08:47:19",
 		"id": 7778
 	},
 	{
@@ -1942,8 +1948,8 @@ var indikatorensetData = [
 			8423
 		],
 		"title": "Mietpreisindex Basel-Stadt",
-		"subtitle": "Indexwert (Basis 2000 = 100)",
-		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis 2000 = 100).",
+		"subtitle": "Indexwert (Basis Mai 2000 = 100)",
+		"lesehilfe": "Mit Ausnahme von 1997 ist der Basler Mietpreisindex zwischen 1995 und 2024 von Jahr zu Jahr gestiegen. Aktuell steht er im November 2024 bei 138,2 Punkten (Basis Mai 2000 = 100).",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -1968,7 +1974,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-06T09:57:42",
+		"aktualisierungsdatum": "2025-07-24T08:40:39",
 		"id": 7782
 	},
 	{

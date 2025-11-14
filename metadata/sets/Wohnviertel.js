@@ -512,8 +512,8 @@ var indikatorensetData = [
 			5122
 		],
 		"title": "Vermögenssteuer in Franken  pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
-		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Kleinhüningen ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -540,7 +540,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-24T04:32:47",
+		"aktualisierungsdatum": "2025-10-10T09:02:48",
 		"id": 4835
 	},
 	{
@@ -553,7 +553,7 @@ var indikatorensetData = [
 			5123
 		],
 		"title": "Einkommenssteuer in Franken pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
 		"lesehilfe": "Im Durchschnitt zahlen die Einwohner des Wohnviertels Vorstädte die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
 		"quellenangabe": [
@@ -581,7 +581,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-24T04:32:48",
+		"aktualisierungsdatum": "2025-10-10T09:02:50",
 		"id": 4836
 	},
 	{
@@ -635,8 +635,8 @@ var indikatorensetData = [
 			5125
 		],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Bruderholz gibt es 2022 die wenigsten Arbeitsplätze pro Kopf (0,13) und im Wohnviertel Vorstädte die meisten (4,61).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "In den Wohnvierteln Breite und Bruderholz gibt es 2023 die wenigsten Arbeitsplätze pro Kopf (0,12) und im Wohnviertel Vorstädte die meisten (4,78).",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -663,8 +663,48 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:12",
+		"aktualisierungsdatum": "2025-09-12T11:18:37",
 		"id": 4838
+	},
+	{
+		"template": "dotplot",
+		"data-id": 4839,
+		"chart-id": 4839,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5126
+		],
+		"title": "Arbeitslosenquote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet die niedrigste Arbeitslosenquote, das Wohnviertel Kleinhüningen die höchste.",
+		"erlaeuterungen": "Anteil der als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, im Jahresdurchschnitt 2024. Erwerbspersonen aus der Strukturerhebung vom BFS, Pooling 2021-2023. Riehen und Bettingen haben den gleichen Wert, weil die Ergebnisse für Bettingen aufgrund zu weniger Beobachtungen in der Strukturerhebung allein nicht aussagekräftig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Arbeitslosenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.04839",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-5.A",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_018",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-10-28T10:24:57",
+		"id": 4839
 	},
 	{
 		"template": "map001",
@@ -1143,8 +1183,8 @@ var indikatorensetData = [
 		"parentId": "4835",
 		"children": [],
 		"title": "Vermögenssteuer in Franken  pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
-		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner im Wohnviertel Vorstädte die höchsten Vermögenssteuern pro Veranlagung. Im Wohnviertel Kleinhüningen ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -1171,7 +1211,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-24T04:32:48",
+		"aktualisierungsdatum": "2025-10-13T12:35:25",
 		"id": 5122
 	},
 	{
@@ -1182,7 +1222,7 @@ var indikatorensetData = [
 		"parentId": "4836",
 		"children": [],
 		"title": "Einkommenssteuer in Franken pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2021",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
 		"lesehilfe": "Im Durchschnitt zahlen die Einwohner des Wohnviertels Vorstädte die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist der Wert am niedrigsten.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
 		"quellenangabe": [
@@ -1210,7 +1250,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-24T04:32:49",
+		"aktualisierungsdatum": "2025-10-13T12:35:26",
 		"id": 5123
 	},
 	{
@@ -1260,8 +1300,8 @@ var indikatorensetData = [
 		"parentId": "4838",
 		"children": [],
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2022",
-		"lesehilfe": "Im Wohnviertel Bruderholz gibt es 2022 die wenigsten Arbeitsplätze pro Kopf (0,13) und im Wohnviertel Vorstädte die meisten (4,61).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2023",
+		"lesehilfe": "In den Wohnvierteln Breite und Bruderholz gibt es 2023 die wenigsten Arbeitsplätze pro Kopf (0,12) und im Wohnviertel Vorstädte die meisten (4,78).",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1288,8 +1328,46 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:13",
+		"aktualisierungsdatum": "2025-09-12T11:18:38",
 		"id": 5125
+	},
+	{
+		"template": "map001",
+		"data-id": 5126,
+		"chart-id": 5126,
+		"filter": "",
+		"parentId": "4839",
+		"children": [],
+		"title": "Arbeitslosenquote",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2024",
+		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet die niedrigste Arbeitslosenquote, das Wohnviertel Kleinhüningen die höchste.",
+		"erlaeuterungen": "Anteil der als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, im Jahresdurchschnitt 2024. Erwerbspersonen aus der Strukturerhebung vom BFS, Pooling 2021-2023. Riehen und Bettingen haben den gleichen Wert, weil die Ergebnisse für Bettingen aufgrund zu weniger Beobachtungen in der Strukturerhebung allein nicht aussagekräftig sind.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Arbeitslosenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.05126",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-5.B",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_018",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2025-10-28T10:25:01",
+		"id": 5126
 	},
 	{
 		"template": "spider001",
@@ -1325,7 +1403,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:34",
+		"aktualisierungsdatum": "2025-11-13T08:46:42",
 		"id": 6630
 	},
 	{
@@ -1362,7 +1440,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:36",
+		"aktualisierungsdatum": "2025-11-13T08:46:43",
 		"id": 6631
 	},
 	{
@@ -1374,7 +1452,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Am Ring - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
+		"lesehilfe": "Im Wohnviertel Am Ring liegt die Gymnasialquote im mittleren Bereich. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist die zweithöchste im Kanton.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1399,7 +1477,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:37",
+		"aktualisierungsdatum": "2025-11-13T08:46:45",
 		"id": 6632
 	},
 	{
@@ -1411,7 +1489,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Breite - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es relativ wenige, und die Wohnungen sind eher klein. Ausserdem verfügt das Wohnviertel über relativ wenig Arbeitsplätze pro Kopf.",
+		"lesehilfe": "Beim Wohnviertel Breite sticht der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor, ebenso der Anteil Grünflächen und das mittlere Baujahr der Gebäude. Einfamilienhäuser gibt es relativ wenige, und die Wohnungen sind eher klein. Ausserdem verfügt das Wohnviertel über die wenigsten Arbeitsplätze pro Kopf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf\" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1436,7 +1514,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:38",
+		"aktualisierungsdatum": "2025-11-13T08:46:47",
 		"id": 6633
 	},
 	{
@@ -1448,7 +1526,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "St. Alban - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel St. Alban sticht der Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen und die Wohnfläche pro Kopf sind überdurchschnittlich gross. Ausserdem zeichnet sich das Wohnviertel durch einen hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls relativ hoch sind die Werte der Einkommens- und Vermögenssteuer.",
+		"lesehilfe": "Im Wohnviertel St. Alban stechen der Alters- und Jugendquotient etwas hervor. Die Wohnungen und die Wohnfläche pro Kopf sind überdurchschnittlich gross. Ausserdem zeichnet sich das Wohnviertel durch einen hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls relativ hoch sind die Werte der Einkommens- und Vermögenssteuer.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf\" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1473,7 +1551,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:39",
+		"aktualisierungsdatum": "2025-11-13T08:46:49",
 		"id": 6634
 	},
 	{
@@ -1510,7 +1588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:40",
+		"aktualisierungsdatum": "2025-11-13T08:46:50",
 		"id": 6635
 	},
 	{
@@ -1522,7 +1600,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bruderholz - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel Bruderholz hat einen relativ geringen Anteil Ausländer und Sozialhilfeempfänger. Die Sesshaftigkeit und die Gymnasialquote verzeichnen die höchsten Werte im ganzen Kanton. Der Alters- und Jugendquotient sind ebenfalls vergleichsweise hoch. Der Anteil Grünflächen ist gross, und es gibt viele Einfamilienhäuser sowie grosse Wohnungen. Ausserdem zählen die Erträge aus Vermögens- und Einkommenssteuer zu den höchsten im ganzen Kanton.",
+		"lesehilfe": "Das Wohnviertel Bruderholz hat einen geringen Anteil Ausländer und Sozialhilfeempfänger. Die Sesshaftigkeit ist ausgeprägt. Der Alters- und Jugendquotient sind ebenfalls vergleichsweise hoch. Der Anteil Grünflächen ist gross, und es gibt viele Einfamilienhäuser sowie grosse Wohnungen. Ausserdem zählen die Erträge aus Vermögens- und Einkommenssteuer zu den höchsten im ganzen Kanton.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1547,7 +1625,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:40",
+		"aktualisierungsdatum": "2025-11-13T08:46:52",
 		"id": 6636
 	},
 	{
@@ -1559,7 +1637,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Bachletten - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel Bachletten hat den geringsten Ausländeranteil. Die Sesshaftigkeit ist stark ausgeprägt und die Gymnasialquote ist relativ hoch. Das Wohnviertel hat einen relativ hohen Anteil an Einfamilienhäusern und Grünflächen. Ausserdem ist die Erwerbstätigenquote im Wohnviertel relativ hoch.",
+		"lesehilfe": "Im Wohnviertel Bachletten ist der Ausländeranteil am tiefsten, die Sesshaftigkeit stark ausgeprägt und die Gymnasialquote hoch. Das Wohnviertel hat einen relativ hohen Anteil Einfamilienhäuser und Grünflächen. Ausserdem liegt die Erwerbstätigenquote im Wohnviertel im oberen Drittel.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1584,7 +1662,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:41",
+		"aktualisierungsdatum": "2025-11-13T08:46:54",
 		"id": 6637
 	},
 	{
@@ -1596,7 +1674,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Gotthelf - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel Gotthelf stechen der Anteil Personen, die in Einpersonenhaushalten leben, etwas hervor. Die Gymnasialquote, die Sesshaftigkeit und der Altersquotient liegen im oberen Drittel. Das Wohnviertel verfügt über einen relativ grossen Anteil Einfamilienhäuser sowie eine alte Bausubstanz. Die Erträge aus der Vermögenssteuer liegen im oberen Drittel.",
+		"lesehilfe": "Beim Wohnviertel Gotthelf liegt der Anteil Personen, die in Einpersonenhaushalten leben, im oberen Drittel. Das trifft auch auf die Gymnasialquote, die Sesshaftigkeit und den Altersquotienten zu. Das Wohnviertel verfügt über einen relativ grossen Anteil Einfamilienhäuser sowie eine alte Bausubstanz. Die Erträge aus der Vermögenssteuer liegen im oberen Drittel.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1621,7 +1699,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:42",
+		"aktualisierungsdatum": "2025-11-13T08:46:56",
 		"id": 6638
 	},
 	{
@@ -1633,7 +1711,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Iselin - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Iselin sticht der relativ hohe Anteil Sozialhilfeempfänger hervor. Der Anteil Grünflächen ist ausgeprägt. Die durchschnittliche Fläche pro Wohnung gehört zu den kleinsten im Kanton. Ausserdem verfügt das Wohnviertel über wenige Arbeitsplätze pro Kopf sowie vergleichsweise geringe Erträge aus Vermögens- und Einkommenssteuern.",
+		"lesehilfe": "Im Wohnviertel Iselin sticht der relativ hohe Anteil Sozialhilfeempfänger hervor. Der Anteil Grünflächen ist ausgeprägt. Die durchschnittliche Fläche pro Wohnung gehört zu den kleinsten im Kanton. Ausserdem verfügt das Wohnviertel über wenige Arbeitsplätze pro Kopf sowie vergleichsweise geringe Erträge aus Vermögens- und Einkommenssteuern.Die Arbeitslosenquote liegt im oberen Drittel.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1658,7 +1736,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:43",
+		"aktualisierungsdatum": "2025-11-13T08:46:58",
 		"id": 6639
 	},
 	{
@@ -1672,7 +1750,7 @@ var indikatorensetData = [
 		],
 		"title": "St. Johann - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist niedrig. Die Wohnfläche pro Kopf ist vergleichsweise gering. Die Anzahl Arbeitsplätze pro Kopf liegt im oberen Drittel, die Erwerbstätigenquote im mittleren Drittel.",
+		"lesehilfe": "Das Wohnviertel St. Johann verzeichnet einen relativ hohen Anteil Sozialhilfeempfänger und Ausländer. Der Altersquotient ist niedrig. Die Wohnfläche pro Kopf ist vergleichsweise gering. Die Anzahl Arbeitsplätze pro Kopf liegt im oberen Drittel, die Erwerbstätigenquote im mittleren Drittel.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1697,7 +1775,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:44",
+		"aktualisierungsdatum": "2025-11-13T08:46:59",
 		"id": 6640
 	},
 	{
@@ -1709,7 +1787,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Altstadt Kleinbasel - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Kleinbasel hat den grössten Anteil an Personen, die in Einpersonenhaushalten wohnen. Der Jugendquotient ist der niedrigste im ganzen Kanton. Die Bausubstanz ist sehr alt und der Anteil Grünflächen eher gering. Ausserdem verfügt das Wohnviertel über eine relativ hohe Erwerbstätigenquote und viele Arbeitsplätze pro Kopf.",
+		"lesehilfe": "Das Wohnviertel Altstadt Kleinbasel weist den grössten Anteil an Personen in Einpersonenhaushalten auf. Der Jugendquotient ist der niedrigste im ganzen Kanton. Die Bausubstanz ist sehr alt und der Anteil Grünflächen eher gering. Ausserdem verfügt das Wohnviertel über eine relativ hohe Erwerbstätigenquote und viele Arbeitsplätze pro Kopf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1734,7 +1812,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:45",
+		"aktualisierungsdatum": "2025-11-13T08:47:01",
 		"id": 6641
 	},
 	{
@@ -1746,7 +1824,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Clara - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel Clara verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Die Gymnasialquote und der Jugendquotient sind niedrig. Der Anteil an Einfamilienhäusern ist der geringste im ganzen Kanton. Die Erwerbstätigenquote und die Anzahl Arbeitsplätze pro Einwohner liegen im mittleren Bereich.",
+		"lesehilfe": "Das Wohnviertel Clara verzeichnet einen relativ hohen Anteil Ausländer und Personen in Einpersonenhaushalten. Die Gymnasialquote und der Jugendquotient sind niedrig. Der Anteil Einfamilienhäuser ist der tiefste im ganzen Kanton. Die Erwerbstätigenquote und die Anzahl Arbeitsplätze pro Einwohner liegen im mittleren Bereich.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1771,7 +1849,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:46",
+		"aktualisierungsdatum": "2025-11-13T08:47:03",
 		"id": 6751
 	},
 	{
@@ -1783,7 +1861,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wettstein - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Wettstein ist die Gymnasialquote relativ hoch. Der Alters- und Jugendquotient sind dagegen niedrig. Die Wohnungen sind im Durchschnitt relativ gross. Ausserdem verzeichnet das Wohnviertel einen hohen Anteil Arbeitsplätze pro Kopf sowie die höchste Erwerbstätigenquote im Kanton.",
+		"lesehilfe": "Das Wohnviertel Wettstein hat die höchste Gymnasialquote im Kanton. Der Alters- und Jugendquotient sind niedrig und die Wohnungen im Durchschnitt relativ gross. Ausserdem verzeichnet das Wohnviertel einen hohen Anteil Arbeitsplätze pro Kopf sowie die höchste Erwerbstätigenquote im Kantonsgebiet. Die Arbeitslosenquote ist gering.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1808,7 +1886,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:46",
+		"aktualisierungsdatum": "2025-11-13T08:47:05",
 		"id": 6752
 	},
 	{
@@ -1820,7 +1898,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hirzbrunnen - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit vergleichsweise ausgeprägt. Der Jugend- und der Altersquotient zählen zu den höchsten Werten im Kanton. Dagegen leben relativ wenige Personen in Einpersonenhaushalten, und auch der Ausländeranteil ist gering. Das Wohnviertel zeichnet sich durch einen hohen Anteil an Grünflächen und Einfamilienhäusern aus. Der Anteil Arbeitsplätze pro Kopf und die Steuererträge liegen im unteren Mittelfeld.",
+		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit vergleichsweise ausgeprägt. Der Jugend- und der Altersquotient zählen zu den höchsten im Kanton. Relativ wenige Personen leben in Einpersonenhaushalten. Der Ausländeranteil ist tief. Das Wohnviertel zeichnet sich durch einen hohen Anteil Grünflächen und Einfamilienhäuser aus. Der Anteil Arbeitsplätze pro Kopf und die Steuererträge liegen im unteren Mittelfeld.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1845,7 +1923,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:47",
+		"aktualisierungsdatum": "2025-11-13T08:47:06",
 		"id": 6753
 	},
 	{
@@ -1860,7 +1938,7 @@ var indikatorensetData = [
 		],
 		"title": "Rosental - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Die Steuererträge sind vergleichsweise gering.",
+		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Ausländeranteil dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit dem Erlenmatt-Quartier über vergleichsweise viele Neubauten. Die Erträge aus der Vermögenssteuer sind gering.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1885,7 +1963,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:48",
+		"aktualisierungsdatum": "2025-11-13T08:47:08",
 		"id": 6754
 	},
 	{
@@ -1897,7 +1975,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Matthäus - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel Matthäus verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist der zweitniedrigste im Kanton. Die Wohnungen gehören zu den kleinsten im Kantonsgebiet, die Wohnfläche pro Kopf ist ebenso wie der Anteil Einfamilienhäuser vergleichsweise tief. Das Wohnviertel weist wenige Arbeitsplätze pro Kopf und geringe Erträge aus Einkommenssteuer auf.",
+		"lesehilfe": "Das Wohnviertel Matthäus verzeichnet einen relativ hohen Anteil Ausländer und Sozialhilfeempfänger. Der Altersquotient ist der zweitniedrigste im Kanton. Die Wohnungen gehören zu den kleinsten im Kantonsgebiet, die Wohnfläche pro Kopf ist ebenso wie der Anteil Einfamilienhäuser vergleichsweise tief. Das Wohnviertel weist wenige Arbeitsplätze pro Kopf und eine hohe Arbeitslosenquote auf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1922,7 +2000,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:49",
+		"aktualisierungsdatum": "2025-11-13T08:47:10",
 		"id": 6755
 	},
 	{
@@ -1937,7 +2015,7 @@ var indikatorensetData = [
 		],
 		"title": "Klybeck - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet einen sehr hohen Anteil an Sozialhilfeempfängern und an Ausländern. Der Altersquotient und die Gymnasialquote sind niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Steuererträge und eine sehr geringe Erwerbstätigenquote auf.",
+		"lesehilfe": "Das Wohnviertel Klybeck verzeichnet einen sehr hohen Anteil Sozialhilfeempfänger und Ausländer. Der Altersquotient und die Gymnasialquote sind niedrig. Die Wohnungen und die Wohnfläche pro Kopf sind die kleinsten im Kanton. Das Wohnviertel weist die niedrigsten Einkommenssteuererträge und eine sehr tiefe Erwerbstätigenquote auf.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -1962,7 +2040,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:50",
+		"aktualisierungsdatum": "2025-11-13T08:47:12",
 		"id": 6756
 	},
 	{
@@ -1977,7 +2055,7 @@ var indikatorensetData = [
 		],
 		"title": "Kleinhüningen - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der höchste Anteil Sozialhilfeempfänger hervor. Die Gymnasialquote ist die zweitniedrigste im Kanton. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Person ist die zweitkleinste im Kanton. Die Steuererträge und die Erwerbstätigenquote zählen zu den niedrigsten im Kanton. Die Anzahl Arbeitsplätze pro Kopf ist gross.",
+		"lesehilfe": "Beim Wohnviertel Kleinhüningen sticht der höchste Anteil Sozialhilfeempfänger hervor. Die Gymnasialquote ist niedrig. Die Bauten im Wohnviertel sind neueren Datums, die Wohnfläche pro Person ist die zweitkleinste im Kanton. Die Steuererträge und die Erwerbstätigenquote zählen zu den tiefsten. Die Anzahl Arbeitsplätze pro Kopf ist gross.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -2002,7 +2080,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:51",
+		"aktualisierungsdatum": "2025-11-13T08:47:13",
 		"id": 6757
 	},
 	{
@@ -2014,7 +2092,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Riehen - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Der Alters- und der Jugendquotient sowie der Anteil Sesshafte sind in der Gemeinde Riehen stark ausgeprägt. Der Anteil Einpersonenhaushalte dagegen ist vergleichsweise gering. Die Gemeinde verfügt über einen hohen Anteil an Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Die Erträge aus Einkommens- und Vermögenssteuer liegen im oberen Drittel.",
+		"lesehilfe": "Die Gemeinde Riehen hat den höchsten Alters- und Jugendquotienten im Kanton. Der Anteil Einpersonenhaushalte dagegen ist vergleichsweise gering. Die Gemeinde verfügt über einen hohen Anteil an Grünflächen und Einfamilienhäusern sowie grosse Wohnungen und viel Wohnfläche pro Kopf. Im Wohnviertel gibt es wenige Arbeitsplätze. Die Arbeitslosenquote ist niedrig.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\"https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -2039,7 +2117,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:51",
+		"aktualisierungsdatum": "2025-11-13T08:47:15",
 		"id": 6758
 	},
 	{
@@ -2076,7 +2154,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-29T03:12:52",
+		"aktualisierungsdatum": "2025-11-13T08:47:17",
 		"id": 6759
 	},
 	{
