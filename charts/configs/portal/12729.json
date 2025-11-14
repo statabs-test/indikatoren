@@ -1,132 +1,81 @@
 {
   "series": [
     {
+      "index": 0,
       "color": "#68ab2b",
       "data": [
         [
-          2018,
-          447792
-        ],
-        [
-          2019,
-          443141
-        ],
-        [
           2020,
-          513055
+          6.3
         ],
         [
           2021,
-          509853
+          6.44
         ],
         [
           2022,
-          499045
+          6.48
         ],
         [
           2023,
-          524270
+          6.41
         ]
       ],
       "name": "Stadt Basel"
     },
     {
-      "color": "#ffda80",
+      "index": 1,
+      "color": "#006400",
       "data": [
         [
-          2018,
-          57363
-        ],
-        [
-          2019,
-          64314
-        ],
-        [
           2020,
-          58393
+          5.52
         ],
         [
           2021,
-          76850
+          5.71
         ],
         [
           2022,
-          79509
+          5.98
         ],
         [
           2023,
-          70322
+          6.01
         ]
       ],
       "name": "Riehen"
     },
     {
-      "color": "#FF8028",
+      "index": 1,
+      "color": "#010101",
+      "visible": false,
       "data": [
         [
-          2018,
-          1506
-        ],
-        [
-          2019,
-          1185
-        ],
-        [
           2020,
-          2928
+          4.52
         ],
         [
           2021,
-          3381
+          4.77
         ],
         [
           2022,
-          3675
+          5.58
         ],
         [
           2023,
-          3644
+          5.89
         ]
       ],
       "name": "Bettingen"
-    },
-    {
-      "type": "line",
-      "color": "#010101",
-      "data": [
-        [
-          2018,
-          506661
-        ],
-        [
-          2019,
-          508640
-        ],
-        [
-          2020,
-          574376
-        ],
-        [
-          2021,
-          590084
-        ],
-        [
-          2022,
-          582229
-        ],
-        [
-          2023,
-          598236
-        ]
-      ],
-      "name": "Total"
     }
   ],
   "chart": {
-    "type": "column",
+    "type": "line",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 65,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -151,18 +100,17 @@
 					}
 				}
     },
-    "renderTo": "container-12737"
+    "renderTo": "container-12729"
   },
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false
+        "enabled": false,
+        "symbol": "circle"
       },
-      "minPointLength": 3
-    },
-    "column": {
-      "stacking": "normal",
-      "borderWidth": 0
+      "dataLabels": {
+        "enabled": false
+      }
     }
   },
   "title": {
@@ -172,10 +120,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegestunden Spitex nach Gemeinden"
+    "text": "Pflegestufen-Durchschnitt nach Herkunft Bewohnende in Pflegeheimen"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "nach Herkunft der Bewohnenden",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -198,22 +146,31 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    }
+    },
+    "tickInterval": 1
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "black"
-        }
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
       },
-      "title": {
-        "text": ""
-      }
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+      return Highcharts.numberFormat((this.value),0)+'';
     }
-  ],
+    },
+    "tickAmount": 10
+  },
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -221,13 +178,10 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": "none",
-      "whiteSpace": "nowrap"
+      "fontWeight": "normal"
     },
-    "itemWidth": 150,
-    "alignColumns": false,
-    "itemDistance": 10
+    "itemDistance": 8,
+    "itemMarginBottom": 5
   },
   "credits": {
     "enabled": true,
@@ -240,9 +194,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 31.12.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 25.9.2024"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -279,22 +233,12 @@
 			}
   },
   "tooltip": {
-    "shared": true,
-    "useHTML": true,
-    "followPointer": true,
-    "formatter": function () {
-        let header = `<span style="font-size: 10px"> ${this.x} </span><table>`;
-        let body = this.points
-          .filter(point => point.series.index !== 3) // Reihe mit Index 2 ignorieren
-          .map(point => `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>
-          <td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0)} Stunden</b></td>
-          <td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1)}%)</td></tr>`)
-          .join('');
-        let footer = `<tr><td>Total: </td><td><b>${Highcharts.numberFormat(this.points[0].total, 0)} Stunden</b></td><td></td></tr></table>`;
-        return header + body + footer;
-      }
+    "pointFormatter": function(){
+    return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
+  },
+    "shared": false
   },
   "exporting": {
-    "filename": "12737"
+    "filename": "12729"
   }
 }
