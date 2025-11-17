@@ -4923,8 +4923,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Bewertung der Lebensqualität",
 		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Wohnviertel Gundeldingen",
-		"lesehilfe": "Die Lebensqualität wird auf einer Skala von 1 bis 10 im Wohnviertel Gundeldingen mit durchschnittlich 7,9 bewertet. Gegenüber der Bewertung aller Befragten im Kanton gibt es keinen statistisch signifikanten Unterschied. Ebenso ist im Zeitverlauf keine signifikante Entwicklung zu beobachten.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"lesehilfe": "Die Lebensqualität wird auf einer Skala von 1 bis 10 im Wohnviertel Gundeldingen mit durchschnittlich 7,9 bewertet. Gegenüber der Bewertung aller Befragten im Kanton (7,8) gibt es keinen statistisch signifikanten Unterschied. Ebenso ist im Zeitverlauf keine signifikante Entwicklung zu beobachten.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -4961,8 +4961,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?», Anteil Zufriedene, Wohnviertel Gundeldingen",
-		"lesehilfe": "Der Anteil Zufriedener mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild liegt im Wohnviertel Gundeldingen 2023 bei 72,9%. Gegenüber dem kantonalen Wert ergibt sich in keinem Befragungsjahr ein signifikanter Unterschied. Auch wenn eine rückläufige Tendenz der Zufriedenheit zu beobachten ist, ist diese für das Wohnviertel Gundeldingen statistisch nicht signifikant. Auf Kantonsebene lässt sich beobachten, dass die Zufriedenheit in den Jahren 2019 und 2023 tiefer ausfällt als in den beiden Vorjahren.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"lesehilfe": "Der Anteil Zufriedener mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild liegt im Wohnviertel Gundeldingen 2023 bei 72,9%. Gegenüber dem kantonalen Wert ergibt sich in keinem Befragungsjahr ein signifikanter Unterschied. Auch wenn eine rückläufige Tendenz der Zufriedenheit zu beobachten ist, ist diese für das Wohnviertel Gundeldingen statistisch nicht signifikant. Auf Kantonsebene lässt sich beobachten, dass die Zufriedenheit in den Jahren 2019 und 2023 tiefer ausfällt 2011 und 2015.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -5037,7 +5037,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Lebensraum Gundeldingen",
-		"lesehilfe": "Im Jahr 2023 sind im Lebensraum Gundeldingen rund 25500 Personen beschäftigt, was einem Rückgang um rund -800 Personen gegenüber dem Vorjahr entspricht. Rund 12,8% der Beschäftigten im Kanton Basel-Stadt arbeiten im Lebensraum Gundeldingen.",
+		"lesehilfe": "Im Jahr 2023 sind im Lebensraum Gundeldingen rund 25 500 Personen beschäftigt, was einem Rückgang um rund 800 Personen gegenüber dem Vorjahr entspricht. 12,8% der Beschäftigten im Kanton Basel-Stadt arbeiten im Lebensraum Gundeldingen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -5151,8 +5151,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zufriedenheit mit Spielplätzen",
 		"subtitle": "«Wenn Sie an Ihr Quartier denken, wie zufrieden sind Sie dann mit dem Angebot an Kinderspielplätzen?», Anteil Zufriedene, Wohnviertel Gundeldingen",
-		"lesehilfe": "De befragten Familien im Wohnviertel Gundeldingen sind 2022 mit einem Anteil von 87,3% signifikant zufriedener als 2009 (70,2%). Gegenüber dem Kanton ist in keinem Befragungsjahr ein signifikanter Unterschied zu beobachten.",
-		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.",
+		"lesehilfe": "Die befragten Familien im Wohnviertel Gundeldingen sind 2022 mit einem Anteil von 87,3% signifikant zufriedener als 2009 (70,2%). Gegenüber dem Kanton ist in keinem Befragungsjahr ein signifikanter Unterschied zu beobachten.",
+		"erlaeuterungen": "Befragt werden Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Seit 2022 Gewichtung nach höchstem Bildungsabschluss der Eltern (ohne bzw. mit Tertiärabschluss) sowie der Familienform (Eineltern- bzw. Zweielternhaushalte). Die Daten der Befragungen 2013 und 2017 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser beiden Jahre weichen deshalb von früher publizierten ab.<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
@@ -5189,8 +5189,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zufriedenheit mit Grünflächen",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks am Wohnort?», Anteil Zufriedene, Wohnviertel Gundeldingen",
-		"lesehilfe": "Die Zufriedenheit mit Grünanlagen und Parks liegt im Wohnviertel Gundeldingen in allen Befragungsjahren tendenzeill tiefer als im Kanton, wenn auch nicht für alle Jahre statistisch signifikant. In den Befragungsjahren 2011 und 2015 lag der Anteil signifikant tiefer. Im Zeitverlauf ist im Wohnviertel Gundeldingen keine Veränderung beobachtbar. 2023 lag die Zufriedenheit bei 77,4%.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"lesehilfe": "Die Zufriedenheit mit Grünanlagen und Parks liegt im Wohnviertel Gundeldingen in allen Befragungsjahren tendenziell tiefer als im Kanton. Statistisch signifikant tiefer ist der Anteil Zufriedener allerdings nur 2011 und 2015.  Im Beobachtungszeitraum gibt es im Wohnviertel Gundeldingen keine Veränderung. 2023 lag die Zufriedenheit bei 77,4%.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -5227,8 +5227,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zufriedenheit mit der Verkehrssicherheit",
 		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssicherheit?», Anteil Zufriedene, Wohnviertel Gundeldingen",
-		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit ist im Wohnviertel Gundeldingen 2023 zurückgegangen und ist gegenüber 2011 signifikant tiefer. 2023 ist die Zufriedenheit mit der Verkehrssicherheit gegenüber dem Kanton tendenziell tiefer.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit ist im Wohnviertel Gundeldingen 2023 zurückgegangen und gegenüber 2011 signifikant tiefer. 2023 ist die Zufriedenheit mit der Verkehrssicherheit im Wohnviertel Gundeldingen tiefer als im Kanton.",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
@@ -5265,7 +5265,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr Veloverkehr",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 2 692 Velos die Zählstelle am Peter-Merian Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 819.",
+		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 2 692 Velos die Zählstelle am Peter Merian-Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 819.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -5304,7 +5304,7 @@ var indikatoren = [
 		"title": "Zufriedenheit mit dem öffentlichen Verkehr",
 		"subtitle": "«Wie zufrieden sind Sie mit den öffentlichen Verkehrsmitteln?», Anteil Zufriedene, Wohnviertel Gundeldingen",
 		"lesehilfe": "Die Zufriedenheit mit dem öffentlichen Verkehr liegt sowohl im Wohnviertel Gundeldingen als auch im Kanton in allen Befragungsjahren bei über 90%. 2023 sind im Wohnviertel Gundeldingen 95,5% zufrieden.",
-		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).",
+		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
