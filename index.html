@@ -303,15 +303,20 @@
     >
       <div
         id="lightbox-wrapper"
-        class="w-full container max-w-5xl bg-white p-6 mx-4 my-10 rounded-xl flex flex-col relative"
+        class="w-full bg-white p-[20px] mx-4 my-10 rounded-xl flex flex-col relative"
       >
         <!-- Close Button -->
         <button
           id="close-lightbox"
-          class="absolute right-6 top-4 text-black text-4xl"
-          aria-label="Schliessen"
+          class="absolute right-6 top-4 text-black text-sm flex"
+          aria-label="Übersicht"
         >
-          &times;
+          <img
+            class="h-[30px]"
+            src="assets/symbols/arrow-west-simple.svg"
+            alt="Vorherige Seite"
+          />
+          <div class="mt-5 ml-[-5px]">Übersicht</div>
         </button>
 
         <!-- Top Navigation: Prev / Counter / Next -->
@@ -344,7 +349,7 @@
         </div>
 
         <!-- Content Area (wide) -->
-        <div id="lightbox-content" class="w-full"></div>
+        <div id="lightbox-content" class="container"></div>
       </div>
     </div>
 
