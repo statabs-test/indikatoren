@@ -117,13 +117,9 @@
 
     <!-- template for chart plus details -->
     <script id="indikator-template-modal-portal" type="text/html">
-      <div class="item container">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full max-w-[600px]"></div>
-        <h2
-        id="title"
-        class="<%= (hideTitle ? 'hidden' : '') %> text-xl print:!text-xl mb-20 mt-30 md:mt-40  font-bold xl:pr-140">
-        <%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %>
-        </h2>
+      <div class="indikator text-sm leading-relaxed ml-[20px]">
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="mb-20"></div>
+
         <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
           <h3
             id="lesehilfeTitle"
@@ -197,28 +193,12 @@
           var container = $("body");
           container.append(templateFunction(chartMetadata));
           //render chart. if header is hidden, remove left margin in callback
-          lazyRenderChartById(
-            id,
-            chartMetadata,
-            view,
-            true,
-            hideHeader ? removeLeftMargin : undefined
-          );
+          lazyRenderChartById(id, chartMetadata, view, true);
         });
       } else {
         //display error message
         $("body").append(
           '<div class="container"><div class="jumbotron"><h1>Ooops...</h1><p>Kein Chart mit diesem Kürzel bzw. dieser id gefunden.</p></div></div>'
-        );
-      }
-
-      function removeLeftMargin() {
-        //decrease left margin some pixels
-        $(".item h1, div.lesehilfe, .highcharts-container").css(
-          "margin-left",
-          function (index, value) {
-            return parseInt(value, 10) - 40;
-          }
         );
       }
     </script>

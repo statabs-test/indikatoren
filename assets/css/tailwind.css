@@ -2457,6 +2457,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   grid-column: span 4 / span 4;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-\[4px\] {
   margin: 4px;
 }
@@ -2499,8 +2503,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-left: 2px;
 }
 
+.ml-\[-5px\] {
+  margin-left: -5px;
+}
+
 .ml-\[0\.3em\] {
   margin-left: 0.3em;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
 }
 
 .mr-10 {
@@ -2515,8 +2527,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 10px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-5 {
+  margin-top: 5px;
 }
 
 .mt-\[-22px\] {
@@ -2527,24 +2547,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 0.18em;
 }
 
-.mt-5 {
-  margin-top: 5px;
+.ml-10 {
+  margin-left: 10px;
 }
 
-.ml-\[-3px\] {
-  margin-left: -3px;
+.ml-15 {
+  margin-left: 15px;
 }
 
-.ml-\[-20px\] {
-  margin-left: -20px;
-}
-
-.ml-\[-10px\] {
-  margin-left: -10px;
-}
-
-.ml-\[-5px\] {
-  margin-left: -5px;
+.ml-\[10px\] {
+  margin-left: 10px;
 }
 
 .line-clamp-2 {
@@ -2572,10 +2584,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .grid {
   display: grid;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -2610,6 +2618,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 25px;
 }
 
+.h-\[30px\] {
+  height: 30px;
+}
+
 .h-\[40px\] {
   height: 40px;
 }
@@ -2620,10 +2632,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[30px\] {
-  height: 30px;
 }
 
 .max-h-\[90vh\] {
@@ -2656,10 +2664,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .max-w-\[2560px\] {
   max-width: 2560px;
-}
-
-.max-w-\[600px\] {
-  max-width: 600px;
 }
 
 .max-w-\[83\.333333\%\] {
@@ -2783,6 +2787,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .p-10 {
   padding: 10px;
 }
@@ -2798,6 +2806,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 .px-15 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
 }
 
 .pb-25 {
@@ -2828,13 +2840,17 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   text-align: left;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-right {
   text-align: right;
 }
 
-.text-4xl {
-  font-size: 36px;
-  line-height: 40px;
+.text-2xl {
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .text-\[0\.59em\] {
@@ -2991,10 +3007,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:mt-40 {
-    margin-top: 40px;
-  }
-
   .md\:grid-cols-\[2fr_1fr_1fr_1fr\] {
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
@@ -3032,10 +3044,6 @@ body {
     padding-right: 40px;
   }
 
-  .xl\:pr-140 {
-    padding-right: 140px;
-  }
-
   .xl\:text-2xl {
     font-size: 24px;
     line-height: 32px;
@@ -3044,12 +3052,5 @@ body {
   .xl\:text-xl {
     font-size: 20px;
     line-height: 28px;
-  }
-}
-
-@media print {
-  .print\:\!text-xl {
-    font-size: 20px !important;
-    line-height: 28px !important;
   }
 }
