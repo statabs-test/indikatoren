@@ -2514,7 +2514,7 @@ id | visible | visibleInPortal | indikatorenset
 22375 | true | true | Stadtteilrichtplan Gundeldingen
 22376 | true | true | Stadtteilrichtplan Gundeldingen
 22377 | true | true | Stadtteilrichtplan Gundeldingen
-22378 | false |  | Stadtteilrichtplan Gundeldingen
+22379 | true | true | Stadtteilrichtplan Gundeldingen
 22380 | true | true | Stadtteilrichtplan Gundeldingen
 22381 | true | true | Stadtteilrichtplan Gundeldingen
 22382 | true | true | Stadtteilrichtplan Gundeldingen
