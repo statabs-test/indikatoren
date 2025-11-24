@@ -5229,9 +5229,11 @@
 		"children": [],
 		"title": "Anteil der Freiflächen an den Arealentwicklungsflächen",
 		"subtitle": "Stadt Basel",
-		"lesehilfe": "<bitte Kommentar erfassen>",
+		"lesehilfe": "In den Jahren 2025-2030 sind in grösseren Arealentwicklungsgebieten in der Stadt Basel neue Freiraumflächen von insgesamt 17 900 m<sup>2</sup> geplant.",
 		"erlaeuterungen": "",
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Städtebau & Architektur Basel-Stadt"
+		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [

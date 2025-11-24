@@ -1,17 +1,59 @@
 {
   "series": [
     {
-      "visible": false,
-      "showInLegend": false,
+      "color": "#007a2f",
       "data": [
         [
-          0,
+          "2025-2030",
+          17900
+        ],
+        [
+          "2030-2035",
+          47800
+        ],
+        [
+          "2035-2040",
+          41050
+        ],
+        [
+          "2040-2045",
+          117465
+        ],
+        [
+          "2045-2050",
           0
+        ],
+        [
+          "2050-2100",
+          21857
         ]
       ],
-      "name": "Y"
+      "name": "Neue Freiraumflächen",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "normal",
+        "textOverflow": "none",
+        "textAlign": "left"
+      },
+      "rotation": 0,
+      "useHTML": true
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -45,17 +87,20 @@
                     }
                 }
     },
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-22420",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -76,22 +121,6 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "yAxis": {
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
@@ -106,14 +135,19 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -132,9 +166,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Städtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
   "exporting": {
     "filename": "22420"

@@ -37,9 +37,14 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "normal",
+        "width": "80px",
+        "textOverflow": "none",
+        "textAlign": "center"
       },
-      "rotation": 0
+      "rotation": 0,
+      "useHTML": true
     }
   },
   "chart": {
@@ -76,7 +81,7 @@
                 }
     },
     "type": "column",
-    "inverted": true,
+    "inverted": false,
     "marginRight": 30,
     "renderTo": "container-22413",
     "spacingBottom": 40
