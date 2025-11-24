@@ -30,7 +30,7 @@ var geojson_scalebarDataGundeldingen =
 		}
 	]
 }
-var scalebarDataGundeldingen = Highcharts.geojson(geojson_scalebarDataGundeldingen, 'mapline');
+var gundeldingen_scalebar = Highcharts.geojson(geojson_scalebarDataGundeldingen, 'mapline');
 
 var geojson_gundeldingen_bloecke =
 {

@@ -69270,6 +69270,90 @@
           0.42117646793614133
         ]
       ]
+    },
+    {
+      "name": "Massstab",
+      "animation": true,
+      "type": "mapline",
+      "data": {
+        "name": "Massstab",
+        "type": "FeatureCollection",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:2056"
+          }
+        },
+        "hc-transform": {
+          "default": {
+            "crs": "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs"
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  2609400,
+                  1264800
+                ],
+                [
+                  2609400,
+                  1264600
+                ],
+                [
+                  2609400,
+                  1264700
+                ],
+                [
+                  2610400,
+                  1264700
+                ],
+                [
+                  2610400,
+                  1264800
+                ],
+                [
+                  2610400,
+                  1264600
+                ]
+              ]
+            },
+            "properties": {
+              "OBJECTID_1": 99,
+              "OBJID": 99,
+              "OBJECTID": 99,
+              "TXT": "99",
+              "ZTXT": null,
+              "TYPE": null,
+              "ZAHL": 0,
+              "Shape_Leng": 0,
+              "Shape_Le_1": 0,
+              "Shape_Area": 0
+            }
+          }
+        ]
+      },
+      "color": "black",
+      "tooltip": {
+        "pointFormatter": function () {
+                        return '<br/>';
+                    }
+      },
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+                        return '300 m';
+                    },
+        "style": {
+          "fontSize": "12px",
+          "fontWeight": "normal",
+          "color": "black"
+        },
+        "y": -10
+      }
     }
   ],
   "chart": {

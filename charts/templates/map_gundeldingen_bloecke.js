@@ -186,7 +186,7 @@
                 name: 'Massstab',
                 animation: true,
                 type: 'mapline',
-                data: geojson_scalebarDataGundeldingen,
+                data: gundeldingen_scalebar,
                 color: 'black',
                 tooltip: {
                     pointFormatter: function () {

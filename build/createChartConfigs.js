@@ -43,6 +43,8 @@ console.log('Loading gemeinde shape...');
 var geojson_gemeinden = JSON.parse(fs.readFileSync('geojson/UA_Gemeinden_100.json'));
 console.log('Loading gundeldingen_bloecke shape...');
 var geojson_gundeldingen_bloecke = JSON.parse(fs.readFileSync('geojson/gundeldingen_bloecke.json'));
+var geojson_scalebarGundeldingen = JSON.parse(fs.readFileSync('geojson/scalebar_Gundeldingen.json'));
+console.log('Loading Gundeldingen...-------------------------------------------------------');
 
 //console.log('deleting previous chart configs...');
 //var rimraf = require("rimraf");
@@ -126,7 +128,7 @@ function saveChartConfig(indikator, view, console){
         var csv = (fs.readFileSync('data/' + (indikator["data-id"] || indikator.id) + '.tsv', 'utf8'));
         //remove quotes from data
         var dataWithoutQuotes = csv.replace(/"/g, "");
-        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, geojson_gundeldingen_bloecke:geojson_gundeldingen_bloecke, console: console});
+        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, geojson_gundeldingen_bloecke:geojson_gundeldingen_bloecke, geojson_scalebarGundeldingen:geojson_scalebarGundeldingen, console: console});
         var options = (result.result || {} );
     
         //disable animations and prevent exceptions
@@ -134,10 +136,10 @@ function saveChartConfig(indikator, view, console){
         //forExport = true  -- crashes highcharts export server for chart 4741
         //options.chart.forExport = true;
         
-        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, geojson_gundeldingen_bloecke:geojson_gundeldingen_bloecke, console: console});
+        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, geojson_gundeldingen_bloecke:geojson_gundeldingen_bloecke, geojson_scalebarGundeldingen:geojson_scalebarGundeldingen, console: console});
         var template = result.result;
     
-        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, geojson_gundeldingen_bloecke:geojson_gundeldingen_bloecke, console: console}).context;
+        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, geojson_gundeldingen_bloecke:geojson_gundeldingen_bloecke, geojson_scalebarGundeldingen:geojson_scalebarGundeldingen, console: console}).context;
         
         ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
             var stringifiedOptions = serialize(options, {space: 2});
