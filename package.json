@@ -11,7 +11,7 @@
     "jquery": "^3.5.1",
     "os-browserify": "^0.3.0",
     "proj4": "2.4.3",
-    "seedrandom": "2.4.3"
+    "seedrandom": "2.4.4"
   },
   "devDependencies": {
     "casperjs": "1.1.4",
