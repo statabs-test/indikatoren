@@ -1,17 +1,161 @@
 {
   "series": [
     {
-      "visible": false,
-      "showInLegend": false,
+      "color": "#490200",
       "data": [
         [
-          0,
-          0
+          "2022",
+          25651
+        ],
+        [
+          "2023",
+          25592
+        ],
+        [
+          "2024",
+          25734
         ]
       ],
-      "name": "Y"
+      "name": "1,5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9b0200",
+      "data": [
+        [
+          "2022",
+          31039
+        ],
+        [
+          "2023",
+          30778
+        ],
+        [
+          "2024",
+          31343
+        ]
+      ],
+      "name": "3",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#f20003",
+      "data": [
+        [
+          "2022",
+          28475
+        ],
+        [
+          "2023",
+          28416
+        ],
+        [
+          "2024",
+          28436
+        ]
+      ],
+      "name": "4,5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fe4400",
+      "data": [
+        [
+          "2022",
+          26581
+        ],
+        [
+          "2023",
+          26441
+        ],
+        [
+          "2024",
+          26377
+        ]
+      ],
+      "name": "6",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff7f00",
+      "data": [
+        [
+          "2022",
+          19709
+        ],
+        [
+          "2023",
+          19784
+        ],
+        [
+          "2024",
+          19733
+        ]
+      ],
+      "name": "7,5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffca01",
+      "data": [
+        [
+          "2022",
+          16695
+        ],
+        [
+          "2023",
+          17055
+        ],
+        [
+          "2024",
+          17223
+        ]
+      ],
+      "name": "9",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fffd03",
+      "data": [
+        [
+          "2022",
+          32367
+        ],
+        [
+          "2023",
+          33831
+        ],
+        [
+          "2024",
+          34225
+        ]
+      ],
+      "name": "\u003E9,0",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "normal",
+        "textOverflow": "none",
+        "textAlign": "left"
+      },
+      "rotation": 0,
+      "useHTML": true
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -45,17 +189,20 @@
                     }
                 }
     },
+    "type": "column",
+    "inverted": false,
     "renderTo": "container-22411",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     }
   },
   "title": {
@@ -68,28 +215,12 @@
     "text": "Freiraumfläche und Anteil im Siedlungsgebiet"
   },
   "subtitle": {
-    "text": "Stadt Basel",
+    "text": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
     }
   },
   "yAxis": {
@@ -106,14 +237,19 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -132,9 +268,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Städtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
   "exporting": {
     "filename": "22411"

@@ -1,8 +1,64 @@
 {
   "series": [
     {
-      "visible": false,
-      "showInLegend": false
+      "color": "#008AC3",
+      "zIndex": 0,
+      "type": "column",
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ha\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1982,
+          1658
+        ],
+        [
+          1994,
+          1671
+        ],
+        [
+          2005,
+          1687
+        ],
+        [
+          2014,
+          1706
+        ]
+      ],
+      "name": "Versiegelte Fläche"
+    },
+    {
+      "color": "#FF8028",
+      "zIndex": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          1982,
+          82.2
+        ],
+        [
+          1994,
+          84.8
+        ],
+        [
+          2005,
+          90.7
+        ],
+        [
+          2014,
+          89.8
+        ]
+      ],
+      "name": "Versiegelte Fläche pro Einwohner (rechte Skala)"
     }
   ],
   "chart": {
@@ -38,8 +94,9 @@
                     }
                 }
     },
+    "alignTicks": false,
     "renderTo": "container-22417",
-    "spacingBottom": 30
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -85,28 +142,52 @@
       }
     }
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
+  "yAxis": [
+    {
+      "title": {
+        "text": null,
         "color": "#000000",
         "fontSize": null
       },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
+      "labels": {
+        "format": "{value:,.0f} ha",
+        "style": {
+          "color": "black"
+        }
       }
+    },
+    {
+      "min": 0,
+      "alignTicks": true,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+        "useHTML": true,
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true
     }
-  },
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
-    }
+      "fontWeight": "normal",
+      "textOverflow": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -125,10 +206,11 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: .\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Arealstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
+  "tooltip": {},
   "exporting": {
     "filename": "22417"
   }

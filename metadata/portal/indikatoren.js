@@ -5040,10 +5040,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Freiraumfläche und Anteil im Siedlungsgebiet",
-		"subtitle": "Stadt Basel",
+		"subtitle": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"quellenangabe": [],
+		"quellenangabe": [
+			"Städtebau & Architektur Basel-Stadt"
+		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -5118,8 +5120,10 @@ var indikatoren = [
 		"title": "Bodenversiegelung",
 		"subtitle": "Stadt Basel",
 		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
+		"erlaeuterungen": "Fläche an versiegelten Böden (absolut und pro Einwohner). Von Bodenversiegelung spricht man, wenn die Bodenoberfläche mit praktisch undurchlässigen Materialien abgedeckt oder überdeckt wird. Der Austausch von Wasser, Luft und Energie zwischen Atmosphäre und Boden wird praktisch verhindert. Von Bedeutung sind dabei vor allem Gebäude, Verkehrsflächen, Energieversorgungsanlagen und Deponien.<br><br>Zu den versiegelten Böden werden in der Arealstatistik (Nomenklatur der Bodenbedeckung NOLC04) folgende Kategorien gezählt:<br>- Befestigte Flächen (z.B. Verkehrsflächen)<br>- Gebäude<br>- Treibhäuser<br><br>Die Arealstatistik erhebt im Turnus von zwölf bzw. neun Jahren Informationen zur Bodennutzung und -bedeckung der Schweiz auf der Grundlage von Luftbildern des Bundesamtes für Landestopographie (Stichpunktprobenerhebung im Abstand von 100 x 100m; im Kanton Basel-Stadt 3'698 Punkte, im Kanton Basel-Landschaft 51'774 Punkte).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Arealstatistik"
+		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -5230,7 +5234,7 @@ var indikatoren = [
 		"title": "Anteil der Freiflächen an den Arealentwicklungsflächen",
 		"subtitle": "Stadt Basel",
 		"lesehilfe": "In den Jahren 2025-2030 sind in grösseren Arealentwicklungsgebieten in der Stadt Basel neue Freiraumflächen von insgesamt 17 900 m<sup>2</sup> geplant.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Stand November 2025.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"
 		],
