@@ -26,7 +26,7 @@
       },
     ],
     xAxis: {
-//      type: "category",
+      //      type: "category",
     },
     legend: {
       itemWidth: 150,
@@ -87,15 +87,15 @@
         }
       }
     },
-/*
-    tooltip: {
-      shared: true,
-      useHTML: true,
-      followPointer: true,
-      headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
-      pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-        + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f}</b></td></tr>',
-    },
-*/
+    /*
+        tooltip: {
+          shared: true,
+          useHTML: true,
+          followPointer: true,
+          headerFormat: '<span style="font-size: 10px"> {point.key} </span> <table>',
+          pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
+            + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f}</b></td></tr>',
+        },
+    */
   };
 })();
