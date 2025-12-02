@@ -1,144 +1,152 @@
 {
   "series": [
     {
-      "color": "#68ab2b",
+      "color": "#1f5647",
+      "stacking": true,
       "data": [
         [
+          2018,
+          29669
+        ],
+        [
+          2019,
+          30536
+        ],
+        [
           2020,
-          882262
+          34153
         ],
         [
           2021,
-          836271
+          34638
         ],
         [
           2022,
-          833832
+          37536
         ],
         [
           2023,
-          843844
+          41133
+        ],
+        [
+          2024,
+          43688
         ]
       ],
-      "name": "Stadt Basel"
+      "name": "Bedarfsabklärung"
     },
     {
-      "color": "#ffda80",
+      "color": "#43b696",
+      "stacking": true,
       "data": [
         [
+          2018,
+          141783
+        ],
+        [
+          2019,
+          138237
+        ],
+        [
           2020,
-          125502
+          166100
         ],
         [
           2021,
-          118627
+          169260
         ],
         [
           2022,
-          122710
+          165214
         ],
         [
           2023,
-          122544
+          174438
+        ],
+        [
+          2024,
+          179802
         ]
       ],
-      "name": "Riehen"
+      "name": "Behandlungspflege"
     },
     {
-      "color": "#FF8028",
+      "color": "#4af1c3",
+      "stacking": true,
       "data": [
         [
+          2018,
+          276340
+        ],
+        [
+          2019,
+          274368
+        ],
+        [
           2020,
-          5747
+          312802
         ],
         [
           2021,
-          5065
+          305955
         ],
         [
           2022,
-          5559
+          296295
         ],
         [
           2023,
-          5828
+          308699
+        ],
+        [
+          2024,
+          338865
         ]
       ],
-      "name": "Bettingen"
-    },
-    {
-      "color": "#671a7f",
-      "data": [
-        [
-          2020,
-          24236
-        ],
-        [
-          2021,
-          28196
-        ],
-        [
-          2022,
-          32097
-        ],
-        [
-          2023,
-          39523
-        ]
-      ],
-      "name": "Ausserkantonal"
-    },
-    {
-      "color": "#671a7f",
-      "data": [
-        [
-          2020,
-          29
-        ],
-        [
-          2021,
-          28
-        ],
-        [
-          2022,
-          106
-        ],
-        [
-          2023,
-          14
-        ]
-      ],
-      "name": "Ausland"
+      "name": "Grundpflege"
     },
     {
       "type": "line",
       "color": "#010101",
+      "stacking": false,
       "data": [
         [
+          2018,
+          447792
+        ],
+        [
+          2019,
+          443141
+        ],
+        [
           2020,
-          1037776
+          513055
         ],
         [
           2021,
-          988187
+          509853
         ],
         [
           2022,
-          994304
+          499045
         ],
         [
           2023,
-          1011753
+          524270
+        ],
+        [
+          2024,
+          562355
         ]
       ],
-      "name": "Total"
+      "name": "Anzahl Pflegestunden Spitex"
     }
   ],
   "chart": {
     "type": "column",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "style": {
@@ -163,15 +171,11 @@
 					}
 				}
     },
-    "renderTo": "container-12728"
+    "renderTo": "container-22432"
   },
   "plotOptions": {
     "series": {
       "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      },
-      "dataLabels": {
         "enabled": false
       }
     },
@@ -187,10 +191,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen"
+    "text": "Anzahl Pflegestunden Spitex der Stadt Basel"
   },
   "subtitle": {
-    "text": "nach Herkunft der Bewohnenden",
+    "text": "Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -213,30 +217,22 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "tickInterval": 1
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      },
-      "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '';
-        }
     }
   },
+  "yAxis": [
+    {
+      "min": 0,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "title": {
+        "text": ""
+      }
+    }
+  ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
@@ -244,10 +240,13 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "itemDistance": 8,
-    "itemMarginBottom": 5
+    "itemWidth": 150,
+    "alignColumns": false,
+    "itemDistance": 10
   },
   "credits": {
     "enabled": true,
@@ -260,9 +259,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2024"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 14.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -299,12 +298,33 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function () {
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + " Tage" + '</b><br/><b>'
-      },
-    "shared": false
+    "useHTML": true,
+    "formatter": formatter() {
+        if (this.series.userOptions.stacking == true) { // nur für series mit stacking: true
+          const series = this.series.chart.series;
+          let tooltip = "<table>";
+          let s = 0;
+          series.forEach(series => {
+            if (series.userOptions.stacking == true) { // nur für series mit stacking: true
+              series.points.forEach(point => {
+                if (point.x === this.x) {
+                  tooltip += `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>`
+                    + `<td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0, ",", " ")} Stunden</b></td>`
+                    + `<td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1, ",", " ")}%)</td></tr>`;
+                  s += point.y;
+                }
+              });
+            }
+          });
+          tooltip += `<tr><td>Total:</td><td style="text-align:right"><b>${Highcharts.numberFormat(s, 0, ",", " ")} Stunden</b></td></tr></table>`;
+          return `<span style="font-size: 10px">${this.x}</span><br>${tooltip}`;
+        } else {
+          return `<span style="font-size: 10px">${this.x}</span><br><span style="color:${this.color}">●</span> ${this.series.name}: <b>`
+            + `${Highcharts.numberFormat(this.y, 0, ",", " ")}</b><br/>`;
+        }
+      }
   },
   "exporting": {
-    "filename": "12728"
+    "filename": "22432"
   }
 }

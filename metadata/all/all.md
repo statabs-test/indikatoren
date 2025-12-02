@@ -2508,3 +2508,6 @@ id | visible | visibleInPortal | indikatorenset
 22326 | true | true | Wohnraumschutz
 22343 | true | true | Umwelt
 22344 | true | true | Umwelt
+22432 | true | true | Gesundheitsversorgung
+22433 | true | true | Gesundheitsversorgung
+22434 | true | true | Gesundheitsversorgung
