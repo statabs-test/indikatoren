@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Highcharts slide (object with id + kuerzel)
     if (typeof slide === "object" && slide.id) {
-      console.log(slide);
       renderHighchartInModal(slide.id, slide.kuerzel);
     }
 
@@ -70,6 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const templateHtml = document.getElementById(
       "indikator-template-modal-portal"
     ).innerHTML;
+
     const compiled = _.template(templateHtml);
 
     const chartMeta = findChartById(indikatoren, id);

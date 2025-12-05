@@ -299,57 +299,54 @@
 
     <div
       id="lightbox"
-      class="fixed inset-0 z-50 flex justify-center bg-[#DDECDE]/80 hidden overflow-y-auto"
+      class="fixed inset-0 z-50 flex justify-center bg-white hidden overflow-y-auto"
     >
       <div
         id="lightbox-wrapper"
-        class="w-full bg-white p-[20px] mx-4 my-10 rounded-xl flex flex-col relative"
+        class="w-full p-[20px] mx-4 my-10 rounded-xl flex flex-col relative"
       >
         <!-- Close Button -->
-        <button
-          id="close-lightbox"
-          class="absolute right-6 top-4 text-black text-sm flex"
-          aria-label="Übersicht"
-        >
-          <img
-            class="h-[30px]"
-            src="assets/symbols/arrow-west-simple.svg"
-            alt="Vorherige Seite"
-          />
-          <div class="mt-5 ml-[-5px]">Übersicht</div>
-        </button>
+        <div class="container flex w-full">
+          <!-- Top Navigation: Prev / Counter / Next -->
+          <div class="w-full flex items-center justify-center gap-10 mt-6 mb-6">
+            <button
+              id="prev-slide"
+              class="text-gray-600 hover:text-black"
+              aria-label="Zurück"
+            >
+              <img
+                class="h-[40px]"
+                src="assets/symbols/arrow-west-simple.svg"
+                alt="Vorherige Seite"
+              />
+            </button>
 
-        <!-- Top Navigation: Prev / Counter / Next -->
-        <div class="w-full flex items-center justify-center gap-10 mt-6 mb-6">
+            <div id="carousel-indicators" class="text-sm text-gray-700"></div>
+
+            <button
+              id="next-slide"
+              class="text-gray-600 hover:text-black mr-10"
+              aria-label="Weiter"
+            >
+              <img
+                class="h-[40px]"
+                src="assets/symbols/arrow-east-simple.svg"
+                alt="Nächste Seite"
+              />
+            </button>
+          </div>
+
           <button
-            id="prev-slide"
-            class="text-gray-600 hover:text-black"
-            aria-label="Zurück"
+            id="close-lightbox"
+            class="text-black text-4xl justify-end mb-20"
+            aria-label="Schliessen"
           >
-            <img
-              class="h-[40px]"
-              src="assets/symbols/arrow-west-simple.svg"
-              alt="Vorherige Seite"
-            />
-          </button>
-
-          <div id="carousel-indicators" class="text-sm text-gray-700"></div>
-
-          <button
-            id="next-slide"
-            class="text-gray-600 hover:text-black"
-            aria-label="Weiter"
-          >
-            <img
-              class="h-[40px]"
-              src="assets/symbols/arrow-east-simple.svg"
-              alt="Nächste Seite"
-            />
+            &times;
           </button>
         </div>
 
         <!-- Content Area (wide) -->
-        <div id="lightbox-content" class="container"></div>
+        <div id="lightbox-content" class="container w-full"></div>
       </div>
     </div>
 
@@ -416,7 +413,7 @@
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="indikator text-sm leading-relaxed">
-        <div class="mb-20" id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full text-left"></div>
+        <div class="mb-20 min-h-[428px]" id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full text-left"></div>
 
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden mb-20'": "'mb-20'" ) %>>

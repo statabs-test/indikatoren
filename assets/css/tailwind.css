@@ -2425,10 +2425,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -2503,10 +2499,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-left: 2px;
 }
 
-.ml-\[-5px\] {
-  margin-left: -5px;
-}
-
 .ml-\[0\.3em\] {
   margin-left: 0.3em;
 }
@@ -2535,28 +2527,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 30px;
 }
 
-.mt-5 {
-  margin-top: 5px;
-}
-
 .mt-\[-22px\] {
   margin-top: -22px;
 }
 
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.ml-15 {
-  margin-left: 15px;
-}
-
-.ml-\[10px\] {
-  margin-left: 10px;
 }
 
 .line-clamp-2 {
@@ -2618,10 +2594,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 25px;
 }
 
-.h-\[30px\] {
-  height: 30px;
-}
-
 .h-\[40px\] {
   height: 40px;
 }
@@ -2636,6 +2608,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .max-h-\[90vh\] {
   max-height: 90vh;
+}
+
+.min-h-\[428px\] {
+  min-height: 428px;
 }
 
 .w-1\/2 {
@@ -2769,10 +2745,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   border-bottom-color: rgb(165 165 165 / var(--tw-border-opacity, 1));
 }
 
-.bg-\[\#DDECDE\]\/80 {
-  background-color: rgb(221 236 222 / 0.8);
-}
-
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(148 148 148 / var(--tw-bg-opacity, 1));
@@ -2851,6 +2823,11 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 .text-2xl {
   font-size: 24px;
   line-height: 32px;
+}
+
+.text-4xl {
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .text-\[0\.59em\] {

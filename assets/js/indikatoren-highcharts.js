@@ -359,7 +359,6 @@ function renderChart(
         //var globalOptions = eval(optionsReturnData[0]);
         var chartOptions = eval(chartReturnData[0]);
         var template = eval(templateReturnData[0]);
-
         //load csv and draw chart
         $.get(csvUrl, function (data) {
           //remove quotes from data
