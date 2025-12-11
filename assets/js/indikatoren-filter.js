@@ -283,6 +283,17 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
   //only now display page
   $("body").show();
 
+  $("#portal-view-toggle").on("click", function () {
+    portalListView = !portalListView;
+
+    $(this)
+      .find("div")
+      .text(portalListView ? "Kachelansicht" : "Listenansicht");
+
+    // FilterJS zwingt ein Re-Render
+    window.FJS.filter();
+  });
+
   //add event listener to render chart on modal show
   $("#lightbox").on("show.bs.modal", function (e) {
     var targetId = $(e.relatedTarget).attr("indikator-id-data");
@@ -783,10 +794,14 @@ function getIndexByFid(fid) {
   }
 }
 
+var portalListView = true;
+
 function getCardTemplateId() {
-  // gleiche Templates wie bisher fürs Grid
-  return isIndikatorensetView(view)
-    ? "#indikator-template-carousel-indikatorenset"
+  if (isIndikatorensetView(view)) {
+    return "#indikator-template-carousel-indikatorenset";
+  }
+  return portalListView
+    ? "#indikator-template-list-portal"
     : "#indikator-template-carousel-portal";
 }
 

@@ -51,6 +51,7 @@
   };
 
   var Config = JsonQuery.Config;
+  var portalListView = false;
 
   var each = function (objs, callback, context) {
     if (objs.length === +objs.length) {
