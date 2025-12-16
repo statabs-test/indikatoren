@@ -4923,7 +4923,7 @@
 		"children": [],
 		"title": "Bewertung der Lebensqualität",
 		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Wohnviertel Gundeldingen",
-		"lesehilfe": "Die Lebensqualität wird auf einer Skala von 1 bis 10 im Wohnviertel Gundeldingen mit durchschnittlich 7,9 bewertet. Gegenüber der Bewertung aller Befragten im Kanton (7,8) gibt es keinen statistisch signifikanten Unterschied. Ebenso ist im Zeitverlauf keine signifikante Entwicklung zu beobachten.",
+		"lesehilfe": "Die Lebensqualität wird, auf einer Skala von 1 bis 10, im Wohnviertel Gundeldingen mit durchschnittlich 7,9 bewertet. Gegenüber der Bewertung aller Befragten im Kanton (7,8) gibt es keinen statistisch signifikanten Unterschied. Ebenso ist im Zeitverlauf keine signifikante Entwicklung zu beobachten.",
 		"erlaeuterungen": "Befragt werden volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Methodenwechsel mit Einfluss auf die Vergleichbarkeit der Ergebnisse: Ab 2023 Gewichtung nach Geschlecht, Staatsangehörigkeit und Altersgruppen (2019 wurde nachgewichtet, die Werte weichen daher von früher publizierten ab).<br>Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -4998,9 +4998,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Wohnbevölkerung",
-		"subtitle": "Lebensraum Gundeldingen",
+		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
 		"lesehilfe": "Am Jahresende 2024 zählte der Lebensraum Gundeldingen 22 250 Einwohnerinnen und Einwohner. Dies sind 10,7% der Bevölkerung des Kantons Basel-Stadt.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Der Perimeter des Stadtteilrichtplans Gundeldingen (\"Lebensraum Gundeldingen\") umfasst im Unterschied zum statistischen Wohnviertel Gundeldingen zusätzlich das Dreispitzareal, die untersten zum Wohnviertel Gundeldingen hin orientierten Häuserreihen des Wohnviertels Bruderholz, das Gebiet um das Areal \"Am Walkeweg\" bis zum Güterbahnhof sowie die Gebäude südlich der Grosspeter- und Nauenstrasse bis und mit dem Postgebäude.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -5036,9 +5036,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Beschäftigte",
-		"subtitle": "Lebensraum Gundeldingen",
+		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
 		"lesehilfe": "Im Jahr 2023 sind im Lebensraum Gundeldingen rund 25 500 Personen beschäftigt, was einem Rückgang um rund 800 Personen gegenüber dem Vorjahr entspricht. 12,8% der Beschäftigten im Kanton Basel-Stadt arbeiten im Lebensraum Gundeldingen.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. <br>Der Perimeter des Stadtteilrichtplans Gundeldingen (\"Lebensraum Gundeldingen\") umfasst im Unterschied zum statistischen Wohnviertel Gundeldingen zusätzlich das Dreispitzareal, die untersten zum Wohnviertel Gundeldingen hin orientierten Häuserreihen des Wohnviertels Bruderholz, das Gebiet um das Areal \"Am Walkeweg\" bis zum Güterbahnhof sowie die Gebäude südlich der Grosspeter- und Nauenstrasse bis und mit dem Postgebäude.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -5112,9 +5112,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "in Vollzeitäquivalenten, Lebensraum Gundeldingen",
+		"subtitle": "in Vollzeitäquivalenten, Perimeter Stadtteilrichtplan Gundeldingen",
 		"lesehilfe": "Die wichtigste Branche im Lebensraum Gundeldingen ist die Unternehmensverwaltung, -führung, -beratung\t mit 1 808 Vollzeitäquivalenten im Jahr 2023, gefolgt von den Branchen Baunebengewerbe (1513) und der Branche Landverkehr (1369).",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen). <br>Der Perimeter des Stadtteilrichtplans Gundeldingen (\"Lebensraum Gundeldingen\") umfasst im Unterschied zum statistischen Wohnviertel Gundeldingen zusätzlich das Dreispitzareal, die untersten zum Wohnviertel Gundeldingen hin orientierten Häuserreihen des Wohnviertels Bruderholz, das Gebiet um das Areal \"Am Walkeweg\" bis zum Güterbahnhof sowie die Gebäude südlich der Grosspeter- und Nauenstrasse bis und mit dem Postgebäude.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -5219,15 +5219,15 @@
 		"id": 22377
 	},
 	{
+		"template": "map_gundeldingen_bloecke",
 		"data-id": 22379,
 		"chart-id": 22379,
-		"template": "map_gundeldingen_bloecke",
 		"filter": "",
 		"parentId": null,
 		"children": [],
 		"title": "Freiraumversorgung",
-		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen, 2022",
-		"lesehilfe": "Im Jahr 2022 sind vom Block 6.3.005 aus (rechts unten) 3,94 m<sup>2</sup> Freiraumfläche pro Person gut erreichbar.",
+		"subtitle": "Wohnviertel Gundeldingen, 2022",
+		"lesehilfe": "Im Jahr 2022 sind ausgehend vom Block 6.3.005 (rechts unten) nur 3,94  m<sup>2</sup> Freiraumfläche pro Person gut erreichbar. Im Gegensatz dazu sind es vom Block 6.1.002 (links oben) 12,87 m<sup>2</sup>.",
 		"erlaeuterungen": "Defintion gemäss «Freiraumversorgungsmodell Stadt Basel». Dieses stellt die Versorgung der in der Stadt Basel wohnenden und beschäftigten Menschen mit erholungsrelevantem öffentlichem Freiraum dar. Pro Einwohnerin und Einwohner sollen 9 m<sup>2</sup> öffentlich zugänglicher, nutzungsoffener Freiraum mit Aufenthaltsqualität zur Verfügung stehen und für jede in Basel beschäftigte Person entsprechend 2 m<sup>2</sup>. Einberechnet werden alle öffentlich zugänglichen Freiräume, wenn sie vollständig oder zumindest teilweise nutzungsoffen sind und eine Aufenthaltsqualität bieten. Die Freiräume müssen zudem über eine angemessene Ausstattung verfügen und vom Wohn- resp. Arbeitsort aus innert 300 m (Luftlinie) erreichbar sein. Dies entspricht einer Gehdistanz von rund 10 Minuten für wenig mobile Menschen. Nicht querbare Zugangshindernisse werden im Freiraumversorgungsmodell berücksichtigt.",
 		"quellenangabe": [
 			"Städtebau & Architektur Basel-Stadt"

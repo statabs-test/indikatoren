@@ -5,46 +5,46 @@
       "data": [
         [
           "Unternehmensverwaltung, -führung, -beratung",
-          1821
+          1516
         ],
         [
           "Baunebengewerbe",
-          1650
+          1688
         ],
         [
           "Landverkehr",
-          1289
+          1870
         ],
         [
           "Grosshandel",
-          1278
+          898
         ],
         [
           "Detailhandel",
-          1054
+          1079
         ],
         [
           "Sonstige Produktion",
-          869
+          603
         ],
         [
           "Architektur- und Ingenieurbüros",
-          1186
+          1317
         ],
         [
           "IT-Dienstleistungen",
-          617
+          379
         ],
         [
           "Personalvermittlung, -überlassung",
-          804
+          735
         ],
         [
           "Erziehung, Unterricht",
-          740
+          737
         ]
       ],
-      "name": "2021",
+      "name": "2013",
       "turboThreshold": 0
     },
     {
@@ -52,46 +52,46 @@
       "data": [
         [
           "Unternehmensverwaltung, -führung, -beratung",
-          1827
+          1522
         ],
         [
           "Baunebengewerbe",
-          1532
+          1764
         ],
         [
           "Landverkehr",
-          1377
+          1164
         ],
         [
           "Grosshandel",
-          1440
+          1241
         ],
         [
           "Detailhandel",
-          1098
+          1137
         ],
         [
           "Sonstige Produktion",
-          901
+          801
         ],
         [
           "Architektur- und Ingenieurbüros",
-          1122
+          1155
         ],
         [
           "IT-Dienstleistungen",
-          654
+          496
         ],
         [
           "Personalvermittlung, -überlassung",
-          856
+          750
         ],
         [
           "Erziehung, Unterricht",
-          732
+          666
         ]
       ],
-      "name": "2022",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
@@ -226,7 +226,7 @@
     "text": "Beschäftigung nach Branche"
   },
   "subtitle": {
-    "text": "in Vollzeitäquivalenten, Lebensraum Gundeldingen",
+    "text": "in Vollzeitäquivalenten, Perimeter Stadtteilrichtplan Gundeldingen",
     "align": "left",
     "style": {
       "fontSize": "12px",
