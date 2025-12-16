@@ -160,7 +160,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Pflegestufen-Durchschnitt nach Herkunft Bewohnende in Pflegeheimen"
+    "text": "Pflegestufen-Durchschnitt in Pflegeheimen"
   },
   "subtitle": {
     "text": "nach Herkunft der Bewohnenden",
@@ -190,7 +190,7 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": 0,
+    "min": 3,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",

@@ -33,7 +33,7 @@
         color: '#FF8028',
       },
       {
-        color: '#671a7f',
+        color: '#7f5f1a',
       },
       {
         color: '#671a7f',

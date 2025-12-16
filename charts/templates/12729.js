@@ -2,6 +2,7 @@
   return {
     yAxis: {
       //      tickAmount: 10,
+      min: 3,
       labels: {
         formatter: function () {
           return Highcharts.numberFormat((this.value), 0) + '';
