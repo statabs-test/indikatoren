@@ -2511,3 +2511,5 @@ id | visible | visibleInPortal | indikatorenset
 22432 | true | true | Gesundheitsversorgung
 22433 | true | true | Gesundheitsversorgung
 22434 | true | true | Gesundheitsversorgung
+22435 | true | true | Gesundheitsversorgung
+22436 | true | true | Gesundheitsversorgung
