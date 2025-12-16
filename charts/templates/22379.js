@@ -25,7 +25,7 @@ global geojson_wohnviertelEPSG2056
 				from: 0,
 				to: 1.49999999999,
 				color: '#490200',
-				name: "> 0 &ndash; 1,50"
+				name: "> 0 &ndash; 1,49"
 			}, {
 				from: 1.5,
 				to: 2.999999999,
