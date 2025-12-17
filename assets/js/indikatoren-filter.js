@@ -29,6 +29,8 @@ global lazyRenderChartById
 //holds config of each chart
 
 var indikatoren;
+var indikatoren_sorted;
+var indikatoren_original;
 var view = false;
 var perPage = 16;
 var itemsToShow = 16;
@@ -81,6 +83,14 @@ $(document).ready(function () {
     });
   }
 
+  function sortByAktualisierungsdatumDesc(arr) {
+    return arr.sort(function (a, b) {
+      return (
+        new Date(b.aktualisierungsdatum).getTime() -
+        new Date(a.aktualisierungsdatum).getTime()
+      );
+    });
+  }
   //load data
   $.when(
     $.getScript(jsonDatabaseUrl),
@@ -99,12 +109,17 @@ $(document).ready(function () {
         return val;
       });
     }
-
     //determine how many chart previews to display
     var perPageParam = parseInt(
       window.decodeURIComponent($.url("?PerPage")),
       10
     );
+
+    indikatoren_original = indikatoren.slice();
+
+    // sorted version for normal view
+    indikatoren_sorted = sortByAktualisierungsdatumDesc(indikatoren.slice());
+
     //parameter must be an int, see https://stackoverflow.com/a/14636652
     if (perPageParam > 0 && perPageParam <= 32) {
       //perPage defined globally with a default value
@@ -219,7 +234,8 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     //define filter.js configuration
     fjsConfig["template"] = "#indikator-template-carousel-portal";
 
-    FJS = FilterJS(indikatoren, "#indikatoren", fjsConfig);
+    FJS = FilterJS(indikatoren_sorted, "#indikatoren", fjsConfig);
+    console.log(FJS.search_text);
     FJS.addCriteria({
       field: "thema",
       ele: "#thema",
@@ -274,7 +290,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
 
   function sortResult(query) {
     if (sortOptions) {
-      query.order(sortOptions);
+      query.order(getSortOptions("aktualisierungsdatum_desc"));
     }
   }
 
@@ -821,7 +837,6 @@ function renderCardsSlice(result) {
   $container.empty();
 
   var count = Math.min(itemsToShow, result.length);
-  console.log(itemsToShow);
   for (var i = 0; i < count; i++) {
     $container.append(tpl(result[i]));
   }
