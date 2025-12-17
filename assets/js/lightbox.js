@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateLightbox();
     lightbox.classList.remove("hidden");
     document.body.style.overflow = "hidden";
+    lightbox.scrollTop = 0;
   }
 
   function closeLightbox() {
