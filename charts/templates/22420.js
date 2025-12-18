@@ -7,6 +7,9 @@
         //itemWidth: 10,
       }
     },
+    subtitle: {
+      useHTML: true
+    },
     "xAxis": {
       "type": "category",
       "labels": {
@@ -35,10 +38,10 @@
       "verticalAlign": "top",
       "align": "left",
     },
-    /*tooltip: {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-      "shared": false
-    },*/
+    tooltip: {
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} m<sup>2</sup></b><br/>',
+      useHTML: true
+    },
     "chart": {
       "type": "column",
       "inverted": false,
