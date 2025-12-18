@@ -10,23 +10,24 @@
       },
       "data": [
         [
-          1982,
-          1658
+          "1982",
+          1416
         ],
         [
-          1994,
-          1671
+          "1994",
+          1422
         ],
         [
-          2005,
-          1687
+          "2005",
+          1420
         ],
         [
-          2014,
-          1706
+          "2014",
+          1428
         ]
       ],
-      "name": "Versiegelte Fläche"
+      "name": "Versiegelte Fläche",
+      "turboThreshold": 0
     },
     {
       "color": "#FF8028",
@@ -42,25 +43,43 @@
       },
       "data": [
         [
-          1982,
-          82.2
+          "1982",
+          77.8
         ],
         [
-          1994,
-          84.8
+          "1994",
+          80.3
         ],
         [
-          2005,
-          90.7
+          "2005",
+          85.4
         ],
         [
-          2014,
-          89.8
+          "2014",
+          81.9
         ]
       ],
-      "name": "Versiegelte Fläche pro Einwohner (rechte Skala)"
+      "name": "Versiegelte Fläche pro Einwohner (rechte Skala)",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -124,22 +143,6 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
     }
   },
   "yAxis": [
@@ -210,7 +213,10 @@
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Arealstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
   },
-  "tooltip": {},
+  "tooltip": {
+    "useHTML": true,
+    "outside": true
+  },
   "exporting": {
     "filename": "22417"
   }

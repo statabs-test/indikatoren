@@ -16,7 +16,7 @@
           25734
         ]
       ],
-      "name": "1,5",
+      "name": "0 bis 1,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     },
     {
@@ -35,7 +35,7 @@
           31343
         ]
       ],
-      "name": "3",
+      "name": "1,5 bis 2,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     },
     {
@@ -54,7 +54,7 @@
           28436
         ]
       ],
-      "name": "4,5",
+      "name": "3,0 bis 4,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     },
     {
@@ -73,7 +73,7 @@
           26377
         ]
       ],
-      "name": "6",
+      "name": "4,5 bis 5,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     },
     {
@@ -92,7 +92,7 @@
           19733
         ]
       ],
-      "name": "7,5",
+      "name": "6,0 bis 7,49 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     },
     {
@@ -111,7 +111,7 @@
           17223
         ]
       ],
-      "name": "9",
+      "name": "7,5 bis 8,99 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     },
     {
@@ -130,7 +130,7 @@
           34225
         ]
       ],
-      "name": "\u003E9,0",
+      "name": "\u003E= 9,0 m\u003Csup\u003E2\u003C\u002Fsup\u003E",
       "turboThreshold": 0
     }
   ],
@@ -212,7 +212,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Freiraumfläche und Anteil im Siedlungsgebiet"
+    "text": "Erreichbare Freiraumfläche"
   },
   "subtitle": {
     "text": "Anzahl Einwohnerinnen und Einwohner pro Kategorie, Stadt Basel",
@@ -249,7 +249,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "useHTML": true
   },
   "navigation": {
     "menuItemStyle": {
@@ -271,6 +272,9 @@
       "y": -25
     },
     "text": "Quelle: Städtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+  },
+  "tooltip": {
+    "useHTML": true
   },
   "exporting": {
     "filename": "22411"

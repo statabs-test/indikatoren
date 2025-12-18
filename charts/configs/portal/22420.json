@@ -113,13 +113,14 @@
     "text": "Anteil der Freiflächen an den Arealentwicklungsflächen"
   },
   "subtitle": {
-    "text": "Stadt Basel",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
+    },
+    "useHTML": true
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -169,6 +170,10 @@
       "y": -25
     },
     "text": "Quelle: Städtebau & Architektur Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "useHTML": true
   },
   "exporting": {
     "filename": "22420"
