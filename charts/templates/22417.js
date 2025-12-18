@@ -1,5 +1,8 @@
 (function () {
   return {
+    xAxis:{
+      type: "category"
+    },
     "yAxis": [{
 //      tickAmount: 6,   
   //    max: 75000,   
@@ -78,6 +81,8 @@
 
     ],
     "tooltip": {
+      useHTML:true,
+      outside: true
       //"shared": true
     },
     "chart": {
