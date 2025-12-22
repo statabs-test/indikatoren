@@ -52,14 +52,37 @@
     "xAxis": {
       "tickInterval": 1
     },
-    "legend": {
+  "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       align: "right",
-      width: 240,
       alignColumns: true,
       useHTML: true,
+      y: -50,
+      x: 0,
+      itemMarginBottom: 5,
+      width: 240,
+      itemWidth: 80,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      },
+      labelFormatter: function () {
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
+        //return this.name.slice(-4); //return last 4 letters
+        return this.name.split(" ").pop().replace('Basel', 'Stadt Basel').replace('Kleinhüningen', 'Kleinh.'); //return only last word of legend-title
+      },
+      title: {
+        text: 'PW pro Haushalt:<br/>Motorisierungsgrad (rechte Skala):',
+        style: {
+          fontWeight: 'normal',
+          lineHeight: 1.7
+        }
+      }
+    },
+/* 
+    "legend": {
       y: -50,
       x: 0,
       itemMarginBottom: 5,
@@ -77,7 +100,7 @@
           lineHeight: 1.7
         }
       }
-    },
+    }, */
     "series": [
       {
        //Klybeck
