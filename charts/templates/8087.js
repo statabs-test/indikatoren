@@ -81,26 +81,10 @@
         }
       }
     },
-/* 
-    "legend": {
-      y: -50,
-      x: 0,
-      itemMarginBottom: 5,
-      itemWidth: 75,
-      labelFormatter: function () {
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
-        //return this.name.slice(-4); //return last 4 letters
-         var tmp = this.name.split(" ").slice(-1).toString(); //return only last word of legend-title
-         return tmp.replace('Kleinhüningen', 'Kleinh.');
-      },
-      title: {
-        text: 'Personenwagen pro Haushalt:<br/>Motorisierungsgrad (rechte Skala):',
-        style: {
-          fontWeight: 'normal',
-          lineHeight: 1.7
-        }
-      }
-    }, */
+    tooltip:{
+      outside:true,
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>'
+    },
     "series": [
       {
        //Klybeck
@@ -108,7 +92,7 @@
         "index": 0,
         legendIndex: 0,
         "type": "column",
-       // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
+        //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
         },
       {
         "color": "#7f5f1a",
@@ -116,7 +100,7 @@
         legendIndex: 3,
         "type": "line",
         "yAxis": 1,
-       // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
+        //tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
       },
       {
         //Kleinhüningen
