@@ -27,8 +27,8 @@
       "align": "left",
     },
     tooltip: {
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>'+
-                     '<span style="color:transparent">\u25CF</span> Total Kronenbedeckung: <b>{point.stackTotal:,.2f}%</b>',
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>'+
+                     '<span style="color:transparent">\u25CF</span> Total Kronenbedeckung: <b>{point.stackTotal:,.1f}%</b>',
       "shared": false
     },
     "series": [
