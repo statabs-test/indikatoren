@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
+      "color": "#689199",
       "data": [
         [
           "0-4",
@@ -91,7 +91,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "width": 485,
@@ -128,6 +129,7 @@
     },
     "type": "column",
     "inverted": true,
+    "marginRight": 30,
     "renderTo": "container-6019",
     "spacingBottom": 40
   },
@@ -174,7 +176,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
     "min": -1000,
     "max": 10000,
@@ -214,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.5.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
