@@ -17,13 +17,22 @@
         "color": "#cd9c00"
       },
       {
-        "color": "#7f5f1a",
+        "color": "#cd9c00",
+        dashStyle: "ShortDash"
       },
       {
         "color": "#b375ab"
       },
       {
-        "color": "#923f8d",
+        "color": "#b375ab",
+        dashStyle: "ShortDash"
+      },
+      {
+        "color": "#999"
+      },
+      {
+        "color": "#999",
+        dashStyle: "ShortDash"
       },
     ],
     "legend": {
