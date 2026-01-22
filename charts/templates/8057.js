@@ -28,11 +28,13 @@
         dashStyle: "ShortDash"
       },
       {
-        "color": "#999"
+        "color": "#999",
+        visible: false
       },
       {
         "color": "#999",
-        dashStyle: "ShortDash"
+        dashStyle: "ShortDash",
+        visible: false
       },
     ],
     "legend": {
