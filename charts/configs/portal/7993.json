@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          187788
+          194128
         ],
         [
           "Bern",
-          193347
+          197299
         ],
         [
           "Genf",
-          187783
+          193131
         ],
         [
           "Lausanne",
-          127489
+          130904
         ],
         [
           "Zürich",
-          514995
+          536980
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          190460
+          194944
         ],
         [
           "Bern",
-          138245
+          139384
         ],
         [
           "Genf",
-          227586
+          237548
         ],
         [
           "Lausanne",
-          159454
+          163392
         ],
         [
           "Zürich",
-          509478
+          522362
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          73595
+          74175
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          27966
+          28110
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          94584
+          93792
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Beschäftigte"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
