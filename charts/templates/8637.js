@@ -6,7 +6,7 @@
     plotOptions: {
       series: {
         "stacking": "normal",
-        "pointWidth": "10",
+        //"pointWidth": "5",
           //pointPadding: 0,
         //groupPadding: 0.5, // exaclty overlaps columns
       }

@@ -96,7 +96,7 @@
     },
     "yAxis": {
       tickInterval: 0.1,
-      max: 0.7,
+      max: 0.8,
       "labels": {
         y: 12,
         "formatter": function () {

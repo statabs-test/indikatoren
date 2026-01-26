@@ -3,15 +3,16 @@
     "chart": {
       "type": "column",
       spacingTop: 5,
-      spacingBottom: 5
+      spacingBottom: -55
       //spacing: [5, 2, -30, 2],
       //width: 665
     },
     "plotOptions": {
       "series": {
         //pointPadding: 100,
+        groupPadding: 0.04,
         borderWidth: 0,
-        "pointWidth": 10,
+       // "pointWidth": 10,
         "stacking": "normal"
       }
     },
@@ -21,8 +22,8 @@
       labels: {
         step: 1,
         rotation: -90,
-        //align: "left",
-        y: 10,
+        "align": "left",
+        y: 70,
         formatter: function () {
           return this.value.replace('Kleinhüningen', 'Kleinh.');
         }
