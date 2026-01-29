@@ -1,5 +1,23 @@
 (function () {
   return {
+    chart: {
+      events: {
+        load: function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(": ").slice(0, 1).toString()
+                + ':<br>'
+                + this.series[4].name.split(": ").slice(0, 1).toString()
+                + ':<br>'
+                + this.series[8].name.split(": ").slice(0, 1).toString()
+                + ':'
+            })
+            .translate(-70, 28); //move -140 to the left and 8 down
+        }
+      }
+    },
     "xAxis": {
       tickInterval: 1
     },
@@ -15,12 +33,33 @@
     },
     "series": [
       {
-        "color": "#cd9c00"
+        "color": "#cd9c00", dashStyle: 'shortDash', legendIndex: 1
       },
       {
-        "color": "#b375ab",
-        visible: true,
+        "color": "#cd9c00", dashStyle: 'shortDot', legendIndex: 2 //7f5f1a
       },
+      {
+        "color": "#cd9c00", legendIndex: 3
+      },
+      {
+        "color": "#b375ab", dashStyle: 'shortDash', legendIndex: 4
+      },
+      {
+        "color": "#b375ab", dashStyle: 'shortDot', legendIndex: 5 //923f8d
+      },
+      {
+        "color": "#b375ab", legendIndex: 6
+      }
+      ,
+      {
+        "color": "#999", dashStyle: 'shortDash', legendIndex: 7, visible: true
+      },
+      {
+        "color": "#999", dashStyle: 'shortDot', legendIndex: 8, visible: true
+      },
+      {
+        "color": "#999", legendIndex: 9, visible: true
+      }
     ],
     "legend": {
       "enabled": true,
@@ -28,9 +67,20 @@
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
-      "itemStyle": {
-        "fontWeight": "normal"
-      }
+      width: 300,
+      x: 105,
+      y: -35,
+      title: {
+        text: '-<br>-', //pro <br> in chart.events.load ein <br> hier als Platzhalter, sonst springt die Legende beim anklicken
+        style: {
+          fontWeight: 'normal',
+          fontSize: '7pt',
+          lineHeight: 16
+        }
+      },
+      labelFormatter: function () {
+        return this.name.split(": ").pop();  //holt z.B. '2015' aus '2015 Wöchentlich'
+      },
     },
     "plotOptions": {
       "line": {

@@ -1,18 +1,10 @@
-/*
+    /*
     global Highcharts
 */
 
 (function () {
     return {
         data: {
-            "seriesMapping": [
-                {
-                    x: 0, y: 2
-                },
-                {
-                    x: 0, y: 4
-                }
-            ],
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
                 var negateNumbersInColumn = function (columnIndex) {
@@ -26,14 +18,14 @@
                         }
                     });
                 };
-                negateNumbersInColumn(2);
+                negateNumbersInColumn(1);
                 //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
         yAxis: [{
             max: 400,
             tickInterval: 100,
-            min: 0,
+            //min: 0,
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             title: {
@@ -125,14 +117,8 @@
             //"y": 55,
             //"x": 2000,
             //"itemWidth": 90,
-            labelFormatter: function () {
-                return this.name.replace('Kleinhüningen', 'Kleinh.');
-            }
-
         },
         "chart": {
-            //marginRight: 15,
-            //marginBottom: 70,
             events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
                 load: function () {
                     this.credits.element.onclick = function () { };

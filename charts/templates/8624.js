@@ -23,9 +23,9 @@
       }
     },
     "yAxis": {
-      "tickInterval": 20,
-      max: 150,
-      //min: -200,
+      tickInterval: 50,
+      max: 200,
+      min: -100,
       plotLines: [{
         color: '#B9CFD7',
         value: 0, 
