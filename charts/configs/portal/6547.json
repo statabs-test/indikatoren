@@ -37,11 +37,11 @@
         ],
         [
           2024,
-          "143.3295749     119.7472276"
+          143.3295749
         ],
         [
           2025,
-          null
+          154.4247112
         ]
       ],
       "name": "Inland"
@@ -83,11 +83,11 @@
         ],
         [
           2024,
-          undefined
+          119.7472276
         ],
         [
           2025,
-          undefined
+          130.5048424
         ]
       ],
       "name": "Ausland"
@@ -148,7 +148,7 @@
     "text": "Logiernächte nach Herkunft der Gäste"
   },
   "subtitle": {
-    "text": "indexiert (2015 = 100), Basel-Stadt",
+    "text": "indexiert (2016 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",

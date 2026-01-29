@@ -32,26 +32,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          undefined
+          63.456164384
         ],
         [
           "3-Sterne",
-          undefined
+          65.460665362
         ],
         [
           "4- und 5-Sterne",
-          undefined
+          95.836193223
         ],
         [
           "Nicht klassiert",
-          undefined
+          41.781004566
         ],
         [
           "Total",
-          undefined
+          68.728984562
         ]
       ],
-      "name": "2025    63.456164384    65.460665362    95.836193223    41.781004566    68.728984562",
+      "name": "2025",
       "turboThreshold": 0
     },
     {
@@ -68,23 +68,23 @@
       "data": [
         [
           "1- und 2-Sterne",
-          "69.852884240    64.575559945    95.058788269    33.485933022    68.342325805"
+          69.85288424
         ],
         [
           "3-Sterne",
-          undefined
+          64.575559945
         ],
         [
           "4- und 5-Sterne",
-          undefined
+          95.058788269
         ],
         [
           "Nicht klassiert",
-          undefined
+          33.485933022
         ],
         [
           "Total",
-          undefined
+          68.342325805
         ]
       ],
       "name": "Ø 2016-2025",

@@ -24,16 +24,16 @@
           52631
         ],
         [
-          "Niederlande",
-          26061
-        ],
-        [
           "Italien",
           48749
         ],
         [
           "Spanien",
           27206
+        ],
+        [
+          "Niederlande",
+          26061
         ],
         [
           "Indien",
@@ -56,50 +56,50 @@
       "data": [
         [
           "Schweiz",
-          582199
+          627267
         ],
         [
           "Deutschland",
-          203190
+          224286
         ],
         [
           "Vereinigte Staaten",
-          158901
+          157617
         ],
         [
           "Vereinigtes Königreich",
-          82742
+          101493
         ],
         [
           "Frankreich",
-          54234
-        ],
-        [
-          "Niederlande",
-          46553
+          58879
         ],
         [
           "Italien",
-          40804
+          51864
         ],
         [
           "Spanien",
-          37310
+          45631
+        ],
+        [
+          "Niederlande",
+          43391
         ],
         [
           "Indien",
-          19879
+          20206
         ],
         [
           "VR China",
-          21579
+          18868
         ],
         [
           "Übrige Länder",
-          306534
+          336787
         ]
       ],
-      "name": "Logiernächte 2024",
+      "name": "Logiernächte 2025",
       "turboThreshold": 0
     },
     {
@@ -133,16 +133,16 @@
           0.0432224637568091
         ],
         [
-          "Niederlande",
-          0.0214022273558587
-        ],
-        [
           "Italien",
           0.0400344262066213
         ],
         [
           "Spanien",
           0.0223425423983536
+        ],
+        [
+          "Niederlande",
+          0.0214022273558587
         ],
         [
           "Indien",
@@ -172,50 +172,50 @@
       "data": [
         [
           "Schweiz",
-          0.374663513361327
+          0.371980722165655
         ],
         [
           "Deutschland",
-          0.130759206525411
+          0.133005671032664
         ],
         [
           "Vereinigte Staaten",
-          0.102257830976398
+          0.09346974332395
         ],
         [
           "Vereinigtes Königreich",
-          0.053247100085268
+          0.060187192112384
         ],
         [
           "Frankreich",
-          0.0349012983252087
-        ],
-        [
-          "Niederlande",
-          0.0299583313222968
+          0.034916316242352
         ],
         [
           "Italien",
-          0.026258667567611
+          0.030756293849987
         ],
         [
           "Spanien",
-          0.0240101678008913
+          0.027060011658737
+        ],
+        [
+          "Niederlande",
+          0.025731650980348
         ],
         [
           "Indien",
-          0.0127927667036697
+          0.011982524940861
         ],
         [
           "VR China",
-          0.0138867705970365
+          0.011189066642788
         ],
         [
           "Übrige Länder",
-          0.197264346734881
+          0.199720807050274
         ]
       ],
-      "name": "Marktanteile (rechte Skala) 2024",
+      "name": "Marktanteile (rechte Skala) 2025",
       "turboThreshold": 0
     }
   ],

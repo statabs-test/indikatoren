@@ -360,12 +360,12 @@
           64
         ],
         [
-          202464,
-          9291
+          2024,
+          64
         ],
         [
-          2025638687,
-          undefined
+          2025,
+          63
         ]
       ],
       "name": "Geöffnete Betriebe"
@@ -731,12 +731,12 @@
           9397
         ],
         [
-          202464,
-          undefined
+          2024,
+          9291
         ],
         [
-          2025638687,
-          undefined
+          2025,
+          9493
         ]
       ],
       "name": "Verfügbare Betten (rechte Skala)"
@@ -822,7 +822,7 @@
       "step": 1,
       "formatter": function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 10 == 0){
           return this.value;
         }
       }

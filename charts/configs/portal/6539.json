@@ -5,19 +5,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          72314731726208
+          723
         ],
         [
           "3-Sterne",
-          undefined
+          1473
         ],
         [
           "4- und 5-Sterne",
-          undefined
+          1726
         ],
         [
           "Nicht klassiert",
-          undefined
+          208
         ]
       ],
       "name": "Verfügbare Zimmer 2016",
@@ -28,19 +28,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          50813751821627
+          555
         ],
         [
           "3-Sterne",
-          undefined
+          1496
         ],
         [
           "4- und 5-Sterne",
-          undefined
+          1990
         ],
         [
           "Nicht klassiert",
-          undefined
+          685
         ]
       ],
       "name": "Verfügbare Zimmer 2025",
@@ -58,22 +58,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          undefined
+          0.505207997
         ],
         [
           "3-Sterne",
-          undefined
+          0.650162662
         ],
         [
           "4- und 5-Sterne",
-          undefined
+          0.650075192
         ],
         [
           "Nicht klassiert",
-          undefined
+          0.467044333
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2016   0.505207997 0.650162662 0.650075192 0.467044333",
+      "name": "Nettozimmerauslastung (rechte Skala) 2016",
       "turboThreshold": 0
     },
     {
@@ -88,22 +88,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          undefined
+          0.613269641
         ],
         [
           "3-Sterne",
-          undefined
+          0.641010388
         ],
         [
           "4- und 5-Sterne",
-          undefined
+          0.683086435
         ],
         [
           "Nicht klassiert",
-          undefined
+          0.591931558
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2025   0.607294363 0.636305146 0.678746931 0.580422685",
+      "name": "Nettozimmerauslastung (rechte Skala) 2025",
       "turboThreshold": 0
     }
   ],
