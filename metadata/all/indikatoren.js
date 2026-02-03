@@ -45625,6 +45625,167 @@ var indikatoren = [
 		"id": 7455
 	},
 	{
+		"template": "template001",
+		"data-id": 7465,
+		"chart-id": 7465,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7498
+		],
+		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
+		"lesehilfe": "Iim Jahr 2023 sind in der Branche Wach- und Sicherheitsdienste (NOGA 80) rund 1 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2014 einen Zuwachs von rund 310 VZÄ verzeichnen (+43%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.07465",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.1.1",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_101",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:02",
+		"id": 7465
+	},
+	{
+		"template": "line001",
+		"data-id": 7466,
+		"chart-id": 7466,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7499
+		],
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Ende 2025 sind rund 40 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 11,4%.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.07466",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.1.2",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_102",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:03",
+		"id": 7466
+	},
+	{
+		"template": "template001",
+		"data-id": 7467,
+		"chart-id": 7467,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7500
+		],
+		"title": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 3. Quartal 2025 liegt sie bei 2 173 Personen. Die Meldepflichtigen machen im 3. Quartal 2025 in Vollzeitäquivalente umgerechnet 40 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.07467",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.1.3",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_103",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:04",
+		"id": 7467
+	},
+	{
+		"template": "template001",
+		"data-id": 7468,
+		"chart-id": 7468,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7501
+		],
+		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2022 bei rund 4 700 Franken brutto. Der Wert für die gesamte Schweiz beträgt in der gleichen Branche rund 5 000 Franken brutto.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.07468",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.1.4",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_104",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2023-04-20T08:19:06",
+		"id": 7468
+	},
+	{
 		"template": "template001_print",
 		"data-id": 7478,
 		"chart-id": 7478,
