@@ -49,7 +49,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittliche Betriebsgrösse",
 		"subtitle": "in Zimmern, Basel-Stadt",
-		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2025 im Durchschnitt 96 Zimmer an, 3-Sterne-Häuser 65 Zimmer und 1- bis 2-Sterne-Betriebe 63 Zimmer.",
+		"lesehilfe": "Betriebe mit 4 und 5 Sternen boten 2025 im Durchschnitt 105 Zimmer an, 3-Sterne-Häuser 71 Zimmer und 1- bis 2-Sterne-Betriebe 69 Zimmer.",
 		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2015 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -88,7 +88,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Zimmer und Auslastung nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2025 standen den Gästen der baselstädtischen Hotellerie insgesamt 4 690 Zimmer zur Verfügung. Davon entfielen 1 990 Zimmer auf Betriebe mit 4 und 5 Sternen, 1 496 Zimmer auf die Kategorie der 3-Sterne-Hotels, 555 auf 1- und 2-Sterne-Hotels sowie 685 auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben nahm die Nettozimmerauslastung von 2016 bis 2025 um 12,5 Prozentpunkte zu. Bei den 1- und 2-Sterne-Betrieben stieg die Nettozimmerauslastung über denselben Zeitraum um 10,8 Prozentpunkte, bei den 4- und 5-Sterne-Betrieben stieg sie um 3,3 Prozentpunkte. Bei den 3-Sterne-Hotels sank diese leicht. Über alle Kategorien betrachtet waren die Zimmer 2025 zu 64,8% ausgelastet.",
+		"lesehilfe": "2025 standen den Gästen der baselstädtischen Hotellerie insgesamt 4 726 Zimmer zur Verfügung. Davon entfielen 1 990 Zimmer auf Betriebe mit 4 und 5 Sternen, 1 496 Zimmer auf die Kategorie der 3-Sterne-Hotels, 555 auf 1- und 2-Sterne-Hotels sowie 685 auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben nahm die Nettozimmerauslastung von 2016 bis 2025 um 12,5 Prozentpunkte zu. Bei den 1- und 2-Sterne-Betrieben stieg die Nettozimmerauslastung über denselben Zeitraum um 10,8 Prozentpunkte, bei den 4- und 5-Sterne-Betrieben stieg sie um 3,3 Prozentpunkte. Bei den 3-Sterne-Hotels sank diese leicht. Über alle Kategorien betrachtet waren die Zimmer 2025 zu 64,8% ausgelastet.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des Bundesamtes für Statistik (BFS) angeglichen. Für den Jahresvergleich wurde die Berechnung für 2015 rückwirkend angepasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -205,7 +205,7 @@ var indikatorensetData = [
 		],
 		"title": "Verfügbare Betten nach Hotelkategorie",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2025 standen den Gästen in den baselstädtischen Hotels insgesamt 9 493 Betten zur Verfügung. Gegenüber 2024 bedeutet dies eine Zunahme um 2,2% bzw. 202  Betten. Von den im Jahr 2025 verfügbaren Betten entfielen 3 887 auf Betriebe mit 4 und 5 Sternen, 2 944 auf die 3-Sterne-Hotels.",
+		"lesehilfe": "2025 standen den Gästen in den baselstädtischen Hotels insgesamt 9 494 Betten zur Verfügung. Gegenüber 2024 bedeutet dies eine Zunahme um 2,2% bzw. 202  Betten. Von den im Jahr 2025 verfügbaren Betten entfielen 3 887 auf Betriebe mit 4 und 5 Sternen, 2 944 auf die 3-Sterne-Hotels.",
 		"erlaeuterungen": "Seit 2016 werden in den Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. 2019 wurde die Berechnung der Anzahl verfügbarer Betten an die Methodik des Bundesamtes für Statistik (BFS) angeglichen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
