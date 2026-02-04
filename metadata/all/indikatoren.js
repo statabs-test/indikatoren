@@ -45660,7 +45660,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"aktualisierungsdatum": "2023-04-20T08:19:02",
 		"id": 7465
 	},

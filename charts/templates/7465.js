@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-     // "pointWidth": 25,
+      "pointWidth": 18,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -26,7 +26,7 @@
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false,
+    "shared": true,
     valueDecimals: 0
   },  
   "legend": {
@@ -36,8 +36,7 @@
     "align": "right",
     "itemStyle": {
       textOverflow: null,
-      width: 180,
-      "fontWeight": "normal"
+      width: 140
     }
   },
   "series": [
