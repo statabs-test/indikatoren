@@ -2895,7 +2895,7 @@ var indikatorensetData = [
 		"orderKey": "03_01_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"datenInChartIntegriert": true,
+		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2023-04-20T08:19:02",
 		"id": 7465
 	},

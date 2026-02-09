@@ -93,7 +93,7 @@
           34.7
         ]
       ],
-      "name": "Sicherheitsdienste mithilfe von Überwachungs-\u003Cbr\u003EAlarmsystemen",
+      "name": "Sicherheitsdienste\u003Cbr\u003Emithilfe von\u003Cbr\u003EÜberwachungs-\u003Cbr\u003EAlarmsystemen",
       "turboThreshold": 0
     },
     {
@@ -208,6 +208,7 @@
           "fontSize": "10px"
         }
       },
+      "pointWidth": 18,
       "stacking": "normal"
     }
   },
@@ -254,7 +255,7 @@
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null,
-      "width": 180
+      "width": 140
     },
     "layout": "vertical",
     "verticalAlign": "middle",
@@ -284,7 +285,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false,
+    "shared": true,
     "valueDecimals": 0
   },
   "exporting": {
