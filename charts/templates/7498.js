@@ -23,7 +23,7 @@
   }
 },
   "yAxis": {
-    tickAmount: 10,
+    tickAmount: 7,
     "labels": {
       "format": "{value:,.0f}"
     },
