@@ -5,14 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2012",
-          null
-        ],
-        [
-          "2014",
-          null
-        ],
-        [
           "2016",
           4667
         ],
@@ -29,39 +21,7 @@
           4670
         ]
       ],
-      "name": "Monatlicher Bruttolohn Nordwestschweiz",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#662673",
-      "visible": true,
-      "data": [
-        [
-          "2012",
-          5333
-        ],
-        [
-          "2014",
-          5189
-        ],
-        [
-          "2016",
-          5275
-        ],
-        [
-          "2018",
-          5051
-        ],
-        [
-          "2020",
-          5055
-        ],
-        [
-          "2022",
-          5049
-        ]
-      ],
-      "name": "Monatlicher Bruttolohn Schweiz",
+      "name": "Monatlicher Bruttolohn",
       "turboThreshold": 0
     }
   ],
@@ -175,7 +135,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

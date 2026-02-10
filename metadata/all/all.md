@@ -2017,10 +2017,10 @@ id | visible | visibleInPortal | indikatorenset
 9208 | true | false | City-Statistics (Print)
 9209 | true | false | City-Statistics (Print)
 9210 | false |  | City-Statistics (Print)
-9219 | true | false | Arbeitsmarkt
-9220 | true | false | Arbeitsmarkt
-9221 | true | false | Arbeitsmarkt
-9222 | true | true | Arbeitsmarkt
+9219 | false |  | Arbeitsmarkt
+9220 | false |  | Arbeitsmarkt
+9221 | false |  | Arbeitsmarkt
+9222 | false |  | Arbeitsmarkt
 9223 | false |  | Arbeitsmarkt
 9224 | false |  | Arbeitsmarkt
 9225 | false |  | Arbeitsmarkt
