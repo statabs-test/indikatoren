@@ -11,12 +11,12 @@
       "stacking": "normal"
     }
   },
-  "xAxis": {
-    "type": "category",  
-    "labels": {
-      rotation: 0
+  xAxis: {
+  type: "category", /* ausprobieren, ob "category" oder nicht - hat Auswirkung auf den Abstand der letzten Jahreszahl zu rechten Rand */
+ "labels": {
+     rotation: 0
     }
-  },  
+},
   "yAxis": {
     tickAmount: 10,
     "labels": {
