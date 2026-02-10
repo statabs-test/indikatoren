@@ -12,7 +12,7 @@
       "type": "category"
     },
     "yAxis": {
-      tickAmount: 9,
+      tickAmount: 7,
       "labels": {
         "format": "{value:,.0f}"
       }
