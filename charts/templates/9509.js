@@ -12,8 +12,8 @@
     },
     "min": 0,
     "max": undefined,
-    tickAmount: 5,
-    tickInterval: 0.02,
+    tickAmount: 6,
+    tickInterval: 0.01,
     "title": "", 
   },
   {
