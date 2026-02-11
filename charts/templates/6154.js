@@ -31,11 +31,16 @@
       "enabled": true,
       "x": 30,
       //"y": 35,
-      "itemWidth": 200,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
       "align": "left",
+      itemWidth: 200,
+      //width: 220,
+      itemStyle: {
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+      }
     },
     "plotOptions": {
       "line": {
