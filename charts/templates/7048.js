@@ -21,7 +21,7 @@
             .replace("Verkehr, Lagerei, Kommunikation", "Verkehr, Lagerei,<br/>Kommunikation")
             .replace("Gastgewerbe", "Gastgewerbe")
             .replace("Finanz-, Versicherungs-DL", "Finanz- und<br/>Versicherungs-DL")
-            .replace("Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL", "Beratung, Planung, <br/>Forschung, Immob.,<br/>IT, sonst. DL")
+            .replace("Beratung, Planung, Forschung, Immobilien, IT, sonstige DL", "Beratung, Planung, <br/>Forschung, Immob.,<br/>IT, sonst. DL")
             .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
             .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, <br/>Sozialversicherungen")
             .replace("Erziehung, Unterricht", "Erziehung, Unterricht")

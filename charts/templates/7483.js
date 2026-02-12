@@ -42,7 +42,7 @@
       },
       "min": 0,
       "max": undefined,
-      tickAmount: 7,
+      tickAmount: 5,
       tickInterval: 50,
       "gridLineWidth": 0,
       "opposite": true

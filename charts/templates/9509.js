@@ -32,7 +32,7 @@
     },
     "min": 0,
     "max": undefined,
-    tickAmount: 5,
+    tickAmount: 6,
     tickInterval: 20,
     "gridLineWidth": 0,
     "opposite": true
