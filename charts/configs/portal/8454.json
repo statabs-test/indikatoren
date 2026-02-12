@@ -68,6 +68,7 @@
     },
     {
       "color": "#dc440e",
+      "visible": true,
       "data": [
         [
           2010,
@@ -134,6 +135,7 @@
     },
     {
       "color": "#b00000",
+      "visible": true,
       "data": [
         [
           2010,
@@ -200,6 +202,7 @@
     },
     {
       "color": "#661200",
+      "visible": true,
       "data": [
         [
           2010,
@@ -266,6 +269,7 @@
     },
     {
       "color": "#672773",
+      "visible": true,
       "data": [
         [
           2010,
@@ -329,6 +333,73 @@
         ]
       ],
       "name": "Fussgänger"
+    },
+    {
+      "color": "#999999",
+      "dashStyle": "ShortDash",
+      "data": [
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          undefined
+        ],
+        [
+          2019,
+          undefined
+        ],
+        [
+          2020,
+          undefined
+        ],
+        [
+          2021,
+          undefined
+        ],
+        [
+          2022,
+          undefined
+        ],
+        [
+          2023,
+          undefined
+        ],
+        [
+          2024,
+          undefined
+        ]
+      ],
+      "name": "undefined"
     }
   ],
   "chart": {
@@ -447,11 +518,13 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "x": 30,
-    "itemWidth": 200,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemWidth": 200
   },
   "credits": {
     "enabled": true,
