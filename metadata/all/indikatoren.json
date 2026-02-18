@@ -42977,7 +42977,7 @@
 		"children": [],
 		"title": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton",
 		"subtitle": "in Franken",
-		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2024 beträgt es rund 217  000 Franken. Dies sind 26,0% mehr als 2015. Gegenüber 2023 ist ein Anstieg um 2,8% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2023 rund 92 000 Franken.",
+		"lesehilfe": "Basel-Stadt weist mit Abstand das höchste nominale BIP pro Kopf auf. Im Jahr 2024 beträgt es rund 217  000 Franken. Dies sind 26,0% mehr als 2015. Gegenüber 2023 ist ein Anstieg um 2,8% zu verzeichnen. Der Schweizer Durchschnitt beträgt 2024 rund 92 000 Franken.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"quellenangabe": [
 			"BAK Economics"
@@ -43170,7 +43170,7 @@
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die Jugendarbeitslosenquote in Basel-Stadt liegt Ende 2025 mit 4,9% über dem Niveau von Ende 2024 (4,3%) sowie über der durchschnittlichen Quote (4,6%). Die Quote der Personen ab 50 ist Ende 2025 mit 3,9% deutlich unter dem Durchschnitt, jedoch höher als zwölf Monate zuvor.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. Aufgrund einer Änderung im Erfassungssystem zeigen die Zahlen für Dezember 2025 nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
@@ -43321,7 +43321,7 @@
 		"children": [],
 		"title": "Arbeitslose im Dienstleistungssektor (I)",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2025 liegt die Arbeitslosenzahl in der Branche Handel, Reparatur (465), im Gastgewerbe (350) sowie im Bereich Information, Kommunikation (201) deutlich höher als Ende 2024, während sie im  und im Bereich Verkehr und Lagerei (205) nur leicht gestiegen ist.",
+		"lesehilfe": "Ende 2025 liegt die Arbeitslosenzahl in der Branche Handel, Reparatur (465), im Gastgewerbe (350) sowie im Bereich Information, Kommunikation (201) deutlich höher als Ende 2024. Im Bereich Verkehr und Lagerei (205) ist sie nur leicht gestiegen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Abgebildet sind Monatswerte.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -43778,7 +43778,7 @@
 		"children": [],
 		"title": "Meldepflichtige nach Einsatzkanton",
 		"subtitle": "Anzahl Personen",
-		"lesehilfe": "Die Anzahl Meldepflichtiger in Basel-Stadt ist im Jahr 2025 rückläufig. Im ersten Quartal 2025 lag sie bei 4 638 Personen und damit rund 400 Personen weniger als im ein Jahr zuvorl. In den Kantonen Zürich und Aargau nehmen die Meldepflichtigenzahlen hingegen seit Jahren tendentiell zu und haben das Nvieau vor der Pandemie überholt.",
+		"lesehilfe": "Die Anzahl Meldepflichtiger in Basel-Stadt ist im Jahr 2025 rückläufig. Im ersten Quartal 2025 lag sie bei 4 638 Personen und damit rund 400 Personen weniger als ein Jahr zuvor. In den Kantonen Zürich und Aargau nehmen die Meldepflichtigenzahlen hingegen seit Jahren tendenziell zu und haben das Niveau vor der Pandemie überholt.",
 		"erlaeuterungen": "Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -44387,7 +44387,7 @@
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die mittlere Arbeitslosenquote über alle Branchen ist von 3,0% im Jahr 2023 auf 4,3% im Jahr 2025 gestiegen. Am höchsten ist die Quote im Jahr 2025 in den Branchen Gastgewerbe (10,5%) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (10,1%). Mit 9,6% ist die Quote im Baugewerbe tiefer als in den Vorjahren. Gestiegen ist hingegen die Quote im Bereich Information, Kommunikation (7,0%).",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist (Quelle: BFS, Strukturerhebung, Pooling 2021-2023). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen, da die Anzahl Erwerbspersonen nach Branche nicht vorliegt (Quelle: BFS, Strukturerhebung, Pooling 2021-2023). Für das Total werden die Erwerbspersonen ebenfalls gemäss Strukturerhebung verwendet, weshalb die Arbeitslosenquote leicht von derjenigen des SECO abweichen kann.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -44464,7 +44464,7 @@
 		"children": [],
 		"title": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zuwanderung von Erwerbstätigen im Verhältnis zur Beschäftigung lag 2025 wie im Vorjahr bei 3,6%. Sie war in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, sonstige Dienstleistungen (8,9%, inkl. Gebäudereinigung und Personalvermittlung) sowie der Branche Chemie und Pharma (5,8%) am höchsten.",
+		"lesehilfe": "Die Zuwanderung von Erwerbstätigen im Verhältnis zur Beschäftigung lag 2025 wie im Vorjahr bei 3,6%. Sie war in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, sonstige Dienstleistungen, inkl. Gebäudereinigung und Personalvermittlung (8,9%) sowie der Branche Chemie und Pharma (5,8%) am höchsten.",
 		"erlaeuterungen": "In Basel-Stadt zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung) im Verhältnis zu den Beschäftigten (besetzte Stellen) im Kanton Basel-Stadt (Beschäftigungsstand: 2023). Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -44502,7 +44502,7 @@
 		"children": [],
 		"title": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Meldepflichtigen (bis zu 90 Tage angemeldet) pro Beschäftigten betrug 2025 0,9%, ähnlich viel wie in den beiden Vorjahren (1,0%). Die Bedeutung der Meldepflichtigen in der Personalvermittlung und -überlassung ist mit 5,2% der Beschäftigung im Jahr 2025 im Branchenvergleich gross, aber kleiner als in den Vorjahren. Zwischen 2% und 3% liegt die Zahl der Meldepflichtigen pro Beschäftigten im Baugewerbe, im Gastgewerbe sowie im Bereich Kultur, Unterhaltung, persönliche Dienstleistungen.",
+		"lesehilfe": "Der Anteil der Meldepflichtigen (bis zu 90 Tage angemeldet) an den Beschäftigten betrug 2025 0,9%, ähnlich viel wie in den beiden Vorjahren (1,0%). Die Bedeutung der Meldepflichtigen in der Personalvermittlung und -überlassung ist mit 5,2% an den Beschäftigten im Jahr 2025 im Branchenvergleich gross, aber kleiner als in den Vorjahren. Zwischen 2% und 3% liegt der Anteil der Meldepflichtigen an den Beschäftigten im Baugewerbe, im Gastgewerbe sowie im Bereich Kultur, Unterhaltung, persönliche Dienstleistungen.",
 		"erlaeuterungen": "Die Abbildung zeigt die Zahl der Meldepflichtigen in Vollzeitäquivalente umgerechnet im Vergleich zu den Beschäftigten, ebenfalls in Vollzeitäquivalenten (Beschäftigungsstand: 2023). Als Meldepflichtige gelten Personen mit Wohnsitz im EU/EFTA-Raum (inkl. UK), die sich bei der zuständigen Behörde für die Ausübung einer Erwerbstätigkeit in der Schweiz für bis zu 90 Tage pro Kalenderjahr gemeldet haben. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen.",
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
@@ -84257,7 +84257,7 @@
 		"children": [],
 		"title": "Beschäftigung in der Branche Gebäudebetreuung, Garten- und Landschaftsbau",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In der Branche Gebäudebetreuung, Garten- und Landschaftsbau (NOGA 81) sind in Basel-Stadt im Jahr 2023 in Vollzeitäquivalente (VZÄ) umgerechnet rund 2 900 Beschäftigte tätig. Diese Beschäftigten teilen sich auf die Bereiche Reinigung von Gebäuden, Strassen und Verkehrsmitteln (2 000 VZÄ), Hausmeisterdienste (700 VZÄ) sowie Garten- und Landschaftsbau und sonstige gärtnerische Dienstleistungen (200 VZÄ) auf. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ gesunken.",
+		"lesehilfe": "In der Branche Gebäudebetreuung, Garten- und Landschaftsbau (NOGA 81) sind in Basel-Stadt im Jahr 2023 in Vollzeitäquivalente (VZÄ) umgerechnet rund 2 900 Beschäftigte tätig. Diese Beschäftigten teilen sich auf die Bereiche Reinigung von Gebäuden, Strassen und Verkehrsmitteln (2 000 VZÄ), Hausmeisterdienste (700 VZÄ) sowie Garten- und Landschaftsbau und sonstige gärtnerische Dienstleistungen (200 VZÄ) auf. Im Vergleich zum Vorjahr ist die Beschäftigung in VZÄ gesunken.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
