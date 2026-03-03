@@ -34,7 +34,7 @@
       { "color": "#e9aef4" },
     ],
     "legend": {
-      "enabled": false,
+      "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
