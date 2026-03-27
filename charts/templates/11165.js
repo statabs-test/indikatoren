@@ -57,8 +57,14 @@
 				connectorColor: '#cccccc',
 				connectorDistance: 20,
 				labels: {
-					format: '{value:.0f}'
-				}
+					format: '{value:.0f}',
+					formatter: function () {
+						if (this.index === 1 && this.isLast === false) {
+							return ""; // Text löschen
+						}
+						return this.value;
+					}
+				}				
 			}
 		},
 		"colorAxis": {

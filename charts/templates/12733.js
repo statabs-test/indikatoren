@@ -28,18 +28,6 @@
     xAxis: {
       //      type: "category",
     },
-    /*
-        tooltip: {
-          shared: true,
-          useHTML: true,
-          followPointer: true,
-          headerFormat: '<span style="font-size: 10px"> {point.key} </span><table>',
-          pointFormat: '<tr><td><span style="color:{series.color}">\u25CF</span> {series.name}: &nbsp;</td>'
-                + '<td style="text-align:right">&nbsp;<b>{point.y:,.0f} Plätze</b></td>'
-                + '<td style="text-align:right">&nbsp;({point.percentage:,.1f}%)</td></tr>',
-          footerFormat: '<tr><td>Total: </td><td><b>{point.total:,.0f} Plätze</b></td><td></td></tr></table>',
-            },
-        */
     legend: {
       itemWidth: 200,
       itemStyle: {

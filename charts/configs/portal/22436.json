@@ -191,10 +191,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegestunden Spitex der Spitex-Organisationen"
+    "text": "Anzahl Pflegestunden Spitex der Spitex-Anbieter ohne Leistungsauftrag"
   },
   "subtitle": {
-    "text": "ohne Leisungsauftrag (SOL)",
+    "text": "Spitex-Anbieter ohne Leistungsauftrag (SOL)",
     "align": "left",
     "style": {
       "fontSize": "12px",
