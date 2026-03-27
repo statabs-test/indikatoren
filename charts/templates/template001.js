@@ -7,7 +7,7 @@
             borderColor: "#ffffff",
             backgroundColor: "#ffffff",
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             zoomType: "xy",
             panning: true,

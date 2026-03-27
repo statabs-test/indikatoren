@@ -16,7 +16,7 @@
             "height": 415,
             "spacingBottom": 45,
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             "type": "map",
     		"inverted": false
@@ -25,7 +25,7 @@
             "style": {
                 "fontSize": "14px",
                 "fontWeight": "bold",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },        
             "align": "left"
@@ -34,7 +34,7 @@
             "style": {
                 "fontSize": "12px",
                 "fontWeight": "normal",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },
             "text": "",
@@ -528,7 +528,7 @@
                 	var label = 
     				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
-					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
+					 fontSize: "12px", fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif", fontWeight: 'normal', fontStyle: "normal"
                 	})    				
     				.attr({
     					zIndex: 6,

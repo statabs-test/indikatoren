@@ -22,7 +22,7 @@
             height: 208,
             spacing: [10, 2, 2, 2], /*top, right, bottom and left */
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             type: "bubble"
         },

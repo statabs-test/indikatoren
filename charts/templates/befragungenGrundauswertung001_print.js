@@ -25,7 +25,7 @@
             spacingBottom: 5,
             type: "column",
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             }
         },
         plotOptions: {

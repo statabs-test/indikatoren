@@ -12,7 +12,7 @@
             height: 415,        
             spacingBottom: 30,
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             zoomType: "xy",
             events: {
@@ -64,7 +64,7 @@
             style: {
                 fontSize: "12px",
                 fontWeight: "normal",
-                fontFamily: "Arial",
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 color: "#000000"
             },
             text: "",

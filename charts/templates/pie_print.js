@@ -7,7 +7,7 @@
     	"height": 208,  
         "spacingBottom": 30,
         "style": {
-            "fontFamily": "Arial"
+            "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
         },
         "zoomType": "xy",
         "events":{

@@ -14,7 +14,7 @@
         "height": 415,
         "spacingBottom": 45,    
     		"style": {
-    		  "fontFamily": "Arial"
+    		  "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     		},
     		"type": "pie"    
     	},
@@ -41,7 +41,7 @@
         "style": {
           "fontSize": '12px',
           "fontWeight": "normal",
-          "fontFamily": "Arial",
+          "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
           "color": "#000000"
         },
         "text": "",

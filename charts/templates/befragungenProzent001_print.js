@@ -33,7 +33,7 @@
     	"height": 208,  
         spacing: [2,2,2,2], /*top, right, bottom and left */
         "style": {
-			"fontFamily": "Arial",
+			"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 			"fontSize": "10px",
         },
         "zoomType": "xy",
@@ -144,7 +144,7 @@
         itemMarginBottom: 2,
         "itemStyle": {
         	"fontSize": "10px",
-        	fontFamily: "Arial",
+        	fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
             "fontWeight": "normal",
             "width": 95,
         },

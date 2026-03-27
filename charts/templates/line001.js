@@ -8,7 +8,7 @@
       borderColor: "#ffffff",
       backgroundColor: "#ffffff",
       style: {
-        fontFamily: "Inter,Helvetica Neue,Helvetica,Arial,sans-serif",
+        fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       },
       zoomType: "xy",
       panning: true,

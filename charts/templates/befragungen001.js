@@ -22,7 +22,7 @@
         "height": 415,
         spacing: [10, 10, 30, 10],
         "style": {
-			"fontFamily": "Arial"
+			"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
         },
         "zoomType": "xy",
         "type": "column"

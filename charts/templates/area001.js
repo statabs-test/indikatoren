@@ -26,7 +26,7 @@
         "height": 415,
         spacing: [10, 10, 45, 10],
     		"style": {
-    		  "fontFamily": "Arial"
+    		  "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     		},
     		"type": "area"    
     	},
@@ -42,7 +42,7 @@
         "style": {
           "fontSize": '12px',
           "fontWeight": "normal",
-          "fontFamily": "Arial",
+          "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
           "color": "#000000"
         },
         "text": "",

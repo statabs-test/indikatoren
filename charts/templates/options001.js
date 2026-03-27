@@ -56,7 +56,7 @@ Highcharts.setOptions({
 		backgroundColor: "#ffffff",
 		zoomType: "xy",
 		style: {
-			fontFamily: 'Arial',
+			fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 			fontSize: "12px",
 			color: "#000000"
         }

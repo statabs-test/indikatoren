@@ -39,7 +39,7 @@
             "height": 208,
             spacing: [2, 2, 15, 2], /*top, right, bottom and left */
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             "zoomType": "xy",
             type: "area",

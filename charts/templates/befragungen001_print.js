@@ -9,7 +9,7 @@
 			backgroundColor: "#ffffff",
 			zoomType: "xy",
 			style: {
-				//fontFamily: "Arial",
+				//fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 				color: "#000000",
 				fontSize: "10px"
 			},

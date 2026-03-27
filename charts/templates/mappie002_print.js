@@ -16,7 +16,7 @@
             "height": 484,
             spacing: [2,2,2,2],
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             "type": "map",
     		"inverted": false
@@ -25,7 +25,7 @@
             "style": {
                 "fontSize": "10px",
                 "fontWeight": "bold",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },        
             "align": "left"
@@ -34,7 +34,7 @@
             "style": {
                 "fontSize": "10px",
                 "fontWeight": "normal",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },
             "text": "",

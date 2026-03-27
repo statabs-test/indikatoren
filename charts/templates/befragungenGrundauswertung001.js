@@ -27,7 +27,7 @@
             zoomType: "xy",
             type: "column",
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             }
         },
         navigation: {

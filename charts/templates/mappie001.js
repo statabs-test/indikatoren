@@ -17,7 +17,7 @@
 			"height": 415,
 			"spacingBottom": 45,
 			"style": {
-				"fontFamily": "Arial",
+				"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 			},
 			"type": "map",
 			"inverted": false
@@ -35,7 +35,7 @@
 			"style": {
 				"fontSize": "14px",
 				"fontWeight": "bold",
-				"fontFamily": "Arial",
+				"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 				"color": "#000000"
 			},
 			"align": "left"
@@ -44,7 +44,7 @@
 			"style": {
 				"fontSize": "12px",
 				"fontWeight": "normal",
-				"fontFamily": "Arial",
+				"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 				"color": "#000000"
 			},
 			"text": "",
@@ -99,7 +99,7 @@
 			"align": "right",
 			"floating": true,
 			itemStyle: {
-				fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000"
+				fontSize: "12px", fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif", fontWeight: 'normal', fontStyle: "normal", color: "#000000"
 			},
 			"title": {
 				"style": {
@@ -201,7 +201,7 @@
 					formatter: function () {
 						return '1 km';
 					},
-					style: { fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal", color: "#000000" },
+					style: { fontSize: "12px", fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif", fontWeight: 'normal', fontStyle: "normal", color: "#000000" },
 					y: -10
 				}
 			}
@@ -602,7 +602,7 @@
 				var label =
 					chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 						.css({
-							fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
+							fontSize: "12px", fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif", fontWeight: 'normal', fontStyle: "normal"
 						})
 						.attr({
 							zIndex: 6,

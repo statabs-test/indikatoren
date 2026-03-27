@@ -87,7 +87,7 @@
       "height": 208,
       spacing: [2, 2, 2, 2], /*top, right, bottom and left */
       "style": {
-        "fontFamily": "Arial"
+        "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
       },
       "type": "line"
     },
@@ -103,7 +103,7 @@
       "style": {
         "fontSize": '10px',
         "fontWeight": "normal",
-        "fontFamily": "Arial",
+        "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
         "color": "#000000"
       },
       "text": "",
