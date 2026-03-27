@@ -4,44 +4,44 @@
       "color": "#E7CEE2",
       "data": [
         [
-          2013,
+          2014,
           100
         ],
         [
-          2014,
-          100.8
-        ],
-        [
           2015,
-          123.7
+          122.8
         ],
         [
           2016,
-          148.9
+          147.7
         ],
         [
           2017,
-          169.2
+          167.9
         ],
         [
           2018,
-          180.2
+          178.8
         ],
         [
           2019,
-          189.9
+          188.4
         ],
         [
           2020,
-          194.3
+          192.8
         ],
         [
           2021,
-          254.1
+          254
         ],
         [
           2022,
-          283.3
+          259.5
+        ],
+        [
+          2023,
+          277.5
         ]
       ],
       "name": "Industrie (inkl. Pharma)"
@@ -50,44 +50,44 @@
       "color": "#B375AB",
       "data": [
         [
-          2013,
+          2014,
           100
         ],
         [
-          2014,
-          101.4
-        ],
-        [
           2015,
-          128.5
+          126.8
         ],
         [
           2016,
-          157.8
+          155.7
         ],
         [
           2017,
-          181.7
+          179.3
         ],
         [
           2018,
-          194.2
+          191.5
         ],
         [
           2019,
-          205
+          202.3
         ],
         [
           2020,
-          212.2
+          209.4
         ],
         [
           2021,
-          278.5
+          276.5
         ],
         [
           2022,
-          311.3
+          280.6
+        ],
+        [
+          2023,
+          306
         ]
       ],
       "name": "Pharma"
@@ -96,44 +96,44 @@
       "color": "#662673",
       "data": [
         [
-          2013,
+          2014,
           100
         ],
         [
-          2014,
-          104.7
-        ],
-        [
           2015,
-          105.1
+          100.4
         ],
         [
           2016,
-          105.9
+          101.1
         ],
         [
           2017,
-          104.6
+          99.9
         ],
         [
           2018,
-          107.9
+          103
         ],
         [
           2019,
-          103.6
+          98.9
         ],
         [
           2020,
-          116
+          110.8
         ],
         [
           2021,
-          116.3
+          110.8
         ],
         [
           2022,
-          103.1
+          99.9
+        ],
+        [
+          2023,
+          92.3
         ]
       ],
       "name": "Baugewerbe"
@@ -141,32 +141,34 @@
   ],
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-2404"
   },
@@ -193,7 +195,7 @@
     "text": "Wertschöpfungsentwicklung in Industrie und Baugewerbe"
   },
   "subtitle": {
-    "text": "Basel-Stadt, real, indexiert (Jahr 2013 = 100)",
+    "text": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -262,41 +264,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

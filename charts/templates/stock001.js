@@ -3,8 +3,8 @@
     return {
         "isStock": true,
         "chart": {
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
+            "borderColor": "#ffffff",
+            "backgroundColor": "#ffffff",
             "width": 485,
             "height": 415,        
             "spacingBottom": 30,

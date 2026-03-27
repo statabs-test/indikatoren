@@ -4,10 +4,6 @@
       "color": "#6F6F6F",
       "data": [
         [
-          2013,
-          166651
-        ],
-        [
           2014,
           169523
         ],
@@ -37,11 +33,15 @@
         ],
         [
           2021,
-          203707
+          203450
         ],
         [
           2022,
-          218420
+          210183
+        ],
+        [
+          2023,
+          212308
         ]
       ],
       "name": "BS"
@@ -49,10 +49,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          2013,
-          69905
-        ],
         [
           2014,
           71588
@@ -83,11 +79,15 @@
         ],
         [
           2021,
-          74221
+          74288
         ],
         [
           2022,
-          77509
+          77905
+        ],
+        [
+          2023,
+          78906
         ]
       ],
       "name": "BL"
@@ -95,10 +95,6 @@
     {
       "color": "#A8C3CA",
       "data": [
-        [
-          2013,
-          65721
-        ],
         [
           2014,
           65776
@@ -129,11 +125,15 @@
         ],
         [
           2021,
-          64764
+          64746
         ],
         [
           2022,
-          67580
+          67614
+        ],
+        [
+          2023,
+          68193
         ]
       ],
       "name": "AG"
@@ -141,10 +141,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          2013,
-          100613
-        ],
         [
           2014,
           101356
@@ -175,11 +171,15 @@
         ],
         [
           2021,
-          98201
+          98448
         ],
         [
           2022,
-          104341
+          105131
+        ],
+        [
+          2023,
+          104585
         ]
       ],
       "name": "ZH"
@@ -187,10 +187,6 @@
     {
       "color": "#B00000",
       "data": [
-        [
-          2013,
-          81429
-        ],
         [
           2014,
           81775
@@ -221,11 +217,15 @@
         ],
         [
           2021,
-          85733
+          85933
         ],
         [
           2022,
-          89424
+          90526
+        ],
+        [
+          2023,
+          91324
         ]
       ],
       "name": "CH"
@@ -233,32 +233,34 @@
   ],
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "marginRight": 18,
     "renderTo": "container-2400"
@@ -357,41 +359,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

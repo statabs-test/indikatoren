@@ -52,8 +52,8 @@ Highcharts.setOptions({
         }
     }, 
     chart: {
-		borderColor: "#fbfbfb",
-		backgroundColor: "#fbfbfb",
+		borderColor: "#ffffff",
+		backgroundColor: "#ffffff",
 		zoomType: "xy",
 		style: {
 			fontFamily: 'Arial',

@@ -16,8 +16,8 @@
                     }
                 }
             },
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
+            borderColor: "#ffffff",
+            backgroundColor: "#ffffff",
             inverted: true,
             width: 485,
             height: 700,

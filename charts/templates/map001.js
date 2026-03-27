@@ -59,7 +59,7 @@
     },
     colorAxis: {
       min: 0,
-      gridLineColor: "#fbfbfb",
+      gridLineColor: "#ffffff",
       gridLineWidth: 1,
       labels: {
         style: {
@@ -132,7 +132,7 @@
         animation: true,
         data: rheinDataEPSG2056,
         color: "#008AC3",
-        borderColor: "#fbfbfb",
+        borderColor: "#ffffff",
       },
       {
         name: "Massstab",

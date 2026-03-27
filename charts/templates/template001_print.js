@@ -1,8 +1,8 @@
 (function () {
     return {
         chart: {
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
+            borderColor: "#ffffff",
+            backgroundColor: "#ffffff",
             width: 320,
             height: 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */

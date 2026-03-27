@@ -11,8 +11,8 @@
 (function () {
 	return {
 		"chart": {
-			"borderColor": "#fbfbfb",
-			"backgroundColor": "#fbfbfb",
+			"borderColor": "#ffffff",
+			"backgroundColor": "#ffffff",
 			"width": 485,
 			"height": 415,
 			"spacingBottom": 45,
@@ -65,7 +65,7 @@
 		},
 		"colorAxis": {
 			"min": 0,
-			"gridLineColor": "#fbfbfb",
+			"gridLineColor": "#ffffff",
 			"gridLineWidth": 1,
 			"labels": {
 				"style": { "color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none" }
@@ -133,7 +133,7 @@
 				enableMouseTracking: false,
 				color: '#ededed',
 				borderWidth: 1,
-				borderColor: '#fbfbfb',
+				borderColor: '#ffffff',
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
 				"joinBy": ['TXT', 'Wohnviertel Id'],
@@ -177,7 +177,7 @@
 				"animation": true,
 				"data": rheinDataEPSG2056,
 				"color": "#008AC3",
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				tooltip: {
 					pointFormatter: function () {
 						return '<br/>';

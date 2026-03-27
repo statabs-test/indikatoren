@@ -5,8 +5,8 @@
 			width: 320,
 			height: 208,
 			spacing: [2, 2, 2, 2], /*top, right, bottom and left */
-			borderColor: "#fbfbfb",
-			backgroundColor: "#fbfbfb",
+			borderColor: "#ffffff",
+			backgroundColor: "#ffffff",
 			zoomType: "xy",
 			style: {
 				//fontFamily: "Arial",

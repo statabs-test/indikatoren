@@ -80,8 +80,8 @@
 
         }
       },
-      "borderColor": "#fbfbfb",
-      "backgroundColor": "#fbfbfb",
+      "borderColor": "#ffffff",
+      "backgroundColor": "#ffffff",
       "zoomType": "xy",
       "width": 320,
       "height": 208,

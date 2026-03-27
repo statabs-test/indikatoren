@@ -6,8 +6,8 @@
                     this.credits.element.onclick = function() {};
                 }
             },
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
+            "borderColor": "#ffffff",
+            "backgroundColor": "#ffffff",
 			"width": 992,
             "height": 484,
             "spacingBottom": 45,
@@ -51,7 +51,7 @@
         },
         "colorAxis": {
     		"min": 0,
-    		"gridLineColor": "#fbfbfb",	
+    		"gridLineColor": "#ffffff",	
             "gridLineWidth": 1,
             "labels": {	
     		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}

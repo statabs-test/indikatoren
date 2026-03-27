@@ -7,8 +7,8 @@
                   this.credits.element.onclick = function() {};
               }
           },
-    		"borderColor": "#fbfbfb",
-    		"backgroundColor": "#fbfbfb",
+    		"borderColor": "#ffffff",
+    		"backgroundColor": "#ffffff",
     		"zoomType": "xy",
     		"width": 485,
         "height": 415,

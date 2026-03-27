@@ -5,22 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2014-1",
-          169658
-        ],
-        [
-          "2014-2",
-          132207
-        ],
-        [
-          "2014-3",
-          133439
-        ],
-        [
-          "2014-4",
-          87773
-        ],
-        [
           "2015-1",
           181546
         ],
@@ -163,6 +147,22 @@
         [
           "2023-4",
           96905
+        ],
+        [
+          "2024-1",
+          81519
+        ],
+        [
+          "2024-2",
+          97193
+        ],
+        [
+          "2024-3",
+          106804
+        ],
+        [
+          "2024-4",
+          90028
         ]
       ],
       "name": "Meldepflichtige insgesamt",
@@ -172,22 +172,6 @@
       "color": "#FABD24",
       "index": 1,
       "data": [
-        [
-          "2014-1",
-          66287
-        ],
-        [
-          "2014-2",
-          76491
-        ],
-        [
-          "2014-3",
-          110579
-        ],
-        [
-          "2014-4",
-          63015
-        ],
         [
           "2015-1",
           67543
@@ -331,6 +315,22 @@
         [
           "2023-4",
           82526
+        ],
+        [
+          "2024-1",
+          64169
+        ],
+        [
+          "2024-2",
+          79294
+        ],
+        [
+          "2024-3",
+          95377
+        ],
+        [
+          "2024-4",
+          74887
         ]
       ],
       "name": "Arbeitnehmende",
@@ -340,22 +340,6 @@
       "color": "#007A2F",
       "index": 1,
       "data": [
-        [
-          "2014-1",
-          39115
-        ],
-        [
-          "2014-2",
-          18127
-        ],
-        [
-          "2014-3",
-          5526
-        ],
-        [
-          "2014-4",
-          7127
-        ],
         [
           "2015-1",
           38632
@@ -499,6 +483,22 @@
         [
           "2023-4",
           3888
+        ],
+        [
+          "2024-1",
+          4363
+        ],
+        [
+          "2024-2",
+          4970
+        ],
+        [
+          "2024-3",
+          2511
+        ],
+        [
+          "2024-4",
+          3668
         ]
       ],
       "name": "Selbständigerwerbende",
@@ -508,22 +508,6 @@
       "color": "#923F8D",
       "index": 2,
       "data": [
-        [
-          "2014-1",
-          64256
-        ],
-        [
-          "2014-2",
-          37589
-        ],
-        [
-          "2014-3",
-          17334
-        ],
-        [
-          "2014-4",
-          17631
-        ],
         [
           "2015-1",
           75371
@@ -667,6 +651,22 @@
         [
           "2023-4",
           10491
+        ],
+        [
+          "2024-1",
+          12987
+        ],
+        [
+          "2024-2",
+          12929
+        ],
+        [
+          "2024-3",
+          8916
+        ],
+        [
+          "2024-4",
+          11473
         ]
       ],
       "name": "Entsandte",
@@ -698,32 +698,34 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-3029"
   },
@@ -805,41 +807,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormatter": function(){
