@@ -61,10 +61,10 @@
         stacking: false,
       },
     ],
-///*
+    ///*
     tooltip: {
       useHTML: true,
-      formatter() {
+      formatter: function () {
         if (this.series.userOptions.stacking == true) { // nur für series mit stacking: true
           const series = this.series.chart.series;
           let tooltip = "<table>";
@@ -74,14 +74,14 @@
               series.points.forEach(point => {
                 if (point.x === this.x) {
                   tooltip += `<tr><td><span style="color:${point.color}">\u25CF</span> ${point.series.name}: &nbsp;</td>`
-                    + `<td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0, ",", " ")} Plätze</b></td>`
+                    + `<td style="text-align:right">&nbsp;<b>${Highcharts.numberFormat(point.y, 0, ",", " ")} Tage</b></td>`
                     + `<td style="text-align:right">&nbsp;(${Highcharts.numberFormat(point.percentage, 1, ",", " ")}%)</td></tr>`;
                   s += point.y;
                 }
               });
             }
           });
-          tooltip += `<tr><td>Total:</td><td style="text-align:right"><b>${Highcharts.numberFormat(s, 0, ",", " ")} Plätze</b></td></tr></table>`;
+          tooltip += `<tr><td>Total:</td><td style="text-align:right"><b>${Highcharts.numberFormat(s, 0, ",", " ")} Tage</b></td></tr></table>`;
           return `<span style="font-size: 10px">${this.x}</span><br>${tooltip}`;
         } else {
           return `<span style="font-size: 10px">${this.x}</span><br><span style="color:${this.color}">●</span> ${this.series.name}: <b>`
@@ -89,6 +89,6 @@
         }
       }
     }
-//*/
+    //*/
   };
 })();
