@@ -1,56 +1,95 @@
 const exporter = require("highcharts-export-server");
-//var execfile = require("execfile");
-var fs = require("fs");
-var path = require("path");
+const fs = require("fs");
+const path = require("path");
 
-/*
-//Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
-var vm = require("vm");
-var execute = function(path, context) {
-  context = context || {};
-  var data = fs.readFileSync(path);
-  var result = vm.runInNewContext(data, context, path);
-  return {context: context, result: result};
-};
-*/
+// Serializes a Highcharts config object (containing JS functions) to a string
+// that can be reconstructed with new Function('return ' + str)().
+//
+// Why not JSON.stringify + EXP_FUN markers (like the export server's X()):
+//   JSON.stringify escapes " to \" inside string values. Once the outer JSON
+//   quotes are removed, those \" sequences become invalid JS syntax.
+//   e.g.  function(){ return "hi"; }  →  function(){ return \"hi\"; }  ← broken
+//
+// Fix: custom recursive serializer that writes function bodies as raw source
+// (no JSON escaping), and uses JSON.stringify only for actual string data.
+function serializeWithFunctions(val) {
+  if (val === null) return "null";
+  if (val === undefined) return "undefined";
+  if (typeof val === "function") {
+    return val
+      .toString()
+      .replace(/\/\/([^\n\r]*)/g, "/* $1 */") // // comment → /* comment */
+      .replace(/[\n\t\r]/g, " "); // strip newlines (De() strips them too)
+  }
+  if (typeof val === "boolean" || typeof val === "number") return String(val);
+  if (typeof val === "string") return JSON.stringify(val);
+  if (Array.isArray(val)) {
+    return "[" + val.map(serializeWithFunctions).join(",") + "]";
+  }
+  if (typeof val === "object") {
+    const pairs = Object.keys(val).map(
+      (k) => JSON.stringify(k) + ":" + serializeWithFunctions(val[k])
+    );
+    return "{" + pairs.join(",") + "}";
+  }
+  return JSON.stringify(val);
+}
 
 var chartDetails = [];
-/*
-console.log('Deleting previous svg files...');
-var rimraf = require("rimraf");
-rimraf('images/indikatorenset/*', function(error) {
-    if (error) { throw error; }
-    rimraf('images/portal/*', function(error) {
-        if (error) { throw error; }
-        go();
-    });
-});
-*/
 
 go();
 
-function go() {
+async function go() {
   var views = ["portal"];
   views.forEach(function (view) {
     console.log("Creating array entries for indikatorensetView=" + view);
     var files = JSON.parse(fs.readFileSync("tmp/chartsToBuild.json"));
     files.forEach(function (chartId) {
       var pathArray = createPathArray(chartId, view);
-      //only add if not null
       if (pathArray) {
         chartDetails.push(pathArray);
       }
     });
   });
 
-  //exporter.logLevel(4);
-  exporter.initPool({
-    maxWorkers: 1,
-    initialWorkers: 1,
-    workLimit: 10,
-  });
+  const initOptions = {
+    pool: {
+      minWorkers: 1,
+      maxWorkers: 1,
+      workLimit: 10,
+    },
+    logging: { level: 0 },
+    customLogic: {
+      allowCodeExecution: true,
+      allowFileResources: true,
+    },
+    other: {
+      listenToProcessExits: false,
+    },
+    highcharts: {
+      version: "latest",
+      cdnURL: "https://code.highcharts.com/",
+      useNpm: true,
+      coreScripts: ["highcharts", "highcharts-more", "highcharts-3d"],
+      moduleScripts: ["stock", "map"],
+      indicatorScripts: [],
+      customScripts: [],
+      forceFetch: false,
+      cachePath: ".cache",
+    },
+    server: {
+      proxy: {},
+    },
+    puppeteer: {
+      args: [],
+      tempDir: "./tmp/",
+    },
+  };
 
-  createSvgImages(chartDetails);
+  exporter.setOptions(initOptions);
+  await exporter.initExport(initOptions);
+
+  await createSvgImages(chartDetails);
 }
 
 function createPathArray(chartId, view) {
@@ -71,16 +110,15 @@ function createPathArray(chartId, view) {
       var configFile = fs.readFileSync(infilePath, "utf8");
       var config = deserialize(configFile);
 
-      //decide if stockchart, map, or chart
+      // v5 uses lowercase camelCase constructors
       var constr = config.isStock
-        ? "StockChart"
+        ? "stockChart"
         : config.chart.type === "map"
-        ? "Map"
-        : "Chart";
+        ? "mapChart"
+        : "chart";
       return {
         config: config,
         additionalConfig: additionalConfig,
-        infilePath: infilePath,
         outfilePath: outfilePath,
         constr: constr,
       };
@@ -95,70 +133,71 @@ function createPathArray(chartId, view) {
   }
 }
 
-//alternatively use looping style used here: https://github.com/highcharts/node-export-server/issues/41
-function createSvgImages(chartDetails) {
+async function createSvgImages(chartDetails) {
   if (chartDetails.length > 0) {
     var chartEntry = chartDetails.pop();
-    //console.log('Current infile: ' + chart.infile);
+
     if (
       !chartEntry.additionalConfig.kennzahlenset.toLowerCase().includes("print")
     ) {
       var exportSettings = {
-        type: "svg",
-        infile: chartEntry.infilePath,
-        constr: chartEntry.constr,
-        outfile: chartEntry.outfilePath,
-        allowCodeExecution: 1,
-        //define empty mappie here to satisfy export server, same as in options001.js
-        customCode: `
-        function () {
-            // Fix für mappie Charts
-            Highcharts.seriesType('mappie', 'pie', {}, {});
-    
-            // Credits entfernen
-            Highcharts.addEvent(Highcharts.Chart, 'load', function () {
-                if (this.credits && this.credits.element) {
-                    this.credits.element.remove();
-                }
-            });
-    
-            // Control-Points entfernen
-            Highcharts.addEvent(Highcharts.Chart, 'load', function () {
-                const cp = this.container.querySelector('.highcharts-control-points');
-                if (cp) cp.remove();
-            });
-    
-            // Titel & Untertitel entfernen
-            Highcharts.addEvent(Highcharts.Chart, 'load', function () {
-                const title = this.container.querySelector('.highcharts-title');
-                if (title) title.remove();
-    
-                const subtitle = this.container.querySelector('.highcharts-subtitle');
-                if (subtitle) subtitle.remove();
-            });
-        }()
-        `, //add proj4 and jQuery to export server's dependencies
-        resources: {
-          files:
-            "node_modules/proj4/dist/proj4.js,node_modules/jquery/dist/jquery.min.js,assets/js/customFunctions.js",
+        export: {
+          type: "svg",
+          instr: serializeWithFunctions(chartEntry.config),
+          constr: chartEntry.constr,
+        },
+        customLogic: {
+          allowCodeExecution: true,
+          customCode: `
+          (function () {
+              // Fix für mappie Charts
+              Highcharts.seriesType('mappie', 'pie', {}, {});
+
+              // Credits entfernen
+              Highcharts.addEvent(Highcharts.Chart, 'load', function () {
+                  if (this.credits && this.credits.element) {
+                      this.credits.element.remove();
+                  }
+              });
+
+              // Control-Points entfernen
+              Highcharts.addEvent(Highcharts.Chart, 'load', function () {
+                  const cp = this.container.querySelector('.highcharts-control-points');
+                  if (cp) cp.remove();
+              });
+
+              // Titel & Untertitel entfernen
+              Highcharts.addEvent(Highcharts.Chart, 'load', function () {
+                  const title = this.container.querySelector('.highcharts-title');
+                  if (title) title.remove();
+
+                  const subtitle = this.container.querySelector('.highcharts-subtitle');
+                  if (subtitle) subtitle.remove();
+              });
+          })()
+          `,
+          resources: {
+            files: [
+              "node_modules/proj4/dist/proj4.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "assets/js/customFunctions.js",
+            ],
+          },
         },
       };
 
-      exporter.export(exportSettings, function (err, res) {
-        if (err) {
-          throw err;
+      await exporter.startExport(exportSettings, async (error, info) => {
+        if (error) {
+          throw error;
         }
-        //The export result is now in res.
-        //If the output is not PDF or SVG, it will be base64 encoded (res.data).
-        //If the output is a PDF or SVG, it will contain a filename (res.filename).
+        fs.writeFileSync(chartEntry.outfilePath, info.result);
         console.log(
           "File created: " +
-            res.filename +
+            chartEntry.outfilePath +
             ", " +
             chartDetails.length +
             " to go..."
         );
-        createSvgImages(chartDetails);
       });
     } else {
       console.log(
@@ -168,11 +207,12 @@ function createSvgImages(chartDetails) {
           chartDetails.length +
           " to go..."
       );
-      createSvgImages(chartDetails);
     }
+
+    await createSvgImages(chartDetails);
   } else {
     console.log("...done!");
-    exporter.killPool();
+    await exporter.killPool();
     process.exit();
   }
 }
