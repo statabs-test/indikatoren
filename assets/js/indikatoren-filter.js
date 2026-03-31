@@ -504,6 +504,7 @@ function prepareIndikatorensetView(indikatorenset) {
   $("#main-element").removeClass();
   $("#main-element").addClass("col-xs-12");
   $("#main-control-element-portal").remove();
+  $("#thema_filter_label").hide();
 
   renderDropdownFromJson(
     indikatoren,
