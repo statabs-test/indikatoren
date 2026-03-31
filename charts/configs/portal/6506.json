@@ -4,54 +4,6 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2015-01",
-          87
-        ],
-        [
-          "2015-02",
-          85
-        ],
-        [
-          "2015-03",
-          86
-        ],
-        [
-          "2015-04",
-          85
-        ],
-        [
-          "2015-05",
-          81
-        ],
-        [
-          "2015-06",
-          80
-        ],
-        [
-          "2015-07",
-          78
-        ],
-        [
-          "2015-08",
-          72
-        ],
-        [
-          "2015-09",
-          80
-        ],
-        [
-          "2015-10",
-          81
-        ],
-        [
-          "2015-11",
-          75
-        ],
-        [
-          "2015-12",
-          77
-        ],
-        [
           "2016-01",
           80
         ],
@@ -482,6 +434,54 @@
         [
           "2024-12",
           95
+        ],
+        [
+          "2025-01",
+          98
+        ],
+        [
+          "2025-02",
+          97
+        ],
+        [
+          "2025-03",
+          94
+        ],
+        [
+          "2025-04",
+          95
+        ],
+        [
+          "2025-05",
+          100
+        ],
+        [
+          "2025-06",
+          99
+        ],
+        [
+          "2025-07",
+          96
+        ],
+        [
+          "2025-08",
+          96
+        ],
+        [
+          "2025-09",
+          96
+        ],
+        [
+          "2025-10",
+          105
+        ],
+        [
+          "2025-11",
+          108
+        ],
+        [
+          "2025-12",
+          107
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -490,54 +490,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2015-01",
-          154
-        ],
-        [
-          "2015-02",
-          153
-        ],
-        [
-          "2015-03",
-          159
-        ],
-        [
-          "2015-04",
-          146
-        ],
-        [
-          "2015-05",
-          150
-        ],
-        [
-          "2015-06",
-          144
-        ],
-        [
-          "2015-07",
-          154
-        ],
-        [
-          "2015-08",
-          172
-        ],
-        [
-          "2015-09",
-          170
-        ],
-        [
-          "2015-10",
-          162
-        ],
-        [
-          "2015-11",
-          148
-        ],
-        [
-          "2015-12",
-          136
-        ],
         [
           "2016-01",
           151
@@ -969,6 +921,54 @@
         [
           "2024-12",
           185
+        ],
+        [
+          "2025-01",
+          188
+        ],
+        [
+          "2025-02",
+          190
+        ],
+        [
+          "2025-03",
+          181
+        ],
+        [
+          "2025-04",
+          175
+        ],
+        [
+          "2025-05",
+          170
+        ],
+        [
+          "2025-06",
+          188
+        ],
+        [
+          "2025-07",
+          202
+        ],
+        [
+          "2025-08",
+          223
+        ],
+        [
+          "2025-09",
+          230
+        ],
+        [
+          "2025-10",
+          222
+        ],
+        [
+          "2025-11",
+          228
+        ],
+        [
+          "2025-12",
+          227
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -977,54 +977,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2015-01",
-          317
-        ],
-        [
-          "2015-02",
-          302
-        ],
-        [
-          "2015-03",
-          310
-        ],
-        [
-          "2015-04",
-          308
-        ],
-        [
-          "2015-05",
-          294
-        ],
-        [
-          "2015-06",
-          288
-        ],
-        [
-          "2015-07",
-          297
-        ],
-        [
-          "2015-08",
-          323
-        ],
-        [
-          "2015-09",
-          337
-        ],
-        [
-          "2015-10",
-          331
-        ],
-        [
-          "2015-11",
-          325
-        ],
-        [
-          "2015-12",
-          300
-        ],
         [
           "2016-01",
           283
@@ -1456,6 +1408,54 @@
         [
           "2024-12",
           427
+        ],
+        [
+          "2025-01",
+          430
+        ],
+        [
+          "2025-02",
+          443
+        ],
+        [
+          "2025-03",
+          439
+        ],
+        [
+          "2025-04",
+          436
+        ],
+        [
+          "2025-05",
+          419
+        ],
+        [
+          "2025-06",
+          414
+        ],
+        [
+          "2025-07",
+          447
+        ],
+        [
+          "2025-08",
+          472
+        ],
+        [
+          "2025-09",
+          502
+        ],
+        [
+          "2025-10",
+          481
+        ],
+        [
+          "2025-11",
+          509
+        ],
+        [
+          "2025-12",
+          515
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -1464,54 +1464,6 @@
     {
       "color": "#2B0099",
       "data": [
-        [
-          "2015-01",
-          177
-        ],
-        [
-          "2015-02",
-          168
-        ],
-        [
-          "2015-03",
-          165
-        ],
-        [
-          "2015-04",
-          173
-        ],
-        [
-          "2015-05",
-          174
-        ],
-        [
-          "2015-06",
-          179
-        ],
-        [
-          "2015-07",
-          186
-        ],
-        [
-          "2015-08",
-          196
-        ],
-        [
-          "2015-09",
-          196
-        ],
-        [
-          "2015-10",
-          197
-        ],
-        [
-          "2015-11",
-          197
-        ],
-        [
-          "2015-12",
-          187
-        ],
         [
           "2016-01",
           191
@@ -1943,6 +1895,54 @@
         [
           "2024-12",
           220
+        ],
+        [
+          "2025-01",
+          226
+        ],
+        [
+          "2025-02",
+          217
+        ],
+        [
+          "2025-03",
+          216
+        ],
+        [
+          "2025-04",
+          227
+        ],
+        [
+          "2025-05",
+          214
+        ],
+        [
+          "2025-06",
+          215
+        ],
+        [
+          "2025-07",
+          219
+        ],
+        [
+          "2025-08",
+          228
+        ],
+        [
+          "2025-09",
+          220
+        ],
+        [
+          "2025-10",
+          212
+        ],
+        [
+          "2025-11",
+          220
+        ],
+        [
+          "2025-12",
+          221
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -1973,34 +1973,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-6506"
   },
@@ -2078,49 +2076,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

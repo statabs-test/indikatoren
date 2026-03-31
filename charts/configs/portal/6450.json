@@ -4,22 +4,6 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2015-1",
-          1252
-        ],
-        [
-          "2015-2",
-          1186
-        ],
-        [
-          "2015-3",
-          1108
-        ],
-        [
-          "2015-4",
-          1105
-        ],
-        [
           "2016-1",
           1087
         ],
@@ -133,35 +117,47 @@
         ],
         [
           "2023-1",
-          676
+          751
         ],
         [
           "2023-2",
-          630
+          705
         ],
         [
           "2023-3",
-          618
+          693
         ],
         [
           "2023-4",
-          604
+          681
         ],
         [
           "2024-1",
-          602
+          610
         ],
         [
           "2024-2",
-          573
+          581
         ],
         [
           "2024-3",
-          566
+          574
         ],
         [
           "2024-4",
+          566
+        ],
+        [
+          "2025-1",
           563
+        ],
+        [
+          "2025-2",
+          546
+        ],
+        [
+          "2025-3",
+          540
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -170,22 +166,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2015-1",
-          4904
-        ],
-        [
-          "2015-2",
-          5151
-        ],
-        [
-          "2015-3",
-          5291
-        ],
-        [
-          "2015-4",
-          5298
-        ],
         [
           "2016-1",
           5418
@@ -300,35 +280,47 @@
         ],
         [
           "2023-1",
-          7809
+          7761
         ],
         [
           "2023-2",
-          7829
+          7880
         ],
         [
           "2023-3",
-          7937
+          7998
         ],
         [
           "2023-4",
-          8043
+          8027
         ],
         [
           "2024-1",
-          7996
+          8129
         ],
         [
           "2024-2",
-          8019
+          8153
         ],
         [
           "2024-3",
-          8159
+          8285
         ],
         [
           "2024-4",
-          8446
+          8390
+        ],
+        [
+          "2025-1",
+          8466
+        ],
+        [
+          "2025-2",
+          8522
+        ],
+        [
+          "2025-3",
+          8998
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -337,22 +329,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2015-1",
-          1755
-        ],
-        [
-          "2015-2",
-          1881
-        ],
-        [
-          "2015-3",
-          1992
-        ],
-        [
-          "2015-4",
-          2042
-        ],
         [
           "2016-1",
           1960
@@ -467,35 +443,47 @@
         ],
         [
           "2023-1",
-          2814
+          2737
         ],
         [
           "2023-2",
-          2819
+          2854
         ],
         [
           "2023-3",
-          2936
+          2976
         ],
         [
           "2023-4",
-          2855
+          2892
         ],
         [
           "2024-1",
-          2841
+          2906
         ],
         [
           "2024-2",
-          2934
+          2999
         ],
         [
           "2024-3",
-          2972
+          3034
         ],
         [
           "2024-4",
-          3063
+          3062
+        ],
+        [
+          "2025-1",
+          3051
+        ],
+        [
+          "2025-2",
+          3168
+        ],
+        [
+          "2025-3",
+          3173
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -504,22 +492,6 @@
     {
       "color": "#B00000",
       "data": [
-        [
-          "2015-1",
-          1999
-        ],
-        [
-          "2015-2",
-          2162
-        ],
-        [
-          "2015-3",
-          2225
-        ],
-        [
-          "2015-4",
-          1907
-        ],
         [
           "2016-1",
           1866
@@ -634,35 +606,47 @@
         ],
         [
           "2023-1",
-          1834
+          1507
         ],
         [
           "2023-2",
-          1767
+          1591
         ],
         [
           "2023-3",
-          1733
+          1554
         ],
         [
           "2023-4",
-          1688
+          1377
         ],
         [
           "2024-1",
-          1656
+          1621
         ],
         [
           "2024-2",
-          1631
+          1595
         ],
         [
           "2024-3",
-          1666
+          1625
         ],
         [
           "2024-4",
-          1653
+          1540
+        ],
+        [
+          "2025-1",
+          1465
+        ],
+        [
+          "2025-2",
+          1435
+        ],
+        [
+          "2025-3",
+          1524
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -693,34 +677,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-6450"
   },
@@ -798,49 +780,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

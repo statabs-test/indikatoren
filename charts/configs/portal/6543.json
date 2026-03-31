@@ -4,6 +4,22 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
+          1935,
+          1.84307021
+        ],
+        [
+          1936,
+          1.816065743
+        ],
+        [
+          1937,
+          1.793760906
+        ],
+        [
+          1938,
+          1.82877129
+        ],
+        [
           1939,
           1.88878733
         ],
@@ -346,6 +362,10 @@
         [
           2024,
           1.618343294
+        ],
+        [
+          2025,
+          1.671423889
         ]
       ],
       "name": "Inland"
@@ -353,6 +373,22 @@
     {
       "color": "rgb(105, 146, 155)",
       "data": [
+        [
+          1935,
+          1.466729663
+        ],
+        [
+          1936,
+          1.452496727
+        ],
+        [
+          1937,
+          1.34582531
+        ],
+        [
+          1938,
+          1.445486354
+        ],
         [
           1939,
           1.504662638
@@ -696,6 +732,10 @@
         [
           2024,
           1.961232534
+        ],
+        [
+          2025,
+          1.990844935
         ]
       ],
       "name": "Ausland"
@@ -703,34 +743,32 @@
   ],
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-6543"
   },
@@ -783,7 +821,7 @@
       "step": 1,
       "formatter": function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 10 == 0){
           return this.value;
         }
       }
@@ -834,49 +872,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

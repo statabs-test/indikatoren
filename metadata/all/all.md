@@ -624,7 +624,7 @@ id | visible | visibleInPortal | indikatorenset
 6371 | false |  | Legislaturplan-2017-2021 (Print)
 6372 | true | false | Legislaturplan-2017-2021 (Print)
 6373 | true | false | Gefragte Karten
-6374 | true | true | Gefragte Karten
+6374 | false |  | Gefragte Karten
 6375 | true | true | Gefragte Karten
 6376 | true | true | Gefragte Karten
 6377 | true | true | Gefragte Karten
@@ -632,18 +632,18 @@ id | visible | visibleInPortal | indikatorenset
 6379 | true | true | Gefragte Karten
 6380 | true | true | Gefragte Karten
 6381 | true | true | Gefragte Karten
-6382 | true | true | Gefragte Karten
+6382 | false |  | Gefragte Karten
 6383 | false |  | Gefragte Karten
 6384 | false |  | Gefragte Karten
 6385 | true | true | Gefragte Karten
-6386 | true | false | Gefragte Karten
+6386 | false |  | Gefragte Karten
 6387 | true | false | Gefragte Karten
 6388 | true | false | Gefragte Karten
 6389 | true | false | Gefragte Karten
 6390 | true | false | Gefragte Karten
 6391 | true | false | Gefragte Karten
 6392 | true | false | Gefragte Karten
-6394 | true | false | Gefragte Karten
+6394 | false |  | Gefragte Karten
 6395 | false |  | Gefragte Karten
 6396 | false |  | Gefragte Karten
 6398 | true | true | Integration
@@ -1107,10 +1107,10 @@ id | visible | visibleInPortal | indikatorenset
 7462 | false |  | Arbeitsmarkt
 7463 | false |  | Arbeitsmarkt
 7464 | false |  | Arbeitsmarkt
-7465 | false |  | Arbeitsmarkt
-7466 | false |  | Arbeitsmarkt
-7467 | false |  | Arbeitsmarkt
-7468 | false |  | Arbeitsmarkt
+7465 | true | false | Arbeitsmarkt
+7466 | true | false | Arbeitsmarkt
+7467 | true | false | Arbeitsmarkt
+7468 | true | false | Arbeitsmarkt
 7469 | false |  | Arbeitsmarkt
 7470 | false |  | Arbeitsmarkt
 7471 | false |  | Arbeitsmarkt
@@ -2008,6 +2008,7 @@ id | visible | visibleInPortal | indikatorenset
 9197 | true | true | City-Statistics
 9199 | true | true | City-Statistics
 9200 | true | true | City-Statistics
+9201 | false |  | City-Statistics
 9203 | true | false | City-Statistics (Print)
 9204 | true | false | City-Statistics (Print)
 9205 | true | false | City-Statistics (Print)
@@ -2102,9 +2103,9 @@ id | visible | visibleInPortal | indikatorenset
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
-9406 | true | true | City-Statistics
+9406 | false |  | City-Statistics
 9407 | true | true | City-Statistics
-9409 | true | true | City-Statistics
+9409 | false |  | City-Statistics
 9410 | true | true | City-Statistics
 9411 | true | true | City-Statistics
 9418 | true | false | Legislaturplan (Print)
@@ -2322,7 +2323,7 @@ id | visible | visibleInPortal | indikatorenset
 10049 | true | false | CMS Kennzahlen
 10050 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
-10052 | true | false | CMS Kennzahlen Soziales
+10052 | true | false | CMS Kennzahlen
 10054 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
@@ -2461,6 +2462,8 @@ id | visible | visibleInPortal | indikatorenset
 12721 | true | true | Stadtteilmonitoring St. Johann
 12722 | true | true | 
 12727 | true | true | Gesundheitsversorgung
+12728 | true | true | Gesundheitsversorgung
+12729 | true | true | Gesundheitsversorgung
 12730 | true | true | Gesundheitsversorgung
 12732 | true | true | Gesundheitsversorgung
 12733 | true | true | Gesundheitsversorgung
@@ -2509,8 +2512,38 @@ id | visible | visibleInPortal | indikatorenset
 22357 | true | true | Steuern
 22358 | true | true | Steuern
 22359 | true | true | Steuern
+22408 | true | true | Stadtklimakonzept
+22409 | true | true | Stadtklimakonzept
+22410 | true | true | Stadtklimakonzept
+22411 | true | true | Stadtklimakonzept
+22412 | true | false | Stadtklimakonzept
+22413 | true | true | Stadtklimakonzept
+22414 | true | false | Stadtklimakonzept
+22415 | true | false | Stadtklimakonzept
+22417 | true | true | Stadtklimakonzept
+22418 | true | true | Stadtklimakonzept
+22419 | true | true | Stadtklimakonzept
+22420 | true | true | Stadtklimakonzept
 22421 | true | true | Steuern
 22422 | true | true | Steuern
 22423 | true | true | Steuern
 22424 | true | true | Steuern
 22425 | true | true | Steuern
+22432 | true | true | Gesundheitsversorgung
+22433 | true | true | Gesundheitsversorgung
+22434 | true | true | Gesundheitsversorgung
+22435 | true | true | Gesundheitsversorgung
+22436 | true | true | Gesundheitsversorgung
+22455 | true | false | Richtplan
+22456 | true | false | Richtplan
+22458 | true | false | Richtplan
+22459 | true | false | Richtplan
+22460 | true | false | Richtplan
+22461 | true | true | Richtplan
+22462 | true | false | Richtplan (Print)
+22463 | true | false | Richtplan (Print)
+22464 | true | false | Richtplan (Print)
+22465 | true | false | Richtplan (Print)
+22466 | true | false | Richtplan (Print)
+22467 | true | false | Richtplan (Print)
+22468 | true | false | Richtplan (Print)

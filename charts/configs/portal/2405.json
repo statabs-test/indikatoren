@@ -4,44 +4,44 @@
       "color": "#D7E8D2",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          105.9
-        ],
-        [
           2016,
-          107.9
+          102.2
         ],
         [
           2017,
-          107.3
+          100.7
         ],
         [
           2018,
-          104.3
+          98.3
         ],
         [
           2019,
-          103.8
+          97.8
         ],
         [
           2020,
-          102
+          97
         ],
         [
           2021,
-          95.6
+          91.4
         ],
         [
           2022,
-          93.8
+          88.7
         ],
         [
           2023,
-          97.6
+          92.3
+        ],
+        [
+          2024,
+          91.3
         ]
       ],
       "name": "Handel, Reparatur"
@@ -50,44 +50,44 @@
       "color": "#73B97C",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          87.9
-        ],
-        [
           2016,
-          84.7
+          96.3
         ],
         [
           2017,
-          83.8
+          95.4
         ],
         [
           2018,
-          87.4
+          99.4
         ],
         [
           2019,
-          93.4
+          106.3
         ],
         [
           2020,
-          70
+          79.7
         ],
         [
           2021,
-          61.7
+          70.2
         ],
         [
           2022,
-          65.9
+          73.8
         ],
         [
           2023,
-          69.1
+          76.9
+        ],
+        [
+          2024,
+          78.8
         ]
       ],
       "name": "Verkehr, Lagerei"
@@ -96,44 +96,44 @@
       "color": "#007A2F",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          97.6
-        ],
-        [
           2016,
-          93.8
+          96.1
         ],
         [
           2017,
-          95.2
+          97.5
         ],
         [
           2018,
-          99.5
+          101.9
         ],
         [
           2019,
-          106.5
+          109.1
         ],
         [
           2020,
-          51.3
+          52.5
         ],
         [
           2021,
-          51.5
+          52.8
         ],
         [
           2022,
-          91.7
+          93.9
         ],
         [
           2023,
-          100.3
+          103.1
+        ],
+        [
+          2024,
+          107.3
         ]
       ],
       "name": "Gastgewerbe"
@@ -142,44 +142,44 @@
       "color": "#0A3B19",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          99.1
-        ],
-        [
           2016,
-          99.3
+          100.1
         ],
         [
           2017,
-          98.2
+          99
         ],
         [
           2018,
-          97
+          97.8
         ],
         [
           2019,
-          100.5
+          101.4
         ],
         [
           2020,
-          101.1
+          102
         ],
         [
           2021,
-          107.9
+          108.9
         ],
         [
           2022,
-          111.2
+          112.2
         ],
         [
           2023,
-          118.1
+          118.4
+        ],
+        [
+          2024,
+          116.3
         ]
       ],
       "name": "Information, Kommunikation"
@@ -187,34 +187,32 @@
   ],
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-2405"
   },
@@ -241,7 +239,7 @@
     "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)"
   },
   "subtitle": {
-    "text": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+    "text": "Basel-Stadt, real, indexiert (Jahr 2015 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -310,49 +308,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

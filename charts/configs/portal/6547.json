@@ -4,44 +4,44 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          2015,
+          2016,
           100
         ],
         [
-          2016,
-          102.0134161
-        ],
-        [
           2017,
-          106.5485623
+          104.4456371
         ],
         [
           2018,
-          115.0243986
+          112.7541876
         ],
         [
           2019,
-          119.7393635
+          117.3760943
         ],
         [
           2020,
-          70.1978256
+          68.8123467
         ],
         [
           2021,
-          100.912906
+          98.9212105
         ],
         [
           2022,
-          134.7710452
+          132.1110991
         ],
         [
           2023,
-          135.9054596
+          133.2231238
         ],
         [
           2024,
-          146.2153956
+          143.3295749
+        ],
+        [
+          2025,
+          154.4247112
         ]
       ],
       "name": "Inland"
@@ -50,44 +50,44 @@
       "color": "rgb(105, 146, 155)",
       "data": [
         [
-          2015,
+          2016,
           100
         ],
         [
-          2016,
-          100.9785756
-        ],
-        [
           2017,
-          112.4656397
+          111.3757439
         ],
         [
           2018,
-          115.5396165
+          114.419931
         ],
         [
           2019,
-          117.8059946
+          116.6643458
         ],
         [
           2020,
-          33.14924896
+          32.8280021
         ],
         [
           2021,
-          47.63376086
+          47.1721457
         ],
         [
           2022,
-          95.12952065
+          94.2076278
         ],
         [
           2023,
-          116.2031167
+          115.0770012
         ],
         [
           2024,
-          120.9190448
+          119.7472276
+        ],
+        [
+          2025,
+          130.5048424
         ]
       ],
       "name": "Ausland"
@@ -95,34 +95,32 @@
   ],
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "marginRight": 20,
     "renderTo": "container-6547"
@@ -150,7 +148,7 @@
     "text": "Logiernächte nach Herkunft der Gäste"
   },
   "subtitle": {
-    "text": "indexiert (2015 = 100), Basel-Stadt",
+    "text": "indexiert (2016 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -218,49 +216,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

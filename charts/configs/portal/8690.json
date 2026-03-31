@@ -7,22 +7,6 @@
       "yAxis": 1,
       "data": [
         [
-          "2015-01",
-          13
-        ],
-        [
-          "2015-02",
-          8
-        ],
-        [
-          "2015-03",
-          16
-        ],
-        [
-          "2015-04",
-          12
-        ],
-        [
           "2016-01",
           13
         ],
@@ -165,6 +149,22 @@
         [
           "2024-04",
           6
+        ],
+        [
+          "2025-01",
+          8
+        ],
+        [
+          "2025-02",
+          1
+        ],
+        [
+          "2025-03",
+          5
+        ],
+        [
+          "2025-04",
+          1
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -179,22 +179,6 @@
       "index": 1,
       "type": "line",
       "data": [
-        [
-          "2015-01",
-          375
-        ],
-        [
-          "2015-02",
-          372
-        ],
-        [
-          "2015-03",
-          365
-        ],
-        [
-          "2015-04",
-          363
-        ],
         [
           "2016-01",
           393
@@ -309,35 +293,51 @@
         ],
         [
           "2023-01",
-          283
+          280
         ],
         [
           "2023-02",
-          272
+          268
         ],
         [
           "2023-03",
-          260
+          261
         ],
         [
           "2023-04",
-          247
+          255
         ],
         [
           "2024-01",
-          240
+          250
         ],
         [
           "2024-02",
-          235
+          245
         ],
         [
           "2024-03",
-          230
+          239
         ],
         [
           "2024-04",
-          226
+          234
+        ],
+        [
+          "2025-01",
+          227
+        ],
+        [
+          "2025-02",
+          219
+        ],
+        [
+          "2025-03",
+          213
+        ],
+        [
+          "2025-04",
+          "."
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -352,22 +352,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2015-01",
-          38
-        ],
-        [
-          "2015-02",
-          32
-        ],
-        [
-          "2015-03",
-          34
-        ],
-        [
-          "2015-04",
-          37
-        ],
         [
           "2016-01",
           39
@@ -511,6 +495,22 @@
         [
           "2024-04",
           11
+        ],
+        [
+          "2025-01",
+          9
+        ],
+        [
+          "2025-02",
+          5
+        ],
+        [
+          "2025-03",
+          3
+        ],
+        [
+          "2025-04",
+          9
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -542,34 +542,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 65,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-8690"
   },
@@ -667,49 +665,41 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": true,

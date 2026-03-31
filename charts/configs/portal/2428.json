@@ -4,54 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2015-01",
-          270
-        ],
-        [
-          "2015-02",
-          268
-        ],
-        [
-          "2015-03",
-          266
-        ],
-        [
-          "2015-04",
-          263
-        ],
-        [
-          "2015-05",
-          258
-        ],
-        [
-          "2015-06",
-          259
-        ],
-        [
-          "2015-07",
-          233
-        ],
-        [
-          "2015-08",
-          238
-        ],
-        [
-          "2015-09",
-          249
-        ],
-        [
-          "2015-10",
-          246
-        ],
-        [
-          "2015-11",
-          244
-        ],
-        [
-          "2015-12",
-          240
-        ],
-        [
           "2016-01",
           277
         ],
@@ -482,6 +434,54 @@
         [
           "2024-12",
           286
+        ],
+        [
+          "2025-01",
+          305
+        ],
+        [
+          "2025-02",
+          286
+        ],
+        [
+          "2025-03",
+          285
+        ],
+        [
+          "2025-04",
+          279
+        ],
+        [
+          "2025-05",
+          271
+        ],
+        [
+          "2025-06",
+          284
+        ],
+        [
+          "2025-07",
+          279
+        ],
+        [
+          "2025-08",
+          275
+        ],
+        [
+          "2025-09",
+          263
+        ],
+        [
+          "2025-10",
+          264
+        ],
+        [
+          "2025-11",
+          277
+        ],
+        [
+          "2025-12",
+          294
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -490,54 +490,6 @@
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2015-01",
-          133
-        ],
-        [
-          "2015-02",
-          143
-        ],
-        [
-          "2015-03",
-          141
-        ],
-        [
-          "2015-04",
-          144
-        ],
-        [
-          "2015-05",
-          141
-        ],
-        [
-          "2015-06",
-          144
-        ],
-        [
-          "2015-07",
-          148
-        ],
-        [
-          "2015-08",
-          144
-        ],
-        [
-          "2015-09",
-          132
-        ],
-        [
-          "2015-10",
-          134
-        ],
-        [
-          "2015-11",
-          138
-        ],
-        [
-          "2015-12",
-          143
-        ],
         [
           "2016-01",
           144
@@ -969,6 +921,54 @@
         [
           "2024-12",
           196
+        ],
+        [
+          "2025-01",
+          211
+        ],
+        [
+          "2025-02",
+          209
+        ],
+        [
+          "2025-03",
+          207
+        ],
+        [
+          "2025-04",
+          211
+        ],
+        [
+          "2025-05",
+          212
+        ],
+        [
+          "2025-06",
+          211
+        ],
+        [
+          "2025-07",
+          224
+        ],
+        [
+          "2025-08",
+          228
+        ],
+        [
+          "2025-09",
+          251
+        ],
+        [
+          "2025-10",
+          248
+        ],
+        [
+          "2025-11",
+          241
+        ],
+        [
+          "2025-12",
+          262
         ]
       ],
       "name": "Chemie, Pharma",
@@ -977,54 +977,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2015-01",
-          597
-        ],
-        [
-          "2015-02",
-          565
-        ],
-        [
-          "2015-03",
-          533
-        ],
-        [
-          "2015-04",
-          458
-        ],
-        [
-          "2015-05",
-          387
-        ],
-        [
-          "2015-06",
-          327
-        ],
-        [
-          "2015-07",
-          292
-        ],
-        [
-          "2015-08",
-          284
-        ],
-        [
-          "2015-09",
-          304
-        ],
-        [
-          "2015-10",
-          355
-        ],
-        [
-          "2015-11",
-          462
-        ],
-        [
-          "2015-12",
-          563
-        ],
         [
           "2016-01",
           601
@@ -1456,6 +1408,54 @@
         [
           "2024-12",
           500
+        ],
+        [
+          "2025-01",
+          509
+        ],
+        [
+          "2025-02",
+          478
+        ],
+        [
+          "2025-03",
+          438
+        ],
+        [
+          "2025-04",
+          370
+        ],
+        [
+          "2025-05",
+          338
+        ],
+        [
+          "2025-06",
+          309
+        ],
+        [
+          "2025-07",
+          296
+        ],
+        [
+          "2025-08",
+          280
+        ],
+        [
+          "2025-09",
+          268
+        ],
+        [
+          "2025-10",
+          286
+        ],
+        [
+          "2025-11",
+          352
+        ],
+        [
+          "2025-12",
+          480
         ]
       ],
       "name": "Baugewerbe",
@@ -1486,34 +1486,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-2428"
   },
@@ -1592,49 +1590,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

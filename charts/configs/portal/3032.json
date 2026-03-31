@@ -4,22 +4,6 @@
       "color": "#D7E8D2",
       "data": [
         [
-          "2015-1",
-          3214
-        ],
-        [
-          "2015-2",
-          2081
-        ],
-        [
-          "2015-3",
-          3960
-        ],
-        [
-          "2015-4",
-          5075
-        ],
-        [
           "2016-1",
           4378
         ],
@@ -162,6 +146,22 @@
         [
           "2024-4",
           5589
+        ],
+        [
+          "2025-1",
+          1665
+        ],
+        [
+          "2025-2",
+          2098
+        ],
+        [
+          "2025-3",
+          2372
+        ],
+        [
+          "2025-4",
+          4372
         ]
       ],
       "name": "Handel, Reparatur",
@@ -170,22 +170,6 @@
     {
       "color": "#73B97C",
       "data": [
-        [
-          "2015-1",
-          2303
-        ],
-        [
-          "2015-2",
-          1550
-        ],
-        [
-          "2015-3",
-          792
-        ],
-        [
-          "2015-4",
-          380
-        ],
         [
           "2016-1",
           1389
@@ -329,6 +313,22 @@
         [
           "2024-4",
           811
+        ],
+        [
+          "2025-1",
+          1476
+        ],
+        [
+          "2025-2",
+          1379
+        ],
+        [
+          "2025-3",
+          1790
+        ],
+        [
+          "2025-4",
+          1455
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -337,22 +337,6 @@
     {
       "color": "#007A2F",
       "data": [
-        [
-          "2015-1",
-          6613
-        ],
-        [
-          "2015-2",
-          4895
-        ],
-        [
-          "2015-3",
-          4861
-        ],
-        [
-          "2015-4",
-          6741
-        ],
         [
           "2016-1",
           7656
@@ -496,6 +480,22 @@
         [
           "2024-4",
           16359
+        ],
+        [
+          "2025-1",
+          8333
+        ],
+        [
+          "2025-2",
+          13449
+        ],
+        [
+          "2025-3",
+          14616
+        ],
+        [
+          "2025-4",
+          16746
         ]
       ],
       "name": "Gastgewerbe",
@@ -504,22 +504,6 @@
     {
       "color": "#0A3B19",
       "data": [
-        [
-          "2015-1",
-          4180
-        ],
-        [
-          "2015-2",
-          3362
-        ],
-        [
-          "2015-3",
-          3778
-        ],
-        [
-          "2015-4",
-          4336
-        ],
         [
           "2016-1",
           4602
@@ -663,6 +647,22 @@
         [
           "2024-4",
           1356
+        ],
+        [
+          "2025-1",
+          1281
+        ],
+        [
+          "2025-2",
+          1402
+        ],
+        [
+          "2025-3",
+          1159
+        ],
+        [
+          "2025-4",
+          2134
         ]
       ],
       "name": "IT-Dienstleistungen",
@@ -694,34 +694,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-3032"
   },
@@ -800,49 +798,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

@@ -16,10 +16,6 @@
           3
         ],
         [
-          2008,
-          null
-        ],
-        [
           2009,
           3
         ],
@@ -30,10 +26,6 @@
         [
           2011,
           3
-        ],
-        [
-          2012,
-          null
         ],
         [
           2013,
@@ -74,9 +66,17 @@
         [
           2022,
           1
+        ],
+        [
+          2023,
+          2
+        ],
+        [
+          2024,
+          2
         ]
       ],
-      "name": "Wohnviertel Klybeck"
+      "name": "Klybeck"
     },
     {
       "color": "#b375ab",
@@ -94,10 +94,6 @@
           1
         ],
         [
-          2008,
-          null
-        ],
-        [
           2009,
           null
         ],
@@ -107,10 +103,6 @@
         ],
         [
           2011,
-          null
-        ],
-        [
-          2012,
           null
         ],
         [
@@ -152,9 +144,17 @@
         [
           2022,
           null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
         ]
       ],
-      "name": "Wohnviertel Kleinhüningen"
+      "name": "Kleinhüningen"
     }
   ],
   "chart": {
@@ -288,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "exporting": {
     "filename": "8071"

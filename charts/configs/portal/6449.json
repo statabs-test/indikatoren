@@ -4,44 +4,44 @@
       "color": "#C8C8C8",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          100.9
-        ],
-        [
           2016,
-          100.7
+          99.9
         ],
         [
           2017,
-          101.7
+          100.9
         ],
         [
           2018,
-          103.9
+          103.1
         ],
         [
           2019,
-          104.3
+          103.4
         ],
         [
           2020,
-          107.3
+          106.4
         ],
         [
           2021,
-          108.7
+          107.8
         ],
         [
           2022,
-          109.6
+          108.6
         ],
         [
           2023,
-          110.3
+          109.8
+        ],
+        [
+          2024,
+          110.9
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)"
@@ -50,44 +50,44 @@
       "color": "#008AC3",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          102
-        ],
-        [
           2016,
-          99.8
+          97.8
         ],
         [
           2017,
-          94.6
+          92.7
         ],
         [
           2018,
-          93.2
+          91.4
         ],
         [
           2019,
-          95.8
+          93.9
         ],
         [
           2020,
-          82.7
+          81.1
         ],
         [
           2021,
-          91.3
+          89.5
         ],
         [
           2022,
-          97.2
+          95.3
         ],
         [
           2023,
-          99.9
+          98.3
+        ],
+        [
+          2024,
+          98.4
         ]
       ],
       "name": "Erziehung, Unterricht"
@@ -96,16 +96,12 @@
       "color": "#6F6F6F",
       "data": [
         [
-          2014,
-          100
-        ],
-        [
           2015,
           100
         ],
         [
           2016,
-          105.9
+          105.8
         ],
         [
           2017,
@@ -113,19 +109,19 @@
         ],
         [
           2018,
-          110.4
+          110.3
         ],
         [
           2019,
-          116.2
+          116.1
         ],
         [
           2020,
-          115.6
+          115.5
         ],
         [
           2021,
-          122
+          121.9
         ],
         [
           2022,
@@ -133,7 +129,11 @@
         ],
         [
           2023,
-          130
+          130.5
+        ],
+        [
+          2024,
+          131.4
         ]
       ],
       "name": "Gesundheits-, Sozialwesen"
@@ -142,44 +142,44 @@
       "color": "#2B0099",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          84.8
-        ],
-        [
           2016,
-          91.6
+          108
         ],
         [
           2017,
-          81
+          95.5
         ],
         [
           2018,
-          76.1
+          89.7
         ],
         [
           2019,
-          80.4
+          94.7
         ],
         [
           2020,
-          58.7
+          69.3
         ],
         [
           2021,
-          63
+          74.4
         ],
         [
           2022,
-          83.7
+          98.6
         ],
         [
           2023,
-          83.1
+          95.8
+        ],
+        [
+          2024,
+          95.1
         ]
       ],
       "name": "Kultur, Unterhaltung"
@@ -187,34 +187,32 @@
   ],
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "marginRight": 15,
     "renderTo": "container-6449"
@@ -242,7 +240,7 @@
     "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (III)"
   },
   "subtitle": {
-    "text": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+    "text": "Basel-Stadt, real, indexiert (Jahr 2015 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -316,49 +314,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

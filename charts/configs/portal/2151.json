@@ -5,10 +5,6 @@
       "index": 15,
       "data": [
         [
-          "2015",
-          209
-        ],
-        [
           "2016",
           207
         ],
@@ -43,6 +39,10 @@
         [
           "2024",
           175
+        ],
+        [
+          "2025",
+          147
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -52,10 +52,6 @@
       "color": "#923F8D",
       "index": 14,
       "data": [
-        [
-          "2015",
-          490
-        ],
         [
           "2016",
           444
@@ -91,6 +87,10 @@
         [
           "2024",
           279
+        ],
+        [
+          "2025",
+          260
         ]
       ],
       "name": "Chemie, Pharma",
@@ -100,10 +100,6 @@
       "color": "#662673",
       "index": 13,
       "data": [
-        [
-          "2015",
-          171
-        ],
         [
           "2016",
           111
@@ -139,6 +135,10 @@
         [
           "2024",
           72
+        ],
+        [
+          "2025",
+          72
         ]
       ],
       "name": "Baugewerbe",
@@ -148,10 +148,6 @@
       "color": "#73B97C",
       "index": 12,
       "data": [
-        [
-          "2015",
-          420
-        ],
         [
           "2016",
           373
@@ -187,6 +183,10 @@
         [
           "2024",
           290
+        ],
+        [
+          "2025",
+          211
         ]
       ],
       "name": "Handel, Reparatur",
@@ -196,10 +196,6 @@
       "color": "#B6CFD7",
       "index": 11,
       "data": [
-        [
-          "2015",
-          196
-        ],
         [
           "2016",
           149
@@ -235,6 +231,10 @@
         [
           "2024",
           122
+        ],
+        [
+          "2025",
+          123
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -244,10 +244,6 @@
       "color": "#007A2F",
       "index": 10,
       "data": [
-        [
-          "2015",
-          263
-        ],
         [
           "2016",
           210
@@ -283,6 +279,10 @@
         [
           "2024",
           248
+        ],
+        [
+          "2025",
+          200
         ]
       ],
       "name": "Gastgewerbe",
@@ -292,10 +292,6 @@
       "color": "#FFDA80",
       "index": 9,
       "data": [
-        [
-          "2015",
-          81
-        ],
         [
           "2016",
           51
@@ -331,6 +327,10 @@
         [
           "2024",
           38
+        ],
+        [
+          "2025",
+          34
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -340,10 +340,6 @@
       "color": "#FFBB58",
       "index": 8,
       "data": [
-        [
-          "2015",
-          2796
-        ],
         [
           "2016",
           2650
@@ -379,6 +375,10 @@
         [
           "2024",
           3274
+        ],
+        [
+          "2025",
+          3223
         ]
       ],
       "name": "Berat., Plan., Forsch., Immob., IT",
@@ -388,10 +388,6 @@
       "color": "#689199",
       "index": 6,
       "data": [
-        [
-          "2015",
-          69
-        ],
         [
           "2016",
           77
@@ -427,6 +423,10 @@
         [
           "2024",
           120
+        ],
+        [
+          "2025",
+          110
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialvers.",
@@ -436,10 +436,6 @@
       "color": "#008AC3",
       "index": 3,
       "data": [
-        [
-          "2015",
-          155
-        ],
         [
           "2016",
           111
@@ -475,6 +471,10 @@
         [
           "2024",
           58
+        ],
+        [
+          "2025",
+          94
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -484,10 +484,6 @@
       "color": "#C8C8C8",
       "index": 2,
       "data": [
-        [
-          "2015",
-          469
-        ],
         [
           "2016",
           486
@@ -523,6 +519,10 @@
         [
           "2024",
           476
+        ],
+        [
+          "2025",
+          464
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -532,10 +532,6 @@
       "color": "#2B0099",
       "index": 1,
       "data": [
-        [
-          "2015",
-          180
-        ],
         [
           "2016",
           170
@@ -571,6 +567,10 @@
         [
           "2024",
           508
+        ],
+        [
+          "2025",
+          489
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -580,10 +580,6 @@
       "color": "#8A8A8A",
       "index": 0,
       "data": [
-        [
-          "2015",
-          73
-        ],
         [
           "2016",
           42
@@ -619,6 +615,10 @@
         [
           "2024",
           45
+        ],
+        [
+          "2025",
+          20
         ]
       ],
       "name": "Übrige",
@@ -647,34 +647,32 @@
   },
   "chart": {
     "type": "column",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "inverted": false,
     "renderTo": "container-2151"
@@ -757,49 +755,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": true,

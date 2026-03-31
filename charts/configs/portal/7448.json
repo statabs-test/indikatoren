@@ -10,54 +10,6 @@
       },
       "data": [
         [
-          "2015-01",
-          0.052782
-        ],
-        [
-          "2015-02",
-          0.052782
-        ],
-        [
-          "2015-03",
-          0.052782
-        ],
-        [
-          "2015-04",
-          0.052782
-        ],
-        [
-          "2015-05",
-          0.052782
-        ],
-        [
-          "2015-06",
-          0.052782
-        ],
-        [
-          "2015-07",
-          0.052782
-        ],
-        [
-          "2015-08",
-          0.052782
-        ],
-        [
-          "2015-09",
-          0.052782
-        ],
-        [
-          "2015-10",
-          0.052782
-        ],
-        [
-          "2015-11",
-          0.052782
-        ],
-        [
-          "2015-12",
-          0.052782
-        ],
-        [
           "2016-01",
           0.054265
         ],
@@ -488,6 +440,54 @@
         [
           "2024-12",
           0.043823
+        ],
+        [
+          "2025-01",
+          0.043652
+        ],
+        [
+          "2025-02",
+          0.043652
+        ],
+        [
+          "2025-03",
+          0.043652
+        ],
+        [
+          "2025-04",
+          0.043652
+        ],
+        [
+          "2025-05",
+          0.043652
+        ],
+        [
+          "2025-06",
+          0.043652
+        ],
+        [
+          "2025-07",
+          0.043652
+        ],
+        [
+          "2025-08",
+          0.043652
+        ],
+        [
+          "2025-09",
+          0.043652
+        ],
+        [
+          "2025-10",
+          0.043652
+        ],
+        [
+          "2025-11",
+          0.043652
+        ],
+        [
+          "2025-12",
+          0.043652
         ]
       ],
       "name": "Mittlere jährliche Arbeitslosenquote",
@@ -501,54 +501,6 @@
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          "2015-01",
-          82
-        ],
-        [
-          "2015-02",
-          79
-        ],
-        [
-          "2015-03",
-          79
-        ],
-        [
-          "2015-04",
-          79
-        ],
-        [
-          "2015-05",
-          83
-        ],
-        [
-          "2015-06",
-          84
-        ],
-        [
-          "2015-07",
-          72
-        ],
-        [
-          "2015-08",
-          74
-        ],
-        [
-          "2015-09",
-          72
-        ],
-        [
-          "2015-10",
-          70
-        ],
-        [
-          "2015-11",
-          76
-        ],
-        [
-          "2015-12",
-          75
-        ],
         [
           "2016-01",
           79
@@ -980,6 +932,54 @@
         [
           "2024-12",
           70
+        ],
+        [
+          "2025-01",
+          76
+        ],
+        [
+          "2025-02",
+          66
+        ],
+        [
+          "2025-03",
+          68
+        ],
+        [
+          "2025-04",
+          64
+        ],
+        [
+          "2025-05",
+          67
+        ],
+        [
+          "2025-06",
+          64
+        ],
+        [
+          "2025-07",
+          64
+        ],
+        [
+          "2025-08",
+          56
+        ],
+        [
+          "2025-09",
+          59
+        ],
+        [
+          "2025-10",
+          55
+        ],
+        [
+          "2025-11",
+          63
+        ],
+        [
+          "2025-12",
+          63
         ]
       ],
       "name": "Monatliche Anzahl Arbeitslose (rechte Skala)",
@@ -1011,34 +1011,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-7448"
   },
@@ -1130,49 +1128,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "exporting": {
     "filename": "7448"

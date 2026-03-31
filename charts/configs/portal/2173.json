@@ -5,22 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2015-1",
-          34665
-        ],
-        [
-          "2015-2",
-          35121
-        ],
-        [
-          "2015-3",
-          35330
-        ],
-        [
-          "2015-4",
-          34988
-        ],
-        [
           "2016-1",
           35300
         ],
@@ -134,35 +118,47 @@
         ],
         [
           "2023-1",
-          35039
+          35251
         ],
         [
           "2023-2",
-          34834
+          35657
         ],
         [
           "2023-3",
-          34835
+          35684
         ],
         [
           "2023-4",
-          34643
+          35271
         ],
         [
           "2024-1",
-          34706
+          35339
         ],
         [
           "2024-2",
-          34816
+          35449
         ],
         [
           "2024-3",
-          35133
+          35744
         ],
         [
           "2024-4",
-          35858
+          35869
+        ],
+        [
+          "2025-1",
+          35734
+        ],
+        [
+          "2025-2",
+          35806
+        ],
+        [
+          "2025-3",
+          36688
         ]
       ],
       "name": "BS",
@@ -172,22 +168,6 @@
       "color": "#FF8028",
       "index": 1,
       "data": [
-        [
-          "2015-1",
-          20071
-        ],
-        [
-          "2015-2",
-          20414
-        ],
-        [
-          "2015-3",
-          20653
-        ],
-        [
-          "2015-4",
-          20601
-        ],
         [
           "2016-1",
           20565
@@ -222,7 +202,7 @@
         ],
         [
           "2018-1",
-          21481
+          21480
         ],
         [
           "2018-2",
@@ -302,35 +282,47 @@
         ],
         [
           "2023-1",
-          24481
+          24583
         ],
         [
           "2023-2",
-          24695
+          25074
         ],
         [
           "2023-3",
-          24839
+          25293
         ],
         [
           "2023-4",
-          24846
+          25030
         ],
         [
           "2024-1",
-          24899
+          25091
         ],
         [
           "2024-2",
-          25150
+          25335
         ],
         [
           "2024-3",
-          25461
+          25667
         ],
         [
           "2024-4",
-          25557
+          25712
+        ],
+        [
+          "2025-1",
+          25944
+        ],
+        [
+          "2025-2",
+          26103
+        ],
+        [
+          "2025-3",
+          26127
         ]
       ],
       "name": "BL",
@@ -340,22 +332,6 @@
       "color": "#A8C3CA",
       "index": 1,
       "data": [
-        [
-          "2015-1",
-          13327
-        ],
-        [
-          "2015-2",
-          13427
-        ],
-        [
-          "2015-3",
-          13703
-        ],
-        [
-          "2015-4",
-          13615
-        ],
         [
           "2016-1",
           13795
@@ -410,11 +386,11 @@
         ],
         [
           "2019-2",
-          14177
+          14178
         ],
         [
           "2019-3",
-          14294
+          14295
         ],
         [
           "2019-4",
@@ -426,7 +402,7 @@
         ],
         [
           "2020-2",
-          14247
+          14246
         ],
         [
           "2020-3",
@@ -470,35 +446,47 @@
         ],
         [
           "2023-1",
-          15095
+          15135
         ],
         [
           "2023-2",
-          15061
+          15268
         ],
         [
           "2023-3",
-          15197
+          15572
         ],
         [
           "2023-4",
-          15069
+          15406
         ],
         [
           "2024-1",
-          15070
+          15416
         ],
         [
           "2024-2",
-          15142
+          15488
         ],
         [
           "2024-3",
-          15220
+          15567
         ],
         [
           "2024-4",
-          15239
+          15538
+        ],
+        [
+          "2025-1",
+          15614
+        ],
+        [
+          "2025-2",
+          15698
+        ],
+        [
+          "2025-3",
+          15786
         ]
       ],
       "name": "AG",
@@ -509,24 +497,8 @@
       "index": 2,
       "data": [
         [
-          "2015-1",
-          9154
-        ],
-        [
-          "2015-2",
-          9328
-        ],
-        [
-          "2015-3",
-          9517
-        ],
-        [
-          "2015-4",
-          9480
-        ],
-        [
           "2016-1",
-          9680
+          9681
         ],
         [
           "2016-2",
@@ -638,35 +610,47 @@
         ],
         [
           "2023-1",
-          11642
+          11695
         ],
         [
           "2023-2",
-          11773
+          11862
         ],
         [
           "2023-3",
-          11835
+          11995
         ],
         [
           "2023-4",
-          12010
+          12193
         ],
         [
           "2024-1",
-          12138
+          12322
         ],
         [
           "2024-2",
-          12097
+          12281
         ],
         [
           "2024-3",
-          12196
+          12378
         ],
         [
           "2024-4",
-          12262
+          12406
+        ],
+        [
+          "2025-1",
+          12406
+        ],
+        [
+          "2025-2",
+          12424
+        ],
+        [
+          "2025-3",
+          12271
         ]
       ],
       "name": "ZH",
@@ -698,34 +682,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-2173"
   },
@@ -806,49 +788,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "pointFormatter": function(){

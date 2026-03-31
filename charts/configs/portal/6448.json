@@ -4,44 +4,44 @@
       "color": "#FFBB58",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          99.9
-        ],
-        [
           2016,
-          102.7
+          102.8
         ],
         [
           2017,
-          106.4
+          106.5
         ],
         [
           2018,
-          109.4
+          109.5
         ],
         [
           2019,
-          112.5
+          112.6
         ],
         [
           2020,
-          117.7
+          117.8
         ],
         [
           2021,
-          120
+          120.1
         ],
         [
           2022,
-          124.3
+          124.4
         ],
         [
           2023,
-          123.7
+          124.2
+        ],
+        [
+          2024,
+          127.8
         ]
       ],
       "name": "Finanz-, Versicherungs-DL"
@@ -50,44 +50,44 @@
       "color": "#FF8028",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          96.6
-        ],
-        [
           2016,
-          96.2
+          99.6
         ],
         [
           2017,
-          95.3
+          98.7
         ],
         [
           2018,
-          101.4
+          104.9
         ],
         [
           2019,
-          102.4
+          106
         ],
         [
           2020,
-          100.3
+          103.8
         ],
         [
           2021,
-          97.7
+          101.1
         ],
         [
           2022,
-          104.2
+          108.1
         ],
         [
           2023,
-          107.2
+          110.1
+        ],
+        [
+          2024,
+          114
         ]
       ],
       "name": "Beratung, Planung, Forschung"
@@ -96,44 +96,44 @@
       "color": "#DC440E",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          95.8
-        ],
-        [
           2016,
-          91.4
+          95.4
         ],
         [
           2017,
-          93.2
+          97.2
         ],
         [
           2018,
-          93.4
+          97.5
         ],
         [
           2019,
-          98.5
+          102.8
         ],
         [
           2020,
-          87.6
+          91.6
         ],
         [
           2021,
-          98.2
+          100.3
         ],
         [
           2022,
-          106.6
+          109.8
         ],
         [
           2023,
-          112.7
+          114.5
+        ],
+        [
+          2024,
+          118.5
         ]
       ],
       "name": "Gebäudebet., Sicherh., sonst. wirtsch. DL (inkl. Pers.verm., -überl.)"
@@ -142,44 +142,44 @@
       "color": "#B00000",
       "data": [
         [
-          2014,
+          2015,
           100
         ],
         [
-          2015,
-          87.8
-        ],
-        [
           2016,
-          84.2
+          95.9
         ],
         [
           2017,
-          87.5
+          99.6
         ],
         [
           2018,
-          87.7
+          99.9
         ],
         [
           2019,
-          94.7
+          107.9
         ],
         [
           2020,
-          91
+          105
         ],
         [
           2021,
-          99.7
+          113.5
         ],
         [
           2022,
-          106.9
+          121.7
         ],
         [
           2023,
-          114.9
+          126.7
+        ],
+        [
+          2024,
+          132.9
         ]
       ],
       "name": "Personalvermittlung, -überlassung"
@@ -187,34 +187,32 @@
   ],
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-6448"
   },
@@ -241,7 +239,7 @@
     "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)"
   },
   "subtitle": {
-    "text": "Basel-Stadt, real, indexiert (Jahr 2014 = 100)",
+    "text": "Basel-Stadt, real, indexiert (Jahr 2015 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -310,49 +308,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "shared": false,

@@ -4,54 +4,6 @@
       "color": "#B00000",
       "data": [
         [
-          "2015-01",
-          1760
-        ],
-        [
-          "2015-02",
-          1715
-        ],
-        [
-          "2015-03",
-          1722
-        ],
-        [
-          "2015-04",
-          1683
-        ],
-        [
-          "2015-05",
-          1632
-        ],
-        [
-          "2015-06",
-          1643
-        ],
-        [
-          "2015-07",
-          1644
-        ],
-        [
-          "2015-08",
-          1742
-        ],
-        [
-          "2015-09",
-          1771
-        ],
-        [
-          "2015-10",
-          1738
-        ],
-        [
-          "2015-11",
-          1721
-        ],
-        [
-          "2015-12",
-          1707
-        ],
-        [
           "2016-01",
           1760
         ],
@@ -482,6 +434,54 @@
         [
           "2024-12",
           1692
+        ],
+        [
+          "2025-01",
+          1770
+        ],
+        [
+          "2025-02",
+          1781
+        ],
+        [
+          "2025-03",
+          1775
+        ],
+        [
+          "2025-04",
+          1726
+        ],
+        [
+          "2025-05",
+          1735
+        ],
+        [
+          "2025-06",
+          1751
+        ],
+        [
+          "2025-07",
+          1835
+        ],
+        [
+          "2025-08",
+          1868
+        ],
+        [
+          "2025-09",
+          1866
+        ],
+        [
+          "2025-10",
+          1837
+        ],
+        [
+          "2025-11",
+          1855
+        ],
+        [
+          "2025-12",
+          1926
         ]
       ],
       "name": "Schweiz",
@@ -490,54 +490,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2015-01",
-          1079
-        ],
-        [
-          "2015-02",
-          1056
-        ],
-        [
-          "2015-03",
-          1017
-        ],
-        [
-          "2015-04",
-          975
-        ],
-        [
-          "2015-05",
-          934
-        ],
-        [
-          "2015-06",
-          874
-        ],
-        [
-          "2015-07",
-          834
-        ],
-        [
-          "2015-08",
-          829
-        ],
-        [
-          "2015-09",
-          889
-        ],
-        [
-          "2015-10",
-          905
-        ],
-        [
-          "2015-11",
-          968
-        ],
-        [
-          "2015-12",
-          1014
-        ],
         [
           "2016-01",
           1106
@@ -969,6 +921,54 @@
         [
           "2024-12",
           1374
+        ],
+        [
+          "2025-01",
+          1476
+        ],
+        [
+          "2025-02",
+          1414
+        ],
+        [
+          "2025-03",
+          1364
+        ],
+        [
+          "2025-04",
+          1339
+        ],
+        [
+          "2025-05",
+          1321
+        ],
+        [
+          "2025-06",
+          1298
+        ],
+        [
+          "2025-07",
+          1333
+        ],
+        [
+          "2025-08",
+          1353
+        ],
+        [
+          "2025-09",
+          1358
+        ],
+        [
+          "2025-10",
+          1366
+        ],
+        [
+          "2025-11",
+          1434
+        ],
+        [
+          "2025-12",
+          1542
         ]
       ],
       "name": "EU15\u002FEFTA",
@@ -977,54 +977,6 @@
     {
       "color": "#083038",
       "data": [
-        [
-          "2015-01",
-          117
-        ],
-        [
-          "2015-02",
-          122
-        ],
-        [
-          "2015-03",
-          126
-        ],
-        [
-          "2015-04",
-          122
-        ],
-        [
-          "2015-05",
-          117
-        ],
-        [
-          "2015-06",
-          126
-        ],
-        [
-          "2015-07",
-          117
-        ],
-        [
-          "2015-08",
-          115
-        ],
-        [
-          "2015-09",
-          120
-        ],
-        [
-          "2015-10",
-          126
-        ],
-        [
-          "2015-11",
-          132
-        ],
-        [
-          "2015-12",
-          150
-        ],
         [
           "2016-01",
           149
@@ -1456,6 +1408,54 @@
         [
           "2024-12",
           242
+        ],
+        [
+          "2025-01",
+          254
+        ],
+        [
+          "2025-02",
+          256
+        ],
+        [
+          "2025-03",
+          256
+        ],
+        [
+          "2025-04",
+          257
+        ],
+        [
+          "2025-05",
+          246
+        ],
+        [
+          "2025-06",
+          229
+        ],
+        [
+          "2025-07",
+          241
+        ],
+        [
+          "2025-08",
+          231
+        ],
+        [
+          "2025-09",
+          245
+        ],
+        [
+          "2025-10",
+          228
+        ],
+        [
+          "2025-11",
+          241
+        ],
+        [
+          "2025-12",
+          254
         ]
       ],
       "name": "EU seit 2004",
@@ -1464,54 +1464,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2015-01",
-          897
-        ],
-        [
-          "2015-02",
-          873
-        ],
-        [
-          "2015-03",
-          868
-        ],
-        [
-          "2015-04",
-          841
-        ],
-        [
-          "2015-05",
-          835
-        ],
-        [
-          "2015-06",
-          822
-        ],
-        [
-          "2015-07",
-          777
-        ],
-        [
-          "2015-08",
-          772
-        ],
-        [
-          "2015-09",
-          813
-        ],
-        [
-          "2015-10",
-          832
-        ],
-        [
-          "2015-11",
-          857
-        ],
-        [
-          "2015-12",
-          910
-        ],
         [
           "2016-01",
           932
@@ -1943,6 +1895,54 @@
         [
           "2024-12",
           975
+        ],
+        [
+          "2025-01",
+          1003
+        ],
+        [
+          "2025-02",
+          991
+        ],
+        [
+          "2025-03",
+          968
+        ],
+        [
+          "2025-04",
+          979
+        ],
+        [
+          "2025-05",
+          984
+        ],
+        [
+          "2025-06",
+          973
+        ],
+        [
+          "2025-07",
+          1006
+        ],
+        [
+          "2025-08",
+          974
+        ],
+        [
+          "2025-09",
+          967
+        ],
+        [
+          "2025-10",
+          979
+        ],
+        [
+          "2025-11",
+          1022
+        ],
+        [
+          "2025-12",
+          1054
         ]
       ],
       "name": "Drittstaaten",
@@ -1973,34 +1973,32 @@
   },
   "chart": {
     "type": "line",
-    "width": null,
+    "width": 485,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#ffffff",
-    "backgroundColor": "#ffffff",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
+					this.credits.element.onclick = function () { };
 
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
-        }
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
     },
     "renderTo": "container-2426"
   },
@@ -2082,49 +2080,41 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
-        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
-        //function checks how many decimal places has a number
-        var countDecimals = function (value) {
-          if (value % 1 != 0) return value.toString().split(".")[1].length;
-          return 0;
-        };
 
-        var ticks = axis.tickPositions;
-        var howManyDecimals = 0;
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
 
-        //loop looks for the the largest number of decimal places
-        ticks.forEach(function (tick) {
-          if (countDecimals(tick) > howManyDecimals) {
-            howManyDecimals = countDecimals(tick);
-          }
-        });
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
 
-        //update labels so they have the same number of decimal places
-        axis.chart.update(
-          {
-            yAxis: [
-              {
-                labels: {
-                  //format: '{value:,.' + howManyDecimals + 'f}',
-                  format: formatString.replace(
-                    "howManyDecimals",
-                    howManyDecimals
-                  ),
-                },
-              },
-              {
-                //second yAxis, if present
-              },
-            ],
-          },
-          true,
-          true
-        );
-      }
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
     "pointFormatter": function(){
