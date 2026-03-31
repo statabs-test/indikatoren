@@ -316,7 +316,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "tooltip": {
-    "formatter": formatter() {
+    "formatter": function() {
     if (this.series.userOptions.index === 0) { 
       const series = this.series.chart.series;
       let tooltip = "";
