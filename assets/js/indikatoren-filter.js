@@ -47,7 +47,21 @@ $(document).ready(function () {
   var searchUrlParamValue = window.decodeURIComponent($.url("?search"));
   if (searchUrlParamValue != "undefined") {
     $("#searchbox").val(searchUrlParamValue);
+  } else {
+    var storedSearch = localStorage.getItem("portal_search");
+    if (storedSearch) {
+      $("#searchbox").val(storedSearch);
+    }
   }
+
+  $("#searchbox").on("input", function () {
+    var val = $(this).val();
+    if (val) {
+      localStorage.setItem("portal_search", val);
+    } else {
+      localStorage.removeItem("portal_search");
+    }
+  });
 
   //Render page differently depending on url query string 'Indikatorenset'
   var indikatorenset = window.decodeURIComponent($.url("?Indikatorenset"));
@@ -155,6 +169,9 @@ function resetPortalFilter(FJS, view) {
     $("#searchbox").val("");
     $("#thema").prop("selectedIndex", 0);
     $("#unterthema_filter").prop("selectedIndex", 0);
+    localStorage.removeItem("portal_search");
+    localStorage.removeItem("portal_thema");
+    localStorage.removeItem("portal_unterthema");
     $("#raeumlicheGliederung_filter")
       .multiselect("selectAll", false)
       .multiselect("updateButtonText");
@@ -295,12 +312,31 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
   }
 
   window.FJS = FJS;
+
+  // Restore thema/unterthema from localStorage (portal view only)
+  if (!view) {
+    var storedThema = localStorage.getItem("portal_thema");
+    if (storedThema && storedThema !== "all") {
+      $("#thema").val(storedThema).trigger("change");
+      var storedUnterthema = localStorage.getItem("portal_unterthema");
+      if (storedUnterthema && storedUnterthema !== "all") {
+        $("#unterthema_filter").val(storedUnterthema);
+      }
+    }
+  }
+
   FJS.filter();
   //only now display page
   $("body").show();
 
+  // Sync toggle button label to restored state
+  $("#portal-view-toggle")
+    .find("div")
+    .text(portalListView ? "Kachelansicht" : "Listenansicht");
+
   $("#portal-view-toggle").on("click", function () {
     portalListView = !portalListView;
+    localStorage.setItem("portal_listView", portalListView);
 
     $(this)
       .find("div")
@@ -383,12 +419,18 @@ function preparePortalView() {
 
   $("#thema").on("change", function () {
     const val = $(this).val();
+    localStorage.setItem("portal_thema", val);
     if (val && val !== "all") {
       $("#unterthema_filter_container").removeClass("hidden");
     } else {
       $("#unterthema_filter_container").addClass("hidden").val("all");
+      localStorage.removeItem("portal_unterthema");
       if (window.FJS) FJS.filter();
     }
+  });
+
+  $("#unterthema_filter").on("change", function () {
+    localStorage.setItem("portal_unterthema", $(this).val());
   });
 
   renderMultiselectDropdownFromJson(
@@ -812,7 +854,10 @@ function getIndexByFid(fid) {
   }
 }
 
-var portalListView = true;
+var portalListView = (function () {
+  var stored = localStorage.getItem("portal_listView");
+  return stored === null ? true : stored === "true";
+})();
 
 function getCardTemplateId() {
   if (isIndikatorensetView(view)) {
