@@ -302,6 +302,14 @@ function injectMetadataToChartConfig(
     delete options.exporting.buttons;
   }
   options["chart"]["width"] = null;
+
+  // If subtitle has text and marginTop is hardcoded, remove it so Highcharts
+  // calculates the correct spacing automatically (prevents subtitle overlap).
+  // StockCharts are most affected because rangeSelector/navigator add extra elements.
+  if (options["subtitle"]["text"] && options["chart"]["marginTop"]) {
+    delete options["chart"]["marginTop"];
+  }
+
   return options;
 }
 

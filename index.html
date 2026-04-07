@@ -306,7 +306,7 @@
     >
       <div
         id="lightbox-wrapper"
-        class="w-full p-[20px] mx-4 my-10 rounded-xl flex flex-col relative"
+        class="w-full max-w-[760px] p-[20px] my-10 rounded-xl flex flex-col relative"
       >
         <!-- Close Button -->
         <div class="container flex w-full">
@@ -466,7 +466,7 @@
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="indikator text-sm leading-relaxed">
-        <div class="mb-20 min-h-[428px]" id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full text-left"></div>
+        <div class="mb-20 min-h-[428px]" id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>"></div>
 
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden mb-20'": "'mb-20'" ) %>>
