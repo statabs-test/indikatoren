@@ -110,7 +110,7 @@ $(document).ready(function () {
     $.getScript(jsonDatabaseUrl),
     $.Deferred(function (deferred) {
       $(deferred.resolve);
-    })
+    }),
   ).done(function () {
     if (isIndikatorensetView(view)) {
       //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
@@ -126,7 +126,7 @@ $(document).ready(function () {
     //determine how many chart previews to display
     var perPageParam = parseInt(
       window.decodeURIComponent($.url("?PerPage")),
-      10
+      10,
     );
 
     indikatoren_original = indikatoren.slice();
@@ -223,6 +223,10 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     if (!sortOptions) {
       sortOptions = { orderKey: "asc" };
     }
+    // Hide portal-only controls
+    $("#portal-view-toggle").hide();
+    $("#portal-reset-button").hide();
+    $("#result-count").hide();
     prepareIndikatorensetView(indikatorenset);
 
     //define filter.js configuration
@@ -359,10 +363,10 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
       var indicatorText = $("#carousel-indicators li").text();
       var lastNumberText = indicatorText.substring(
         0,
-        indicatorText.indexOf(" /")
+        indicatorText.indexOf(" /"),
       );
       $("#carousel-indicators li").text(
-        indicatorText.replace(lastNumberText, number)
+        indicatorText.replace(lastNumberText, number),
       );
       $("#carousel-indicators li").removeClass("active");
     }
@@ -448,13 +452,13 @@ function preparePortalView() {
     ],
     "",
     "#raeumlicheGliederung_filter",
-    false
+    false,
   );
   renderMultiselectDropdownFromJson(
     indikatoren,
     "darstellungsart",
     "#darstellungsart_filter",
-    false
+    false,
   );
 
   //prepare query String object for filtering thema and unterthema
@@ -465,7 +469,7 @@ function preparePortalView() {
     "unterthema",
     "#unterthema_filter",
     "unterthema",
-    baseQuery
+    baseQuery,
   );
 
   // hier!
@@ -484,21 +488,21 @@ function preparePortalView() {
   }
   setDropdownValFromUrlParameter("unterthema");
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent(
-    $.url("?raeumlicheGliederung")
+    $.url("?raeumlicheGliederung"),
   );
   if (raeumlicheGliederungUrlParameterValue != "undefined") {
     setMultiselectValue(
       "#raeumlicheGliederung_filter",
-      raeumlicheGliederungUrlParameterValue
+      raeumlicheGliederungUrlParameterValue,
     );
   }
   var darstellungsartUrlParameterValue = window.decodeURIComponent(
-    $.url("?darstellungsart")
+    $.url("?darstellungsart"),
   );
   if (darstellungsartUrlParameterValue != "undefined") {
     setMultiselectValue(
       "#darstellungsart_filter",
-      darstellungsartUrlParameterValue
+      darstellungsartUrlParameterValue,
     );
   }
 
@@ -552,7 +556,7 @@ function prepareIndikatorensetView(indikatorenset) {
     indikatoren,
     "kennzahlenset",
     "#kennzahlenset_filter",
-    "kennzahlenset"
+    "kennzahlenset",
   );
   //select requested Indikatorenset in dropdown
   $("#kennzahlenset_filter").val(indikatorenset);
@@ -566,28 +570,28 @@ function prepareIndikatorensetView(indikatorenset) {
     "stufe1",
     "#stufe1_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
   renderDropdownFromJson(
     indikatoren,
     "stufe2",
     "#stufe2_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
   renderDropdownFromJson(
     indikatoren,
     "stufe3",
     "#stufe3_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
   renderDropdownFromJson(
     indikatoren,
     "darstellungsart",
     "#darstellungsart_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
 
   //pre-populate fields with url parameter values
@@ -624,11 +628,11 @@ function renderLastUpdatedSets(selector) {
               Thema: c.Thema,
               Bereich: c.Bereich,
               Datenstand: c.Datenstand,
-            })
+            }),
           );
         }
       });
-    }
+    },
   );
 }
 
@@ -693,9 +697,8 @@ function renderDropdownFromJson(
   field,
   selector,
   sortKey,
-  filterQueryString
+  filterQueryString,
 ) {
-  console.log("render dropdown From JSON");
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== "undefined") {
@@ -816,7 +819,7 @@ function configureMultiselect(selector) {
       selectAllNumber: false,
       nSelectedText: "ausgewählt",
       numberDisplayed: 2,
-    }
+    },
     /*
       dropUp: true,
       allSelectedText: 'Alle ausgewählt',
@@ -875,7 +878,7 @@ function renderCardsSlice(result) {
   if (typeof html !== "string" || html.trim() === "") {
     console.error("[Grid] Template fehlt/leer:", templateId);
     $("#indikatoren").html(
-      "<div class='p-4 text-sm text-red-700'>Template fehlt</div>"
+      "<div class='p-4 text-sm text-red-700'>Template fehlt</div>",
     );
     return;
   }
@@ -918,7 +921,6 @@ var afterFilter = function (result, jQ) {
   //deep copy so that changes have no effect on filtering charts, only dropdowns
   var baseQueryCopy = $.extend(true, {}, baseQuery);
   //start from the right: remove field of dropdown and render dropdown. This way, stufe3 selection does not filter stufe2 dropdown options, and so on.
-  console.log("ju here?");
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe3" + ".$in"];
   }
@@ -927,7 +929,7 @@ var afterFilter = function (result, jQ) {
     "stufe3",
     "#stufe3_filter",
     "orderKey",
-    baseQueryCopy
+    baseQueryCopy,
   );
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe2" + ".$in"];
@@ -937,7 +939,7 @@ var afterFilter = function (result, jQ) {
     "stufe2",
     "#stufe2_filter",
     "orderKey",
-    baseQueryCopy
+    baseQueryCopy,
   );
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe1" + ".$in"];
@@ -947,7 +949,7 @@ var afterFilter = function (result, jQ) {
     "stufe1",
     "#stufe1_filter",
     "orderKey",
-    baseQueryCopy
+    baseQueryCopy,
   );
 
   var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
@@ -958,7 +960,7 @@ var afterFilter = function (result, jQ) {
     "unterthema",
     "#unterthema_filter",
     "unterthema",
-    baseQueryCopyUnterthema
+    baseQueryCopyUnterthema,
   );
 
   //define how counts in dropdowns or checkboxes are rendered
@@ -978,7 +980,7 @@ var afterFilter = function (result, jQ) {
     "thema",
     optionCountRenderFunction,
     result,
-    jQ
+    jQ,
   );
 
   updateFunction(
@@ -986,7 +988,7 @@ var afterFilter = function (result, jQ) {
     "raeumlicheGliederung",
     optionCountRenderFunction,
     result,
-    jQ
+    jQ,
   );
 
   updateFunction(
@@ -994,7 +996,7 @@ var afterFilter = function (result, jQ) {
     "darstellungsart",
     optionCountRenderFunction,
     result,
-    jQ
+    jQ,
   );
 
   //hide dropdowns if no specific values present, or select the single specific value
@@ -1119,7 +1121,7 @@ var afterFilter = function (result, jQ) {
       $("#carousel-inner").html(
         "<div class='p-4 text-sm text-red-700'>Fehlendes Template: " +
           template +
-          "</div>"
+          "</div>",
       );
       return; // Crash verhindern
     }
