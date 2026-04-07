@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     lightbox.scrollTop = 0;
     // When embedded in an iframe, position:fixed is relative to the iframe
     // viewport. Scroll the iframe document to the top so the lightbox is visible.
-    window.scrollTo(0, 0);
+    window.scrollTo(0, -9999);
     // Also notify the parent page to scroll to the top of the iframe
     try {
       if (window.parent !== window) {
