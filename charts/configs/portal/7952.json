@@ -23306,10 +23306,12 @@
   "legend": {
     "useHTML": false,
     "enabled": true,
+    "layout": "vertical",
     "align": "left",
-    "y": -250,
-    "floating": true,
+    "verticalAlign": "bottom",
+    "floating": false,
     "symbolRadius": 0,
+    "itemWidth": 400,
     "itemStyle": {
       "fontWeight": "normal"
     },
@@ -23318,8 +23320,7 @@
         "fontWeight": "normal",
         "fontSize": "12px"
       }
-    },
-    "itemWidth": 300
+    }
   },
   "tooltip": {
     "useHTML": true,

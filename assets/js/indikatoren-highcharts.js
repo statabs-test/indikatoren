@@ -305,7 +305,10 @@ function injectMetadataToChartConfig(
 
   // Remove hardcoded legend dimensions — these were set for the old fixed
   // 485px width and cause text truncation at responsive (wider) sizes.
-  if (options["legend"]) {
+  // Exception: map charts with colorAxis use itemWidth to control vertical layout.
+  // Maps are detected via colorAxis (chart.type is not always set for map charts)
+  var isMap = !!(options["colorAxis"]);
+  if (options["legend"] && !isMap) {
     delete options["legend"]["width"];
     delete options["legend"]["itemWidth"];
   }
@@ -315,6 +318,83 @@ function injectMetadataToChartConfig(
   // StockCharts are most affected because rangeSelector/navigator add extra elements.
   if (options["subtitle"]["text"] && options["chart"]["marginTop"]) {
     delete options["chart"]["marginTop"];
+  }
+
+  // Wrap the chart load event to reposition manually-drawn pieLegend elements.
+  // These were positioned for the old fixed 485px width; we shift them so they
+  // stay right-aligned at the actual chart width.
+  var originalLoad =
+    options["chart"]["events"] && options["chart"]["events"]["load"];
+  if (originalLoad) {
+    options["chart"]["events"]["load"] = function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute(
+            "cx",
+            parseFloat(el.getAttribute("cx") || 0) + shift
+          );
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            })
+          );
+        }
+      });
+    };
+  }
+
+  // For colorAxis (map) charts: force single-column legend by repositioning
+  // items after render. Highcharts Maps ignores layout:"vertical" for colorAxis.
+  if (isMap) {
+    options["chart"]["events"] = options["chart"]["events"] || {};
+    var originalRender = options["chart"]["events"]["render"];
+    options["chart"]["events"]["render"] = function () {
+      if (originalRender) originalRender.call(this);
+      var chart = this;
+      var items = chart.container.querySelectorAll(
+        ".highcharts-legend-item"
+      );
+      if (items.length < 2) return;
+      var itemHeight = 20;
+      items.forEach(function (el, i) {
+        var t = el.getAttribute("transform") || "";
+        var y = parseFloat(t.match(/translate\([^,]+,([^)]+)\)/)?.[1] || 0);
+        // Keep original y of first item, stack rest below it
+        var baseY = parseFloat(
+          items[0].getAttribute("transform").match(/translate\([^,]+,([^)]+)\)/)?.[1] || 3
+        );
+        el.setAttribute(
+          "transform",
+          t.replace(/translate\(([^,]+),([^)]+)\)/, function (_, x) {
+            return "translate(8," + (baseY + i * itemHeight) + ")";
+          })
+        );
+      });
+    };
   }
 
   return options;
