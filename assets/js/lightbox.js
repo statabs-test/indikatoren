@@ -181,24 +181,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });*/
 
-  window.attachLightboxTriggers = function () {
+  window.attachLightboxTriggers = function (fullResult) {
     const indicators = document.getElementById("carousel-indicators");
-
     const elements = document.querySelectorAll(".lightbox-trigger");
     if (!elements.length) return;
-    window.slides = [...elements]
-      .map((el) => {
-        const id = el.dataset.id;
-        const kuerzel = el.dataset.kuerzel;
-        const src = el.dataset.src;
 
-        if (id) return { id, kuerzel };
-        if (src) return src;
-        return null;
-      })
-      .filter(Boolean);
-    elements.forEach((item, index) => {
-      item.addEventListener("click", () => openLightbox(index));
+    // Use the directly passed result (all filtered items) when available.
+    // This avoids timing issues with window.FJS not being set yet.
+    if (fullResult && fullResult.length) {
+      window.slides = fullResult.map((item) => ({
+        id: item.id,
+        kuerzel: item.kuerzel,
+      }));
+    } else {
+      // Fallback: build from rendered DOM elements only
+      window.slides = [...elements]
+        .map((el) => {
+          const id = el.dataset.id;
+          const kuerzel = el.dataset.kuerzel;
+          const src = el.dataset.src;
+          if (id) return { id, kuerzel };
+          if (src) return src;
+          return null;
+        })
+        .filter(Boolean);
+    }
+
+    elements.forEach((item) => {
+      item.addEventListener("click", () => {
+        // data-index is the position in the full result (set by getIndexByFid)
+        const idx = parseInt(item.dataset.index, 10);
+        openLightbox(isNaN(idx) ? 0 : idx);
+      });
     });
 
     // Reset indicators
@@ -206,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
       indicators.innerHTML = "";
       const label = document.createElement("div");
       label.className = "text-sm";
-      label.textContent = `1 / ${elements.length}`;
+      label.textContent = `1 / ${window.slides.length}`;
       indicators.appendChild(label);
     }
   };

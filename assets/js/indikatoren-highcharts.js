@@ -303,6 +303,13 @@ function injectMetadataToChartConfig(
   }
   options["chart"]["width"] = null;
 
+  // Remove hardcoded legend dimensions — these were set for the old fixed
+  // 485px width and cause text truncation at responsive (wider) sizes.
+  if (options["legend"]) {
+    delete options["legend"]["width"];
+    delete options["legend"]["itemWidth"];
+  }
+
   // If subtitle has text and marginTop is hardcoded, remove it so Highcharts
   // calculates the correct spacing automatically (prevents subtitle overlap).
   // StockCharts are most affected because rangeSelector/navigator add extra elements.

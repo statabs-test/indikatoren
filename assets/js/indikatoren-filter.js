@@ -32,8 +32,8 @@ var indikatoren;
 var indikatoren_sorted;
 var indikatoren_original;
 var view = false;
-var perPage = 16;
-var itemsToShow = 16;
+var perPage = 32;
+var itemsToShow = 32;
 var itemsIncrement = 64;
 
 $(document).ready(function () {
@@ -833,6 +833,7 @@ function configureMultiselect(selector) {
 
 //if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not.
 function getLastFjsResult() {
+  if (!window.FJS) return [];
   return window.FJS.search_text.length > FJS.opts.search.start_length
     ? window.FJS.search_result
     : window.FJS.last_result;
@@ -895,8 +896,9 @@ function renderCardsSlice(result) {
     $("#load-more-container").addClass("hidden");
   }
 
-  // Lightbox-Trigger neu binden, nachdem DOM ersetzt wurde
-  if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+  // Lightbox-Trigger neu binden – result übergeben damit alle (nicht nur
+  // gerenderten) Indikatoren navigierbar sind
+  if (window.attachLightboxTriggers) window.attachLightboxTriggers(result);
 }
 
 //after filtering is done: update dropdonws and their counts, create all carousel components
@@ -1008,13 +1010,16 @@ var afterFilter = function (result, jQ) {
     ? $("#pagination").addClass("invisible")
     : $("#pagination").removeClass("invisible");
 
-  createCarousel(result);
-  if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+  // Update result count display
+  $("#result-count").text(result.length + " Indikatoren gefunden");
+
+  // createCarousel is no longer needed (replaced by new lightbox)
   // --- Load-More-Grid steuern ---
-  // initial immer auf Startwert zurücksetzen
+  // Reset auf Startwert bei jedem neuen Filterresultat
+  itemsToShow = perPage;
   // FilterJS-eigene Pagination im UI ausblenden
   $("#pagination").addClass("hidden");
-  // unser Slicing-Render
+  // unser Slicing-Render (ruft attachLightboxTriggers am Ende selbst auf)
   renderCardsSlice(result);
 
   //add Counts in brackets after each option
