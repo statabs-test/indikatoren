@@ -25,7 +25,7 @@
     series: [
       {
         color: '#68ab2b',
-        stacking: 'true'
+        stacking: true
       },
       {
         color: '#ffda80',
