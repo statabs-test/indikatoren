@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#68ab2b",
-      "stacking": "true",
+      "stacking": true,
       "data": [
         [
           2020,
@@ -217,7 +217,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegetage nach Herkunft Bewohnende in Pflegeheimen"
+    "text": "Anzahl Pflegetage in Pflegeheimen"
   },
   "subtitle": {
     "text": "nach Herkunft der Bewohnenden",
