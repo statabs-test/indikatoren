@@ -119,6 +119,44 @@ function createPathArray(chartId, view) {
       // Ensure white background regardless of what's in the config
       if (config.chart) config.chart.backgroundColor = "#ffffff";
 
+      // Disable useHTML in legend so text renders as SVG elements (not foreignObject) in export
+      if (config.legend) config.legend.useHTML = false;
+
+      // mappie is registered in customCode before chart creation.
+      // defineTemplate() in chart.events.load would try to re-register it → throws → blocks drawPies().
+      // Make it a no-op so the load handler can proceed past it.
+      if (config.customFunctions && typeof config.customFunctions.defineTemplate === 'function') {
+        config.customFunctions.defineTemplate = function () {};
+      }
+
+      // HC12 map coordinate fix: HC12 computes the bounding box relative to (0,0), causing LV95
+      // coordinates (~2.6M) to render at ~1/500 of the correct scale. We compute the real LV95
+      // bounds here and pass them through so the SVG can be post-processed after export.
+      var lv95Bounds = null;
+      if (config.chart && config.chart.type === 'map') {
+        var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+        function traverseLv95Coords(obj) {
+          if (!obj || typeof obj !== 'object') return;
+          if (Array.isArray(obj)) {
+            if (obj.length >= 2 && typeof obj[0] === 'number' && obj[0] > 1000000) {
+              // LV95 coordinate pair: X ~2.6M, Y ~1.27M
+              minX = Math.min(minX, obj[0]); maxX = Math.max(maxX, obj[0]);
+              minY = Math.min(minY, obj[1]); maxY = Math.max(maxY, obj[1]);
+            } else {
+              obj.forEach(traverseLv95Coords);
+            }
+          } else {
+            Object.values(obj).forEach(traverseLv95Coords);
+          }
+        }
+        if (Array.isArray(config.series)) {
+          config.series.forEach(function(s) {
+            if (s && s.mapData) traverseLv95Coords(s.mapData);
+          });
+        }
+        if (minX < Infinity) lv95Bounds = { minX, maxX, minY, maxY };
+      }
+
       // v5 uses lowercase camelCase constructors
       var constr = config.isStock
         ? "stockChart"
@@ -130,6 +168,7 @@ function createPathArray(chartId, view) {
         additionalConfig: additionalConfig,
         outfilePath: outfilePath,
         constr: constr,
+        lv95Bounds: lv95Bounds,
       };
     } else {
       console.log(
@@ -213,6 +252,7 @@ async function createSvgImages(chartDetails) {
                   });
               }
 
+
               // HC12 Compatibility: Map-Point-Properties/Keys wurden von direktem Zugriff (point.Wohnviertel_Id)
               // nach point.properties.* bzw. point.options.* verschoben.
               // Shim: Properties und Options-Keys direkt auf den Punkt kopieren.
@@ -242,8 +282,43 @@ async function createSvgImages(chartDetails) {
                   };
               }
 
-              // Fix für mappie Charts
-              Highcharts.seriesType('mappie', 'pie', {}, {});
+              // Vollständige mappie-Registrierung (Karte + Torten-Overlay).
+              // Muss VOR chart.events.load passieren, damit defineTemplate() im load-handler
+              // nicht erneut registriert (was einen Fehler wirft und drawPies() blockiert).
+              Highcharts.seriesType('mappie', 'pie', {
+                  center: null,
+                  clip: true,
+                  states: { hover: { halo: { size: 5 } } },
+                  dataLabels: { enabled: false }
+              }, {
+                  getCenter: function () {
+                      var options = this.options,
+                          chart = this.chart,
+                          slicingRoom = 2 * (options.slicedOffset || 0);
+                      if (!options.center) { options.center = [null, null]; }
+                      if (options.center.lat !== undefined) {
+                          var point = (typeof chart.fromLatLonToPoint === 'function')
+                              ? chart.fromLatLonToPoint(options.center)
+                              : null;
+                          if (point) {
+                              options.center = [
+                                  chart.xAxis[0].toPixels(point.x, true),
+                                  chart.yAxis[0].toPixels(point.y, true)
+                              ];
+                          }
+                      }
+                      if (options.sizeFormatter) { options.size = options.sizeFormatter.call(this); }
+                      var result = Highcharts.seriesTypes.pie.prototype.getCenter.call(this);
+                      result[0] -= slicingRoom;
+                      result[1] -= slicingRoom;
+                      return result;
+                  },
+                  translate: function (p) {
+                      this.options.center = this.userOptions.center;
+                      this.center = this.getCenter();
+                      return Highcharts.seriesTypes.pie.prototype.translate.call(this, p);
+                  }
+              });
 
               // HC12 Compatibility: chart.events.load mit try/catch absichern.
               // fireEvent() in HC12 ist eine lokale Variable (nicht Highcharts.fireEvent), daher
@@ -309,7 +384,8 @@ async function createSvgImages(chartDetails) {
                 error.message),
           );
         } else {
-          const svg = info.result.replace(/&nbsp;/g, "&#160;");
+          let svg = info.result.replace(/&nbsp;/g, "&#160;");
+          if (chartEntry.lv95Bounds) svg = fixMapSvgTransform(svg, chartEntry.lv95Bounds);
           fs.writeFileSync(chartEntry.outfilePath, svg);
           console.log(
             "Image created: " +
@@ -336,6 +412,35 @@ async function createSvgImages(chartDetails) {
     await exporter.killPool();
     process.exit();
   }
+}
+
+// HC12 renders LV95 map charts at ~1/500 scale because it treats (0,0) as the coordinate origin.
+// This function replaces the wrong inner transform on all map series groups with a correct one
+// computed from the actual LV95 coordinate bounds.
+function fixMapSvgTransform(svg, bounds) {
+  const { minX, maxX, minY, maxY } = bounds;
+
+  // Read plot dimensions from the plot-background rect in the SVG
+  const bgMatch = svg.match(/class="highcharts-plot-background"[^>]*x="([^"]+)"[^>]*y="([^"]+)"[^>]*width="([^"]+)"[^>]*height="([^"]+)"/);
+  const plotW = bgMatch ? parseFloat(bgMatch[3]) : 580;
+  const plotH = bgMatch ? parseFloat(bgMatch[4]) : 280;
+
+  const dataW = maxX - minX;
+  const dataH = maxY - minY;
+
+  // Scale to fit within 90% of the plot area (5% padding each side)
+  const scale = Math.min(plotW / dataW, plotH / dataH) * 0.9;
+
+  // Center map in plot area
+  const tx = (plotW - dataW * scale) / 2 - minX * scale;
+  const ty = (plotH - dataH * scale) / 2 + maxY * scale;
+  const sw = (1 / scale).toFixed(4);
+
+  // Replace every inner coordinate group transform (identified by tiny scale < 0.01)
+  return svg.replace(
+    /<g stroke-width="[\d.eE+-]+" transform="translate\([^)]+\) scale\([^)]+\)">/g,
+    `<g stroke-width="${sw}" transform="translate(${tx.toFixed(4)},${ty.toFixed(4)}) scale(${scale.toFixed(8)} ${(-scale).toFixed(8)})">`
+  );
 }
 
 //from https://github.com/yahoo/serialize-javascript
