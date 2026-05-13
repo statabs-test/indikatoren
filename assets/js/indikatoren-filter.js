@@ -860,7 +860,7 @@ function getIndexByFid(fid) {
 
 var portalListView = (function () {
   var stored = localStorage.getItem("portal_listView");
-  return stored === null ? true : stored === "true";
+  return stored === null ? false : stored === "true";
 })();
 
 function getCardTemplateId() {
