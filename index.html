@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
@@ -163,13 +163,16 @@
       <div class="w-full flex justify-between items-center mb-20">
         <div id="result-count" class="text-sm text-gray-600 m-[4px]"></div>
         <div class="flex items-center">
-        <div id="pagination" class="indikatoren-pagination"></div>
-        <div class="underline m-[4px] cursor-pointer" id="portal-view-toggle">
-          <div>Kachelansicht</div>
-        </div>
-        <div id="portal-reset-button" class="underline m-[4px] cursor-pointer">
-          <div>Alle Filter löschen</div>
-        </div>
+          <div id="pagination" class="indikatoren-pagination"></div>
+          <div class="underline m-[4px] cursor-pointer" id="portal-view-toggle">
+            <div>Kachelansicht</div>
+          </div>
+          <div
+            id="portal-reset-button"
+            class="underline m-[4px] cursor-pointer"
+          >
+            <div>Alle Filter löschen</div>
+          </div>
         </div>
       </div>
 
@@ -408,12 +411,14 @@
             <%= title %>
           </h5>
 
-          <div class="flex items-start gap-2">
-            <img
-              src="images/portal/<%= id %>.svg"
-              alt="<%= kuerzel %>"
-              class="w-1/5 mr-10 shadow-md hidden md:block"
-            />
+          <div class="flex items-start gap-2 h-full">
+            <div class="w-1/5 min-h-[180px] min-w-[200px]">
+              <img
+                src="images/portal/<%= id %>.svg"
+                alt="<%= kuerzel %>"
+                class="mr-10 shadow-md hidden md:block w-full"
+              />
+            </div>
 
             <!-- Text right -->
             <div class="flex flex-col justify-between w-4/5 min-h-[180px]">

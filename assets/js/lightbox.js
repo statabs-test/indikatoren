@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (typeof slide === "string" && slide.endsWith(".svg")) {
       const img = document.createElement("img");
       img.src = slide;
-      img.className = "max-w-full max-h-[90vh] mx-auto";
+      img.className = "max-w-full max-h-[90vh] mx-auto h-auto";
       lightboxContent.appendChild(img);
     }
 
