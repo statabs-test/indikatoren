@@ -50,6 +50,10 @@
         [
           "2024",
           6201
+        ],
+        [
+          "2025",
+          6365
         ]
       ],
       "name": "Zahlfälle",
@@ -105,6 +109,10 @@
         [
           "2024",
           9013
+        ],
+        [
+          "2025",
+          9101
         ]
       ],
       "name": "Personen",
@@ -239,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.<br/>Zuletzt geändert: 10.4.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

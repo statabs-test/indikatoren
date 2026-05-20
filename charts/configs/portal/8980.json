@@ -1022,6 +1022,14 @@
         [
           "2026-02",
           4875
+        ],
+        [
+          "2026-03",
+          4839
+        ],
+        [
+          "2026-04",
+          4700
         ]
       ],
       "name": "Arbeitslose",
@@ -2049,6 +2057,14 @@
         [
           "2026-02",
           901
+        ],
+        [
+          "2026-03",
+          913
+        ],
+        [
+          "2026-04",
+          900
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -3079,6 +3095,14 @@
         [
           "2026-02",
           0.18482
+        ],
+        [
+          "2026-03",
+          0.18868
+        ],
+        [
+          "2026-04",
+          0.19149
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -3226,7 +3250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.5.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
