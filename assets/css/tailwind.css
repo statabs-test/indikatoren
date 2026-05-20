@@ -2547,6 +2547,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 67px;
 }
 
+.mt-\[111px\] {
+  margin-top: 111px;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -3064,6 +3068,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:mt-\[67px\] {
+    margin-top: 67px;
+  }
+
   .md\:block {
     display: block;
   }
