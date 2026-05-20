@@ -2543,6 +2543,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 0.18em;
 }
 
+.mt-\[67px\] {
+  margin-top: 67px;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
