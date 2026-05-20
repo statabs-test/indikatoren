@@ -2666,10 +2666,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 100%;
 }
 
-.min-w-\[100px\] {
-  min-width: 100px;
-}
-
 .min-w-\[200px\] {
   min-width: 200px;
 }
@@ -2813,11 +2809,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
 }
 
 .p-0 {

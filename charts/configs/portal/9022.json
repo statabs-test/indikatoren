@@ -5360,6 +5360,7 @@
           "color": "black"
         }
       },
+      "tickAmount": 1,
       "plotLines": [
         {
           "color": "#B9CFD7",
@@ -5379,6 +5380,7 @@
           "color": "black"
         }
       },
+      "tickAmount": 1,
       "plotLines": [
         {
           "color": "#B9CFD7",
