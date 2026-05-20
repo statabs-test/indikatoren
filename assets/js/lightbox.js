@@ -8,9 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let slides = [];
   let currentIndex = 0;
+  let openedIndicatorId = null;
 
   function openLightbox(index) {
     currentIndex = index;
+    openedIndicatorId = window.slides?.[index]?.id ?? null;
     updateLightbox();
     lightbox.classList.remove("hidden");
     document.body.style.overflow = "hidden";
@@ -32,6 +34,25 @@ document.addEventListener("DOMContentLoaded", () => {
     lightbox.classList.add("hidden");
     lightboxContent.innerHTML = "";
     document.body.style.overflow = "";
+
+    if (openedIndicatorId) {
+      const el = document.querySelector(`[indikator-id-data="${openedIndicatorId}"]`);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        try {
+          if (window.parent !== window) {
+            const rect = el.getBoundingClientRect();
+            const scrollY = window.scrollY + rect.top;
+            window.parent.scrollTo({
+              top: window.frameElement.offsetTop + scrollY,
+              behavior: "smooth",
+            });
+          }
+        } catch (e) {
+          // Cross-origin parent — ignore
+        }
+      }
+    }
   }
 
   function prevSlide() {
