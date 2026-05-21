@@ -43,6 +43,21 @@ $(document).ready(function () {
     $("#header").removeClass("hidden");
   }
 
+  //Render page differently depending on url query string 'Indikatorenset'
+  var indikatorenset = window.decodeURIComponent($.url("?Indikatorenset"));
+  //defines if portal or indikatorenset view is to be shown
+  view = false;
+  var jsonDatabaseUrl = "metadata/portal/indikatoren.js";
+  //determine if valid indikaorenset name
+  if (indikatorensetNames.indexOf(indikatorenset) > -1) {
+    view = true;
+    jsonDatabaseUrl = "metadata/sets/" + indikatorenset + ".js";
+    // Clear all saved portal filters when entering Indikatorenset mode
+    localStorage.removeItem("portal_search");
+    localStorage.removeItem("portal_thema");
+    localStorage.removeItem("portal_unterthema");
+  }
+
   //pre-populate searchbox
   var searchUrlParamValue = window.decodeURIComponent($.url("?search"));
   if (searchUrlParamValue != "undefined") {
@@ -62,17 +77,6 @@ $(document).ready(function () {
       localStorage.removeItem("portal_search");
     }
   });
-
-  //Render page differently depending on url query string 'Indikatorenset'
-  var indikatorenset = window.decodeURIComponent($.url("?Indikatorenset"));
-  //defines if portal or indikatorenset view is to be shown
-  view = false;
-  var jsonDatabaseUrl = "metadata/portal/indikatoren.js";
-  //determine if valid indikaorenset name
-  if (indikatorensetNames.indexOf(indikatorenset) > -1) {
-    view = true;
-    jsonDatabaseUrl = "metadata/sets/" + indikatorenset + ".js";
-  }
 
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
   var stufeParameter = parseInt(window.decodeURIComponent($.url("?stufe")), 10);
