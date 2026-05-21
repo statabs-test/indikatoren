@@ -402,7 +402,7 @@
             data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
+              <h5 class="text-sm" title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
             </div>
             <div>
               <img
@@ -434,7 +434,7 @@
           data-index="<%= getIndexByFid(_fid) %>"
         >
           <!-- SVG Thumbnail left -->
-          <h5 class="font-bold text-2xl ml-20 text-blue-900 mb-10">
+          <h5 class="font-bold text-sm ml-20 text-blue-900 mb-10">
             <%= title %>
           </h5>
 
@@ -484,12 +484,12 @@
             data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
+              <h5 class="text-sm" title="<%= kuerzelKunde %>: <%= description %>"><%= kuerzelKunde + ' ' + title %></h5>
             </div>
             <div>
               <img
                 src="images/portal/<%= id %>.svg"
-                alt="<%= kuerzel %>: <%= description %>"
+                alt="<%= kuerzelKunde %>: <%= description %>"
                 class="w-full"
               />
             </div>

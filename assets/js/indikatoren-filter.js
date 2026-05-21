@@ -315,7 +315,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
 
   function sortResult(query) {
     if (sortOptions) {
-      query.order(getSortOptions("aktualisierungsdatum_desc"));
+      query.order(sortOptions);
     }
   }
 
