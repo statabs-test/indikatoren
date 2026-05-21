@@ -152,7 +152,7 @@ $(document).ready(function () {
     if (sortParam != "undefined") {
       sortOptions = getSortOptions(sortParam);
     }
-    initializeFilterJS(indikatorenset, perPage, sortOptions);
+    initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe);
   });
 });
 
@@ -186,7 +186,7 @@ function resetPortalFilter(FJS, view) {
   }
 }
 
-function initializeFilterJS(indikatorenset, perPage, sortOptions) {
+function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
   var fjsConfig = {
     template: undefined,
     search: {
@@ -231,7 +231,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     $("#portal-view-toggle").hide();
     $("#portal-reset-button").hide();
     $("#result-count").hide();
-    prepareIndikatorensetView(indikatorenset);
+    prepareIndikatorensetView(indikatorenset, maxStufe);
 
     //define filter.js configuration
     fjsConfig["template"] = "#indikator-template-carousel-indikatorenset";
@@ -548,13 +548,18 @@ function setMultiselectValue(selector, value) {
 }
 
 //change DOM and render controls to accomodate indikatorenset view
-function prepareIndikatorensetView(indikatorenset) {
+function prepareIndikatorensetView(indikatorenset, maxStufe) {
   $("#sidebar-element").remove();
   //Change bootstrap col size in order to fill width
   $("#main-element").removeClass();
   $("#main-element").addClass("col-xs-12");
   $("#main-control-element-portal").remove();
   $("#thema_filter_label").hide();
+
+  // Show Kapitel/Unterkapitel filters based on stufe depth parameter
+  if (maxStufe >= 1) $("#stufe1_filter_label").removeClass("hidden");
+  if (maxStufe >= 2) $("#stufe2_filter_label").removeClass("hidden");
+  if (maxStufe >= 3) $("#stufe3_filter_label").removeClass("hidden");
 
   renderDropdownFromJson(
     indikatoren,
