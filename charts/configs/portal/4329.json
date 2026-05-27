@@ -74,10 +74,10 @@
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
+									align: 'right',
 									verticalAlign: 'bottom',
 									x: 0,
-									y: 100
+									y: 41
 								}), null, 'spacingBox');
 								
 								/*add tooltip to legend items
