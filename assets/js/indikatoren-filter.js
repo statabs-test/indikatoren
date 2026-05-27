@@ -138,6 +138,11 @@ $(document).ready(function () {
     // sorted version for normal view
     indikatoren_sorted = sortByAktualisierungsdatumDesc(indikatoren.slice());
 
+    // id ist eine Zahl – als String hinzufügen damit die Suche "4249" matcht
+    indikatoren_sorted.forEach(function (item) {
+      item.id_str = String(item.id);
+    });
+
     //parameter must be an int, see https://stackoverflow.com/a/14636652
     if (perPageParam > 0 && perPageParam <= 32) {
       //perPage defined globally with a default value
@@ -204,7 +209,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
         "lesehilfe",
         "erlaeuterungen",
         "quellenangabe",
-        "id",
+        "id_str",
         "children",
       ],
     },
