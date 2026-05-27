@@ -375,24 +375,28 @@ function injectMetadataToChartConfig(
     options["chart"]["events"]["render"] = function () {
       if (originalRender) originalRender.call(this);
       var chart = this;
-      var items = chart.container.querySelectorAll(
+      var items = Array.from(chart.container.querySelectorAll(
         ".highcharts-legend-item"
-      );
+      ));
       if (items.length < 2) return;
-      var itemHeight = 20;
-      items.forEach(function (el, i) {
+      var lineHeight = 15;
+      var itemMargin = 8;
+      var baseY = parseFloat(
+        (items[0].getAttribute("transform") || "").match(/translate\([^,]+,([^)]+)\)/)?.[1] || 3
+      );
+      var currentY = baseY;
+      items.forEach(function (el) {
         var t = el.getAttribute("transform") || "";
-        var y = parseFloat(t.match(/translate\([^,]+,([^)]+)\)/)?.[1] || 0);
-        // Keep original y of first item, stack rest below it
-        var baseY = parseFloat(
-          items[0].getAttribute("transform").match(/translate\([^,]+,([^)]+)\)/)?.[1] || 3
-        );
         el.setAttribute(
           "transform",
-          t.replace(/translate\(([^,]+),([^)]+)\)/, function (_, x) {
-            return "translate(8," + (baseY + i * itemHeight) + ")";
-          })
+          t.replace(/translate\([^,]+,[^)]+\)/, "translate(8," + currentY + ")")
         );
+        // Zeilenanzahl aus tspan[dy]-Elementen ableiten → echte Itemhöhe
+        var textEl = el.querySelector("text");
+        var lines = textEl
+          ? 1 + textEl.querySelectorAll("tspan[dy]").length
+          : 1;
+        currentY += Math.max(lines * lineHeight, 20) + itemMargin;
       });
     };
   }

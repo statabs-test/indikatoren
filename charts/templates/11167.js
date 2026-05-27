@@ -38,8 +38,8 @@
 		},
 		legend: {
 			enabled: true,
-			width: 215,
-			//itemWidth: 210,
+			width: 290,
+			//itemWidth: 285,
 			title: {
 				text: "Anzahl Wohnungen",
 				style: {
@@ -47,7 +47,7 @@
 					fontSize: "12px"
 				}
 			},
-			itemMarginBottom: 5,
+			itemMarginBottom: 30,
 			labelFormatter: function () {
 				if (this._i == 2) return "<b>ohne</b> Leistungsvereinbarung mit dem Kanton oder im <b>höheren</b> Preissegment";
 				if (this._i == 3) return "<b>mit</b> Leistungsvereinbarung mit dem Kanton oder im <b>tieferen</b> Preissegment";
