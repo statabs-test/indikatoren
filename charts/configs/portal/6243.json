@@ -3924,7 +3924,7 @@
 
 					//Add manually drawn legend
 					fn.addLegendTitle(chart, choroplethSeries.name + "<br>in Einwohnern pro ha", 540, 270, 'pieLegend');
-					fn.addLegendLabelbold(chart, pieSizeSeries.name + '<br>in Einwohnern pro ha', 765, 270);
+					fn.addLegendTitle(chart, pieSizeSeries.name + '<br>in Einwohnern pro ha', 765, 270, undefined, true);
 
 					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, 'grey');
 					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 318, undefined, true, 'right');

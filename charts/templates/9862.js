@@ -140,7 +140,7 @@
 
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 243, 221, 230, 101, '#ffffff', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 330, 230, 60, '#ffffff', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 330, 230, 60, '#ffffff');
 
                 	//fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 221, undefined, true);
 					fn.addLegendSquare(chart, 255, 245, 10, '#0F7399');
@@ -182,7 +182,7 @@
 					
 					
 					
-					fn.addLegendLabelbold(chart, choroplethSeries.name, 250, 330);
+					fn.addLegendTitle(chart, choroplethSeries.name, 250, 330);
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

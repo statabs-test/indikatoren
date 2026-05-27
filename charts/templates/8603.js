@@ -176,7 +176,7 @@ for (i = 0; i < 3; i++) {
 					
 					fn.addLegendTitle(chart, choroplethSeries.name.replace("er ", "er<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
 					
-					fn.addLegendLabelbold(chart,  pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 
 					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[0], 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[0]);

@@ -157,7 +157,7 @@
 
 	                //Add manually drawn legend
 	                fn.addLegendTitle(chart, choroplethSeries.name.replace(" in", "<br/>in"), 505, 315);
-	                fn.addLegendLabelbold(chart, pieSizeSeries.name.replace(" in", "<br/>in"), 720, 315);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" in", "<br/>in"), 720, 315);
 	                
 	             	fn.addLegendCircle(chart, 735, 382+25, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 750, 370+25, true);

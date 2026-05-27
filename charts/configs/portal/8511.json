@@ -3917,7 +3917,7 @@
 																								2 lines -> 1
 																								3 lines -> 2*/
 
-					fn.addLegendLabelbold(chart, pieSizeSeries.name.replace(" ", "<br/>") + " (pp)", legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>") + " (pp)", legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 					//fn.addLegendSquare(chart, 388 + shiftHoriz, 305 + shiftVert, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 405 + shiftHoriz, 298 + shiftVert);
 					//fn.addLegendSquare(chart, 388 + shiftHoriz, 325 + shiftVert, 10, '#990300');
