@@ -158,8 +158,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#ffffff');
-					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#ffffff');
+					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#ffffff', 'pieLegend');
+					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#ffffff', 'pieLegend');
 					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m³ in %", 245, 220); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
 					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m³", 365, 220);
 
