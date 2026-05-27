@@ -122,6 +122,12 @@ function createPathArray(chartId, view) {
       // Disable useHTML in legend so text renders as SVG elements (not foreignObject) in export
       if (config.legend) config.legend.useHTML = false;
 
+      // Legende und pieLegend bei map-Charts in Vorschaubildern ausblenden
+      if (config.chart && config.chart.type === 'map') {
+        if (!config.legend) config.legend = {};
+        config.legend.enabled = false;
+      }
+
       // mappie is registered in customCode before chart creation.
       // defineTemplate() in chart.events.load would try to re-register it → throws → blocks drawPies().
       // Make it a no-op so the load handler can proceed past it.
@@ -360,6 +366,18 @@ async function createSvgImages(chartDetails) {
 
                   const subtitle = this.container.querySelector('.highcharts-subtitle');
                   if (subtitle) subtitle.remove();
+              });
+
+              // pieLegend-Elemente entfernen (Karten-Vorschaubilder)
+              Highcharts.addEvent(Highcharts.Chart, 'load', function () {
+                  // Benannte pieLegend-Elemente entfernen
+                  this.container.querySelectorAll('[class*="pieLegend"]').forEach(function (el) {
+                      el.remove();
+                  });
+                  // Unbenannte Legenden-Rechtecke entfernen (addLegendRectangle ohne cssClass → class="undefined")
+                  this.container.querySelectorAll('rect[class="undefined"]').forEach(function (el) {
+                      el.remove();
+                  });
               });
           })();
           ${customFunctionsJs}
