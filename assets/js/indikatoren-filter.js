@@ -300,7 +300,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
     .off("click")
     .on("click", function (e) {
       e.preventDefault();
-      itemsToShow += itemsIncrement;
+      itemsToShow = Infinity;
       // letztes Filter-Ergebnis erneut schneiden
       var result = getLastFjsResult(); // helper existiert bei dir bereits
       renderCardsSlice(result);
