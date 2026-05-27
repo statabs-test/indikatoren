@@ -172,8 +172,8 @@
 	                
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 243, 210, 230, 100, '#ffffff', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 320, 230, 60, '#ffffff');
-	                fn.addLegendTitle(chart,"Ausländeranteil in %", 250, 320);
+                	fn.addLegendRectangle(chart, 243, 320, 230, 60, '#ffffff', 'pieLegend');
+	                fn.addLegendLabelbold(chart, 'Ausländeranteil in %', 250, 320);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);

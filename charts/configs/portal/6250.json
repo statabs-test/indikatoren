@@ -3924,7 +3924,7 @@
 
 					//Add manually drawn legend
 					fn.addLegendTitle(chart, "Bruttogeschossfläche<br>" + choroplethSeries.name + " in m²", 540, 270, 'pieLegend');
-					fn.addLegendTitle(chart, pieSizeSeries.name + '<br>in m²', 765, 270, undefined, true);
+					fn.addLegendLabelbold(chart, pieSizeSeries.name + '<br>in m²', 765, 270);
 
 					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, '#7F5F1A');
 					fn.addLegendCircle(chart, 778, 350, 0.5 * pieSizeCatConfig[1].diameter, '#7F5F1A');

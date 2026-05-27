@@ -3926,7 +3926,7 @@
 
 					//Add manually drawn legend
 					fn.addLegendTitle(chart, choroplethSeries.name + '<br>in %', 540, 270, 'pieLegend');
-					fn.addLegendTitle(chart, pieSizeSeries.name +'<br>in Prozentpunkten', 765, 270, undefined, true);
+					fn.addLegendLabelbold(chart, pieSizeSeries.name +'<br>in Prozentpunkten', 765, 270);
 
 					fn.addLegendCircle(chart, 778, 331, 0.5 * pieSizeCatConfig[0].diameter, 'grey');
 					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 795, 318, undefined, true, 'right');

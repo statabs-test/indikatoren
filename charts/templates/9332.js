@@ -213,7 +213,7 @@ for (i = 0; i < 3; i++) {
 					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "#923F8D");
 					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x+5, legendPosition.blockSymbol.numbers.y4S[1],  'Anteil Vermögenssteuer');
 					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Mittelwert in Fr.<br>pro Veranlagung', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-					fn.addLegendTitle(chart, 'Gesamtsteuerertrag<br>Summe in Mio. Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendLabelbold(chart, 'Gesamtsteuerertrag<br>Summe in Mio. Fr.', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 					
