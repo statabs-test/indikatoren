@@ -7248,8 +7248,8 @@
 					//Add manually drawn legend
 					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
 					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
-					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
-					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m<sup>3</sup>", 365, 220, undefined, true);
+					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m³ in %", 245, 220); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m³", 365, 220);
 
 					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#5badff');
 					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#5badff');
