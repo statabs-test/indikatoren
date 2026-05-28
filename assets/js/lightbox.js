@@ -9,6 +9,17 @@ document.addEventListener("DOMContentLoaded", () => {
   let slides = [];
   let currentIndex = 0;
   let openedIndicatorId = null;
+  let lightboxResizeObserver = null;
+
+  // The lightbox is position:fixed, so it never contributes to body.scrollHeight.
+  // iframe-resizer therefore never resizes the iframe to fit it. We fix this by
+  // mirroring the lightbox's full scrollHeight onto body.style.minHeight, which
+  // iframe-resizer *does* measure. A ResizeObserver keeps it in sync as the chart
+  // and text content render asynchronously.
+  function syncLightboxHeight() {
+    const h = lightbox.scrollHeight;
+    document.body.style.minHeight = h + "px";
+  }
 
   function openLightbox(index) {
     currentIndex = index;
@@ -16,6 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
     updateLightbox();
     lightbox.classList.remove("hidden");
     document.body.style.overflow = "hidden";
+
+    syncLightboxHeight();
+    lightboxResizeObserver = new ResizeObserver(syncLightboxHeight);
+    lightboxResizeObserver.observe(lightboxContent);
+
     lightbox.scrollTop = 0;
     // When embedded in an iframe, position:fixed is relative to the iframe
     // viewport. Scroll the iframe document to the top so the lightbox is visible.
@@ -31,9 +47,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function closeLightbox() {
+    lightboxResizeObserver?.disconnect();
+    lightboxResizeObserver = null;
     lightbox.classList.add("hidden");
     lightboxContent.innerHTML = "";
     document.body.style.overflow = "";
+    document.body.style.minHeight = "";
 
     if (openedIndicatorId) {
       const el = document.querySelector(`[indikator-id-data="${openedIndicatorId}"]`);

@@ -166,9 +166,9 @@
 					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#5badff');
 					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#5badff');
 					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#5badff');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 240, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 260, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 285, undefined, false, 'right');
 
 
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
