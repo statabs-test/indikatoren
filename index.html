@@ -121,14 +121,14 @@
             />
             <button
               type="submit"
-              class="button m-[4px] is-icon-only md:has-icon is-strong h-[40px] mt-10"
+              class="button m-[4px] is-icon-only md:has-icon is-strong h-[40px] mt-10 w-[132px]"
             >
               <img
-                class="h-[20px] mr-10 filter invert"
+                class="h-[20px] mr-[7px] mt-[-1px] filter invert"
                 src="assets/symbols/search.svg"
                 alt="Vorherige Seite"
               />
-              <span class="mb-2 mr-[10px]">Suchen</span>
+              <span class="mb-2 mr-[10px] mt-[-2px]">Suchen</span>
             </button>
           </div>
         </div>
@@ -159,7 +159,10 @@
           <label class="font-bold hidden" id="stufe1_filter_label">
             <span class="font-bold block mb-5">Kapitel</span>
             <div class="relative" id="stufe1_criteria">
-              <select class="input select peer is-placeholder" id="stufe1_filter">
+              <select
+                class="input select peer is-placeholder"
+                id="stufe1_filter"
+              >
                 <option value="all">Alle</option>
               </select>
             </div>
@@ -168,16 +171,22 @@
           <label class="font-bold hidden" id="stufe2_filter_label">
             <span class="font-bold block mb-5">Unterkapitel</span>
             <div class="relative" id="stufe2_criteria">
-              <select class="input select peer is-placeholder" id="stufe2_filter">
+              <select
+                class="input select peer is-placeholder"
+                id="stufe2_filter"
+              >
                 <option value="all">Alle</option>
               </select>
             </div>
           </label>
 
           <label class="font-bold hidden" id="stufe3_filter_label">
-            <span class="font-bold block mb-5">Unterkapitel</span>
+            <span class="font-bold block mb-5">Abschnitt</span>
             <div class="relative" id="stufe3_criteria">
-              <select class="input select peer is-placeholder" id="stufe3_filter">
+              <select
+                class="input select peer is-placeholder"
+                id="stufe3_filter"
+              >
                 <option value="all">Alle</option>
               </select>
             </div>
@@ -402,7 +411,9 @@
             data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 class="text-sm" title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
+              <h5 class="text-sm" title="<%= kuerzel %>: <%= description %>">
+                <%= title %>
+              </h5>
             </div>
             <div>
               <img
@@ -484,7 +495,12 @@
             data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 class="text-sm" title="<%= kuerzelKunde %>: <%= description %>"><%= kuerzelKunde + ' ' + title %></h5>
+              <h5
+                class="text-sm"
+                title="<%= kuerzelKunde %>: <%= description %>"
+              >
+                <%= kuerzelKunde + ' ' + title %>
+              </h5>
             </div>
             <div>
               <img

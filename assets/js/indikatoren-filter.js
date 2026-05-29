@@ -33,6 +33,7 @@ var indikatoren_sorted;
 var indikatoren_original;
 var view = false;
 var perPage = 32;
+var maxStufe = 2;
 var itemsToShow = 32;
 var itemsIncrement = 64;
 
@@ -80,7 +81,7 @@ $(document).ready(function () {
 
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
   var stufeParameter = parseInt(window.decodeURIComponent($.url("?stufe")), 10);
-  var maxStufe =
+  maxStufe =
     stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2;
   if (isIndikatorensetView(view)) {
     //change width of columns
@@ -561,11 +562,6 @@ function prepareIndikatorensetView(indikatorenset, maxStufe) {
   $("#main-control-element-portal").remove();
   $("#thema_filter_label").hide();
 
-  // Show Kapitel/Unterkapitel filters based on stufe depth parameter
-  if (maxStufe >= 1) $("#stufe1_filter_label").removeClass("hidden");
-  if (maxStufe >= 2) $("#stufe2_filter_label").removeClass("hidden");
-  if (maxStufe >= 3) $("#stufe3_filter_label").removeClass("hidden");
-
   renderDropdownFromJson(
     indikatoren,
     "kennzahlenset",
@@ -600,6 +596,12 @@ function prepareIndikatorensetView(indikatorenset, maxStufe) {
     "orderKey",
     baseQuery,
   );
+
+  // Show each filter label only when the dropdown has actual choices
+  if (maxStufe >= 1) $("#stufe1_filter_label").toggleClass("hidden", $("#stufe1_filter > option").length <= 1);
+  if (maxStufe >= 2) $("#stufe2_filter_label").toggleClass("hidden", $("#stufe2_filter > option").length <= 1);
+  if (maxStufe >= 3) $("#stufe3_filter_label").toggleClass("hidden", $("#stufe3_filter > option").length <= 1);
+
   renderDropdownFromJson(
     indikatoren,
     "darstellungsart",
@@ -965,6 +967,13 @@ var afterFilter = function (result, jQ) {
     "orderKey",
     baseQueryCopy,
   );
+
+  // In indikatorenset view: hide stufe filter labels when no choices are available
+  if (isIndikatorensetView(view)) {
+    if (maxStufe >= 1) $("#stufe1_filter_label").toggleClass("hidden", $("#stufe1_filter > option").length <= 1);
+    if (maxStufe >= 2) $("#stufe2_filter_label").toggleClass("hidden", $("#stufe2_filter > option").length <= 1);
+    if (maxStufe >= 3) $("#stufe3_filter_label").toggleClass("hidden", $("#stufe3_filter > option").length <= 1);
+  }
 
   var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
   //make sure currently selected unterthema does not filter the unterthema dropdown

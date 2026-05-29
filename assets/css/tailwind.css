@@ -2523,6 +2523,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-right: 10px;
 }
 
+.mr-\[20px\] {
+  margin-right: 20px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -2533,6 +2537,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-\[-1px\] {
+  margin-top: -1px;
 }
 
 .mt-\[-22px\] {
@@ -2547,8 +2555,20 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: 111px;
 }
 
-.mr-\[20px\] {
-  margin-right: 20px;
+.mt-\[-2px\] {
+  margin-top: -2px;
+}
+
+.mr-\[7px\] {
+  margin-right: 7px;
+}
+
+.mr-\[0px\] {
+  margin-right: 0px;
+}
+
+.mr-\[5px\] {
+  margin-right: 5px;
 }
 
 .line-clamp-2 {
@@ -2662,6 +2682,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 80%;
 }
 
+.w-\[115px\] {
+  width: 115px;
+}
+
 .w-\[1em\] {
   width: 1em;
 }
@@ -2672,6 +2696,30 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .w-full {
   width: 100%;
+}
+
+.w-\[152px\] {
+  width: 152px;
+}
+
+.w-\[142px\] {
+  width: 142px;
+}
+
+.w-\[135px\] {
+  width: 135px;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
+.w-\[139px\] {
+  width: 139px;
+}
+
+.w-\[132px\] {
+  width: 132px;
 }
 
 .min-w-\[200px\] {
