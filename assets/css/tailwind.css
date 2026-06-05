@@ -2511,8 +2511,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-left: 0.3em;
 }
 
-.ml-\[20px\] {
-  margin-left: 20px;
+.ml-\[5px\] {
+  margin-left: 5px;
 }
 
 .mr-10 {
@@ -2523,8 +2523,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-right: 10px;
 }
 
-.mr-\[20px\] {
-  margin-right: 20px;
+.mr-\[5px\] {
+  margin-right: 5px;
 }
 
 .mr-\[7px\] {
@@ -2674,6 +2674,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 80%;
 }
 
+.w-\[130px\] {
+  width: 130px;
+}
+
 .w-\[132px\] {
   width: 132px;
 }
@@ -2688,10 +2692,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .w-full {
   width: 100%;
-}
-
-.w-\[130px\] {
-  width: 130px;
 }
 
 .min-w-\[200px\] {
@@ -2772,6 +2772,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .gap-5 {
   gap: 5px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 .gap-x-20 {
@@ -2855,8 +2859,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   padding: 2px;
 }
 
-.p-\[20px\] {
-  padding: 20px;
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .px-15 {
@@ -2874,6 +2878,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pb-\[20px\] {
   padding-bottom: 20px;
+}
+
+.pb-\[50px\] {
+  padding-bottom: 50px;
 }
 
 .pl-20 {
@@ -2894,14 +2902,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
-}
-
-.pb-\[100px\] {
-  padding-bottom: 100px;
-}
-
-.pb-\[50px\] {
-  padding-bottom: 50px;
 }
 
 .text-left {
@@ -3027,6 +3027,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   transition-duration: 150ms;
 }
 
+.transition-shadow {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-250 {
   transition-duration: 250ms;
 }
@@ -3089,17 +3095,30 @@ body {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
+.group:hover .group-hover\:text-blue-500 {
+  color: #079BCA;
+}
+
+.group:hover .group-hover\:shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 768px) {
+  .md\:ml-\[20px\] {
+    margin-left: 20px;
+  }
+
+  .md\:mr-\[20px\] {
+    margin-right: 20px;
+  }
+
   .md\:mt-\[67px\] {
     margin-top: 67px;
   }
@@ -3114,6 +3133,10 @@ body {
 
   .md\:grid-cols-\[2fr_1fr_1fr_1fr\] {
     grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+
+  .md\:p-\[20px\] {
+    padding: 20px;
   }
 
   .md\:px-20 {

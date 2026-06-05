@@ -37,7 +37,7 @@ export default {
       addVariant("not-first", "&:not(:first-child)");
     }),
   ],
-  safelist: ["h-0", "sbdocs"],
+  safelist: ["h-0", "sbdocs", "group-hover:shadow-xl", "transition-shadow"],
   corePlugins: {
     textOpacity: false,
     container: false,

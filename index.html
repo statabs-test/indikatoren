@@ -348,7 +348,7 @@
     >
       <div
         id="lightbox-wrapper"
-        class="w-full max-w-[760px] p-[20px] my-10 mt-[111px] md:mt-[67px] rounded-xl flex flex-col relative"
+        class="w-full max-w-[760px] p-[10px] md:p-[20px] my-10 mt-[111px] md:mt-[67px] rounded-xl flex flex-col relative"
       >
         <!-- Close Button -->
         <div class="container flex w-full">
@@ -436,7 +436,7 @@
         data-index="<%= getIndexByFid(_fid) %>"
       >
         <div
-          class="w-full py-16 cursor-pointer hover:bg-gray-50 transition rounded-lg indikator mb-50"
+          class="w-full py-16 cursor-pointer rounded-lg indikator mb-50 group"
           indikator-fid-data="<%= _fid %>"
           indikator-id-data="<%= id %>"
           indikator-kuerzel-data="<%= kuerzel %>"
@@ -445,23 +445,23 @@
           data-index="<%= getIndexByFid(_fid) %>"
         >
           <!-- SVG Thumbnail left -->
-          <h5 class="font-bold text-sm ml-20 text-blue-900 mb-10">
+          <h5 class="font-bold text-xl text-blue-900 group-hover:text-blue-500 mb-10">
             <%= title %>
           </h5>
 
-          <div class="flex items-start gap-2 h-full">
+          <div class="flex items-start gap-20 h-full">
             <div class="w-1/5 min-h-[180px] min-w-[200px]">
               <img
                 src="images/portal/<%= id %>.svg"
                 alt="<%= kuerzel %>"
-                class="mr-10 shadow-md hidden md:block w-full"
+                class="mr-10 shadow-md group-hover:shadow-xl transition-shadow hidden md:block w-full"
               />
             </div>
 
             <!-- Text right -->
             <div class="flex flex-col justify-between w-4/5 min-h-[180px]">
               <!-- Lesehilfe ALWAYS at top -->
-              <div class="text-base leading-relaxed pr-5"><%= lesehilfe %></div>
+              <div class="text-base leading-relaxed pr-5 group-hover:text-blue-500"><%= lesehilfe %></div>
 
               <!-- META BLOCK ALWAYS AT BOTTOM -->
               <div class="flex flex-wrap text-gray-500 text-xs gap-y-2 mt-10">
