@@ -16,4 +16,6 @@ npm-debug.log.*
 .vscode
 .claude
 assets/js/modules/highcharts/**/*.d.ts
+assets/js/modules/highcharts/es-modules/
+assets/js/modules/highcharts/.github/
 
