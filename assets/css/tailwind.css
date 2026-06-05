@@ -2527,6 +2527,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-right: 20px;
 }
 
+.mr-\[7px\] {
+  margin-right: 7px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -2547,28 +2551,16 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-top: -22px;
 }
 
+.mt-\[-2px\] {
+  margin-top: -2px;
+}
+
 .mt-\[0\.18em\] {
   margin-top: 0.18em;
 }
 
 .mt-\[111px\] {
   margin-top: 111px;
-}
-
-.mt-\[-2px\] {
-  margin-top: -2px;
-}
-
-.mr-\[7px\] {
-  margin-right: 7px;
-}
-
-.mr-\[0px\] {
-  margin-right: 0px;
-}
-
-.mr-\[5px\] {
-  margin-right: 5px;
 }
 
 .line-clamp-2 {
@@ -2682,8 +2674,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 80%;
 }
 
-.w-\[115px\] {
-  width: 115px;
+.w-\[132px\] {
+  width: 132px;
 }
 
 .w-\[1em\] {
@@ -2698,28 +2690,8 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 100%;
 }
 
-.w-\[152px\] {
-  width: 152px;
-}
-
-.w-\[142px\] {
-  width: 142px;
-}
-
-.w-\[135px\] {
-  width: 135px;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
-.w-\[139px\] {
-  width: 139px;
-}
-
-.w-\[132px\] {
-  width: 132px;
+.w-\[130px\] {
+  width: 130px;
 }
 
 .min-w-\[200px\] {
@@ -2736,6 +2708,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .max-w-\[83\.333333\%\] {
   max-width: 83.333333%;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 .transform {
@@ -2918,6 +2894,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .pt-30 {
   padding-top: 30px;
+}
+
+.pb-\[100px\] {
+  padding-bottom: 100px;
+}
+
+.pb-\[50px\] {
+  padding-bottom: 50px;
 }
 
 .text-left {

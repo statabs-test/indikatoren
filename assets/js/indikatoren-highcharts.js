@@ -62,7 +62,7 @@ Highcharts.wrap(
     }
 
     proceed.call(this, userOptions, callback);
-  }
+  },
 );
 
 //parse csv and configure HighCharts object
@@ -113,7 +113,7 @@ function createChartConfig(
   chartMetaData,
   view,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   //add custom filter to chart options if present in metadata
   if (chartMetaData["filter"]) {
@@ -131,7 +131,7 @@ function createChartConfig(
       chartOptions.series.forEach(function (series, i) {
         chartOptions.series[i] = Highcharts.merge(
           series,
-          dataOptions.series[i]
+          dataOptions.series[i],
         );
       });
     }
@@ -142,7 +142,7 @@ function createChartConfig(
       options,
       chartMetaData,
       view,
-      suppressNumberInTitle
+      suppressNumberInTitle,
     );
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
@@ -150,7 +150,7 @@ function createChartConfig(
     var beforeSeriesOptions = replacedOptions;
     if (beforeSeriesOptions.beforeSeries) {
       beforeSeriesOptions.series = replacedOptions.beforeSeries.concat(
-        replacedOptions.series
+        replacedOptions.series,
       );
     }
     delete beforeSeriesOptions.beforeSeries;
@@ -159,7 +159,7 @@ function createChartConfig(
     var afterSeriesOptions = beforeSeriesOptions;
     if (afterSeriesOptions.afterSeries) {
       afterSeriesOptions.series = beforeSeriesOptions.series.concat(
-        beforeSeriesOptions.afterSeries
+        beforeSeriesOptions.afterSeries,
       );
     }
     delete afterSeriesOptions.afterSeries;
@@ -176,7 +176,7 @@ function drawChartFromData(
   chartMetaData,
   view,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   createChartConfig(
     data,
@@ -190,10 +190,10 @@ function drawChartFromData(
       var constr = options.isStock
         ? "StockChart"
         : options.chart.type === "map"
-        ? "Map"
-        : "Chart";
+          ? "Map"
+          : "Chart";
       return new Highcharts[constr](options, callbackFn);
-    }
+    },
   );
 }
 
@@ -207,20 +207,20 @@ function drawChartFromJson(
   indikatorensetView,
   chartMetaData,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   loadChartConfig(id, indikatorensetView, function (options) {
     //decide if stockchart, map, or chart
     var constr = options.isStock
       ? "StockChart"
       : options.chart.type === "map"
-      ? "Map"
-      : "Chart";
+        ? "Map"
+        : "Chart";
     var injectedOptions = injectMetadataToChartConfig(
       options,
       chartMetaData,
       indikatorensetView,
-      suppressNumberInTitle
+      suppressNumberInTitle,
     );
     return new Highcharts[constr](injectedOptions, callbackFn);
   });
@@ -243,7 +243,7 @@ function injectMetadataToChartConfig(
   options,
   data,
   view,
-  suppressNumberInTitle
+  suppressNumberInTitle,
 ) {
   var chartNumber = isIndikatorensetView(view)
     ? data.kuerzelKunde
@@ -307,7 +307,7 @@ function injectMetadataToChartConfig(
   // 485px width and cause text truncation at responsive (wider) sizes.
   // Exception: map charts with colorAxis use itemWidth to control vertical layout.
   // Maps are detected via colorAxis (chart.type is not always set for map charts)
-  var isMap = !!(options["colorAxis"]);
+  var isMap = !!options["colorAxis"];
   if (options["legend"] && !isMap) {
     delete options["legend"]["width"];
     delete options["legend"]["itemWidth"];
@@ -350,17 +350,14 @@ function injectMetadataToChartConfig(
         if (tag === "rect") {
           el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
         } else if (tag === "circle") {
-          el.setAttribute(
-            "cx",
-            parseFloat(el.getAttribute("cx") || 0) + shift
-          );
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
         } else if (tag === "g") {
           var t = el.getAttribute("transform") || "";
           el.setAttribute(
             "transform",
             t.replace(/translate\(([^,)]+)/, function (_, x) {
               return "translate(" + (parseFloat(x) + shift);
-            })
+            }),
           );
         }
       });
@@ -375,21 +372,26 @@ function injectMetadataToChartConfig(
     options["chart"]["events"]["render"] = function () {
       if (originalRender) originalRender.call(this);
       var chart = this;
-      var items = Array.from(chart.container.querySelectorAll(
-        ".highcharts-legend-item"
-      ));
+      var items = Array.from(
+        chart.container.querySelectorAll(".highcharts-legend-item"),
+      );
       if (items.length < 2) return;
       var lineHeight = 15;
       var itemMargin = 8;
       var baseY = parseFloat(
-        (items[0].getAttribute("transform") || "").match(/translate\([^,]+,([^)]+)\)/)?.[1] || 3
+        (items[0].getAttribute("transform") || "").match(
+          /translate\([^,]+,([^)]+)\)/,
+        )?.[1] || 3,
       );
       var currentY = baseY;
       items.forEach(function (el) {
         var t = el.getAttribute("transform") || "";
         el.setAttribute(
           "transform",
-          t.replace(/translate\([^,]+,[^)]+\)/, "translate(8," + currentY + ")")
+          t.replace(
+            /translate\([^,]+,[^)]+\)/,
+            "translate(8," + currentY + ")",
+          ),
         );
         // Zeilenanzahl aus tspan[dy]-Elementen ableiten → echte Itemhöhe
         var textEl = el.querySelector("text");
@@ -433,7 +435,7 @@ function renderChart(
   chartMetaData,
   indikatorensetView,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   //Umwelt data are rendered directly from json, not from csv + json files
   if (
@@ -448,31 +450,30 @@ function renderChart(
       $.getScript(chartUrl),
       $.Deferred(function (deferred) {
         $(deferred.resolve);
-      })
+      }),
     )
-      .done(function (
-        /*optionsReturnData, */ templateReturnData,
-        chartReturnData
-      ) {
-        //get returned script, evaluate it, save returned object to variable.
-        //var globalOptions = eval(optionsReturnData[0]);
-        var chartOptions = eval(chartReturnData[0]);
-        var template = eval(templateReturnData[0]);
-        //load csv and draw chart
-        $.get(csvUrl, function (data) {
-          //remove quotes from data
-          var dataWithoutQuotes = data.replace(/"/g, "");
-          drawChartFromData(
-            dataWithoutQuotes,
-            chartOptions,
-            template,
-            chartMetaData,
-            indikatorensetView,
-            suppressNumberInTitle,
-            callbackFn
-          );
-        });
-      })
+      .done(
+        function (/*optionsReturnData, */ templateReturnData, chartReturnData) {
+          //get returned script, evaluate it, save returned object to variable.
+          //var globalOptions = eval(optionsReturnData[0]);
+          var chartOptions = eval(chartReturnData[0]);
+          var template = eval(templateReturnData[0]);
+          //load csv and draw chart
+          $.get(csvUrl, function (data) {
+            //remove quotes from data
+            var dataWithoutQuotes = data.replace(/"/g, "");
+            drawChartFromData(
+              dataWithoutQuotes,
+              chartOptions,
+              template,
+              chartMetaData,
+              indikatorensetView,
+              suppressNumberInTitle,
+              callbackFn,
+            );
+          });
+        },
+      )
       .fail(function (jqXHR, textStatus, errorThrown) {
         console.log("$.getScript() failed! ");
         console.log(textStatus);
@@ -484,7 +485,7 @@ function renderChart(
       indikatorensetView,
       chartMetaData,
       suppressNumberInTitle,
-      callbackFn
+      callbackFn,
     );
   }
 }
@@ -547,7 +548,7 @@ function lazyRenderChartById(
   chartMetaData,
   view,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   //fire GTM event
   //dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
@@ -575,7 +576,7 @@ function lazyRenderChartById(
     chartMetaData,
     view,
     suppressNumberInTitle,
-    callbackFn
+    callbackFn,
   );
 }
 
@@ -631,7 +632,7 @@ function renderLinksHTML(
   stufe1,
   renderLinkDisplayMode,
   hideLinks,
-  hideLinksTitle
+  hideLinksTitle,
 ) {
   var returnText = "";
   hideLinksTitle = true;
@@ -660,7 +661,7 @@ function renderLinksHTML(
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        "<div class='flex'><div class='font-bold text-sm'>Indikatorenset:</div><div class='ml-2'><a class='' href='http://www.statistik.bs.ch/indikatorenset/" +
+        "<div class='flex'><div class='font-bold text-sm w-[130px] shrink-0'>Indikatorenset:</div><div class='ml-2'><a class='' href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
         kennzahlenset.replace("-", " ") +
@@ -688,17 +689,17 @@ function renderLinksHTML(
     }
     if (displayExternalLinks) {
       returnText +=
-        "<div class='flex'><div class='font-bold'>Weitere Links: </div>";
+        "<div class='flex'><div class='font-bold w-[130px] shrink-0'>Weitere Links:</div><div class='ml-2 flex flex-col'>";
       externalLinks.forEach(function (v, i, arr) {
         // Add class to <a> tag if it exists
         const updatedLink = v.replace(
           /<a\s+(?![^>]*\bclass=)[^>]*?/i,
-          (match) => match + "class='' "
+          (match) => match + "class='' ",
         );
 
-        returnText += "<div class='ml-2'>" + updatedLink + "</div>";
+        returnText += "<div>" + updatedLink + "</div>";
       });
-      returnText += "</div>";
+      returnText += "</div></div>";
     }
     returnText +=
       " \
