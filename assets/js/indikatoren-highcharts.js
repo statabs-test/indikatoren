@@ -309,8 +309,8 @@ function injectMetadataToChartConfig(
   // Maps are detected via colorAxis (chart.type is not always set for map charts)
   var isMap = !!options["colorAxis"];
   if (options["legend"] && !isMap) {
-    delete options["legend"]["width"];
-    delete options["legend"]["itemWidth"];
+    if (!options["legend"]["width"]) delete options["legend"]["width"];
+    if (!options["legend"]["itemWidth"]) delete options["legend"]["itemWidth"];
   }
 
   // If subtitle has text and marginTop is hardcoded, remove it so Highcharts

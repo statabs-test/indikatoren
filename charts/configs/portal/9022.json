@@ -5440,18 +5440,21 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": undefined,
       "whiteSpace": "nowrap"
     },
+    "x": 150,
     "y": -70,
+    "width": 350,
+    "itemWidth": 54,
     "itemMarginBottom": 5,
     "symbolPadding": 2,
     "labelFormatter": function () {
-        //remove text after year 
+        //remove text after year
         return this.name.split(" ").slice(0, 1).toString();
       },
     "title": {
