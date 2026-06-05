@@ -18,9 +18,7 @@ var escapeStr = function (string) {
 };
 
 function templateBuilder(str, data) {
-  console.log("pleese");
   var c = templateSettings;
-  console.log(c);
   var tmpl =
     "var __p=[],print=function(){__p.push.apply(__p,arguments);};" +
     "with(obj||{}){__p.push('" +

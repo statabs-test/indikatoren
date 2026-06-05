@@ -69,7 +69,13 @@ views.forEach(function (view) {
     "Starting creation of chart config for indikatorensetView=" + view
   );
 
-  var files = JSON.parse(fs.readFileSync("tmp/chartsToBuild.json"));
+  var singleId = process.argv[2];
+  var files = singleId
+    ? [singleId]
+    : JSON.parse(fs.readFileSync("tmp/chartsToBuild.json"));
+  var total = files.length;
+  var done = 0;
+  var skipped = 0;
   files.forEach(function (id) {
     var indikator = JSON.parse(
       fs.readFileSync("metadata/single/" + id + ".json")
@@ -80,18 +86,16 @@ views.forEach(function (view) {
       indikator.kennzahlenset != "Umwelt" &&
       !indikator.kennzahlenset.toLowerCase().includes("print")
     ) {
-      console.log(
-        "Creating config for chart " + indikator.id + ", view=" + view + "..."
+      done++;
+      process.stdout.write(
+        "[" + done + "/" + total + "] Chart " + indikator.id + " (skipped: " + skipped + ")...\r"
       );
       saveChartConfig(indikator, view, console);
     } else {
-      console.log(
-        "Chart " +
-          indikator.id +
-          ' is invisible or in kennzahlenset "Umwelt" or print, ignoring.'
-      );
+      skipped++;
     }
   });
+  console.log("\nDone: " + done + " charts created, " + skipped + " skipped.");
 });
 //    });
 //});
@@ -121,11 +125,30 @@ function saveChartConfig(indikator, view, console) {
     }
   }
 
+  // Polyfill for jsdom 9 compatibility with Highcharts 12+ (uses element.closest)
+  if (win.Element && !win.Element.prototype.matches) {
+    win.Element.prototype.matches =
+      win.Element.prototype.msMatchesSelector ||
+      win.Element.prototype.webkitMatchesSelector ||
+      function () { return false; };
+  }
+  if (win.Element && !win.Element.prototype.closest) {
+    win.Element.prototype.closest = function (selector) {
+      var el = this;
+      while (el && el.nodeType === 1) {
+        if (el.matches(selector)) return el;
+        el = el.parentElement || el.parentNode;
+      }
+      return null;
+    };
+  }
+
   var Highcharts = require("highcharts/highstock");
-  //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
-  require("highcharts/highcharts-more")(Highcharts);
-  var Highcharts_data = require("highcharts/modules/data")(Highcharts);
-  var Highcharts_map = require("highcharts/modules/map")(Highcharts);
+  Highcharts = Highcharts.default || Highcharts;
+  //Error bars need highcharts-more. In Highcharts 12, modules auto-register on load
+  require("highcharts/highcharts-more");
+  require("highcharts/modules/data");
+  require("highcharts/modules/map");
 
   //convert rhein shape to geojson, see http://api.highcharts.com/highmaps/Highcharts.geojson
   var rheinDataEPSG2056 = Highcharts.geojson(geojson_rheinEPSG2056, "map");
@@ -177,7 +200,6 @@ function saveChartConfig(indikator, view, console) {
         console: console,
       }
     );
-    console.log(result);
     var options = result.result || {};
 
     //disable animations and prevent exceptions

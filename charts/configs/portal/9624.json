@@ -49,6 +49,7 @@
           107288
         ]
       ],
+      "pointStart": 0,
       "name": "W. gebaut",
       "turboThreshold": 0
     },
@@ -101,6 +102,7 @@
           13762
         ]
       ],
+      "pointStart": 0,
       "name": "NW. gebaut",
       "turboThreshold": 0
     },
@@ -154,6 +156,7 @@
           -20361
         ]
       ],
+      "pointStart": 0,
       "name": "W. abgebrochen",
       "turboThreshold": 0
     },
@@ -207,6 +210,7 @@
           -63821
         ]
       ],
+      "pointStart": 0,
       "name": "NW. abgebrochen",
       "turboThreshold": 0
     },
@@ -260,6 +264,7 @@
           86927
         ]
       ],
+      "pointStart": 0,
       "name": "Wohnen Saldo",
       "turboThreshold": 0
     },
@@ -313,6 +318,7 @@
           -50059
         ]
       ],
+      "pointStart": 0,
       "name": "Nichtwohnen Saldo",
       "turboThreshold": 0
     },
@@ -366,6 +372,7 @@
           36868
         ]
       ],
+      "pointStart": 0,
       "name": "Total Saldo",
       "turboThreshold": 0
     }
@@ -405,28 +412,48 @@
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "marginRight": 25,
     "renderTo": "container-9624"
@@ -488,7 +515,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 190,
     "itemMarginBottom": 5
   },
   "credits": {

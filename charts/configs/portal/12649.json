@@ -32,6 +32,7 @@
           53.242351
         ]
       ],
+      "pointStart": 0,
       "name": "Stromverbrauch Friedmatt",
       "turboThreshold": 0
     },
@@ -67,6 +68,7 @@
           3.150024
         ]
       ],
+      "pointStart": 0,
       "name": "Stromverbrauch Kannenfeld",
       "turboThreshold": 0
     },
@@ -102,6 +104,7 @@
           11.461258
         ]
       ],
+      "pointStart": 0,
       "name": "Stromverbrauch Landskron",
       "turboThreshold": 0
     },
@@ -137,6 +140,7 @@
           35.413446
         ]
       ],
+      "pointStart": 0,
       "name": "Stromverbrauch Lysbüchel",
       "turboThreshold": 0
     },
@@ -172,6 +176,7 @@
           7.260452
         ]
       ],
+      "pointStart": 0,
       "name": "Stromverbrauch Pestalozzi",
       "turboThreshold": 0
     }
@@ -202,28 +207,48 @@
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (
-            this["legend"]["options"]["align"] == "left" &&
-            this["legend"]["options"]["verticalAlign"] == "top" &&
-            this["legend"]["options"]["x"] == 0
-          ) {
-            this.update({
-              legend: {
-                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
-              },
-            });
-          }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-12649"
   },
@@ -282,7 +307,6 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "width": 460,
     "itemMarginBottom": 5,
     "labelFormatter": function () {
         return this.name.split(" ").slice(-1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'

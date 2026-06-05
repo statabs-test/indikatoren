@@ -69,9 +69,40 @@
           "y": 1.21
         }
       ],
+      "pointStart": 1.08,
       "name": "Spitalname lang"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "black"
+      },
+      "text": "PCCL"
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 1);
+        }
+    },
+    "startOnTick": true,
+    "endOnTick": true,
+    "showLastLabel": true,
+    "gridLineWidth": 1,
+    "tickAmount": 6,
+    "min": 0,
+    "style": {
+      "color": "black"
+    }
+  },
   "chart": {
     "type": "scatter",
     "width": null,
@@ -80,34 +111,48 @@
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          this.series[0].points[10].update({
-            marker: {
-              symbol: 'square',
-              radius: 6,
-              enabled: true,
-              states: {
-                hover: {
-                  enabled: true,
-                  symbol: 'square',
-                }
-              },
-              fillColor: 'black',
-              // lineColor: 'black',
-            },
-            dataLabels:{
-//              align: "right",
-              verticalAlign: "bottom"
-            },
-          });
-
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-11185"
   },
@@ -162,36 +207,6 @@
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "black"
-      },
-      "text": "PCCL"
-    },
-    "labels": {
-      "style": {
-        "color": "black",
-        "textOverflow": "none"
-      },
-      "formatter": function () {
-          return Highcharts.numberFormat((this.value), 1);
-        }
-    },
-    "startOnTick": true,
-    "endOnTick": true,
-    "showLastLabel": true,
-    "gridLineWidth": 1,
-    "tickAmount": 6,
-    "min": 0,
-    "style": {
-      "color": "black"
     }
   },
   "yAxis": {

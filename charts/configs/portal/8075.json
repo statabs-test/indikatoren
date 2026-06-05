@@ -41,6 +41,7 @@
           646
         ]
       ],
+      "pointStart": 2017,
       "name": "Bezüger Klybeck"
     },
     {
@@ -84,6 +85,7 @@
           256
         ]
       ],
+      "pointStart": 2017,
       "name": "Bezüger Kleinhüningen"
     },
     {
@@ -127,6 +129,7 @@
           9.1
         ]
       ],
+      "pointStart": 2017,
       "name": "Sozialhilfequote Klybeck"
     },
     {
@@ -170,6 +173,7 @@
           9.2
         ]
       ],
+      "pointStart": 2017,
       "name": "Sozialhilfequote Kleinhüningen"
     },
     {
@@ -213,9 +217,35 @@
           5
         ]
       ],
+      "pointStart": 2017,
       "name": "Sozialhilfequote Stadt Basel"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+        var interval = 1,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
   "chart": {
     "type": "line",
     "width": null,
@@ -224,16 +254,48 @@
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Inter,Helvetica Neue,Helvetica,Arial,sans-serif"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          //move legend title
-          var title = this.legend.title.translate(-140, 40);
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-8075"
   },
@@ -265,31 +327,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickPositioner": function () {
-        var interval = 1,
-          ext = this.getExtremes(),
-          i = ext.dataMax,
-          pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
-      }
   },
   "yAxis": [
     {
@@ -335,7 +372,6 @@
     "y": -55,
     "x": -17,
     "itemMarginBottom": 2,
-    "width": 260,
     "labelFormatter": function () {
         return this.name.replace("Bezüger ", "") 
         .replace("Sozialhilfequote ", "");
