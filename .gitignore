@@ -15,4 +15,5 @@ npm-debug.log.*
 /node_cache
 .vscode
 .claude
+assets/js/modules/highcharts/**/*.d.ts
 
