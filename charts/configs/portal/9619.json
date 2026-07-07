@@ -5,11 +5,11 @@
       "data": [
         [
           "Wohnen",
-          123.631544
+          110.451197
         ],
         [
           "Nichtwohnen",
-          51.441117
+          34.367878
         ],
         [
           "Verkehr",
@@ -24,37 +24,18 @@
       "data": [
         [
           "Wohnen",
-          407.865658
+          341.5323271
         ],
         [
           "Nichtwohnen",
-          155.711825
+          163.05725986
         ],
         [
           "Verkehr",
-          9.868333
+          7.82363175
         ]
       ],
       "name": "Erdgas",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
-      "data": [
-        [
-          "Wohnen",
-          null
-        ],
-        [
-          "Nichtwohnen",
-          99.95114
-        ],
-        [
-          "Verkehr",
-          null
-        ]
-      ],
-      "name": "Abfall",
       "turboThreshold": 0
     },
     {
@@ -62,15 +43,15 @@
       "data": [
         [
           "Wohnen",
-          343.019258
+          360.941684
         ],
         [
           "Nichtwohnen",
-          809.454954
+          721.37157924
         ],
         [
           "Verkehr",
-          49.227444
+          58.09973076
         ]
       ],
       "name": "Elektrizität",
@@ -81,11 +62,11 @@
       "data": [
         [
           "Wohnen",
-          487.284169
+          506.026454
         ],
         [
           "Nichtwohnen",
-          491.55168
+          380.045884
         ],
         [
           "Verkehr",
@@ -100,11 +81,11 @@
       "data": [
         [
           "Wohnen",
-          11.357674
+          13.973105
         ],
         [
           "Nichtwohnen",
-          15.6449788
+          14.367703
         ],
         [
           "Verkehr",
@@ -119,11 +100,11 @@
       "data": [
         [
           "Wohnen",
-          19.4801989
+          25.998992
         ],
         [
           "Nichtwohnen",
-          1.3571545
+          2.790846
         ],
         [
           "Verkehr",
@@ -138,11 +119,11 @@
       "data": [
         [
           "Wohnen",
-          27.415343
+          29.76831648
         ],
         [
           "Nichtwohnen",
-          8.184354
+          5.70937098
         ],
         [
           "Verkehr",
@@ -165,7 +146,7 @@
         ],
         [
           "Verkehr",
-          208.251292
+          190.55182628
         ]
       ],
       "name": "Benzin",
@@ -184,7 +165,7 @@
         ],
         [
           "Verkehr",
-          349.634329
+          353.90607269
         ]
       ],
       "name": "Diesel",
@@ -304,7 +285,7 @@
     "verticalAlign": "top",
     "align": "left",
     "width": 480,
-    "itemWidth": 160
+    "itemWidth": 130
   },
   "navigation": {
     "menuItemStyle": {

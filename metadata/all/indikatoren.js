@@ -73598,7 +73598,7 @@ var indikatoren = [
 		],
 		"title": "Bruttoenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um 27% zurück auf 4 224 GWh im Jahr 2022. Der Heizölverbrauch sank in diesem Zeitraum um 58% und der Erdgasverbrauch um 43%. Der ausserkantonale Bezug von Elektrizität (alles erneuerbare) ist um 38% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-24%). Seit 2010 ist der Bruttoverbrauch der im Kanton produzierten erneuerbaren Energien um 45% gestiegen.",
+		"lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um 30% zurück auf 4 031 GWh im Jahr 2024. Der Heizölverbrauch sank in diesem Zeitraum um 70% und der Erdgasverbrauch um 44%. Der ausserkantonale Bezug von Elektrizität (alles erneuerbare) ist um 48% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-25%). Seit 2010 ist der Bruttoverbrauch der im Kanton produzierten erneuerbaren Energien um 49% gestiegen.",
 		"erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. Die im Kanton gewonnenen Erneuerbaren (entsprechend ohne importierte Elektrizität) sind in einer Kategorie zusammengefasst und umfassen auch den erneuerbaren Teil des Abfalls (50% des Kehrichts und 100% des Klärschlamms). Der nicht erneuerbare Anteil des Abfalls (50% des Kehrichts, 100% des Industrie- und Sonderabfalls) ist separat aufgelistet. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -73641,7 +73641,7 @@ var indikatoren = [
 		],
 		"title": "Elektrizitätsverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Elektrizitätsverbrauch ging zwischen 2010 und 2022 um 24% von 1 628 GWh auf 1 240 GWh zurück. Die thermische Erzeugung (+11%) und die Photovoltaik (seit 2010 +1057%, seit 2018 +74%) innerhalb des Kantons konnten stark erhöht werden. Die Wasserkraft schwankt zwischen den einzelnen Jahren witterungsbedingt teilweise stark. Der ausserkantonale Bezug macht 2022 immer noch knapp zwei Drittel des Elektrizitätsverbrauches aus.",
+		"lesehilfe": "Der Elektrizitätsverbrauch ging zwischen 2010 und 2024 um 24% von 1 628 GWh auf 1 226 GWh zurück. Die thermische Erzeugung (+23%) und die Photovoltaik (seit 2010 +1567%, seit 2018 +117%) innerhalb des Kantons konnten stark erhöht werden. Die Wasserkraft schwankt zwischen den einzelnen Jahren witterungsbedingt teilweise stark. Der ausserkantonale Bezug macht 2024 immer noch knapp die Hälfte des Elektrizitätsverbrauches aus.",
 		"erlaeuterungen": "Unter den ausserkantonalen Bezug fällt der Import von Elektrizität aus Wasserkraft, Wind- und Sonnenenergie sowie Biomasse. Die von den IWB produzierte Elektrizität ist bereits seit 2009 zu 100% erneuerbar. Seit 2017 muss auch für im liberalen Strommarkt erstandene Elektrizität von Grosskunden ein Herkunftsnachweis aus erneuerbaren Energien ausgewiesen werden. Unter «Thermische Erzeugung» fällt die Stromnebenproduktion im Rahmen der Fernwärme (Erdgas, KVA, Holz). Für Elektrizität, die aus dem Anteil Erdgas an der Fernwärme gewonnen wird, werden Kompensationszertifikate erworben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -73689,7 +73689,7 @@ var indikatoren = [
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2022 um 30,6% abgenommen. Auf die Kategorie Wohnen (Anteil 2022: 38,7%) entfällt 2022 ein kleinerer Energieeinsatz als 2010; dies obwohl es eine Zunahme der Energiebezugsfläche in diesem Zeitraum gab. Der Verbrauch in der Kategorie Nichtwohnen ist zurückgegangen (Anteil 2022: 44,5%), von 2 284 GWh auf 1 633 GWh. Dies ist eine Reduktion um 28,5%, unter anderem wegen einer starken Abnahme der Energiebezugsfläche. In der Kategorie Verkehr (Anteil 2022: 16,8%) ist 2022 gegenüber 2018 ein starker Rückgang ersichtlich. Dieser ist vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustandegekommen.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2024 um 30,1% abgenommen. Auf die Kategorie Wohnen (Anteil 2024: 41,8%) entfällt 2024 ein kleinerer Energieeinsatz als 2010; dies obwohl es eine Zunahme der Energiebezugsfläche in diesem Zeitraum gab. Der Verbrauch in der Kategorie Nichtwohnen ist zurückgegangen (Anteil 2024: 39,8%), von 2 284 GWh auf 1 322 GWh. Dies ist eine Reduktion um 42,1%, unter anderem wegen einer starken Abnahme der Energiebezugsfläche. In der Kategorie Verkehr (Anteil 2024: 18,4%) ist 2024 gegenüber 2018 ein starker Rückgang ersichtlich. Dieser ist vor allem aufgrund des methodischen Bruchs infolge des aktualisierten Gesamtverkehrsmodells im Jahr 2020 zustandegekommen.",
 		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Bruttoenergie, welcher von den Energienutzern verbraucht wird. Bei den Verbrauchergruppen wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen» unterschieden. Zum Wohnen gehören private Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie. Verteilverluste, statistische Differenzen sowie Exporte bleiben in dieser Betrachtung unberücksichtigt. Daher ist die Summe des Verbrauchs der drei abgebildeten Verbrauchergruppen kleiner als der totale Endverbrauch.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83355,11 +83355,13 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9646
+			9646,
+			11902,
+			22308
 		],
 		"title": "Bruttoenergieverbrauch erneuerbare Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2022 von 741 GWh auf 1 074 GWh zugenommen, was einem Plus von 45% entspricht. Eine starke Zunahme ist beim Holz mit 130% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 057%), der Umweltwärme (+152%) und der thermischen Solarenergie (+191%) zu beobachten, die 2022 zusammen einen Anteil von 9,1% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
+		"lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2024 von 741 GWh auf 1 090 GWh zugenommen, was einem Plus von 49% entspricht. Eine starke Zunahme ist beim Holz mit 88% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 379%), der Umweltwärme (+231%) und der thermischen Solarenergie (+100%) zu beobachten, die 2024 zusammen einen Anteil von 10% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
 		"erlaeuterungen": "Dieser Indikator zeigt den Bruttoenergieverbrauch der erneuerbaren Energien, die im Kanton gewonnen wurden. Der Import von erneuerbaren Energien in den Kanton, insbesondere der ausserkantonale Bezug von Elektrizität, bleibt folglich unberücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83399,7 +83401,7 @@ var indikatoren = [
 		],
 		"title": "Endenergieverbrauch nach Energieträger",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2022 von 5 572 GWh um 31% auf 3 865 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 65% zurückgegangen, die Menge des Erdgases um 55%. Auch die beim Endverbraucher verwendete Elektrizität sank um 24%. Der Verbrauch von Fern- und Nahwärme blieb weitgehend stabil. Der Treibstoffverbrauch ging dagegen um 31% zurück. In der Kategorie Sonstiges sind die Endverbräuche der dezentralen Nutzung von Abfall, Holz, Biogas, thermischer Solarenergie und Umweltwärme zusammengefasst.",
+		"lesehilfe": "Der Endenergieverbrauch ist zwischen 2010 und 2024 von 5 572 GWh um 34% auf 3 679 GWh zurückgegangen. Die Menge des verbrauchten Heizöls ist seit 2010 um 71% zurückgegangen, die Menge des Erdgases um 57%. Auch die beim Endverbraucher verwendete Elektrizität sank um 25%. Der Verbrauch von Fern- und Nahwärme blieb weitgehend stabil. Der Treibstoffverbrauch ging dagegen um 33% zurück. In der Kategorie Sonstiges sind die Endverbräuche der dezentralen Nutzung von Abfall, Holz, Biogas, thermischer Solarenergie und Umweltwärme zusammengefasst.",
 		"erlaeuterungen": "Der Endenergieverbrauch bildet die Energie in der Form ab, wie sie beim Endverbraucher eingesetzt wird. Die Differenz zwischen Brutto- und Endenergieverbrauch entspricht den Zu- respektive Abgängen infolge der Umwandlung in Elektrizität und Fernwärme innerhalb des Kantons. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83439,7 +83441,7 @@ var indikatoren = [
 		],
 		"title": "Endenergieverbrauch von fossilen Energieträgern",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch fossiler Energieträger hat von 2010 bis 2022 um 49,9% von 2 579 GWh auf 1 291 GWh abgenommen. Erdgas macht mit 558 GWh 2022 43,2% davon aus, Heizöl mit 175 GWh 13,6%. Der Anteil aller fossiler Energieträger am Endenergieverbrauch ging damit zwischen 2010 und 2022 von 46,3% auf 33,4% zurück.",
+		"lesehilfe": "Der Endenergieverbrauch fossiler Energieträger hat von 2010 bis 2024 um 53,4% von 2 580 GWh auf 1 203 GWh abgenommen. Erdgas macht mit 513 GWh 2024 42,7% davon aus, Heizöl mit 145 GWh 12,0%. Der Anteil aller fossiler Energieträger am Endenergieverbrauch ging damit zwischen 2010 und 2024 von 46,3% auf 32,5% zurück.",
 		"erlaeuterungen": "Als fossile Energieträger werden Heizöl, Erdgas sowie die Treibstoffe Benzin und Diesel berücksichtigt. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83479,7 +83481,7 @@ var indikatoren = [
 		],
 		"title": "Fernwärmeverbrauch nach Produktionsart",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Für die Fernwärmeproduktion wurde 2022 Bruttoenergie von 1 495 GWh verwendet (2010: 1 412 GWh). 44,2% davon wurden durch Abfallverbrennung, 34,2% durch den Einsatz von Erdgas und 17,3% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (3,8%), Umweltwärme (0,2%) sowie Elektrizität (0,1%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,8% auf 38,0% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 35,4% aus.",
+		"lesehilfe": "Für die Fernwärmeproduktion wurde 2024 Bruttoenergie von 1 501 GWh verwendet (2010: 1 412 GWh). 51,5% davon wurden durch Abfallverbrennung, 31,8% durch den Einsatz von Erdgas und 13,3% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (1,8%), Umweltwärme (0,9%) sowie Elektrizität (0,3%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,8% auf 33,6% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 37,2% aus.",
 		"erlaeuterungen": "Verbrauch basierend auf dem Fernwärmenetz der IWB sowie weiterer Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83559,7 +83561,7 @@ var indikatoren = [
 		],
 		"title": "CO₂-Emissionen nach Energieträger",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"lesehilfe": "Die CO₂-Emissionen pro Einwohner haben zwischen 2010 und 2022 von 4,7 Tonnen auf 2,9 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-58%),  Erdgas (-43%) sowie Treibstoffe (-31%) zurück. 2022 sind die Emissionen aus Erdgas mit 37% für den grössten Teil aller CO₂-Emissionen verantwortlich.",
+		"lesehilfe": "Die CO₂-Emissionen pro Einwohner haben zwischen 2010 und 2024 von 4,7 Tonnen auf 2,6 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-69%),  Erdgas (-51%) sowie Treibstoffe (-33%) zurück. 2024 sind die Emissionen aus Erdgas mit 35% für den grössten Teil aller CO₂-Emissionen verantwortlich.",
 		"erlaeuterungen": "Es sind CO₂-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der CO₂-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Klärschlamm wird als biogen taxiert und verursacht keine CO₂-Emissionen. Ebenso nicht berücksichtigt sind CO₂-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). ). Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83599,7 +83601,7 @@ var indikatoren = [
 		],
 		"title": "Jahresmitteltemperatur und Heizgradtage",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das 30-jährige gleitende Mittel der Lufttemperatur der Heizperiode steigt seit Anfang des 20. Jahrhunderts kontinuierlich. Die Anzahl der Heizgradtage schwankt von Jahr zu Jahr. 2022 waren es 2 503 Heizgradtage. Dies entspricht einem Rückgang um 0,2% im Vergleich zu 2020 (-14,5% im Vergleich zu 2012).",
+		"lesehilfe": "Das 30-jährige gleitende Mittel der Lufttemperatur der Heizperiode steigt seit Anfang des 20. Jahrhunderts kontinuierlich. Die Anzahl der Heizgradtage schwankt von Jahr zu Jahr. 2024 waren es 2 511 Heizgradtage. Dies entspricht einem Rückgang um 13% im Vergleich zu 2001.",
 		"erlaeuterungen": "Der Wert des 30-jährigen gleitenden Mittels eines Jahres ist der Mittelwert der Jahresmittelwerte über einen Zeitraum von -14 bis +15 Jahren und zeigt die längerfristige, geglättete Entwicklung. Als Heizperiode wird der Zeitraum bezeichnet, in dem die Heizungsanlage in Betrieb genommen werden muss, um die Innentemperatur zu halten. Dies betrifft die Periode von September bis Juni. Für alle Tage in der Heizperiode (September des Vorjahres bis Juni des laufenden Jahres), welche eine mittlere Aussenlufttemperatur von kleiner oder gleich 12 °C (Heizgrenze) aufweisen, wird die Differenz zwischen 20 °C (angenommene gewünschte Raumtemperatur) und der mittleren Aussenlufttemperatur summiert (Beispiel: Beträgt die mittlere Aussenlufttemperatur an einem Tag 8,5 °C, so resultiert daraus für diesen Tag ein Wert von 20 - 8,5 = 11,5 Heizgradtage). Allfällige Heizgradtage in den Monaten Juli und August werden nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -83610,7 +83612,7 @@ var indikatoren = [
 			"Kanton"
 		],
 		"description": "Jahresmitteltemperatur und Heizgradtage",
-		"thema": "08 Energie",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Produktion",
 		"kuerzel": "I.08.2.09622",
 		"kennzahlenset": "Energiestatistik",
@@ -83639,7 +83641,7 @@ var indikatoren = [
 		],
 		"title": "Energieproduktivität und Pro-Kopf-Verbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2010 ist der kWh-Einsatz pro erwirtschafteten Franken des Bruttoinlandproduktes (BIP) kontinuierlich gesunken. 2022 betrug dieser 0,09 kWh pro Franken und ist damit um 51% tiefer als 2010. Der Energieeinsatz pro Kopf sinkt ebenfalls seit 2010 und liegt 2022 bei 18 981 kWh pro Person, rund 35% tiefer als 2010.",
+		"lesehilfe": "Seit 2010 ist der kWh-Einsatz pro erwirtschafteten Franken des Bruttoinlandproduktes (BIP) kontinuierlich gesunken. 2024 betrug dieser 0,07 kWh pro Franken und ist damit um 54% tiefer als 2010. Der Energieeinsatz pro Kopf sinkt ebenfalls seit 2010 und liegt 2024 bei 17 904 kWh pro Person, rund 38% tiefer als 2010.",
 		"erlaeuterungen": "Die Energieproduktivität weist die eingesetzte Energie bezogen auf den Endenergieverbrauch pro erzeugter Geldmenge wirtschaftlicher Leistung (Bruttoinlandprodukt, BIP) aus, der Pro-Kopf-Verbrauch die eingesetzte Energie pro Kopf.",
 		"quellenangabe": [
 			"BAK Economics",
@@ -83680,7 +83682,7 @@ var indikatoren = [
 		],
 		"title": "Veränderung der Energiebezugsfläche",
 		"subtitle": "in Quadratmeter, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2022 beträgt der Saldo im Bereich Wohnen plus 86 927 Quadratmeter. Im Gegensatz dazu betrug der Saldo im Nichtwohnbau minus 50 059 Quadratmeter.",
+		"lesehilfe": "Im Jahr 2024 beträgt der Saldo im Bereich Wohnen plus 9 950 Quadratmeter. Im Gegensatz dazu betrug der Saldo im Nichtwohnbau 5 196 Quadratmeter.",
 		"erlaeuterungen": "Bei der Energiebezugsfläche handelt es sich um die Gebäudefläche, die von einer Anlage beheizt wird. Ermittelt wird diese durch Multiplikation der Gebäudegrundfläche mit der Anzahl oberirdischer Stockwerke. Ein positiver Saldo der Energiebezugsfläche resultiert, wenn im Vergleich zum Vorjahr mehr Fläche neu gebaut als abgebrochen wird. Erste verlässliche Zahlen sind für das Jahr 2012 verfügbar.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
