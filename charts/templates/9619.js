@@ -38,7 +38,7 @@
       whiteSpace: "nowrap"
     },
     width: 480,
-    itemWidth: 160
+    itemWidth: 130
   },
   series: [
     {
@@ -47,9 +47,9 @@
     {
       color: "#DC440E",
     },
-    {
+    /*{
       color:  "#B00000",
-    },
+    },*/
 	  {
       color:  "#B375AB",  
     },

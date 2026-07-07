@@ -1,7 +1,7 @@
 (function () {
   return {
     xAxis: {
-      type: "category", /* muss "category" sein, sonst funktioniert es nicht richtig */
+      type: "category", //muss "category" sein, sonst funktioniert es nicht richtig
       tickPositioner: function () {
         var maxlabels = 10,
           ext = this.getExtremes(),
