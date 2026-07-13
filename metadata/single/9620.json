@@ -1,4 +1,4 @@
-{
+﻿{
     "id": 9620,
     "template": "template001",
     "data-id": 9620,
@@ -11,7 +11,7 @@
     "title": "CO₂-Emissionen nach Energieträger",
     "subtitle": "in Tonnen, Basel-Stadt",
     "lesehilfe": "Die CO₂-Emissionen pro Einwohner haben zwischen 2010 und 2024 von 4,7 Tonnen auf 2,6 Tonnen im Jahr abgenommen. Der Rückgang geht auf Heizöl (-69%),  Erdgas (-51%) sowie Treibstoffe (-33%) zurück. 2024 sind die Emissionen aus Erdgas mit 35% für den grössten Teil aller CO₂-Emissionen verantwortlich.",
-    "erlaeuterungen": "Es sind CO₂-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der CO₂-Emissionen als klimaneutral betrachtet und nicht ausgewiesen. Klärschlamm wird als biogen taxiert und verursacht keine CO₂-Emissionen. Ebenso nicht berücksichtigt sind CO₂-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). ). Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
+    "erlaeuterungen": "Es sind CO₂-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) innerhalb des Kantons entstehen (Territorialprinzip). Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz ein erneuerbarer Energieträger ist. Da Kehricht zu rund 50% biogenes Material enthält, werden 50% der Emissionen als  CO₂--neutral betrachtet und nicht ausgewiesen. Klärschlamm wird als biogen taxiert und verursacht keine CO₂-Emissionen. Ebenso nicht berücksichtigt sind CO₂-Emissionen aus dem Verbrauch von Flugtreibstoffen (Kerosin). Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauches nicht berücksichtigt.",
     "quellenangabe": [
         "Statistisches Amt Basel-Stadt, Energiestatistik"
     ],
