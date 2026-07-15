@@ -24,11 +24,21 @@
     },
     {
       "color": "#DC440E",
-      "type": "line"
+      "type": "line",
+      "tooltip": {
+        "shared": false,
+        "headerFormat": '',
+        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}%</b><br/>'
+      },
     },
     {
       "color": "#cd9c00",
-      "type": "line"
+      "type": "line",
+      "tooltip": {
+        "shared": false,
+        "headerFormat": '',
+        "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}%</b><br/>'
+      },
     }
 
   ],
