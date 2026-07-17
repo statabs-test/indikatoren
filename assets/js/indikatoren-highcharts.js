@@ -368,8 +368,23 @@ function injectMetadataToChartConfig(
   // items after render. Highcharts Maps ignores layout:"vertical" for colorAxis.
   if (isMap) {
     options["chart"]["events"] = options["chart"]["events"] || {};
-    var originalRender = options["chart"]["events"]["render"];
+    // Store the previous render handler (if any) as a sibling property instead of
+    // capturing it in a closure variable: serialize-javascript (used by
+    // build/createChartConfigs.js) only serializes a function's own source text, so a
+    // reference to an outer-scope variable like "originalRender" survives the round-trip
+    // as dead text and throws "originalRender is not defined" once the config is
+    // deserialized in a fresh context (e.g. during highcharts-export-server rendering).
+    // Keeping it on options.chart.events.renderBase makes it part of the serialized
+    // object tree, so it's reachable via `this.options` at runtime in any context.
+    if (options["chart"]["events"]["render"]) {
+      options["chart"]["events"]["renderBase"] =
+        options["chart"]["events"]["render"];
+    }
     options["chart"]["events"]["render"] = function () {
+      var originalRender =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.renderBase
+          : null;
       if (originalRender) originalRender.call(this);
       var chart = this;
       var items = Array.from(
