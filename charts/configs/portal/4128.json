@@ -83,6 +83,14 @@
         [
           "2024",
           760
+        ],
+        [
+          "2025",
+          771
+        ],
+        [
+          "2026",
+          796
         ]
       ],
       "pointStart": 0,
@@ -172,6 +180,14 @@
         [
           "2024",
           1102
+        ],
+        [
+          "2025",
+          1123
+        ],
+        [
+          "2026",
+          1145
         ]
       ],
       "pointStart": 0,
@@ -261,6 +277,14 @@
         [
           "2024",
           1309
+        ],
+        [
+          "2025",
+          1330
+        ],
+        [
+          "2026",
+          1353
         ]
       ],
       "pointStart": 0,
@@ -350,6 +374,14 @@
         [
           "2024",
           1781
+        ],
+        [
+          "2025",
+          1803
+        ],
+        [
+          "2026",
+          1833
         ]
       ],
       "pointStart": 0,
@@ -439,6 +471,14 @@
         [
           "2024",
           2373
+        ],
+        [
+          "2025",
+          2448
+        ],
+        [
+          "2026",
+          2484
         ]
       ],
       "pointStart": 0,
@@ -598,7 +638,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

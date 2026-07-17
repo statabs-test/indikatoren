@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -254
+          -202
         ],
         [
           "Ausland",
-          -100
+          51
         ],
         [
           "Unbekannt",
-          -357
+          -181
         ],
         [
           "Total",
-          -711
+          -332
         ]
       ],
       "pointStart": 0,
@@ -31,19 +31,19 @@
       "data": [
         [
           "Schweiz",
-          -538
+          -268
         ],
         [
           "Ausland",
-          3234
+          3613
         ],
         [
           "Unbekannt",
-          -852
+          -461
         ],
         [
           "Total",
-          1844
+          2884
         ]
       ],
       "pointStart": 0,
@@ -56,19 +56,19 @@
       "data": [
         [
           "Schweiz",
-          -792
+          -470
         ],
         [
           "Ausland",
-          3134
+          3664
         ],
         [
           "Unbekannt",
-          -1209
+          -642
         ],
         [
           "Total",
-          1133
+          2552
         ]
       ],
       "pointStart": 0,
@@ -174,7 +174,7 @@
     "text": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2024",
+    "text": "Basel-Stadt, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -239,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.5.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

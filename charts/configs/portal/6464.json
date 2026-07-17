@@ -5,78 +5,6 @@
       "data": [
         [
           "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
-          7383
-        ],
-        [
-          "Pharma",
-          11133
-        ],
-        [
-          "Baugewerbe",
-          6366
-        ],
-        [
-          "Handel, Reparatur",
-          5752
-        ],
-        [
-          "Verkehr, Lagerei",
-          5549
-        ],
-        [
-          "Gastgewerbe",
-          4285
-        ],
-        [
-          "Information, Kommunikation",
-          8323
-        ],
-        [
-          "Finanz- und Versicherungs-DL",
-          9039
-        ],
-        [
-          "Beratung, Planung, Forschung",
-          7945
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5349
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          5868
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          7866
-        ],
-        [
-          "Erziehung, Unterricht",
-          9020
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          6377
-        ],
-        [
-          "Kunst und Unterhaltung",
-          6263
-        ],
-        [
-          "Total",
-          6714
-        ]
-      ],
-      "pointStart": 0,
-      "name": "2018",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#9E7C59",
-      "data": [
-        [
-          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
           7540
         ],
         [
@@ -145,7 +73,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#3A2012",
+      "color": "#9E7C59",
       "data": [
         [
           "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
@@ -214,6 +142,78 @@
       ],
       "pointStart": 0,
       "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3A2012",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          8090
+        ],
+        [
+          "Pharma",
+          11790
+        ],
+        [
+          "Baugewerbe",
+          6795
+        ],
+        [
+          "Handel, Reparatur",
+          6130
+        ],
+        [
+          "Verkehr, Lagerei",
+          5950
+        ],
+        [
+          "Gastgewerbe",
+          4726
+        ],
+        [
+          "Information, Kommunikation",
+          8665
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          9625
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          8448
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5694
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          5928
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          8878
+        ],
+        [
+          "Erziehung, Unterricht",
+          9135
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6823
+        ],
+        [
+          "Kunst und Unterhaltung",
+          6562
+        ],
+        [
+          "Total",
+          7156
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2024",
       "turboThreshold": 0
     }
   ],
@@ -379,7 +379,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -68,6 +68,10 @@
         [
           "2023",
           -24793
+        ],
+        [
+          "2024",
+          -23882
         ]
       ],
       "pointStart": 0,
@@ -142,6 +146,10 @@
         [
           "2023",
           -313
+        ],
+        [
+          "2024",
+          -798
         ]
       ],
       "pointStart": 0,
@@ -216,6 +224,10 @@
         [
           "2023",
           57744
+        ],
+        [
+          "2024",
+          54482
         ]
       ],
       "pointStart": 0,
@@ -277,7 +289,7 @@
         ],
         [
           "2020",
-          34322
+          34321
         ],
         [
           "2021",
@@ -289,7 +301,11 @@
         ],
         [
           "2023",
-          34646
+          35271
+        ],
+        [
+          "2024",
+          35876
         ]
       ],
       "pointStart": 0,
@@ -362,11 +378,15 @@
         ],
         [
           "2022",
-          66776
+          66878
         ],
         [
           "2023",
-          67175
+          67909
+        ],
+        [
+          "2024",
+          65678
         ]
       ],
       "pointStart": 0,
@@ -538,7 +558,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 5.6.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 13.7.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          "2012",
-          6439
-        ],
-        [
           "2014",
           6427
         ],
@@ -26,6 +22,10 @@
         [
           "2022",
           6788
+        ],
+        [
+          "2024",
+          7024
         ]
       ],
       "pointStart": 0,
@@ -35,10 +35,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2012",
-          6653
-        ],
         [
           "2014",
           6578
@@ -58,6 +54,10 @@
         [
           "2022",
           6969
+        ],
+        [
+          "2024",
+          7156
         ]
       ],
       "pointStart": 0,
@@ -67,10 +67,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2012",
-          6900
-        ],
         [
           "2014",
           6810
@@ -90,6 +86,10 @@
         [
           "2022",
           7229
+        ],
+        [
+          "2024",
+          7502
         ]
       ],
       "pointStart": 0,
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -8,10 +8,6 @@
       },
       "data": [
         [
-          "2012",
-          5981
-        ],
-        [
           "2014",
           6014
         ],
@@ -30,6 +26,10 @@
         [
           "2022",
           6561
+        ],
+        [
+          "2024",
+          6848
         ]
       ],
       "pointStart": 0,
@@ -43,10 +43,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          "2012",
-          7094
-        ],
         [
           "2014",
           6934
@@ -66,6 +62,10 @@
         [
           "2022",
           7269
+        ],
+        [
+          "2024",
+          7391
         ]
       ],
       "pointStart": 0,
@@ -79,10 +79,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          "2012",
-          6653
-        ],
         [
           "2014",
           6578
@@ -102,6 +98,10 @@
         [
           "2022",
           6969
+        ],
+        [
+          "2024",
+          7156
         ]
       ],
       "pointStart": 0,
@@ -119,10 +119,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          "2012",
-          0.843
-        ],
         [
           "2014",
           0.867
@@ -142,6 +138,10 @@
         [
           "2022",
           0.903
+        ],
+        [
+          "2024",
+          0.927
         ]
       ],
       "pointStart": 0,
@@ -316,7 +316,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
   },
   "exporting": {
     "filename": "6523"

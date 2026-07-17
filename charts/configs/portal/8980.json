@@ -1030,6 +1030,14 @@
         [
           "2026-04",
           4700
+        ],
+        [
+          "2026-05",
+          4691
+        ],
+        [
+          "2026-06",
+          4660
         ]
       ],
       "pointStart": 0,
@@ -2066,6 +2074,14 @@
         [
           "2026-04",
           900
+        ],
+        [
+          "2026-05",
+          937
+        ],
+        [
+          "2026-06",
+          925
         ]
       ],
       "pointStart": 0,
@@ -3105,6 +3121,14 @@
         [
           "2026-04",
           0.19149
+        ],
+        [
+          "2026-05",
+          0.19974
+        ],
+        [
+          "2026-06",
+          0.1985
         ]
       ],
       "pointStart": 0,
@@ -3273,7 +3297,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.5.2026"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.7.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
