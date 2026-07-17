@@ -965,7 +965,9 @@
       "fontWeight": "normal"
     },
     "itemMarginBottom": 5,
-    "itemDistance": 0
+    "itemDistance": 0,
+    "itemWidth": 200,
+    "width": 400
   },
   "credits": {
     "enabled": true,

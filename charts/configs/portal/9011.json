@@ -236,6 +236,7 @@
     "layout": "vertical",
     "align": "right",
     "verticalAlign": "middle",
+    "itemWidth": 200,
     "margin": 5,
     "itemMarginBottom": 20
   },

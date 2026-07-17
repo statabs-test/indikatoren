@@ -711,6 +711,7 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
+    "itemWidth": 75,
     "alignColumns": false,
     "itemDistance": 10,
     "labelFormatter": function () {

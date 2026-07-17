@@ -457,6 +457,8 @@
     "y": -75,
     "x": 30,
     "itemMarginBottom": 3,
+    "width": 350,
+    "itemWidth": 100,
     "labelFormatter": function () {
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name; //remove text before year on each item with odd index
         //return this.name.slice(-4); //return last 4 letters

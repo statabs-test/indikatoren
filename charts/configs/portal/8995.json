@@ -24488,7 +24488,7 @@
       }
     },
     "min": 1583107200000,
-    "max": 1783680887745,
+    "max": 1787299240408,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -24630,6 +24630,8 @@
     "x": -38,
     "y": -35,
     "alignColumns": true,
+    "width": 240,
+    "itemWidth": 110,
     "labelFormatter": function () {
                 return this.name
                     //.replace('65+ Jahre', '')

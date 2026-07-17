@@ -532,6 +532,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 155,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -344,7 +344,8 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemWidth": 100
   },
   "credits": {
     "enabled": true,

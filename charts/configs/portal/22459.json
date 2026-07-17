@@ -486,6 +486,7 @@
       "fontWeight": "normal"
     },
     "enabled": true,
+    "itemWidth": 500,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

@@ -598,7 +598,9 @@
             return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
-    "reversed": false
+    "reversed": false,
+    "itemWidth": 150,
+    "width": 450
   },
   "exporting": {
     "filename": "9680"

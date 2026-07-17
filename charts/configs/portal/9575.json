@@ -1199,6 +1199,8 @@
     "align": "left",
     "padding": 0,
     "itemDistance": 0,
+    "width": 500,
+    "itemWidth": 210,
     "itemMarginBottom": 0
   },
   "navigation": {

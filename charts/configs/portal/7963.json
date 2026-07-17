@@ -460,7 +460,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "itemWidth": 250
   },
   "exporting": {
     "filename": "7963"

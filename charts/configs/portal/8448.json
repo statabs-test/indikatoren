@@ -1148,6 +1148,7 @@
       "fontWeight": "normal"
     },
     "x": 50,
+    "itemWidth": 1000,
     "itemMarginBottom": 5
   },
   "credits": {

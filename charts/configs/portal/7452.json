@@ -287,6 +287,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 130,
     "labelFormatter": function () {
       return this.name.replace("Programmierungstätigkeiten", "Programmierungs-<br/>tätigkeiten");
     }

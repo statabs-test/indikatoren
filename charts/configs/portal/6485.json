@@ -359,6 +359,7 @@
       "fontWeight": "normal"
     },
     "itemDistance": 5,
+    "itemWidth": 130,
     "itemMarginBottom": 5
   },
   "credits": {

@@ -490,7 +490,9 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "x": -25
+    "x": -25,
+    "itemWidth": 142,
+    "width": 300
   },
   "exporting": {
     "filename": "4716"

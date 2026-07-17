@@ -805,7 +805,8 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemWidth": 170
   },
   "credits": {
     "enabled": true,

@@ -639,6 +639,8 @@
     },
     "enabled": true,
     "itemDistance": 0,
+    "width": 500,
+    "itemWidth": 230,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

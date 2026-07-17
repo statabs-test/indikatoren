@@ -700,7 +700,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "itemWidth": 150
   },
   "exporting": {
     "filename": "9172"

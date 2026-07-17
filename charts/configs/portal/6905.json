@@ -537,6 +537,7 @@
       "textOverflow": "nowrap",
       "whiteSpace": "nowrap"
     },
+    "itemWidth": 140,
     "itemMarginBottom": 5
   },
   "credits": {

@@ -773,7 +773,9 @@
       "fontWeight": "normal"
     },
     "padding": 0,
-    "itemDistance": 2
+    "itemDistance": 2,
+    "width": 485,
+    "itemWidth": 220
   },
   "credits": {
     "enabled": true,

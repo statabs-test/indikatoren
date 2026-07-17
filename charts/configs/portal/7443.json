@@ -630,6 +630,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 135,
     "labelFormatter": function () {
         return this.name.replace("Sonstiger", "Sonst.")
         .replace("verschiedener", "versch.");

@@ -483,6 +483,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 135,
     "labelFormatter": function() {
            return this.name.replace("Nahverkehr (ohne Taxis)", "Nahverkehr <br/>(ohne Taxis)");
           }

@@ -1944,6 +1944,7 @@
     "verticalAlign": "top",
     "align": "left",
     "itemMarginBottom": 2,
+    "itemWidth": 200,
     "y": -10,
     "margin": 3,
     "labelFormatter": function () {

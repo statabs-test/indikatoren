@@ -671,6 +671,7 @@
       "fontWeight": "normal"
     },
     "symbolWidth": 30,
+    "itemWidth": 210,
     "itemMarginBottom": 5
   },
   "credits": {

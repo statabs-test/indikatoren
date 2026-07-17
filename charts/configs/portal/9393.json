@@ -247,6 +247,8 @@
     "align": "right",
     "y": -40,
     "x": -55,
+    "width": 250,
+    "itemWidth": 100,
     "itemMarginBottom": 5,
     "labelFormatter": function () {
         //remove text after " ("

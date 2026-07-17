@@ -322,6 +322,7 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
+    "itemWidth": 150,
     "alignColumns": false,
     "itemDistance": 10
   },

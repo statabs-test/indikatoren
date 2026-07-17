@@ -880,6 +880,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 100,
     "labelFormatter": function(){
       //only return last word
       return this.name.split(" ").slice(-1);

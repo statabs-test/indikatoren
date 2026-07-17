@@ -369,6 +369,7 @@
     "useHTML": true,
     "y": -55,
     "x": -25,
+    "width": 260,
     "itemMarginBottom": 2,
     "labelFormatter": function () {
    

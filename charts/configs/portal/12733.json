@@ -255,6 +255,7 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
+    "itemWidth": 200,
     "alignColumns": false,
     "itemDistance": 10
   },

@@ -526,6 +526,8 @@
       "whiteSpace": "nowrap"
     },
     "itemMarginBottom": 5,
+    "itemWidth": 160,
+    "width": 450,
     "labelFormatter": function () {
         /*return this.name.replace('Friedmattviertel', 'Friedmatt').split("Wohnviertel ").slice(-1).toString();*/
         return this.name.split("Bezirk ").slice(-1).toString();

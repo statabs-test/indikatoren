@@ -325,6 +325,8 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
+    "width": 430,
+    "itemWidth": 215,
     "itemMarginBottom": 5,
     "labelFormatter": function (){
       return this.name

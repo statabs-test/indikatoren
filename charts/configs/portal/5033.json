@@ -483,6 +483,8 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
+    "itemWidth": 200,
+    "width": 420,
     "enabled": true
   },
   "exporting": {

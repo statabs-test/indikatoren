@@ -2171,6 +2171,7 @@
       "fontWeight": "normal"
     },
     "enabled": true,
+    "itemWidth": 180,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

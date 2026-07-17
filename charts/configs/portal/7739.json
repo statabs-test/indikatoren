@@ -1143,6 +1143,7 @@
     "layout": "horizontal",
     "align": "left",
     "verticalAlign": "top",
+    "itemWidth": 150,
     "itemMarginBottom": 5
   },
   "navigation": {

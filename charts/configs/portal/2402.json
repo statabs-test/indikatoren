@@ -604,6 +604,7 @@
     "x": -1,
     "enabled": true,
     "layout": "horizontal",
+    "itemWidth": 1000,
     "verticalAlign": "top",
     "align": "left"
   },

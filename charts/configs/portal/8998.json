@@ -2775,6 +2775,7 @@
     },
     "useHTML": true,
     "alignColumns": false,
+    "itemWidth": 160,
     "labelFormatter": function () {
                 return this.name.replace('NOx', 'NO<sub>x</sub>');
              }

@@ -330,6 +330,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 180,
     "itemMarginBottom": 5
   },
   "navigation": {

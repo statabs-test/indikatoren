@@ -697,7 +697,9 @@
       "fontWeight": "normal",
       "textOverflow": "none",
       "whiteSpace": "nowrap"
-    }
+    },
+    "itemWidth": 280,
+    "width": 600
   },
   "credits": {
     "enabled": true,

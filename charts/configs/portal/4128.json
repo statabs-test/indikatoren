@@ -582,6 +582,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "width": 500,
     "itemDistance": 10
   },
   "credits": {

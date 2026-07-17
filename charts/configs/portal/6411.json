@@ -245,6 +245,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 115,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

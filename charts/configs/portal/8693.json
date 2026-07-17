@@ -532,6 +532,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 133,
     "labelFormatter": function () {
         return this.name.replace("Postdienste von Universaldienstleistungsanbietern", "Postdienste von Universal-<br/>dienstleistungsanbietern");
       }

@@ -3145,6 +3145,7 @@
       "whiteSpace": "nowrap"
     },
     "alignColumns": false,
+    "itemWidth": 160,
     "labelFormatter": function () {
                 return this.name.replace('Windgeschwindigkeit', 'Windgeschw.');
             }

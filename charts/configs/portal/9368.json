@@ -561,6 +561,7 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
+    "width": 130,
     "itemMarginBottom": 5,
     "labelFormatter": function () {
         return this.name.replace("Unterhaltungseinrichtungen", "Unterhaltungs-einrichtungen")

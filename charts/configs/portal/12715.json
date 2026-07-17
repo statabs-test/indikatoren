@@ -715,7 +715,9 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemWidth": 100,
+    "width": 220
   },
   "credits": {
     "enabled": true,

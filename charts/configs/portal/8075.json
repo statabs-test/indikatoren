@@ -372,6 +372,7 @@
     "y": -55,
     "x": -17,
     "itemMarginBottom": 2,
+    "width": 260,
     "labelFormatter": function () {
         return this.name.replace("Bezüger ", "") 
         .replace("Sozialhilfequote ", "");

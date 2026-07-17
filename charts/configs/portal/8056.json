@@ -490,6 +490,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    "itemWidth": 205,
     "itemDistance": 4,
     "align": "left",
     "labelFormatter": function () {

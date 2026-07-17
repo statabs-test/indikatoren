@@ -509,6 +509,8 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
+    "itemWidth": 167,
+    "width": 600,
     "itemMarginBottom": 5
   },
   "credits": {

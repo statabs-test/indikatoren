@@ -3210,6 +3210,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 100,
     "itemMarginBottom": 5
   },
   "navigation": {

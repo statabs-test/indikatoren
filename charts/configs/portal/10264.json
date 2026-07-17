@@ -291,7 +291,8 @@
     "symbolRadius": 0,
     "labelFormatter": function () {
         return this.name.replace("/", " /<br/>");
-      }
+      },
+    "itemWidth": 200
   },
   "exporting": {
     "filename": "10264"

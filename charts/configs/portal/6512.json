@@ -644,7 +644,9 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true
+    "enabled": true,
+    "itemWidth": 140,
+    "width": 280
   },
   "exporting": {
     "filename": "6512"

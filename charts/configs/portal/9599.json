@@ -218,7 +218,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemWidth": 200
   },
   "navigation": {
     "menuItemStyle": {

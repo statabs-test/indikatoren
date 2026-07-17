@@ -250,7 +250,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 300
   },
   "navigation": {
     "menuItemStyle": {

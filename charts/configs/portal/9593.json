@@ -613,6 +613,8 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 210,
+    "width": 450,
     "itemDistance": 0
   },
   "navigation": {

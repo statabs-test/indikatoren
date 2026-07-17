@@ -189,7 +189,9 @@
     "verticalAlign": "top",
     "align": "left",
     "reversed": false,
+    "width": 500,
     "padding": 0,
+    "itemWidth": 230,
     "itemDistance": 2,
     "itemMarginBottom": 5
   },

@@ -264,6 +264,7 @@
       "textOverflow": "none",
       "whiteSpace": "nowrap"
     },
+    "itemWidth": 75,
     "itemDistance": 10,
     "style": {
       "fontSize": "12px"

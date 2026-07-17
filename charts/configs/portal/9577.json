@@ -868,6 +868,7 @@
       "whiteSpace": "nowrap"
     },
     "x": 20,
+    "itemWidth": 210,
     "title": {
       "text": " ",
       "style": {

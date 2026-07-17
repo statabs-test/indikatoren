@@ -359,6 +359,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 140,
     "itemMarginBottom": 5
   },
   "navigation": {

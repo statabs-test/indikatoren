@@ -368,6 +368,7 @@
       "fontWeight": "normal"
     },
     "margin": 20,
+    "itemWidth": 180,
     "itemMarginBottom": 5
   },
   "credits": {

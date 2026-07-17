@@ -904,6 +904,8 @@
     "itemMarginBottom": 4,
     "x": 110,
     "y": -120,
+    "itemWidth": 80,
+    "width": 200,
     "labelFormatter": function () {
         return this.name.split(" ").slice(0, 1).toString();  //holt z.B. 'Freiraumfäche' aus 'Freiraumfäche Friedmatt'
       },

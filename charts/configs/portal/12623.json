@@ -1379,7 +1379,9 @@
     "itemMarginBottom": 5,
     "x": 130,
     "y": -100,
+    "itemWidth": 115,
     "itemDistance": 3,
+    "width": 400,
     "title": {
       "text": "-\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E-",
       "style": {

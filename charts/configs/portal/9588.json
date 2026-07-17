@@ -633,6 +633,8 @@
     "align": "left",
     "padding": 0,
     "itemDistance": 2,
+    "width": 500,
+    "itemWidth": 235,
     "reversed": true
   },
   "navigation": {

@@ -891,6 +891,7 @@
     },
     "itemMarginBottom": 3,
     "x": 50,
+    "itemWidth": 180,
     "title": {
       "text": "\u003Cbr\u003E",
       "style": {

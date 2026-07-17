@@ -1153,6 +1153,7 @@
       "fontWeight": "normal"
     },
     "enabled": true,
+    "itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
