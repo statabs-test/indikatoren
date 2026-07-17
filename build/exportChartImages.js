@@ -62,7 +62,11 @@ async function go() {
     pool: {
       minWorkers: 1,
       maxWorkers: 1,
-      workLimit: 10,
+      // Force a fresh page per export. Chart instances/containers from a render are
+      // never destroyed, so a shared page accumulates them across exports; past a
+      // few dozen this causes runaway/duplicated SVG output or hangs for whichever
+      // chart happens to hit the threshold next (reproduced with charts 9022/9023).
+      workLimit: 1,
     },
     logging: { level: 0 },
     customLogic: {
@@ -204,6 +208,17 @@ async function createSvgImages(chartDetails) {
           allowCodeExecution: true,
           customCode: `
           (function () {
+              // The export pool reuses the same browser page/Highcharts instance across
+              // multiple chart exports (see pool.workLimit below). Everything in this block
+              // patches the Highcharts module globally (addEvent/wrap on shared prototypes,
+              // seriesType registration) rather than per chart instance, so re-running it on
+              // every export accumulates duplicate handlers/wraps on that shared instance.
+              // After ~20-30 exports in the same worker this causes runaway rendering
+              // (multi-MB SVGs) or hangs for whichever chart happens to trigger it next.
+              // Guard so it only runs once per page lifetime.
+              if (Highcharts.__portalExportPatched) return;
+              Highcharts.__portalExportPatched = true;
+
               // HC12 Compatibility: series.yData wurde durch series.getColumn('y') ersetzt
               if (Highcharts.Series && !Object.getOwnPropertyDescriptor(Highcharts.Series.prototype, 'yData')) {
                   Object.defineProperty(Highcharts.Series.prototype, 'yData', {
