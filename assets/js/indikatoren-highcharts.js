@@ -57,7 +57,7 @@ Highcharts.wrap(
         userOptions.subtitle.text &&
         !userOptions.subtitle.text.includes("class=")
       ) {
-        userOptions.subtitle.text = `<p class="text-sm text-gray-500">${userOptions.subtitle.text}</p>`;
+        userOptions.subtitle.text = `<p class="text-sm text-black">${userOptions.subtitle.text}</p>`;
       }
     }
 
