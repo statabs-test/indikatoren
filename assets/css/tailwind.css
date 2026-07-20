@@ -2642,6 +2642,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   height: 100%;
 }
 
+.h-40 {
+  height: 40px;
+}
+
 .max-h-\[90vh\] {
   max-height: 90vh;
 }
@@ -2652,6 +2656,10 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 
 .min-h-\[428px\] {
   min-height: 428px;
+}
+
+.min-h-40 {
+  min-height: 40px;
 }
 
 .w-1\/2 {
@@ -2702,8 +2710,28 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 110px;
 }
 
+.w-2\/12 {
+  width: 16.666667%;
+}
+
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-4\/12 {
+  width: 33.333333%;
+}
+
+.w-1\/12 {
+  width: 8.333333%;
+}
+
 .min-w-\[200px\] {
   min-width: 200px;
+}
+
+.min-w-0 {
+  min-width: 0px;
 }
 
 .max-w-\[2560px\] {
@@ -2803,8 +2831,18 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   overflow-y: auto;
 }
 
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.break-words {
+  overflow-wrap: break-word;
 }
 
 .rounded-\[30px\] {
@@ -2870,6 +2908,11 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
 .px-15 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pb-10 {
@@ -3097,6 +3140,11 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #9156B4;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
 }
 
 .focus\:outline-none:focus {

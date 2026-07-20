@@ -342,18 +342,15 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
   //only now display page
   $("body").show();
 
-  // Sync toggle button label to restored state
-  $("#portal-view-toggle")
-    .find("div")
-    .text(portalListView ? "Kachelansicht" : "Listenansicht");
+  // Sync toggle options to restored state
+  updateViewToggleActiveState();
 
-  $("#portal-view-toggle").on("click", function () {
-    portalListView = !portalListView;
-    localStorage.setItem("portal_listView", portalListView);
-
-    $(this)
-      .find("div")
-      .text(portalListView ? "Kachelansicht" : "Listenansicht");
+  $("#portal-view-toggle [data-view-mode]").on("click", function () {
+    var mode = $(this).data("view-mode");
+    if (mode === portalViewMode) return;
+    portalViewMode = mode;
+    localStorage.setItem("portal_listView", portalViewMode);
+    updateViewToggleActiveState();
 
     // FilterJS zwingt ein Re-Render
     window.FJS.filter();
@@ -873,24 +870,44 @@ function getIndexByFid(fid) {
   }
 }
 
-var portalListView = (function () {
+// Portal view mode: "grid" (Kacheln), "list" (Liste) or "table" (Tabelle) - freely switchable
+// Migrates the old boolean value ("true"/"false") stored under the same key.
+var portalViewMode = (function () {
   var stored = localStorage.getItem("portal_listView");
-  return stored === null ? false : stored === "true";
+  if (stored === "grid" || stored === "list" || stored === "table") {
+    return stored;
+  }
+  return stored === "true" ? "list" : "grid";
 })();
 
+// Hide the currently active view option entirely; only the other, switchable views are shown
+function updateViewToggleActiveState() {
+  $("#portal-view-toggle [data-view-mode]").each(function () {
+    var isActive = $(this).data("view-mode") === portalViewMode;
+    $(this).toggleClass("hidden", isActive);
+  });
+}
+
 function getCardTemplateId() {
+  if (portalViewMode === "table") {
+    return "#indikator-template-table-portal";
+  }
   if (isIndikatorensetView(view)) {
-    return portalListView
+    return portalViewMode === "list"
       ? "#indikator-template-list-portal"
       : "#indikator-template-carousel-indikatorenset";
   }
-  return portalListView
+  return portalViewMode === "list"
     ? "#indikator-template-list-portal"
     : "#indikator-template-carousel-portal";
 }
 
 function renderCardsSlice(result) {
   var templateId = getCardTemplateId();
+  $("#table-view-header").toggleClass(
+    "hidden",
+    templateId !== "#indikator-template-table-portal",
+  );
   var html = $(templateId).html();
   if (typeof html !== "string" || html.trim() === "") {
     console.error("[Grid] Template fehlt/leer:", templateId);
