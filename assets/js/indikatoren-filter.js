@@ -233,8 +233,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
     if (!sortOptions) {
       sortOptions = { orderKey: "asc" };
     }
-    // Hide portal-only controls
-    $("#portal-view-toggle").hide();
+    // Hide portal-only controls (list/tile toggle stays visible in Indikatorenset view)
     $("#portal-reset-button").hide();
     $("#result-count").hide();
     prepareIndikatorensetView(indikatorenset, maxStufe);
@@ -881,7 +880,9 @@ var portalListView = (function () {
 
 function getCardTemplateId() {
   if (isIndikatorensetView(view)) {
-    return "#indikator-template-carousel-indikatorenset";
+    return portalListView
+      ? "#indikator-template-list-portal"
+      : "#indikator-template-carousel-indikatorenset";
   }
   return portalListView
     ? "#indikator-template-list-portal"
