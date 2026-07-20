@@ -676,7 +676,7 @@ function renderLinksHTML(
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        "<div class='flex'><div class='font-bold text-sm w-[130px] shrink-0'>Indikatorenset:</div><div class='ml-2'><a class='' href='http://www.statistik.bs.ch/indikatorenset/" +
+        "<div class='flex'><div class='text-sm w-[110px] shrink-0'>Indikatorenset:</div><div class='ml-2'><a class='' href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
         kennzahlenset.replace("-", " ") +
@@ -704,7 +704,7 @@ function renderLinksHTML(
     }
     if (displayExternalLinks) {
       returnText +=
-        "<div class='flex'><div class='font-bold w-[130px] shrink-0'>Weitere Links:</div><div class='ml-2 flex flex-col'>";
+        "<div class='flex'><div class='w-[110px] shrink-0'>Weitere Links:</div><div class='ml-2 flex flex-col'>";
       externalLinks.forEach(function (v, i, arr) {
         // Add class to <a> tag if it exists
         const updatedLink = v.replace(

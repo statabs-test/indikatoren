@@ -2503,10 +2503,6 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   margin-left: 2px;
 }
 
-.ml-20 {
-  margin-left: 20px;
-}
-
 .ml-\[0\.3em\] {
   margin-left: 0.3em;
 }
@@ -2694,6 +2690,14 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   width: 100%;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[110px\] {
+  width: 110px;
+}
+
 .min-w-\[200px\] {
   min-width: 200px;
 }
@@ -2766,16 +2770,12 @@ a:active svg[data-symbol="arrow-south"], button:active svg[data-symbol="arrow-so
   gap: 10px;
 }
 
-.gap-2 {
-  gap: 2px;
+.gap-20 {
+  gap: 20px;
 }
 
 .gap-5 {
   gap: 5px;
-}
-
-.gap-20 {
-  gap: 20px;
 }
 
 .gap-x-20 {
