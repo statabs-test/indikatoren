@@ -7456,6 +7456,10 @@
       });
     },
       "render": function () {
+      var originalRender =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.renderBase
+          : null;
       if (originalRender) originalRender.call(this);
       var chart = this;
       var items = Array.from(

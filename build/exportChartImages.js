@@ -126,10 +126,20 @@ function createPathArray(chartId, view) {
       // Disable useHTML in legend so text renders as SVG elements (not foreignObject) in export
       if (config.legend) config.legend.useHTML = false;
 
-      // Legende und pieLegend bei map-Charts in Vorschaubildern ausblenden
+      // Legende, Zoom-Buttons und Massstab bei map-Charts in Vorschaubildern ausblenden
       if (config.chart && config.chart.type === 'map') {
         if (!config.legend) config.legend = {};
         config.legend.enabled = false;
+
+        if (!config.mapNavigation) config.mapNavigation = {};
+        config.mapNavigation.enabled = false;
+        config.mapNavigation.enableButtons = false;
+
+        if (Array.isArray(config.series)) {
+          config.series = config.series.filter(function (s) {
+            return !s || s.name !== 'Massstab';
+          });
+        }
       }
 
       // mappie is registered in customCode before chart creation.

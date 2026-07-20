@@ -98,13 +98,17 @@ ul.pagination {
 
 .caption > h5 {
   font-weight: bold;
-  color: #336666;
+  color: #1e4557;
   cursor: pointer;
   margin-top: 4px;
   margin-bottom: 2px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.caption > h5:hover {
+  color: #079bca;
 }
 
 /* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know */
