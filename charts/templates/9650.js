@@ -31,14 +31,14 @@
     verticalAlign: "top",
     align: "left",
     alignColumns: false,
-    //itemWidth: 95,
+    //itemWidth: 20,
     itemStyle: {
       fontWeight: "normal",
       textOverflow: "none",
       whiteSpace: "nowrap"
     },
     width: 320,
-    itemWidth: 106
+    itemWidth: 85
   },
   series: [
     {
@@ -46,9 +46,6 @@
     },
     {
       color: "#DC440E",
-    },
-    {
-      color:  "#B00000",
     },
 	  {
       color:  "#B375AB",  
