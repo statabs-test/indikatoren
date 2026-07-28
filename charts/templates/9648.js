@@ -6,7 +6,7 @@
     plotOptions: {
       series: {
         borderWidth: 0,
-        pointWidth: 30,
+        pointWidth: 25,
         dataLabels: {
           style: {
             fontSize: "10px"

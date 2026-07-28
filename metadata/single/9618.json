@@ -1,4 +1,4 @@
-{
+﻿{
     "id": 9618,
     "template": "template001",
     "data-id": 9618,
@@ -10,7 +10,7 @@
     ],
     "title": "Fernwärmeverbrauch nach Produktionsart",
     "subtitle": "in GWh, Basel-Stadt",
-    "lesehilfe": "Für die Fernwärmeproduktion wurde 2024 Bruttoenergie von 1 501 GWh verwendet (2010: 1 412 GWh). 51,5% davon wurden durch Abfallverbrennung, 31,8% durch den Einsatz von Erdgas und 13,3% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (1,8%), Umweltwärme (0,9%) sowie Elektrizität (0,3%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,8% auf 33,6% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 37,2% aus.",
+    "lesehilfe": "Für die Fernwärmeproduktion wurde 2024 Bruttoenergie von 1 506 GWh verwendet (2010: 1 412 GWh). 51,3% davon wurden durch Abfallverbrennung, 23,8% durch den Einsatz von Erdgas und 13,2% mit Holz gewonnen. Weitere Energieträger, die zum Einsatz kamen, sind Heizöl (1,8%), Umweltwärme (1,2%) sowie Biogas (8,1%) und Elektrizität (0,2%). Seit 2010 nahm der Anteil von Erdgas und Heizöl an der Fernwärmeproduktion von 44,8% auf 25,6% ab. Am gesamten Bruttoenergieverbrauch machen die für die Fernwärmeerzeugung verwendeten Energieträger 37,2% aus.",
     "erlaeuterungen": "Verbrauch basierend auf dem Fernwärmenetz der IWB sowie weiterer Wärmeverbünde und Wärmekraftkoppelungsanlagen im Kanton. Mitberücksichtigt sind weiter die Geothermie Riehen sowie genutzte Abwärme, welche in das Fernwärmenetz eingespeist wird. Darüber hinaus bezieht Basel-Stadt über den Wärmeverbund St. Jakob Wärme vom Kanton Basel-Landschaft und gibt umgekehrt Wärme im Gebiet Dreispitz und Bruderholz an Basel-Landschaft sowie in Riehen an Deutschland ab.",
     "quellenangabe": [
         "Statistisches Amt Basel-Stadt, Energiestatistik"

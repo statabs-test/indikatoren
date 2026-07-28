@@ -58,9 +58,13 @@
       {
         color: "#B00000",
         type: "column"
-      },
+      }, 
       {
         color: "#B375AB",
+        type: "column"
+      },
+      {
+        color: "#A8C3CA",
         type: "column"
       },
       {

@@ -1,4 +1,4 @@
-{
+﻿{
     "id": 9614,
     "template": "template001",
     "data-id": 9614,
@@ -12,7 +12,7 @@
     ],
     "title": "Bruttoenergieverbrauch erneuerbare Energieträger",
     "subtitle": "in GWh, Basel-Stadt",
-    "lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2024 von 741 GWh auf 1 090 GWh zugenommen, was einem Plus von 49% entspricht. Eine starke Zunahme ist beim Holz mit 88% zu verzeichnen. Dies ist auf die Inbetriebnahme des zweiten Holzheizkraftwerks zurückzuführen. Starke Zunahmen sind auch bei der Photovoltaik (+1 379%), der Umweltwärme (+231%) und der thermischen Solarenergie (+100%) zu beobachten, die 2024 zusammen einen Anteil von 10% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
+    "lesehilfe": "Der Verbrauch der im Kanton Basel-Stadt erzeugten erneuerbaren Energie hat zwischen 2010 und 2024 von 741 GWh auf 1 216 GWh zugenommen, was einem Plus von 64% entspricht. Starke Zunahmen sind bei der Photovoltaik (+1 391%), der Umweltwärme (+259%) und der thermischen Solarenergie (+100%) zu beobachten, die 2024 zusammen einen Anteil von 10% an den erneuerbaren Energien ausmachen. Die Produktion von Wasserkraft ist von witterungsbedingten Wasserpegelständen abhängig und schwankt daher.",
     "erlaeuterungen": "Dieser Indikator zeigt den Bruttoenergieverbrauch der erneuerbaren Energien, die im Kanton gewonnen wurden. Der Import von erneuerbaren Energien in den Kanton, insbesondere der ausserkantonale Bezug von Elektrizität, bleibt folglich unberücksichtigt.",
     "quellenangabe": [
         "Statistisches Amt Basel-Stadt, Energiestatistik"

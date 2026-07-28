@@ -2,6 +2,8 @@
     return {
   plotOptions: {
     series: {
+      borderWidth: 0,
+        pointWidth: 30,
       dataLabels: {
         style: {
           fontSize: "10px"

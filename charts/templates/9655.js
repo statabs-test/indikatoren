@@ -7,9 +7,10 @@
 plotOptions: {
       series: {
         "stacking": "normal",
-    pointPadding: 0,
-          borderWidth: 0,
-          pointWidth: 20, 
+        pointPadding: 0.05, // Minimal padding
+        groupPadding: 0.05, // Minimal group padding
+        borderWidth: 0,
+        pointWidth: 15 // Set a specific small width
 
       }/*,
        area: {

@@ -1,4 +1,4 @@
-{
+﻿{
     "id": 9000,
     "template": "template001",
     "data-id": 9000,
@@ -10,7 +10,7 @@
     ],
     "title": "Bruttoenergieverbrauch nach Energieträger",
     "subtitle": "in GWh, Basel-Stadt",
-    "lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um 30% zurück auf 4 031 GWh im Jahr 2024. Der Heizölverbrauch sank in diesem Zeitraum um 70% und der Erdgasverbrauch um 44%. Der ausserkantonale Bezug von Elektrizität (alles erneuerbare) ist um 48% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-25%). Seit 2010 ist der Bruttoverbrauch der im Kanton produzierten erneuerbaren Energien um 49% gestiegen.",
+    "lesehilfe": "Der Bruttoenergieverbrauch im Kanton Basel-Stadt ging von 5 762 GWh im Jahr 2010 um 30% zurück auf 4 055 GWh im Jahr 2024. Der Heizölverbrauch sank in diesem Zeitraum um 69% und der Erdgasverbrauch um 50%. Der ausserkantonale Bezug von Elektrizität (alles erneuerbare) ist um 46% zurückgegangen und somit stärker als der Gesamtkonsum der Elektrizität beim Endverbraucher (-15%). Seit 2010 ist der Bruttoverbrauch der im Kanton produzierten erneuerbaren Energien um 64% gestiegen.",
     "erlaeuterungen": "Der Bruttoenergieverbrauch zeigt die Energie in der Form, in welcher sie in den Kanton importiert (ohne Flugtreibstoffe) oder im Kanton aus natürlichen Quellen gewonnen wird. Die im Kanton gewonnenen Erneuerbaren (entsprechend ohne importierte Elektrizität) sind in einer Kategorie zusammengefasst und umfassen auch den erneuerbaren Teil des Abfalls (50% des Kehrichts und 100% des Klärschlamms). Der nicht erneuerbare Anteil des Abfalls (50% des Kehrichts, 100% des Industrie- und Sonderabfalls) ist separat aufgelistet. Der Treibstoffverbrauch für 2020 und 2022 wurde aufgrund des 2020 aktualisierten Gesamtverkehrsmodells Basel-Stadt berechnet. Der Rückgang ist insbesondere auf einen methodischen Bruch zurückzuführen, geringfügig auch auf einen leichten Rückgang der Fahrleistung und verbesserte Motorentechnik. COVID-19-bedingte Effekte sind in der Schätzung des Treibstoffverbrauchs nicht berücksichtigt.",
     "quellenangabe": [
         "Statistisches Amt Basel-Stadt, Energiestatistik"
