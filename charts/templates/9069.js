@@ -11,8 +11,8 @@ plotOptions: {
 
 yAxis: [
     {
-      max: 1500,
-      tickAmount: 4,
+      max: 1000,
+      tickAmount: 5,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       lineColor: '#B9CFD7', 
@@ -33,8 +33,8 @@ yAxis: [
     {
       opposite: true,
       min: 0,
-      max: 0.015,
-      tickAmount: 4,
+      max: 0.010,
+      tickAmount: 5,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       lineColor: '#B9CFD7', 
