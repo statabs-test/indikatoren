@@ -46,8 +46,9 @@
 					return this.point.name.replace("Zimmer", "Zi.<br>");
 
 				},
-				distance: 15,
+				distance: 25,
 				connectorWidth: 1,
+				connectorPadding: 0,
 				style: {
 					color: 'black',
 					textOutline: "0px black",
