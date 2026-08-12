@@ -4,8 +4,8 @@
   return {
     plotOptions: {
       pie: {
-        size: 180,
-        center: ["50%", "53%"]
+        size: 170,
+        center: ["50%", "50%"]
       }, 
       series: {
           allowPointSelect: false,
