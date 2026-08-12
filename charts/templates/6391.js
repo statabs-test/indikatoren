@@ -112,7 +112,7 @@
 								diameter: 5
 							},
 							{
-								name: ' 35 − 80',
+								name: ' 35 − 79',
 								from: 35,
 								to: 79.9999,
 								diameter: 10
