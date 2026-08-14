@@ -4,99 +4,9 @@
       "color": "#A8C3CA",
       "data": [
         [
-          "Sonst. wirtsch. DL",
-          2196
-        ],
-        [
-          "Schifffahrt, Luftfahrt",
-          1110
-        ],
-        [
           "Gastronomie",
-          1325
+          1032
         ],
-        [
-          "Architektur- und Ingenieurbüros",
-          569
-        ],
-        [
-          "Baunebengewerbe",
-          489
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          269
-        ],
-        [
-          "Chemie",
-          585
-        ],
-        [
-          "Öff. Verwaltung",
-          411
-        ],
-        [
-          "Lagerei",
-          461
-        ],
-        [
-          "Landverkehr",
-          613
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Sonst. wirtsch. DL",
-          2052
-        ],
-        [
-          "Schifffahrt, Luftfahrt",
-          1012
-        ],
-        [
-          "Gastronomie",
-          326
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          544
-        ],
-        [
-          "Baunebengewerbe",
-          499
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          457
-        ],
-        [
-          "Chemie",
-          509
-        ],
-        [
-          "Öff. Verwaltung",
-          493
-        ],
-        [
-          "Lagerei",
-          422
-        ],
-        [
-          "Landverkehr",
-          595
-        ]
-      ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "data": [
         [
           "Sonst. wirtsch. DL",
           2168
@@ -106,39 +16,132 @@
           1090
         ],
         [
-          "Gastronomie",
-          1032
-        ],
-        [
           "Architektur- und Ingenieurbüros",
           591
+        ],
+        [
+          "Pharmazeutische Industrie",
+          69
         ],
         [
           "Baunebengewerbe",
           536
         ],
         [
-          "Personalvermittlung, -überlassung",
-          516
-        ],
-        [
-          "Chemie",
-          497
-        ],
-        [
-          "Öff. Verwaltung",
-          454
-        ],
-        [
           "Lagerei",
           450
         ],
         [
-          "Landverkehr",
-          383
+          "Post-, Kurier-, Expressdienste",
+          57
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          516
+        ],
+        [
+          "Heime",
+          325
         ]
       ],
+      "pointStart": 0,
       "name": "2021",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Gastronomie",
+          1830
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2246
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1388
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          608
+        ],
+        [
+          "Pharmazeutische Industrie",
+          68
+        ],
+        [
+          "Baunebengewerbe",
+          528
+        ],
+        [
+          "Lagerei",
+          499
+        ],
+        [
+          "Post-, Kurier-, Expressdienste",
+          489
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          504
+        ],
+        [
+          "Heime",
+          385
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2022",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Gastronomie",
+          2219
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          2129
+        ],
+        [
+          "Schifffahrt, Luftfahrt",
+          1459
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          672
+        ],
+        [
+          "Pharmazeutische Industrie",
+          554
+        ],
+        [
+          "Baunebengewerbe",
+          525
+        ],
+        [
+          "Lagerei",
+          468
+        ],
+        [
+          "Post-, Kurier-, Expressdienste",
+          466
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          464
+        ],
+        [
+          "Heime",
+          438
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2023",
       "turboThreshold": 0
     }
   ],
@@ -169,32 +172,54 @@
   },
   "chart": {
     "type": "column",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "marginRight": 50,
     "marginLeft": 130,
@@ -271,41 +296,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

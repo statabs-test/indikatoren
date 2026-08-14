@@ -5,90 +5,19 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.286
+          0.253
         ],
         [
           "Chemie, Pharma",
-          0.341
+          0.33
         ],
         [
           "Baugewerbe",
-          0.219
+          0.203
         ],
         [
           "Handel, Reparatur",
-          0.178
-        ],
-        [
-          "Verkehr, Lagerei",
-          0.099
-        ],
-        [
-          "Gastgewerbe",
-          0.074
-        ],
-        [
-          "Information, Kommunikation",
-          0.263
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.078
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.282
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.334
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.22
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.096
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.044
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.106
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.089
-        ],
-        [
-          "Total",
-          0.18
-        ]
-      ],
-      "name": "2021",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73B97C",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.27
-        ],
-        [
-          "Chemie, Pharma",
-          0.338
-        ],
-        [
-          "Baugewerbe",
-          0.196
-        ],
-        [
-          "Handel, Reparatur",
-          0.17
+          0.164
         ],
         [
           "Verkehr, Lagerei",
@@ -96,98 +25,27 @@
         ],
         [
           "Gastgewerbe",
-          0.081
+          0.075
         ],
         [
           "Information, Kommunikation",
-          0.282
+          0.261
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0.061
+          0.057
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
-          0.31
+          0.314
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.355
+          0.392
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.227
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.1
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.039
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.108
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.108
-        ],
-        [
-          "Total",
-          0.183
-        ]
-      ],
-      "name": "2022",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.242
-        ],
-        [
-          "Chemie, Pharma",
-          0.316
-        ],
-        [
-          "Baugewerbe",
-          0.186
-        ],
-        [
-          "Handel, Reparatur",
-          0.16
-        ],
-        [
-          "Verkehr, Lagerei",
-          0.095
-        ],
-        [
-          "Gastgewerbe",
-          0.083
-        ],
-        [
-          "Information, Kommunikation",
-          0.292
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.052
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.316
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.367
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.205
+          0.18
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -195,22 +53,167 @@
         ],
         [
           "Erziehung, Unterricht",
-          0.038
+          0.039
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.109
+          0.106
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
+          0.104
+        ],
+        [
+          "Total",
+          0.177
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2023",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.249
+        ],
+        [
+          "Chemie, Pharma",
+          0.323
+        ],
+        [
+          "Baugewerbe",
+          0.186
+        ],
+        [
+          "Handel, Reparatur",
+          0.157
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.093
+        ],
+        [
+          "Gastgewerbe",
+          0.075
+        ],
+        [
+          "Information, Kommunikation",
+          0.279
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.047
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.328
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.415
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.202
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
           0.116
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.037
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.104
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.132
         ],
         [
           "Total",
           0.18
         ]
       ],
-      "name": "2023",
+      "pointStart": 0,
+      "name": "2024",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.247
+        ],
+        [
+          "Chemie, Pharma",
+          0.319
+        ],
+        [
+          "Baugewerbe",
+          0.188
+        ],
+        [
+          "Handel, Reparatur",
+          0.152
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.09
+        ],
+        [
+          "Gastgewerbe",
+          0.077
+        ],
+        [
+          "Information, Kommunikation",
+          0.306
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.045
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.352
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.431
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.199
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.123
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.037
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.107
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.135
+        ],
+        [
+          "Total",
+          0.184
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2025",
       "turboThreshold": 0
     }
   ],
@@ -238,7 +241,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 663,
     "spacing": [
       10,
@@ -246,29 +249,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "marginLeft": 200,
     "marginBottom": 70,
@@ -340,7 +365,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -357,7 +382,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "tooltip": {
     "pointFormatter": function(){

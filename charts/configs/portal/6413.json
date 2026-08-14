@@ -4,54 +4,6 @@
       "color": "#FABD24",
       "data": [
         [
-          "2004-01",
-          18
-        ],
-        [
-          "2004-02",
-          25
-        ],
-        [
-          "2004-03",
-          29
-        ],
-        [
-          "2004-04",
-          29
-        ],
-        [
-          "2004-05",
-          22
-        ],
-        [
-          "2004-06",
-          20
-        ],
-        [
-          "2004-07",
-          28
-        ],
-        [
-          "2004-08",
-          24
-        ],
-        [
-          "2004-09",
-          25
-        ],
-        [
-          "2004-10",
-          24
-        ],
-        [
-          "2004-11",
-          23
-        ],
-        [
-          "2004-12",
-          28
-        ],
-        [
           "2005-01",
           28
         ],
@@ -909,11 +861,11 @@
         ],
         [
           "2022-11",
-          53
+          52
         ],
         [
           "2022-12",
-          23
+          22
         ],
         [
           "2023-01",
@@ -925,7 +877,7 @@
         ],
         [
           "2023-03",
-          24
+          25
         ],
         [
           "2023-04",
@@ -949,7 +901,7 @@
         ],
         [
           "2023-09",
-          16
+          15
         ],
         [
           "2023-10",
@@ -961,63 +913,64 @@
         ],
         [
           "2023-12",
-          13
+          11
+        ],
+        [
+          "2024-01",
+          16
+        ],
+        [
+          "2024-02",
+          11
+        ],
+        [
+          "2024-03",
+          19
+        ],
+        [
+          "2024-04",
+          6
+        ],
+        [
+          "2024-05",
+          26
+        ],
+        [
+          "2024-06",
+          15
+        ],
+        [
+          "2024-07",
+          16
+        ],
+        [
+          "2024-08",
+          20
+        ],
+        [
+          "2024-09",
+          21
+        ],
+        [
+          "2024-10",
+          16
+        ],
+        [
+          "2024-11",
+          17
+        ],
+        [
+          "2024-12",
+          16
         ]
       ],
+      "pointStart": 0,
       "name": "Ausländische Frauen",
       "turboThreshold": 0
     },
     {
       "color": "#7F5F1A",
       "data": [
-        [
-          "2004-01",
-          27
-        ],
-        [
-          "2004-02",
-          30
-        ],
-        [
-          "2004-03",
-          28
-        ],
-        [
-          "2004-04",
-          40
-        ],
-        [
-          "2004-05",
-          41
-        ],
-        [
-          "2004-06",
-          31
-        ],
-        [
-          "2004-07",
-          27
-        ],
-        [
-          "2004-08",
-          37
-        ],
-        [
-          "2004-09",
-          36
-        ],
-        [
-          "2004-10",
-          32
-        ],
-        [
-          "2004-11",
-          29
-        ],
-        [
-          "2004-12",
-          40
-        ],
         [
           "2005-01",
           36
@@ -1780,7 +1733,7 @@
         ],
         [
           "2020-11",
-          35
+          34
         ],
         [
           "2020-12",
@@ -1828,7 +1781,7 @@
         ],
         [
           "2021-11",
-          33
+          32
         ],
         [
           "2021-12",
@@ -1872,7 +1825,7 @@
         ],
         [
           "2022-10",
-          29
+          28
         ],
         [
           "2022-11",
@@ -1880,11 +1833,11 @@
         ],
         [
           "2022-12",
-          44
+          43
         ],
         [
           "2023-01",
-          23
+          22
         ],
         [
           "2023-02",
@@ -1896,7 +1849,7 @@
         ],
         [
           "2023-04",
-          28
+          27
         ],
         [
           "2023-05",
@@ -1908,7 +1861,7 @@
         ],
         [
           "2023-07",
-          17
+          16
         ],
         [
           "2023-08",
@@ -1916,7 +1869,7 @@
         ],
         [
           "2023-09",
-          21
+          20
         ],
         [
           "2023-10",
@@ -1924,13 +1877,62 @@
         ],
         [
           "2023-11",
-          24
+          23
         ],
         [
           "2023-12",
           34
+        ],
+        [
+          "2024-01",
+          37
+        ],
+        [
+          "2024-02",
+          30
+        ],
+        [
+          "2024-03",
+          25
+        ],
+        [
+          "2024-04",
+          31
+        ],
+        [
+          "2024-05",
+          38
+        ],
+        [
+          "2024-06",
+          42
+        ],
+        [
+          "2024-07",
+          41
+        ],
+        [
+          "2024-08",
+          36
+        ],
+        [
+          "2024-09",
+          31
+        ],
+        [
+          "2024-10",
+          38
+        ],
+        [
+          "2024-11",
+          38
+        ],
+        [
+          "2024-12",
+          45
         ]
       ],
+      "pointStart": 0,
       "name": "Ausländische Männer",
       "turboThreshold": 0
     }
@@ -1960,32 +1962,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-6413"
   },
@@ -2063,41 +2087,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.10.2024"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

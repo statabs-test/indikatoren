@@ -1,0 +1,256 @@
+{
+  "series": [
+    {
+      "color": "#FFDA80 ",
+      "data": [
+        [
+          "1 Pers.",
+          65.1
+        ],
+        [
+          "2 Pers.",
+          null
+        ],
+        [
+          "3 Pers.",
+          null
+        ],
+        [
+          "4 Pers.",
+          null
+        ],
+        [
+          "5 u.m. Pers.",
+          null
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Einpersonenhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A0BEC8",
+      "data": [
+        [
+          "1 Pers.",
+          null
+        ],
+        [
+          "2 Pers.",
+          46.73
+        ],
+        [
+          "3 Pers.",
+          31.96
+        ],
+        [
+          "4 Pers.",
+          26.88
+        ],
+        [
+          "5 u.m. Pers.",
+          21.01
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Familienhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "1 Pers.",
+          null
+        ],
+        [
+          "2 Pers.",
+          39.26
+        ],
+        [
+          "3 Pers.",
+          27.88
+        ],
+        [
+          "4 Pers.",
+          25.53
+        ],
+        [
+          "5 u.m. Pers.",
+          23.9
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Nichtfamilienhaushalte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    }
+  },
+  "chart": {
+    "width": null,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "style": {
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 70,
+    "renderTo": "container-22460"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "useHTML": true,
+    "text": "Mittlere Wohnfläche pro Person"
+  },
+  "subtitle": {
+    "text": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2025",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 3,
+    "symbolPadding": 3,
+    "padding": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "22460"
+  }
+}

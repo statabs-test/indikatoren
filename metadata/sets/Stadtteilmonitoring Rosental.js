@@ -2,13 +2,13 @@ var indikatorensetData = [
 	{
 		"template": "spider001",
 		"data-id": 7664,
-		"chart-id": 7664,
+		"chart-id": 6754,
 		"filter": "",
 		"parentId": "6754",
 		"children": [],
 		"title": "Rosental - Quartierradar",
 		"subtitle": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Anteil Ausländer dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit der Erlenmatt-Siedlung über relativ viele Neubauten. Die Steuererträge sind vergleichsweise gering.",
+		"lesehilfe": "Im Wohnviertel Rosental sind die Einwohner am wenigsten sesshaft. Der Altersquotient ist der tiefste im ganzen Kanton, der Ausländeranteil dagegen der höchste. Das Wohnviertel weist einen niedrigen Anteil Einfamilienhäuser auf und verfügt mit dem Erlenmatt-Quartier über vergleichsweise viele Neubauten. Die Erträge aus der Vermögenssteuer sind gering.",
 		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren. <a href =\" https://statistik.bs.ch/files/berichte-analysen/Methodik-Quartierradar.pdf \" target = '_blank'>Zur Definition der einzelnen Indikatoren </a>",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -33,7 +33,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-12-06T10:58:48",
+		"aktualisierungsdatum": "2025-11-03T03:25:58",
 		"id": 7664
 	},
 	{
@@ -1572,45 +1572,43 @@ var indikatorensetData = [
 		"id": 7705
 	},
 	{
+		"template": "line001",
+		"data-id": 7706,
+		"chart-id": 7706,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7944
+		],
 		"title": "Personenwagen pro Haushalt, Motorisierungsgrad",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.11.1.07706",
-		"kuerzelKunde": "7.08",
-		"description": "Personenwagen pro Haushalt, Motorisierungsgrad",
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "2024 waren im Bezirk Messe im Schnitt 0,39 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 193,3 privaten Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1000 Einwohner (Motorisierungsgrad). Räumliche Zuordnung der Personenwagen anhand der Wohnadresse des Fahrzeughalters oder anhand der im Fahrzeugausweis eingetragenen Angabe zum Fahrzeugstandort, falls abweichend von der Halteradresse. Zur Berechnung wird jeweils der Stand Ende September der Personenwagen, Haushalte und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Strassen (ASTRA)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-01-10T16:07:20.2020",
+		"description": "Personenwagen pro Haushalt, Motorisierungsgrad",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.07706",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "7.08",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 waren im Bezirk Erlenmatt im Schnitt 0,48 Personenwagen pro Haushalt registriert, der Motorisierungsgrad lag bei 223,2 privaten Personenwagen pro 1 000 Einwohnern.",
-		"erlaeuterungen": "Anzahl der auf Privatpersonen zugelassenen Personenwagen geteilt durch die Anzahl Haushalte sowie pro 1 000 Einwohner (Motorisierungsgrad). Zur Berechnung wird jeweils der Jahresendbestand der Personenwagen und Einwohner (exkl. Personen an administrativen Meldeadressen) verwendet. Die höheren Werte im Bezirk Erlenmatt für das Jahr 2014 sind auf methodische Unterschiede in der Erfassung von neu- und umgemeldeten Fahrzeugen und Einwohner um den Jahreswechsel zurückzuführen.",
-		"template": "line001",
+		"orderKey": "07_00_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"7944"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7706,
-		"chart-id": 7706,
-		"filter": "",
+		"aktualisierungsdatum": "2025-12-22T03:22:27",
 		"id": 7706
 	},
 	{

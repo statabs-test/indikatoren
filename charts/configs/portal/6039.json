@@ -7,7 +7,7 @@
       "data": [
         [
           "Alle",
-          36.44
+          35.75
         ],
         [
           " ",
@@ -15,11 +15,11 @@
         ],
         [
           "Männl.",
-          29.67
+          29.09
         ],
         [
           "Weibl.",
-          43.38
+          41.86
         ],
         [
           "  ",
@@ -27,11 +27,11 @@
         ],
         [
           "Deutsch",
-          44.08
+          42.76
         ],
         [
           "Fremdsp.",
-          26.79
+          27.68
         ],
         [
           "   ",
@@ -39,13 +39,14 @@
         ],
         [
           "Schweiz",
-          40
+          39.53
         ],
         [
           "Ausland",
-          30.09
+          30.11
         ]
       ],
+      "pointStart": 0,
       "name": "Gymnasium",
       "turboThreshold": 0
     },
@@ -56,7 +57,7 @@
       "data": [
         [
           "Alle",
-          12.3
+          11.51
         ],
         [
           " ",
@@ -64,11 +65,11 @@
         ],
         [
           "Männl.",
-          9.97
+          8.24
         ],
         [
           "Weibl.",
-          14.68
+          14.5
         ],
         [
           "  ",
@@ -76,11 +77,11 @@
         ],
         [
           "Deutsch",
-          12.18
+          11.26
         ],
         [
           "Fremdsp.",
-          12.45
+          11.79
         ],
         [
           "   ",
@@ -92,9 +93,10 @@
         ],
         [
           "Ausland",
-          11.71
+          9.83
         ]
       ],
+      "pointStart": 0,
       "name": "FMS",
       "turboThreshold": 0
     },
@@ -105,7 +107,7 @@
       "data": [
         [
           "Alle",
-          19.09
+          19.82
         ],
         [
           " ",
@@ -113,11 +115,11 @@
         ],
         [
           "Männl.",
-          20.33
+          22.52
         ],
         [
           "Weibl.",
-          17.82
+          17.33
         ],
         [
           "  ",
@@ -125,11 +127,11 @@
         ],
         [
           "Deutsch",
-          14.15
+          12.53
         ],
         [
           "Fremdsp.",
-          25.33
+          28.21
         ],
         [
           "   ",
@@ -137,13 +139,14 @@
         ],
         [
           "Schweiz",
-          14.34
+          14.58
         ],
         [
           "Ausland",
-          27.57
+          27.65
         ]
       ],
+      "pointStart": 0,
       "name": "Brückenangebote\u002F12. Schuljahr",
       "turboThreshold": 0
     },
@@ -154,7 +157,7 @@
       "data": [
         [
           "Alle",
-          24.01
+          23.63
         ],
         [
           " ",
@@ -162,11 +165,11 @@
         ],
         [
           "Männl.",
-          30.95
+          28.83
         ],
         [
           "Weibl.",
-          16.91
+          18.87
         ],
         [
           "  ",
@@ -174,11 +177,11 @@
         ],
         [
           "Deutsch",
-          23.09
+          26.78
         ],
         [
           "Fremdsp.",
-          25.18
+          20
         ],
         [
           "   ",
@@ -186,13 +189,14 @@
         ],
         [
           "Schweiz",
-          24.95
+          26.69
         ],
         [
           "Ausland",
-          22.34
+          19.05
         ]
       ],
+      "pointStart": 0,
       "name": "Berufliche Grundbildung",
       "turboThreshold": 0
     },
@@ -203,7 +207,7 @@
       "data": [
         [
           "Alle",
-          7.64
+          8.86
         ],
         [
           " ",
@@ -211,11 +215,11 @@
         ],
         [
           "Männl.",
-          8.18
+          10.68
         ],
         [
           "Weibl.",
-          7.08
+          7.19
         ],
         [
           "  ",
@@ -223,11 +227,11 @@
         ],
         [
           "Deutsch",
-          6.15
+          6.55
         ],
         [
           "Fremdsp.",
-          9.52
+          11.52
         ],
         [
           "   ",
@@ -235,13 +239,14 @@
         ],
         [
           "Schweiz",
-          7.78
+          6.26
         ],
         [
           "Ausland",
-          7.39
+          12.75
         ]
       ],
+      "pointStart": 0,
       "name": "Andere Lösung\u002FUnbekannt",
       "turboThreshold": 0
     },
@@ -252,7 +257,7 @@
       "data": [
         [
           "Alle",
-          0.52
+          0.43
         ],
         [
           " ",
@@ -260,11 +265,11 @@
         ],
         [
           "Männl.",
-          0.9
+          0.64
         ],
         [
           "Weibl.",
-          0.13
+          0.24
         ],
         [
           "  ",
@@ -272,11 +277,11 @@
         ],
         [
           "Deutsch",
-          0.35
+          0.11
         ],
         [
           "Fremdsp.",
-          0.73
+          0.79
         ],
         [
           "   ",
@@ -284,13 +289,14 @@
         ],
         [
           "Schweiz",
-          0.3
+          0.31
         ],
         [
           "Ausland",
-          0.9
+          0.61
         ]
       ],
+      "pointStart": 0,
       "name": "Keine Lösung",
       "turboThreshold": 0
     }
@@ -336,23 +342,46 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-            }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -361,7 +390,7 @@
       10
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "column",
@@ -385,11 +414,11 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "im Schuljahr 2023\u002F24, Basel-Stadt"
+    "text": "im Schuljahr 2024\u002F25, Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -444,7 +473,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 18.11.2024"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 3.12.2025"
   },
   "legend": {
     "layout": "horizontal",

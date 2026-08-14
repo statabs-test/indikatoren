@@ -4,90 +4,91 @@
       "color": "#689199",
       "data": [
         [
-          "Riehen",
-          0.0193855888
-        ],
-        [
-          "Bettingen",
-          0.0193855888
-        ],
-        [
-          "Bachletten",
-          0.0241987109
-        ],
-        [
-          "VorstÃ¤dte",
-          0.0242808282
-        ],
-        [
           "Bruderholz",
-          0.0251482114
+          0.029
         ],
         [
           "Altstadt Grossbasel",
-          0.0257474605
+          0.031
         ],
         [
-          "St. Alban",
-          0.0295674895
-        ],
-        [
-          "Am Ring",
-          0.0313845067
-        ],
-        [
-          "Gotthelf",
-          0.0344512819
+          "Bachletten",
+          0.031
         ],
         [
           "Wettstein",
-          0.038280833
+          0.033
+        ],
+        [
+          "Riehen",
+          0.033
+        ],
+        [
+          "Bettingen",
+          0.033
         ],
         [
           "Hirzbrunnen",
-          0.0404742079
+          0.035
         ],
         [
-          "Gundeldingen",
-          0.0418457558
+          "Gotthelf",
+          0.037
         ],
         [
-          "Breite",
-          0.0492950163
+          "Am Ring",
+          0.038
         ],
         [
-          "Iselin",
-          0.0501539147
+          "Vorstädte",
+          0.039
         ],
         [
-          "St. Johann",
-          0.050458782
-        ],
-        [
-          "Clara",
-          0.0539961926
+          "St.Alban",
+          0.04
         ],
         [
           "Altstadt Kleinbasel",
-          0.0542989532
+          0.04
         ],
         [
-          "MatthÃ¤us",
-          0.0555946177
+          "Gundeldingen",
+          0.043
         ],
         [
-          "KleinhÃ¼ningen",
-          0.0631074121
+          "St.Johann",
+          0.048
+        ],
+        [
+          "Breite",
+          0.05
+        ],
+        [
+          "Iselin",
+          0.05
+        ],
+        [
+          "Clara",
+          0.053
+        ],
+        [
+          "Matthäus",
+          0.053
         ],
         [
           "Rosental",
-          0.0654724892
+          0.055
         ],
         [
           "Klybeck",
-          0.0719648949
+          0.064
+        ],
+        [
+          "Kleinhüningen",
+          0.069
         ]
       ],
+      "pointStart": 0,
       "name": "Arbeitslosenquote",
       "turboThreshold": 0
     },
@@ -95,90 +96,91 @@
       "visible": false,
       "data": [
         [
-          "Riehen",
-          1
-        ],
-        [
-          "Bettingen",
-          1
-        ],
-        [
-          "Bachletten",
-          3
-        ],
-        [
-          "VorstÃ¤dte",
-          4
-        ],
-        [
           "Bruderholz",
-          5
+          1
         ],
         [
           "Altstadt Grossbasel",
-          6
+          2
         ],
         [
-          "St. Alban",
-          7
-        ],
-        [
-          "Am Ring",
-          8
-        ],
-        [
-          "Gotthelf",
-          9
+          "Bachletten",
+          2
         ],
         [
           "Wettstein",
-          10
+          4
+        ],
+        [
+          "Riehen",
+          4
+        ],
+        [
+          "Bettingen",
+          4
         ],
         [
           "Hirzbrunnen",
+          7
+        ],
+        [
+          "Gotthelf",
+          8
+        ],
+        [
+          "Am Ring",
+          9
+        ],
+        [
+          "Vorstädte",
+          10
+        ],
+        [
+          "St.Alban",
+          11
+        ],
+        [
+          "Altstadt Kleinbasel",
           11
         ],
         [
           "Gundeldingen",
-          12
-        ],
-        [
-          "Breite",
           13
         ],
         [
-          "Iselin",
+          "St.Johann",
           14
         ],
         [
-          "St. Johann",
+          "Breite",
+          15
+        ],
+        [
+          "Iselin",
           15
         ],
         [
           "Clara",
-          16
-        ],
-        [
-          "Altstadt Kleinbasel",
           17
         ],
         [
-          "MatthÃ¤us",
-          18
-        ],
-        [
-          "KleinhÃ¼ningen",
-          19
+          "Matthäus",
+          17
         ],
         [
           "Rosental",
-          20
+          19
         ],
         [
           "Klybeck",
+          20
+        ],
+        [
+          "Kleinhüningen",
           21
         ]
       ],
+      "pointStart": 0,
       "name": "Rang",
       "turboThreshold": 0
     }
@@ -204,27 +206,50 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "scatter",
@@ -235,7 +260,7 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -245,10 +270,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +327,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.3.2026"
   },
   "legend": {
     "enabled": false,

@@ -4,213 +4,118 @@
       "color": "#FABD24",
       "data": [
         [
-          2012,
+          2013,
           100
         ],
         [
-          2013,
-          100.5
-        ],
-        [
           2014,
-          101.2
+          103.2
         ],
         [
           2015,
-          101.1
+          102.6
         ],
         [
           2016,
-          101.5
+          105.3
         ],
         [
           2017,
-          101.4
+          104.6
         ],
         [
           2018,
-          102
+          105.8
         ],
         [
           2019,
-          102.7
+          110.6
         ],
         [
           2020,
-          103.1
+          112.5
         ],
         [
           2021,
-          104.2
+          118.1
+        ],
+        [
+          2022,
+          118.1
         ]
       ],
-      "name": "Veranlagungen"
+      "pointStart": 2013,
+      "name": "Reineinkommen"
     },
     {
       "color": "#A8C3CA",
       "data": [
         [
-          2012,
+          2013,
           100
         ],
         [
-          2013,
-          103.2
-        ],
-        [
           2014,
-          106.4
+          109.8
         ],
         [
           2015,
-          105.9
+          98.6
         ],
         [
           2016,
-          108.7
+          109.8
         ],
         [
           2017,
-          107.9
+          100.7
         ],
         [
           2018,
-          109.2
+          97.7
         ],
         [
           2019,
-          114.1
+          120.1
         ],
         [
           2020,
-          116
+          122.2
         ],
         [
           2021,
-          121.8
+          140.9
+        ],
+        [
+          2022,
+          124.9
         ]
       ],
-      "name": "Reineinkommen"
+      "pointStart": 2013,
+      "name": "Reinvermögen"
     },
     {
       "color": "#662673",
       "data": [
         [
-          2012,
+          2013,
           100
         ],
         [
-          2013,
-          113.5
-        ],
-        [
           2014,
-          124.6
+          104.1
         ],
         [
           2015,
-          112
+          101.5
         ],
         [
           2016,
-          124.7
-        ],
-        [
-          2017,
-          114.4
-        ],
-        [
-          2018,
-          110.9
-        ],
-        [
-          2019,
-          136.4
-        ],
-        [
-          2020,
-          138.8
-        ],
-        [
-          2021,
-          160
-        ]
-      ],
-      "name": "Reinvermögen"
-    },
-    {
-      "color": "#67401E",
-      "legendIndex": 4,
-      "data": [
-        [
-          2012,
-          100
-        ],
-        [
-          2013,
-          105.2
-        ],
-        [
-          2014,
-          109.5
-        ],
-        [
-          2015,
           106.8
         ],
         [
-          2016,
-          112.3
-        ],
-        [
           2017,
-          107.5
-        ],
-        [
-          2018,
-          108.8
-        ],
-        [
-          2019,
-          121.2
-        ],
-        [
-          2020,
-          122.8
-        ],
-        [
-          2021,
-          131.5
-        ]
-      ],
-      "name": "Einkommens- und Vermögenssteuerertrag"
-    },
-    {
-      "color": "#DC440E",
-      "data": [
-        [
-          2012,
-          100
-        ],
-        [
-          2013,
-          101
-        ],
-        [
-          2014,
-          101.6
-        ],
-        [
-          2015,
-          101.9
-        ],
-        [
-          2016,
-          102.5
-        ],
-        [
-          2017,
-          102.9
+          102.2
         ],
         [
           2018,
@@ -218,48 +123,93 @@
         ],
         [
           2019,
-          103.6
+          115.2
         ],
         [
           2020,
-          104.4
+          116.7
         ],
         [
           2021,
-          104.3
+          125.1
+        ],
+        [
+          2022,
+          123.2
         ]
       ],
-      "name": "Wohnbevölkerung"
+      "pointStart": 2013,
+      "name": "Einkommens- und Vermögenssteuerertrag"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-6899"
   },
@@ -283,34 +233,16 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Veranlagungen, Bevölkerung und Summe von Reineinkommen, -vermögen und Steuerertrag"
+    "text": "Summe von Reineinkommen, -vermögen und Steuerertrag"
   },
   "subtitle": {
-    "text": "indexiert (2012 = 100), Basel-Stadt",
+    "text": "indexiert (2013 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "min": 90,
@@ -342,9 +274,6 @@
       "fontWeight": "normal"
     },
     "itemDistance": 5,
-    "labelFormatter": function(){
-      return this.name.replace("und ", "und<br/>");
-    },
     "itemMarginBottom": 5
   },
   "credits": {
@@ -360,41 +289,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

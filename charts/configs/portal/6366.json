@@ -6,65 +6,66 @@
       "data": [
         [
           "0- 4",
-          -25.67
+          -25.6
         ],
         [
           "5- 9",
-          -26.27
+          -26.09
         ],
         [
           "10-14",
-          -27.38
+          -27.19
         ],
         [
           "15-19",
-          -29.04
+          -29.1
         ],
         [
           "20-24",
-          -33.22
+          -32.69
         ],
         [
           "25-29",
-          -37.4
+          -36.92
         ],
         [
           "30-34",
-          -39.78
+          -39.4
         ],
         [
           "35-39",
-          -38.32
+          -37.92
         ],
         [
           "40-44",
-          -38.07
+          -37.89
         ],
         [
           "45-49",
-          -39.04
+          -39.13
         ],
         [
           "50-54",
-          -42.25
+          -41.69
         ],
         [
           "55-59",
-          -46.17
+          -45.46
         ],
         [
           "60-64",
-          -49.17
+          -49
         ],
         [
           "65-69",
-          -51.46
+          -51.57
         ],
         [
           "70 u.m.",
-          -56.23
+          -56.22
         ]
       ],
+      "pointStart": 0,
       "name": "Männlich",
       "turboThreshold": 0
     },
@@ -74,65 +75,66 @@
       "data": [
         [
           "0- 4",
-          25.71
+          25.72
         ],
         [
           "5- 9",
-          26
+          26.2
         ],
         [
           "10-14",
-          27.45
+          27.42
         ],
         [
           "15-19",
-          29.55
+          29.58
         ],
         [
           "20-24",
-          33.35
+          33
         ],
         [
           "25-29",
-          37.16
+          36.55
         ],
         [
           "30-34",
-          38.17
+          37.98
         ],
         [
           "35-39",
-          36.38
+          36.52
         ],
         [
           "40-44",
-          36.32
+          36.35
         ],
         [
           "45-49",
-          38.37
+          37.97
         ],
         [
           "50-54",
-          41.99
+          41.52
         ],
         [
           "55-59",
-          48.31
+          47.86
         ],
         [
           "60-64",
-          53.35
+          53.15
         ],
         [
           "65-69",
-          57.34
+          56.86
         ],
         [
           "70 u.m.",
-          65.55
+          65.28
         ]
       ],
+      "pointStart": 0,
       "name": "Weiblich",
       "turboThreshold": 0
     }
@@ -165,34 +167,52 @@
   ],
   "chart": {
     "type": "bar",
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 70,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "events": {
-      "load": function(){
-                    this.credits.element.onclick = function() {};
-                    
-                    //create symmetric xAxes
-                    var fn = this.options.customFunctions;
-                    fn.createSymmetricAxis(this.yAxis[0]);
-                    
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){ // && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                          }
-                        }
-                      );
-                    }
-                }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-6366"
   },
@@ -226,10 +246,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht in m², Basel-Stadt, 2024",
+    "text": "nach Alter und Geschlecht in m², Basel-Stadt, 2025",
     "align": "left",
     "useHTML": true
   },
@@ -264,7 +284,7 @@
   ],
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -281,7 +301,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2026"
   },
   "legend": {
     "symbolRadius": 0,

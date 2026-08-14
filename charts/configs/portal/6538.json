@@ -5,26 +5,27 @@
       "data": [
         [
           "1- und 2-Sterne",
-          66.54221669
+          72.27759563
         ],
         [
           "3-Sterne",
-          55.57731507
+          56.66656158
         ],
         [
           "4- und 5-Sterne",
-          101.9147641
+          95.88615665
         ],
         [
           "Nicht klassiert",
-          15.82294521
+          20.78333333
         ],
         [
           "Total",
-          65.84591251
+          64.52954235
         ]
       ],
-      "name": "2015",
+      "pointStart": 0,
+      "name": "2016",
       "turboThreshold": 0
     },
     {
@@ -32,26 +33,27 @@
       "data": [
         [
           "1- und 2-Sterne",
-          69.851434426
+          69.337671233
         ],
         [
           "3-Sterne",
-          69.101838053
+          71.223874755
         ],
         [
           "4- und 5-Sterne",
-          99.741530055
+          104.749531363
         ],
         [
           "Nicht klassiert",
-          43.981459797
+          45.699178082
         ],
         [
           "Total",
-          73.275358607
+          75.017960426
         ]
       ],
-      "name": "2024",
+      "pointStart": 0,
+      "name": "2025",
       "turboThreshold": 0
     },
     {
@@ -68,26 +70,27 @@
       "data": [
         [
           "1- und 2-Sterne",
-          70.242523323
+          70.441034924
         ],
         [
           "3-Sterne",
-          63.469787302
+          65.151880885
         ],
         [
           "4- und 5-Sterne",
-          95.12219562
+          95.950122083
         ],
         [
           "Nicht klassiert",
-          31.268684025
+          33.877750374
         ],
         [
           "Total",
-          67.936447439
+          68.971223391
         ]
       ],
-      "name": "Ø 2015-2024",
+      "pointStart": 0,
+      "name": "Ø 2016-2025",
       "turboThreshold": 0
     }
   ],
@@ -109,7 +112,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -117,29 +120,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-6538",
@@ -205,7 +230,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -222,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

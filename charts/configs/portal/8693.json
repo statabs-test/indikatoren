@@ -5,14 +5,6 @@
       "legendIndex": 7,
       "data": [
         [
-          "2012",
-          177.4
-        ],
-        [
-          "2013",
-          170.2
-        ],
-        [
           "2014",
           168.6
         ],
@@ -43,8 +35,17 @@
         [
           "2021",
           61
+        ],
+        [
+          "2022",
+          63.1
+        ],
+        [
+          "2023",
+          54.6
         ]
       ],
+      "pointStart": 0,
       "name": "Lagerei",
       "turboThreshold": 0
     },
@@ -52,14 +53,6 @@
       "color": "#FF8028",
       "legendIndex": 6,
       "data": [
-        [
-          "2012",
-          73.8
-        ],
-        [
-          "2013",
-          72.8
-        ],
         [
           "2014",
           83.5
@@ -91,8 +84,17 @@
         [
           "2021",
           77.8
+        ],
+        [
+          "2022",
+          75.7
+        ],
+        [
+          "2023",
+          81.5
         ]
       ],
+      "pointStart": 0,
       "name": "Erbringung von sonst. DL für den Landverkehr",
       "turboThreshold": 0
     },
@@ -100,14 +102,6 @@
       "color": "#2E1435",
       "legendIndex": 5,
       "data": [
-        [
-          "2012",
-          92.3
-        ],
-        [
-          "2013",
-          91
-        ],
         [
           "2014",
           93.4
@@ -139,8 +133,17 @@
         [
           "2021",
           135.3
+        ],
+        [
+          "2022",
+          83.6
+        ],
+        [
+          "2023",
+          82.8
         ]
       ],
+      "pointStart": 0,
       "name": "Erbringung von sonst. DL für die Schifffahrt",
       "turboThreshold": 0
     },
@@ -148,14 +151,6 @@
       "color": "#662673",
       "legendIndex": 4,
       "data": [
-        [
-          "2012",
-          534.1
-        ],
-        [
-          "2013",
-          606.2
-        ],
         [
           "2014",
           610.7
@@ -187,8 +182,17 @@
         [
           "2021",
           585.5
+        ],
+        [
+          "2022",
+          689.6
+        ],
+        [
+          "2023",
+          1479.1
         ]
       ],
+      "pointStart": 0,
       "name": "Erbringung von sonst. DL für die Luftfahrt",
       "turboThreshold": 0
     },
@@ -196,14 +200,6 @@
       "color": "#923F8D",
       "legendIndex": 3,
       "data": [
-        [
-          "2012",
-          31.6
-        ],
-        [
-          "2013",
-          30.2
-        ],
         [
           "2014",
           28.2
@@ -235,8 +231,17 @@
         [
           "2021",
           16.6
+        ],
+        [
+          "2022",
+          15.7
+        ],
+        [
+          "2023",
+          13
         ]
       ],
+      "pointStart": 0,
       "name": "Frachtumschlag",
       "turboThreshold": 0
     },
@@ -244,14 +249,6 @@
       "color": "#B375AB",
       "legendIndex": 2,
       "data": [
-        [
-          "2012",
-          2448.9
-        ],
-        [
-          "2013",
-          2327.8
-        ],
         [
           "2014",
           2160
@@ -283,8 +280,17 @@
         [
           "2021",
           1769.8
+        ],
+        [
+          "2022",
+          1927.6
+        ],
+        [
+          "2023",
+          1754.3
         ]
       ],
+      "pointStart": 0,
       "name": "Erbringung von sonst. DL für den Verkehr a. n. g.",
       "turboThreshold": 0
     },
@@ -292,14 +298,6 @@
       "color": "#E7CEE2",
       "legendIndex": 1,
       "data": [
-        [
-          "2012",
-          753.8
-        ],
-        [
-          "2013",
-          582
-        ],
         [
           "2014",
           571.2
@@ -331,8 +329,17 @@
         [
           "2021",
           520.7
+        ],
+        [
+          "2022",
+          544.4
+        ],
+        [
+          "2023",
+          469.4
         ]
       ],
+      "pointStart": 0,
       "name": "Postdienste von Universaldienstleistungsanbietern",
       "turboThreshold": 0
     },
@@ -340,14 +347,6 @@
       "color": "#C9D6DB",
       "legendIndex": 0,
       "data": [
-        [
-          "2012",
-          754.5
-        ],
-        [
-          "2013",
-          633
-        ],
         [
           "2014",
           608.4
@@ -379,8 +378,17 @@
         [
           "2021",
           635.3
+        ],
+        [
+          "2022",
+          545.8
+        ],
+        [
+          "2023",
+          580.3
         ]
       ],
+      "pointStart": 0,
       "name": "Sonstige Post-, Kurier- und Expressdienste",
       "turboThreshold": 0
     }
@@ -404,7 +412,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -412,29 +420,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-8693",
@@ -509,7 +539,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -526,7 +556,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

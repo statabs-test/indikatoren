@@ -8,10 +8,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2011,
-          15450187
-        ],
-        [
           2012,
           16666516
         ],
@@ -46,21 +42,22 @@
         [
           2020,
           29813663
+        ],
+        [
+          2021,
+          28758590
         ]
       ],
+      "pointStart": 2012,
       "name": "Ertrag Grundstücksteuern"
     },
     {
-      "color": "#DC440E",
+      "color": "#FFDA80",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2011,
-          116370771
-        ],
         [
           2012,
           108317154
@@ -96,21 +93,22 @@
         [
           2020,
           137617241
+        ],
+        [
+          2021,
+          90849643
         ]
       ],
+      "pointStart": 2012,
       "name": "Ertrag Kapitalsteuern"
     },
     {
-      "color": "#B00000",
+      "color": "#DC440E",
       "index": 0,
       "type": "column",
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2011,
-          449178880
-        ],
         [
           2012,
           509340739
@@ -146,69 +144,35 @@
         [
           2020,
           279049288
+        ],
+        [
+          2021,
+          503480171
         ]
       ],
+      "pointStart": 2012,
       "name": "Ertrag Gewinnsteuern"
-    },
-    {
-      "yAxis": 1,
-      "color": "#ffbb58",
-      "index": 1,
-      "type": "line",
-      "marker": {
-        "enabled": false
-      },
-      "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          2011,
-          10541
-        ],
-        [
-          2012,
-          10803
-        ],
-        [
-          2013,
-          10782
-        ],
-        [
-          2014,
-          10959
-        ],
-        [
-          2015,
-          11033
-        ],
-        [
-          2016,
-          11330
-        ],
-        [
-          2017,
-          11697
-        ],
-        [
-          2018,
-          11949
-        ],
-        [
-          2019,
-          12163
-        ],
-        [
-          2020,
-          12222
-        ]
-      ],
-      "name": "Veranlagungen (rechte Skala)"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -216,29 +180,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-6981",
     "spacingBottom": 40
@@ -274,45 +260,8 @@
       "color": "#000000"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1
-  },
   "yAxis": [
     {
-      "gridLineColor": "#B9CFD7",
-      "gridLineWidth": 0.5,
-      "lineColor": "#B9CFD7",
-      "title": {
-        "style": {
-          "color": "#000000",
-          "fontSize": null
-        },
-        "text": null
-      },
-      "labels": {
-        "format": "{value:,.0f}",
-        "style": {
-          "color": "#000000"
-        }
-      }
-    },
-    {
-      "opposite": true,
-      "min": 0,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -346,7 +295,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -363,7 +312,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
   },
   "tooltip": {
     "shared": true

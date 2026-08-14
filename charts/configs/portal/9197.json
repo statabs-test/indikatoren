@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          5111
+          5010
         ],
         [
           "Bern",
-          7582
+          7583
         ],
         [
           "Genf",
-          5482
+          5255
         ],
         [
           "Lausanne",
-          4627
+          4581
         ],
         [
           "Zürich",
-          9487
+          9527
         ],
         [
           "Frankfurt a. M.",
@@ -46,23 +46,23 @@
         ],
         [
           "Lille",
-          4591
+          4558
         ],
         [
           "Lyon",
-          7701
+          7827
         ],
         [
           "Metz",
-          1575
+          1631
         ],
         [
           "Paris",
-          16847
+          16745
         ],
         [
           "Strassburg",
-          3943
+          3934
         ],
         [
           "Mailand",
@@ -74,21 +74,22 @@
         ],
         [
           "Lissabon",
-          22557
+          23026
         ],
         [
           "Porto",
-          5132
+          5030
         ],
         [
           "Barcelona",
-          5588
+          5747
         ],
         [
           "Madrid",
-          17303
+          17630
         ]
       ],
+      "pointStart": 0,
       "name": "1. Sektor",
       "turboThreshold": 0
     },
@@ -98,23 +99,23 @@
       "data": [
         [
           "Basel",
-          123399
+          117586
         ],
         [
           "Bern",
-          41512
+          41230
         ],
         [
           "Genf",
-          90356
+          73903
         ],
         [
           "Lausanne",
-          39439
+          40436
         ],
         [
           "Zürich",
-          127674
+          129604
         ],
         [
           "Frankfurt a. M.",
@@ -138,49 +139,50 @@
         ],
         [
           "Lille",
-          94785
+          95445
         ],
         [
           "Lyon",
-          206115
+          208823
         ],
         [
           "Metz",
-          28406
+          27910
         ],
         [
           "Paris",
-          774073
+          776701
         ],
         [
           "Strassburg",
-          73762
+          74681
         ],
         [
           "Mailand",
-          584648
+          584648.72
         ],
         [
           "Bologna",
-          91792
+          91791.9
         ],
         [
           "Lissabon",
-          120498
+          234778
         ],
         [
           "Porto",
-          134288
+          138241
         ],
         [
           "Barcelona",
-          400658
+          411431
         ],
         [
           "Madrid",
-          507826
+          521508
         ]
       ],
+      "pointStart": 0,
       "name": "2. Sektor",
       "turboThreshold": 0
     },
@@ -190,23 +192,23 @@
       "data": [
         [
           "Basel",
-          369656
+          368764
         ],
         [
           "Bern",
-          282498
+          287870
         ],
         [
           "Genf",
-          504551
+          445309
         ],
         [
           "Lausanne",
-          242877
+          249279
         ],
         [
           "Zürich",
-          887312
+          920211
         ],
         [
           "Frankfurt a. M.",
@@ -230,49 +232,50 @@
         ],
         [
           "Lille",
-          548713
+          555813
         ],
         [
           "Lyon",
-          870972
+          885411
         ],
         [
           "Metz",
-          134691
+          135827
         ],
         [
           "Paris",
-          5374931
+          5435761
         ],
         [
           "Strassburg",
-          306607
+          309812
         ],
         [
           "Mailand",
-          1602070
+          1602069.47
         ],
         [
           "Bologna",
-          263776
+          263776.37
         ],
         [
           "Lissabon",
-          259042
+          1350678
         ],
         [
           "Porto",
-          170293
+          505978
         ],
         [
           "Barcelona",
-          1949213
+          2052072
         ],
         [
           "Madrid",
-          3204609
+          3332930
         ]
       ],
+      "pointStart": 0,
       "name": "3. Sektor",
       "turboThreshold": 0
     }
@@ -296,7 +299,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -304,29 +307,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-9197",
@@ -353,7 +378,7 @@
     "text": "Beschäftigte nach Wirtschaftssektor"
   },
   "subtitle": {
-    "text": "Anteile an der Gesamtbeschäftigung, 2021",
+    "text": "Anteile an der Gesamtbeschäftigung, 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -393,7 +418,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -410,7 +435,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

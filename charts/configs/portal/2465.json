@@ -4,38 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2014-01",
-          57
-        ],
-        [
-          "2014-02",
-          66
-        ],
-        [
-          "2014-03",
-          76
-        ],
-        [
-          "2014-04",
-          116
-        ],
-        [
-          "2015-01",
-          63
-        ],
-        [
-          "2015-02",
-          64
-        ],
-        [
-          "2015-03",
-          59
-        ],
-        [
-          "2015-04",
-          65
-        ],
-        [
           "2016-01",
           52
         ],
@@ -162,46 +130,47 @@
         [
           "2023-04",
           51
+        ],
+        [
+          "2024-01",
+          64
+        ],
+        [
+          "2024-02",
+          62
+        ],
+        [
+          "2024-03",
+          81
+        ],
+        [
+          "2024-04",
+          78
+        ],
+        [
+          "2025-01",
+          56
+        ],
+        [
+          "2025-02",
+          63
+        ],
+        [
+          "2025-03",
+          70
+        ],
+        [
+          "2025-04",
+          70
         ]
       ],
+      "pointStart": 0,
       "name": "Industrie (exkl. Chemie, Pharma)",
       "turboThreshold": 0
     },
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2014-01",
-          421
-        ],
-        [
-          "2014-02",
-          311
-        ],
-        [
-          "2014-03",
-          376
-        ],
-        [
-          "2014-04",
-          338
-        ],
-        [
-          "2015-01",
-          417
-        ],
-        [
-          "2015-02",
-          394
-        ],
-        [
-          "2015-03",
-          464
-        ],
-        [
-          "2015-04",
-          330
-        ],
         [
           "2016-01",
           405
@@ -329,46 +298,47 @@
         [
           "2023-04",
           221
+        ],
+        [
+          "2024-01",
+          250
+        ],
+        [
+          "2024-02",
+          224
+        ],
+        [
+          "2024-03",
+          219
+        ],
+        [
+          "2024-04",
+          236
+        ],
+        [
+          "2025-01",
+          257
+        ],
+        [
+          "2025-02",
+          264
+        ],
+        [
+          "2025-03",
+          313
+        ],
+        [
+          "2025-04",
+          227
         ]
       ],
+      "pointStart": 0,
       "name": "Chemie, Pharma",
       "turboThreshold": 0
     },
     {
       "color": "#662673",
       "data": [
-        [
-          "2014-01",
-          52
-        ],
-        [
-          "2014-02",
-          44
-        ],
-        [
-          "2014-03",
-          67
-        ],
-        [
-          "2014-04",
-          70
-        ],
-        [
-          "2015-01",
-          39
-        ],
-        [
-          "2015-02",
-          53
-        ],
-        [
-          "2015-03",
-          72
-        ],
-        [
-          "2015-04",
-          42
-        ],
         [
           "2016-01",
           30
@@ -496,8 +466,41 @@
         [
           "2023-04",
           49
+        ],
+        [
+          "2024-01",
+          97
+        ],
+        [
+          "2024-02",
+          28
+        ],
+        [
+          "2024-03",
+          12
+        ],
+        [
+          "2024-04",
+          16
+        ],
+        [
+          "2025-01",
+          25
+        ],
+        [
+          "2025-02",
+          15
+        ],
+        [
+          "2025-03",
+          14
+        ],
+        [
+          "2025-04",
+          29
         ]
       ],
+      "pointStart": 0,
       "name": "Baugewerbe",
       "turboThreshold": 0
     }
@@ -526,32 +529,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-2465"
   },
@@ -630,41 +655,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

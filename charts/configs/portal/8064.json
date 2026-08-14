@@ -12,85 +12,86 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          20.644465
+          19.673465
         ],
         [
           "Altstadt Kleinbasel",
-          19.224171
-        ],
-        [
-          "Vorstädte",
-          19.051231
+          19.328846
         ],
         [
           "Am Ring",
-          18.920144
+          19.142007
         ],
         [
           "Rosental",
-          18.603638
-        ],
-        [
-          "St. Alban",
-          18.35742
+          18.96857
         ],
         [
           "Clara",
-          18.306883
+          18.760013
         ],
         [
-          "St. Johann",
-          17.948198
+          "Vorstädte",
+          18.73112
         ],
         [
-          "Matthäus",
-          17.881759
-        ],
-        [
-          "Gundeldingen",
-          17.88101
-        ],
-        [
-          "Riehen\u002FBettingen",
-          17.800087
-        ],
-        [
-          "Gotthelf",
-          17.610366
-        ],
-        [
-          "Bachletten",
-          17.608302
-        ],
-        [
-          "Bruderholz",
-          17.428494
+          "St. Alban",
+          18.662796
         ],
         [
           "Wettstein",
-          17.346007
+          18.229551
+        ],
+        [
+          "Gundeldingen",
+          18.197715
+        ],
+        [
+          "Riehen\u002FBettingen",
+          18.176479
+        ],
+        [
+          "Matthäus",
+          18.087477
+        ],
+        [
+          "St. Johann",
+          18.058916
+        ],
+        [
+          "Gotthelf",
+          17.84959
+        ],
+        [
+          "Bachletten",
+          17.795134
+        ],
+        [
+          "Bruderholz",
+          17.611894
         ],
         [
           "Breite",
-          17.256767
-        ],
-        [
-          "Kleinhüningen",
-          16.827789
-        ],
-        [
-          "Klybeck",
-          16.796024
+          17.52558
         ],
         [
           "Iselin",
-          16.744425
+          16.987779
+        ],
+        [
+          "Kleinhüningen",
+          16.90341
+        ],
+        [
+          "Klybeck",
+          16.894864
         ],
         [
           "Hirzbrunnen",
-          16.319593
+          16.640468
         ]
       ],
+      "pointStart": 0,
       "name": "Quadratmeterpreis",
       "turboThreshold": 0
     },
@@ -105,106 +106,107 @@
       "data": [
         {
           "name": "Altstadt Grossbasel",
-          "low": 18.9140737,
-          "high": 22.3748565
+          "low": 18.0294264,
+          "high": 21.3175041
         },
         {
           "name": "Altstadt Kleinbasel",
-          "low": 17.9856698,
-          "high": 20.4626717
-        },
-        {
-          "name": "Vorstädte",
-          "low": 18.1959001,
-          "high": 19.9065626
+          "low": 17.9990088,
+          "high": 20.6586824
         },
         {
           "name": "Am Ring",
-          "low": 18.3538067,
-          "high": 19.4864811
+          "low": 18.5543837,
+          "high": 19.7296299
         },
         {
           "name": "Rosental",
-          "low": 17.9918813,
-          "high": 19.2153938
-        },
-        {
-          "name": "St. Alban",
-          "low": 17.9079529,
-          "high": 18.8068868
+          "low": 18.4972776,
+          "high": 19.4398626
         },
         {
           "name": "Clara",
-          "low": 17.6913801,
-          "high": 18.9223859
+          "low": 18.1210908,
+          "high": 19.3989342
         },
         {
-          "name": "St. Johann",
-          "low": 17.6607766,
-          "high": 18.2356185
+          "name": "Vorstädte",
+          "low": 17.8893562,
+          "high": 19.5728835
         },
         {
-          "name": "Matthäus",
-          "low": 17.4999972,
-          "high": 18.2635202
-        },
-        {
-          "name": "Gundeldingen",
-          "low": 17.5862632,
-          "high": 18.1757564
-        },
-        {
-          "name": "Riehen\u002FBettingen",
-          "low": 17.4812638,
-          "high": 18.1189099
-        },
-        {
-          "name": "Gotthelf",
-          "low": 17.1289106,
-          "high": 18.0918206
-        },
-        {
-          "name": "Bachletten",
-          "low": 17.2132325,
-          "high": 18.0033713
-        },
-        {
-          "name": "Bruderholz",
-          "low": 16.7903422,
-          "high": 18.0666468
+          "name": "St. Alban",
+          "low": 18.2233348,
+          "high": 19.1022577
         },
         {
           "name": "Wettstein",
-          "low": 16.6791213,
-          "high": 18.0128927
+          "low": 17.5134039,
+          "high": 18.9456982
+        },
+        {
+          "name": "Gundeldingen",
+          "low": 17.8994738,
+          "high": 18.4959562
+        },
+        {
+          "name": "Riehen\u002FBettingen",
+          "low": 17.8641845,
+          "high": 18.4887731
+        },
+        {
+          "name": "Matthäus",
+          "low": 17.7060845,
+          "high": 18.4688688
+        },
+        {
+          "name": "St. Johann",
+          "low": 17.7778205,
+          "high": 18.3400108
+        },
+        {
+          "name": "Gotthelf",
+          "low": 17.3385226,
+          "high": 18.3606569
+        },
+        {
+          "name": "Bachletten",
+          "low": 17.4017304,
+          "high": 18.1885367
+        },
+        {
+          "name": "Bruderholz",
+          "low": 16.9813086,
+          "high": 18.2424796
         },
         {
           "name": "Breite",
-          "low": 16.8035152,
-          "high": 17.7100183
-        },
-        {
-          "name": "Kleinhüningen",
-          "low": 16.2040701,
-          "high": 17.4515074
-        },
-        {
-          "name": "Klybeck",
-          "low": 16.2774277,
-          "high": 17.3146194
+          "low": 17.0567456,
+          "high": 17.9944145
         },
         {
           "name": "Iselin",
-          "low": 16.4535631,
-          "high": 17.0352865
+          "low": 16.6864288,
+          "high": 17.2891283
+        },
+        {
+          "name": "Kleinhüningen",
+          "low": 16.2929604,
+          "high": 17.5138588
+        },
+        {
+          "name": "Klybeck",
+          "low": 16.3796095,
+          "high": 17.4101191
         },
         {
           "name": "Hirzbrunnen",
-          "low": 15.9185109,
-          "high": 16.7206745
+          "low": 16.2300996,
+          "high": 17.0508364
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "WOV_NAME",
       "turboThreshold": 0
     }
   ],
@@ -229,32 +231,54 @@
   },
   "chart": {
     "type": "column",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "inverted": true,
     "renderTo": "container-8064"
@@ -278,7 +302,7 @@
     "text": "Nettomietpreise nach Wohnviertel"
   },
   "subtitle": {
-    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2018-2022",
+    "text": "in Franken pro m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2019-2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -331,41 +355,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 19.12.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "snap": 0,

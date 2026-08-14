@@ -4,19 +4,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          53236
+          64397
         ],
         [
           "3-Sterne",
-          190221
+          205753
         ],
         [
           "4- und 5-Sterne",
-          225934
+          265266
         ],
         [
           "Nicht klassiert",
-          71756
+          91851
         ]
       ],
       "showInLegend": false,
@@ -34,6 +34,7 @@
         "#DC440E",
         "#8A8A8A"
       ],
+      "pointStart": 0,
       "name": "Inland",
       "turboThreshold": 0
     },
@@ -41,19 +42,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          112711
+          138011
         ],
         [
           "3-Sterne",
-          275965
+          296500
         ],
         [
           "4- und 5-Sterne",
-          460749
+          473669
         ],
         [
           "Nicht klassiert",
-          84403
+          150842
         ]
       ],
       "showInLegend": true,
@@ -70,6 +71,7 @@
         "#DC440E",
         "#8A8A8A"
       ],
+      "pointStart": 0,
       "name": "Ausland",
       "turboThreshold": 0
     }
@@ -85,18 +87,51 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-              }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "zoomType": "xy",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "type": "pie",
     "renderTo": "container-7522"
@@ -148,10 +183,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2025",
     "align": "left"
   },
   "tooltip": {
@@ -172,7 +207,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "legend": {
     "layout": "horizontal",

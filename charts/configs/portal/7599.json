@@ -51,8 +51,13 @@
         [
           2024,
           41.6
+        ],
+        [
+          2025,
+          34.1
         ]
       ],
+      "pointStart": 2013,
       "name": "1 Zi. Neuerstellt"
     },
     {
@@ -107,8 +112,13 @@
         [
           2024,
           34.4
+        ],
+        [
+          2025,
+          34.5
         ]
       ],
+      "pointStart": 2013,
       "name": "1 Zi. Bestand"
     },
     {
@@ -162,8 +172,13 @@
         [
           2024,
           64.8
+        ],
+        [
+          2025,
+          55.1
         ]
       ],
+      "pointStart": 2013,
       "name": "2 Zi. Neuerstellt"
     },
     {
@@ -218,8 +233,13 @@
         [
           2024,
           55.7
+        ],
+        [
+          2025,
+          55.7
         ]
       ],
+      "pointStart": 2013,
       "name": "2 Zi. Bestand"
     },
     {
@@ -273,8 +293,13 @@
         [
           2024,
           99.9
+        ],
+        [
+          2025,
+          82.5
         ]
       ],
+      "pointStart": 2013,
       "name": "3 Zi. Neuerstellt"
     },
     {
@@ -329,8 +354,13 @@
         [
           2024,
           75.7
+        ],
+        [
+          2025,
+          75.7
         ]
       ],
+      "pointStart": 2013,
       "name": "3 Zi. Bestand"
     },
     {
@@ -384,8 +414,13 @@
         [
           2024,
           135.7
+        ],
+        [
+          2025,
+          113
         ]
       ],
+      "pointStart": 2013,
       "name": "4 Zi. Neuerstellt"
     },
     {
@@ -440,8 +475,13 @@
         [
           2024,
           101.4
+        ],
+        [
+          2025,
+          101.4
         ]
       ],
+      "pointStart": 2013,
       "name": "4 Zi. Bestand"
     },
     {
@@ -495,8 +535,13 @@
         [
           2024,
           138.5
+        ],
+        [
+          2025,
+          154.3
         ]
       ],
+      "pointStart": 2013,
       "name": "5 Zi. Neuerstellt"
     },
     {
@@ -551,8 +596,13 @@
         [
           2024,
           130.8
+        ],
+        [
+          2025,
+          130.9
         ]
       ],
+      "pointStart": 2013,
       "name": "5 Zi. Bestand"
     },
     {
@@ -606,8 +656,13 @@
         [
           2024,
           203.4
+        ],
+        [
+          2025,
+          183.6
         ]
       ],
+      "pointStart": 2013,
       "name": "6 Zi. u.m. Neuerstellt"
     },
     {
@@ -662,37 +717,84 @@
         [
           2024,
           177.7
+        ],
+        [
+          2025,
+          177.6
         ]
       ],
+      "pointStart": 2013,
       "name": "6 Zi. u.m. Bestand"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          //add and move legend title (get it from series names)
-          this.legend.title
-            .attr({
-              text:
-                this.series[0].name.split(" ").slice(2).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
-                + ':<br>'
-                + this.series[1].name.split(" ").slice(2).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
-                /*+ ' (rechte Skala):'*/
-            })
-            .translate(-70, 8); //move -140 to the left and 8 down
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-7599"
   },
@@ -725,24 +827,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "min": null,
@@ -797,41 +881,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

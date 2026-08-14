@@ -4,10 +4,6 @@
       "color": "#672773",
       "data": [
         [
-          2004,
-          9.7
-        ],
-        [
           2005,
           9.3
         ],
@@ -82,17 +78,18 @@
         [
           2023,
           11.5
+        ],
+        [
+          2024,
+          11.6
         ]
       ],
+      "pointStart": 2005,
       "name": "Deutschland"
     },
     {
       "color": "#007a2f",
       "data": [
-        [
-          2004,
-          35.7
-        ],
         [
           2005,
           35.5
@@ -168,17 +165,18 @@
         [
           2023,
           24.4
+        ],
+        [
+          2024,
+          24.1
         ]
       ],
+      "pointStart": 2005,
       "name": "Italien"
     },
     {
       "color": "#fabd24",
       "data": [
-        [
-          2004,
-          28.3
-        ],
         [
           2005,
           28.4
@@ -254,17 +252,18 @@
         [
           2023,
           22.1
+        ],
+        [
+          2024,
+          21.2
         ]
       ],
+      "pointStart": 2005,
       "name": "Türkei"
     },
     {
       "color": "#b475ab",
       "data": [
-        [
-          2004,
-          18.8
-        ],
         [
           2005,
           18.4
@@ -340,17 +339,18 @@
         [
           2023,
           15
+        ],
+        [
+          2024,
+          15.2
         ]
       ],
+      "pointStart": 2005,
       "name": "EU-West + EFTA + UK"
     },
     {
       "color": "#71a3b5",
       "data": [
-        [
-          2004,
-          17.5
-        ],
         [
           2005,
           16.8
@@ -426,17 +426,18 @@
         [
           2023,
           11.1
+        ],
+        [
+          2024,
+          11.2
         ]
       ],
+      "pointStart": 2005,
       "name": "EU-Ost"
     },
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          2004,
-          22.9
-        ],
         [
           2005,
           23.6
@@ -512,17 +513,18 @@
         [
           2023,
           24.4
+        ],
+        [
+          2024,
+          24.4
         ]
       ],
+      "pointStart": 2005,
       "name": "Balkan"
     },
     {
       "color": "#ff8028",
       "data": [
-        [
-          2004,
-          4.9
-        ],
         [
           2005,
           4.9
@@ -598,17 +600,18 @@
         [
           2023,
           6.6
+        ],
+        [
+          2024,
+          7.1
         ]
       ],
+      "pointStart": 2005,
       "name": "Mittel- und Südamerika"
     },
     {
       "color": "#73ba7c",
       "data": [
-        [
-          2004,
-          14.7
-        ],
         [
           2005,
           15.8
@@ -684,17 +687,18 @@
         [
           2023,
           17.8
+        ],
+        [
+          2024,
+          18
         ]
       ],
+      "pointStart": 2005,
       "name": "Arabische Länder"
     },
     {
       "color": "#9f7c5a",
       "data": [
-        [
-          2004,
-          9.5
-        ],
         [
           2005,
           9.2
@@ -770,17 +774,18 @@
         [
           2023,
           22.5
+        ],
+        [
+          2024,
+          23.5
         ]
       ],
+      "pointStart": 2005,
       "name": "Afrikanische Länder"
     },
     {
       "color": "#999999",
       "data": [
-        [
-          2004,
-          12.4
-        ],
         [
           2005,
           12.6
@@ -856,39 +861,91 @@
         [
           2023,
           9
+        ],
+        [
+          2024,
+          9
         ]
       ],
+      "pointStart": 2005,
       "name": "Übrige Länder"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+		var interval = 2,
+			ext = this.getExtremes(),
+			i = ext.dataMax,
+			pos = [i];
+		while (i >= ext.dataMin) pos.unshift(i = i - interval);
+		return pos;
+	}
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-6075"
   },
@@ -922,31 +979,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickPositioner": function () {
-		var interval = 2,
-			ext = this.getExtremes(),
-			i = ext.dataMax,
-			pos = [i];
-		while (i >= ext.dataMin) pos.unshift(i = i - interval);
-		return pos;
-	}
   },
   "yAxis": {
     "min": 0,
@@ -991,41 +1023,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

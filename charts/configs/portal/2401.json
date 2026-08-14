@@ -4,14 +4,6 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2013",
-          0.021
-        ],
-        [
-          "2014",
-          0.042
-        ],
-        [
           "2015",
           0.039
         ],
@@ -37,27 +29,28 @@
         ],
         [
           "2021",
-          0.067
+          0.066
         ],
         [
           "2022",
-          0.069
+          0.016
+        ],
+        [
+          "2023",
+          0.018
+        ],
+        [
+          "2024",
+          0.054
         ]
       ],
+      "pointStart": 0,
       "name": "BS",
       "turboThreshold": 0
     },
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2013",
-          0.013
-        ],
-        [
-          "2014",
-          0.037
-        ],
         [
           "2015",
           0.036
@@ -84,27 +77,28 @@
         ],
         [
           "2021",
-          0.022
+          0.021
         ],
         [
           "2022",
-          0.022
+          0.008
+        ],
+        [
+          "2023",
+          0.015
+        ],
+        [
+          "2024",
+          0.015
         ]
       ],
+      "pointStart": 0,
       "name": "BL",
       "turboThreshold": 0
     },
     {
       "color": "#A8C3CA",
       "data": [
-        [
-          "2013",
-          0.019
-        ],
-        [
-          "2014",
-          0.016
-        ],
         [
           "2015",
           -0.005
@@ -131,27 +125,28 @@
         ],
         [
           "2021",
-          0.002
+          -0.004
         ],
         [
           "2022",
-          0.033
+          0.016
+        ],
+        [
+          "2023",
+          0.009
+        ],
+        [
+          "2024",
+          0.01
         ]
       ],
+      "pointStart": 0,
       "name": "AG",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2013",
-          0.021
-        ],
-        [
-          "2014",
-          0.033
-        ],
         [
           "2015",
           0.024
@@ -178,27 +173,28 @@
         ],
         [
           "2021",
-          0.001
+          0.014
         ],
         [
           "2022",
-          0.037
+          0.038
+        ],
+        [
+          "2023",
+          -0.004
+        ],
+        [
+          "2024",
+          0.011
         ]
       ],
+      "pointStart": 0,
       "name": "ZH",
       "turboThreshold": 0
     },
     {
       "color": "#B00000",
       "data": [
-        [
-          "2013",
-          0.018
-        ],
-        [
-          "2014",
-          0.023
-        ],
         [
           "2015",
           0.016
@@ -225,13 +221,22 @@
         ],
         [
           "2021",
-          0.054
+          0.056
         ],
         [
           "2022",
-          0.026
+          0.03
+        ],
+        [
+          "2023",
+          0.007
+        ],
+        [
+          "2024",
+          0.014
         ]
       ],
+      "pointStart": 0,
       "name": "CH",
       "turboThreshold": 0
     }
@@ -254,7 +259,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -262,29 +267,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "inverted": false,
@@ -353,7 +380,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -370,7 +397,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "tooltip": {
     "pointFormatter": function () {

@@ -164,7 +164,7 @@
         ],
         [
           2025,
-          null
+          80.24
         ],
         [
           2026,
@@ -245,8 +245,29 @@
         [
           2045,
           null
+        ],
+        [
+          2046,
+          null
+        ],
+        [
+          2047,
+          null
+        ],
+        [
+          2048,
+          null
+        ],
+        [
+          2049,
+          null
+        ],
+        [
+          2050,
+          null
         ]
       ],
+      "pointStart": 1986,
       "name": "Effektiv M"
     },
     {
@@ -413,7 +434,7 @@
         ],
         [
           2025,
-          80.72
+          null
         ],
         [
           2026,
@@ -494,8 +515,29 @@
         [
           2045,
           83.82
+        ],
+        [
+          2046,
+          83.91
+        ],
+        [
+          2047,
+          84
+        ],
+        [
+          2048,
+          84.1
+        ],
+        [
+          2049,
+          84.18
+        ],
+        [
+          2050,
+          84.27
         ]
       ],
+      "pointStart": 1986,
       "name": "Hohes Szenario M"
     },
     {
@@ -662,7 +704,7 @@
         ],
         [
           2025,
-          79.78
+          null
         ],
         [
           2026,
@@ -743,8 +785,29 @@
         [
           2045,
           81.69
+        ],
+        [
+          2046,
+          81.77
+        ],
+        [
+          2047,
+          81.83
+        ],
+        [
+          2048,
+          81.89
+        ],
+        [
+          2049,
+          81.94
+        ],
+        [
+          2050,
+          82.01
         ]
       ],
+      "pointStart": 1986,
       "name": "Mittleres Szenario M"
     },
     {
@@ -911,7 +974,7 @@
         ],
         [
           2025,
-          78.79
+          null
         ],
         [
           2026,
@@ -992,8 +1055,29 @@
         [
           2045,
           79.19
+        ],
+        [
+          2046,
+          79.18
+        ],
+        [
+          2047,
+          79.2
+        ],
+        [
+          2048,
+          79.22
+        ],
+        [
+          2049,
+          79.23
+        ],
+        [
+          2050,
+          79.25
         ]
       ],
+      "pointStart": 1986,
       "name": "Tiefes Szenario M"
     },
     {
@@ -1161,7 +1245,7 @@
         ],
         [
           2025,
-          null
+          84.46
         ],
         [
           2026,
@@ -1242,8 +1326,29 @@
         [
           2045,
           null
+        ],
+        [
+          2046,
+          null
+        ],
+        [
+          2047,
+          null
+        ],
+        [
+          2048,
+          null
+        ],
+        [
+          2049,
+          null
+        ],
+        [
+          2050,
+          null
         ]
       ],
+      "pointStart": 1986,
       "name": "Effektiv W"
     },
     {
@@ -1411,7 +1516,7 @@
         ],
         [
           2025,
-          84.52
+          null
         ],
         [
           2026,
@@ -1492,8 +1597,29 @@
         [
           2045,
           86.39
+        ],
+        [
+          2046,
+          86.45
+        ],
+        [
+          2047,
+          86.49
+        ],
+        [
+          2048,
+          86.55
+        ],
+        [
+          2049,
+          86.62
+        ],
+        [
+          2050,
+          86.69
         ]
       ],
+      "pointStart": 1986,
       "name": "Hohes Szenario W"
     },
     {
@@ -1661,7 +1787,7 @@
         ],
         [
           2025,
-          83.76
+          null
         ],
         [
           2026,
@@ -1742,8 +1868,29 @@
         [
           2045,
           85.18
+        ],
+        [
+          2046,
+          85.21
+        ],
+        [
+          2047,
+          85.25
+        ],
+        [
+          2048,
+          85.29
+        ],
+        [
+          2049,
+          85.34
+        ],
+        [
+          2050,
+          85.37
         ]
       ],
+      "pointStart": 1986,
       "name": "Mittleres Szenario W"
     },
     {
@@ -1911,7 +2058,7 @@
         ],
         [
           2025,
-          82.95
+          null
         ],
         [
           2026,
@@ -1992,13 +2139,50 @@
         [
           2045,
           83.62
+        ],
+        [
+          2046,
+          83.63
+        ],
+        [
+          2047,
+          83.64
+        ],
+        [
+          2048,
+          83.67
+        ],
+        [
+          2049,
+          83.7
+        ],
+        [
+          2050,
+          83.72
         ]
       ],
+      "pointStart": 1986,
       "name": "Tiefes Szenario W"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -2006,29 +2190,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-7725",
     "spacingBottom": 40
@@ -2060,28 +2266,12 @@
     "text": "Lebenserwartung bei Geburt: Schweizerinnen und Schweizer"
   },
   "subtitle": {
-    "text": "Bevölkerungsszenarien Basel-Stadt, 2025",
+    "text": "Bevölkerungsszenarien Basel-Stadt, 2026",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
     }
   },
   "yAxis": {
@@ -2117,7 +2307,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -2134,7 +2324,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 31.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 16.7.2026"
   },
   "tooltip": {
     "pointFormatter": function(){

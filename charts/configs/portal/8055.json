@@ -5,7 +5,7 @@
       "data": [
         [
           2000,
-          24.8
+          24.7
         ],
         [
           2001,
@@ -33,7 +33,7 @@
         ],
         [
           2007,
-          21.5
+          21.4
         ],
         [
           2008,
@@ -98,8 +98,13 @@
         [
           2023,
           16
+        ],
+        [
+          2024,
+          16.6
         ]
       ],
+      "pointStart": 2000,
       "name": "Schweiz"
     },
     {
@@ -119,23 +124,23 @@
         ],
         [
           2003,
-          23.5
+          23.8
         ],
         [
           2004,
-          20.9
+          21.2
         ],
         [
           2005,
-          20.3
+          20.6
         ],
         [
           2006,
-          20.5
+          20.8
         ],
         [
           2007,
-          19.2
+          19.5
         ],
         [
           2008,
@@ -200,8 +205,13 @@
         [
           2023,
           17.8
+        ],
+        [
+          2024,
+          16.4
         ]
       ],
+      "pointStart": 2000,
       "name": "Deutschland"
     },
     {
@@ -233,7 +243,7 @@
         ],
         [
           2006,
-          23.3
+          23.4
         ],
         [
           2007,
@@ -302,8 +312,13 @@
         [
           2023,
           19.7
+        ],
+        [
+          2024,
+          19.6
         ]
       ],
+      "pointStart": 2000,
       "name": "Italien"
     },
     {
@@ -331,7 +346,7 @@
         ],
         [
           2005,
-          31
+          30.9
         ],
         [
           2006,
@@ -339,15 +354,15 @@
         ],
         [
           2007,
-          30.9
-        ],
-        [
-          2008,
           30.8
         ],
         [
+          2008,
+          30.7
+        ],
+        [
           2009,
-          27.7
+          27.6
         ],
         [
           2010,
@@ -355,7 +370,7 @@
         ],
         [
           2011,
-          27.7
+          27.8
         ],
         [
           2012,
@@ -404,8 +419,13 @@
         [
           2023,
           21
+        ],
+        [
+          2024,
+          22.1
         ]
       ],
+      "pointStart": 2000,
       "name": "Türkei"
     },
     {
@@ -421,15 +441,15 @@
         ],
         [
           2002,
-          24.7
+          24.8
         ],
         [
           2003,
-          24.2
+          24.1
         ],
         [
           2004,
-          24.1
+          24.2
         ],
         [
           2005,
@@ -445,7 +465,7 @@
         ],
         [
           2008,
-          27.6
+          27.5
         ],
         [
           2009,
@@ -506,8 +526,13 @@
         [
           2023,
           22.9
+        ],
+        [
+          2024,
+          21.7
         ]
       ],
+      "pointStart": 2000,
       "name": "EU-West + EFTA + UK"
     },
     {
@@ -515,7 +540,7 @@
       "data": [
         [
           2000,
-          37.1
+          36.7
         ],
         [
           2001,
@@ -527,7 +552,7 @@
         ],
         [
           2003,
-          30.4
+          30.3
         ],
         [
           2004,
@@ -608,8 +633,13 @@
         [
           2023,
           25
+        ],
+        [
+          2024,
+          24.1
         ]
       ],
+      "pointStart": 2000,
       "name": "EU-Ost"
     },
     {
@@ -710,8 +740,13 @@
         [
           2023,
           20.3
+        ],
+        [
+          2024,
+          17.5
         ]
       ],
+      "pointStart": 2000,
       "name": "Balkan"
     },
     {
@@ -723,7 +758,7 @@
         ],
         [
           2001,
-          35.8
+          35.9
         ],
         [
           2002,
@@ -739,7 +774,7 @@
         ],
         [
           2005,
-          34.7
+          34.8
         ],
         [
           2006,
@@ -751,7 +786,7 @@
         ],
         [
           2008,
-          31.4
+          31.5
         ],
         [
           2009,
@@ -812,8 +847,13 @@
         [
           2023,
           21.4
+        ],
+        [
+          2024,
+          24.4
         ]
       ],
+      "pointStart": 2000,
       "name": "Mittel- und Südamerika"
     },
     {
@@ -853,7 +893,7 @@
         ],
         [
           2008,
-          32.7
+          32.8
         ],
         [
           2009,
@@ -914,8 +954,13 @@
         [
           2023,
           37.2
+        ],
+        [
+          2024,
+          32.9
         ]
       ],
+      "pointStart": 2000,
       "name": "Arabische Länder"
     },
     {
@@ -927,7 +972,7 @@
         ],
         [
           2001,
-          47.7
+          47.6
         ],
         [
           2002,
@@ -951,11 +996,11 @@
         ],
         [
           2007,
-          41.2
+          41.3
         ],
         [
           2008,
-          46.2
+          46.1
         ],
         [
           2009,
@@ -1016,8 +1061,13 @@
         [
           2023,
           35.6
+        ],
+        [
+          2024,
+          32
         ]
       ],
+      "pointStart": 2000,
       "name": "Afrikanische Länder"
     },
     {
@@ -1053,7 +1103,7 @@
         ],
         [
           2007,
-          28.3
+          28.4
         ],
         [
           2008,
@@ -1118,39 +1168,84 @@
         [
           2023,
           24.1
+        ],
+        [
+          2024,
+          22.1
         ]
       ],
+      "pointStart": 2000,
       "name": "Übrige Länder"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 2
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-8055"
   },
@@ -1184,24 +1279,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 2
   },
   "yAxis": {
     "min": 0,
@@ -1246,41 +1323,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

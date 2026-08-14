@@ -6,444 +6,6 @@
       "data": [
         [
           1,
-          5
-        ],
-        [
-          2,
-          6
-        ],
-        [
-          3,
-          11
-        ],
-        [
-          4,
-          16
-        ],
-        [
-          5,
-          17
-        ],
-        [
-          6,
-          17
-        ],
-        [
-          7,
-          16
-        ],
-        [
-          8,
-          18
-        ],
-        [
-          9,
-          19
-        ],
-        [
-          10,
-          20
-        ],
-        [
-          11,
-          20
-        ],
-        [
-          12,
-          22
-        ],
-        [
-          13,
-          23
-        ],
-        [
-          14,
-          24
-        ],
-        [
-          15,
-          23
-        ],
-        [
-          16,
-          21
-        ],
-        [
-          17,
-          21
-        ],
-        [
-          18,
-          20
-        ],
-        [
-          19,
-          19
-        ],
-        [
-          20,
-          19
-        ],
-        [
-          21,
-          16
-        ],
-        [
-          22,
-          14
-        ],
-        [
-          23,
-          16
-        ],
-        [
-          24,
-          17
-        ],
-        [
-          25,
-          20
-        ],
-        [
-          26,
-          23
-        ],
-        [
-          27,
-          22
-        ],
-        [
-          28,
-          27
-        ],
-        [
-          29,
-          25
-        ],
-        [
-          30,
-          25
-        ],
-        [
-          31,
-          23
-        ],
-        [
-          32,
-          21
-        ],
-        [
-          33,
-          18
-        ],
-        [
-          34,
-          18
-        ],
-        [
-          35,
-          19
-        ],
-        [
-          36,
-          22
-        ],
-        [
-          37,
-          23
-        ],
-        [
-          38,
-          26
-        ],
-        [
-          39,
-          27
-        ],
-        [
-          40,
-          28
-        ],
-        [
-          41,
-          28
-        ],
-        [
-          42,
-          25
-        ],
-        [
-          43,
-          22
-        ],
-        [
-          44,
-          23
-        ],
-        [
-          45,
-          26
-        ],
-        [
-          46,
-          24
-        ],
-        [
-          47,
-          25
-        ],
-        [
-          48,
-          26
-        ],
-        [
-          49,
-          24
-        ],
-        [
-          50,
-          21
-        ],
-        [
-          51,
-          19
-        ],
-        [
-          52,
-          22
-        ],
-        [
-          53,
-          null
-        ]
-      ],
-      "name": "2014 Kumuliert"
-    },
-    {
-      "color": "#7f5f1a",
-      "type": "column",
-      "data": [
-        [
-          1,
-          5
-        ],
-        [
-          2,
-          1
-        ],
-        [
-          3,
-          5
-        ],
-        [
-          4,
-          5
-        ],
-        [
-          5,
-          1
-        ],
-        [
-          6,
-          0
-        ],
-        [
-          7,
-          -1
-        ],
-        [
-          8,
-          2
-        ],
-        [
-          9,
-          1
-        ],
-        [
-          10,
-          1
-        ],
-        [
-          11,
-          0
-        ],
-        [
-          12,
-          2
-        ],
-        [
-          13,
-          1
-        ],
-        [
-          14,
-          1
-        ],
-        [
-          15,
-          0
-        ],
-        [
-          16,
-          -2
-        ],
-        [
-          17,
-          0
-        ],
-        [
-          18,
-          -1
-        ],
-        [
-          19,
-          -1
-        ],
-        [
-          20,
-          0
-        ],
-        [
-          21,
-          -3
-        ],
-        [
-          22,
-          -2
-        ],
-        [
-          23,
-          2
-        ],
-        [
-          24,
-          1
-        ],
-        [
-          25,
-          4
-        ],
-        [
-          26,
-          3
-        ],
-        [
-          27,
-          -1
-        ],
-        [
-          28,
-          5
-        ],
-        [
-          29,
-          -2
-        ],
-        [
-          30,
-          0
-        ],
-        [
-          31,
-          -2
-        ],
-        [
-          32,
-          -1
-        ],
-        [
-          33,
-          -3
-        ],
-        [
-          34,
-          0
-        ],
-        [
-          35,
-          1
-        ],
-        [
-          36,
-          3
-        ],
-        [
-          37,
-          1
-        ],
-        [
-          38,
-          3
-        ],
-        [
-          39,
-          1
-        ],
-        [
-          40,
-          1
-        ],
-        [
-          41,
-          0
-        ],
-        [
-          42,
-          -2
-        ],
-        [
-          43,
-          -3
-        ],
-        [
-          44,
-          1
-        ],
-        [
-          45,
-          3
-        ],
-        [
-          46,
-          -2
-        ],
-        [
-          47,
-          1
-        ],
-        [
-          48,
-          1
-        ],
-        [
-          49,
-          -2
-        ],
-        [
-          50,
-          -3
-        ],
-        [
-          51,
-          -2
-        ],
-        [
-          52,
-          3
-        ],
-        [
-          53,
-          null
-        ]
-      ],
-      "name": "2014 Wöchentlich"
-    },
-    {
-      "color": "#b375ab",
-      "type": "line",
-      "data": [
-        [
-          1,
           4
         ],
         [
@@ -655,10 +217,11 @@
           -15
         ]
       ],
+      "pointStart": 1,
       "name": "2015 Kumuliert"
     },
     {
-      "color": "#b375ab",
+      "color": "#7f5f1a",
       "type": "column",
       "data": [
         [
@@ -874,10 +437,11 @@
           -2
         ]
       ],
+      "pointStart": 1,
       "name": "2015 Wöchentlich"
     },
     {
-      "color": "#8A8A8A",
+      "color": "#b375ab",
       "type": "line",
       "data": [
         [
@@ -1093,10 +657,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2016 Kumuliert"
     },
     {
-      "color": "#8A8A8A",
+      "color": "#b375ab",
       "type": "column",
       "data": [
         [
@@ -1312,10 +877,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2016 Wöchentlich"
     },
     {
-      "color": "#008AC3",
+      "color": "#8A8A8A",
       "type": "line",
       "data": [
         [
@@ -1531,10 +1097,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2017 Kumuliert"
     },
     {
-      "color": "#008AC3",
+      "color": "#8A8A8A",
       "type": "column",
       "data": [
         [
@@ -1750,10 +1317,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2017 Wöchentlich"
     },
     {
-      "color": "#DC4403",
+      "color": "#008AC3",
       "type": "line",
       "data": [
         [
@@ -1969,10 +1537,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2018 Kumuliert"
     },
     {
-      "color": "#DC4403",
+      "color": "#008AC3",
       "type": "column",
       "data": [
         [
@@ -2188,10 +1757,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2018 Wöchentlich"
     },
     {
-      "color": "#007a2f",
+      "color": "#DC4403",
       "type": "line",
       "data": [
         [
@@ -2407,10 +1977,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2019 Kumuliert"
     },
     {
-      "color": "#007a2f",
+      "color": "#DC4403",
       "type": "column",
       "data": [
         [
@@ -2626,10 +2197,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2019 Wöchentlich"
     },
     {
-      "color": "#FFBB58",
+      "color": "#007a2f",
       "type": "line",
       "data": [
         [
@@ -2845,10 +2417,11 @@
           -25
         ]
       ],
+      "pointStart": 1,
       "name": "2020 Kumuliert"
     },
     {
-      "color": "#FFBB58",
+      "color": "#007a2f",
       "type": "column",
       "data": [
         [
@@ -3064,10 +2637,11 @@
           5
         ]
       ],
+      "pointStart": 1,
       "name": "2020 Wöchentlich"
     },
     {
-      "color": "#A8C3CA",
+      "color": "#FFBB58",
       "type": "line",
       "data": [
         [
@@ -3283,10 +2857,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2021 Kumuliert"
     },
     {
-      "color": "#A8C3CA",
+      "color": "#FFBB58",
       "type": "column",
       "data": [
         [
@@ -3502,10 +3077,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2021 Wöchentlich"
     },
     {
-      "color": "#B00000",
+      "color": "#A8C3CA",
       "type": "line",
       "data": [
         [
@@ -3721,10 +3297,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2022 Kumuliert"
     },
     {
-      "color": "#B00000",
+      "color": "#A8C3CA",
       "type": "column",
       "data": [
         [
@@ -3940,10 +3517,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2022 Wöchentlich"
     },
     {
-      "color": "#246370",
+      "color": "#B00000",
       "type": "line",
       "data": [
         [
@@ -4159,7 +3737,448 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2023 Kumuliert"
+    },
+    {
+      "color": "#B00000",
+      "type": "column",
+      "data": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          -2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          -2
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          12,
+          -2
+        ],
+        [
+          13,
+          -4
+        ],
+        [
+          14,
+          -3
+        ],
+        [
+          15,
+          -2
+        ],
+        [
+          16,
+          -3
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          19,
+          -1
+        ],
+        [
+          20,
+          -1
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          24,
+          3
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          26,
+          -4
+        ],
+        [
+          27,
+          -1
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          29,
+          -2
+        ],
+        [
+          30,
+          -2
+        ],
+        [
+          31,
+          2
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          33,
+          -5
+        ],
+        [
+          34,
+          -1
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          36,
+          -2
+        ],
+        [
+          37,
+          -4
+        ],
+        [
+          38,
+          3
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          40,
+          -1
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          44,
+          0
+        ],
+        [
+          45,
+          -3
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          47,
+          -1
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          49,
+          -1
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          51,
+          4
+        ],
+        [
+          52,
+          -1
+        ],
+        [
+          53,
+          null
+        ]
+      ],
+      "pointStart": 1,
+      "name": "2023 Wöchentlich"
+    },
+    {
+      "color": "#246370",
+      "type": "line",
+      "data": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          -2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          9,
+          -1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          18,
+          -1
+        ],
+        [
+          19,
+          -1
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          -1
+        ],
+        [
+          25,
+          -3
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          30,
+          1
+        ],
+        [
+          31,
+          -1
+        ],
+        [
+          32,
+          -3
+        ],
+        [
+          33,
+          -1
+        ],
+        [
+          34,
+          -4
+        ],
+        [
+          35,
+          -4
+        ],
+        [
+          36,
+          -3
+        ],
+        [
+          37,
+          -3
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          39,
+          -4
+        ],
+        [
+          40,
+          -2
+        ],
+        [
+          41,
+          -4
+        ],
+        [
+          42,
+          -3
+        ],
+        [
+          43,
+          -3
+        ],
+        [
+          44,
+          -4
+        ],
+        [
+          45,
+          -2
+        ],
+        [
+          46,
+          -2
+        ],
+        [
+          47,
+          -6
+        ],
+        [
+          48,
+          -9
+        ],
+        [
+          49,
+          -13
+        ],
+        [
+          50,
+          -11
+        ],
+        [
+          51,
+          -14
+        ],
+        [
+          52,
+          -11
+        ],
+        [
+          53,
+          null
+        ]
+      ],
+      "pointStart": 1,
+      "name": "2024 Kumuliert"
     },
     {
       "color": "#246370",
@@ -4167,446 +4186,6 @@
       "data": [
         [
           1,
-          0
-        ],
-        [
-          2,
-          1
-        ],
-        [
-          3,
-          -1
-        ],
-        [
-          4,
-          0
-        ],
-        [
-          5,
-          -3
-        ],
-        [
-          6,
-          1
-        ],
-        [
-          7,
-          -2
-        ],
-        [
-          8,
-          2
-        ],
-        [
-          9,
-          2
-        ],
-        [
-          10,
-          -2
-        ],
-        [
-          11,
-          0
-        ],
-        [
-          12,
-          -2
-        ],
-        [
-          13,
-          -4
-        ],
-        [
-          14,
-          -3
-        ],
-        [
-          15,
-          -2
-        ],
-        [
-          16,
-          -3
-        ],
-        [
-          17,
-          1
-        ],
-        [
-          18,
-          0
-        ],
-        [
-          19,
-          -1
-        ],
-        [
-          20,
-          -1
-        ],
-        [
-          21,
-          0
-        ],
-        [
-          22,
-          3
-        ],
-        [
-          23,
-          2
-        ],
-        [
-          24,
-          3
-        ],
-        [
-          25,
-          0
-        ],
-        [
-          26,
-          -4
-        ],
-        [
-          27,
-          -1
-        ],
-        [
-          28,
-          2
-        ],
-        [
-          29,
-          -2
-        ],
-        [
-          30,
-          -2
-        ],
-        [
-          31,
-          2
-        ],
-        [
-          32,
-          0
-        ],
-        [
-          33,
-          -5
-        ],
-        [
-          34,
-          -1
-        ],
-        [
-          35,
-          2
-        ],
-        [
-          36,
-          -2
-        ],
-        [
-          37,
-          -4
-        ],
-        [
-          38,
-          3
-        ],
-        [
-          39,
-          0
-        ],
-        [
-          40,
-          -1
-        ],
-        [
-          41,
-          0
-        ],
-        [
-          42,
-          0
-        ],
-        [
-          43,
-          1
-        ],
-        [
-          44,
-          0
-        ],
-        [
-          45,
-          -3
-        ],
-        [
-          46,
-          0
-        ],
-        [
-          47,
-          -1
-        ],
-        [
-          48,
-          1
-        ],
-        [
-          49,
-          -1
-        ],
-        [
-          50,
-          2
-        ],
-        [
-          51,
-          4
-        ],
-        [
-          52,
-          -1
-        ],
-        [
-          53,
-          null
-        ]
-      ],
-      "name": "2023 Wöchentlich"
-    },
-    {
-      "color": "#923f8d",
-      "type": "line",
-      "visible": true,
-      "data": [
-        [
-          1,
-          -1
-        ],
-        [
-          2,
-          -1
-        ],
-        [
-          3,
-          -3
-        ],
-        [
-          4,
-          -2
-        ],
-        [
-          5,
-          0
-        ],
-        [
-          6,
-          -2
-        ],
-        [
-          7,
-          2
-        ],
-        [
-          8,
-          3
-        ],
-        [
-          9,
-          -1
-        ],
-        [
-          10,
-          1
-        ],
-        [
-          11,
-          1
-        ],
-        [
-          12,
-          1
-        ],
-        [
-          13,
-          1
-        ],
-        [
-          14,
-          2
-        ],
-        [
-          15,
-          1
-        ],
-        [
-          16,
-          1
-        ],
-        [
-          17,
-          1
-        ],
-        [
-          18,
-          0
-        ],
-        [
-          19,
-          -1
-        ],
-        [
-          20,
-          3
-        ],
-        [
-          21,
-          1
-        ],
-        [
-          22,
-          4
-        ],
-        [
-          23,
-          2
-        ],
-        [
-          24,
-          0
-        ],
-        [
-          25,
-          -2
-        ],
-        [
-          26,
-          1
-        ],
-        [
-          27,
-          3
-        ],
-        [
-          28,
-          1
-        ],
-        [
-          29,
-          2
-        ],
-        [
-          30,
-          3
-        ],
-        [
-          31,
-          1
-        ],
-        [
-          32,
-          -2
-        ],
-        [
-          33,
-          0
-        ],
-        [
-          34,
-          -3
-        ],
-        [
-          35,
-          -3
-        ],
-        [
-          36,
-          -2
-        ],
-        [
-          37,
-          -2
-        ],
-        [
-          38,
-          1
-        ],
-        [
-          39,
-          -3
-        ],
-        [
-          40,
-          -1
-        ],
-        [
-          41,
-          -2
-        ],
-        [
-          42,
-          -2
-        ],
-        [
-          43,
-          -1
-        ],
-        [
-          44,
-          -2
-        ],
-        [
-          45,
-          -1
-        ],
-        [
-          46,
-          0
-        ],
-        [
-          47,
-          -5
-        ],
-        [
-          48,
-          -7
-        ],
-        [
-          49,
-          -11
-        ],
-        [
-          50,
-          -10
-        ],
-        [
-          51,
-          -13
-        ],
-        [
-          52,
-          -9
-        ],
-        [
-          53,
-          null
-        ]
-      ],
-      "name": "2024 Kumuliert"
-    },
-    {
-      "color": "#923f8d",
-      "type": "column",
-      "visible": true,
-      "data": [
-        [
-          1,
           -1
         ],
         [
@@ -4735,7 +4314,7 @@
         ],
         [
           33,
-          1
+          2
         ],
         [
           34,
@@ -4803,7 +4382,7 @@
         ],
         [
           50,
-          0
+          1
         ],
         [
           51,
@@ -4818,10 +4397,11 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2024 Wöchentlich"
     },
     {
-      "color": "#FF8028",
+      "color": "#923f8d",
       "type": "line",
       "visible": true,
       "data": [
@@ -4855,11 +4435,11 @@
         ],
         [
           8,
-          -8
+          -7
         ],
         [
           9,
-          -10
+          -9
         ],
         [
           10,
@@ -4871,177 +4451,178 @@
         ],
         [
           12,
-          -11
+          -10
         ],
         [
           13,
-          -15
+          -13
         ],
         [
           14,
-          -16
+          -13
         ],
         [
           15,
-          -16
+          -13
         ],
         [
           16,
-          -17
+          -15
         ],
         [
           17,
-          -18
+          -14
         ],
         [
           18,
-          -20
+          -15
         ],
         [
           19,
-          -22
+          -17
         ],
         [
           20,
-          -23
+          -19
         ],
         [
           21,
-          -23
+          -18
         ],
         [
           22,
-          -26
+          -20
         ],
         [
           23,
-          -27
+          -21
         ],
         [
           24,
-          -28
+          -22
         ],
         [
           25,
-          -27
+          -21
         ],
         [
           26,
-          -27
+          -20
         ],
         [
           27,
-          -30
+          -23
         ],
         [
           28,
-          -30
+          -23
         ],
         [
           29,
-          -30
+          -21
         ],
         [
           30,
-          -32
+          -23
         ],
         [
           31,
-          -32
+          -22
         ],
         [
           32,
-          -33
+          -23
         ],
         [
           33,
-          -36
+          -26
         ],
         [
           34,
-          null
+          -26
         ],
         [
           35,
-          null
+          -30
         ],
         [
           36,
-          null
+          -29
         ],
         [
           37,
-          null
+          -25
         ],
         [
           38,
-          null
+          -27
         ],
         [
           39,
-          null
+          -21
         ],
         [
           40,
-          null
+          -23
         ],
         [
           41,
-          null
+          -22
         ],
         [
           42,
-          null
+          -23
         ],
         [
           43,
-          null
+          -22
         ],
         [
           44,
-          null
+          -22
         ],
         [
           45,
-          null
+          -24
         ],
         [
           46,
-          null
+          -26
         ],
         [
           47,
-          null
+          -23
         ],
         [
           48,
-          null
+          -20
         ],
         [
           49,
-          null
+          -15
         ],
         [
           50,
-          null
+          -15
         ],
         [
           51,
-          null
+          -17
         ],
         [
           52,
-          null
+          -20
         ],
         [
           53,
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2025 Kumuliert"
     },
     {
-      "color": "#FF8028",
+      "color": "#923f8d",
       "type": "column",
       "visible": true,
       "data": [
@@ -5075,7 +4656,7 @@
         ],
         [
           8,
-          -3
+          -2
         ],
         [
           9,
@@ -5095,11 +4676,11 @@
         ],
         [
           13,
-          -4
+          -3
         ],
         [
           14,
-          -1
+          0
         ],
         [
           15,
@@ -5111,7 +4692,7 @@
         ],
         [
           17,
-          -1
+          1
         ],
         [
           18,
@@ -5127,7 +4708,7 @@
         ],
         [
           21,
-          0
+          1
         ],
         [
           22,
@@ -5135,7 +4716,7 @@
         ],
         [
           23,
-          -2
+          -1
         ],
         [
           24,
@@ -5147,7 +4728,7 @@
         ],
         [
           26,
-          -1
+          0
         ],
         [
           27,
@@ -5159,7 +4740,7 @@
         ],
         [
           29,
-          -1
+          1
         ],
         [
           30,
@@ -5167,7 +4748,7 @@
         ],
         [
           31,
-          -1
+          0
         ],
         [
           32,
@@ -5175,7 +4756,228 @@
         ],
         [
           33,
+          -3
+        ],
+        [
+          34,
+          -1
+        ],
+        [
+          35,
           -4
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          37,
+          3
+        ],
+        [
+          38,
+          -2
+        ],
+        [
+          39,
+          5
+        ],
+        [
+          40,
+          -2
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          42,
+          -2
+        ],
+        [
+          43,
+          1
+        ],
+        [
+          44,
+          -1
+        ],
+        [
+          45,
+          -2
+        ],
+        [
+          46,
+          -2
+        ],
+        [
+          47,
+          2
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          49,
+          4
+        ],
+        [
+          50,
+          0
+        ],
+        [
+          51,
+          -3
+        ],
+        [
+          52,
+          -3
+        ],
+        [
+          53,
+          null
+        ]
+      ],
+      "pointStart": 1,
+      "name": "2025 Wöchentlich"
+    },
+    {
+      "color": "#FF8028",
+      "type": "line",
+      "visible": true,
+      "data": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          6,
+          -3
+        ],
+        [
+          7,
+          -6
+        ],
+        [
+          8,
+          -3
+        ],
+        [
+          9,
+          -2
+        ],
+        [
+          10,
+          -2
+        ],
+        [
+          11,
+          -5
+        ],
+        [
+          12,
+          -5
+        ],
+        [
+          13,
+          -4
+        ],
+        [
+          14,
+          -5
+        ],
+        [
+          15,
+          -7
+        ],
+        [
+          16,
+          -9
+        ],
+        [
+          17,
+          -13
+        ],
+        [
+          18,
+          -12
+        ],
+        [
+          19,
+          -14
+        ],
+        [
+          20,
+          -12
+        ],
+        [
+          21,
+          -13
+        ],
+        [
+          22,
+          -13
+        ],
+        [
+          23,
+          -17
+        ],
+        [
+          24,
+          -18
+        ],
+        [
+          25,
+          -18
+        ],
+        [
+          26,
+          -14
+        ],
+        [
+          27,
+          -11
+        ],
+        [
+          28,
+          -11
+        ],
+        [
+          29,
+          -12
+        ],
+        [
+          30,
+          null
+        ],
+        [
+          31,
+          null
+        ],
+        [
+          32,
+          null
+        ],
+        [
+          33,
+          null
         ],
         [
           34,
@@ -5258,34 +5060,322 @@
           null
         ]
       ],
-      "name": "2025 Wöchentlich"
+      "pointStart": 1,
+      "name": "2026 Kumuliert"
+    },
+    {
+      "color": "#FF8028",
+      "type": "column",
+      "visible": true,
+      "data": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          -3
+        ],
+        [
+          7,
+          -3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          -1
+        ],
+        [
+          11,
+          -2
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          -1
+        ],
+        [
+          15,
+          -1
+        ],
+        [
+          16,
+          -2
+        ],
+        [
+          17,
+          -3
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          -1
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          21,
+          -1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          -4
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          26,
+          5
+        ],
+        [
+          27,
+          3
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          30,
+          null
+        ],
+        [
+          31,
+          null
+        ],
+        [
+          32,
+          null
+        ],
+        [
+          33,
+          null
+        ],
+        [
+          34,
+          null
+        ],
+        [
+          35,
+          null
+        ],
+        [
+          36,
+          null
+        ],
+        [
+          37,
+          null
+        ],
+        [
+          38,
+          null
+        ],
+        [
+          39,
+          null
+        ],
+        [
+          40,
+          null
+        ],
+        [
+          41,
+          null
+        ],
+        [
+          42,
+          null
+        ],
+        [
+          43,
+          null
+        ],
+        [
+          44,
+          null
+        ],
+        [
+          45,
+          null
+        ],
+        [
+          46,
+          null
+        ],
+        [
+          47,
+          null
+        ],
+        [
+          48,
+          null
+        ],
+        [
+          49,
+          null
+        ],
+        [
+          50,
+          null
+        ],
+        [
+          51,
+          null
+        ],
+        [
+          52,
+          null
+        ],
+        [
+          53,
+          null
+        ]
+      ],
+      "pointStart": 1,
+      "name": "2026 Wöchentlich"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 2
+    },
+    "min": 1,
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
           //add and move legend title (get it from series names)
-          this.legend.title
+          var chart = this;
+          var legendTransform =
+            chart.legend.group.element.getAttribute("transform") || "";
+          var match = legendTransform.match(/translate\(([^,)]+)/);
+          var legendGroupX = match ? parseFloat(match[1]) : 0;
+          var xOffset = 5 - legendGroupX;
+          chart.legend.title
             .attr({
               text:
-                this.series[0].name.split(" ").slice(-1).toString()
-                + ':<br>'
-                + this.series[13].name.split(" ").slice(-1).toString()
-                + ' (rechte Skala):'
+                chart.series[0].name.split(" ").slice(-1).toString() +
+                ":<br>" +
+                chart.series[13].name.split(" ").slice(-1).toString() +
+                " (rechte Skala):",
             })
-            .translate(-140, 60);
+            .translate(xOffset, 60);
         }
     },
     "alignThresholds": true,
@@ -5328,26 +5418,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "step": 2
-    },
-    "min": 1,
-    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -5392,20 +5462,21 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": undefined,
       "whiteSpace": "nowrap"
     },
+    "x": 150,
     "y": -70,
-    "width": 325,
+    "width": 350,
     "itemWidth": 54,
     "itemMarginBottom": 5,
     "symbolPadding": 2,
     "labelFormatter": function () {
-        //remove text after year 
+        //remove text after year
         return this.name.split(" ").slice(0, 1).toString();
       },
     "title": {
@@ -5429,41 +5500,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "exporting": {
     "filename": "9023"
