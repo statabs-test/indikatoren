@@ -6,49 +6,50 @@
       "data": [
         [
           "Schweiz",
-          0.366885540432889
+          0.371980722
         ],
         [
           "Deutschland",
-          0.139725080086103
+          0.133005671
         ],
         [
           "Vereinigte Staaten",
-          0.098886421803759
+          0.093469743
         ],
         [
           "Vereinigtes Königreich",
-          0.059858641671893
+          0.060187192
         ],
         [
           "Frankreich",
-          0.036799945761793
+          0.034916316
         ],
         [
           "Italien",
-          0.03046492313429
-        ],
-        [
-          "Niederlande",
-          0.028147595721961
+          0.030756294
         ],
         [
           "Spanien",
-          0.023914981609858
+          0.027060012
+        ],
+        [
+          "Niederlande",
+          0.025731651
         ],
         [
           "Indien",
-          0.011559517957932
+          0.011982525
         ],
         [
           "China, Hongkong, Taiwan",
-          0.010816454516178
+          0.011189067
         ],
         [
           "Übrige Länder",
-          0.192940897303344
+          0.199720807
         ]
       ],
+      "pointStart": 0,
       "turboThreshold": 0
     }
   ],
@@ -63,18 +64,51 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-              }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "zoomType": "xy",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "type": "pie",
     "renderTo": "container-7519"
@@ -116,10 +150,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2025",
     "align": "left"
   },
   "tooltip": {
@@ -140,7 +174,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "legend": {
     "layout": "vertical",

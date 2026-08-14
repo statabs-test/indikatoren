@@ -8,7 +8,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresmittel Basler Index der Konsumentenpreise",
 		"subtitle": "Basis Dezember 1982 = 100",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2024 weiter gestiegen, wenn auch deutlich weniger stark als 2023. Das Jahresmittel liegt neu bei 172,8 Punkten.",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2025 noch etwas weiter gestiegen, wenn auch deutlich weniger stark als 2024. Das Jahresmittel liegt neu bei 173,2 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -34,7 +34,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-07T08:54:46",
+		"aktualisierungsdatum": "2026-01-08T08:51:12",
 		"id": 12544
 	},
 	{
@@ -2793,7 +2793,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat sich von 3,0% im Jahr 2022 auf 3,1% im Jahr 2023 kaum verändert. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) blieb von 3,1% im Jahr 2022 auf 3,2% 2023 ebenfalls fast unverändert. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 2,7% im Jahr 2023 weiterhin unterhalb der Durchschnittsquote.",
+		"lesehilfe": "Die durchschnittliche Arbeitslosenquote in Basel-Stadt hat im Jahr 2025 auf 4,3% zugenommen und ist damit so hoch wie seit 2004 nicht mehr. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) ist 2025 auf 4,5% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt mit 3,6% im Jahr 2025 weiterhin unterhalb der Durchschnittsquote.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2805,7 +2805,7 @@ var indikatorensetData = [
 		],
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
 		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"unterthema": "Arbeitslose",
 		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzelKunde": "WE12",
@@ -2818,7 +2818,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:59:16",
+		"aktualisierungsdatum": "2026-01-09T07:59:24",
 		"id": 8942
 	},
 	{
@@ -3355,8 +3355,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden an der Messstation Feldbergstrasse im Stadtzentrum von Basel 24 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 3 Tropennächte verzeichnet wurden.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innerstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
+		"lesehilfe": "Im Jahr 2025 wurden an der Messstation St. Johann im Stadtzentrum von Basel 16 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 6 Tropennächte verzeichnet wurden.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
 			"Lufthygieneamt beider Basel",
@@ -3364,7 +3364,7 @@ var indikatorensetData = [
 			"MeteoSchweiz"
 		],
 		"externalLinks": [
-			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0815' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weitere Informationen zum Indikator und den einzelnen Messstationen: <a href = 'https://www.bs.ch/schwerpunkte/umweltbericht-beider-basel/indikatoren-uebersicht/indikator-0815' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -3385,7 +3385,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-21T06:58:48",
+		"aktualisierungsdatum": "2026-04-23T07:42:35",
 		"id": 8958
 	},
 	{

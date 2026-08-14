@@ -13,90 +13,91 @@
       "data": [
         [
           "Altstadt GB",
-          35203
+          35140
         ],
         [
           "Vorstädte",
-          37000
+          35211
         ],
         [
           "Am Ring",
-          32470
+          32238
         ],
         [
           "Breite",
-          13949
+          12245
         ],
         [
           "St. Alban",
-          56425
+          54311
         ],
         [
           "Gundeldingen",
-          9677
+          9558
         ],
         [
           "Bruderholz",
-          62840
+          56723
         ],
         [
           "Bachletten",
-          40109
+          34987
         ],
         [
           "Gotthelf",
-          24995
+          23609
         ],
         [
           "Iselin",
-          10104
+          9031
         ],
         [
           "St. Johann",
-          5660
+          5707
         ],
         [
           "Altstadt KB",
-          8136
+          8562
         ],
         [
           "Clara",
-          6562
+          6316
         ],
         [
           "Wettstein",
-          27051
+          24810
         ],
         [
           "Hirzbrunnen",
-          19494
+          15645
         ],
         [
           "Rosental",
-          1444
+          1674
         ],
         [
           "Matthäus",
-          3292
+          3195
         ],
         [
           "Klybeck",
-          1000
+          1066
         ],
         [
           "Kleinhüning.",
-          2982
+          2906
         ],
         [
           "Riehen",
-          49628
+          45500
         ],
         [
           "Bettingen",
-          67593
+          64991
         ]
       ],
-      "name": "Median 2012",
+      "pointStart": 0,
+      "name": "Median 2013",
       "turboThreshold": 0
     },
     {
@@ -114,90 +115,91 @@
       "data": [
         [
           "Altstadt GB",
-          16200
+          15057
         ],
         [
           "Vorstädte",
-          16200
+          15057
         ],
         [
           "Am Ring",
-          16200
+          15057
         ],
         [
           "Breite",
-          16200
+          15057
         ],
         [
           "St. Alban",
-          16200
+          15057
         ],
         [
           "Gundeldingen",
-          16200
+          15057
         ],
         [
           "Bruderholz",
-          16200
+          15057
         ],
         [
           "Bachletten",
-          16200
+          15057
         ],
         [
           "Gotthelf",
-          16200
+          15057
         ],
         [
           "Iselin",
-          16200
+          15057
         ],
         [
           "St. Johann",
-          16200
+          15057
         ],
         [
           "Altstadt KB",
-          16200
+          15057
         ],
         [
           "Clara",
-          16200
+          15057
         ],
         [
           "Wettstein",
-          16200
+          15057
         ],
         [
           "Hirzbrunnen",
-          16200
+          15057
         ],
         [
           "Rosental",
-          16200
+          15057
         ],
         [
           "Matthäus",
-          16200
+          15057
         ],
         [
           "Klybeck",
-          16200
+          15057
         ],
         [
           "Kleinhüning.",
-          16200
+          15057
         ],
         [
           "Riehen",
-          16200
+          15057
         ],
         [
           "Bettingen",
-          16200
+          15057
         ]
       ],
-      "name": "Median Basel-Stadt 2012",
+      "pointStart": 0,
+      "name": "Median Basel-Stadt 2013",
       "turboThreshold": 0
     },
     {
@@ -213,90 +215,91 @@
       "data": [
         [
           "Altstadt GB",
-          35223
+          31289
         ],
         [
           "Vorstädte",
-          58283
+          55179
         ],
         [
           "Am Ring",
-          48874
+          43489
         ],
         [
           "Breite",
-          15555
+          15166
         ],
         [
           "St. Alban",
-          60625
+          54615
         ],
         [
           "Gundeldingen",
-          18508
+          17519
         ],
         [
           "Bruderholz",
-          69646
+          63258
         ],
         [
           "Bachletten",
-          52646
+          45123
         ],
         [
           "Gotthelf",
-          34030
+          29481
         ],
         [
           "Iselin",
-          11583
+          10797
         ],
         [
           "St. Johann",
-          12561
+          11593
         ],
         [
           "Altstadt KB",
-          15410
+          15135
         ],
         [
           "Clara",
-          11000
+          10986
         ],
         [
           "Wettstein",
-          41212
+          34801
         ],
         [
           "Hirzbrunnen",
-          19514
+          18609
         ],
         [
           "Rosental",
-          7993
+          7505
         ],
         [
           "Matthäus",
-          9150
+          8832
         ],
         [
           "Klybeck",
-          3524
+          3388
         ],
         [
           "Kleinhüning.",
-          3421
+          3345
         ],
         [
           "Riehen",
-          63688
+          51586
         ],
         [
           "Bettingen",
-          109873
+          83140
         ]
       ],
-      "name": "Median 2021",
+      "pointStart": 0,
+      "name": "Median 2022",
       "turboThreshold": 0
     },
     {
@@ -314,90 +317,91 @@
       "data": [
         [
           "Altstadt GB",
-          23369
+          21084
         ],
         [
           "Vorstädte",
-          23369
+          21084
         ],
         [
           "Am Ring",
-          23369
+          21084
         ],
         [
           "Breite",
-          23369
+          21084
         ],
         [
           "St. Alban",
-          23369
+          21084
         ],
         [
           "Gundeldingen",
-          23369
+          21084
         ],
         [
           "Bruderholz",
-          23369
+          21084
         ],
         [
           "Bachletten",
-          23369
+          21084
         ],
         [
           "Gotthelf",
-          23369
+          21084
         ],
         [
           "Iselin",
-          23369
+          21084
         ],
         [
           "St. Johann",
-          23369
+          21084
         ],
         [
           "Altstadt KB",
-          23369
+          21084
         ],
         [
           "Clara",
-          23369
+          21084
         ],
         [
           "Wettstein",
-          23369
+          21084
         ],
         [
           "Hirzbrunnen",
-          23369
+          21084
         ],
         [
           "Rosental",
-          23369
+          21084
         ],
         [
           "Matthäus",
-          23369
+          21084
         ],
         [
           "Klybeck",
-          23369
+          21084
         ],
         [
           "Kleinhüning.",
-          23369
+          21084
         ],
         [
           "Riehen",
-          23369
+          21084
         ],
         [
           "Bettingen",
-          23369
+          21084
         ]
       ],
-      "name": "Median Basel-Stadt 2021",
+      "pointStart": 0,
+      "name": "Median Basel-Stadt 2022",
       "turboThreshold": 0
     }
   ],
@@ -424,32 +428,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "alignTicks": false,
     "renderTo": "container-6905"
@@ -471,7 +497,7 @@
     "text": "Median des Reinvermögens"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2012 und 2021",
+    "text": "in Franken, Basel-Stadt, 2013 und 2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -527,41 +553,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {},
   "exporting": {

@@ -6,7 +6,7 @@
     "height": "415",
     "spacingBottom": 50,
     "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "backgroundColor": "#ffffff",
     "zoomType": "x",
     "panning": true,
     "panKey": "shift",
@@ -80,10 +80,10 @@
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
+									align: 'right',
 									verticalAlign: 'bottom',
 									x: 0,
-									y: 100
+									y: 41
 								}), null, 'spacingBox');
 								
 								/*add tooltip to legend items
@@ -389,7 +389,7 @@
       "data": [
         [
           1995,
-          87
+          88.9
         ],
         [
           2000,
@@ -397,31 +397,31 @@
         ],
         [
           2004,
-          117.5
+          123.2
         ],
         [
           2010,
-          156
+          168.8
         ],
         [
           2012,
-          171.2
+          187.5
         ],
         [
           2014,
-          193.8
+          209.9
         ],
         [
           2016,
-          212.3
+          228.2
         ],
         [
           2018,
-          243.6
+          262.6
         ],
         [
           2020,
-          249.6
+          256.4
         ]
       ],
       "visible": true
@@ -469,7 +469,7 @@
         ],
         [
           2020,
-          64.9
+          68.2
         ]
       ],
       "visible": true

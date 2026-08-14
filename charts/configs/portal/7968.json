@@ -5,11 +5,11 @@
       "data": [
         [
           "Basel: Agglomeration",
-          5068
+          5010
         ],
         [
           "Basel: Kernstadt",
-          46
+          37
         ],
         [
           "Basel: Übrige Agglomeration CH",
@@ -17,11 +17,11 @@
         ],
         [
           "Basel: Agglomeration D",
-          543
+          560
         ],
         [
           "Basel: Agglomeration F",
-          534
+          468
         ],
         [
           "      ",
@@ -29,15 +29,15 @@
         ],
         [
           "Bern: Agglomeration",
-          7582
+          7583
         ],
         [
           "Bern: Kernstadt",
-          310
+          296
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          7272
+          7287
         ],
         [
           "         ",
@@ -45,19 +45,19 @@
         ],
         [
           "Genf: Agglomeration",
-          5217
+          5255
         ],
         [
           "Genf: Kernstadt",
-          39
+          35
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          3293
+          3370
         ],
         [
           "Genf: Agglomeration F",
-          1885
+          1850
         ],
         [
           "             ",
@@ -65,15 +65,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          4627
+          4581
         ],
         [
           "Lausanne: Kernstadt",
-          125
+          111
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          4502
+          4470
         ],
         [
           "                ",
@@ -81,17 +81,18 @@
         ],
         [
           "Zürich: Agglomeration",
-          9487
+          9527
         ],
         [
           "Zürich: Kernstadt",
-          179
+          186
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          9308
+          9341
         ]
       ],
+      "pointStart": 0,
       "name": "1. Sektor",
       "turboThreshold": 0
     },
@@ -100,23 +101,23 @@
       "data": [
         [
           "Basel: Agglomeration",
-          116978
+          117586
         ],
         [
           "Basel: Kernstadt",
-          33072
+          32976
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          50327
+          51154
         ],
         [
           "Basel: Agglomeration D",
-          26033
+          25856
         ],
         [
           "Basel: Agglomeration F",
-          7546
+          7600
         ],
         [
           "      ",
@@ -124,15 +125,15 @@
         ],
         [
           "Bern: Agglomeration",
-          41512
+          41230
         ],
         [
           "Bern: Kernstadt",
-          14493
+          14551
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          27019
+          26679
         ],
         [
           "         ",
@@ -140,19 +141,19 @@
         ],
         [
           "Genf: Agglomeration",
-          73308
+          73903
         ],
         [
           "Genf: Kernstadt",
-          10302
+          10369
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          46073
+          46916
         ],
         [
           "Genf: Agglomeration F",
-          16933
+          16618
         ],
         [
           "             ",
@@ -160,15 +161,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          39439
+          40436
         ],
         [
           "Lausanne: Kernstadt",
-          6618
+          6509
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          32821
+          33927
         ],
         [
           "                ",
@@ -176,17 +177,18 @@
         ],
         [
           "Zürich: Agglomeration",
-          127674
+          129604
         ],
         [
           "Zürich: Kernstadt",
-          26590
+          27412
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          101084
+          102192
         ]
       ],
+      "pointStart": 0,
       "name": "2. Sektor",
       "turboThreshold": 0
     },
@@ -195,23 +197,23 @@
       "data": [
         [
           "Basel: Agglomeration",
-          357765
+          368764
         ],
         [
           "Basel: Kernstadt",
-          154670
+          161115
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          136188
+          139845
         ],
         [
           "Basel: Agglomeration D",
-          47019
+          47759
         ],
         [
           "Basel: Agglomeration F",
-          19888
+          20045
         ],
         [
           "      ",
@@ -219,15 +221,15 @@
         ],
         [
           "Bern: Agglomeration",
-          282498
+          287870
         ],
         [
           "Bern: Kernstadt",
-          178544
+          182452
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          103954
+          105418
         ],
         [
           "         ",
@@ -235,19 +237,19 @@
         ],
         [
           "Genf: Agglomeration",
-          431422
+          445309
         ],
         [
           "Genf: Kernstadt",
-          177442
+          182727
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          178220
+          187262
         ],
         [
           "Genf: Agglomeration F",
-          75760
+          75320
         ],
         [
           "             ",
@@ -255,15 +257,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          242877
+          249279
         ],
         [
           "Lausanne: Kernstadt",
-          120746
+          124284
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          122131
+          124995
         ],
         [
           "                ",
@@ -271,17 +273,18 @@
         ],
         [
           "Zürich: Agglomeration",
-          887312
+          920211
         ],
         [
           "Zürich: Kernstadt",
-          488226
+          509382
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          399086
+          410829
         ]
       ],
+      "pointStart": 0,
       "name": "3. Sektor",
       "turboThreshold": 0
     }
@@ -310,23 +313,46 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-            }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 513,
     "spacing": [
       10,
@@ -335,7 +361,7 @@
       10
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "column",
@@ -358,11 +384,11 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "2021"
+    "text": "2022"
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -419,7 +445,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "legend": {
     "layout": "horizontal",

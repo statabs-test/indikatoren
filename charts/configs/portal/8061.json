@@ -4,18 +4,6 @@
       "color": "#ffbb58",
       "data": [
         [
-          "2014: Klybeck",
-          2915
-        ],
-        [
-          "2014: Kleinhüningen",
-          935
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Klybeck",
           2878
         ],
@@ -24,7 +12,7 @@
           937
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -36,7 +24,7 @@
           937
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -48,7 +36,7 @@
           935
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -60,7 +48,7 @@
           900
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -72,7 +60,7 @@
           897
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -84,7 +72,7 @@
           900
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -96,7 +84,7 @@
           916
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -108,7 +96,7 @@
           910
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -118,26 +106,27 @@
         [
           "2023: Kleinhüningen",
           936
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          2932
+        ],
+        [
+          "2024: Kleinhüningen",
+          941
         ]
       ],
+      "pointStart": 0,
       "name": "Mietwohnungen",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2014: Klybeck",
-          491
-        ],
-        [
-          "2014: Kleinhüningen",
-          307
-        ],
-        [
-          " ",
-          null
-        ],
         [
           "2015: Klybeck",
           486
@@ -147,7 +136,7 @@
           304
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -159,7 +148,7 @@
           303
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -171,7 +160,7 @@
           300
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -183,7 +172,7 @@
           303
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -195,7 +184,7 @@
           294
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -207,7 +196,7 @@
           281
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -219,7 +208,7 @@
           279
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -231,7 +220,7 @@
           284
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -241,26 +230,27 @@
         [
           "2023: Kleinhüningen",
           289
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          472
+        ],
+        [
+          "2024: Kleinhüningen",
+          292
         ]
       ],
+      "pointStart": 0,
       "name": "Genossenschaftswohnungen",
       "turboThreshold": 0
     },
     {
       "color": "#73B97C",
       "data": [
-        [
-          "2014: Klybeck",
-          80
-        ],
-        [
-          "2014: Kleinhüningen",
-          39
-        ],
-        [
-          " ",
-          null
-        ],
         [
           "2015: Klybeck",
           80
@@ -270,7 +260,7 @@
           40
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -282,7 +272,7 @@
           39
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -294,7 +284,7 @@
           36
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -306,7 +296,7 @@
           36
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -318,7 +308,7 @@
           37
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -330,7 +320,7 @@
           37
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -342,7 +332,7 @@
           37
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -354,7 +344,7 @@
           40
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -364,26 +354,27 @@
         [
           "2023: Kleinhüningen",
           40
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          81
+        ],
+        [
+          "2024: Kleinhüningen",
+          41
         ]
       ],
+      "pointStart": 0,
       "name": "Selbstbewohnte Eigentümerwohnungen",
       "turboThreshold": 0
     },
     {
       "color": "#662673",
       "data": [
-        [
-          "2014: Klybeck",
-          17
-        ],
-        [
-          "2014: Kleinhüningen",
-          8
-        ],
-        [
-          " ",
-          undefined
-        ],
         [
           "2015: Klybeck",
           17
@@ -393,7 +384,7 @@
           7
         ],
         [
-          "  ",
+          " ",
           undefined
         ],
         [
@@ -405,7 +396,7 @@
           6
         ],
         [
-          "   ",
+          "  ",
           undefined
         ],
         [
@@ -417,7 +408,7 @@
           6
         ],
         [
-          "    ",
+          "   ",
           undefined
         ],
         [
@@ -429,7 +420,7 @@
           31
         ],
         [
-          "     ",
+          "    ",
           undefined
         ],
         [
@@ -441,7 +432,7 @@
           30
         ],
         [
-          "      ",
+          "     ",
           undefined
         ],
         [
@@ -453,7 +444,7 @@
           26
         ],
         [
-          "       ",
+          "      ",
           undefined
         ],
         [
@@ -465,7 +456,7 @@
           23
         ],
         [
-          "        ",
+          "       ",
           undefined
         ],
         [
@@ -477,7 +468,7 @@
           35
         ],
         [
-          "         ",
+          "        ",
           undefined
         ],
         [
@@ -487,8 +478,21 @@
         [
           "2023: Kleinhüningen",
           38
+        ],
+        [
+          "         ",
+          undefined
+        ],
+        [
+          "2024: Klybeck",
+          30
+        ],
+        [
+          "2024: Kleinhüningen",
+          37
         ]
       ],
+      "pointStart": 0,
       "name": "Sonstige Wohnungen",
       "turboThreshold": 0
     }
@@ -518,7 +522,7 @@
     "tickInterval": 1
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -526,29 +530,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-8061",
@@ -627,7 +653,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -644,7 +670,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

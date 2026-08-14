@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 2005 bis 2024 stieg der Anteil der ausländischen Personen an der Bevölkerung von 30,4% auf 38,7%.",
+		"lesehilfe": "Von 2006 bis 2025 stieg der Anteil der ausländischen Personen an der Bevölkerung von 31,1% auf 39,2%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:30:00",
+		"aktualisierungsdatum": "2026-01-21T05:07:07",
 		"id": 6057
 	},
 	{
@@ -51,7 +51,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 lebten im Kanton Basel­Stadt 127 101 Schweizerinnen und Schweizer und 79 207 Ausländerinnen und Ausländer.",
+		"lesehilfe": "Ende 2024 lebten im Kanton Basel-Stadt 127 160 Schweizerinnen und Schweizer und 80 355 Ausländerinnen und Ausländer.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -76,7 +76,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:42:57",
+		"aktualisierungsdatum": "2025-11-13T08:45:56",
 		"id": 6058
 	},
 	{
@@ -92,7 +92,7 @@ var indikatorensetData = [
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2023 bilden Deutsche mit 17 472 Personen die grösste ausländische Bevölkerungsgruppe im Kanton.",
+		"lesehilfe": "Ende 2024 bilden Deutsche mit 17 996 Personen die grösste ausländische Bevölkerungsgruppe im Kanton.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -105,7 +105,7 @@ var indikatorensetData = [
 		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "I.01.1.06059",
+		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A1-4",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -117,7 +117,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-04-16T03:13:27",
+		"aktualisierungsdatum": "2025-11-13T08:46:00",
 		"id": 6059
 	},
 	{
@@ -130,8 +130,8 @@ var indikatorensetData = [
 			6645
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 besassen 22,1% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen rund 78% jene eines europäischen Staates.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 besassen 22,4% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen rund 78% jene eines europäischen Staates.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -156,7 +156,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:02",
+		"aktualisierungsdatum": "2025-11-13T08:46:04",
 		"id": 6060
 	},
 	{
@@ -169,8 +169,8 @@ var indikatorensetData = [
 			6646
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Von 11 463 Personen, die Ende 2023 zur Gruppe «Übrige Länder» zählten, bildeten Ukrainerinnen und Ukrainer die grösste Bevölkerungsgruppe.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Von 11 751 Personen, die Ende 2024 zur Gruppe «Übrige Länder» zählten, bildeten Ukrainerinnen und Ukrainer die grösste Bevölkerungsgruppe.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:06",
+		"aktualisierungsdatum": "2025-11-13T08:46:09",
 		"id": 6061
 	},
 	{
@@ -208,8 +208,8 @@ var indikatorensetData = [
 			6647
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 bilden sowohl bei den Frauen als auch bei den Männern Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 bilden sowohl bei den Frauen als auch bei den Männern Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-13T07:03:09",
+		"aktualisierungsdatum": "2025-11-13T08:45:54",
 		"id": 6062
 	},
 	{
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittsalter der Bevölkerung",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2024 45,4 Jahre, jenes der ausländischen Staatsangehörigen 38,0 Jahre.",
+		"lesehilfe": "Das Durchschnittsalter der Schweizer Staatsangehörigen betrug 2025 45,3 Jahre, jenes der ausländischen Staatsangehörigen 38,1 Jahre.",
 		"erlaeuterungen": "Das Durchschnittsalter bezeichnet das arithmetische Mittel des Alters aller Personen einer Bevölkerungsgruppe zu einem bestimmten Zeitpunkt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-22T08:30:03",
+		"aktualisierungsdatum": "2026-01-21T05:07:09",
 		"id": 6063
 	},
 	{
@@ -678,8 +678,8 @@ var indikatorensetData = [
 			6659
 		],
 		"title": "Aufenthaltsdauer der ausländischen Bevölkerung",
-		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2023",
-		"lesehilfe": "Türkische Staatsangehörige weisen 2023 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (23,6 Jahre) als auch für jenen in Basel-Stadt (20,0 Jahre).",
+		"subtitle": "Median in Jahren, nach Staatsangehörigkeit, Basel-Stadt und Schweiz, 2024",
+		"lesehilfe": "Türkische Staatsangehörige weisen 2024 die längste Aufenthaltsdauer (Medianwert) auf. Dies gilt sowohl für ihren Aufenthalt in der gesamten Schweiz (24,0 Jahre) als auch für jenen in Basel-Stadt (20,4 Jahre).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:08",
+		"aktualisierungsdatum": "2025-11-13T08:46:11",
 		"id": 6074
 	},
 	{
@@ -719,7 +719,7 @@ var indikatorensetData = [
 		],
 		"title": "In der Schweiz geborene ausländische Bevölkerung",
 		"subtitle": "Anteil nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Ende 2023 waren jeweils je 24,4% der italienischen Staatsangehörigen und der Personen aus dem Balkan in Basel-Stadt in der Schweiz gebürtig. Bei Personen aus afrikanischen Ländern ist der Anteil in der Schweiz Geborener am stärksten gestiegen: 2004: 9,5% und 2023: 22,5%.",
+		"lesehilfe": "Ende 2024 waren 24,4% der Personen aus dem Balkan und 24,1% der italienischen Staatsangehörigen in Basel-Stadt in der Schweiz gebürtig. Bei Personen aus afrikanischen Ländern ist der Anteil in der Schweiz Geborener am stärksten gestiegen: 2005: 9,2%; 2024: 23,5%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -744,7 +744,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:09",
+		"aktualisierungsdatum": "2025-11-13T08:46:12",
 		"id": 6075
 	},
 	{
@@ -915,7 +915,7 @@ var indikatorensetData = [
 		"title": "Sek P-Quote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Die höchste Quote erreichen im gesamten Beobachtungszeitraum Schülerinnen und Schüler mit deutscher Staatsbürgerschaft.",
-		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2023 in der Grafik entspricht Schuljahr 2023/24.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2024 in der Grafik entspricht Schuljahr 2024/25.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -939,7 +939,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:52",
+		"aktualisierungsdatum": "2025-11-19T09:38:15",
 		"id": 6080
 	},
 	{
@@ -954,7 +954,7 @@ var indikatorensetData = [
 		"title": "Sek P-Quote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Schweizer Schülerinnen und Schüler weisen höhere Quoten auf. Dieser Vorsprung hat sich im Beobachtungszeitraum verringert. Ungeachtet der Staatsangehörigkeit ist die Quote der Schülerinnen höher als jene der Schüler.",
-		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2023 in der Grafik entspricht Schuljahr 2023/24.",
+		"erlaeuterungen": "Seit 2017/18 Anteil der Sek-Schülerinnen und Schüler im Leistungszug P mit hohen Anforderungen an allen Sek-Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Wohnort Basel-Stadt. Bis Schuljahr 2015/16 Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe. Im Übergangsjahr 2016/17 wurde als Hilfskonstrukt für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; das Jahr 2024 in der Grafik entspricht Schuljahr 2024/25.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -978,7 +978,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:53",
+		"aktualisierungsdatum": "2025-11-19T09:38:16",
 		"id": 6081
 	},
 	{
@@ -1154,8 +1154,8 @@ var indikatorensetData = [
 		],
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Mittel der Jahre 2018 bis 2022 (gepoolte Daten) haben 16,3% der Schweizer und 28,2% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"lesehilfe": "Im Mittel der Jahre 2019 bis 2023 (gepoolte Daten) haben 16,0% der Schweizer und 27,2% der ausländischen Staatsangehörigen einen höchsten Abschluss auf Sekundarstufe I.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1180,7 +1180,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:25",
+		"aktualisierungsdatum": "2025-11-03T03:26:05",
 		"id": 6088
 	},
 	{
@@ -1193,9 +1193,9 @@ var indikatorensetData = [
 			6672
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2018 bis 2022",
-		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (70,7%), bei Personen aus der Türkei (13,1%) und vom Balkan (14,0%) am niedrigsten.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2019 bis 2023",
+		"lesehilfe": "Bei Personen aus Deutschland ist der Anteil an Personen mit Tertiärausbildung am höchsten (72,1%), bei Personen aus der Türkei (14,4%) und vom Balkan (13,6%) am niedrigsten.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 wurde verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1219,7 +1219,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:26",
+		"aktualisierungsdatum": "2025-11-19T09:38:17",
 		"id": 6090
 	},
 	{
@@ -1232,9 +1232,9 @@ var indikatorensetData = [
 			6673
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
-		"lesehilfe": "Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (48,7%) und Sekundarstufe I-Ausbildung (28,2%) als Schweizer (sowohl hier geborene wie eingebürgerte).",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Weiter wurde die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2019 bis 2023",
+		"lesehilfe": "Ausländische Staatsangehörige haben einen höheren Anteil an Personen mit Tertiärausbildung (50,3%) und Sekundarstufe I-Ausbildung (27,2%) als Schweizerinnen und Schweizer (sowohl hier geborene wie eingebürgerte).",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 wurde verändert. Somit liegt ein methodischer Bruch innerhalb des Poolingzeitraums vor.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1258,7 +1258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:45",
+		"aktualisierungsdatum": "2025-11-19T09:38:19",
 		"id": 6091
 	},
 	{
@@ -1271,8 +1271,8 @@ var indikatorensetData = [
 			6674
 		],
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2023 und Veränderung seit 2004",
-		"lesehilfe": "Ende 2023 wiesen einige Kleinbasler Wohnviertel (u. a. Rosental 58%) die höchsten und einige Grossbasler Wohnviertel (u. a. Bachletten 24%) die tiefsten Ausländeranteile auf.",
+		"subtitle": "Basel-Stadt, Stand 2024 und Veränderung seit 2005",
+		"lesehilfe": "Ende 2024 wiesen einige Kleinbasler Wohnviertel (u. a. Rosental 58%) die höchsten und einige Grossbasler Wohnviertel (u. a. Bachletten 24%) die tiefsten Ausländeranteile auf.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1297,7 +1297,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:42:59",
+		"aktualisierungsdatum": "2025-11-13T08:45:58",
 		"id": 6398
 	},
 	{
@@ -1310,8 +1310,8 @@ var indikatorensetData = [
 			6675
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2023",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2023 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2024",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2024 entweder Deutsche oder Personen aus der Ländergruppe EU-West + EFTA + UK die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1336,7 +1336,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:00",
+		"aktualisierungsdatum": "2025-11-13T08:46:02",
 		"id": 6399
 	},
 	{
@@ -1349,8 +1349,8 @@ var indikatorensetData = [
 			6676
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Ende 2023 zählten 16 917 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Ende 2024 zählten 17 074 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten spanische und portugiesische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1375,7 +1375,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:03",
+		"aktualisierungsdatum": "2025-11-13T08:46:05",
 		"id": 6400
 	},
 	{
@@ -1388,8 +1388,8 @@ var indikatorensetData = [
 			6677
 		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "Von 6 114 Personen, die Ende 2023 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, rumänische, koratische und ungarische Staatsangehörige die grössten Bevölkerungsgruppen.",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "Von 6 117 Personen, die Ende 2024 zur Ländergruppe «EU-Ost» zählten, bildeten polnische, rumänische, kroatische und ungarische Staatsangehörige die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1414,7 +1414,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:05",
+		"aktualisierungsdatum": "2025-11-13T08:46:07",
 		"id": 6401
 	},
 	{
@@ -1427,9 +1427,9 @@ var indikatorensetData = [
 			6678
 		],
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "Nach Personen mit deutscher oder schweizerischer Staatsangehörigkeit sprechen Personen vom Balkan (43,1%) und aus der Türkei (41,0%) am häufigsten Deutsch als Hauptsprache.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "Nach Personen mit deutscher oder schweizerischer Staatsangehörigkeit sprechen Personen vom Balkan (41,7%) und aus der Türkei (39,8%) am häufigsten Deutsch als Hauptsprache.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1440,7 +1440,7 @@ var indikatorensetData = [
 		],
 		"description": "Anteil Personen mit Hauptsprache Deutsch",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Sprachen",
 		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-1",
@@ -1453,7 +1453,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:20",
+		"aktualisierungsdatum": "2025-11-03T08:34:17",
 		"id": 6402
 	},
 	{
@@ -1466,9 +1466,9 @@ var indikatorensetData = [
 			6679
 		],
 		"title": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15- bis 24-Jährigen (66,9%) am grössten.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15- bis 24-Jährigen (63,6%) am grössten.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1479,7 +1479,7 @@ var indikatorensetData = [
 		],
 		"description": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Sprachen",
 		"kuerzel": "",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-2",
@@ -1492,7 +1492,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:22",
+		"aktualisierungsdatum": "2025-11-03T08:34:18",
 		"id": 6403
 	},
 	{
@@ -1505,9 +1505,9 @@ var indikatorensetData = [
 			6680
 		],
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "79,9% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2018 bis 2022 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 46,1%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "80,1% der eingebürgerten Schweizerinnen und Schweizer gaben im Mittel der Jahre 2019 bis 2023 Deutsch als Hauptsprache an. Bei Ausländerinnen und Ausländern waren es 45,6%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1518,7 +1518,7 @@ var indikatorensetData = [
 		],
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Sprachen",
 		"kuerzel": "I.01.8.06404",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-3",
@@ -1531,7 +1531,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:23",
+		"aktualisierungsdatum": "2025-11-03T08:34:20",
 		"id": 6404
 	},
 	{
@@ -1544,9 +1544,9 @@ var indikatorensetData = [
 			6681
 		],
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "Bei der Arbeit sprechen 95,1% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch. In der Gruppe der Ausländerinnen und Ausländer sind es 74,1%.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2018 bis 2022 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "Bei der Arbeit sprechen 95,0% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch. In der Gruppe der Ausländerinnen und Ausländer sind es 73,9%.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2019 bis 2023 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1557,7 +1557,7 @@ var indikatorensetData = [
 		],
 		"description": "Bei der Arbeit gesprochene Sprachen",
 		"thema": "01 Bevölkerung",
-		"unterthema": "",
+		"unterthema": "Verbrauch",
 		"kuerzel": "I.01.8.06405",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A6-4",
@@ -1570,7 +1570,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-04T09:07:24",
+		"aktualisierungsdatum": "2025-11-19T09:38:13",
 		"id": 6405
 	},
 	{
@@ -1584,8 +1584,8 @@ var indikatorensetData = [
 		],
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizerinnen und Schweizer liegt in Basel-Stadt im Jahresdurchschnitt 2023 bei 2,1% und ist damit gegenüber 2022 um 0,1 Prozentpunkte gesunken. Von den dargestellten Ausländergruppen weisen 2023 Personen aus den arabischen Ländern die höchste (7,6%), Deutsche die tiefste Quote auf (2,6%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppe zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2013-2017 für die Jahre 2013 bis 2017 und Pooling 2018-2022 für die Jahre ab 2018).",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizerinnen und Schweizer liegt in Basel-Stadt im Jahresdurchschnitt 2024 bei 2,6%. Von den dargestellten Ausländergruppen weisen 2024 Personen aus den arabischen Ländern die höchste (9,7%), Deutsche die tiefste Quote auf (3,2%).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppe zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2014-2018 für die Jahre 2014 bis 2018 und Pooling 2019-2023 für die Jahre ab 2019).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1610,7 +1610,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:22",
+		"aktualisierungsdatum": "2025-11-13T08:46:14",
 		"id": 6406
 	},
 	{
@@ -1623,9 +1623,9 @@ var indikatorensetData = [
 			6683
 		],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2003",
-		"lesehilfe": "Im Jahr 2003 war die Arbeitslosenquote der ausländischen Frauen im Durchschnitt tiefer als diejenige der ausländischen Männer in der gleichen Altersgruppe, mit Ausnahme der unter 20-Jährigen. Bei beiden Geschlechtern weisen die jungen Erwachsenen zwischen 20 und 24 Jahren die höchste Arbeitslosenquote auf.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2003 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2004",
+		"lesehilfe": "Im Jahr 2004 war die Arbeitslosenquote der ausländischen Frauen tiefer als diejenige der ausländischen Männer in der gleichen Altersgruppe. Bei beiden Geschlechtern weisen die jungen Erwachsenen zwischen 20 und 24 Jahren die höchste Arbeitslosenquote auf.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2004 wird mit den Erwerbspersonen aus der Volkszählung 2000 berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1650,7 +1650,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:31",
+		"aktualisierungsdatum": "2025-11-13T08:46:25",
 		"id": 6407
 	},
 	{
@@ -1663,9 +1663,9 @@ var indikatorensetData = [
 			6684
 		],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2003",
-		"lesehilfe": "Im Jahr 2003 waren Schweizer Männer aller Altersgruppen, ausser jener der unter 20-Jährigen, stärker von Arbeitslosigkeit betroffen als Schweizer Frauen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2003 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2004",
+		"lesehilfe": "Im Jahr 2004 waren Schweizer Männer aller Altersgruppen, ausser jener der unter 20-Jährigen, stärker von Arbeitslosigkeit betroffen als Schweizer Frauen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2004 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1690,7 +1690,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:28",
+		"aktualisierungsdatum": "2025-11-13T08:46:21",
 		"id": 6408
 	},
 	{
@@ -1703,9 +1703,9 @@ var indikatorensetData = [
 			6685
 		],
 		"title": "Arbeitslosenquote der ausländischen Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2023",
-		"lesehilfe": "Im Jahr 2023 ist die Arbeitslosenquote bei ausländischen Männern in allen Altersgruppen deutlich höher als bei ausländischen Frauen. Am höchsten ist die Quote bei Männern über 60 Jahren.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2023 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2018-2022 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2024",
+		"lesehilfe": "Im Jahr 2024 ist die Arbeitslosenquote bei ausländischen Männern höher als bei ausländischen Frauen der gleichen Altersgruppe, mit Ausnahme der 35- bis 39-Jährigen und der 50- bis 54-Jährigen. Am höchsten ist die Quote bei Männern über 60 Jahren.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2024 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2019-2023 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1730,7 +1730,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:32",
+		"aktualisierungsdatum": "2025-11-13T08:46:27",
 		"id": 6409
 	},
 	{
@@ -1743,9 +1743,9 @@ var indikatorensetData = [
 			6686
 		],
 		"title": "Arbeitslosenquote der Schweizer Staatsangehörigen",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2023",
-		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2023 Männer zwischen 20 und 24 Jahren sowie Frauen unter 20 Jahren am stärksten von Arbeitslosigkeit betroffen. An dritter Stelle kommt die Gruppe der Männer ab 60 Jahren.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2023 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2018-2022 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2024",
+		"lesehilfe": "Bei den Schweizer Staatsangehörigen sind im Jahr 2024 Männer zwischen 20 und 24 Jahren am stärksten von Arbeitslosigkeit betroffen. In allen Altergruppen ist die Arbeitslosenquote der Männer 2024 höher als diejenige der Frauen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2024 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2019-2023 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1770,7 +1770,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:29",
+		"aktualisierungsdatum": "2025-11-13T08:46:23",
 		"id": 6410
 	},
 	{
@@ -1783,8 +1783,8 @@ var indikatorensetData = [
 			6687
 		],
 		"title": "Anteil Arbeitslose in ausgewählten Branchen",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2023",
-		"lesehilfe": "82% der Arbeitslosen im Baugewerbe sind im Jahr 2023 ausländische Staatsangehörige. Auch im Gastgewerbe, in den sonstigen wirtschaftlichen Dienstleistungen (darunter die Vermittlung von Arbeitskräften und die Gebäudereinigung) und im Bereich Verkehr und Lagerei liegt der Anteil ausländischer Arbeitsloser über 60%. Den tiefsten Ausländeranteil weisen Arbeitslose im Bereich Bildung, Gesundheitswesen (45,5%) auf.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2024",
+		"lesehilfe": "82,1% der Arbeitslosen im Baugewerbe sind im Jahr 2024 ausländische Staatsangehörige. Den tiefsten Ausländeranteil weisen Arbeitslose in der Branche Banken, Versicherungen (47,4%) sowie im Bereich Bildung, Gesundheitswesen (47,7%) auf.",
 		"erlaeuterungen": "Die Branchen basieren auf der Nomenklatur NOGA 2008. Rund 5% der Arbeitslosen können keiner Branche zugeteilt werden.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1809,7 +1809,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:23",
+		"aktualisierungsdatum": "2025-11-13T08:46:16",
 		"id": 6411
 	},
 	{
@@ -1823,7 +1823,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl monatlich ausgesteuerte Schweizer Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden monatlich zwischen 7 und 36 Schweizer Frauen und zwischen 9 und 24 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"lesehilfe": "Im Jahr 2024 wurden monatlich zwischen 11 und 25 Schweizer Frauen und zwischen 13 und 26 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert.",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden. Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1848,7 +1848,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:25",
+		"aktualisierungsdatum": "2025-11-13T08:46:18",
 		"id": 6412
 	},
 	{
@@ -1862,7 +1862,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl monatlich ausgesteuerte ausländische Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden monatlich zwischen 13 und 32 ausländische Frauen und zwischen 17 und 49 ausländische Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"lesehilfe": "Im Jahr 2024 wurden monatlich zwischen 6 und 26 ausländische Frauen und zwischen 25 und 45 ausländische Männer von der Arbeitslosenversicherung ausgesteuert.",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden. Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 sowie zwischen März und Mai 2021 keine Arbeitslosen ausgesteuert.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -1887,7 +1887,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:26",
+		"aktualisierungsdatum": "2025-11-13T08:46:20",
 		"id": 6413
 	},
 	{
@@ -1901,8 +1901,8 @@ var indikatorensetData = [
 		],
 		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Beobachtungszeitraum haben sich die Erwerbstätigenquoten der Männer und Frauen angeglichen. Im Mittel der Jahre 2018 bis 2022  gab es zwischen den Schweizerinnen und Schweizern keinen signifikanten Quotenunterschied. Die Ausländer hatten in diesen Jahren eine höhere Erwerbstätigenquote als die Schweizer und die Schweizerinnen eine höhere Quote als die Ausländerinnen.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Im Beobachtungszeitraum haben sich die Erwerbstätigenquoten der Männer und Frauen angeglichen. Im Mittel der Jahre 2019 bis 2023  gab es zwischen den Schweizerinnen und Schweizern keinen signifikanten Quotenunterschied. Die Ausländer hatten in diesen Jahren eine höhere Erwerbstätigenquote als die Schweizer und die Schweizerinnen eine höhere Quote als die Ausländerinnen.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -1927,7 +1927,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-31T10:28:22",
+		"aktualisierungsdatum": "2025-11-13T08:46:29",
 		"id": 6415
 	},
 	{
@@ -1940,9 +1940,9 @@ var indikatorensetData = [
 			6691
 		],
 		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
-		"lesehilfe": "Personen mit deutscher Staatsangehörigkeit weisen mit 84,2% (Konfidenzintervall:  82,5% bis 85,9%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, dem Balkan, arabischen und afrikanischen Ländern beobachtbar.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2019 bis 2023",
+		"lesehilfe": "Personen mit deutscher Staatsangehörigkeit weisen mit 84,3% (Konfidenzintervall:  82,6% bis 86,0%) die höchste Erwerbstätigenquote auf. Vergleichsweise tiefe Quoten sind bei Personen aus der Türkei, dem Balkan, arabischen und afrikanischen Ländern beobachtbar.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -1966,7 +1966,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:48",
+		"aktualisierungsdatum": "2025-11-13T08:46:32",
 		"id": 6416
 	},
 	{
@@ -1979,9 +1979,9 @@ var indikatorensetData = [
 			6692
 		],
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2019 bis 2023",
 		"lesehilfe": "Die Erwerbstätigenquote von Schweizern ist bei den über 55-Jährigen höher als bei den ausländischen Männern. In den jüngeren Altersgruppen sind die Erwerbstätigenquoten der Schweizer und der ausländischen Männer nicht signifikant verschieden voneinander (überlappende Konfidenzintervalle).",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2018 bis 2022 einen methodischen Bruch.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -2005,7 +2005,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:49",
+		"aktualisierungsdatum": "2025-11-13T08:46:34",
 		"id": 6417
 	},
 	{
@@ -2019,8 +2019,8 @@ var indikatorensetData = [
 		],
 		"title": "Erwerbsquote der 15- bis 64-Jährigen",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2018 bis 2022 liegen die Quoten der Schweizer (77,8%) und Schweizerinnen (74,3%) näher zusammen als diejenigen der Ausländer (83,9%) und Ausländerinnen (72,2%).",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2018 bis 2022 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2019 bis 2023 liegen die Quoten der Schweizer (78,1%) und Schweizerinnen (74,4%) näher zusammen als diejenigen der Ausländer (84,2%) und Ausländerinnen (73,1%).",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2019 bis 2023 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -2045,7 +2045,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-06-06T09:20:47",
+		"aktualisierungsdatum": "2025-11-13T08:46:30",
 		"id": 6418
 	},
 	{
@@ -2648,7 +2648,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2021 weisen die rund 2 800 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 176 500 Franken) auf. Die ungefähr 3 200 Veranlagungen von türkischen Staatsangehörigen weisen mit ca. 39 300 Franken den niedrigsten Mittelwert auf.",
+		"lesehilfe": "2022 weisen die rund 2 800 Veranlagungen von Personen aus «Übrige Länder» den höchsten Mittelwert des Reineinkommens (ca. 173  600 Franken) auf.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2673,7 +2673,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:34",
+		"aktualisierungsdatum": "2025-11-03T03:26:11",
 		"id": 6468
 	},
 	{
@@ -2687,7 +2687,7 @@ var indikatorensetData = [
 		],
 		"title": "Median des Reineinkommens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2021 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 85 900 Franken; rund 2 800 Veranlagungen), der tiefste bei jenen aus der Türkei (ca. 31 700 Franken;  rund 3 200 Veranlagungen).",
+		"lesehilfe": "2022 liegt der höchste Median des Reineinkommens bei Veranlagungen von Personen aus «Übrige Länder» vor (ca. 91 100 Franken; rund 2 800 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2712,7 +2712,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:35",
+		"aktualisierungsdatum": "2025-11-03T03:26:13",
 		"id": 6469
 	},
 	{
@@ -2725,8 +2725,8 @@ var indikatorensetData = [
 			6711
 		],
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2021",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2021 Personen aus Kanada auf, der Wert beträgt rund 670 000 Franken. Von ihnen liegen für dieses Steuerjahr126 Veranlagungen vor.",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2022",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2022 Personen aus China auf, der Wert beträgt rund 404 000 Franken. Von ihnen liegen für dieses Steuerjahr140 Veranlagungen vor.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2751,7 +2751,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:37",
+		"aktualisierungsdatum": "2025-11-03T03:26:14",
 		"id": 6470
 	},
 	{
@@ -2765,7 +2765,7 @@ var indikatorensetData = [
 		],
 		"title": "Mittelwert des Reinvermögens pro Veranlagung",
 		"subtitle": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2021 für die Gruppe der Schweizer vor. Er beträgt rund 760 000 Franken pro Veranlagung. Den niedrigsten Wert verzeichnen 2021 Personen aus den Balkanländern mit rund 20 000 Franken.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt 2022 für die Gruppe der Schweizer vor. Er beträgt rund 680 100 Franken pro Veranlagung.",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -2790,7 +2790,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-25T08:52:39",
+		"aktualisierungsdatum": "2025-11-03T03:26:16",
 		"id": 6471
 	},
 	{
@@ -2882,10 +2882,10 @@ var indikatorensetData = [
 			8339,
 			8610
 		],
-		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit",
+		"title": "Quote der Haushalte mit Mietbeiträgen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende des Jahres 2024 Familienmietzinsbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,2% auf. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsangehörigkeit bestehen, liegt die Quote bei 1,1%.",
-		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
+		"lesehilfe": "2,2% der Haushalte erhalten Ende des Jahres 2025 Mietbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,6% auf. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsangehörigkeit bestehen, liegt die Quote bei 1,1%.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Mietbeiträgen entspricht dem Verhältnis der Anzahl Haushalte mit Mietbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres. Per 1. Juli 2025 trat das totalrevidierte Mietbeitragsgesetz in Kraft. Unter anderem wurde der Kreis der Anspruchsberechtigten auf Haushalte ohne Kinder erweitert. Die Beiträge werden seither allgemein als Mietbeiträge (MB) bezeichnet. Davor hiessen sie Familienmietzinsbeiträge (FAMI).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -2894,7 +2894,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit",
+		"description": "Quote der Haushalte mit Mietbeiträgen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.6474",
@@ -2909,7 +2909,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-12T03:17:30",
+		"aktualisierungsdatum": "2026-08-13T04:44:52",
 		"id": 6474
 	},
 	{
@@ -3030,7 +3030,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:18",
+		"aktualisierungsdatum": "2025-11-03T03:26:18",
 		"id": 6477
 	},
 	{
@@ -3161,8 +3161,8 @@ var indikatorensetData = [
 			6722
 		],
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2013 bis 2022",
-		"lesehilfe": "Im Jahr 2022 waren in Basel-Stadt 44% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 19% waren Schweizer mit Migrationshintergrund, 35% Ausländer der ersten und 3% Ausländer der zweiten Generation. Der Anteil der Ausländer der dritten Generation war 0%.",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2014 bis 2023",
+		"lesehilfe": "Im Jahr 2023 waren in Basel-Stadt 43% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. 19% waren Schweizer mit Migrationshintergrund, 36% Ausländer der ersten und 2% Ausländer der zweiten Generation. Der Anteil der Ausländer der dritten Generation war 0%.",
 		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -3187,7 +3187,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-10-17T08:49:33",
+		"aktualisierungsdatum": "2025-11-03T03:26:20",
 		"id": 6481
 	},
 	{
@@ -3201,7 +3201,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,3 mindestens einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2025 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 6,9 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3227,7 +3227,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:23",
+		"aktualisierungsdatum": "2026-03-25T03:47:48",
 		"id": 6482
 	},
 	{
@@ -3563,8 +3563,8 @@ var indikatorensetData = [
 		],
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "2020 leisten 19,7% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit. Bei ausländischen Staatsangehörigen sind es 3,7%.",
-		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
+		"lesehilfe": "2024 leisten 24,3% der Schweizer Staatsangehörigen institutionalisierte Freiwilligenarbeit. Bei ausländischen Staatsangehörigen sind es 10,6%.",
+		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 und der SAKE 2024 überarbeitet, weshalb es einen Reihenbruch zwischen 2013 und 2016 als auch zwischen 2020 und 2024 gibt und Zeitvergleiche deshalb nur bedingt möglich sind. Aufgrund der kleinen Stichprobe (2024 rund 300 Personen) sollten die Ergebnisse mit Vorsicht interpretiert werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
@@ -3588,7 +3588,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-04T04:07:07",
+		"aktualisierungsdatum": "2025-12-03T08:34:38",
 		"id": 6492
 	},
 	{
@@ -3601,8 +3601,8 @@ var indikatorensetData = [
 			6733
 		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2013",
-		"lesehilfe": "2013 wiesen Schweizer Staatsangehörige den höchsten Anteil an Evangelisch-Reformierten auf (22,6%). Italienische Staatsangehörige hatten mit 22,5% den höchsten Anteil an römisch-katholischen Religionszugehörigen. Mit 99,9% bildeten türkische Staatsangehörige die grösste Gruppe in der Kategorie «Andere/ohne/unbekannt».",
+		"subtitle": "Basel-Stadt, 2014",
+		"lesehilfe": "2014 wiesen Schweizer Staatsangehörige den höchsten Anteil an Evangelisch-Reformierten auf (22,0%). Personen aus EU-Ost-Staaten hatten mit 24,5% den höchsten Anteil an römisch-katholischen Religionszugehörigen. Mit 99,9% bildeten türkische Staatsangehörige die grösste Gruppe in der Kategorie «Andere/ohne/unbekannt».",
 		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3627,7 +3627,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:10",
+		"aktualisierungsdatum": "2025-11-13T08:46:36",
 		"id": 6493
 	},
 	{
@@ -3640,8 +3640,8 @@ var indikatorensetData = [
 			6734
 		],
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2023",
-		"lesehilfe": "2023 weisen Schweizer Staatsangehörige den grössten Anteil an Evangelisch-Reformierten auf (16,9%). Den höchsten Anteil an römisch-katholischen Personen haben italienische Staatsangehörige (15,5%). Türkinnen und Türken haben mit 99,9% den grössten Anteil in der Kategorie «Andere/ohne/unbekannt».",
+		"subtitle": "Basel-Stadt, 2024",
+		"lesehilfe": "2024 weisen Schweizer Staatsangehörige den grössten Anteil an Evangelisch-Reformierten auf (16,5%). Den höchsten Anteil an römisch-katholischen Personen haben italienische Staatsangehörige (15,2%). Türkinnen und Türken haben mit 99,8% den grössten Anteil in der Kategorie «Andere/ohne/unbekannt».",
 		"erlaeuterungen": "Seit 2015 werden nur noch öffentlich-rechtlich anerkannte Religionen erfasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3666,7 +3666,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-12T02:43:14",
+		"aktualisierungsdatum": "2025-11-13T08:46:37",
 		"id": 6494
 	},
 	{

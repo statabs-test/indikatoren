@@ -4,40 +4,40 @@
       "color": "#923F8D",
       "data": [
         [
-          "Bruderholz",
-          0.012
-        ],
-        [
           "Bettingen",
-          0.017
+          0.008
         ],
         [
-          "Altstadt Grossbasel",
-          0.018
-        ],
-        [
-          "Wettstein",
-          0.019
+          "Bruderholz",
+          0.014
         ],
         [
           "Bachletten",
-          0.019
+          0.021
         ],
         [
-          "St. Alban",
+          "Wettstein",
           0.022
         ],
         [
           "Riehen",
-          0.026
+          0.024
+        ],
+        [
+          "St. Alban",
+          0.025
         ],
         [
           "Am Ring",
           0.026
         ],
         [
+          "Altstadt Grossbasel",
+          0.03
+        ],
+        [
           "Gotthelf",
-          0.032
+          0.031
         ],
         [
           "Vorstädte",
@@ -45,11 +45,11 @@
         ],
         [
           "Hirzbrunnen",
-          0.038
+          0.036
         ],
         [
           "Breite",
-          0.04
+          0.043
         ],
         [
           "Gundeldingen",
@@ -57,37 +57,38 @@
         ],
         [
           "Clara",
-          0.053
+          0.052
+        ],
+        [
+          "Rosental",
+          0.054
         ],
         [
           "Altstadt Kleinbasel",
           0.055
         ],
         [
-          "Rosental",
-          0.058
-        ],
-        [
           "St. Johann",
-          0.058
+          0.056
         ],
         [
           "Iselin",
-          0.066
+          0.065
         ],
         [
           "Matthäus",
-          0.077
-        ],
-        [
-          "Klybeck",
-          0.091
+          0.072
         ],
         [
           "Kleinhüningen",
-          0.092
+          0.081
+        ],
+        [
+          "Klybeck",
+          0.093
         ]
       ],
+      "pointStart": 0,
       "name": "Sozialhilfequote",
       "turboThreshold": 0
     },
@@ -95,15 +96,15 @@
       "visible": false,
       "data": [
         [
-          "Bruderholz",
+          "Bettingen",
           1
         ],
         [
-          "Bettingen",
+          "Bruderholz",
           2
         ],
         [
-          "Altstadt Grossbasel",
+          "Bachletten",
           3
         ],
         [
@@ -111,7 +112,7 @@
           4
         ],
         [
-          "Bachletten",
+          "Riehen",
           5
         ],
         [
@@ -119,11 +120,11 @@
           6
         ],
         [
-          "Riehen",
+          "Am Ring",
           7
         ],
         [
-          "Am Ring",
+          "Altstadt Grossbasel",
           8
         ],
         [
@@ -151,11 +152,11 @@
           14
         ],
         [
-          "Altstadt Kleinbasel",
+          "Rosental",
           15
         ],
         [
-          "Rosental",
+          "Altstadt Kleinbasel",
           16
         ],
         [
@@ -171,14 +172,15 @@
           19
         ],
         [
-          "Klybeck",
+          "Kleinhüningen",
           20
         ],
         [
-          "Kleinhüningen",
+          "Klybeck",
           21
         ]
       ],
+      "pointStart": 0,
       "name": "Rang",
       "turboThreshold": 0
     }
@@ -204,27 +206,50 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 45,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "scatter",
@@ -235,7 +260,7 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -245,10 +270,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2026"
   },
   "legend": {
     "enabled": false,

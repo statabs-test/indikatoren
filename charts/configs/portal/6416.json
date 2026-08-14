@@ -11,49 +11,50 @@
       "data": [
         [
           "Schweiz",
-          0.722
+          0.724
         ],
         [
           "Deutschland",
-          0.842
+          0.843
         ],
         [
           "Italien",
-          0.732
+          0.757
         ],
         [
           "Türkei",
-          0.488
+          0.512
         ],
         [
           "EU-West + EFTA + UK",
-          0.788
+          0.79
         ],
         [
           "EU-Ost",
-          0.754
+          0.76
         ],
         [
           "Balkan",
-          0.577
+          0.59
         ],
         [
           "Mittel- und Südamerika",
-          0.745
+          0.75
         ],
         [
           "Arabische Länder",
-          0.495
+          0.484
         ],
         [
           "Afrikanische Länder",
-          0.563
+          0.602
         ],
         [
           "Übrige Länder",
-          0.653
+          0.641
         ]
       ],
+      "pointStart": 0,
       "name": "Erwerbstätigenquote",
       "turboThreshold": 0
     },
@@ -68,61 +69,62 @@
       "data": [
         {
           "name": "Schweiz",
-          "low": 0.714,
-          "high": 0.73
+          "low": 0.716,
+          "high": 0.733
         },
         {
           "name": "Deutschland",
-          "low": 0.825,
-          "high": 0.859
+          "low": 0.826,
+          "high": 0.86
         },
         {
           "name": "Italien",
-          "low": 0.701,
-          "high": 0.764
+          "low": 0.728,
+          "high": 0.787
         },
         {
           "name": "Türkei",
-          "low": 0.447,
-          "high": 0.529
+          "low": 0.471,
+          "high": 0.553
         },
         {
           "name": "EU-West + EFTA + UK",
-          "low": 0.768,
-          "high": 0.808
+          "low": 0.771,
+          "high": 0.81
         },
         {
           "name": "EU-Ost",
-          "low": 0.718,
-          "high": 0.79
+          "low": 0.725,
+          "high": 0.795
         },
         {
           "name": "Balkan",
-          "low": 0.538,
-          "high": 0.617
+          "low": 0.55,
+          "high": 0.631
         },
         {
           "name": "Mittel- und Südamerika",
-          "low": 0.684,
-          "high": 0.805
+          "low": 0.693,
+          "high": 0.807
         },
         {
           "name": "Arabische Länder",
-          "low": 0.413,
-          "high": 0.578
+          "low": 0.404,
+          "high": 0.565
         },
         {
           "name": "Afrikanische Länder",
-          "low": 0.487,
-          "high": 0.638
+          "low": 0.529,
+          "high": 0.676
         },
         {
           "name": "Übrige Länder",
-          "low": 0.62,
-          "high": 0.687
+          "low": 0.609,
+          "high": 0.674
         }
       ],
-      "name": "95% Vertrauensintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Staatsangehörigkeit",
       "turboThreshold": 0
     }
   ],
@@ -144,7 +146,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -152,32 +154,53 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "marginBottom": 65,
-    "marginTop": 75,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6416",
@@ -204,7 +227,7 @@
     "text": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit"
   },
   "subtitle": {
-    "text": "Basel-Stadt, gepoolte Daten 2018 bis 2022",
+    "text": "Basel-Stadt, gepoolte Daten 2019 bis 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,7 +264,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -258,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "tooltip": {
     "shared": true

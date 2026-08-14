@@ -6,11 +6,11 @@
       "data": [
         [
           "1 Zimmer",
-          3872
+          3884
         ],
         [
           "2 Zimmer",
-          2
+          6
         ],
         [
           "3 Zimmer",
@@ -25,14 +25,15 @@
           0
         ],
         [
-          "6 Zimmer u. m.",
+          "6 Zimmer und mehr",
           0
         ],
         [
           "Alle",
-          3874
+          3890
         ]
       ],
+      "pointStart": 0,
       "name": "bis 29 m²",
       "turboThreshold": 0
     },
@@ -42,15 +43,15 @@
       "data": [
         [
           "1 Zimmer",
-          8108
+          8185
         ],
         [
           "2 Zimmer",
-          6756
+          6886
         ],
         [
           "3 Zimmer",
-          155
+          157
         ],
         [
           "4 Zimmer",
@@ -61,14 +62,15 @@
           1
         ],
         [
-          "6 Zimmer u. m.",
+          "6 Zimmer und mehr",
           0
         ],
         [
           "Alle",
-          15026
+          15235
         ]
       ],
+      "pointStart": 0,
       "name": "30-49 m²",
       "turboThreshold": 0
     },
@@ -78,33 +80,34 @@
       "data": [
         [
           "1 Zimmer",
-          524
+          543
         ],
         [
           "2 Zimmer",
-          19062
+          19157
         ],
         [
           "3 Zimmer",
-          13637
+          13690
         ],
         [
           "4 Zimmer",
-          315
+          312
         ],
         [
           "5 Zimmer",
-          25
+          24
         ],
         [
-          "6 Zimmer u. m.",
-          1
+          "6 Zimmer und mehr",
+          0
         ],
         [
           "Alle",
-          33564
+          33726
         ]
       ],
+      "pointStart": 0,
       "name": "50-69 m²",
       "turboThreshold": 0
     },
@@ -114,33 +117,34 @@
       "data": [
         [
           "1 Zimmer",
-          179
+          183
         ],
         [
           "2 Zimmer",
-          1933
+          1965
         ],
         [
           "3 Zimmer",
-          26635
+          26692
         ],
         [
           "4 Zimmer",
-          10333
+          10334
         ],
         [
           "5 Zimmer",
-          603
+          602
         ],
         [
-          "6 Zimmer u. m.",
+          "6 Zimmer und mehr",
           108
         ],
         [
           "Alle",
-          39791
+          39884
         ]
       ],
+      "pointStart": 0,
       "name": "70-99 m²",
       "turboThreshold": 0
     },
@@ -150,33 +154,34 @@
       "data": [
         [
           "1 Zimmer",
-          94
+          92
         ],
         [
           "2 Zimmer",
-          188
+          191
         ],
         [
           "3 Zimmer",
-          2112
+          2144
         ],
         [
           "4 Zimmer",
-          8780
+          8835
         ],
         [
           "5 Zimmer",
-          4955
+          4968
         ],
         [
-          "6 Zimmer u. m.",
+          "6 Zimmer und mehr",
           1817
         ],
         [
           "Alle",
-          17946
+          18047
         ]
       ],
+      "pointStart": 0,
       "name": "100-149 m²",
       "turboThreshold": 0
     },
@@ -186,7 +191,7 @@
       "data": [
         [
           "1 Zimmer",
-          17
+          18
         ],
         [
           "2 Zimmer",
@@ -194,7 +199,7 @@
         ],
         [
           "3 Zimmer",
-          123
+          126
         ],
         [
           "4 Zimmer",
@@ -202,17 +207,18 @@
         ],
         [
           "5 Zimmer",
-          1614
+          1622
         ],
         [
-          "6 Zimmer u. m.",
-          4026
+          "6 Zimmer und mehr",
+          4034
         ],
         [
           "Alle",
-          6450
+          6470
         ]
       ],
+      "pointStart": 0,
       "name": "150 m² u.m.",
       "turboThreshold": 0
     }
@@ -235,7 +241,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -243,29 +249,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-4134",
@@ -292,7 +320,7 @@
     "text": "Wohnungsbestand nach Zimmerzahl und Wohnfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2024",
+    "text": "Basel-Stadt, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -331,7 +359,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -348,7 +376,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

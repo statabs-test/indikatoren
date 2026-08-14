@@ -7,13 +7,14 @@
       "data": [
         [
           "Veranlagungen",
-          28740
+          28262
         ],
         [
           "Summe Einkommenssteuer",
-          150487
+          174765
         ]
       ],
+      "pointStart": 0,
       "name": "0",
       "turboThreshold": 0
     },
@@ -24,13 +25,14 @@
       "data": [
         [
           "Veranlagungen",
-          28771
+          27997
         ],
         [
           "Summe Einkommenssteuer",
-          77060248
+          74578765
         ]
       ],
+      "pointStart": 0,
       "name": "1 bis 24 999",
       "turboThreshold": 0
     },
@@ -41,13 +43,14 @@
       "data": [
         [
           "Veranlagungen",
-          26581
+          26402
         ],
         [
           "Summe Einkommenssteuer",
-          206387323
+          205635559
         ]
       ],
+      "pointStart": 0,
       "name": "25 000 bis 49 999",
       "turboThreshold": 0
     },
@@ -58,13 +61,14 @@
       "data": [
         [
           "Veranlagungen",
-          13793
+          14135
         ],
         [
           "Summe Einkommenssteuer",
-          177552022
+          182276415
         ]
       ],
+      "pointStart": 0,
       "name": "50 000 bis 74 999",
       "turboThreshold": 0
     },
@@ -75,13 +79,14 @@
       "data": [
         [
           "Veranlagungen",
-          7230
+          7300
         ],
         [
           "Summe Einkommenssteuer",
-          130285970
+          131720829
         ]
       ],
+      "pointStart": 0,
       "name": "75 000 bis 99 999",
       "turboThreshold": 0
     },
@@ -92,13 +97,14 @@
       "data": [
         [
           "Veranlagungen",
-          9587
+          10110
         ],
         [
           "Summe Einkommenssteuer",
-          265975570
+          281902929
         ]
       ],
+      "pointStart": 0,
       "name": "100 000 bis 199 999",
       "turboThreshold": 0
     },
@@ -109,13 +115,14 @@
       "data": [
         [
           "Veranlagungen",
-          4166
+          4390
         ],
         [
           "Summe Einkommenssteuer",
-          484006754
+          465066955
         ]
       ],
+      "pointStart": 0,
       "name": "200 000 u.m.",
       "turboThreshold": 0
     }
@@ -146,23 +153,42 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-        //draw lines between stacks of stacked columns
-        this.customSvgLines = this.options.customFunctions.drawLinesBetweenStacks.call(this);
-        //remove credits link
-        this.credits.element.onclick = function() {};
-        //for top-left legends with no x defined: move legend to x position of first yAxis
-        if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-        this.update(
-          {
-            legend: {
-              x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-            }
-          }
-        );
-        }              
-        
-      },
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
       "redraw": function() {
         if (this.customSvgLines !== undefined) {
           this.customSvgLines.forEach(function(line) {
@@ -172,9 +198,9 @@
         this.customSvgLines = this.options.customFunctions.drawLinesBetweenStacks.call(this);
       }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -183,7 +209,7 @@
       10
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "column",
@@ -206,11 +232,11 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2021"
+    "text": "in Franken, Basel-Stadt, 2022"
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -267,7 +293,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 27.11.2025"
   },
   "legend": {
     "layout": "vertical",

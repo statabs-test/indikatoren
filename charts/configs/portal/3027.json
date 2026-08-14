@@ -8,38 +8,6 @@
       },
       "data": [
         [
-          "2014-1",
-          169658
-        ],
-        [
-          "2014-2",
-          132207
-        ],
-        [
-          "2014-3",
-          133439
-        ],
-        [
-          "2014-4",
-          87773
-        ],
-        [
-          "2015-1",
-          181546
-        ],
-        [
-          "2015-2",
-          109239
-        ],
-        [
-          "2015-3",
-          123362
-        ],
-        [
-          "2015-4",
-          82674
-        ],
-        [
           "2016-1",
           179077
         ],
@@ -166,8 +134,41 @@
         [
           "2023-4",
           96905
+        ],
+        [
+          "2024-1",
+          81519
+        ],
+        [
+          "2024-2",
+          97193
+        ],
+        [
+          "2024-3",
+          106804
+        ],
+        [
+          "2024-4",
+          90028
+        ],
+        [
+          "2025-1",
+          67767
+        ],
+        [
+          "2025-2",
+          95855
+        ],
+        [
+          "2025-3",
+          99988
+        ],
+        [
+          "2025-4",
+          89389
         ]
       ],
+      "pointStart": 0,
       "name": "BS",
       "turboThreshold": 0
     },
@@ -175,38 +176,6 @@
       "color": "#FF8028",
       "index": 1,
       "data": [
-        [
-          "2014-1",
-          49266
-        ],
-        [
-          "2014-2",
-          54950
-        ],
-        [
-          "2014-3",
-          84494
-        ],
-        [
-          "2014-4",
-          50975
-        ],
-        [
-          "2015-1",
-          43153
-        ],
-        [
-          "2015-2",
-          47948
-        ],
-        [
-          "2015-3",
-          75007
-        ],
-        [
-          "2015-4",
-          43636
-        ],
         [
           "2016-1",
           32865
@@ -334,8 +303,41 @@
         [
           "2023-4",
           53377
+        ],
+        [
+          "2024-1",
+          45669
+        ],
+        [
+          "2024-2",
+          57784
+        ],
+        [
+          "2024-3",
+          79335
+        ],
+        [
+          "2024-4",
+          54916
+        ],
+        [
+          "2025-1",
+          43513
+        ],
+        [
+          "2025-2",
+          63027
+        ],
+        [
+          "2025-3",
+          81671
+        ],
+        [
+          "2025-4",
+          48798
         ]
       ],
+      "pointStart": 0,
       "name": "BL",
       "turboThreshold": 0
     },
@@ -343,38 +345,6 @@
       "color": "#A8C3CA",
       "index": 1,
       "data": [
-        [
-          "2014-1",
-          98855
-        ],
-        [
-          "2014-2",
-          117722
-        ],
-        [
-          "2014-3",
-          174204
-        ],
-        [
-          "2014-4",
-          102050
-        ],
-        [
-          "2015-1",
-          91309
-        ],
-        [
-          "2015-2",
-          120816
-        ],
-        [
-          "2015-3",
-          172440
-        ],
-        [
-          "2015-4",
-          110196
-        ],
         [
           "2016-1",
           104567
@@ -502,8 +472,41 @@
         [
           "2023-4",
           137399
+        ],
+        [
+          "2024-1",
+          133736
+        ],
+        [
+          "2024-2",
+          179533
+        ],
+        [
+          "2024-3",
+          169039
+        ],
+        [
+          "2024-4",
+          138946
+        ],
+        [
+          "2025-1",
+          139391
+        ],
+        [
+          "2025-2",
+          167554
+        ],
+        [
+          "2025-3",
+          176012
+        ],
+        [
+          "2025-4",
+          126811
         ]
       ],
+      "pointStart": 0,
       "name": "AG",
       "turboThreshold": 0
     },
@@ -511,38 +514,6 @@
       "color": "#008AC3",
       "index": 2,
       "data": [
-        [
-          "2014-1",
-          284130
-        ],
-        [
-          "2014-2",
-          298529
-        ],
-        [
-          "2014-3",
-          367763
-        ],
-        [
-          "2014-4",
-          299980
-        ],
-        [
-          "2015-1",
-          270076
-        ],
-        [
-          "2015-2",
-          296941
-        ],
-        [
-          "2015-3",
-          352287
-        ],
-        [
-          "2015-4",
-          278685
-        ],
         [
           "2016-1",
           251137
@@ -670,8 +641,41 @@
         [
           "2023-4",
           340699
+        ],
+        [
+          "2024-1",
+          286757
+        ],
+        [
+          "2024-2",
+          377264
+        ],
+        [
+          "2024-3",
+          419071
+        ],
+        [
+          "2024-4",
+          348268
+        ],
+        [
+          "2025-1",
+          305984
+        ],
+        [
+          "2025-2",
+          370670
+        ],
+        [
+          "2025-3",
+          428814
+        ],
+        [
+          "2025-4",
+          354816
         ]
       ],
+      "pointStart": 0,
       "name": "ZH",
       "turboThreshold": 0
     }
@@ -701,32 +705,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-3027"
   },
@@ -807,41 +833,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormatter": function(){

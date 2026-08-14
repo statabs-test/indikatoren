@@ -4,107 +4,64 @@
       "color": "#083038",
       "data": [
         [
-          1722477600000,
-          0.037352
-        ],
-        [
-          1725156000000,
-          0.036664
-        ],
-        [
-          1727748000000,
-          0.037081
-        ],
-        [
-          1730422800000,
-          0.038805
-        ],
-        [
-          1733014800000,
-          0.041547
-        ],
-        [
-          1735693200000,
-          0.043679
-        ],
-        [
-          1738371600000,
-          0.043088
-        ],
-        [
-          1740790800000,
-          0.042313
-        ],
-        [
-          1743472800000,
-          0.041712
-        ],
-        [
-          1746064800000,
-          0.041557
-        ],
-        [
-          1748743200000,
-          0.041218
-        ],
-        [
           1751335200000,
           0.042807
         ],
         [
           1754013600000,
           0.042923
+        ],
+        [
+          1756692000000,
+          0.04302
+        ],
+        [
+          1759284000000,
+          0.042768
+        ],
+        [
+          1761958800000,
+          0.044125
+        ],
+        [
+          1764550800000,
+          0.046295
+        ],
+        [
+          1767229200000,
+          0.047506
+        ],
+        [
+          1769907600000,
+          0.047235
+        ],
+        [
+          1772326800000,
+          0.046886
+        ],
+        [
+          1775008800000,
+          0.045539
+        ],
+        [
+          1777600800000,
+          0.045452
+        ],
+        [
+          1780279200000,
+          0.045152
+        ],
+        [
+          1782871200000,
+          0.046121
         ]
       ],
+      "pointStart": 1751335200000,
       "name": "Total"
     },
     {
       "color": "#008AC3",
       "data": [
-        [
-          1722477600000,
-          0.044653
-        ],
-        [
-          1725156000000,
-          0.039884
-        ],
-        [
-          1727748000000,
-          0.038006
-        ],
-        [
-          1730422800000,
-          0.04104
-        ],
-        [
-          1733014800000,
-          0.043352
-        ],
-        [
-          1735693200000,
-          0.043641
-        ],
-        [
-          1738371600000,
-          0.040896
-        ],
-        [
-          1740790800000,
-          0.040462
-        ],
-        [
-          1743472800000,
-          0.039595
-        ],
-        [
-          1746064800000,
-          0.03974
-        ],
-        [
-          1748743200000,
-          0.040607
-        ],
         [
           1751335200000,
           0.046387
@@ -112,57 +69,58 @@
         [
           1754013600000,
           0.052312
+        ],
+        [
+          1756692000000,
+          0.049855
+        ],
+        [
+          1759284000000,
+          0.047543
+        ],
+        [
+          1761958800000,
+          0.047977
+        ],
+        [
+          1764550800000,
+          0.048699
+        ],
+        [
+          1767229200000,
+          0.044797
+        ],
+        [
+          1769907600000,
+          0.044219
+        ],
+        [
+          1772326800000,
+          0.042052
+        ],
+        [
+          1775008800000,
+          0.042919
+        ],
+        [
+          1777600800000,
+          0.050433
+        ],
+        [
+          1780279200000,
+          0.053034
+        ],
+        [
+          1782871200000,
+          0.059248
         ]
       ],
+      "pointStart": 1751335200000,
       "name": "15-24 Jahre"
     },
     {
       "color": "#71A3B5",
       "data": [
-        [
-          1722477600000,
-          0.030875
-        ],
-        [
-          1725156000000,
-          0.031266
-        ],
-        [
-          1727748000000,
-          0.031005
-        ],
-        [
-          1730422800000,
-          0.032829
-        ],
-        [
-          1733014800000,
-          0.034262
-        ],
-        [
-          1735693200000,
-          0.035695
-        ],
-        [
-          1738371600000,
-          0.035825
-        ],
-        [
-          1740790800000,
-          0.035304
-        ],
-        [
-          1743472800000,
-          0.034718
-        ],
-        [
-          1746064800000,
-          0.035467
-        ],
-        [
-          1748743200000,
-          0.034555
-        ],
         [
           1751335200000,
           0.034978
@@ -170,8 +128,53 @@
         [
           1754013600000,
           0.034295
+        ],
+        [
+          1756692000000,
+          0.035272
+        ],
+        [
+          1759284000000,
+          0.036281
+        ],
+        [
+          1761958800000,
+          0.037519
+        ],
+        [
+          1764550800000,
+          0.038952
+        ],
+        [
+          1767229200000,
+          0.03931
+        ],
+        [
+          1769907600000,
+          0.038887
+        ],
+        [
+          1772326800000,
+          0.039277
+        ],
+        [
+          1775008800000,
+          0.038561
+        ],
+        [
+          1777600800000,
+          0.039049
+        ],
+        [
+          1780279200000,
+          0.037747
+        ],
+        [
+          1782871200000,
+          0.037063
         ]
       ],
+      "pointStart": 1751335200000,
       "name": "50 Jahre u.m."
     }
   ],
@@ -203,32 +206,74 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-7510"
   },
@@ -312,41 +357,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2025"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormatter": function(){

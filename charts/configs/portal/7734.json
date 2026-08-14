@@ -168,7 +168,7 @@
         ],
         [
           2025,
-          null
+          40338
         ],
         [
           2026,
@@ -249,8 +249,29 @@
         [
           2045,
           null
+        ],
+        [
+          2046,
+          null
+        ],
+        [
+          2047,
+          null
+        ],
+        [
+          2048,
+          null
+        ],
+        [
+          2049,
+          null
+        ],
+        [
+          2050,
+          null
         ]
       ],
+      "pointStart": 1985,
       "name": "Effektiv"
     },
     {
@@ -421,89 +442,110 @@
         ],
         [
           2025,
-          40184
+          null
         ],
         [
           2026,
-          40572
+          40747
         ],
         [
           2027,
-          40983
+          41189
         ],
         [
           2028,
-          41502
+          41730
         ],
         [
           2029,
-          42097
+          42344
         ],
         [
           2030,
-          42651
+          42921
         ],
         [
           2031,
-          43159
+          43439
         ],
         [
           2032,
-          43542
+          43825
         ],
         [
           2033,
-          43922
+          44212
         ],
         [
           2034,
-          44288
+          44571
         ],
         [
           2035,
-          44573
+          44854
         ],
         [
           2036,
-          44818
+          45081
         ],
         [
           2037,
-          45039
+          45283
         ],
         [
           2038,
-          45267
+          45498
         ],
         [
           2039,
-          45585
+          45809
         ],
         [
           2040,
-          45860
+          46058
         ],
         [
           2041,
-          46195
+          46384
         ],
         [
           2042,
-          46555
+          46722
         ],
         [
           2043,
-          46880
+          47037
         ],
         [
           2044,
-          47217
+          47381
         ],
         [
           2045,
-          47655
+          47826
+        ],
+        [
+          2046,
+          48300
+        ],
+        [
+          2047,
+          48791
+        ],
+        [
+          2048,
+          49274
+        ],
+        [
+          2049,
+          49761
+        ],
+        [
+          2050,
+          50241
         ]
       ],
+      "pointStart": 1985,
       "name": "Hohes Szenario"
     },
     {
@@ -674,89 +716,110 @@
         ],
         [
           2025,
-          40066
+          null
         ],
         [
           2026,
-          40329
+          40608
         ],
         [
           2027,
-          40612
+          40912
         ],
         [
           2028,
-          41002
+          41316
         ],
         [
           2029,
-          41463
+          41789
         ],
         [
           2030,
-          41877
+          42227
         ],
         [
           2031,
-          42241
+          42602
         ],
         [
           2032,
-          42472
+          42842
         ],
         [
           2033,
-          42697
+          43082
         ],
         [
           2034,
-          42903
+          43294
         ],
         [
           2035,
-          43021
+          43425
         ],
         [
           2036,
-          43094
+          43497
         ],
         [
           2037,
-          43141
+          43543
         ],
         [
           2038,
-          43192
+          43599
         ],
         [
           2039,
-          43332
+          43751
         ],
         [
           2040,
-          43424
+          43835
         ],
         [
           2041,
-          43576
+          43996
         ],
         [
           2042,
-          43752
+          44167
         ],
         [
           2043,
-          43889
+          44309
         ],
         [
           2044,
-          44035
+          44477
         ],
         [
           2045,
-          44282
+          44745
+        ],
+        [
+          2046,
+          45039
+        ],
+        [
+          2047,
+          45347
+        ],
+        [
+          2048,
+          45643
+        ],
+        [
+          2049,
+          45942
+        ],
+        [
+          2050,
+          46229
         ]
       ],
+      "pointStart": 1985,
       "name": "Mittleres Szenario"
     },
     {
@@ -927,94 +990,132 @@
         ],
         [
           2025,
-          39942
+          null
         ],
         [
           2026,
-          40070
+          40452
         ],
         [
           2027,
-          40212
+          40596
         ],
         [
           2028,
-          40455
+          40838
         ],
         [
           2029,
-          40766
+          41150
         ],
         [
           2030,
-          41024
+          41421
         ],
         [
           2031,
-          41223
+          41626
         ],
         [
           2032,
-          41283
+          41692
         ],
         [
           2033,
-          41331
+          41756
         ],
         [
           2034,
-          41350
+          41784
         ],
         [
           2035,
-          41278
+          41729
         ],
         [
           2036,
-          41153
+          41609
         ],
         [
           2037,
-          40997
+          41457
         ],
         [
           2038,
-          40839
+          41309
         ],
         [
           2039,
-          40767
+          41253
         ],
         [
           2040,
-          40642
+          41123
         ],
         [
           2041,
-          40573
+          41064
         ],
         [
           2042,
-          40521
+          41007
         ],
         [
           2043,
-          40425
+          40914
         ],
         [
           2044,
-          40335
+          40843
         ],
         [
           2045,
-          40343
+          40867
+        ],
+        [
+          2046,
+          40908
+        ],
+        [
+          2047,
+          40959
+        ],
+        [
+          2048,
+          40992
+        ],
+        [
+          2049,
+          41022
+        ],
+        [
+          2050,
+          41036
         ]
       ],
+      "pointStart": 1985,
       "name": "Tiefes Szenario"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 10
+  },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -1022,29 +1123,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-7734",
     "spacingBottom": 40
@@ -1076,28 +1199,12 @@
     "text": "Bevölkerung ab 65 Jahren"
   },
   "subtitle": {
-    "text": "Bevölkerungsszenarien Basel-Stadt, 2025",
+    "text": "Bevölkerungsszenarien Basel-Stadt, 2026",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
     }
   },
   "yAxis": {
@@ -1133,7 +1240,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -1150,7 +1257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 15.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 16.7.2026"
   },
   "tooltip": {
     "shared": false,

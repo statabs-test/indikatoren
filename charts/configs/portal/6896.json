@@ -6,14 +6,6 @@
       "legendIndex": 5,
       "data": [
         [
-          "2011",
-          788500000
-        ],
-        [
-          "2012",
-          384904266
-        ],
-        [
           "2013",
           377611900
         ],
@@ -47,9 +39,14 @@
         ],
         [
           "2021",
-          578900000
+          560700000
+        ],
+        [
+          "2022",
+          563400000
         ]
       ],
+      "pointStart": 0,
       "name": "Übriges",
       "turboThreshold": 0
     },
@@ -58,14 +55,6 @@
       "index": 1,
       "legendIndex": 4,
       "data": [
-        [
-          "2011",
-          265200000
-        ],
-        [
-          "2012",
-          301400000
-        ],
         [
           "2013",
           384900000
@@ -101,8 +90,13 @@
         [
           "2021",
           412800000
+        ],
+        [
+          "2022",
+          471700000
         ]
       ],
+      "pointStart": 0,
       "name": "Finanzertrag",
       "turboThreshold": 0
     },
@@ -111,14 +105,6 @@
       "index": 2,
       "legendIndex": 3,
       "data": [
-        [
-          "2011",
-          0
-        ],
-        [
-          "2012",
-          500000000
-        ],
         [
           "2013",
           530500000
@@ -153,9 +139,14 @@
         ],
         [
           "2021",
-          879200000
+          897400000
+        ],
+        [
+          "2022",
+          866200000
         ]
       ],
+      "pointStart": 0,
       "name": "Transferertrag",
       "turboThreshold": 0
     },
@@ -164,14 +155,6 @@
       "index": 3,
       "legendIndex": 2,
       "data": [
-        [
-          "2011",
-          1153300000
-        ],
-        [
-          "2012",
-          387700000
-        ],
         [
           "2013",
           419000000
@@ -207,8 +190,13 @@
         [
           "2021",
           333200000
+        ],
+        [
+          "2022",
+          334000000
         ]
       ],
+      "pointStart": 0,
       "name": "Entgelte",
       "turboThreshold": 0
     },
@@ -217,14 +205,6 @@
       "index": 4,
       "legendIndex": 1,
       "data": [
-        [
-          "2011",
-          733400000
-        ],
-        [
-          "2012",
-          638246802
-        ],
         [
           "2013",
           677819399
@@ -260,8 +240,13 @@
         [
           "2021",
           588100000
+        ],
+        [
+          "2022",
+          602300000
         ]
       ],
+      "pointStart": 0,
       "name": "Gewinn- und Kapitalsteuern (JP)",
       "turboThreshold": 0
     },
@@ -270,14 +255,6 @@
       "index": 5,
       "legendIndex": 0,
       "data": [
-        [
-          "2011",
-          1689400000
-        ],
-        [
-          "2012",
-          1577548932
-        ],
         [
           "2013",
           1474568701
@@ -313,8 +290,13 @@
         [
           "2021",
           1866300000
+        ],
+        [
+          "2022",
+          1989200000
         ]
       ],
+      "pointStart": 0,
       "name": "Einkommens- und Vermögenssteuern (NP)",
       "turboThreshold": 0
     },
@@ -330,14 +312,6 @@
       },
       "yAxis": 1,
       "data": [
-        [
-          "2011",
-          36.5
-        ],
-        [
-          "2012",
-          41.6
-        ],
         [
           "2013",
           38.2
@@ -373,8 +347,13 @@
         [
           "2021",
           40.1
+        ],
+        [
+          "2022",
+          41.2
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil NP (rechte Skala)",
       "turboThreshold": 0
     },
@@ -391,14 +370,6 @@
       "stacking": false,
       "yAxis": 1,
       "data": [
-        [
-          "2011",
-          15.8
-        ],
-        [
-          "2012",
-          16.8
-        ],
         [
           "2013",
           17.5
@@ -434,8 +405,13 @@
         [
           "2021",
           12.6
+        ],
+        [
+          "2022",
+          12.5
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil JP (rechte Skala)",
       "turboThreshold": 0
     }
@@ -462,32 +438,54 @@
   },
   "chart": {
     "type": "column",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "inverted": false,
     "renderTo": "container-6896"
@@ -606,41 +604,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2024"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "exporting": {
     "filename": "6896"

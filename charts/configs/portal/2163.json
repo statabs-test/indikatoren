@@ -4,54 +4,6 @@
       "color": "#D7E8D2",
       "data": [
         [
-          "2013-1",
-          3550
-        ],
-        [
-          "2013-2",
-          3518
-        ],
-        [
-          "2013-3",
-          3527
-        ],
-        [
-          "2013-4",
-          3529
-        ],
-        [
-          "2014-1",
-          3523
-        ],
-        [
-          "2014-2",
-          3528
-        ],
-        [
-          "2014-3",
-          3537
-        ],
-        [
-          "2014-4",
-          3538
-        ],
-        [
-          "2015-1",
-          3515
-        ],
-        [
-          "2015-2",
-          3500
-        ],
-        [
-          "2015-3",
-          3502
-        ],
-        [
-          "2015-4",
-          3499
-        ],
-        [
           "2016-1",
           3450
         ],
@@ -133,91 +85,88 @@
         ],
         [
           "2021-1",
-          2515
+          2553
         ],
         [
           "2021-2",
-          2485
+          2537
         ],
         [
           "2021-3",
-          2477
+          2522
         ],
         [
           "2021-4",
-          2494
+          2553
         ],
         [
           "2022-1",
-          2466
+          2545
         ],
         [
           "2022-2",
-          2436
+          2523
         ],
         [
           "2022-3",
-          2446
+          2510
         ],
         [
           "2022-4",
-          2445
+          2524
+        ],
+        [
+          "2023-1",
+          2478
+        ],
+        [
+          "2023-2",
+          2439
+        ],
+        [
+          "2023-3",
+          2406
+        ],
+        [
+          "2023-4",
+          2394
+        ],
+        [
+          "2024-1",
+          2310
+        ],
+        [
+          "2024-2",
+          2314
+        ],
+        [
+          "2024-3",
+          2308
+        ],
+        [
+          "2024-4",
+          2289
+        ],
+        [
+          "2025-1",
+          2255
+        ],
+        [
+          "2025-2",
+          2209
+        ],
+        [
+          "2025-3",
+          2215
         ]
       ],
+      "pointStart": 0,
       "name": "Handel, Reparatur",
       "turboThreshold": 0
     },
     {
       "color": "#73B97C",
       "data": [
-        [
-          "2013-1",
-          1364
-        ],
-        [
-          "2013-2",
-          1349
-        ],
-        [
-          "2013-3",
-          1364
-        ],
-        [
-          "2013-4",
-          1334
-        ],
-        [
-          "2014-1",
-          1321
-        ],
-        [
-          "2014-2",
-          1314
-        ],
-        [
-          "2014-3",
-          1308
-        ],
-        [
-          "2014-4",
-          1266
-        ],
-        [
-          "2015-1",
-          1302
-        ],
-        [
-          "2015-2",
-          1293
-        ],
-        [
-          "2015-3",
-          1305
-        ],
-        [
-          "2015-4",
-          1314
-        ],
         [
           "2016-1",
           1314
@@ -300,91 +249,88 @@
         ],
         [
           "2021-1",
-          1097
-        ],
-        [
-          "2021-2",
-          1091
-        ],
-        [
-          "2021-3",
-          1103
-        ],
-        [
-          "2021-4",
-          1120
-        ],
-        [
-          "2022-1",
           1090
         ],
         [
+          "2021-2",
+          1092
+        ],
+        [
+          "2021-3",
+          1114
+        ],
+        [
+          "2021-4",
+          1129
+        ],
+        [
+          "2022-1",
+          1088
+        ],
+        [
           "2022-2",
-          1066
+          1067
         ],
         [
           "2022-3",
-          1064
+          1051
         ],
         [
           "2022-4",
-          1043
+          1045
+        ],
+        [
+          "2023-1",
+          1096
+        ],
+        [
+          "2023-2",
+          1094
+        ],
+        [
+          "2023-3",
+          1085
+        ],
+        [
+          "2023-4",
+          1105
+        ],
+        [
+          "2024-1",
+          1116
+        ],
+        [
+          "2024-2",
+          1108
+        ],
+        [
+          "2024-3",
+          1108
+        ],
+        [
+          "2024-4",
+          1124
+        ],
+        [
+          "2025-1",
+          1076
+        ],
+        [
+          "2025-2",
+          1108
+        ],
+        [
+          "2025-3",
+          1082
         ]
       ],
+      "pointStart": 0,
       "name": "Verkehr, Lagerei",
       "turboThreshold": 0
     },
     {
       "color": "#007A2F",
       "data": [
-        [
-          "2013-1",
-          1129
-        ],
-        [
-          "2013-2",
-          1119
-        ],
-        [
-          "2013-3",
-          1110
-        ],
-        [
-          "2013-4",
-          1081
-        ],
-        [
-          "2014-1",
-          1085
-        ],
-        [
-          "2014-2",
-          1108
-        ],
-        [
-          "2014-3",
-          1099
-        ],
-        [
-          "2014-4",
-          1088
-        ],
-        [
-          "2015-1",
-          1077
-        ],
-        [
-          "2015-2",
-          1075
-        ],
-        [
-          "2015-3",
-          1083
-        ],
-        [
-          "2015-4",
-          1076
-        ],
         [
           "2016-1",
           1112
@@ -467,91 +413,88 @@
         ],
         [
           "2021-1",
-          688
+          648
         ],
         [
           "2021-2",
-          655
+          656
         ],
         [
           "2021-3",
-          637
+          653
         ],
         [
           "2021-4",
-          659
+          679
         ],
         [
           "2022-1",
-          646
+          671
         ],
         [
           "2022-2",
-          667
+          705
         ],
         [
           "2022-3",
-          691
+          753
         ],
         [
           "2022-4",
-          712
+          788
+        ],
+        [
+          "2023-1",
+          785
+        ],
+        [
+          "2023-2",
+          822
+        ],
+        [
+          "2023-3",
+          836
+        ],
+        [
+          "2023-4",
+          819
+        ],
+        [
+          "2024-1",
+          791
+        ],
+        [
+          "2024-2",
+          802
+        ],
+        [
+          "2024-3",
+          820
+        ],
+        [
+          "2024-4",
+          820
+        ],
+        [
+          "2025-1",
+          826
+        ],
+        [
+          "2025-2",
+          821
+        ],
+        [
+          "2025-3",
+          837
         ]
       ],
+      "pointStart": 0,
       "name": "Gastgewerbe",
       "turboThreshold": 0
     },
     {
       "color": "#0A3B19",
       "data": [
-        [
-          "2013-1",
-          994
-        ],
-        [
-          "2013-2",
-          999
-        ],
-        [
-          "2013-3",
-          981
-        ],
-        [
-          "2013-4",
-          1069
-        ],
-        [
-          "2014-1",
-          1115
-        ],
-        [
-          "2014-2",
-          1061
-        ],
-        [
-          "2014-3",
-          1099
-        ],
-        [
-          "2014-4",
-          1102
-        ],
-        [
-          "2015-1",
-          1126
-        ],
-        [
-          "2015-2",
-          1157
-        ],
-        [
-          "2015-3",
-          1252
-        ],
-        [
-          "2015-4",
-          1242
-        ],
         [
           "2016-1",
           1289
@@ -634,37 +577,82 @@
         ],
         [
           "2021-1",
-          1577
+          1503
         ],
         [
           "2021-2",
-          1478
+          1410
         ],
         [
           "2021-3",
-          1499
+          1483
         ],
         [
           "2021-4",
-          1550
+          1521
         ],
         [
           "2022-1",
-          1613
+          1551
         ],
         [
           "2022-2",
-          1651
+          1617
         ],
         [
           "2022-3",
-          1680
+          1644
         ],
         [
           "2022-4",
-          1672
+          1631
+        ],
+        [
+          "2023-1",
+          1678
+        ],
+        [
+          "2023-2",
+          1758
+        ],
+        [
+          "2023-3",
+          1688
+        ],
+        [
+          "2023-4",
+          1670
+        ],
+        [
+          "2024-1",
+          1804
+        ],
+        [
+          "2024-2",
+          1809
+        ],
+        [
+          "2024-3",
+          1814
+        ],
+        [
+          "2024-4",
+          1790
+        ],
+        [
+          "2025-1",
+          1863
+        ],
+        [
+          "2025-2",
+          1856
+        ],
+        [
+          "2025-3",
+          1959
         ]
       ],
+      "pointStart": 0,
       "name": "Information, Kommunikation",
       "turboThreshold": 0
     }
@@ -693,32 +681,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-2163"
   },
@@ -796,41 +806,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 5.3.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,

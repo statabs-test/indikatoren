@@ -5,25 +5,26 @@
       "data": [
         [
           "Basel",
-          24.98
+          22.09
         ],
         [
           "Bern",
-          21
+          20.92
         ],
         [
           "Genf",
-          29.4
+          29.04
         ],
         [
           "Lausanne",
-          24.96
+          24.79
         ],
         [
           "Zürich",
-          23.26
+          23.17
         ]
       ],
+      "pointStart": 0,
       "name": "Gesamte Agglomeration",
       "turboThreshold": 0
     },
@@ -32,25 +33,26 @@
       "data": [
         [
           "Basel",
-          18.29
+          18.32
         ],
         [
           "Bern",
-          18.21
+          18.22
         ],
         [
           "Genf",
-          21.75
+          21.38
         ],
         [
           "Lausanne",
-          20.77
+          20.56
         ],
         [
           "Zürich",
-          19.83
+          19.72
         ]
       ],
+      "pointStart": 0,
       "name": "Kernstadt",
       "turboThreshold": 0
     },
@@ -59,25 +61,26 @@
       "data": [
         [
           "Basel",
-          22.74
+          22.75
         ],
         [
           "Bern",
-          22.39
+          22.26
         ],
         [
           "Genf",
-          31.29
+          30.98
         ],
         [
           "Lausanne",
-          27.24
+          27.09
         ],
         [
           "Zürich",
-          24.87
+          24.79
         ]
       ],
+      "pointStart": 0,
       "name": "Übrige Agglomerationsgemeinden Schweiz",
       "turboThreshold": 0
     },
@@ -86,7 +89,7 @@
       "data": [
         [
           "Basel",
-          34.31
+          21.96
         ],
         [
           "Bern",
@@ -105,6 +108,7 @@
           null
         ]
       ],
+      "pointStart": 0,
       "name": "Agglomerationsgemeinden Deutschland",
       "turboThreshold": 0
     },
@@ -113,7 +117,7 @@
       "data": [
         [
           "Basel",
-          27.63
+          27.12
         ],
         [
           "Bern",
@@ -121,7 +125,7 @@
         ],
         [
           "Genf",
-          31.76
+          31.36
         ],
         [
           "Lausanne",
@@ -132,6 +136,7 @@
           null
         ]
       ],
+      "pointStart": 0,
       "name": "Agglomerationsgemeinden Frankreich",
       "turboThreshold": 0
     }
@@ -154,7 +159,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -162,27 +167,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function (event) {
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                }
-              }
-            );
-          }
-          justifyColumns(event.target);
-        },
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
       "redraw": function (event) {
           justifyColumns(event.target);
         }
@@ -215,7 +244,7 @@
     "text": "Anteil der Privathaushalte mit minderjährigen Kindern"
   },
   "subtitle": {
-    "text": "2021",
+    "text": "2022",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -255,7 +284,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -272,7 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 4.2.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 27.1.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

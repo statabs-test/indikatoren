@@ -11,25 +11,26 @@
       "data": [
         [
           "15-24 Jahre",
-          0.37
+          0.371
         ],
         [
           "25-34 Jahre",
-          0.821
+          0.82
         ],
         [
           "35-44 Jahre",
-          0.873
+          0.877
         ],
         [
           "45-54 Jahre",
-          0.825
+          0.816
         ],
         [
           "55-64 Jahre",
-          0.719
+          0.731
         ]
       ],
+      "pointStart": 0,
       "name": "Schweizer",
       "turboThreshold": 0
     },
@@ -44,31 +45,32 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.336,
-          "high": 0.403
+          "low": 0.337,
+          "high": 0.404
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.798,
-          "high": 0.844
+          "low": 0.797,
+          "high": 0.843
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.851,
-          "high": 0.895
+          "low": 0.856,
+          "high": 0.899
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.801,
-          "high": 0.849
+          "low": 0.791,
+          "high": 0.841
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.694,
-          "high": 0.744
+          "low": 0.706,
+          "high": 0.756
         }
       ],
-      "name": "Schweizer 95% Vertrauensintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Alter",
       "turboThreshold": 0
     },
     {
@@ -86,21 +88,22 @@
         ],
         [
           "25-34 Jahre",
-          0.826
-        ],
-        [
-          "35-44 Jahre",
           0.832
         ],
         [
+          "35-44 Jahre",
+          0.835
+        ],
+        [
           "45-54 Jahre",
-          0.787
+          0.795
         ],
         [
           "55-64 Jahre",
           0.641
         ]
       ],
+      "pointStart": 0,
       "name": "Schweizerinnen",
       "turboThreshold": 0
     },
@@ -115,31 +118,32 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.349,
+          "low": 0.348,
           "high": 0.419
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.805,
-          "high": 0.848
+          "low": 0.811,
+          "high": 0.853
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.809,
-          "high": 0.854
+          "low": 0.813,
+          "high": 0.857
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.764,
-          "high": 0.81
+          "low": 0.772,
+          "high": 0.819
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.616,
+          "low": 0.617,
           "high": 0.665
         }
       ],
-      "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Alter",
       "turboThreshold": 0
     },
     {
@@ -153,15 +157,15 @@
       "data": [
         [
           "15-24 Jahre",
-          0.387
+          0.38
         ],
         [
           "25-34 Jahre",
-          0.831
+          0.849
         ],
         [
           "35-44 Jahre",
-          0.883
+          0.89
         ],
         [
           "45-54 Jahre",
@@ -169,9 +173,10 @@
         ],
         [
           "55-64 Jahre",
-          0.614
+          0.636
         ]
       ],
+      "pointStart": 0,
       "name": "Ausländer",
       "turboThreshold": 0
     },
@@ -186,31 +191,32 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.331,
-          "high": 0.443
+          "low": 0.325,
+          "high": 0.435
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.806,
-          "high": 0.856
+          "low": 0.824,
+          "high": 0.873
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.863,
-          "high": 0.903
+          "low": 0.871,
+          "high": 0.908
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.761,
+          "low": 0.762,
           "high": 0.82
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.573,
-          "high": 0.654
+          "low": 0.598,
+          "high": 0.674
         }
       ],
-      "name": "Ausländer 95% Vertrauensintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Alter",
       "turboThreshold": 0
     },
     {
@@ -224,25 +230,26 @@
       "data": [
         [
           "15-24 Jahre",
-          0.369
+          0.36
         ],
         [
           "25-34 Jahre",
-          0.737
+          0.747
         ],
         [
           "35-44 Jahre",
-          0.76
+          0.742
         ],
         [
           "45-54 Jahre",
-          0.712
+          0.729
         ],
         [
           "55-64 Jahre",
-          0.491
+          0.525
         ]
       ],
+      "pointStart": 0,
       "name": "Ausländerinnen",
       "turboThreshold": 0
     },
@@ -257,31 +264,32 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.315,
-          "high": 0.423
+          "low": 0.305,
+          "high": 0.414
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.709,
-          "high": 0.765
+          "low": 0.719,
+          "high": 0.774
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.734,
-          "high": 0.786
+          "low": 0.716,
+          "high": 0.769
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.679,
-          "high": 0.745
+          "low": 0.697,
+          "high": 0.761
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.446,
-          "high": 0.535
+          "low": 0.481,
+          "high": 0.569
         }
       ],
-      "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Alter",
       "turboThreshold": 0
     }
   ],
@@ -303,7 +311,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -311,29 +319,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "marginBottom": 65,
     "type": "column",
@@ -362,7 +392,7 @@
     "text": "Erwerbstätigenquote"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2018 bis 2022",
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2019 bis 2023",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -402,7 +432,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -419,7 +449,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 6.6.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
   },
   "tooltip": {
     "shared": true
