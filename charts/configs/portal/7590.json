@@ -26,23 +26,23 @@
       "data": [
         [
           "Laden",
-          12223
+          21233
         ],
         [
           "Büro",
-          132740
+          124688
         ],
         [
           "Gewerbe",
-          37804
+          59922
         ],
         [
           "Produktion",
-          100
+          1462
         ],
         [
           "Lager",
-          17572
+          23194
         ]
       ],
       "pointStart": 0,
@@ -62,7 +62,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -96,7 +100,10 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function() {
+                  this.credits.element.onclick = function() {};
+              }
     },
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",

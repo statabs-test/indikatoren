@@ -98,7 +98,7 @@
     },
   ],  
 tooltip: {
-  formatter() {
+  formatter: function () {
     if (this.series.userOptions.index === 0) { 
       const series = this.series.chart.series;
       let tooltip = "";

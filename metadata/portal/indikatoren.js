@@ -7589,7 +7589,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2025 weisen Wohnungen mit einer Fläche von weniger als 29m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2026 weisen Wohnungen mit einer Fläche von weniger als 29m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29234,8 +29234,8 @@ var indikatoren = [
 			9069
 		],
 		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2025",
-		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Arlesheim und Laufen (je 0,9%) die höchsten Leerwohnungsquoten auf. Im Kanton Basel-Stadt ist die Quote in Kleinbasel mit 1,0% am höchsten. Im Durchschnitt stehen 2025 in Basel-Landschaft 0,8% und in Basel-Stadt 0,9% der Wohnungen leer.",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2026",
+		"lesehilfe": "Im Kanton Basel-Landschaft weist der Bezirk Laufen (0,8%) die höchste Leerstandsquote auf. In den Bezirken Sissach (0,4%) und Waldenburg (0,4%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 0,6%. Im Stadtkanton betragen die Quoten in Kleinbasel 0,8%, in Grossbasel 0,7% und in Riehen und Bettingen 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29357,7 +29357,7 @@ var indikatoren = [
 		],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2024 511 Einheiten. Davon stammen 151 aus Neu- und 437 aus Umbauten. Durch Abbrüche gehen 77 Wohnungen verloren. 2025 wird eine Nettoproduktion von rund 525 Wohnungen prognostiziert.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2025 540 Einheiten. Davon stammen 263 aus Neu- und 311 aus Umbauten. Durch Abbrüche gehen 34 Wohnungen verloren. 2026 wird eine Nettoproduktion von rund 400 Wohnungen prognostiziert.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29517,7 +29517,7 @@ var indikatoren = [
 		],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen stieg seit dem Rückgang zwischen 2015 und 2018 bis 2022 an. 2023 nahm sie ab und 2024 wieder zu. 2025 handelt es sich um eine Prognose.",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen ist 2025 gegenüber dem Vorjahr um 7,7% gestiegen und beträgt 1'783 Einheiten.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"

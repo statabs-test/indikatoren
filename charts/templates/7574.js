@@ -143,7 +143,7 @@
       },
     ],
     tooltip: {
-      formatter() {
+      formatter: function () {
         // If the current series is index 0, show a separate tooltip
         if (this.series.userOptions.index === 0) {
           return '<span style="font-size: 10px">Jahr: ' + this.x +

@@ -1,73 +1,7 @@
 {
   "series": [
     {
-      "color": "#d7e8d2",
-      "visible": false,
-      "data": [
-        [
-          "bis 29 m²",
-          119
-        ],
-        [
-          "30-49 m²",
-          223
-        ],
-        [
-          "50-69 m²",
-          441
-        ],
-        [
-          "70-99 m²",
-          403
-        ],
-        [
-          "100-149 m²",
-          110
-        ],
-        [
-          "ab 150 m²",
-          32
-        ]
-      ],
-      "pointStart": 0,
-      "name": "2022",
-      "turboThreshold": 0
-    },
-    {
       "color": "#73B97C",
-      "visible": false,
-      "data": [
-        [
-          "bis 29 m²",
-          67
-        ],
-        [
-          "30-49 m²",
-          202
-        ],
-        [
-          "50-69 m²",
-          362
-        ],
-        [
-          "70-99 m²",
-          418
-        ],
-        [
-          "100-149 m²",
-          142
-        ],
-        [
-          "ab 150 m²",
-          38
-        ]
-      ],
-      "pointStart": 0,
-      "name": "2023",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68ab2b",
       "visible": false,
       "data": [
         [
@@ -100,7 +34,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0a3b19",
+      "color": "#68ab2b",
+      "visible": false,
       "data": [
         [
           "bis 29 m²",
@@ -132,6 +67,38 @@
       "turboThreshold": 0
     },
     {
+      "color": "#0a3b19",
+      "data": [
+        [
+          "bis 29 m²",
+          91
+        ],
+        [
+          "30-49 m²",
+          180
+        ],
+        [
+          "50-69 m²",
+          264
+        ],
+        [
+          "70-99 m²",
+          238
+        ],
+        [
+          "100-149 m²",
+          102
+        ],
+        [
+          "ab 150 m²",
+          37
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2026",
+      "turboThreshold": 0
+    },
+    {
       "color": "#FABD24",
       "marker": {
         "enabled": false
@@ -145,31 +112,31 @@
       "data": [
         [
           "bis 29 m²",
-          3.5
+          1.32
         ],
         [
           "30-49 m²",
-          1.53
+          0.79
         ],
         [
           "50-69 m²",
-          1.34
+          0.77
         ],
         [
           "70-99 m²",
-          1.03
+          0.79
         ],
         [
           "100-149 m²",
-          0.63
+          0.68
         ],
         [
           "ab 150 m²",
-          0.51
+          0.57
         ]
       ],
       "pointStart": 0,
-      "name": "LWQ 2022",
+      "name": "LWQ 2024",
       "turboThreshold": 0
     },
     {
@@ -180,87 +147,6 @@
       "yAxis": 1,
       "type": "line",
       "visible": false,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "bis 29 m²",
-          1.86
-        ],
-        [
-          "30-49 m²",
-          1.36
-        ],
-        [
-          "50-69 m²",
-          1.09
-        ],
-        [
-          "70-99 m²",
-          1.06
-        ],
-        [
-          "100-149 m²",
-          0.8
-        ],
-        [
-          "ab 150 m²",
-          0.59
-        ]
-      ],
-      "pointStart": 0,
-      "name": "LWQ 2023",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#923f8d",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "type": "line",
-      "visible": false,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
-      "data": [
-        [
-          "bis 29 m²",
-          1.33
-        ],
-        [
-          "30-49 m²",
-          0.8
-        ],
-        [
-          "50-69 m²",
-          0.78
-        ],
-        [
-          "70-99 m²",
-          0.8
-        ],
-        [
-          "100-149 m²",
-          0.68
-        ],
-        [
-          "ab 150 m²",
-          0.58
-        ]
-      ],
-      "pointStart": 0,
-      "name": "LWQ 2024",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b00000",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "type": "line",
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
@@ -292,6 +178,46 @@
       ],
       "pointStart": 0,
       "name": "LWQ 2025",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "bis 29 m²",
+          2.33
+        ],
+        [
+          "30-49 m²",
+          1.18
+        ],
+        [
+          "50-69 m²",
+          0.78
+        ],
+        [
+          "70-99 m²",
+          0.6
+        ],
+        [
+          "100-149 m²",
+          0.56
+        ],
+        [
+          "ab 150 m²",
+          0.57
+        ]
+      ],
+      "pointStart": 0,
+      "name": "LWQ 2026",
       "turboThreshold": 0
     }
   ],
@@ -332,7 +258,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -366,7 +296,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "type": "column",
     "renderTo": "container-4139",

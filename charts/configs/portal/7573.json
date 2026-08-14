@@ -45,10 +45,10 @@
         ],
         [
           2026,
-          914
+          912
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Basel-Stadt"
     },
     {
@@ -96,10 +96,10 @@
         ],
         [
           2026,
-          981
+          980
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Basel-Landschaft"
     },
     {
@@ -150,10 +150,10 @@
         ],
         [
           2026,
-          0.007021
+          0.00701
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Leerstandsquote beider Basel (rechte Skala)"
     }
   ],
@@ -193,7 +193,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -227,7 +231,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "renderTo": "container-7573",
     "spacingBottom": 40
@@ -341,7 +359,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
   },
   "tooltip": {
-    "formatter": formatter() {
+    "formatter": function () {
     if (this.series.userOptions.index === 0) { 
       const series = this.series.chart.series;
       let tooltip = "";
