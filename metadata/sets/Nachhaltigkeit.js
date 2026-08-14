@@ -10,7 +10,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Zwischen Ende 2019 und Ende 2024 betrug die Nettowohnungsproduktion 3 834Wohnungen.",
+		"lesehilfe": "Zwischen Ende 2019 und Ende 2025 betrug die Nettowohnungsproduktion 4734 Wohnungen.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -22,7 +22,7 @@ var indikatorensetData = [
 		],
 		"description": "Nettowohnungsproduktion seit 2019",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
+		"unterthema": "Gebäude und Wohnungen",
 		"kuerzel": "I.09.2.12532",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "NL7",
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:48",
+		"aktualisierungsdatum": "2026-03-26T08:55:42",
 		"id": 12532
 	},
 	{
@@ -325,7 +325,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wanderungssaldo",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 ergab sich durch Zu- und Wegzüge im Kanton Basel-Stadt ein Plus von 1 133 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo.",
+		"lesehilfe": "2025 ergab sich durch Zu- und Wegzüge im Kanton Basel-Stadt ein Plus von 2 552 Personen. Im betrachteten Zeitraum gab es nur im Jahr 2021 einen negativen Saldo.",
 		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz der von ausserhalb in den Kanton Basel-Stadt Zugezogenen und der aus dem Kanton Basel-Stadt Weggezogenen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -350,7 +350,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-16T09:31:46",
+		"aktualisierungsdatum": "2026-06-12T08:53:13",
 		"id": 5155
 	},
 	{
@@ -364,7 +364,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2024 liegt sie mit -0,5 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
+		"lesehilfe": "Die Nettoschuldenquote des Kantons ist im Vergleich zum Jahr 2001 zurückgegangen. 2025 liegt sie mit -0,3 Promille des Schweizer Bruttoinlandprodukts im negativen Bereich. Der Kanton hat seine Nettoschulden also vollständig abgebaut und verfügt nun über ein Nettovermögen.",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -389,7 +389,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:39",
+		"aktualisierungsdatum": "2026-04-23T07:42:38",
 		"id": 5160
 	},
 	{
@@ -639,7 +639,7 @@ var indikatorensetData = [
 		],
 		"title": "Quote der Haushalte mit Prämienverbilligung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "In 15,4% der Haushalte bezieht Ende des Jahres 2024 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im dritten Jahr in Folge.",
+		"lesehilfe": "In 14,7% der Haushalte bezieht Ende des Jahres 2025 mindestens eine Person reine Prämienverbilligung. Die Quote der Haushalte mit Prämienverbilligung sinkt im vierten Jahr in Folge.",
 		"erlaeuterungen": "Die Quote der Haushalte mit Prämienverbilligung (PV) entspricht dem Verhältnis der Anzahl Haushalte mit PV zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Es werden alle Haushalte mit mindestens einer Person mit reiner PV gezählt. Beziehende von Sozialhilfe und Ergänzungsleistungen, welche die PV im Rahmen jener Leistungen ausbezahlt erhalten, sind nicht einberechnet. Stichtag ist jeweils der 4. Januar des Folgejahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -665,7 +665,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-04-30T12:03:01",
+		"aktualisierungsdatum": "2026-05-05T09:02:31",
 		"id": 5183
 	},
 	{
@@ -717,9 +717,9 @@ var indikatorensetData = [
 			8902
 		],
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)",
-		"lesehilfe": "Von den 4 673 aktiven Sozialhilfedossiers Ende 2024 weisen 2 353 (50,4%) eine Unterstützungsdauer von über 36 Monaten auf. 413 Fälle (8,8%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, seit 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"subtitle": "per Ende Jahr, Basel-Stadt",
+		"lesehilfe": "Von den 4 790 aktiven Sozialhilfedossiers per Ende 2025 weisen 2 259 (47,2%) eine Unterstützungsdauer von über 36 Monaten auf. 392 Fälle (8,2%) werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"erlaeuterungen": "Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Sozialhilfe Stadt Basel",
@@ -745,7 +745,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:18",
+		"aktualisierungsdatum": "2026-03-19T08:43:03",
 		"id": 5185
 	},
 	{
@@ -760,7 +760,7 @@ var indikatorensetData = [
 		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 ereigneten sich auf den Basler Kantonsstrassen insgesamt 535 Verkehrsunfälle – 26 weniger als im Vorjahr. Die Zahl der verunfallten Personen sank im Vergleich zum Vorjahr um 45 auf 365.",
+		"lesehilfe": "Im Jahr 2025 ereigneten sich auf den Basler Kantonsstrassen insgesamt 500 Verkehrsunfälle – 35 weniger als im Vorjahr. Die Zahl der verunfallten Personen sank im Vergleich zum Vorjahr um 25 auf 340.",
 		"erlaeuterungen": "Einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Bundesamt für Strassen ASTRA"
@@ -785,7 +785,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-13T01:30:43",
+		"aktualisierungsdatum": "2026-03-19T08:43:04",
 		"id": 5186
 	},
 	{
@@ -797,7 +797,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 wurden pro 1000 Einwohner 138,5 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"lesehilfe": "Im Jahr 2025 wurden pro 1000 Einwohner 141,2 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die baselstädtische Wohnbevölkerung am Jahresende.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -810,7 +810,7 @@ var indikatorensetData = [
 		],
 		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Strafvollzug",
+		"unterthema": "Polizei",
 		"kuerzel": "",
 		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzelKunde": "GW9",
@@ -823,7 +823,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-09-17T09:43:25",
+		"aktualisierungsdatum": "2026-03-25T03:47:49",
 		"id": 5188
 	},
 	{
@@ -837,7 +837,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 sind bei der Chemiefachberatung des Kantons 13 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"lesehilfe": "2025 sind bei der Chemiefachberatung des Kantons 14 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
 		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als «Störfall» gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -862,7 +862,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:17",
+		"aktualisierungsdatum": "2026-04-23T07:42:29",
 		"id": 5189
 	},
 	{
@@ -952,7 +952,7 @@ var indikatorensetData = [
 		],
 		"title": "Mietpreise und Reineinkommen",
 		"subtitle": "Basel-Stadt, indexiert (Basis 2015 = 100)",
-		"lesehilfe": "Der Mietpreisindex lag 2021 7,4 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 3,6 Indexpunkte.",
+		"lesehilfe": "Der Mietpreisindex lag 2022 8,7 Indexpunkte über dem Wert von 2015, der Index des Medians des Reineinkommens 5,3 Indexpunkte.",
 		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen. <br>Reineinkommen: Median wird pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",
@@ -978,7 +978,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-22T10:43:47",
+		"aktualisierungsdatum": "2026-04-23T07:42:30",
 		"id": 5196
 	},
 	{
@@ -992,8 +992,8 @@ var indikatorensetData = [
 		],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"lesehilfe": "Die Ausgaben für Umbau und Unterhalt sind 2023 stärker gestiegen als das Total der Bauausgaben. Dadurch ist der Anteil der Ausgaben für Umbau und Unterhalt am Total der Bauausgaben mit 65,4% höher als im Vorjahr (61,6%). Er übertraf auch den bisherigen Höchstwert von 2011 (63,0%).",
-		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
+		"lesehilfe": "Die Ausgaben für Umbau und Unterhalt sind 2024 leicht gestiegen während das Total der Bauausgaben gesunken ist. Dadurch ereichte der Anteil der Ausgaben für Umbau und Unterhalt am Total der Bauausgaben mit 75,7% einen neuen Höchstwert innerhalb des betrachteten Zeitraumes (bisher 2023 mit 65,4%).",
+		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen. Beim Total der Bausausgaben werden Bundesprojekte nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
 		],
@@ -1017,7 +1017,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-11-11T07:18:42",
+		"aktualisierungsdatum": "2026-03-26T08:55:33",
 		"id": 5199
 	},
 	{
@@ -1033,8 +1033,8 @@ var indikatorensetData = [
 		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2022 3,74 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,13 globale Hektaren pro Kopf betrug. Die letzten drei Datenjahre sind Schätzungen.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2024 4,15 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,06 globale Hektaren pro Kopf betrug. Die letzten zwei Datenjahre sind Schätzungen.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden. So wurden z. B. in der Ausgabe 2025 methodische Änderungen insbesondere in der Klassifizierung und Erfassung von Kohlenstoffemissionen im Handel eingeführt, welche u. a. zu höheren Schätzungen des in Importen und Exporten enthaltenen Kohlenstoffs geführt haben. Was wiederum dazu führt, dass der Fussabdruck der Schweiz im Vergleich zu früheren Ausgaben höher liegt.",
 		"quellenangabe": [
 			"Global Footprint Network"
 		],
@@ -1061,7 +1061,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2023-06-09T12:32:45",
+		"aktualisierungsdatum": "2026-04-23T07:42:32",
 		"id": 5793
 	},
 	{
@@ -1147,7 +1147,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2024 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2025 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,2 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1173,7 +1173,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-17T11:07:21",
+		"aktualisierungsdatum": "2026-03-26T08:55:40",
 		"id": 6027
 	},
 	{
@@ -1227,10 +1227,10 @@ var indikatorensetData = [
 		],
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Alle Jahresmittelwerte liegen 2024 unter den Langzeitgrenzwerten. Die mittlere Feinstaubkonzentration beträgt 12,5 μg/m<sup>3</sup> für PM10 und 8,8 μg/m<sup>3</sup> für PM2,5. Der Mittelwert für Stickstoffdioxid beträgt 17,4 μg/m<sup>3</sup>.",
+		"lesehilfe": "Der Mittelwert der Feinstaubkonzentration für PM10 liegt 2025 mit 13,6 Mikrogramm pro Kubikmeter unter dem Grenzwert. Der Mittelwert für PM2,5 überschreitet den Grenzwert mit 10,1 μg/m<sup>3</sup> leicht.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 seit 2019, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
 		"quellenangabe": [
-			"Lufthygieneamt beider Basel"
+			"Amt für Umwelt und Energie Basel-Stadt"
 		],
 		"externalLinks": [
 			"<a href = 'https://luftqualitaet.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
@@ -1255,7 +1255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-02T08:43:13",
+		"aktualisierungsdatum": "2026-05-20T10:02:18",
 		"id": 6029
 	},
 	{
@@ -1347,11 +1347,12 @@ var indikatorensetData = [
 			8924,
 			11788,
 			11898,
-			11903
+			11903,
+			22309
 		],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2024 wurden 24 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2025 wurden 23 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -1378,7 +1379,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:46",
+		"aktualisierungsdatum": "2026-04-07T10:39:02",
 		"id": 6033
 	},
 	{
@@ -1476,7 +1477,7 @@ var indikatorensetData = [
 		],
 		"title": "Lohnunterschied zwischen Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Im Jahr 2022 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 251 Franken, während der Medianlohn der Männer bei 7 100 Franken liegt. Der Lohnunterschied hat sich gegenüber 2020 kaum verändert und liegt 2022 bei 12,0%. Im Jahr 2002 lag er bei 20,7%.",
+		"lesehilfe": "Im Jahr 2024 erreicht der Medianlohn der Frauen in der Privatwirtschaft in der Nordwestschweiz 6 495 Franken, während der Medianlohn der Männer bei 7 190 Franken liegt. Der Lohnunterschied liegt 2024 zum ersten Mal unter 10%. Im Jahr 2004 lag er bei 20,0%.",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -1501,7 +1502,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-28T09:22:59",
+		"aktualisierungsdatum": "2026-03-19T08:43:05",
 		"id": 6037
 	},
 	{
@@ -1819,8 +1820,8 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2022 um 34,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt um 143,3% höher. Die letzten drei Datenjahre des ökologischen Fussabdrucks sind Schätzungen.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2024 um 26,9% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt lag 2023 um 139,5% höher.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"quellenangabe": [
 			"BAK Economics",
 			"Global Footprint Network"
@@ -1847,7 +1848,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-01-08T09:18:26",
+		"aktualisierungsdatum": "2026-04-23T07:42:43",
 		"id": 6051
 	},
 	{
@@ -1979,8 +1980,8 @@ var indikatorensetData = [
 		],
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2024 liegt die Platzzahl bei 4 605. Auch die Tagesstrukturen wurden stetig ausgebaut: 2024 bieten die Frühhorte Platz für 720 Kinder, die Mittagsmodule 4 224 und die Nachmittagsmodule 3 892 Plätze.",
-		"erlaeuterungen": "Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober. <br>Tagesstrukturen: Schuleigene und -externe Tagesstrukturen stellen Mittags- und Nachmittagsmodule bereit. Stichwoche im September.<br>Sekundarschulen bieten ebenfalls Verpflegungsangebote an und die Möglichkeit, dass sich Schüler und Schülerinnen am Nachmittag beaufsichtigt in den Schulräumlichkeiten aufhalten. Hier besteht keine Anmeldepflicht, und es gibt keine fixe Anzahl an Plätzen. Aus diesem Grund berücksichtigen wir diese Plätze nicht in der Grafik.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat nach stetigem Wachstum in den vergangenen Jahren stagniert. Im Oktober 2025 liegt die Platzzahl bei 4 555. Die Tagesstrukturen wurden weiter ausgebaut: 2025 bieten die Frühhorte Platz für 800 Kinder. Die Mittagsmodule bieten 4 515 Plätze und die Nachmittagsmodule 4 166 Plätze.",
+		"erlaeuterungen": "Tagesbetreuung: Plätze in Kindertagesstätten und Tagesfamilien. Stichwoche im Oktober. Tagesstrukturen: Schuleigene und -externe Tagesstrukturen stellen Mittags- und Nachmittagsmodule bereit. Stichwoche im September. Sekundarschulen bieten ebenfalls Verpflegungsangebote an sowie die Möglichkeit, dass sich Schüler und Schülerinnen am Nachmittag beaufsichtigt in den Schulräumlichkeiten aufhalten können. Hier besteht keine Anmeldepflicht und es gibt keine fixe Anzahl an Plätzen. Aus diesem Grund berücksichtigen wir diese Plätze nicht in der Grafik.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
@@ -2005,7 +2006,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-10-17T03:43:47",
+		"aktualisierungsdatum": "2026-03-26T08:56:42",
 		"id": 6055
 	},
 	{
@@ -2059,7 +2060,7 @@ var indikatorensetData = [
 		],
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2024 12,3 °C. Der bislang höchste Wert seit Messbeginn im Jahr 1755 wurde 2023 mit 12,7 °C erreicht.",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2025 11,9 °C. Der bislang höchste Wert seit Messbeginn im Jahr 1755 wurde 2023 mit 12,7 °C erreicht.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -2084,7 +2085,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:33:47",
+		"aktualisierungsdatum": "2026-04-23T07:42:36",
 		"id": 6434
 	},
 	{
@@ -2217,7 +2218,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil ausländische Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung im Kanton Basel-Stadt liegt Ende 2024 bei 38,7%.",
+		"lesehilfe": "Der Anteil der ausländischen Bevölkerung an der Gesamtbevölkerung des Kantons Basel-Stadt liegt Ende des Jahres 2025 bei 39,2%.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2242,7 +2243,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:54",
+		"aktualisierungsdatum": "2026-03-12T07:27:45",
 		"id": 8377
 	},
 	{
@@ -2256,7 +2257,7 @@ var indikatorensetData = [
 		],
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2024 57,8, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,8 Personen, die jünger oder älter sind.",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt im Jahr 2025 57,6, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,6 Personen, die jünger oder älter sind.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2281,7 +2282,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-27T10:03:11",
+		"aktualisierungsdatum": "2026-05-13T07:37:12",
 		"id": 8379
 	},
 	{
@@ -2292,9 +2293,9 @@ var indikatorensetData = [
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -2320,7 +2321,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:28:38",
+		"aktualisierungsdatum": "2026-07-17T11:52:58",
 		"id": 8448
 	},
 	{
@@ -2410,8 +2411,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Nachdem der Veloverkehr in den vergangenen Jahren jeweils stark zugelegt hat, stagnierte er 2024 erstmals auf hohem Niveau. Der motorisierte Individualverkehr und der öffentliche Verkehr verzeichnen einen Anstieg, liegen aber unter dem Niveau von vor der Pandemie",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
+		"lesehilfe": "Nachdem der Veloverkehr 2024 erstmals seit Jahren stagniert hatte, nahm er im vergangenen Jahr wieder stark zu (+10 Prozentpunkte). Der motorisierte Individualverkehr nahm insgesamt leicht ab, auf den Stadtstrassen hingegen um 4,6 Prozentpunkte zu. In seiner Klimastrategie hält der Kanton das Ziel fest, den MIV auf dem Stadtstrassennetz bis 2037 gegenüber 2019 um einen Drittel zu reduzieren.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.bs.ch/bvd/mobilitaet/grundlagen-und-strategien/zahlen-und-fakten' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -2435,7 +2436,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-16T01:01:25",
+		"aktualisierungsdatum": "2026-08-04T10:15:49",
 		"id": 8454
 	},
 	{
@@ -2447,7 +2448,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"lesehilfe": "Im Jahr 2025 wurden an der Messstation St. Johann im Stadtzentrum von Basel 16 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 6 Tropennächte verzeichnet wurden.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -2477,7 +2478,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:45",
+		"aktualisierungsdatum": "2026-06-12T08:53:14",
 		"id": 8455
 	},
 	{
@@ -2809,10 +2810,10 @@ var indikatorensetData = [
 		"children": [
 			12547
 		],
-		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen",
+		"title": "Quote der Haushalte mit Mietbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende 2024 Familienmietzinsbeiträge.",
-		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
+		"lesehilfe": "2,2% der Haushalte erhalten Ende 2025 Mietbeiträge.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Mietbeiträgen entspricht dem Verhältnis der Anzahl Haushalte mit Mietbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres. Per 1. Juli 2025 trat das totalrevidierte Mietbeitragsgesetz in Kraft. Unter anderem wurde der Kreis der Anspruchsberechtigten auf Haushalte ohne Kinder erweitert. Die Beiträge werden seither allgemein als Mietbeiträge (MB) bezeichnet. Davor hiessen sie Familienmietzinsbeiträge (FAMI).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -2822,7 +2823,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Quote der Haushalte mit Familienmietzinsbeiträgen",
+		"description": "Quote der Haushalte mit Mietbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.09734",
@@ -2837,7 +2838,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-15T07:11:45",
+		"aktualisierungsdatum": "2026-08-13T04:44:55",
 		"id": 9734
 	},
 	{
@@ -2927,10 +2928,12 @@ var indikatorensetData = [
 		"chart-id": 9737,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			12550
+		],
 		"title": "Bevölkerungsdichte in Bauzone",
 		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
-		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2023 im Schnitt 57,5 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 142,5 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen ist, so erhöht sich der Wert auf 161,0 Personen pro Hektar.",
+		"lesehilfe": "Auf der gesamten Fläche des Kantons Basel-Stadt leben 2025 im Schnitt 58,7 Personen pro Hektar. Betrachtet man nur die reine Bauzonenfläche, so sind es 145,8 Personen. Reduziert man die Fläche wiederum auf jene Zonen, welche für Wohnnutzung vorgesehen sind, so erhöht sich der Wert auf 164,9 Personen pro Hektar.",
 		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -2945,21 +2948,21 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Bevölkerungsdichte in Bauzone",
-		"thema": "02 Raum, Umwelt",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kuerzel": "I.02.1.09737",
 		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzelKunde": "NL7",
+		"kuerzelKunde": "NL8",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "04_01_00_00_00_407",
+		"orderKey": "04_01_00_00_00_408",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-02-22T08:49:43",
+		"aktualisierungsdatum": "2026-05-20T10:02:17",
 		"id": 9737
 	},
 	{
@@ -3052,7 +3055,7 @@ var indikatorensetData = [
 		],
 		"title": "Anteil der nicht stimm- und wahlberechtigten Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2023 bei 49,4%.",
+		"lesehilfe": "Der Anteil der nicht stimm- und wahlberechtigten Bevölkerung bei kantonalen Wahlen und Abstimmungen hat in den letzten Jahren kontinuierlich zugenommen und liegt 2025 bei 50,3%.",
 		"erlaeuterungen": "Stimm- und wahlberechtigt in kantonalen Angelegenheiten sind im Kanton Basel-Stadt wohnhafte Schweizerinnen und Schweizer, die das 18. Altersjahr vollendet haben (ohne Wochenaufenthalter und Entmündigte). Nicht stimmberechtigt sind alle Kinder unter 18 Jahren sowie ausländische Erwachsene. Der Anteil der nicht stimmberechtigten Bevölkerung wird berechnet als Anzahl der Stimmberechtigten (bei mehreren Terminen pro Jahr Mittelwert aller Termine), geteilt durch den Mittelwert der Wohnbevölkerung am Monatsende der jeweiligen Abstimmungstermine (bis 2011 jeweils die Wohnbevölkerung am Jahresende); ohne Bürgergemeinderatswahlen.<br>Bewilligungsarten: B: Aufenthaltsbewilligung, C: Niederlassungsbewilligung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3078,7 +3081,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-07-04T09:05:10",
+		"aktualisierungsdatum": "2026-03-04T10:12:56",
 		"id": 9740
 	},
 	{
@@ -3132,8 +3135,8 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 207 515 Personen.",
-		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"lesehilfe": "Ende des Jahres 2025 liegt der Bevölkerungsbestand im Kanton Basel-Stadt bei 210 529 Personen.",
+		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -3157,7 +3160,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:56",
+		"aktualisierungsdatum": "2026-03-12T07:27:46",
 		"id": 9784
 	},
 	{

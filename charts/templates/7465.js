@@ -2,7 +2,7 @@
   return {
     "plotOptions": {
       "series": {
-        // "pointWidth": 25,
+        "pointWidth": 18,
         "dataLabels": {
           "style": {
             "fontSize": "10px"
@@ -11,8 +11,8 @@
         "stacking": "normal"
       }
     },
-    "xAxis": {
-      "type": "category",
+    xAxis: {
+      type: "category", /* ausprobieren, ob "category" oder nicht - hat Auswirkung auf den Abstand der letzten Jahreszahl zu rechten Rand */
       "labels": {
         rotation: 0
       }
@@ -36,11 +36,11 @@
       "align": "right",
       "itemStyle": {
         textOverflow: null,
-        width: 180,
+        width: 120,
         "fontWeight": "normal"
       },
       labelFormatter: function () {
-        return this.name.split(" ").slice(0, 1).toString();  
+        return this.name.split(" ").slice(0, 1).toString();
       },
     },
     "series": [

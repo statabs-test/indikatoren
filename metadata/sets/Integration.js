@@ -2882,10 +2882,10 @@ var indikatorensetData = [
 			8339,
 			8610
 		],
-		"title": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit",
+		"title": "Quote der Haushalte mit Mietbeiträgen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2,0% der baselstädtischen Haushalte erhalten Ende des Jahres 2024 Familienmietzinsbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,2% auf. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsangehörigkeit bestehen, liegt die Quote bei 1,1%.",
-		"erlaeuterungen": "Die Quote der Haushalte mit Familienmietzinsbeiträgen (FAMI) entspricht dem Verhältnis der Anzahl Haushalte mit Mietzinsbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres.",
+		"lesehilfe": "2,2% der Haushalte erhalten Ende des Jahres 2025 Mietbeiträge. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,6% auf. Bei den Haushalten, die ausschliesslich aus Personen mit Schweizer Staatsangehörigkeit bestehen, liegt die Quote bei 1,1%.",
+		"erlaeuterungen": "Die Quote der Haushalte mit Mietbeiträgen entspricht dem Verhältnis der Anzahl Haushalte mit Mietbeiträgen zur Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per Ende des Jahres. Stichtag ist jeweils der 4. Januar des Folgejahres. Per 1. Juli 2025 trat das totalrevidierte Mietbeitragsgesetz in Kraft. Unter anderem wurde der Kreis der Anspruchsberechtigten auf Haushalte ohne Kinder erweitert. Die Beiträge werden seither allgemein als Mietbeiträge (MB) bezeichnet. Davor hiessen sie Familienmietzinsbeiträge (FAMI).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -2894,7 +2894,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Quote der Haushalte mit Familienmietzinsbeiträgen nach Staatsangehörigkeit",
+		"description": "Quote der Haushalte mit Mietbeiträgen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.6474",
@@ -2909,7 +2909,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-12T03:17:30",
+		"aktualisierungsdatum": "2026-08-13T04:44:52",
 		"id": 6474
 	},
 	{
@@ -3201,7 +3201,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 7,3 mindestens einer Straftat beschuldigt.",
+		"lesehilfe": "Im Jahr 2025 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 6,9 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3227,7 +3227,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:06:23",
+		"aktualisierungsdatum": "2026-03-25T03:47:48",
 		"id": 6482
 	},
 	{

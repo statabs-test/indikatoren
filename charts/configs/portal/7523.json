@@ -6,46 +6,47 @@
       "legendIndex": 0,
       "data": [
         [
-          "VR China",
-          2572
-        ],
-        [
           "Indien",
-          2250
+          2969
         ],
         [
-          "Spanien",
-          6141
+          "VR China",
+          2630
         ],
         [
           "Niederlande",
-          8264
+          8451
+        ],
+        [
+          "Spanien",
+          8049
         ],
         [
           "Italien",
-          8029
+          8908
         ],
         [
           "Frankreich",
-          7238
+          8414
         ],
         [
           "UK",
-          8324
+          12760
         ],
         [
           "USA",
-          4368
+          5300
         ],
         [
           "Deutschland",
-          23467
+          29171
         ],
         [
           "Schweiz",
-          53236
+          64397
         ]
       ],
+      "pointStart": 0,
       "name": "1- und 2-Sterne",
       "turboThreshold": 0
     },
@@ -55,46 +56,47 @@
       "legendIndex": 1,
       "data": [
         [
-          "VR China",
-          3538
-        ],
-        [
           "Indien",
-          6334
+          6580
         ],
         [
-          "Spanien",
-          13986
+          "VR China",
+          4876
         ],
         [
           "Niederlande",
-          12319
+          12289
+        ],
+        [
+          "Spanien",
+          17215
         ],
         [
           "Italien",
-          15223
+          16380
         ],
         [
           "Frankreich",
-          17052
+          17667
         ],
         [
           "UK",
-          24866
+          27017
         ],
         [
           "USA",
-          22460
+          26152
         ],
         [
           "Deutschland",
-          73458
+          72287
         ],
         [
           "Schweiz",
-          190221
+          205753
         ]
       ],
+      "pointStart": 0,
       "name": "3-Sterne",
       "turboThreshold": 0
     },
@@ -104,46 +106,47 @@
       "legendIndex": 2,
       "data": [
         [
-          "VR China",
-          8869
-        ],
-        [
           "Indien",
-          7502
+          9257
         ],
         [
-          "Spanien",
-          12430
+          "VR China",
+          9650
         ],
         [
           "Niederlande",
-          17200
+          16494
+        ],
+        [
+          "Spanien",
+          14468
         ],
         [
           "Italien",
-          17298
+          18645
         ],
         [
           "Frankreich",
-          24096
+          24083
         ],
         [
           "UK",
-          49023
+          50309
         ],
         [
           "USA",
-          112924
+          116165
         ],
         [
           "Deutschland",
-          78239
+          72759
         ],
         [
           "Schweiz",
-          225934
+          265266
         ]
       ],
+      "pointStart": 0,
       "name": "4- und 5-Sterne",
       "turboThreshold": 0
     },
@@ -153,46 +156,47 @@
       "legendIndex": 3,
       "data": [
         [
-          "VR China",
-          975
-        ],
-        [
           "Indien",
-          964
+          1400
         ],
         [
-          "Spanien",
-          2717
+          "VR China",
+          1712
         ],
         [
           "Niederlande",
-          3734
+          6157
+        ],
+        [
+          "Spanien",
+          5899
         ],
         [
           "Italien",
-          4385
+          7931
         ],
         [
           "Frankreich",
-          5893
+          8715
         ],
         [
           "UK",
-          6077
+          11407
         ],
         [
           "USA",
-          6103
+          10000
         ],
         [
           "Deutschland",
-          30927
+          50069
         ],
         [
           "Schweiz",
-          71756
+          91851
         ]
       ],
+      "pointStart": 0,
       "name": "Nicht klassiert",
       "turboThreshold": 0
     }
@@ -216,7 +220,7 @@
     "reversed": false
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -224,29 +228,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "inverted": true,
     "type": "column",
@@ -276,7 +302,7 @@
     "text": "Logiernächte der Hauptmärkte nach Hotelkategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2023",
+    "text": "Basel-Stadt, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -317,7 +343,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -334,7 +360,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.2.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "tooltip": {
     "shared": false,

@@ -5,89 +5,90 @@
       "data": [
         [
           "Altstadt Kleinbasel",
-          0.128413713
+          0.1254836926
         ],
         [
           "Altstadt Grossbasel",
-          0.151354222
-        ],
-        [
-          "Clara",
-          0.1823687752
+          0.1465657112
         ],
         [
           "Vorstädte",
-          0.186229906
+          0.1739130435
+        ],
+        [
+          "Clara",
+          0.1781496063
         ],
         [
           "Gundeldingen",
-          0.2026411997
+          0.1971305175
         ],
         [
           "Matthäus",
-          0.2063063901
+          0.2016373839
         ],
         [
           "Wettstein",
-          0.2260327358
-        ],
-        [
-          "Am Ring",
-          0.2323717949
+          0.2233009709
         ],
         [
           "Breite",
-          0.2326888118
+          0.232331572
+        ],
+        [
+          "Am Ring",
+          0.2349827997
         ],
         [
           "St. Johann",
-          0.2618719363
+          0.2571170357
         ],
         [
           "Klybeck",
-          0.268220962
+          0.2708845209
         ],
         [
           "Iselin",
-          0.2719865603
+          0.2758966642
         ],
         [
           "Gotthelf",
-          0.273336414
+          0.277214334
         ],
         [
           "Rosental",
-          0.2804878049
+          0.2809917355
         ],
         [
           "Kleinhüningen",
-          0.3123515439
+          0.3005064716
         ],
         [
           "Bachletten",
-          0.3219313411
+          0.3279192814
         ],
         [
           "St. Alban",
-          0.3219763812
+          0.3286020354
         ],
         [
           "Hirzbrunnen",
-          0.3718253243
+          0.3660745385
         ],
         [
           "Bettingen",
-          0.3926031294
+          0.3968705548
         ],
         [
           "Bruderholz",
-          0.4116757982
+          0.4121823617
         ],
         [
           "Riehen",
-          0.4132397192
+          0.4122705474
         ]
       ],
+      "pointStart": 0,
       "name": "Jugendquotient",
       "turboThreshold": 0
     },
@@ -103,11 +104,11 @@
           2
         ],
         [
-          "Clara",
+          "Vorstädte",
           3
         ],
         [
-          "Vorstädte",
+          "Clara",
           4
         ],
         [
@@ -123,11 +124,11 @@
           7
         ],
         [
-          "Am Ring",
+          "Breite",
           8
         ],
         [
-          "Breite",
+          "Am Ring",
           9
         ],
         [
@@ -179,6 +180,7 @@
           21
         ]
       ],
+      "pointStart": 0,
       "name": "Rang",
       "turboThreshold": 0
     }
@@ -204,27 +206,50 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 45,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "scatter",
@@ -235,7 +260,7 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -245,10 +270,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2024",
+    "text": "nach Wohnviertel, Basel-Stadt, 2025",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.2.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.2.2026"
   },
   "legend": {
     "enabled": false,

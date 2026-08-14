@@ -710,7 +710,7 @@ var templatesById = {
 	"6719": "template001_print",
 	"6720": "line001_print",
 	"6721": "template001_print",
-	"6722": "pie001_print",
+	"6722": "befragungen001_print",
 	"6723": "template001_print",
 	"6724": "template001_print",
 	"6725": "template001_print",
@@ -920,6 +920,10 @@ var templatesById = {
 	"7453": "line001",
 	"7454": "template001",
 	"7455": "template001",
+	"7465": "template001",
+	"7466": "line001",
+	"7467": "template001",
+	"7468": "template001",
 	"7478": "template001_print",
 	"7479": "line001_print",
 	"7480": "template001_print",
@@ -2197,5 +2201,6 @@ var templatesById = {
 	"22465": "template001_print",
 	"22466": "template001_print",
 	"22467": "template001_print",
-	"22468": "befragungen001_print"
+	"22468": "befragungen001_print",
+	"22540": "line001"
 };

@@ -37,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-27T10:03:14",
+		"aktualisierungsdatum": "2026-07-02T08:34:45",
 		"id": 11899
 	},
 	{
@@ -163,7 +163,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage, Meteorologische Station Basel-Binningen",
-		"lesehilfe": "Im Jahr 2024 wurden 24 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"lesehilfe": "Im Jahr 2025 wurden 23 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
 		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -190,7 +190,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:34:17",
+		"aktualisierungsdatum": "2026-04-07T10:39:06",
 		"id": 11903
 	},
 	{
@@ -242,7 +242,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"lesehilfe": "Im Jahr 2025 wurden an der Messstation St. Johann im Stadtzentrum von Basel 16 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 6 Tropennächte verzeichnet wurden.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -272,7 +272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:52",
+		"aktualisierungsdatum": "2026-06-12T08:53:15",
 		"id": 11906
 	},
 	{
@@ -762,17 +762,17 @@ var indikatorensetData = [
 		"unterthema": "Grundstückhandel",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-11T05:38:55",
+		"aktualisierungsdatum": "2026-03-19T08:43:07",
 		"id": 22455
 	},
 	{
@@ -800,17 +800,17 @@ var indikatorensetData = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-11T05:38:55",
+		"aktualisierungsdatum": "2026-03-19T08:43:08",
 		"id": 22456
 	},
 	{
@@ -822,7 +822,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fussgänger- und Begegnungszonen",
 		"subtitle": "Länge in Kilometern, Stadt Basel",
-		"lesehilfe": "Im Jahr 2024 betrug die Länge der Begegnungszonen in der Stadt Basel 23,5 km, jene der Fussgängerzonen 4,8 km.",
+		"lesehilfe": "Im Jahr 2025 betrug die Länge der Begegnungszonen in der Stadt Basel 24,0 km, jene der Fussgängerzonen 4,8 km.",
 		"erlaeuterungen": "Begegnungszonen: Es gilt eine Höchstgeschwindigkeit von 20 km/h; Fussgängerinnen und Fussgänger haben gegenüber Autos und Velos überall Vortritt. Fussgängerzonen (erst seit 2015 systematisch erfasst): Grundsätzliches Fahrverbot; befinden sich v. a. in der Innenstadt. Nicht als verkehrsberuhigte Strassen zählen separate Fuss- und Velowege sowie Altstadtgassen und Fussgängerpassagen, durch welche Autos nicht hindurchfahren können. Sind Fussgängerzonen oder Fahrverbote nur zeitlich eingeschränkt signalisiert, so müssen sie zwischen 09:00 und 19:00 Uhr während mindestens 8 Stunden entsprechend signalisiert sein (ohne Anlieferung), damit sie als verkehrsberuhigte Strassen zählen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -839,17 +839,17 @@ var indikatorensetData = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-11T05:38:55",
+		"aktualisierungsdatum": "2026-05-13T07:37:13",
 		"id": 22457
 	},
 	{
@@ -861,7 +861,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wasserseitiger Containerumschlag",
 		"subtitle": "in TEU, Schweizerische Rheinhäfen",
-		"lesehilfe": "Der wasserseitige Containerumschlag hat sich in den letzten vier Jahrzehnten dynamisch entwickelt. Bis zur Asienkrise 1997 war das Wachstum exponentiell, danach nahm es eine linearere Form an. Zwischen 1998 und 2022 lag das durchschnittliche jährliche Wachstum bei 3,1%. 2022 gab es durch pandemiebedingte Nachholeffekte einen deutlichen Anstieg. In den beiden darauffolgenden Jahren flachte die Entwicklung jedoch ab. Faktoren wie hohe Lagerbestände, politische Spannungen und die inflationäre Entwicklung in Europa führten zu einem Rückgang des Transportvolumens. Zusätzlich fehlten durch den Rückbau des Contargo Südquai-Terminals wichtige Umschlagskapazitäten, die durch bestehende Anlagen nicht vollständig ausgeglichen werden konnten. 2024 sank das Transportvolumen im Containerverkehr um 8,0% auf 100&nbsp032&nbspTEU.",
+		"lesehilfe": "Der wasserseitige Containerumschlag in Basel zeigt über die vergangenen vier Jahrzehnte eine überwiegend steigende Entwicklung des Umschlagsvolumens. Bis zur Asienkrise 1997 verlief das Wachstum exponentiell, seit 1998 zeigt sich eine annähernd lineare Entwicklung. Zwischen 1998 und 2022 betrug das durchschnittliche jährliche Wachstum 3,1%. Im Jahr 2022 wurde im Zusammenhang mit pandemiebedingten Nachholeffekten ein überdurchschnittlicher Anstieg verzeichnet. In den Jahren 2023 und 2024 verringerte sich das Umschlagsvolumen. Hierzu trugen insbesondere hohe Lagerbestände, geopolitische Spannungen sowie die Inflation in Europa bei. Zusätzlich reduzierten sich die Umschlagskapazitäten infolge des Rückbaus des Contargo Südquai-Terminals; eine vollständige Kompensation durch bestehende Anlagen erfolgte nicht. Im Jahr 2025 wurden wasserseitig 112 620 TEU umgeschlagen. Gegenüber dem Vorjahr entspricht dies einer Zunahme um 12,6%.",
 		"erlaeuterungen": "Containerschifffahrt bezeichnet den Gütertransport mit Schiffen, welche für den Transport von ISO-Containern ausgelegt sind. TEU (Twenty-foot Equivalent Unit/Zwanzig-Fuss-Standardcontainer) ist eine international standardisierte Einheit zur Zählung von Containern verschiedener Grössen sowie zur Beschreibung der Ladekapazität von Schiffen und des Umschlags von Terminals beim Containertransport. Nicht nur Schiffe, auch Bahnwaggons und Sattelschlepper werden nach diesem Standard ausgelegt. Diese Normierung ist die Voraussetzung für einen nahtlosen Transport via Schiff, Lastwagen und Eisenbahn.",
 		"quellenangabe": [
 			"Schweizerische Rheinhäfen"
@@ -876,17 +876,17 @@ var indikatorensetData = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-11T05:38:55",
+		"aktualisierungsdatum": "2026-03-19T08:43:09",
 		"id": 22458
 	},
 	{
@@ -913,17 +913,17 @@ var indikatorensetData = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-11T05:38:55",
+		"aktualisierungsdatum": "2026-03-19T08:43:11",
 		"id": 22459
 	},
 	{
@@ -953,17 +953,17 @@ var indikatorensetData = [
 		"unterthema": "",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-11T05:43:04",
+		"aktualisierungsdatum": "2026-03-26T08:56:44",
 		"id": 22460
 	},
 	{
@@ -972,11 +972,13 @@ var indikatorensetData = [
 		"chart-id": 22461,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22468
+		],
 		"title": "Anteile der Verkehrsmittel (Modal Split), Tagesdistanz",
 		"subtitle": "in km",
-		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Strecken liegt 2021 in Basel-Stadt bei rund 11% der gesamten Tagesdistanz. Rund 46% der täglich zurückgelegten Distanz werden mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
-		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Da die Erhebung im Jahr 2021 stattfand, war sie wesentlich von der COVID-19-Pandemie geprägt.",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Strecken liegt 2021 in Basel-Stadt bei rund 11% der gesamten Tagesdistanz. Rund 46% der täglich zurückgelegten Distanz werden mit dem Auto oder einem motorisierten Zweirad bewältigt. Beide sind unter dem motorisierten Individualverkehr (MIV) zusammengefasst. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt auf einen Anteil von 31%.",
+		"erlaeuterungen": "Die Ergebnisse von 2021 basieren auf der Hochrechnung einer Stichprobenerhebung von 975 Zielpersonen (2015: 1 241 Zielpersonen; 2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Die Erhebung wurde während der COVID-19-Pandemie durchgeführt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
 		],
@@ -990,17 +992,17 @@ var indikatorensetData = [
 		"unterthema": "Mobilitätsverhalten",
 		"kuerzel": "",
 		"kennzahlenset": "Richtplan",
-		"kuerzelKunde": "GW21",
-		"stufe1": "",
+		"kuerzelKunde": "XX",
+		"stufe1": "Diverse",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"orderKey": "_000",
+		"orderKey": "99_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-12T10:17:22",
+		"aktualisierungsdatum": "2026-03-26T08:56:45",
 		"id": 22461
 	},
 	{
@@ -1094,7 +1096,7 @@ var indikatorensetData = [
 		],
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 pendeln rund 92 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 63% von ihnen aus der Schweiz. Rund 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
+		"lesehilfe": "Im Jahr 2024 pendeln rund 90 400 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 60% von ihnen aus der Schweiz. Rund 24 700 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 65 700 Personen.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1120,7 +1122,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:43",
+		"aktualisierungsdatum": "2026-07-13T03:44:29",
 		"id": 5203
 	},
 	{
@@ -1211,7 +1213,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "2024 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,5 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
+		"lesehilfe": "2025 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,2 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu und sank zwischenzeitlich auf 41,0 m².",
 		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1237,7 +1239,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-31T11:07:11",
+		"aktualisierungsdatum": "2026-03-26T08:56:35",
 		"id": 5815
 	},
 	{
@@ -1274,7 +1276,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-20T11:25:29",
+		"aktualisierungsdatum": "2026-03-26T08:56:36",
 		"id": 5816
 	},
 	{
@@ -1288,8 +1290,8 @@ var indikatorensetData = [
 			7597
 		],
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015-2024",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen 17% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Wohnungsbestand.",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016-2025",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel St. Alban und in Riehen am höchsten. Auf diese Wohnviertel entfielen je 11% der gesamtkantonalen Nettoproduktion. Insgesamt ist die Nettowohnungsproduktion  vor allem auf grosse Arealentwicklungen zurückzuführen und in geringerem Masse auf Erneuerungen bzw. Verdichtungen im Wohnungsbestand.",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1314,7 +1316,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-25T08:34:19",
+		"aktualisierungsdatum": "2026-03-26T08:56:39",
 		"id": 5817
 	},
 	{
@@ -1525,8 +1527,8 @@ var indikatorensetData = [
 			6255
 		],
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2023",
-		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2023 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt, 2024",
+		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man im Jahr 2024 in den Wohnvierteln St. Alban und St. Johann. Bezogen auf die Anteile BGF Arbeiten an der gesamten BGF weisen die Wohnviertel Kleinhüningen und Altstadt Grossbasel die höchsten Werte auf.",
 		"erlaeuterungen": "Die Bruttogeschossfläche (BGF) ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, die zum Wohnen oder Arbeiten genutzt werden können.",
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
@@ -1551,7 +1553,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-03T08:37:44",
+		"aktualisierungsdatum": "2026-06-12T08:53:17",
 		"id": 5825
 	},
 	{
@@ -1645,8 +1647,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"lesehilfe": "Nachdem der Veloverkehr in den vergangenen Jahren jeweils stark zugelegt hat, stagnierte er 2024 erstmals auf hohem Niveau. Der motorisierte Individualverkehr und der öffentliche Verkehr verzeichnen einen Anstieg, liegen aber unter dem Niveau von vor der Pandemie. In seiner Klimastrategie hält der Kanton das Ziel fest, den MIV auf dem Stadtstrassennetz bis 2037 gegenüber 2019 um ein Drittel zu reduzieren.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
+		"lesehilfe": "Nachdem der Veloverkehr 2024 erstmals seit Jahren stagniert hatte, nahm er im vergangenen Jahr wieder stark zu (+10 Prozentpunkte). Der motorisierte Individualverkehr nahm insgesamt leicht ab, auf den Stadtstrassen hingegen um 4,6 Prozentpunkte zu. In seiner Klimastrategie hält der Kanton das Ziel fest, den MIV auf dem Stadtstrassennetz bis 2037 gegenüber 2019 um einen Drittel zu reduzieren.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.bs.ch/bvd/mobilitaet/grundlagen-und-strategien/zahlen-und-fakten' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -1670,7 +1672,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-16T01:01:35",
+		"aktualisierungsdatum": "2026-08-04T10:15:50",
 		"id": 6007
 	},
 	{
@@ -1684,7 +1686,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl Wohnungsbestand als auch Bevölkerung. Es gab kaum Leerwohnungen. In den 1970er-Jahren nahm die Bevölkerung ab, der Wohnungsbestand weiterhin zu. Dies führte Mitte der 1970er-Jahre zu einer hohen Anzahl Leerwohnungen. Die seit 2007 anhaltende Bevölkerungszunahme führte zunächst zu einem Rückgang der Anzahl Leerwohnungen. Infolge vermehrter Bautätigkeit stieg die Zahl der Leerwohnungen in den Jahren 2015 bis 2022 jedoch wieder.",
+		"lesehilfe": "Von 1960 bis 1970 wuchsen sowohl Wohnungsbestand als auch Bevölkerung. Es gab kaum Leerwohnungen. In den 1970er-Jahren nahm die Bevölkerung ab, der Wohnungsbestand weiterhin zu. Dies führte Mitte der 1970er-Jahre zu einer hohen Anzahl Leerwohnungen. Die seit 2007 anhaltende Bevölkerungszunahme führte zunächst zu einem Rückgang der Anzahl Leerwohnungen. Infolge vermehrter Bautätigkeit stieg die Zahl der Leerwohnungen in den Jahren 2015 bis 2022 jedoch wieder. 2025 stieg die Zahl der Leerwohnungen trozt geringer Bautätigkeit.",
 		"erlaeuterungen": "Bis 2011 wurde die Bevölkerungszahl ermittelt, indem der Vorjahresbestand durch natürliche Ereignisse (Geburt, Tod) und räumliche Ereignisse (Zuzug, Wegzug) fortgeschrieben wurde. Seit 2012 wird die Bevölkerungszahl direkt aus dem kantonalen Einwohnerregister gewonnen. Die Leerwohnungen werden per Stichtag 1. Juni im Rahmen der Leerwohnungszählung ermittelt. Der in der Grafik dargestellte Wohnungsbestand umfasst die im Wohnungsregister erfassten Wohnungen ohne die Leerwohnungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1710,7 +1712,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-03-12T10:19:03",
+		"aktualisierungsdatum": "2026-03-26T08:56:31",
 		"id": 6214
 	},
 	{
@@ -1728,9 +1730,9 @@ var indikatorensetData = [
 			10041
 		],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -1756,7 +1758,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-15T09:02:18",
+		"aktualisierungsdatum": "2026-07-17T11:52:59",
 		"id": 6215
 	},
 	{
@@ -1964,11 +1966,13 @@ var indikatorensetData = [
 		"chart-id": 7773,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			8417
+		],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2024 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 207 515 Personen.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 200 Personen pro Jahr.",
-		"erlaeuterungen": "siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
+		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 200 Personen pro Jahr.",
+		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -1992,7 +1996,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-02-17T11:24:57",
+		"aktualisierungsdatum": "2026-03-12T07:27:50",
 		"id": 7773
 	},
 	{
@@ -2087,18 +2091,15 @@ var indikatorensetData = [
 			8420
 		],
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
-		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2021 rund 24%. Das bedeutet, dass eine durchschnittliche Reise 24% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. Nach dem deutlichen Rückgang zwischen 2019 und 2020, ist im Jahr 2021 in allen betrachteten Städten wieder ein Anstieg zu beobachten.",
+		"subtitle": "Stadt Basel im Vergleich, 2025",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2025 rund 45%. Das bedeutet, dass Fahrten im Durchschnitt rund 45% länger dauern als bei freiem Verkehrsfluss.",
 		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"quellenangabe": [
 			"TomTom International"
 		],
 		"externalLinks": [
 			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/traffic-index/about' target = '_blank'>TomTom Traffic Index</a>.",
-			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
-			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/GNV' target = '_blank'>Genf</a>;",
-			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
-			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
+			"Die Werte für die <a href = 'https://www.tomtom.com/traffic-index/country/switzerland/' target = '_blank'>Schweiz</a>."
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -2119,7 +2120,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2024-03-26T02:51:10",
+		"aktualisierungsdatum": "2026-07-24T03:41:26",
 		"id": 7777
 	},
 	{
@@ -2172,7 +2173,7 @@ var indikatorensetData = [
 		],
 		"title": "Motorisierungsgrad",
 		"subtitle": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 300 Personenwagen pro 1000 Einwohnerinnen und Einwohner.",
+		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 294 Personenwagen pro 1000 Einwohnerinnen und Einwohner.",
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung. Die Auswertung basiert ab 2021 auf den Fahrzeugdaten des Informationssystems Verkehrszulassung (IVZ) des Bundesamts für Strassen (ASTRA). Leichte Differenzen zu den Zahlen der Motorfahrzeugkontrolle Basel-Stadt sind möglich.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt",
@@ -2201,7 +2202,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-19T07:43:14",
+		"aktualisierungsdatum": "2026-07-13T03:44:28",
 		"id": 7779
 	},
 	{

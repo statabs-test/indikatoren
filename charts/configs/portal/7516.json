@@ -6,118 +6,6 @@
       "data": [
         [
           "Jan",
-          36061
-        ],
-        [
-          "Feb",
-          39279
-        ],
-        [
-          "Mrz",
-          38718
-        ],
-        [
-          "Apr",
-          42480
-        ],
-        [
-          "Mai",
-          52800
-        ],
-        [
-          "Jun",
-          49907
-        ],
-        [
-          "Jul",
-          55587
-        ],
-        [
-          "Aug",
-          48675
-        ],
-        [
-          "Sep",
-          48662
-        ],
-        [
-          "Okt",
-          53361
-        ],
-        [
-          "Nov",
-          56786
-        ],
-        [
-          "Dez",
-          59883
-        ]
-      ],
-      "name": "Inland 2024",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
-      "data": [
-        [
-          "Jan",
-          47939
-        ],
-        [
-          "Feb",
-          51050
-        ],
-        [
-          "Mrz",
-          65902
-        ],
-        [
-          "Apr",
-          69533
-        ],
-        [
-          "Mai",
-          86378
-        ],
-        [
-          "Jun",
-          96112
-        ],
-        [
-          "Jul",
-          94684
-        ],
-        [
-          "Aug",
-          95127
-        ],
-        [
-          "Sep",
-          86542
-        ],
-        [
-          "Okt",
-          89232
-        ],
-        [
-          "Nov",
-          77702
-        ],
-        [
-          "Dez",
-          111525
-        ]
-      ],
-      "name": "Ausland 2024",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
-      "data": [
-        [
-          "Jan",
           34823
         ],
         [
@@ -162,15 +50,16 @@
         ],
         [
           "Dez",
-          undefined
+          61537
         ]
       ],
+      "pointStart": 0,
       "name": "Inland 2025",
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
       "data": [
         [
           "Jan",
@@ -218,10 +107,125 @@
         ],
         [
           "Dez",
+          114423
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Ausland 2025",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          42362
+        ],
+        [
+          "Feb",
+          42715
+        ],
+        [
+          "Mrz",
+          43644
+        ],
+        [
+          "Apr",
+          46250
+        ],
+        [
+          "Mai",
+          54845
+        ],
+        [
+          "Jun",
+          58717
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
           undefined
         ]
       ],
-      "name": "Ausland 2025",
+      "pointStart": 0,
+      "name": "Inland 2026",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          57172
+        ],
+        [
+          "Feb",
+          49366
+        ],
+        [
+          "Mrz",
+          74176
+        ],
+        [
+          "Apr",
+          69898
+        ],
+        [
+          "Mai",
+          82750
+        ],
+        [
+          "Jun",
+          94020
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Ausland 2026",
       "turboThreshold": 0
     }
   ],
@@ -245,32 +249,54 @@
   },
   "chart": {
     "type": "column",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-7516"
   },
@@ -354,41 +380,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 18.12.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.7.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

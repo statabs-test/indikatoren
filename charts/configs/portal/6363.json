@@ -5,11 +5,11 @@
       "data": [
         [
           "Einpersonenhaushalte",
-          65.09
+          65.1
         ],
         [
           "Familienhaushalte",
-          33.04
+          32.87
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
@@ -49,9 +49,10 @@
         ],
         [
           "Nichtfamilienhaushalte",
-          36.98
+          36.12
         ]
       ],
+      "pointStart": 0,
       "name": "Mittlere Wohnfläche",
       "turboThreshold": 0
     },
@@ -68,11 +69,11 @@
         ],
         [
           "Verheiratete\u002Fregistrierte Paare ohne Kinder",
-          47.11
+          46.83
         ],
         [
           "Paare mit minderjährigen Kindern",
-          26.37
+          26.3
         ],
         [
           "Verheiratete Paare mit Kindern",
@@ -84,7 +85,7 @@
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
-          30.21
+          30.18
         ],
         [
           "Ohne weitere Personen",
@@ -100,13 +101,14 @@
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
-          33.69
+          33.63
         ],
         [
           "Nichtfamilienhaushalte",
           undefined
         ]
       ],
+      "pointStart": 0,
       "name": "Mittlere Wohnfläche",
       "turboThreshold": 0
     },
@@ -131,11 +133,11 @@
         ],
         [
           "Verheiratete Paare mit Kindern",
-          26.18
+          26.08
         ],
         [
           "Unverheiratete Paare mit Kindern",
-          27.43
+          27.49
         ],
         [
           "Einelternhaushalte mit minderj. Kindern",
@@ -143,15 +145,15 @@
         ],
         [
           "Ohne weitere Personen",
-          32.94
+          33.02
         ],
         [
           "Mit Grosseltern(-teil)",
-          21.42
+          21.98
         ],
         [
           "Mit weiteren Personen",
-          26.42
+          26.12
         ],
         [
           "Eltern(-teil) mit nur volljährigen Kindern",
@@ -162,6 +164,7 @@
           undefined
         ]
       ],
+      "pointStart": 0,
       "name": "Mittlere Wohnfläche",
       "turboThreshold": 0
     }
@@ -229,7 +232,7 @@
     }
   ],
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -237,29 +240,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "marginLeft": 250,
     "type": "column",
@@ -292,7 +317,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "nach Haushaltstyp in m², Basel-Stadt, 2024",
+    "text": "nach Haushaltstyp in m², Basel-Stadt, 2025",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -331,7 +356,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -348,7 +373,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.3.2026"
   },
   "colors": [
     "#68AB2B",

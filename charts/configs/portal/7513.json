@@ -5,7 +5,7 @@
       "data": [
         [
           "Jan",
-          100.4
+          100
         ],
         [
           "Feb",
@@ -13,31 +13,31 @@
         ],
         [
           "Mrz",
-          100.6
+          100.5
         ],
         [
           "Apr",
-          100.2
+          100.5
         ],
         [
           "Mai",
-          100.4
+          100.6
         ],
         [
           "Jun",
-          100.4
+          100.8
         ],
         [
           "Jul",
-          100.2
+          100.8
         ],
         [
           "Aug",
-          100.3
+          100.6
         ],
         [
           "Sep",
-          100.3
+          100.4
         ],
         [
           "Okt",
@@ -45,69 +45,15 @@
         ],
         [
           "Nov",
-          100.1
+          100
         ],
         [
           "Dez",
           100
         ]
       ],
-      "name": "2020",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Jan",
-          100.1
-        ],
-        [
-          "Feb",
-          100.2
-        ],
-        [
-          "Mrz",
-          100.5
-        ],
-        [
-          "Apr",
-          100.8
-        ],
-        [
-          "Mai",
-          101
-        ],
-        [
-          "Jun",
-          101.1
-        ],
-        [
-          "Jul",
-          100.9
-        ],
-        [
-          "Aug",
-          101.2
-        ],
-        [
-          "Sep",
-          101.1
-        ],
-        [
-          "Okt",
-          101.4
-        ],
-        [
-          "Nov",
-          101.4
-        ],
-        [
-          "Dez",
-          101.3
-        ]
-      ],
-      "name": "2021",
+      "pointStart": 0,
+      "name": "2025",
       "turboThreshold": 0
     },
     {
@@ -115,219 +61,55 @@
       "data": [
         [
           "Jan",
-          101.5
+          100
         ],
         [
           "Feb",
-          102
+          100.6
         ],
         [
           "Mrz",
-          102.6
+          100.8
         ],
         [
           "Apr",
-          103
+          101.1
         ],
         [
           "Mai",
-          103.7
+          101.3
         ],
         [
           "Jun",
-          104.1
+          101.3
         ],
         [
           "Jul",
-          104
+          101.1
         ],
         [
           "Aug",
-          104.2
+          null
         ],
         [
           "Sep",
-          104
+          null
         ],
         [
           "Okt",
-          104.3
+          null
         ],
         [
           "Nov",
-          104.4
+          null
         ],
         [
           "Dez",
-          104.2
+          null
         ]
       ],
-      "name": "2022",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "data": [
-        [
-          "Jan",
-          104.6
-        ],
-        [
-          "Feb",
-          105.3
-        ],
-        [
-          "Mrz",
-          105.5
-        ],
-        [
-          "Apr",
-          105.4
-        ],
-        [
-          "Mai",
-          105.7
-        ],
-        [
-          "Jun",
-          105.8
-        ],
-        [
-          "Jul",
-          105.6
-        ],
-        [
-          "Aug",
-          105.8
-        ],
-        [
-          "Sep",
-          105.7
-        ],
-        [
-          "Okt",
-          105.8
-        ],
-        [
-          "Nov",
-          105.6
-        ],
-        [
-          "Dez",
-          105.7
-        ]
-      ],
-      "name": "2023",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#662673",
-      "data": [
-        [
-          "Jan",
-          105.7
-        ],
-        [
-          "Feb",
-          106.2
-        ],
-        [
-          "Mrz",
-          106.3
-        ],
-        [
-          "Apr",
-          106.6
-        ],
-        [
-          "Mai",
-          107
-        ],
-        [
-          "Jun",
-          107.1
-        ],
-        [
-          "Jul",
-          106.9
-        ],
-        [
-          "Aug",
-          106.9
-        ],
-        [
-          "Sep",
-          106.5
-        ],
-        [
-          "Okt",
-          106.4
-        ],
-        [
-          "Nov",
-          106.2
-        ],
-        [
-          "Dez",
-          106.1
-        ]
-      ],
-      "name": "2024",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#2E1435",
-      "data": [
-        [
-          "Jan",
-          106.3
-        ],
-        [
-          "Feb",
-          106.8
-        ],
-        [
-          "Mrz",
-          106.8
-        ],
-        [
-          "Apr",
-          106.8
-        ],
-        [
-          "Mai",
-          106.9
-        ],
-        [
-          "Jun",
-          107.1
-        ],
-        [
-          "Jul",
-          107.1
-        ],
-        [
-          "Aug",
-          107
-        ],
-        [
-          "Sep",
-          106.7
-        ],
-        [
-          "Okt",
-          106.6
-        ],
-        [
-          "Nov",
-          106.3
-        ],
-        [
-          "Dez",
-          106.3
-        ]
-      ],
-      "name": "2025",
+      "pointStart": 0,
+      "name": "2026",
       "turboThreshold": 0
     }
   ],
@@ -352,32 +134,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 65,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
-
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-7513"
   },
@@ -406,7 +210,7 @@
     "text": "Basler Index"
   },
   "subtitle": {
-    "text": "Basis Dezember 2020 = 100",
+    "text": "Basis Dezember 2025 = 100",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -431,7 +235,8 @@
         "color": "#000000"
       },
       "format": "{value:,.1f}"
-    }
+    },
+    "tickInterval": 0.5
   },
   "legend": {
     "enabled": true,
@@ -457,41 +262,49 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 8.1.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 3.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": false,
