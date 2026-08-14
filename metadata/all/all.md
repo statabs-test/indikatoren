@@ -2536,6 +2536,7 @@ id | visible | visibleInPortal | indikatorenset
 22436 | true | true | Gesundheitsversorgung
 22455 | true | false | Richtplan
 22456 | true | false | Richtplan
+22457 | true | false | Richtplan
 22458 | true | false | Richtplan
 22459 | true | false | Richtplan
 22460 | true | false | Richtplan
@@ -2547,3 +2548,4 @@ id | visible | visibleInPortal | indikatorenset
 22466 | true | false | Richtplan (Print)
 22467 | true | false | Richtplan (Print)
 22468 | true | false | Richtplan (Print)
+22540 | true | true | 

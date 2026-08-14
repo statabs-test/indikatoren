@@ -4936,7 +4936,7 @@
         ],
         [
           1723420800000,
-          6
+          7
         ],
         [
           1724025600000,
@@ -5044,7 +5044,7 @@
         ],
         [
           1739750400000,
-          2
+          3
         ],
         [
           1740355200000,
@@ -5204,7 +5204,7 @@
         ],
         [
           1763942400000,
-          6
+          8
         ],
         [
           1764547200000,
@@ -5212,7 +5212,7 @@
         ],
         [
           1765152000000,
-          3
+          5
         ],
         [
           1765756800000,
@@ -5220,7 +5220,7 @@
         ],
         [
           1766361600000,
-          1
+          2
         ],
         [
           1766966400000,
@@ -5252,7 +5252,7 @@
         ],
         [
           1771200000000,
-          6
+          7
         ],
         [
           1771804800000,
@@ -5260,7 +5260,7 @@
         ],
         [
           1772409600000,
-          3
+          4
         ],
         [
           1773014400000,
@@ -5272,71 +5272,71 @@
         ],
         [
           1774224000000,
-          5
+          6
         ],
         [
           1774828800000,
-          null
+          3
         ],
         [
           1775433600000,
-          null
+          3
         ],
         [
           1776038400000,
-          null
+          2
         ],
         [
           1776643200000,
-          null
+          1
         ],
         [
           1777248000000,
-          null
+          5
         ],
         [
           1777852800000,
-          null
+          3
         ],
         [
           1778457600000,
-          null
+          6
         ],
         [
           1779062400000,
-          null
+          3
         ],
         [
           1779667200000,
-          null
+          5
         ],
         [
           1780272000000,
-          null
+          0
         ],
         [
           1780876800000,
-          null
+          4
         ],
         [
           1781481600000,
-          null
+          4
         ],
         [
           1782086400000,
-          null
+          9
         ],
         [
           1782691200000,
-          null
+          7
         ],
         [
           1783296000000,
-          null
+          4
         ],
         [
           1783900800000,
-          null
+          4
         ],
         [
           1784505600000,
@@ -5435,6 +5435,7 @@
           null
         ]
       ],
+      "pointStart": 978307200000,
       "name": "Gemeldete Todesfälle 0 - 64 Jahre"
     },
     {
@@ -11462,12 +11463,12 @@
         {
           "x": 1705881600000,
           "low": 0,
-          "high": 10.9
+          "high": 10.8
         },
         {
           "x": 1706486400000,
           "low": 0,
-          "high": 10.9
+          "high": 10.8
         },
         {
           "x": 1707091200000,
@@ -11482,12 +11483,12 @@
         {
           "x": 1708300800000,
           "low": 0,
-          "high": 10.8
+          "high": 10.7
         },
         {
           "x": 1708905600000,
           "low": 0,
-          "high": 10.8
+          "high": 10.7
         },
         {
           "x": 1709510400000,
@@ -11507,7 +11508,7 @@
         {
           "x": 1711324800000,
           "low": 0,
-          "high": 10.7
+          "high": 10.6
         },
         {
           "x": 1711929600000,
@@ -11577,7 +11578,7 @@
         {
           "x": 1719792000000,
           "low": 0,
-          "high": 10.3
+          "high": 10.4
         },
         {
           "x": 1720396800000,
@@ -11622,27 +11623,27 @@
         {
           "x": 1725235200000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1725840000000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1726444800000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1727049600000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1727654400000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1728259200000,
@@ -11692,17 +11693,17 @@
         {
           "x": 1733702400000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1734307200000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1734912000000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1735516800000,
@@ -11722,7 +11723,7 @@
         {
           "x": 1737331200000,
           "low": 0,
-          "high": 10.8
+          "high": 10.7
         },
         {
           "x": 1737936000000,
@@ -11787,7 +11788,7 @@
         {
           "x": 1745193600000,
           "low": 0,
-          "high": 10.4
+          "high": 10.5
         },
         {
           "x": 1745798400000,
@@ -11807,7 +11808,7 @@
         {
           "x": 1747612800000,
           "low": 0,
-          "high": 10.3
+          "high": 10.4
         },
         {
           "x": 1748217600000,
@@ -11827,7 +11828,7 @@
         {
           "x": 1750032000000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1750636800000,
@@ -11857,27 +11858,27 @@
         {
           "x": 1753660800000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1754265600000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1754870400000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1755475200000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1756080000000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1756684800000,
@@ -11932,42 +11933,42 @@
         {
           "x": 1762732800000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1763337600000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1763942400000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1764547200000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1765152000000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1765756800000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1766361600000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1766966400000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1767571200000,
@@ -12002,22 +12003,22 @@
         {
           "x": 1771200000000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1771804800000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1772409600000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1773014400000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1773619200000,
@@ -12042,37 +12043,37 @@
         {
           "x": 1776038400000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1776643200000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1777248000000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1777852800000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1778457600000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1779062400000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1779667200000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1780272000000,
@@ -12087,150 +12088,151 @@
         {
           "x": 1781481600000,
           "low": 0,
-          "high": 9.7
+          "high": 9.8
         },
         {
           "x": 1782086400000,
           "low": 0,
-          "high": 9.7
+          "high": 9.8
         },
         {
           "x": 1782691200000,
           "low": 0,
-          "high": 9.7
+          "high": 9.8
         },
         {
           "x": 1783296000000,
           "low": 0,
-          "high": 9.7
+          "high": 9.8
         },
         {
           "x": 1783900800000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1784505600000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1785110400000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1785715200000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1786320000000,
           "low": 0,
-          "high": 9.8
+          "high": 9.9
         },
         {
           "x": 1786924800000,
           "low": 0,
-          "high": 9.8
+          "high": 10
         },
         {
           "x": 1787529600000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1788134400000,
           "low": 0,
-          "high": 9.9
+          "high": 10
         },
         {
           "x": 1788739200000,
           "low": 0,
-          "high": 9.9
+          "high": 10.1
         },
         {
           "x": 1789344000000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1789948800000,
           "low": 0,
-          "high": 10
+          "high": 10.1
         },
         {
           "x": 1790553600000,
           "low": 0,
-          "high": 10
+          "high": 10.2
         },
         {
           "x": 1791158400000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1791763200000,
           "low": 0,
-          "high": 10.1
+          "high": 10.2
         },
         {
           "x": 1792368000000,
           "low": 0,
-          "high": 10.1
+          "high": 10.3
         },
         {
           "x": 1792972800000,
           "low": 0,
-          "high": 10.2
+          "high": 10.3
         },
         {
           "x": 1793577600000,
           "low": 0,
-          "high": 10.2
+          "high": 10.4
         },
         {
           "x": 1794182400000,
           "low": 0,
-          "high": 10.2
+          "high": 10.4
         },
         {
           "x": 1794787200000,
           "low": 0,
-          "high": 10.3
+          "high": 10.4
         },
         {
           "x": 1795392000000,
           "low": 0,
-          "high": 10.3
+          "high": 10.5
         },
         {
           "x": 1795996800000,
           "low": 0,
-          "high": 10.3
+          "high": 10.5
         },
         {
           "x": 1796601600000,
           "low": 0,
-          "high": 10.4
+          "high": 10.5
         },
         {
           "x": 1797206400000,
           "low": 0,
-          "high": 10.4
+          "high": 10.6
         },
         {
           "x": 1797811200000,
           "low": 0,
-          "high": 10.4
+          "high": 10.6
         },
         {
           "x": 1798416000000,
           "low": 0,
-          "high": 10.5
+          "high": 10.7
         }
       ],
-      "name": "Untere Grenze Erwartungsbereich 0 - 64 Jahre"
+      "pointStart": 978307200000,
+      "name": "Datum"
     },
     {
       "id": "d",
@@ -17345,7 +17347,7 @@
         ],
         [
           1750032000000,
-          29
+          30
         ],
         [
           1750636800000,
@@ -17409,7 +17411,7 @@
         ],
         [
           1759708800000,
-          29
+          30
         ],
         [
           1760313600000,
@@ -17437,15 +17439,15 @@
         ],
         [
           1763942400000,
-          40
+          42
         ],
         [
           1764547200000,
-          34
+          35
         ],
         [
           1765152000000,
-          39
+          40
         ],
         [
           1765756800000,
@@ -17457,15 +17459,15 @@
         ],
         [
           1766966400000,
-          37
+          39
         ],
         [
           1767571200000,
-          64
+          66
         ],
         [
           1768176000000,
-          46
+          48
         ],
         [
           1768780800000,
@@ -17477,7 +17479,7 @@
         ],
         [
           1769990400000,
-          35
+          36
         ],
         [
           1770595200000,
@@ -17485,15 +17487,15 @@
         ],
         [
           1771200000000,
-          31
+          33
         ],
         [
           1771804800000,
-          33
+          36
         ],
         [
           1772409600000,
-          33
+          35
         ],
         [
           1773014400000,
@@ -17501,75 +17503,75 @@
         ],
         [
           1773619200000,
-          31
+          32
         ],
         [
           1774224000000,
-          48
+          49
         ],
         [
           1774828800000,
-          null
+          24
         ],
         [
           1775433600000,
-          null
+          27
         ],
         [
           1776038400000,
-          null
+          25
         ],
         [
           1776643200000,
-          null
+          34
         ],
         [
           1777248000000,
-          null
+          29
         ],
         [
           1777852800000,
-          null
+          33
         ],
         [
           1778457600000,
-          null
+          31
         ],
         [
           1779062400000,
-          null
+          40
         ],
         [
           1779667200000,
-          null
+          29
         ],
         [
           1780272000000,
-          null
+          33
         ],
         [
           1780876800000,
-          null
+          26
         ],
         [
           1781481600000,
-          null
+          30
         ],
         [
           1782086400000,
-          null
+          43
         ],
         [
           1782691200000,
-          null
+          45
         ],
         [
           1783296000000,
-          null
+          34
         ],
         [
           1783900800000,
-          null
+          21
         ],
         [
           1784505600000,
@@ -17668,6 +17670,7 @@
           null
         ]
       ],
+      "pointStart": 978307200000,
       "name": "Gemeldete Todesfälle 65+ Jahre"
     },
     {
@@ -24199,37 +24202,37 @@
         },
         {
           "x": 1766966400000,
-          "low": 22.4,
-          "high": 54.3
+          "low": 22.3,
+          "high": 54.1
         },
         {
           "x": 1767571200000,
-          "low": 21.8,
-          "high": 53.3
+          "low": 21.7,
+          "high": 53.2
         },
         {
           "x": 1768176000000,
-          "low": 21.1,
+          "low": 21.2,
           "high": 52.4
         },
         {
           "x": 1768780800000,
-          "low": 20.5,
-          "high": 51.4
+          "low": 20.6,
+          "high": 51.6
         },
         {
           "x": 1769385600000,
           "low": 20.1,
-          "high": 50.7
+          "high": 50.8
         },
         {
           "x": 1769990400000,
-          "low": 19.6,
+          "low": 19.7,
           "high": 50.1
         },
         {
           "x": 1770595200000,
-          "low": 19.6,
+          "low": 19.7,
           "high": 50.1
         },
         {
@@ -24239,7 +24242,7 @@
         },
         {
           "x": 1771804800000,
-          "low": 19.9,
+          "low": 20,
           "high": 50.5
         },
         {
@@ -24255,7 +24258,7 @@
         {
           "x": 1773619200000,
           "low": 19.6,
-          "high": 49.9
+          "high": 50
         },
         {
           "x": 1774224000000,
@@ -24280,11 +24283,11 @@
         {
           "x": 1776643200000,
           "low": 16.9,
-          "high": 45.7
+          "high": 45.8
         },
         {
           "x": 1777248000000,
-          "low": 16.4,
+          "low": 16.5,
           "high": 45
         },
         {
@@ -24300,7 +24303,7 @@
         {
           "x": 1779062400000,
           "low": 16.1,
-          "high": 44.4
+          "high": 44.5
         },
         {
           "x": 1779667200000,
@@ -24309,33 +24312,33 @@
         },
         {
           "x": 1780272000000,
+          "low": 16,
+          "high": 44.2
+        },
+        {
+          "x": 1780876800000,
           "low": 15.9,
           "high": 44.1
         },
         {
-          "x": 1780876800000,
-          "low": 15.8,
-          "high": 43.9
-        },
-        {
           "x": 1781481600000,
-          "low": 15.8,
-          "high": 44
+          "low": 15.9,
+          "high": 44.1
         },
         {
           "x": 1782086400000,
-          "low": 15.8,
-          "high": 44
+          "low": 15.9,
+          "high": 44.1
         },
         {
           "x": 1782691200000,
-          "low": 16,
-          "high": 44.3
+          "low": 16.1,
+          "high": 44.4
         },
         {
           "x": 1783296000000,
-          "low": 16.5,
-          "high": 45.1
+          "low": 16.6,
+          "high": 45.2
         },
         {
           "x": 1783900800000,
@@ -24360,12 +24363,12 @@
         {
           "x": 1786320000000,
           "low": 18.4,
-          "high": 48.1
+          "high": 48.2
         },
         {
           "x": 1786924800000,
           "low": 18.2,
-          "high": 47.7
+          "high": 47.8
         },
         {
           "x": 1787529600000,
@@ -24375,12 +24378,12 @@
         {
           "x": 1788134400000,
           "low": 17.6,
-          "high": 46.8
+          "high": 46.9
         },
         {
           "x": 1788739200000,
           "low": 17.5,
-          "high": 46.7
+          "high": 46.8
         },
         {
           "x": 1789344000000,
@@ -24394,12 +24397,12 @@
         },
         {
           "x": 1790553600000,
-          "low": 17.5,
-          "high": 46.7
+          "low": 17.6,
+          "high": 46.8
         },
         {
           "x": 1791158400000,
-          "low": 17.4,
+          "low": 17.5,
           "high": 46.6
         },
         {
@@ -24415,55 +24418,56 @@
         {
           "x": 1792972800000,
           "low": 17.8,
-          "high": 47.1
+          "high": 47.2
         },
         {
           "x": 1793577600000,
-          "low": 18.6,
-          "high": 48.4
+          "low": 18.7,
+          "high": 48.6
         },
         {
           "x": 1794182400000,
-          "low": 19.4,
-          "high": 49.7
+          "low": 19.6,
+          "high": 49.9
         },
         {
           "x": 1794787200000,
-          "low": 20.3,
-          "high": 51.1
+          "low": 20.5,
+          "high": 51.4
         },
         {
           "x": 1795392000000,
-          "low": 21.5,
-          "high": 53
+          "low": 21.8,
+          "high": 53.4
         },
         {
           "x": 1795996800000,
-          "low": 22.8,
-          "high": 54.9
+          "low": 23.1,
+          "high": 55.3
         },
         {
           "x": 1796601600000,
-          "low": 24.3,
-          "high": 57.1
+          "low": 24.5,
+          "high": 57.5
         },
         {
           "x": 1797206400000,
-          "low": 25.8,
-          "high": 59.4
+          "low": 25.9,
+          "high": 59.6
         },
         {
           "x": 1797811200000,
-          "low": 27.3,
-          "high": 61.6
+          "low": 27.4,
+          "high": 61.7
         },
         {
           "x": 1798416000000,
-          "low": 28.9,
-          "high": 64
+          "low": 28.8,
+          "high": 63.9
         }
       ],
-      "name": "Untere Grenze Erwartungsbereich 65+ Jahre"
+      "pointStart": 978307200000,
+      "name": "Datum"
     }
   ],
   "xAxis": {
@@ -24484,7 +24488,7 @@
       }
     },
     "min": 1583107200000,
-    "max": 1780295091650,
+    "max": 1789629892282,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -24495,19 +24499,59 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
                     //move legend title
                     var title = this.legend.title;
                     title.translate(-155, 23);
@@ -24625,41 +24669,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "xDateFormat": "Woche vom %A, %d.%m.%Y (KW %V %G)",
