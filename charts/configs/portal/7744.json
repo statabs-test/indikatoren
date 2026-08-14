@@ -168,7 +168,7 @@
         ],
         [
           1735689600000,
-          null
+          2548
         ],
         [
           1767225600000,
@@ -249,8 +249,29 @@
         [
           2366841600000,
           null
+        ],
+        [
+          2398377600000,
+          null
+        ],
+        [
+          2429913600000,
+          null
+        ],
+        [
+          2461449600000,
+          null
+        ],
+        [
+          2493072000000,
+          null
+        ],
+        [
+          2524608000000,
+          null
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Effektiv"
     },
     {
@@ -421,89 +442,110 @@
         ],
         [
           1735689600000,
-          1813
+          null
         ],
         [
           1767225600000,
-          1953
+          1816
         ],
         [
           1798761600000,
-          1962
+          1925
         ],
         [
           1830297600000,
-          1966
+          1912
         ],
         [
           1861920000000,
-          1995
+          1871
         ],
         [
           1893456000000,
-          2062
+          1818
         ],
         [
           1924992000000,
-          2154
+          1762
         ],
         [
           1956528000000,
-          2239
+          1701
         ],
         [
           1988150400000,
-          2294
+          1645
         ],
         [
           2019686400000,
-          2289
+          1586
         ],
         [
           2051222400000,
-          2223
+          1532
         ],
         [
           2082758400000,
-          2101
+          1486
         ],
         [
           2114380800000,
-          1931
+          1446
         ],
         [
           2145916800000,
-          1733
+          1416
         ],
         [
           2177452800000,
-          1528
+          1399
         ],
         [
           2208988800000,
-          1319
+          1386
         ],
         [
           2240611200000,
-          1131
+          1386
         ],
         [
           2272147200000,
-          962
+          1392
         ],
         [
           2303683200000,
-          811
+          1397
         ],
         [
           2335219200000,
-          677
+          1401
         ],
         [
           2366841600000,
-          555
+          1407
+        ],
+        [
+          2398377600000,
+          1412
+        ],
+        [
+          2429913600000,
+          1415
+        ],
+        [
+          2461449600000,
+          1415
+        ],
+        [
+          2493072000000,
+          1413
+        ],
+        [
+          2524608000000,
+          1409
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Hohes Szenario"
     },
     {
@@ -674,89 +716,110 @@
         ],
         [
           1735689600000,
-          1041
+          null
         ],
         [
           1767225600000,
-          1205
+          1170
         ],
         [
           1798761600000,
-          1253
+          1312
         ],
         [
           1830297600000,
-          1280
+          1339
         ],
         [
           1861920000000,
-          1311
+          1338
         ],
         [
           1893456000000,
-          1347
+          1314
         ],
         [
           1924992000000,
-          1391
+          1278
         ],
         [
           1956528000000,
-          1429
+          1236
         ],
         [
           1988150400000,
-          1444
+          1191
         ],
         [
           2019686400000,
-          1421
+          1143
         ],
         [
           2051222400000,
-          1369
+          1105
         ],
         [
           2082758400000,
-          1285
+          1069
         ],
         [
           2114380800000,
-          1177
+          1036
         ],
         [
           2145916800000,
-          1059
+          1006
         ],
         [
           2177452800000,
-          943
+          980
         ],
         [
           2208988800000,
-          832
+          954
         ],
         [
           2240611200000,
-          734
+          932
         ],
         [
           2272147200000,
-          651
+          916
         ],
         [
           2303683200000,
-          579
+          901
         ],
         [
           2335219200000,
-          518
+          891
         ],
         [
           2366841600000,
-          463
+          887
+        ],
+        [
+          2398377600000,
+          887
+        ],
+        [
+          2429913600000,
+          890
+        ],
+        [
+          2461449600000,
+          895
+        ],
+        [
+          2493072000000,
+          897
+        ],
+        [
+          2524608000000,
+          900
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Mittleres Szenario"
     },
     {
@@ -927,116 +990,180 @@
         ],
         [
           1735689600000,
-          -22
+          null
         ],
         [
           1767225600000,
-          115
+          -56
         ],
         [
           1798761600000,
-          175
+          71
         ],
         [
           1830297600000,
-          218
-        ],
-        [
-          1861920000000,
-          244
-        ],
-        [
-          1893456000000,
-          258
-        ],
-        [
-          1924992000000,
-          263
-        ],
-        [
-          1956528000000,
-          259
-        ],
-        [
-          1988150400000,
-          246
-        ],
-        [
-          2019686400000,
-          224
-        ],
-        [
-          2051222400000,
-          197
-        ],
-        [
-          2082758400000,
-          172
-        ],
-        [
-          2114380800000,
-          144
-        ],
-        [
-          2145916800000,
-          124
-        ],
-        [
-          2177452800000,
-          110
-        ],
-        [
-          2208988800000,
-          105
-        ],
-        [
-          2240611200000,
-          106
-        ],
-        [
-          2272147200000,
           117
         ],
         [
+          1861920000000,
+          154
+        ],
+        [
+          1893456000000,
+          185
+        ],
+        [
+          1924992000000,
+          203
+        ],
+        [
+          1956528000000,
+          209
+        ],
+        [
+          1988150400000,
+          202
+        ],
+        [
+          2019686400000,
+          187
+        ],
+        [
+          2051222400000,
+          164
+        ],
+        [
+          2082758400000,
+          144
+        ],
+        [
+          2114380800000,
+          119
+        ],
+        [
+          2145916800000,
+          99
+        ],
+        [
+          2177452800000,
+          82
+        ],
+        [
+          2208988800000,
+          72
+        ],
+        [
+          2240611200000,
+          64
+        ],
+        [
+          2272147200000,
+          67
+        ],
+        [
           2303683200000,
-          129
+          70
         ],
         [
           2335219200000,
-          140
+          73
         ],
         [
           2366841600000,
-          153
+          81
+        ],
+        [
+          2398377600000,
+          94
+        ],
+        [
+          2429913600000,
+          104
+        ],
+        [
+          2461449600000,
+          115
+        ],
+        [
+          2493072000000,
+          124
+        ],
+        [
+          2524608000000,
+          132
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Tiefes Szenario"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true
+  },
   "isStock": true,
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 40,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-7744"
@@ -1067,31 +1194,11 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Bevölkerungsszenarien Basel-Stadt, 2025",
+    "text": "Bevölkerungsszenarien Basel-Stadt, 2026",
     "align": "left"
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "ordinal": false,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -1117,7 +1224,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -1134,7 +1241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 15.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 16.7.2026"
   },
   "legend": {
     "symbolRadius": 0,
@@ -1152,7 +1259,7 @@
     "verticalAlign": "bottom",
     "buttonPosition": {},
     "buttonTheme": {
-      "width": null
+      "width": 80
     },
     "buttons": [
       {

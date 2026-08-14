@@ -3219,7 +3219,7 @@
           }
         ]
       },
-      "borderColor": "#fbfbfb",
+      "borderColor": "#ffffff",
       "joinBy": [
         "TXT",
         "Wohnviertel_Id"
@@ -3240,331 +3240,271 @@
       "animation": true,
       "data": [
         {
-          "path": [
-            [
-              "M",
-              2611898.998,
-              -1267399.905
-            ],
-            [
-              "L",
-              2612058.909,
-              -1267359.334
-            ],
-            [
-              "L",
-              2612200.486,
-              -1267350.569
-            ],
-            [
-              "L",
-              2612500.488,
-              -1267380.57
-            ],
-            [
-              "L",
-              2613176.587,
-              -1267575.834
-            ],
-            [
-              "L",
-              2613700.553,
-              -1267750.607
-            ],
-            [
-              "L",
-              2614300.587,
-              -1268000.61
-            ],
-            [
-              "L",
-              2614621.94156826,
-              -1267973.86403593
-            ],
-            [
-              "L",
-              2614599.062,
-              -1267884.68
-            ],
-            [
-              "L",
-              2614419.203,
-              -1267906.424
-            ],
-            [
-              "L",
-              2614205.191,
-              -1267884.815
-            ],
-            [
-              "L",
-              2613847.869,
-              -1267738.097
-            ],
-            [
-              "L",
-              2613472.536,
-              -1267564.181
-            ],
-            [
-              "L",
-              2613486.513,
-              -1267447.856
-            ],
-            [
-              "L",
-              2613450.527,
-              -1267475.587
-            ],
-            [
-              "L",
-              2613300.525,
-              -1267450.582
-            ],
-            [
-              "L",
-              2613097.525,
-              -1267354.57
-            ],
-            [
-              "L",
-              2613004.724,
-              -1267333.97
-            ],
-            [
-              "L",
-              2612868.919,
-              -1267274.568
-            ],
-            [
-              "L",
-              2612635.509,
-              -1267211.568
-            ],
-            [
-              "L",
-              2612444.672,
-              -1267193.259
-            ],
-            [
-              "L",
-              2612097.026,
-              -1267173.089
-            ],
-            [
-              "L",
-              2611933.01,
-              -1267196.092
-            ],
-            [
-              "L",
-              2611810.036,
-              -1267238.412
-            ],
-            [
-              "L",
-              2611784.18,
-              -1267253.643
-            ],
-            [
-              "L",
-              2611771.149,
-              -1267239.611
-            ],
-            [
-              "L",
-              2611740.489,
-              -1267260.564
-            ],
-            [
-              "L",
-              2611660.402,
-              -1267321.312
-            ],
-            [
-              "L",
-              2611620.316,
-              -1267381.453
-            ],
-            [
-              "L",
-              2611544.897,
-              -1267414.515
-            ],
-            [
-              "L",
-              2611405,
-              -1267531.369
-            ],
-            [
-              "L",
-              2611260.482,
-              -1267720.57
-            ],
-            [
-              "L",
-              2611142.399,
-              -1267907.457
-            ],
-            [
-              "L",
-              2610956.49,
-              -1268231.564
-            ],
-            [
-              "L",
-              2610964.344,
-              -1268244.488
-            ],
-            [
-              "L",
-              2610947.42,
-              -1268296.742
-            ],
-            [
-              "L",
-              2610934.264,
-              -1268292.513
-            ],
-            [
-              "L",
-              2610894.264,
-              -1268510.962
-            ],
-            [
-              "L",
-              2610889.241,
-              -1268730.166
-            ],
-            [
-              "L",
-              2610920.508,
-              -1269114.948
-            ],
-            [
-              "L",
-              2610875.30000368,
-              -1269467.46893253
-            ],
-            [
-              "L",
-              2610988.015,
-              -1269434.556
-            ],
-            [
-              "L",
-              2610967.612,
-              -1269774.822
-            ],
-            [
-              "L",
-              2610992.904,
-              -1270027.827
-            ],
-            [
-              "L",
-              2611066.413,
-              -1270387.488
-            ],
-            [
-              "L",
-              2611159.552,
-              -1270661.324
-            ],
-            [
-              "L",
-              2611314.911,
-              -1271034.144
-            ],
-            [
-              "L",
-              2611625.494,
-              -1270932.22
-            ],
-            [
-              "L",
-              2611417.793,
-              -1271000.381
-            ],
-            [
-              "L",
-              2611288.913,
-              -1270732.042
-            ],
-            [
-              "L",
-              2611172.704,
-              -1270396.667
-            ],
-            [
-              "L",
-              2611163.458,
-              -1270236.848
-            ],
-            [
-              "L",
-              2611122.804,
-              -1270132.43
-            ],
-            [
-              "L",
-              2611082.267,
-              -1269843.15
-            ],
-            [
-              "L",
-              2611086.492,
-              -1269500.56
-            ],
-            [
-              "L",
-              2611130.99,
-              -1269110.558
-            ],
-            [
-              "L",
-              2611121.964,
-              -1268903.083
-            ],
-            [
-              "L",
-              2611100.494,
-              -1268740.563
-            ],
-            [
-              "L",
-              2611110.744,
-              -1268512.065
-            ],
-            [
-              "L",
-              2611178.492,
-              -1268240.565
-            ],
-            [
-              "L",
-              2611265.963,
-              -1268047.568
-            ],
-            [
-              "L",
-              2611500.485,
-              -1267693.56
-            ],
-            [
-              "L",
-              2611740.484,
-              -1267487.561
-            ],
-            [
-              "L",
-              2611898.998,
-              -1267399.905
-            ],
-            [
-              "Z"
-            ]
-          ],
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  2611898.998,
+                  1267399.905
+                ],
+                [
+                  2612058.909,
+                  1267359.334
+                ],
+                [
+                  2612200.486,
+                  1267350.569
+                ],
+                [
+                  2612500.488,
+                  1267380.57
+                ],
+                [
+                  2613176.587,
+                  1267575.834
+                ],
+                [
+                  2613700.553,
+                  1267750.607
+                ],
+                [
+                  2614300.587,
+                  1268000.61
+                ],
+                [
+                  2614621.94156826,
+                  1267973.86403593
+                ],
+                [
+                  2614599.062,
+                  1267884.68
+                ],
+                [
+                  2614419.203,
+                  1267906.424
+                ],
+                [
+                  2614205.191,
+                  1267884.815
+                ],
+                [
+                  2613847.869,
+                  1267738.097
+                ],
+                [
+                  2613472.536,
+                  1267564.181
+                ],
+                [
+                  2613486.513,
+                  1267447.856
+                ],
+                [
+                  2613450.527,
+                  1267475.587
+                ],
+                [
+                  2613300.525,
+                  1267450.582
+                ],
+                [
+                  2613097.525,
+                  1267354.57
+                ],
+                [
+                  2613004.724,
+                  1267333.97
+                ],
+                [
+                  2612868.919,
+                  1267274.568
+                ],
+                [
+                  2612635.509,
+                  1267211.568
+                ],
+                [
+                  2612444.672,
+                  1267193.259
+                ],
+                [
+                  2612097.026,
+                  1267173.089
+                ],
+                [
+                  2611933.01,
+                  1267196.092
+                ],
+                [
+                  2611810.036,
+                  1267238.412
+                ],
+                [
+                  2611784.18,
+                  1267253.643
+                ],
+                [
+                  2611771.149,
+                  1267239.611
+                ],
+                [
+                  2611740.489,
+                  1267260.564
+                ],
+                [
+                  2611660.402,
+                  1267321.312
+                ],
+                [
+                  2611620.316,
+                  1267381.453
+                ],
+                [
+                  2611544.897,
+                  1267414.515
+                ],
+                [
+                  2611405,
+                  1267531.369
+                ],
+                [
+                  2611260.482,
+                  1267720.57
+                ],
+                [
+                  2611142.399,
+                  1267907.457
+                ],
+                [
+                  2610956.49,
+                  1268231.564
+                ],
+                [
+                  2610964.344,
+                  1268244.488
+                ],
+                [
+                  2610947.42,
+                  1268296.742
+                ],
+                [
+                  2610934.264,
+                  1268292.513
+                ],
+                [
+                  2610894.264,
+                  1268510.962
+                ],
+                [
+                  2610889.241,
+                  1268730.166
+                ],
+                [
+                  2610920.508,
+                  1269114.948
+                ],
+                [
+                  2610875.30000368,
+                  1269467.46893253
+                ],
+                [
+                  2610988.015,
+                  1269434.556
+                ],
+                [
+                  2610967.612,
+                  1269774.822
+                ],
+                [
+                  2610992.904,
+                  1270027.827
+                ],
+                [
+                  2611066.413,
+                  1270387.488
+                ],
+                [
+                  2611159.552,
+                  1270661.324
+                ],
+                [
+                  2611314.911,
+                  1271034.144
+                ],
+                [
+                  2611625.494,
+                  1270932.22
+                ],
+                [
+                  2611417.793,
+                  1271000.381
+                ],
+                [
+                  2611288.913,
+                  1270732.042
+                ],
+                [
+                  2611172.704,
+                  1270396.667
+                ],
+                [
+                  2611163.458,
+                  1270236.848
+                ],
+                [
+                  2611122.804,
+                  1270132.43
+                ],
+                [
+                  2611082.267,
+                  1269843.15
+                ],
+                [
+                  2611086.492,
+                  1269500.56
+                ],
+                [
+                  2611130.99,
+                  1269110.558
+                ],
+                [
+                  2611121.964,
+                  1268903.083
+                ],
+                [
+                  2611100.494,
+                  1268740.563
+                ],
+                [
+                  2611110.744,
+                  1268512.065
+                ],
+                [
+                  2611178.492,
+                  1268240.565
+                ],
+                [
+                  2611265.963,
+                  1268047.568
+                ],
+                [
+                  2611500.485,
+                  1267693.56
+                ],
+                [
+                  2611740.484,
+                  1267487.561
+                ],
+                [
+                  2611898.998,
+                  1267399.905
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "lat": undefined,
+          "lon": undefined,
           "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
@@ -3581,12 +3521,12 @@
         }
       ],
       "color": "#008AC3",
-      "borderColor": "#fbfbfb"
+      "borderColor": "#ffffff"
     },
     {
       "type": "mapbubble",
       "id": "points",
-      "name": "lon",
+      "name": "Spitalname",
       "minSize": 7,
       "maxSize": "15%",
       "marker": {
@@ -3600,90 +3540,91 @@
       "showInLegend": true,
       "data": [
         {
-          "lat": 47.56256073,
-          "lon": 7.583231614,
+          "lat": 47.56256072992121,
+          "lon": 7.583231613532838,
           "name": "Universitätsspital Basel (USB)",
-          "z": 40595
+          "z": 42282
         },
         {
-          "lat": 47.56655928,
-          "lon": 7.614203736,
+          "lat": 47.566559284535565,
+          "lon": 7.614203735547821,
           "name": "St. Claraspital",
-          "z": 11681
+          "z": 11945
         },
         {
-          "lat": 47.55552511,
-          "lon": 7.570044281,
+          "lat": 47.5555251052925,
+          "lon": 7.570044281131091,
           "name": "Merian Iselin Klinik",
-          "z": 7247
+          "z": 7712
         },
         {
-          "lat": 47.54818372,
-          "lon": 7.617299436,
+          "lat": 47.548183719135636,
+          "lon": 7.617299435836332,
           "name": "Bethesda Spital AG",
-          "z": 6533
+          "z": 6842
         },
         {
-          "lat": 47.56380773,
-          "lon": 7.581864226,
+          "lat": 47.56380772895372,
+          "lon": 7.581864225978405,
           "name": "Universitäts-Kinderspital beider Basel (UKBB)",
-          "z": 6075
+          "z": 6256
         },
         {
-          "lat": 47.56550086,
-          "lon": 7.565326414,
+          "lat": 47.56550086039521,
+          "lon": 7.565326413811343,
           "name": "Felix Platter-Spital",
-          "z": 5630
+          "z": 5857
         },
         {
-          "lat": 47.57126038,
-          "lon": 7.565914732,
+          "lat": 47.571260378399245,
+          "lon": 7.565914732488717,
           "name": "Universitäre Psychiatrische Kliniken Basel (UPK)",
-          "z": 2831
+          "z": 2755
         },
         {
-          "lat": 47.56015005,
-          "lon": 7.579577192,
+          "lat": 47.56015005377136,
+          "lon": 7.579577191607747,
           "name": "Adullam Spital",
-          "z": 2472
+          "z": 2739
         },
         {
-          "lat": 47.56582348,
-          "lon": 7.591269217,
+          "lat": 47.56582348350639,
+          "lon": 7.591269216725412,
           "name": "Matthea Geburtshaus",
-          "z": 716
+          "z": 850
         },
         {
-          "lat": 47.57274387,
-          "lon": 7.559156843,
+          "lat": 47.57274386924855,
+          "lon": 7.559156843389897,
           "name": "REHAB Basel",
-          "z": 552
+          "z": 573
         },
         {
-          "lat": 47.58479468,
-          "lon": 7.65703335,
+          "lat": 47.584794684903706,
+          "lon": 7.657033350321054,
           "name": "Klinik Sonnenhalde",
-          "z": 469
+          "z": 488
         },
         {
-          "lat": 47.55045916,
-          "lon": 7.610654987,
-          "name": "Palliativzentrum Hildegard",
-          "z": 437
-        },
-        {
-          "lat": 47.55117618,
-          "lon": 7.593281111,
-          "name": "SMN-Schmerzklinik Basel",
-          "z": 193
-        },
-        {
-          "lat": 47.56657366,
-          "lon": 7.615025113,
+          "lat": 47.566573660933834,
+          "lon": 7.615025112792847,
           "name": "Zurzach Care AG",
-          "z": 101
+          "z": 466
+        },
+        {
+          "lat": 47.55045916383189,
+          "lon": 7.610654986824123,
+          "name": "Palliativzentrum Hildegard",
+          "z": 399
+        },
+        {
+          "lat": 47.55117617569023,
+          "lon": 7.593281111227076,
+          "name": "SMN-Schmerzklinik Basel",
+          "z": 185
         }
-      ]
+      ],
+      "pointStart": undefined
     },
     {
       "name": "Massstab",
@@ -3691,38 +3632,37 @@
       "type": "mapline",
       "data": [
         {
-          "path": [
-            [
-              "M",
-              2609400,
-              -1264800
+          "geometry": {
+            "coordinates": [
+              [
+                2609400,
+                1264800
+              ],
+              [
+                2609400,
+                1264600
+              ],
+              [
+                2609400,
+                1264700
+              ],
+              [
+                2610400,
+                1264700
+              ],
+              [
+                2610400,
+                1264800
+              ],
+              [
+                2610400,
+                1264600
+              ]
             ],
-            [
-              "L",
-              2609400,
-              -1264600
-            ],
-            [
-              "L",
-              2609400,
-              -1264700
-            ],
-            [
-              "L",
-              2610400,
-              -1264700
-            ],
-            [
-              "L",
-              2610400,
-              -1264800
-            ],
-            [
-              "L",
-              2610400,
-              -1264600
-            ]
-          ],
+            "type": "LineString"
+          },
+          "lat": undefined,
+          "lon": undefined,
           "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
@@ -3758,19 +3698,96 @@
       }
     }
   ],
+  "xAxis": {},
   "chart": {
     "events": {
-      "load": function() {                
-                    this.credits.element.onclick = function() {};
-                }
+      "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+        },
+      "render": function () {
+      var originalRender =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.renderBase
+          : null;
+      if (originalRender) originalRender.call(this);
+      var chart = this;
+      var items = Array.from(
+        chart.container.querySelectorAll(".highcharts-legend-item"),
+      );
+      if (items.length < 2) return;
+      var lineHeight = 15;
+      var itemMargin = 8;
+      var baseY = parseFloat(
+        (items[0].getAttribute("transform") || "").match(
+          /translate\([^,]+,([^)]+)\)/,
+        )?.[1] || 3,
+      );
+      var currentY = baseY;
+      items.forEach(function (el) {
+        var t = el.getAttribute("transform") || "";
+        el.setAttribute(
+          "transform",
+          t.replace(
+            /translate\([^,]+,[^)]+\)/,
+            "translate(8," + currentY + ")",
+          ),
+        );
+        // Zeilenanzahl aus tspan[dy]-Elementen ableiten → echte Itemhöhe
+        var textEl = el.querySelector("text");
+        var lines = textEl
+          ? 1 + textEl.querySelectorAll("tspan[dy]").length
+          : 1;
+        currentY += Math.max(lines * lineHeight, 20) + itemMargin;
+      });
+    }
+    },
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "type": "map",
     "inverted": false,
@@ -3780,7 +3797,7 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -3790,10 +3807,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Standorte und Anzahl stationärer Austritte im Jahr 2023, Basel-Stadt",
+    "text": "Standorte und Anzahl stationärer Austritte im Jahr 2024, Basel-Stadt",
     "align": "left"
   },
   "credits": {
@@ -3809,11 +3826,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.12.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.7.2026"
   },
   "colorAxis": {
     "min": 0,
-    "gridLineColor": "#fbfbfb",
+    "gridLineColor": "#ffffff",
     "gridLineWidth": 1,
     "labels": {
       "style": {
@@ -3883,14 +3900,25 @@
 			}
   },
   "customFunctions": {
-    "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){
-            	return chart.renderer.rect(x, y, width, height).attr({
-    	            'stroke-width':0,
-    	            fill: fill,
-    	            zIndex: 6,
-    	            class: cssClass
-            	}).add();
-            }
+    "addLegendRectangle": function (
+        chart,
+        x,
+        y,
+        width,
+        height,
+        fill,
+        cssClass
+      ) {
+        return chart.renderer
+          .rect(x, y, width, height)
+          .attr({
+            "stroke-width": 0,
+            fill: fill,
+            zIndex: 6,
+            class: cssClass,
+          })
+          .add();
+      }
   },
   "plotOptions": {
     "series": {
