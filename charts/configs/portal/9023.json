@@ -217,6 +217,7 @@
           -15
         ]
       ],
+      "pointStart": 1,
       "name": "2015 Kumuliert"
     },
     {
@@ -436,6 +437,7 @@
           -2
         ]
       ],
+      "pointStart": 1,
       "name": "2015 Wöchentlich"
     },
     {
@@ -655,6 +657,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2016 Kumuliert"
     },
     {
@@ -874,6 +877,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2016 Wöchentlich"
     },
     {
@@ -1093,6 +1097,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2017 Kumuliert"
     },
     {
@@ -1312,6 +1317,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2017 Wöchentlich"
     },
     {
@@ -1531,6 +1537,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2018 Kumuliert"
     },
     {
@@ -1750,6 +1757,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2018 Wöchentlich"
     },
     {
@@ -1969,6 +1977,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2019 Kumuliert"
     },
     {
@@ -2188,6 +2197,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2019 Wöchentlich"
     },
     {
@@ -2407,6 +2417,7 @@
           -25
         ]
       ],
+      "pointStart": 1,
       "name": "2020 Kumuliert"
     },
     {
@@ -2626,6 +2637,7 @@
           5
         ]
       ],
+      "pointStart": 1,
       "name": "2020 Wöchentlich"
     },
     {
@@ -2845,6 +2857,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2021 Kumuliert"
     },
     {
@@ -3064,6 +3077,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2021 Wöchentlich"
     },
     {
@@ -3283,6 +3297,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2022 Kumuliert"
     },
     {
@@ -3502,6 +3517,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2022 Wöchentlich"
     },
     {
@@ -3721,6 +3737,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2023 Kumuliert"
     },
     {
@@ -3940,6 +3957,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2023 Wöchentlich"
     },
     {
@@ -3972,19 +3990,19 @@
         ],
         [
           7,
-          1
-        ],
-        [
-          8,
           2
         ],
         [
+          8,
+          3
+        ],
+        [
           9,
-          -2
+          -1
         ],
         [
           10,
-          0
+          1
         ],
         [
           11,
@@ -4020,11 +4038,11 @@
         ],
         [
           19,
-          -2
+          -1
         ],
         [
           20,
-          1
+          2
         ],
         [
           21,
@@ -4040,7 +4058,7 @@
         ],
         [
           24,
-          -2
+          -1
         ],
         [
           25,
@@ -4056,7 +4074,7 @@
         ],
         [
           28,
-          -1
+          0
         ],
         [
           29,
@@ -4096,7 +4114,7 @@
         ],
         [
           38,
-          -1
+          0
         ],
         [
           39,
@@ -4108,7 +4126,7 @@
         ],
         [
           41,
-          -3
+          -4
         ],
         [
           42,
@@ -4120,7 +4138,7 @@
         ],
         [
           44,
-          -3
+          -4
         ],
         [
           45,
@@ -4152,13 +4170,14 @@
         ],
         [
           52,
-          -10
+          -11
         ],
         [
           53,
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2024 Kumuliert"
     },
     {
@@ -4378,6 +4397,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2024 Wöchentlich"
     },
     {
@@ -4415,189 +4435,190 @@
         ],
         [
           8,
-          -8
+          -7
         ],
         [
           9,
-          -10
+          -9
         ],
         [
           10,
-          -14
+          -13
         ],
         [
           11,
-          -15
-        ],
-        [
-          12,
-          -12
-        ],
-        [
-          13,
-          -15
-        ],
-        [
-          14,
-          -15
-        ],
-        [
-          15,
           -14
         ],
         [
-          16,
-          -16
+          12,
+          -10
         ],
         [
-          17,
+          13,
+          -13
+        ],
+        [
+          14,
+          -13
+        ],
+        [
+          15,
+          -13
+        ],
+        [
+          16,
           -15
         ],
         [
+          17,
+          -14
+        ],
+        [
           18,
-          -17
+          -15
         ],
         [
           19,
-          -19
+          -17
         ],
         [
           20,
-          -20
-        ],
-        [
-          21,
           -19
         ],
         [
-          22,
-          -22
-        ],
-        [
-          23,
-          -23
-        ],
-        [
-          24,
-          -23
-        ],
-        [
-          25,
-          -22
-        ],
-        [
-          26,
-          -22
-        ],
-        [
-          27,
-          -24
-        ],
-        [
-          28,
-          -24
-        ],
-        [
-          29,
-          -22
-        ],
-        [
-          30,
-          -24
-        ],
-        [
-          31,
-          -24
-        ],
-        [
-          32,
-          -24
-        ],
-        [
-          33,
-          -27
-        ],
-        [
-          34,
-          -28
-        ],
-        [
-          35,
-          -31
-        ],
-        [
-          36,
-          -30
-        ],
-        [
-          37,
-          -26
-        ],
-        [
-          38,
-          -28
-        ],
-        [
-          39,
-          -22
-        ],
-        [
-          40,
-          -24
-        ],
-        [
-          41,
-          -23
-        ],
-        [
-          42,
-          -24
-        ],
-        [
-          43,
-          -23
-        ],
-        [
-          44,
-          -23
-        ],
-        [
-          45,
-          -25
-        ],
-        [
-          46,
-          -27
-        ],
-        [
-          47,
-          -24
-        ],
-        [
-          48,
-          -21
-        ],
-        [
-          49,
-          -16
-        ],
-        [
-          50,
-          -16
-        ],
-        [
-          51,
+          21,
           -18
         ],
         [
-          52,
+          22,
+          -20
+        ],
+        [
+          23,
           -21
+        ],
+        [
+          24,
+          -22
+        ],
+        [
+          25,
+          -21
+        ],
+        [
+          26,
+          -20
+        ],
+        [
+          27,
+          -23
+        ],
+        [
+          28,
+          -23
+        ],
+        [
+          29,
+          -21
+        ],
+        [
+          30,
+          -23
+        ],
+        [
+          31,
+          -22
+        ],
+        [
+          32,
+          -23
+        ],
+        [
+          33,
+          -26
+        ],
+        [
+          34,
+          -26
+        ],
+        [
+          35,
+          -30
+        ],
+        [
+          36,
+          -29
+        ],
+        [
+          37,
+          -25
+        ],
+        [
+          38,
+          -27
+        ],
+        [
+          39,
+          -21
+        ],
+        [
+          40,
+          -23
+        ],
+        [
+          41,
+          -22
+        ],
+        [
+          42,
+          -23
+        ],
+        [
+          43,
+          -22
+        ],
+        [
+          44,
+          -22
+        ],
+        [
+          45,
+          -24
+        ],
+        [
+          46,
+          -26
+        ],
+        [
+          47,
+          -23
+        ],
+        [
+          48,
+          -20
+        ],
+        [
+          49,
+          -15
+        ],
+        [
+          50,
+          -15
+        ],
+        [
+          51,
+          -17
+        ],
+        [
+          52,
+          -20
         ],
         [
           53,
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2025 Kumuliert"
     },
     {
@@ -4635,7 +4656,7 @@
         ],
         [
           8,
-          -3
+          -2
         ],
         [
           9,
@@ -4818,6 +4839,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2025 Wöchentlich"
     },
     {
@@ -4855,7 +4877,7 @@
         ],
         [
           8,
-          -4
+          -3
         ],
         [
           9,
@@ -4863,7 +4885,7 @@
         ],
         [
           10,
-          -3
+          -2
         ],
         [
           11,
@@ -4871,75 +4893,75 @@
         ],
         [
           12,
-          -6
-        ],
-        [
-          13,
           -5
         ],
         [
+          13,
+          -4
+        ],
+        [
           14,
-          -6
+          -5
         ],
         [
           15,
-          -8
+          -7
         ],
         [
           16,
-          -10
+          -9
         ],
         [
           17,
-          -14
-        ],
-        [
-          18,
           -13
         ],
         [
-          19,
-          -15
+          18,
+          -12
         ],
         [
-          20,
+          19,
           -14
         ],
         [
+          20,
+          -12
+        ],
+        [
           21,
-          -17
+          -13
         ],
         [
           22,
-          -16
+          -13
         ],
         [
           23,
-          null
+          -17
         ],
         [
           24,
-          null
+          -18
         ],
         [
           25,
-          null
+          -18
         ],
         [
           26,
-          null
+          -14
         ],
         [
           27,
-          null
+          -11
         ],
         [
           28,
-          null
+          -11
         ],
         [
           29,
-          null
+          -12
         ],
         [
           30,
@@ -5038,6 +5060,7 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2026 Kumuliert"
     },
     {
@@ -5083,7 +5106,7 @@
         ],
         [
           10,
-          0
+          -1
         ],
         [
           11,
@@ -5095,7 +5118,7 @@
         ],
         [
           13,
-          1
+          2
         ],
         [
           14,
@@ -5123,11 +5146,11 @@
         ],
         [
           20,
-          1
+          2
         ],
         [
           21,
-          -2
+          -1
         ],
         [
           22,
@@ -5135,31 +5158,31 @@
         ],
         [
           23,
-          null
+          -4
         ],
         [
           24,
-          null
+          0
         ],
         [
           25,
-          null
+          0
         ],
         [
           26,
-          null
+          5
         ],
         [
           27,
-          null
+          3
         ],
         [
           28,
-          null
+          0
         ],
         [
           29,
-          null
+          0
         ],
         [
           30,
@@ -5258,34 +5281,101 @@
           null
         ]
       ],
+      "pointStart": 1,
       "name": "2026 Wöchentlich"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "step": 2
+    },
+    "min": 1,
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
           //add and move legend title (get it from series names)
-          this.legend.title
+          var chart = this;
+          var legendTransform =
+            chart.legend.group.element.getAttribute("transform") || "";
+          var match = legendTransform.match(/translate\(([^,)]+)/);
+          var legendGroupX = match ? parseFloat(match[1]) : 0;
+          var xOffset = 5 - legendGroupX;
+          chart.legend.title
             .attr({
               text:
-                this.series[0].name.split(" ").slice(-1).toString()
-                + ':<br>'
-                + this.series[13].name.split(" ").slice(-1).toString()
-                + ' (rechte Skala):'
+                chart.series[0].name.split(" ").slice(-1).toString() +
+                ":<br>" +
+                chart.series[13].name.split(" ").slice(-1).toString() +
+                " (rechte Skala):",
             })
-            .translate(-140, 60);
+            .translate(xOffset, 60);
         }
     },
     "alignThresholds": true,
@@ -5328,26 +5418,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "step": 2
-    },
-    "min": 1,
-    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -5392,20 +5462,21 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "right",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": undefined,
       "whiteSpace": "nowrap"
     },
+    "x": 150,
     "y": -70,
-    "width": 325,
+    "width": 350,
     "itemWidth": 54,
     "itemMarginBottom": 5,
     "symbolPadding": 2,
     "labelFormatter": function () {
-        //remove text after year 
+        //remove text after year
         return this.name.split(" ").slice(0, 1).toString();
       },
     "title": {
@@ -5429,41 +5500,49 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "exporting": {
     "filename": "9023"
