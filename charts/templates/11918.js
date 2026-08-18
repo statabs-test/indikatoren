@@ -61,7 +61,7 @@
 						correspondingPoint.setState('hover');
 						chart.extraHoveredPoint = correspondingPoint;
 					}
-
+//console.log(point, correspondingPoint);
 					// identify type of points for formatting purposes
 					if (point.low !== undefined) {
 						arearangePoint = point;
@@ -76,7 +76,8 @@
 
 					return "<span style='font-size: 10px'>" + this.x + "</span><br>" +
 						firstLine +
-						arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + Highcharts.numberFormat(arearangePoint.low) + "</b> bis <b>" + Highcharts.numberFormat(arearangePoint.high) + "</b> °C";
+						"90% aller Messstellen (5 - 95% Quantil): <b>" + Highcharts.numberFormat(arearangePoint.low) + "</b> bis <b>" + Highcharts.numberFormat(arearangePoint.high) + "</b> °C";
+						//arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + Highcharts.numberFormat(arearangePoint.low) + "</b> bis <b>" + Highcharts.numberFormat(arearangePoint.high) + "</b> °C";
 				}
 			}
 		},
