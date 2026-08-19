@@ -49,9 +49,40 @@
         },
       ],
     },
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 550 // Triggers when width is below 550px
+            },
+            chartOptions: {
+                chart: {
+                    height: 750, // Increases height on small screens
+                    spacingTop: 0,
+                    marginTop: 0
+                },
+                legend: {
+                    align: 'left', // Moves legend below chart
+                    verticalAlign: 'bottom',
+                    layout: 'horizontal',
+                    x:0, 
+                    y: -30,
+                    width: null
+                }
+            }
+        }]
+    },
+    mapNavigation: {
+      enabled: true,
+      buttonOptions: {
+        align: "right",
+        verticalAlign: "top",
+      },
+    },
     legend: {
       enabled: true,
       width: 290,
+      align: "right",
+      //x: 400,
       //itemWidth: 285,
       title: {
         text: "Anzahl Wohnungen",
