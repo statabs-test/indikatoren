@@ -5,7 +5,7 @@
       "visible": false,
       "data": [
         [
-          "bis 29 m²",
+          "\u003C30 m²",
           48
         ],
         [
@@ -25,7 +25,7 @@
           121
         ],
         [
-          "ab 150 m²",
+          "≥150 m²",
           37
         ]
       ],
@@ -38,7 +38,7 @@
       "visible": false,
       "data": [
         [
-          "bis 29 m²",
+          "\u003C30 m²",
           80
         ],
         [
@@ -58,7 +58,7 @@
           128
         ],
         [
-          "ab 150 m²",
+          "≥150 m²",
           34
         ]
       ],
@@ -70,7 +70,7 @@
       "color": "#0a3b19",
       "data": [
         [
-          "bis 29 m²",
+          "\u003C30 m²",
           91
         ],
         [
@@ -90,7 +90,7 @@
           102
         ],
         [
-          "ab 150 m²",
+          "≥150 m²",
           37
         ]
       ],
@@ -111,7 +111,7 @@
       },
       "data": [
         [
-          "bis 29 m²",
+          "\u003C30 m²",
           1.32
         ],
         [
@@ -131,7 +131,7 @@
           0.68
         ],
         [
-          "ab 150 m²",
+          "≥150 m²",
           0.57
         ]
       ],
@@ -152,7 +152,7 @@
       },
       "data": [
         [
-          "bis 29 m²",
+          "\u003C30 m²",
           2.05
         ],
         [
@@ -172,7 +172,7 @@
           0.71
         ],
         [
-          "ab 150 m²",
+          "≥150 m²",
           0.53
         ]
       ],
@@ -192,7 +192,7 @@
       },
       "data": [
         [
-          "bis 29 m²",
+          "\u003C30 m²",
           2.33
         ],
         [
@@ -212,7 +212,7 @@
           0.56
         ],
         [
-          "ab 150 m²",
+          "≥150 m²",
           0.57
         ]
       ],
@@ -414,7 +414,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

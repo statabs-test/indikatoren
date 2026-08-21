@@ -256,7 +256,7 @@
       "data": [
         [
           "CH",
-          null
+          1.08
         ],
         [
           " ",
@@ -276,99 +276,99 @@
         ],
         [
           "ZH",
-          null
+          0.56
         ],
         [
           "BE",
-          null
+          1.21
         ],
         [
           "LU",
-          null
+          0.82
         ],
         [
           "UR",
-          null
+          0.76
         ],
         [
           "SZ",
-          null
+          0.57
         ],
         [
           "OW",
-          null
+          0.44
         ],
         [
           "NW",
-          null
+          0.89
         ],
         [
           "GL",
-          null
+          0.85
         ],
         [
           "ZG",
-          null
+          0.39
         ],
         [
           "FR",
-          null
+          1.16
         ],
         [
           "SO",
-          null
+          2.37
         ],
         [
           "SH",
-          null
+          1.12
         ],
         [
           "AR",
-          null
+          1.3
         ],
         [
           "AI",
-          null
+          0.99
         ],
         [
           "SG",
-          null
+          1.39
         ],
         [
           "GR",
-          null
+          0.57
         ],
         [
           "AG",
-          null
+          1.3
         ],
         [
           "TG",
-          null
+          1.42
         ],
         [
           "TI",
-          null
+          2.08
         ],
         [
           "VD",
-          null
+          0.96
         ],
         [
           "VS",
-          null
+          1.43
         ],
         [
           "NE",
-          null
+          1.68
         ],
         [
           "GE",
-          null
+          0.48
         ],
         [
           "JU",
-          null
+          2.98
         ]
       ],
       "pointStart": 0,
@@ -380,7 +380,7 @@
       "data": [
         [
           "CH",
-          null
+          1
         ],
         [
           " ",
@@ -388,11 +388,11 @@
         ],
         [
           "BS",
-          null
+          0.92
         ],
         [
           "BL",
-          null
+          0.79
         ],
         [
           "  ",
@@ -400,99 +400,99 @@
         ],
         [
           "ZH",
-          null
+          0.48
         ],
         [
           "BE",
-          null
+          1.12
         ],
         [
           "LU",
-          null
+          0.78
         ],
         [
           "UR",
-          null
+          0.64
         ],
         [
           "SZ",
-          null
+          0.52
         ],
         [
           "OW",
-          null
+          0.5
         ],
         [
           "NW",
-          null
+          0.68
         ],
         [
           "GL",
-          null
+          0.61
         ],
         [
           "ZG",
-          null
+          0.42
         ],
         [
           "FR",
-          null
+          1.11
         ],
         [
           "SO",
-          null
+          2.05
         ],
         [
           "SH",
-          null
+          0.83
         ],
         [
           "AR",
-          null
+          1.12
         ],
         [
           "AI",
-          null
+          0.93
         ],
         [
           "SG",
-          null
+          1.37
         ],
         [
           "GR",
-          null
+          0.57
         ],
         [
           "AG",
-          null
+          1.18
         ],
         [
           "TG",
-          null
+          1.41
         ],
         [
           "TI",
-          null
+          1.92
         ],
         [
           "VD",
-          null
+          0.89
         ],
         [
           "VS",
-          null
+          1.18
         ],
         [
           "NE",
-          null
+          1.82
         ],
         [
           "GE",
-          null
+          0.34
         ],
         [
           "JU",
-          null
+          3.03
         ]
       ],
       "pointStart": 0,
@@ -512,11 +512,11 @@
         ],
         [
           "BS",
-          null
+          0.78
         ],
         [
           "BL",
-          null
+          0.64
         ],
         [
           "  ",
@@ -524,7 +524,7 @@
         ],
         [
           "ZH",
-          null
+          0.52
         ],
         [
           "BE",
@@ -600,7 +600,7 @@
         ],
         [
           "VD",
-          null
+          0.87
         ],
         [
           "VS",
@@ -612,7 +612,7 @@
         ],
         [
           "GE",
-          null
+          0.31
         ],
         [
           "JU",
@@ -798,7 +798,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

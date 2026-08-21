@@ -4167,7 +4167,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.4.2026"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "colorAxis": {
     "min": 0,
@@ -4189,8 +4189,8 @@
   "mapNavigation": {
     "enabled": true,
     "buttonOptions": {
-      "align": "left",
-      "verticalAlign": "bottom"
+      "align": "right",
+      "verticalAlign": "top"
     }
   },
   "legend": {
@@ -4280,6 +4280,30 @@
     "series": {
       "showInLegend": false
     }
+  },
+  "responsive": {
+    "rules": [
+      {
+        "condition": {
+          "maxWidth": 550
+        },
+        "chartOptions": {
+          "chart": {
+            "height": 750,
+            "spacingTop": 0,
+            "marginTop": 0
+          },
+          "legend": {
+            "align": "left",
+            "verticalAlign": "bottom",
+            "layout": "horizontal",
+            "x": 0,
+            "y": -30,
+            "width": null
+          }
+        }
+      }
+    ]
   },
   "exporting": {
     "filename": "11167"
