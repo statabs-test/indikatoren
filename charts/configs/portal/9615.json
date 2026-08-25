@@ -33,9 +33,10 @@
         ],
         [
           "2024",
-          144.819075
+          144.680719
         ]
       ],
+      "pointStart": 0,
       "name": "Heizöl",
       "turboThreshold": 0
     },
@@ -72,9 +73,10 @@
         ],
         [
           "2024",
-          540.5875
+          537.689642
         ]
       ],
+      "pointStart": 0,
       "name": "Erdgas",
       "turboThreshold": 0
     },
@@ -111,9 +113,10 @@
         ],
         [
           "2024",
-          1222.103112
+          1243.095391
         ]
       ],
+      "pointStart": 0,
       "name": "Elektrizität",
       "turboThreshold": 0
     },
@@ -150,9 +153,10 @@
         ],
         [
           "2024",
-          1175.922017
+          1218.818674
         ]
       ],
+      "pointStart": 0,
       "name": "Fernwärme",
       "turboThreshold": 0
     },
@@ -185,13 +189,14 @@
         ],
         [
           "2022",
-          542.610724
+          597.97654
         ],
         [
           "2024",
           544.457898
         ]
       ],
+      "pointStart": 0,
       "name": "Treibstoffe",
       "turboThreshold": 0
     },
@@ -224,13 +229,14 @@
         ],
         [
           "2022",
-          161.914279
+          176.957709
         ],
         [
           "2024",
-          51.113416
+          78.213417
         ]
       ],
+      "pointStart": 0,
       "name": "Sonstiges",
       "turboThreshold": 0
     }
@@ -253,7 +259,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -261,16 +267,56 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
                     this.credits.element.onclick = function () { };
 
                     //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -350,7 +396,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },

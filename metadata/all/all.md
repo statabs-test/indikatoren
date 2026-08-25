@@ -1790,7 +1790,7 @@ id | visible | visibleInPortal | indikatorenset
 8701 | true | false | Arbeitsmarkt (Print)
 8702 | true | false | Arbeitsmarkt (Print)
 8703 | true | false | Arbeitsmarkt (Print)
-8704 | false |  | Arbeitsmarkt (Print)
+8704 | true | false | Arbeitsmarkt (Print)
 8705 | false |  | Arbeitsmarkt (Print)
 8706 | false |  | Arbeitsmarkt (Print)
 8707 | false |  | Arbeitsmarkt (Print)
@@ -2548,3 +2548,4 @@ id | visible | visibleInPortal | indikatorenset
 22466 | true | false | Richtplan (Print)
 22467 | true | false | Richtplan (Print)
 22468 | true | false | Richtplan (Print)
+22540 | true | true | 

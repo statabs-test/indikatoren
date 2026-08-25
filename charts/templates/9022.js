@@ -6,15 +6,21 @@
       events: {
         load: function () {
           //add and move legend title (get it from series names)
-          this.legend.title
+          var chart = this;
+          var legendTransform =
+            chart.legend.group.element.getAttribute("transform") || "";
+          var match = legendTransform.match(/translate\(([^,)]+)/);
+          var legendGroupX = match ? parseFloat(match[1]) : 0;
+          var xOffset = 5 - legendGroupX;
+          chart.legend.title
             .attr({
               text:
-                this.series[0].name.split(" ").slice(-1).toString()
-                + ':<br>'
-                + this.series[13].name.split(" ").slice(-1).toString()
-                + ' (rechte Skala):'
+                chart.series[0].name.split(" ").slice(-1).toString() +
+                ":<br>" +
+                chart.series[13].name.split(" ").slice(-1).toString() +
+                " (rechte Skala):",
             })
-            .translate(-140, 60);
+            .translate(xOffset, 60);
         }
       }
     },
@@ -23,6 +29,7 @@
         index: 1,
         visible: false,
         yAxis: 1,
+        threshold: 0,
       },
       column: {
         pointPadding: 0,
@@ -30,6 +37,7 @@
         index: 0,
         visible: false,
         yAxis: 0,
+        threshold: 0,
       }
     },
     xAxis: {
@@ -76,26 +84,27 @@
       enabled: true,
       layout: "horizontal",
       verticalAlign: "top",
-      align: "right",
+      align: "left",
+      x: 150,
       y: -70,
-      width: 325,
+      width: 350,
       itemWidth: 54,
       itemMarginBottom: 5,
       symbolPadding: 2,
       itemStyle: {
         textOverflow: undefined,
-        whiteSpace: 'nowrap',
+        whiteSpace: "nowrap",
       },
       labelFormatter: function () {
-        //remove text after year 
+        //remove text after year
         return this.name.split(" ").slice(0, 1).toString();
       },
       title: {
-        text: '-<br>-', //wird via chart.events.load bearbeitet
+        text: "-<br>-", //wird via chart.events.load bearbeitet
         style: {
-          fontWeight: 'normal',
-          lineHeight: 40
-        }
+          fontWeight: "normal",
+          lineHeight: 40,
+        },
       },
     },
     series: [

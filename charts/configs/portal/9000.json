@@ -36,6 +36,7 @@
           171.858321
         ]
       ],
+      "pointStart": 0,
       "name": "Heizöl",
       "turboThreshold": 0
     },
@@ -44,27 +45,27 @@
       "data": [
         [
           "2010",
-          1961.0190903
+          1954.0590903
         ],
         [
           "2012",
-          1717.319878
+          1710.239878
         ],
         [
           "2014",
-          1420.095325
+          1413.045325
         ],
         [
           "2016",
-          1475.8184648
+          1445.2184648
         ],
         [
           "2018",
-          1336.413626
+          1302.403626
         ],
         [
           "2020",
-          1266.688849
+          1239.129465
         ],
         [
           "2022",
@@ -72,9 +73,10 @@
         ],
         [
           "2024",
-          1094.303354
+          972.53335399
         ]
       ],
+      "pointStart": 0,
       "name": "Erdgas",
       "turboThreshold": 0
     },
@@ -114,6 +116,7 @@
           467.217345
         ]
       ],
+      "pointStart": 0,
       "name": "Kehricht und Industrieabfall (nicht erneuerbar)",
       "turboThreshold": 0
     },
@@ -150,9 +153,10 @@
         ],
         [
           "2024",
-          658.451667
+          678.171946
         ]
       ],
+      "pointStart": 0,
       "name": "Elektrizität (Bezug ausserkantonal)",
       "turboThreshold": 0
     },
@@ -192,6 +196,7 @@
           4.725845
         ]
       ],
+      "pointStart": 0,
       "name": "Fern-\u002FNahwärme (Bezug ausserkantonal)",
       "turboThreshold": 0
     },
@@ -224,13 +229,14 @@
         ],
         [
           "2022",
-          557.885621
+          597.97654032
         ],
         [
           "2024",
           544.45789897
         ]
       ],
+      "pointStart": 0,
       "name": "Treibstoffe",
       "turboThreshold": 0
     },
@@ -239,27 +245,27 @@
       "data": [
         [
           "2010",
-          733.8337143
+          740.4023343
         ],
         [
           "2012",
-          810.56020215
+          817.78038245
         ],
         [
           "2014",
-          938.34608411
+          889.27296071
         ],
         [
           "2016",
-          939.71943185
+          969.84503185
         ],
         [
           "2018",
-          909.62125146
+          943.07127386
         ],
         [
           "2020",
-          1060.1603041
+          1087.7196881
         ],
         [
           "2022",
@@ -267,9 +273,10 @@
         ],
         [
           "2024",
-          1089.68153
+          1215.5505442
         ]
       ],
+      "pointStart": 0,
       "name": "Erneuerbare",
       "turboThreshold": 0
     }
@@ -292,7 +299,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -300,16 +307,56 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
                     this.credits.element.onclick = function () { };
 
                     //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -390,7 +437,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
