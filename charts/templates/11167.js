@@ -91,7 +91,7 @@
           fontSize: "12px",
         },
       },
-      itemMarginBottom: 5,
+      //itemMarginBottom: 5,
       labelFormatter: function () {
         if (this._i == 2)
           return "<b>ohne</b> Leistungsvereinbarung mit dem Kanton oder im <b>höheren</b> Preissegment";
