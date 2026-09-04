@@ -55,7 +55,8 @@
 			},
 		],
 		"legend": {
-			y: 5,
+			y: -100,
+			x: -10,
 			"title": {
 				"text": ""
 			}
@@ -141,7 +142,8 @@
 
 
 					fn.addLegendLabelbold(chart, 'Anzahl Gebäude', 265, 220, 'pieLegendStayeOnZoom');
-					fn.addLegendTitle(chart, 'Anteil Gebäude', 770, 300).css({ fontSize: '11px' });
+					fn.addLegendTitle(chart, 'Anteil Gebäude', 770, 320).css({ fontSize: '12px' });
+
 
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
