@@ -64,6 +64,10 @@
         type: "column"
       },
       {
+        color: "#A8C3CA",
+        type: "column"
+      },
+      {
         color: "#2F656B",
         type: "column"
       },
