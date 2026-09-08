@@ -1,4 +1,4 @@
-﻿"Datum"	"Gemeldete Todesfälle 0 - 64 Jahre"	"erwartet_TF_bis64"	"Untere Grenze Erwartungsbereich 0 - 64 Jahre"	"Obere Grenze Erwartungsbereich 0 - 64 Jahre"	"Gemeldete Todesfälle 65+ Jahre"	"erwartet_TF_65plus"	"Untere Grenze Erwartungsbereich 65+ Jahre"	"Obere Grenze Erwartungsbereich 65+ Jahre"	"JahrKW"
+﻿"Datum"	"Gemeldete Todesfälle 0 - 64 Jahre"	"Erwartete Todesfälle 0 - 64 Jahre"	"Untere Grenze Erwartungsbereich 0 - 64 Jahre"	"Obere Grenze Erwartungsbereich 0 - 64 Jahre"	"Gemeldete Todesfälle 65+ Jahre"	"Erwartete Todesfälle 65+ Jahre"	"Untere Grenze Erwartungsbereich 65+ Jahre"	"Obere Grenze Erwartungsbereich 65+ Jahre"	"JahrKW"
 2001-01-01	10	7	0.2	13.8	40	43	26.2	60.0	2001-01
 2001-01-08	11	7	0.2	13.8	27	43	26.4	60.3	2001-02
 2001-01-15	9	7	0.2	13.8	56	43	26.5	60.5	2001-03

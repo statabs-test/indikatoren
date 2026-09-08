@@ -117,15 +117,14 @@ Highcharts.dateFormats = {
                 zIndex: 10,
                 legendIndex: 2
             },
-            /*{
+            {
                 id: "b",
                 "color": "#71A3B5",
-                //lineWidth: 0.5,
-                dashStyle: 'ShortDot',
+                lineWidth: 1,
+                dashStyle: 'ShortDash', 
                 zIndex: 5,
                 legendIndex: 3
-                //linkedTo:"eins",
-            },*/
+            },
             {
                 id: "c",
                 "color": "#256370",
@@ -140,15 +139,14 @@ Highcharts.dateFormats = {
                 legendIndex: 0,
                 showInNavigator: true,
             },
-            /*{
+            {
                 id: "e",
                 "color": "#FF8028",
-                //lineWidth: 0.5,
-                dashStyle: 'ShortDot',
+                lineWidth: 1,
+                dashStyle: 'ShortDash', 
                 zIndex: 4,
                 legendIndex: 1
-                //linkedTo:"zwei",
-            },*/
+            },
             {
                 id: "f",
                 "color": "#FFBB58",
@@ -209,7 +207,9 @@ Highcharts.dateFormats = {
                 return this.name
                     //.replace('65+ Jahre', '')
                     //.replace('0 - 64 Jahre', '')
-                    .replace('Gemeldete Todesfälle ', '');
+                    .replace('Gemeldete Todesfälle ', '')
+                    //.replace('Erwartete Todesfälle ', '')
+                    ;
                 //.replace('Hochgerechnete Todesfälle', 'hochgerechnete');
             },
 
@@ -219,6 +219,7 @@ Highcharts.dateFormats = {
                     fontWeight: 'normal'
                 }
             },
+            
 
             /*
             x: -38,
