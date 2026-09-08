@@ -18,6 +18,7 @@ var indikatorensetNames = [
 	"Umwelt",
 	"Steuern",
 	"Stadtklimakonzept",
+	"Schluesselindikatoren",
 	"Wohnraumentwicklung",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
@@ -50,6 +51,5 @@ var indikatorensetNames = [
 	"Leerstand (Print)",
 	"Steuern (Print)",
 	"Innenstadt-QuiZ",
-	"Schluesselindikatoren",
 	"Test"
 ];
