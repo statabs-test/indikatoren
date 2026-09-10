@@ -193,33 +193,34 @@ Highcharts.dateFormats = {
             enabled: true,
             layout: "horizontal",
             verticalAlign: "top",
-            align: "right",
-            x: -38,
-            y: -35,
+            align: "left",
+            //x: -38,
+            //y: -35,
             alignColumns: true,
-            width: 240,
-            itemWidth: 110,
+            width: 400,
+            //itemWidth: 110,
             itemStyle: {
                 textOverflow: undefined,
                 whiteSpace: 'nowrap',
             },
+/*
             labelFormatter: function () {
                 return this.name
                     //.replace('65+ Jahre', '')
                     //.replace('0 - 64 Jahre', '')
                     .replace('Gemeldete Todesfälle ', '')
-                    //.replace('Erwartete Todesfälle ', '')
+                    .replace('Erwartete Todesfälle ', '')
                     ;
                 //.replace('Hochgerechnete Todesfälle', 'hochgerechnete');
             },
-
+/*
             title: {
                 text: 'Gemeldete Todesfälle: ',
                 style: {
                     fontWeight: 'normal'
                 }
             },
-            
+*/            
 
             /*
             x: -38,
