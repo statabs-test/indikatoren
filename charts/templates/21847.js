@@ -60,12 +60,12 @@
       formatter: function () {
         var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0, ki = '';
         $.each(this.points, function (i, point) {
-          if (this.series.userOptions.type != 'errorbar') { //nur für series mit stacking: true
+          if (this.series.userOptions.type != 'errorbar' && this.series.userOptions.type != 'line') { //nur für series mit stacking: true
             s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ': </td>'
               + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y, 1) + '</b></td>'
               + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
             sum += point.y;
-          } else {
+          } else if (this.series.userOptions.type == 'errorbar') {
             ki = '<tr><td><span style="color:transparent">\u25CF</span> 95%-Konfidenzintervall:&nbsp;</td>'
               + '<td style="text-align:left" colspan=2>&nbsp;<b>' + Highcharts.numberFormat(point.point.low, 1) + '</b> - <b>' + Highcharts.numberFormat(point.point.high, 1) + '</b></td>'
               + '</tr>';
