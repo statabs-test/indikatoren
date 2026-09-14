@@ -105,7 +105,7 @@
       verticalAlign: "top",
       itemMarginBottom: 5,
       align: "left",
-      itemDistance: 5,
+      itemDistance: 4,
       alignColumns: false,
       //itemWidth: 150,
       //width: 300,
