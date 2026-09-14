@@ -82,7 +82,7 @@
           + '</table>'
           + t;
       },
-    },
+    }, 
     "xAxis": {
       "type": "category"
     },
