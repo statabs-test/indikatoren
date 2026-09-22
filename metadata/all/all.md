@@ -2552,3 +2552,8 @@ id | visible | visibleInPortal | indikatorenset
 22555 | true | true | Schluesselindikatoren
 22556 | true | true | Schluesselindikatoren
 22560 | true | true | Schluesselindikatoren
+22562 | true | true | Schluesselindikatoren
+22563 | true | true | Schluesselindikatoren
+22564 | true | true | Schluesselindikatoren
+22565 | true | true | Schluesselindikatoren
+22566 | true | true | Schluesselindikatoren
