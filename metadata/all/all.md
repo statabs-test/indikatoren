@@ -2228,14 +2228,19 @@ id | visible | visibleInPortal | indikatorenset
 9675 | true | false | Schluesselindikatoren
 9676 | true | false | Schluesselindikatoren
 9677 | true | false | Schluesselindikatoren
+9678 | false |  | Schluesselindikatoren
 9679 | true | false | Schluesselindikatoren
 9680 | true | false | Schluesselindikatoren
+9681 | false |  | Schluesselindikatoren
 9682 | true | false | Schluesselindikatoren
+9683 | false |  | Schluesselindikatoren
 9684 | true | false | Schluesselindikatoren
-9686 | true | false | Schluesselindikatoren
+9685 | false |  | Schluesselindikatoren
+9686 | false |  | Schluesselindikatoren
 9687 | true | false | Schluesselindikatoren
 9691 | true | true | Innenstadt-QuiZ
 9693 | true | false | Schluesselindikatoren
+9694 | false |  | Schluesselindikatoren
 9732 | true | false | Nachhaltigkeit
 9733 | true | true | Nachhaltigkeit
 9734 | true | true | Nachhaltigkeit
