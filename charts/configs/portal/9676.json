@@ -58,7 +58,7 @@
         ],
         [
           2024,
-          null
+          201823
         ],
         [
           2025,
@@ -147,67 +147,67 @@
         ],
         [
           2019,
-          192450
+          null
         ],
         [
           2020,
-          194171.875
+          null
         ],
         [
           2021,
-          195893.75
+          null
         ],
         [
           2022,
-          197615.625
+          null
         ],
         [
           2023,
-          199337.5
+          null
         ],
         [
           2024,
-          201059.375
+          null
         ],
         [
           2025,
-          202781.25
+          null
         ],
         [
           2026,
-          204503.125
+          null
         ],
         [
           2027,
-          206225
+          null
         ],
         [
           2028,
-          207946.875
+          null
         ],
         [
           2029,
-          209668.75
+          null
         ],
         [
           2030,
-          211390.625
+          null
         ],
         [
           2031,
-          213112.5
+          null
         ],
         [
           2032,
-          214834.375
+          null
         ],
         [
           2033,
-          216556.25
+          null
         ],
         [
           2034,
-          218278.125
+          null
         ],
         [
           2035,
@@ -215,115 +215,11 @@
         ]
       ],
       "pointStart": 2011,
-      "name": "Zielpfad"
+      "name": "Zielwert"
     },
     {
       "visible": false,
-      "showInLegend": false,
-      "data": [
-        [
-          2011,
-          null
-        ],
-        [
-          2012,
-          null
-        ],
-        [
-          2013,
-          null
-        ],
-        [
-          2014,
-          null
-        ],
-        [
-          2015,
-          null
-        ],
-        [
-          2016,
-          null
-        ],
-        [
-          2017,
-          null
-        ],
-        [
-          2018,
-          null
-        ],
-        [
-          2019,
-          null
-        ],
-        [
-          2020,
-          2
-        ],
-        [
-          2021,
-          1
-        ],
-        [
-          2022,
-          0
-        ],
-        [
-          2023,
-          1
-        ],
-        [
-          2024,
-          null
-        ],
-        [
-          2025,
-          null
-        ],
-        [
-          2026,
-          null
-        ],
-        [
-          2027,
-          null
-        ],
-        [
-          2028,
-          null
-        ],
-        [
-          2029,
-          null
-        ],
-        [
-          2030,
-          null
-        ],
-        [
-          2031,
-          null
-        ],
-        [
-          2032,
-          null
-        ],
-        [
-          2033,
-          null
-        ],
-        [
-          2034,
-          null
-        ],
-        [
-          2035,
-          null
-        ]
-      ],
-      "pointStart": 2011,
-      "name": "Bewertung"
+      "showInLegend": false
     }
   ],
   "xAxis": {
@@ -434,7 +330,8 @@
           });
 
           const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            //colors = ['#59fb59', '#fbf659', '#fb9999'],
+            colors = ['#0091f7', '#0091f7', '#0091f7'],
             data = chart.series[0].data,
             assessed = chart.series[2].data;
           data.forEach(function (element, i) {

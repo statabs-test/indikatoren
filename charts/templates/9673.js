@@ -83,7 +83,7 @@
       },
     },
     legend: {
-      enabled: true,
+      enabled: false,
       layout: "horizontal",
       verticalAlign: "top",
       align: "left",
@@ -99,7 +99,8 @@
         dashStyle: 'ShortDash',
         "color": "#999999",
         showInNavigator: true,
-        zIndex: 1
+        zIndex: 1,
+        showInLegend: false,
       },
       {
         visible: false,

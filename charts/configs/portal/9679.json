@@ -6,7 +6,7 @@
       "tooltip": {
         "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
-            var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
+            var errorBarPoint = this.series.chart.series[2].points[this.index]; // corresponding error bar point
             return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
       },
@@ -124,6 +124,122 @@
       "name": "Basel-Stadt"
     },
     {
+      "color": "#000099",
+      "zIndex": 1,
+      "data": [
+        [
+          1998,
+          78.1
+        ],
+        [
+          1999,
+          78.5
+        ],
+        [
+          2000,
+          78.8
+        ],
+        [
+          2001,
+          79.1
+        ],
+        [
+          2002,
+          79.4
+        ],
+        [
+          2003,
+          79.8
+        ],
+        [
+          2004,
+          80.1
+        ],
+        [
+          2005,
+          80.4
+        ],
+        [
+          2006,
+          80.8
+        ],
+        [
+          2007,
+          80.9
+        ],
+        [
+          2008,
+          81.1
+        ],
+        [
+          2009,
+          81.2
+        ],
+        [
+          2010,
+          81.3
+        ],
+        [
+          2011,
+          81.4
+        ],
+        [
+          2012,
+          81.5
+        ],
+        [
+          2013,
+          81.7
+        ],
+        [
+          2014,
+          81.9
+        ],
+        [
+          2015,
+          82.2
+        ],
+        [
+          2016,
+          82.4
+        ],
+        [
+          2017,
+          82.6
+        ],
+        [
+          2018,
+          82.7
+        ],
+        [
+          2019,
+          82.8
+        ],
+        [
+          2020,
+          82.8
+        ],
+        [
+          2021,
+          82.8
+        ],
+        [
+          2022,
+          82.8
+        ],
+        [
+          2023,
+          82.7
+        ],
+        [
+          2024,
+          82.7
+        ]
+      ],
+      "pointStart": 1998,
+      "name": "Basel-Stadt geglättet"
+    },
+    {
       "index": 1,
       "type": "errorbar",
       "color": "#44b1f7",
@@ -139,282 +255,142 @@
       "data": [
         {
           "x": 1998,
-          "low": 78.1,
-          "high": 77.6
+          "low": 77.6,
+          "high": 78.9
         },
         {
           "x": 1999,
-          "low": 78.5,
-          "high": 77.5
+          "low": 77.5,
+          "high": 78.8
         },
         {
           "x": 2000,
-          "low": 78.8,
-          "high": 78.4
+          "low": 78.4,
+          "high": 79.6
         },
         {
           "x": 2001,
-          "low": 79.1,
-          "high": 78.5
+          "low": 78.5,
+          "high": 79.8
         },
         {
           "x": 2002,
-          "low": 79.4,
-          "high": 79.1
+          "low": 79.1,
+          "high": 80.2
         },
         {
           "x": 2003,
-          "low": 79.8,
-          "high": 78.4
+          "low": 78.4,
+          "high": 79.7
         },
         {
           "x": 2004,
-          "low": 80.1,
-          "high": 79.7
+          "low": 79.7,
+          "high": 81
         },
         {
           "x": 2005,
-          "low": 80.4,
-          "high": 79.7
+          "low": 79.7,
+          "high": 80.9
         },
         {
           "x": 2006,
-          "low": 80.8,
-          "high": 80.4
+          "low": 80.4,
+          "high": 81.5
         },
         {
           "x": 2007,
-          "low": 80.9,
-          "high": 80.7
+          "low": 80.7,
+          "high": 81.9
         },
         {
           "x": 2008,
-          "low": 81.1,
-          "high": 80.1
+          "low": 80.1,
+          "high": 81.4
         },
         {
           "x": 2009,
-          "low": 81.2,
-          "high": 80.5
-        },
-        {
-          "x": 2010,
-          "low": 81.3,
-          "high": 80.7
-        },
-        {
-          "x": 2011,
-          "low": 81.4,
-          "high": 80.8
-        },
-        {
-          "x": 2012,
-          "low": 81.5,
-          "high": 81
-        },
-        {
-          "x": 2013,
-          "low": 81.7,
-          "high": 81.2
-        },
-        {
-          "x": 2014,
-          "low": 81.9,
-          "high": 81
-        },
-        {
-          "x": 2015,
-          "low": 82.2,
-          "high": 81.6
-        },
-        {
-          "x": 2016,
-          "low": 82.4,
-          "high": 82.3
-        },
-        {
-          "x": 2017,
-          "low": 82.6,
-          "high": 82
-        },
-        {
-          "x": 2018,
-          "low": 82.7,
-          "high": 82.3
-        },
-        {
-          "x": 2019,
-          "low": 82.8,
-          "high": 82.1
-        },
-        {
-          "x": 2020,
-          "low": 82.8,
-          "high": 82
-        },
-        {
-          "x": 2021,
-          "low": 82.8,
-          "high": 82.7
-        },
-        {
-          "x": 2022,
-          "low": 82.8,
+          "low": 80.5,
           "high": 81.7
         },
         {
-          "x": 2023,
-          "low": 82.7,
+          "x": 2010,
+          "low": 80.7,
+          "high": 81.9
+        },
+        {
+          "x": 2011,
+          "low": 80.8,
+          "high": 82.1
+        },
+        {
+          "x": 2012,
+          "low": 81,
+          "high": 82.2
+        },
+        {
+          "x": 2013,
+          "low": 81.2,
+          "high": 82.4
+        },
+        {
+          "x": 2014,
+          "low": 81,
+          "high": 82.1
+        },
+        {
+          "x": 2015,
+          "low": 81.6,
           "high": 82.6
         },
         {
-          "x": 2024,
+          "x": 2016,
+          "low": 82.3,
+          "high": 83.4
+        },
+        {
+          "x": 2017,
+          "low": 82,
+          "high": 83
+        },
+        {
+          "x": 2018,
+          "low": 82.3,
+          "high": 83.3
+        },
+        {
+          "x": 2019,
+          "low": 82.1,
+          "high": 83.3
+        },
+        {
+          "x": 2020,
+          "low": 82,
+          "high": 83.1
+        },
+        {
+          "x": 2021,
           "low": 82.7,
-          "high": 82.1
+          "high": 83.8
+        },
+        {
+          "x": 2022,
+          "low": 81.7,
+          "high": 82.9
+        },
+        {
+          "x": 2023,
+          "low": 82.6,
+          "high": 83.7
+        },
+        {
+          "x": 2024,
+          "low": 82.1,
+          "high": 83.2
         }
       ],
       "pointStart": 1998,
       "name": "Jahr"
-    },
-    {
-      "color": "#999999",
-      "tooltip": {
-        "pointFormatter": function () {
-            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
-            var errorBarPoint = this.series.chart.series[3].points[this.index]; // corresponding error bar point
-            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
-          }
-      },
-      "data": [
-        [
-          1998,
-          78.9
-        ],
-        [
-          1999,
-          78.8
-        ],
-        [
-          2000,
-          79.6
-        ],
-        [
-          2001,
-          79.8
-        ],
-        [
-          2002,
-          80.2
-        ],
-        [
-          2003,
-          79.7
-        ],
-        [
-          2004,
-          81
-        ],
-        [
-          2005,
-          80.9
-        ],
-        [
-          2006,
-          81.5
-        ],
-        [
-          2007,
-          81.9
-        ],
-        [
-          2008,
-          81.4
-        ],
-        [
-          2009,
-          81.7
-        ],
-        [
-          2010,
-          81.9
-        ],
-        [
-          2011,
-          82.1
-        ],
-        [
-          2012,
-          82.2
-        ],
-        [
-          2013,
-          82.4
-        ],
-        [
-          2014,
-          82.1
-        ],
-        [
-          2015,
-          82.6
-        ],
-        [
-          2016,
-          83.4
-        ],
-        [
-          2017,
-          83
-        ],
-        [
-          2018,
-          83.3
-        ],
-        [
-          2019,
-          83.3
-        ],
-        [
-          2020,
-          83.1
-        ],
-        [
-          2021,
-          83.8
-        ],
-        [
-          2022,
-          82.9
-        ],
-        [
-          2023,
-          83.7
-        ],
-        [
-          2024,
-          83.2
-        ]
-      ],
-      "pointStart": 1998,
-      "name": "Konfidenz bis"
-    },
-    {
-      "index": 3,
-      "type": "errorbar",
-      "color": "#aaaaaa",
-      "tooltip": {
-        "pointFormatter": function () {
-            var parent = this.series.chart.series[0];
-            parent.setState('hover'); //"aktiviere" alle series
-            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '</b>';
-            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
-            return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
-          }
-      }
-    },
-    {
-      "visible": false,
-      "showInLegend": false
     }
   ],
   "xAxis": {
@@ -507,7 +483,8 @@
           }
 
           const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            //colors = ['#59fb59', '#fbf659', '#fb9999'],
+            colors = ['#0091f7', '#0091f7', '#0091f7'],
             data = chart.series[0].data,
             assessed = chart.series[4].data;
           data.forEach(function (element, i) {

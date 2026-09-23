@@ -84601,7 +84601,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 43,9%.<br><h3 class='font-bold mt-20'>Zielwert</h3>85% bis 2037. Zielpfad: exponentielles Wachstum mit  Referenzjahr 2019. Mit der Zeit zunehmende Wachstumsrate, Zielbereich abnehmend von 10% unterhalb Zielwert im Jahr 2019 bis 0% unterhalb Zielwert 2037 (Grundlage: Regierungsratsbeschluss).",
+		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 43,9%.<br><h3 class='font-bold mt-20'>Zielwert</h3>85% bis 2037 (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -84639,7 +84639,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen (+3 014 gegenüber 2024). <br><h3 class='font-bold mt-20'>Zielwert</h3>220 000 Einwohnerinnen und Einwohner bis 2035. Zielpfad: lineares Wachstum um 1 225 Personen pro Jahr (Grundlage: Kantonaler Richtplan Basel-Stadt).",
+		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen (+3 014 gegenüber 2024). <br><h3 class='font-bold mt-20'>Zielwert</h3>220 000 Einwohnerinnen und Einwohner bis 2035 (Grundlage: Kantonaler Richtplan Basel-Stadt).",
 		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

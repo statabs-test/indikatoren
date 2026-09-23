@@ -111,10 +111,219 @@
         [
           "2025",
           147.3
+        ],
+        [
+          "2026",
+          null
+        ],
+        [
+          "2027",
+          null
+        ],
+        [
+          "2028",
+          null
+        ],
+        [
+          "2029",
+          null
+        ],
+        [
+          "2030",
+          null
+        ],
+        [
+          "2031",
+          null
+        ],
+        [
+          "2032",
+          null
+        ],
+        [
+          "2033",
+          null
+        ],
+        [
+          "2034",
+          null
+        ],
+        [
+          "2035",
+          null
+        ],
+        [
+          "2036",
+          null
+        ],
+        [
+          "2037",
+          null
         ]
       ],
       "pointStart": 0,
       "name": "Siedlungsabfälle (Hauskehricht und Sperrgut, verbrannt)",
+      "turboThreshold": 0
+    },
+    {
+      "dashStyle": "ShortDash",
+      "color": "#999999",
+      "data": [
+        [
+          "2000",
+          null
+        ],
+        [
+          "2001",
+          null
+        ],
+        [
+          "2002",
+          null
+        ],
+        [
+          "2003",
+          null
+        ],
+        [
+          "2004",
+          null
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          null
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          null
+        ],
+        [
+          "2021",
+          null
+        ],
+        [
+          "2022",
+          null
+        ],
+        [
+          "2023",
+          null
+        ],
+        [
+          "2024",
+          null
+        ],
+        [
+          "2025",
+          null
+        ],
+        [
+          "2026",
+          null
+        ],
+        [
+          "2027",
+          null
+        ],
+        [
+          "2028",
+          null
+        ],
+        [
+          "2029",
+          null
+        ],
+        [
+          "2030",
+          null
+        ],
+        [
+          "2031",
+          null
+        ],
+        [
+          "2032",
+          null
+        ],
+        [
+          "2033",
+          null
+        ],
+        [
+          "2034",
+          null
+        ],
+        [
+          "2035",
+          null
+        ],
+        [
+          "2036",
+          null
+        ],
+        [
+          "2037",
+          109.13
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Zielwert",
       "turboThreshold": 0
     }
   ],
@@ -194,19 +403,36 @@
       });
     },
       "loadBase": function () {
-                    this.credits.element.onclick = function () { };
+          this.credits.element.onclick = function () { };
 
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
                 }
+              }
+            );
+          }
+
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              y: -5,
+              x: -50,
+              format: 'Zielwert 2035: {y:,.0f} kg<br>(30% Reduktion gegenüber 2019)',
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            },
+            marker: {
+              enabled: true,
+              symbol: "circle"
+            }
+          });
+        }
     },
     "type": "column",
     "renderTo": "container-22562",

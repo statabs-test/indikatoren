@@ -83,81 +83,6 @@
       "marker": {
         "enabled": false
       },
-      "data": [
-        [
-          2019,
-          0
-        ],
-        [
-          2020,
-          625
-        ],
-        [
-          2021,
-          1250
-        ],
-        [
-          2022,
-          1875
-        ],
-        [
-          2023,
-          2500
-        ],
-        [
-          2024,
-          3125
-        ],
-        [
-          2025,
-          3750
-        ],
-        [
-          2026,
-          4375
-        ],
-        [
-          2027,
-          5000
-        ],
-        [
-          2028,
-          5625
-        ],
-        [
-          2029,
-          6250
-        ],
-        [
-          2030,
-          6875
-        ],
-        [
-          2031,
-          7500
-        ],
-        [
-          2032,
-          8125
-        ],
-        [
-          2033,
-          8750
-        ],
-        [
-          2034,
-          9375
-        ],
-        [
-          2035,
-          10000
-        ]
-      ],
-      "pointStart": 2019,
-      "name": "Zielpfad"
-    },
-    {
-      "visible": false,
       "showInLegend": false,
       "data": [
         [
@@ -166,27 +91,27 @@
         ],
         [
           2020,
-          0
+          null
         ],
         [
           2021,
-          0
+          null
         ],
         [
           2022,
-          0
+          null
         ],
         [
           2023,
-          0
+          null
         ],
         [
           2024,
-          1
+          null
         ],
         [
           2025,
-          1
+          null
         ],
         [
           2026,
@@ -226,11 +151,15 @@
         ],
         [
           2035,
-          null
+          10000
         ]
       ],
       "pointStart": 2019,
-      "name": "Bewertung"
+      "name": "Zielwert"
+    },
+    {
+      "visible": false,
+      "showInLegend": false
     }
   ],
   "xAxis": {
@@ -342,9 +271,10 @@
           });
 
           const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            //colors = ['#59fb59', '#fbf659', '#fb9999'],
+            colors = ['#0091f7', '#0091f7', '#0091f7'],
             data = chart.series[0].data,
-            assessed = chart.series[2].data;
+            assessed = chart.series[0].data;
           data.forEach(function (element, i) {
             if (assessed[i].y !== null) {
               element.update({
@@ -430,7 +360,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
