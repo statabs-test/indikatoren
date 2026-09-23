@@ -3,7 +3,40 @@
     "chart": {
       //"marginBottom": 75,
       //"marginTop": 75,
-      "type": "column"
+      "type": "column",
+      events: {
+        load: function () {
+          this.credits.element.onclick = function () { };
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+
+          this.series[1].points[this.series[1].points.length - 1].update({
+            dataLabels: {
+              enabled: true,
+              y: -5,
+              x: -50,
+              format: 'Zielwert 2035: {y:,.0f} kg<br>(30% Reduktion gegenüber 2019)',
+              style: {
+                textOutline: false,
+                color: "#999999",
+              }
+            },
+            marker: {
+              enabled: true,
+              symbol: "circle"
+            }
+          });
+        }
+      }
     },
     "plotOptions": {
       "series": {
@@ -33,7 +66,11 @@
         "tooltip": {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f} kg</b><br/>',
         }
-      }
+      },
+      {
+        dashStyle: 'ShortDash',
+        "color": "#999999",
+      },
     ],
 
   }

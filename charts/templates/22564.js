@@ -15,7 +15,7 @@
     },
     series: [
       { 
-        color: "#0A3B19" 
+        color: "#0091f7" 
       }
     ],
     chart: {

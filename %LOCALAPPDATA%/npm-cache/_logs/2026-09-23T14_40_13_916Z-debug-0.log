@@ -5,11 +5,11 @@
 4 silly config load:file:C:\dev\indikatoren\.npmrc
 5 silly config load:file:C:\Users\ssslib\.npmrc
 6 silly config load:file:C:\Users\ssslib\AppData\Roaming\npm\etc\npmrc
-7 verbose title npm run build
-8 verbose argv "run" "build"
-9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\%LOCALAPPDATA%\npm-cache\_logs\2026-09-23T14_02_56_179Z-
-10 verbose logfile C:\dev\indikatoren\%LOCALAPPDATA%\npm-cache\_logs\2026-09-23T14_02_56_179Z-debug-0.log
-11 silly logfile done cleaning log files
+7 verbose title npm re-install
+8 verbose argv "re-install"
+9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\%LOCALAPPDATA%\npm-cache\_logs\2026-09-23T14_40_13_916Z-
+10 verbose logfile C:\dev\indikatoren\%LOCALAPPDATA%\npm-cache\_logs\2026-09-23T14_40_13_916Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
 12 verbose cwd C:\dev\indikatoren
 13 verbose os Windows_NT 10.0.26200
 14 verbose node v22.14.0

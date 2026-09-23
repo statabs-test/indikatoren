@@ -23,7 +23,8 @@
           }
 
           const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            //colors = ['#59fb59', '#fbf659', '#fb9999'],
+            colors = ['#0091f7', '#0091f7', '#0091f7'],
             data = chart.series[0].data,
             assessed = chart.series[4].data;
           data.forEach(function (element, i) {
@@ -73,10 +74,14 @@
         "tooltip": {
           "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
-            var errorBarPoint = this.series.chart.series[1].points[this.index]; // corresponding error bar point
+            var errorBarPoint = this.series.chart.series[2].points[this.index]; // corresponding error bar point
             return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
         }
+      },
+            {
+        "color": "#000099",
+        zIndex: 1,
       },
       {
         "index": 1,
@@ -92,7 +97,7 @@
           },
         }
       },
-      {
+      /*{
         "color": "#999999",
         "tooltip": {
           "pointFormatter": function () {
@@ -121,7 +126,7 @@
       {
         visible: false,
         showInLegend: false
-      },
+      },*/
     ],
   }
 }());

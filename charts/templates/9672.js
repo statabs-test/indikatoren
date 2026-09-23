@@ -16,7 +16,7 @@
             );
           }
 
-/*          
+          /*
           this.series[1].points[9].update({
             dataLabels: {
               enabled: true,
@@ -31,7 +31,8 @@
               }
             },
           });
-*/
+          */
+
           this.series[1].points[this.series[1].points.length - 1].update({
             dataLabels: {
               enabled: true,
@@ -49,7 +50,8 @@
           });
 
           const chart = this,
-            colors = ['#59fb59', '#fbf659', '#fb9999'],
+            //colors = ['#59fb59', '#fbf659', '#fb9999'],
+            colors = ['#0091f7', '#0091f7', '#0091f7'],
             data = chart.series[0].data,
             assessed = chart.series[3].data;
           data.forEach(function (element, i) {
@@ -164,7 +166,7 @@
         color: "#999999",
         zIndex: 2,
       },
-      {
+      /*{
         "color": "#ccc",
         type: 'arearange',
         linkedTo: "Zielpfad",
@@ -177,7 +179,7 @@
             }
           }
         }
-      },
+      },*/
       {
         visible: false,
         showInLegend: false

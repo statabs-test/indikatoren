@@ -55,8 +55,6 @@
         "color": "#0091f7"
       },
       {
-        type: "line",
-        dashStyle: 'ShortDash',
         "color": "#999999",
       },
 

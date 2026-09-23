@@ -31,32 +31,33 @@
           });
 
           const chart = this,
-          colors = ['#59fb59', '#fbf659', '#fb9999'],
-          data = chart.series[0].data,
-          assessed = chart.series[3].data;
+            //colors = ['#59fb59', '#fbf659', '#fb9999'],
+            colors = ['#0091f7', '#0091f7', '#0091f7'],
+            data = chart.series[0].data,
+            assessed = chart.series[3].data;
           data.forEach(function (element, i) {
-          if (assessed[i].y != null) {
-            element.update({
-              color: colors[assessed[i].y],
-              marker: {
-                enabled: true,
-                lineWidth: 1,
-                lineColor: "#0091f7",
-                radius: 3
-              }
-            });
-            if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+            if (assessed[i].y != null) {
               element.update({
+                color: colors[assessed[i].y],
                 marker: {
                   enabled: true,
                   lineWidth: 1,
                   lineColor: "#0091f7",
-                  radius: 4.5
+                  radius: 3
                 }
               });
+              if (typeof assessed[i + 1] == 'undefined' || assessed[i + 1].y == null) {
+                element.update({
+                  marker: {
+                    enabled: true,
+                    lineWidth: 1,
+                    lineColor: "#0091f7",
+                    radius: 4.5
+                  }
+                });
+              }
             }
-          }
-        });
+          });
         }
       }
     },
