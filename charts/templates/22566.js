@@ -46,6 +46,8 @@
     },
     yAxis: [
       {
+        min:0,
+        max: 100,
         gridLineColor: '#B9CFD7',
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7',
