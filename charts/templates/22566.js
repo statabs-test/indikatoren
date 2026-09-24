@@ -17,7 +17,7 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[2].points[this.series[2].points.length - 1].update({
             dataLabels: {
               enabled: true,
               //y: -5,
@@ -44,18 +44,74 @@
     xAxis: {
       tickInterval: 1
     },
-    "yAxis": {
-      reversed: true,
-      "labels": {
-        "format": "{value:,.0f}",
+    yAxis: [
+      {
+        gridLineColor: '#B9CFD7',
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7',
+        title: {
+          style: {
+            color: "#000000",
+            fontSize: null
+          },
+          text: null
+        },
+        labels: {
+          style: {
+            color: "#000000"
+          },
+          formatter: function () {
+            return this.value + "%";
+          }
+
+        }
+      },
+      {
+        opposite: true,
+        reversed: true,
+        min: 0,
+        gridLineColor: '#B9CFD7',
+        gridLineWidth: 0.5,
+        lineColor: '#B9CFD7',
+        title: {
+          style: {
+            color: "#000000",
+            fontSize: null
+          },
+          text: null
+        },
+        labels: {
+          format: "{value:,.0f}",
+          style: {
+            color: "#000000"
+          },
+        }
       }
+    ],
+    "legend": {
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
     },
     "series": [
       {
-        "color": "#0091f7"
+        "color": "#0091f7",
+        yAxis: 1,
+        legendIndex: 2
+      },
+      {
+        type: "line",
+        "color": "#0091f7",
+        tooltip: {
+          "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
+          "shared": false
+        },
       },
       {
         "color": "#999999",
+        yAxis: 1,
+        showInLegend: false
       },
 
     ],
