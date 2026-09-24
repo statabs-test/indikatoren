@@ -2,7 +2,21 @@
   "series": [
     {
       "color": "#0091f7",
+      "yAxis": 1,
+      "legendIndex": 2,
       "data": [
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
         [
           2024,
           43
@@ -28,12 +42,74 @@
           null
         ]
       ],
-      "pointStart": 2024,
-      "name": "Rang"
+      "pointStart": 2021,
+      "name": "Rang (rechte Skala)"
+    },
+    {
+      "type": "line",
+      "color": "#0091f7",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": false
+      },
+      "data": [
+        [
+          2021,
+          51.139
+        ],
+        [
+          2022,
+          58.75
+        ],
+        [
+          2023,
+          60.842
+        ],
+        [
+          2024,
+          71.403
+        ],
+        [
+          2025,
+          79.588
+        ],
+        [
+          2026,
+          80.178
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ]
+      ],
+      "pointStart": 2021,
+      "name": "Wert"
     },
     {
       "color": "#999999",
+      "yAxis": 1,
+      "showInLegend": false,
       "data": [
+        [
+          2021,
+          undefined
+        ],
+        [
+          2022,
+          undefined
+        ],
+        [
+          2023,
+          undefined
+        ],
         [
           2024,
           undefined
@@ -59,7 +135,7 @@
           15
         ]
       ],
-      "pointStart": 2024,
+      "pointStart": 2021,
       "name": "Zielwert"
     }
   ],
@@ -149,7 +225,7 @@
             );
           }
 
-          this.series[1].points[this.series[1].points.length - 1].update({
+          this.series[2].points[this.series[2].points.length - 1].update({
             dataLabels: {
               enabled: true,
               //y: -5,
@@ -197,31 +273,54 @@
       "color": "#000000"
     }
   },
-  "yAxis": {
-    "min": 0,
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "text": null
+      "labels": {
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+            return this.value + "%";
+          }
+      }
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
+    {
+      "opposite": true,
+      "reversed": true,
+      "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "format": "{value:,.0f}"
-    },
-    "reversed": true
-  },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"

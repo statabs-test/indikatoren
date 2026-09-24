@@ -1,0 +1,18 @@
+0 verbose cli C:\apps\nodejs\node.exe c:\apps\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:c:\apps\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\indikatoren\.npmrc
+5 silly config load:file:C:\Users\ssslib\.npmrc
+6 silly config load:file:c:\apps\nodejs\etc\npmrc
+7 verbose title npm run build:database
+8 verbose argv "run" "build:database"
+9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\charts\templates\%LOCALAPPDATA%\npm-cache\_logs\2026-09-24T13_09_55_199Z-
+10 verbose logfile C:\dev\indikatoren\charts\templates\%LOCALAPPDATA%\npm-cache\_logs\2026-09-24T13_09_55_199Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\dev\indikatoren
+13 verbose os Windows_NT 10.0.26200
+14 verbose node v22.14.0
+15 verbose npm  v10.9.2
+16 verbose exit 0
+17 info ok
