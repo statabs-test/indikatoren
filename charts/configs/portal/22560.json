@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#661200",
+      "color": "#0091f7",
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -36,7 +36,7 @@
     },
     {
       "index": 2,
-      "color": "#b00000",
+      "color": "#e7b3b3",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -70,7 +70,7 @@
     },
     {
       "index": 4,
-      "color": "#dc440e",
+      "color": "#f5c7b7",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -104,7 +104,7 @@
     },
     {
       "index": 6,
-      "color": "#ff8028",
+      "color": "#ffd9bf",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -138,7 +138,7 @@
     },
     {
       "index": 8,
-      "color": "#ffbb58",
+      "color": "#ffebcd",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
@@ -359,6 +359,41 @@
       ],
       "pointStart": 0,
       "turboThreshold": 0
+    },
+    {
+      "index": 10,
+      "color": "#999999",
+      "type": "line",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "2018",
+          22.13
+        ],
+        [
+          "2019",
+          21.92
+        ],
+        [
+          "2020",
+          21.79
+        ],
+        [
+          "2021",
+          21.29
+        ],
+        [
+          "2022",
+          21.9
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Mittelwert",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -477,7 +512,7 @@
     "text": "Mietpreisbelastung pro Haushalt"
   },
   "subtitle": {
-    "text": "",
+    "text": "nach Haushaltseinkommensklassen",
     "align": "left",
     "style": {
       "fontSize": "12px",

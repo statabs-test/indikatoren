@@ -9899,8 +9899,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Ambulante Wohnbegleitung",
 		"subtitle": "Anzahl Kostenübernahmegarantien, Basel-Stadt",
-		"lesehilfe": "Per Ende 2025 gab es für die ambulante Wohnbegleitung 659 Kostenübernahmegarantien.<br><h3 class='font-bold mt-20'>Zielwert</h3>Zunahme der Anzahl (Fälle) vgl. mit BL (Grundlage: Gesetz über die Behindertenhilfe (BHG)).",
-		"erlaeuterungen": "Bestand per Jahresende. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie.",
+		"lesehilfe": "Per Ende 2025 gab es in Basel-Stadt für die ambulante Wohnbegleitung 659 Kostenübernahmegarantien.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Zunahme der Anzahl Kostenübernahmegarantien (Grundlage: Gesetz über die Behindertenhilfe (BHG)).",
+		"erlaeuterungen": "Bestand per Jahresende. Die Bedarfsplanung erfolgt gemeinsam mit dem Kanton Basel-Landschaft, deshalb sind diese Zahlen ebenfalls abgebildet. Die Leistungen der Behindertenhilfe werden über Kantonsbeiträge und Kostenbeteiligungen der Personen mit Behinderung finanziert. Sind die Anspruchsberechtigten finanziell nicht in der Lage, für die anteiligen Kosten aufzukommen, werden diese über Ergänzungsleistungen zur Invalidenversicherung finanziert. Die Aufteilung der Kosten erfolgt mittels einer Kostenübernahmegarantie.",
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Behindertenhilfe"
 		],
@@ -9937,7 +9937,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Übergewichtige Kinder",
 		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2024/25 waren 20% der Schweizer Knaben der 6. Schulstufe (4. Primarklasse) übergewichtig. Das bedeutet, dass sie einen BMI-Wert hatten, der für ihr Alter und Geschlecht über dem Referenzwert für Übergewicht lag.<br><h3 class='font-bold mt-20'>Zielwert</h3>XXX (Grundlage: XXX).",
+		"lesehilfe": "Im Schuljahr 2024/25 waren 20% der Schweizer Knaben der 6. Schulstufe (4. Primarklasse) übergewichtig. Das bedeutet, dass sie einen BMI-Wert hatten, der für ihr Alter und Geschlecht über dem Referenzwert für Übergewicht lag.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>XXX (Grundlage: XXX).",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse (bis 2019/20), 6. Stufe = 4. Primarklasse (ab 2021/22), 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).<br>Per Schuljahr 2020/21 wechselte die schulärztliche Untersuchung der 5. in die 6. Stufe. Da die 6. Stufe bereits 2019/20 in der 5. Stufe untersucht worden war, fand 2020/21 keine neue Untersuchung statt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
@@ -9976,9 +9976,9 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Mietpreisbelastung pro Haushalt",
-		"subtitle": "",
-		"lesehilfe": "<h3 class='font-bold mt-20'>Zielwert</h3>XXX (Grundlage: XXX).",
-		"erlaeuterungen": "Das Haushaltseinkommen setzt sich aus dem Nettoeinkommen aller Personen im Haushalt gemäss Steuerveranlagung und den Sozialtransfers zusammen.<br><br>Quintile: Die Haushaltseinkommen im Kanton Basel-Stadt werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt. <br><br>Die Mietpreisbelastung bezieht sich auf das Haushaltseinkommen und die Nettomiete dividiert durch das Haushaltseinkommen. Die Nettomiete stammt aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. <br><br>Ausgeschlossen wurden Haushalte ohne oder negativem Einkommen sowie Haushalte deren Jahresmiete grösser als Ihr Haushaltseinkommen ist.",
+		"subtitle": "nach Haushaltseinkommensklassen",
+		"lesehilfe": "Für das 1. Quintil der Haushaltseinkommen, also jene 20% der Haushalte mit den niedrigsten Einkommen, betrug der Anteil der Nettomietkosten am jährlichen Haushaltseinkommen 33,9% (Konfidenzintervall: 32,7% - 35,2%).<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>XXXX (Grundlage: XXXX).",
+		"erlaeuterungen": "Die <i>Mietpreisbelastung</i> berechnet sich aus der jährlichen Nettomiete dividiert durch das jährliche Haushaltseinkommen. <br><br>Das <i>Haushaltseinkommen</i> setzt sich aus dem Nettoeinkommen aller Personen im Haushalt gemäss Steuerveranlagung und den Sozialtransfers inkl. Mietzinsbeiträgen zusammen.<br><br>Die Angaben zur <i>Nettomiete</i> stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. <br><br><i>Quintile:</i> Die Haushaltseinkommen im Kanton Basel-Stadt werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt. <br><br>Ausgeschlossen wurden Haushalte ohne oder negativem Einkommen sowie Haushalte deren Jahresmiete grösser als Ihr Haushaltseinkommen ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
@@ -10016,7 +10016,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu verbrennender Siedlungs-, Gewerbe- und Industrieabfall pro Kopf",
 		"subtitle": "in kg pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2025 von 194 auf 147 kg pro Kopf.<br><h3 class='font-bold mt-20'>Zielwert</h3>Reduktion um 30% bis 2037 (Grundlage: Klimaschutzstrategie (Ziel EN1)).",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2025 von 194 auf 147 kg pro Kopf.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Reduktion um 30% bis 2037 (Grundlage: Klimaschutzstrategie (Ziel EN1)).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -10054,7 +10054,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert der Feinstaubkonzentration für PM10 liegt 2025 mit 13,6 Mikrogramm pro Kubikmeter unter dem Grenzwert. Der Mittelwert für PM2,5 überschreitet den Grenzwert mit 10,1 μg/m<sup>3</sup> leicht.<br><h3 class='font-bold mt-20'>Zielwert</h3>Jahresmittelwerte liegen unter den Langzeitgrenzwerten (Grundlage: Luftreinhalteverordnung).",
+		"lesehilfe": "Der Mittelwert der Feinstaubkonzentration für PM10 liegt 2025 mit 13,6 Mikrogramm pro Kubikmeter unter dem Grenzwert. Der Mittelwert für PM2,5 überschreitet den Grenzwert mit 10,1 μg/m<sup>3</sup> leicht.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Jahresmittelwerte liegen unter den Langzeitgrenzwerten (Grundlage: Luftreinhalteverordnung).",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 seit 2019, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -10094,8 +10094,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Brutvogelindex",
-		"subtitle": "Stadt Basel",
-		"lesehilfe": "Der Brutvogelindex für die Stadt Basel lag 2024 bei 58.<br><h3 class='font-bold mt-20'>Zielwert</h3>Zunahme des Indexwerts (Grundlage: Biodiversitätsstrategie; Ziel «Schutz, Erhaltung und Förderung von Flora und Fauna»).",
+		"subtitle": "Stadt Basel und Riehen",
+		"lesehilfe": "Der Brutvogelindex für die Stadt Basel lag 2024 bei 57,9 (95%-Konfidenzintervall: 51,2&nbsp;-&nbsp;64,6), für Riehen bei 85,3 (62,4&nbsp;-&nbsp;108,2).<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Zunahme des Indexwerts (Grundlage: Biodiversitätsstrategie; Ziel «Schutz, Erhaltung und Förderung von Flora und Fauna»).",
 		"erlaeuterungen": "Der Brutvogelindex entspricht dem Verhältnis zwischen der Anzahl der tatsächlich gemessenen Arten und einer vordefinierten Bezugsgrösse. Der Index wird nur im urbanen Raum erhoben. Grössere, zusammenhängende Wälder und Landwirtschaftszonen eines Gemeindegebietes werden ausgeklammert (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -10135,7 +10135,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Lohnunterschied zwischen Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"lesehilfe": "Der Lohnunterschied zwischen Frauen und Männern liegt 2024 mit 9,6% zum ersten Mal unter 10%. Im Jahr 2004 lag er bei 20,0%.<br><h3 class='font-bold mt-20'>Zielwert</h3>Abnahme des Lohnunterschieds (Grundlage: Gleichstellungsgesetz (GIG)).",
+		"lesehilfe": "Der Lohnunterschied zwischen Frauen und Männern liegt 2024 mit 9,6% zum ersten Mal unter 10%. Im Jahr 2004 lag er bei 20,0%.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Abnahme des Lohnunterschieds (Grundlage: Gleichstellungsgesetz (GIG)).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
@@ -10172,11 +10172,15 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Ranking im Global Destination Sustainability Index (GDSI)",
-		"subtitle": "",
-		"lesehilfe": "<h3 class='font-bold mt-20'>Zielwert</h3>Platz 15 oder besser bis 2029 (Grundlage: Bericht PD an RR vom 22.04.2026 zum Konzept «Nachhaltiges Basel»).",
-		"erlaeuterungen": "",
-		"quellenangabe": [],
-		"externalLinks": [],
+		"subtitle": "Stadt Basel",
+		"lesehilfe": "2026 lag die Stadt Basel im Ranking des Global Destination Sustainability Index (GDSI) auf dem 28. Rang.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Platz 15 oder besser bis 2029 (Grundlage: Regierungsratsbeschluss vom 09. Juni 2026, Internationale Positionierung von Basel als eine führende nachhaltige Stadt Europas – «Nachhaltiges Basel»).",
+		"erlaeuterungen": "Der GDS-Index ist ein internationales Benchmarking-Programm, das die Nachhaltigkeitsstrategien und -massnahmen von Tourismusdestinationen erfasst und vergleicht.",
+		"quellenangabe": [
+			"Global Destination Sustainability Index (GDSI)"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.gds.earth/' target = '_blank'>Global Destination Sustainability Index (GDSI)</a>"
+		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -84563,7 +84567,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettoschuldenquote",
 		"subtitle": "in Promille des BIP der Schweiz, Basel-Stadt",
-		"lesehilfe": "2025 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,3 Promille des Schweizer Bruttoinlandprodukts.<br><h3 class='font-bold mt-20'>Zielwert</h3>Unter 6,5 Promille des Schweizer BIP (Grundlage: FHG §4 Abs. 1).",
+		"lesehilfe": "2025 beträgt die Nettoschuldenquote des Kantons Basel-Stadt -0,3 Promille des Schweizer Bruttoinlandprodukts.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Unter 6,5 Promille des Schweizer BIP (Grundlage: FHG §4 Abs. 1).",
 		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet. Die Schuldenbremse wurde im Jahr 2005 beschlossen: Die Verschuldung des Kantons darf im Verhältnis zu seiner wirtschaftlichen Leistungsfähigkeit mittelfristig einen definierten Wert nicht überschreiten. Die Nettoschuld relativ zum Bruttoinlandprodukt der Schweiz durfte nicht mehr als 7,5 Promille betragen, seit dem Jahr 2010 nicht mehr als 6,5 Promille.",
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -84601,7 +84605,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 43,9%.<br><h3 class='font-bold mt-20'>Zielwert</h3>85% bis 2037 (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
+		"lesehilfe": "2022 beträgt der Anteil erneuerbarer Energie am gesamten Bruttoenergieverbrauch 43,9%.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>85% bis 2037 (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
@@ -84639,7 +84643,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen (+3 014 gegenüber 2024). <br><h3 class='font-bold mt-20'>Zielwert</h3>220 000 Einwohnerinnen und Einwohner bis 2035 (Grundlage: Kantonaler Richtplan Basel-Stadt).",
+		"lesehilfe": "Ende 2025 beträgt der Bevölkerungsbestand im Kanton Basel-Stadt 210 529 Personen (+3 014 gegenüber 2024). <br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>220 000 Einwohnerinnen und Einwohner bis 2035 (Grundlage: Kantonaler Richtplan Basel-Stadt).",
 		"erlaeuterungen": "Siehe <a href='https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html#page_section3_section1' target='_blank'>Zentrale Begriffe zu den Einwohnerdaten</a>.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -84677,7 +84681,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Treibhausgas-Emissionen",
 		"subtitle": "in Tonnen CO<sub>2</sub>-Äquivalente pro Kopf, Basel-Stadt",
-		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2022 bei 3,1 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf.<br><h3 class='font-bold mt-20'>Zielwert</h3>Netto-Null bis 2037. Zielpfad: gemäss Klimaschutzstrategie des Kantons (Grundlage: <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a>).",
+		"lesehilfe": "Die direkten Treibhausgas-Emissionen auf dem Kantonsgebiet lagen 2022 bei 3,1 Tonnen CO<sub>2</sub>eq (CO<sub>2</sub>-Äquivalente) pro Kopf.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Netto-Null bis 2037. Zielpfad: gemäss Klimaschutzstrategie des Kantons (Grundlage: <a href='https://www.pd.bs.ch/ueber-das-departement/Fachstelle-Klima/Klimapolitik/Klimaschutzstrategie-Kanton-Basel-Stadt--Netto-Null-bis-2037.html' target='_blank'>Klimaschutzstrategie Basel-Stadt</a>).",
 		"erlaeuterungen": "Direkte Emissionen (sog. Scope 1) sind CO<sub>2</sub>-Emissionen auf dem Kantonsgebiet (Territorialprinzip), die durch das Verbrennen von fossilen Energieträgern wie Heizöl, Erdgas, Benzin und Diesel sowie bei der thermischen Verwertung von Abfällen (Kehricht und Industrieabfälle) entstehen. Weitere direkte Treibhausgasemissionen (in t CO<sub>2</sub>eq) umfassen insbesondere F-Gas-Emissionen in der Industrie, Methanemissionen aus dem Erdgasverteilnetz und Lachgasemissionen aus der Abwasserreinigung.<br>Insgesamt sinken die Treibhausgasemissionen im Netto-Null-Absenkpfad um 87% im Vergleich zu 2020 und umfassen im Jahr 2037 noch 88 000 Tonnen CO<sub>2</sub>eq. Diese restlichen, schwer vermeidbaren Emissionen umfassen Emissionen aus der Mobilität, der Entsorgung und nicht-energiebedingte Emissionen. Für den Netto-Null Absenkpfad wird davon ausgegangen, dass 2037 eine Carbon Capture and Storage (CCS) Anlage zur Abscheidung von CO<sub>2</sub> an der Kehrichtverbrennungsanlage in Betrieb gehen wird, sofern dies technisch und wirtschaftlich machbar ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik",
@@ -84718,7 +84722,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
 		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2025",
-		"lesehilfe": "Im Jahr 2025 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 94,2 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><h3 class='font-bold mt-20'>Zielwert</h3>Mindestens zweiter Platz im Kantonsvergleich (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
+		"lesehilfe": "Im Jahr 2025 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 94,2 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 7.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Mindestens zweiter Platz im Kantonsvergleich (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Aktuell erscheint er alle zwei Jahre, zuletzt 2025. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht thematischen Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"quellenangabe": [
 			"UBS Switzerland AG"
@@ -84756,7 +84760,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2024 um 10,2% von 183 183 auf 201 823.<br><h3 class='font-bold mt-20'>Zielwert</h3>220 000 Beschäftige bis 2035 (Grundlage: Kantonaler Richtplan Basel-Stadt).",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2011 und 2024 um 10,2% von 183 183 auf 201 823.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>220 000 Beschäftige bis 2035 (Grundlage: Kantonaler Richtplan Basel-Stadt).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -84794,7 +84798,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote",
 		"subtitle": "Basel-Stadt und Schweiz",
-		"lesehilfe": "2025 waren durchschnittlich 4,3% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,6 Prozentpunkte gegenüber 2024. Die Arbeitslosenquote der Schweiz ist im gleichen Zeitraum um 0,4 Prozentpunkte gestiegen.<br><h3 class='font-bold mt-20'>Zielwert</h3>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
+		"lesehilfe": "2025 waren durchschnittlich 4,3% der Erwerbspersonen in Basel-Stadt als arbeitslos gemeldet. Dies entspricht einem Anstieg um 0,6 Prozentpunkte gegenüber 2024. Die Arbeitslosenquote der Schweiz ist im gleichen Zeitraum um 0,4 Prozentpunkte gestiegen.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Arbeitslosenquote BS entwickelt sich im Vorjahresvergleich gleich oder besser als Arbeitslosenquote CH (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -84832,7 +84836,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Lebenserwartung",
 		"subtitle": "bei Geburt in Jahren, Basel-Stadt",
-		"lesehilfe": "Eine im Jahr 2024 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,6 Jahren (95%-Konfidenzintervall: 82,1 - 83,2).<br><h3 class='font-bold mt-20'>Zielwert</h3>Mindestens stabile resp. steigende Lebenserwartung für Basel-Stadt (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
+		"lesehilfe": "Eine im Jahr 2024 im Kanton Basel-Stadt geborene Person hat eine statistische Lebenserwartung von 82,6 Jahren (95%-Konfidenzintervall: 82,1 - 83,2).<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Mindestens stabile resp. steigende Lebenserwartung für Basel-Stadt (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Das Konfidenzintervall (Fehlerbalken) gibt den Bereich an, welcher den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"quellenangabe": [
 			"Schweizerisches Gesundheitsobervatorium (Obsan)"
@@ -84870,7 +84874,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 fühlen sich 89,5% der Bevölkerung im Alltag sehr oder eher sicher. 4,7% fühlen sich eher oder ganz unsicher. 5,8% haben die Frage mit \"Weiss nicht\" oder gar nicht beantwortet.<br><h3 class='font-bold mt-20'>Zielwert</h3>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
+		"lesehilfe": "Im Jahr 2023 fühlen sich 89,5% der Bevölkerung im Alltag sehr oder eher sicher. 4,7% fühlen sich eher oder ganz unsicher. 5,8% haben die Frage mit \"Weiss nicht\" oder gar nicht beantwortet.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Mehr als 90% der Bevölkerung fühlen sich im Alltag «sicher» oder «eher sicher» (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Daten werden 2023 nach Geschlecht, Staatsangehörigkeit und Altersgruppen gewichtet. Die Daten der Befragungen 2011, 2015 und 2019 wurden nach den identischen Faktoren nachgewichtet. Die Werte dieser drei Jahre weichen daher von früher publizierten ab.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -84908,7 +84912,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Bildungsabschluss Sekundarstufe II",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2023 in Basel-Stadt bei 87,5%. 2022 hatte dieser Wert noch 85,4% betragen.<br><h3 class='font-bold mt-20'>Zielwert</h3>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).",
+		"lesehilfe": "Der Anteil der Jugendlichen, die bis zum 25. Altersjahr einen Erstabschluss der Sekundarstufe II erworben haben, lag 2023 in Basel-Stadt bei 87,5%. 2022 hatte dieser Wert noch 85,4% betragen.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>95% der Jugendlichen haben bis zum Alter von 25 Jahren einen Abschluss auf Stufe Sek II (Grundlage: Politisches Ziel von Bund, Kantonen und Arbeitnehmerorganisationen).",
 		"erlaeuterungen": "Bei der Berechnung werden die folgenden Abschlüsse berücksichtigt: Berufliche Grundbildung: eidgenössische Fähigkeitszeugnisse und Berufsatteste gemäss der Statistik der beruflichen Grundbildung (SBG); Allgemeinbildung: gymnasiale Maturitätszeugnisse, Fachmittelschulausweise und Abschlüsse der internationalen Schulen in der Schweiz gemäss der Statistik der Bildungsabschlüsse (SBA). Die Referenzbevölkerung besteht aus allen Personen, die im Alter des Beendens der obligatorischen Schule in der Schweiz wohnten. Ausgenommen sind Grenzgängerinnen und Grenzgänger sowie Personen, die im Zuge der jüngsten Zuwanderung nach beendeter obligatorischer Schulzeit in die Schweiz gekommen sind. Jugendliche, die das Land vor dem Erwerb eines Abschlusses auf der Sekundarstufe II verlassen haben, werden ebenfalls nicht berücksichtigt. Ausserdem werden bei der Abschlussquote nur Personen bis zu einem Alter von 25 Jahren betrachtet. Für eine bessere Stabilität der Ergebnisse wird ein Dreijahresdurchschnitt berechnet. Die Quote für das Jahr t entspricht folglich dem Durchschnitt der für die Jahre t-1, t und t+1 erhaltenen Werte. Rückwirkende Korrekturen durch das Bundesamt für Statistik sind möglich.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Längsschnittanalysen im Bildungsbereich (LABB)"
@@ -84949,7 +84953,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Nettowohnungsproduktion seit 2019",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2025 betrug die Nettowohnungsproduktion 4 734 Wohnungen.<br><h3 class='font-bold mt-20'>Zielwert</h3>10 000 Wohnungen bis 2035 (Grundlage: Gekoppelt an Richtplanziel 220 000 E bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung; Bericht PD an RR vom 16.11.2022).",
+		"lesehilfe": "Vom 1.1.2020 bis zum 31.12.2025 betrug die Nettowohnungsproduktion 4 734 Wohnungen.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>10 000 Wohnungen bis 2035 (Grundlage: Gekoppelt an Richtplanziel 220 000 E bis 2035; berechnet auf Basis des aktuellen Wohnungsbestands und der durchschnittlichen Personenbelegung pro Wohnung; Bericht PD an RR vom 16.11.2022).",
 		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -84987,7 +84991,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Verkehrsleistungsindex MIV im Stadtstrassennetz",
 		"subtitle": "Indexwert (Basis 2010 = 100)",
-		"lesehilfe": "Der Verkehrsleistungsindex des motorisierten Individualverkehrs (MIV) im Stadtstrassennetz liegt 2025 bei 91,4 Punkten.<br><h3 class='font-bold mt-20'>Zielwert</h3>Wert ist nicht grösser als Indexwert 2019 (Grundlage: USG §13 bzw. VuV §5).",
+		"lesehilfe": "Der Verkehrsleistungsindex des motorisierten Individualverkehrs (MIV) im Stadtstrassennetz liegt 2025 bei 91,4 Punkten.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Wert ist nicht grösser als Indexwert 2019 (Grundlage: USG §13 bzw. VuV §5).",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Er basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Jede Zählstelle wird auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Der Index für den motorisierten Individualverkehr (MIV) im Stadtstrassennetz (exkl. Autobahnen) berechnet sich anhand von verschiedenen Dauerzählstellen des Kantons Basel-Stadt und des Kantons Basel-Landschaft. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -85064,7 +85068,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Städtevergleich",
-		"lesehilfe": "In der Stadt Basel bezogen 2024 5,0% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,1 Prozentpunkte weniger als 2023. Der Mittelwert der  Vergleichsstädte stieg derweil um 0,1 Prozentpunkte auf 4,8%.<br><h3 class='font-bold mt-20'>Zielwert</h3>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
+		"lesehilfe": "In der Stadt Basel bezogen 2024 5,0% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,1 Prozentpunkte weniger als 2023. Der Mittelwert der  Vergleichsstädte stieg derweil um 0,1 Prozentpunkte auf 4,8%.<br><h3 class='font-bold mt-20'>Zielwert/Entwicklungsrichtung</h3>Sozialhilfequote der Stadt Basel entwickelt sich gleich oder besser als Sozialhilfequote der Vergleichsstädte (Grundlage: Bericht PD an RR vom 16.11.2022 (Schlüsselindikatoren)).",
 		"erlaeuterungen": "Vergleichsstädte sind die sechs grössten Städte, welche am Vergleich der <a href='https://staedteinitiative.ch/' target='_blank'>Städteinitiative Sozialpolitik</a> teilnehmen. Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"

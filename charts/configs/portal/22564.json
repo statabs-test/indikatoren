@@ -1,27 +1,145 @@
 {
   "series": [
     {
+      "index": 0,
       "color": "#0091f7",
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            var errorBarPoint = this.series.chart.series[1].points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
       "data": [
         [
-          "2015",
-          56
+          "2016",
+          56.2941
         ],
         [
           "2020",
-          48
+          48.3529
         ],
         [
           "2022",
-          54
+          53.7059
         ],
         [
           "2024",
-          58
+          57.8824
         ]
       ],
       "pointStart": 0,
-      "name": "Brutvogel-Index",
+      "name": "Stadt Basel",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "color": "#005ea1",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[0];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '%</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2016",
+          "low": 43.4741,
+          "high": 69.1141
+        },
+        {
+          "name": "2020",
+          "low": 39.2114,
+          "high": 57.4944
+        },
+        {
+          "name": "2022",
+          "low": 45.0226,
+          "high": 62.3892
+        },
+        {
+          "name": "2024",
+          "low": 51.2012,
+          "high": 64.5636
+        }
+      ],
+      "pointStart": 0,
+      "name": "Jahr",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#8ccefb",
+      "tooltip": {
+        "pointFormatter": function () {
+            var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            var errorBarPoint = this.series.chart.series[3].points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        [
+          "2016",
+          null
+        ],
+        [
+          "2020",
+          71.5714
+        ],
+        [
+          "2022",
+          82.2857
+        ],
+        [
+          "2024",
+          85.2857
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Riehen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "color": "#0091f7",
+      "tooltip": {
+        "pointFormatter": function () {
+            var parent = this.series.chart.series[2];
+            parent.setState('hover'); //"aktiviere" alle series
+            var tooltip = '<span style="color:' + parent.color + '">\u25CF</span> ' + parent.name + ': <b>' + Highcharts.numberFormat((parent.points[this.index].y), 1) + '%</b>';
+            var errorBarPoint = this.series.points[this.index]; // Find the corresponding error bar point
+            return tooltip + ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '%</b>)';
+          }
+      },
+      "data": [
+        {
+          "name": "2016",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2020",
+          "low": 47.1031,
+          "high": 96.0397
+        },
+        {
+          "name": "2022",
+          "low": 60.0143,
+          "high": 104.5571
+        },
+        {
+          "name": "2024",
+          "low": 62.3583,
+          "high": 108.2131
+        }
+      ],
+      "pointStart": 0,
+      "name": "Jahr",
       "turboThreshold": 0
     }
   ],
@@ -123,13 +241,12 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
-      "pointWidth": 60
+      }
     }
   },
   "title": {
@@ -142,7 +259,7 @@
     "text": "Brutvogelindex"
   },
   "subtitle": {
-    "text": "Stadt Basel",
+    "text": "Stadt Basel und Riehen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -172,7 +289,9 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false
+    "enabled": true,
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -194,9 +313,6 @@
       "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 22.9.2026"
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "22564"
