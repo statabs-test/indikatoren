@@ -80,13 +80,13 @@
         }
       },
             {
-        "color": "#000099",
+        "color": "#999999",
         zIndex: 1,
       },
       {
         "index": 1,
         "type": "errorbar",
-        "color": "#44b1f7",
+        "color": "#cccccc",
         "tooltip": {
           "pointFormatter": function () {
             var parent = this.series.chart.series[0];

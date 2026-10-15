@@ -33,11 +33,15 @@
       }
     },
     plotOptions: {
-      column: {
+      line: {
         threshold: 100,
         dataLabels: {
           enabled: true,
-          format: 'Rang {y}'
+          format: 'Rang {y}',
+          style: {
+            textOutline: false,
+            color: "#0091f7",
+          }
         }
       }
     },
@@ -46,7 +50,7 @@
     },
     yAxis: [
       {
-        min:0,
+        min: 0,
         max: 100,
         gridLineColor: '#B9CFD7',
         gridLineWidth: 0.5,
@@ -99,12 +103,14 @@
     "series": [
       {
         "color": "#0091f7",
+        type: "line",
         yAxis: 1,
+        index:2,
         legendIndex: 2
       },
       {
-        type: "line",
-        "color": "#0091f7",
+        "color": "#dddddd",
+        index:1,
         tooltip: {
           "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
           "shared": false
@@ -112,6 +118,10 @@
       },
       {
         "color": "#999999",
+        type: "line",
+        marker: {
+          enabled: true
+        },
         yAxis: 1,
         showInLegend: false
       },

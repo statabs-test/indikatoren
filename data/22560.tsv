@@ -1,6 +1,6 @@
-	Mittelwert 1. Qunitil	Mittelwert 2. Qunitil	Mittelwert 3. Qunitil	Mittelwert 4. Qunitil	Mittelwert 5. Qunitil	Konfidenzintervall unten 1. Quintil	Konfidenzintervall oben 1. Quintil	Konfidenzintervall unten 2. Quintil	Konfidenzintervall oben 2. Quintil	Konfidenzintervall unten 3. Quintil	Konfidenzintervall oben 3. Quintil	Konfidenzintervall unten 4. Quintil	Konfidenzintervall oben 4. Quintil	Konfidenzintervall unten 5. Quintil	Konfidenzintervall oben 5. Quintil
-2018	33.79	22.31	18.38	15.46	11.55	32.54	35.03	21.68	22.95	17.86	18.91	15.00	15.92	11.17	11.93
-2019	33.41	22.41	18.16	14.94	11.34	32.19	34.62	21.85	22.98	17.66	18.66	14.56	15.33	10.96	11.72
-2020	33.04	22.27	18.15	15.21	11.52	31.92	34.17	21.68	22.86	17.68	18.62	14.78	15.63	11.15	11.89
-2021	32.05	21.65	17.82	14.64	11.54	30.92	33.18	21.08	22.22	17.37	18.27	14.25	15.04	11.16	11.93
-2022	33.94	22.29	18.27	15.08	11.02	32.71	35.17	21.70	22.88	17.78	18.76	14.66	15.50	10.65	11.39
+	Mittelwert 1. Qunitil	Mittelwert 2. Qunitil	Mittelwert 3. Qunitil	Mittelwert 4. Qunitil	Mittelwert 5. Qunitil	Konfidenzintervall unten 1. Quintil	Konfidenzintervall oben 1. Quintil	Konfidenzintervall unten 2. Quintil	Konfidenzintervall oben 2. Quintil	Konfidenzintervall unten 3. Quintil	Konfidenzintervall oben 3. Quintil	Konfidenzintervall unten 4. Quintil	Konfidenzintervall oben 4. Quintil	Konfidenzintervall unten 5. Quintil	Konfidenzintervall oben 5. Quintil	Mittelwert	Konfidenzintervall
+2018	33.79	22.31	18.38	15.46	11.55	32.54	35.03	21.68	22.95	17.86	18.91	15.00	15.92	11.17	11.93	22.13	0.27
+2019	33.41	22.41	18.16	14.94	11.34	32.19	34.62	21.85	22.98	17.66	18.66	14.56	15.33	10.96	11.72	21.92	0.25
+2020	33.04	22.27	18.15	15.21	11.52	31.92	34.17	21.68	22.86	17.68	18.62	14.78	15.63	11.15	11.89	21.79	0.24
+2021	32.05	21.65	17.82	14.64	11.54	30.92	33.18	21.08	22.22	17.37	18.27	14.25	15.04	11.16	11.93	21.29	0.24
+2022	33.94	22.29	18.27	15.08	11.02	32.71	35.17	21.70	22.88	17.78	18.76	14.66	15.50	10.65	11.39	21.9	0.26
