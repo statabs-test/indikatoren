@@ -43,7 +43,9 @@
 				},
 			},
 			{
-				"color": "#999999", // 
+				"color": "#999999", 
+				visible: false,
+				showInLegend: false
 			},
 		],
 	}
