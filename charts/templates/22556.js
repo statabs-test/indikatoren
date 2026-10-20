@@ -26,7 +26,7 @@
 			},
 		},
 		"legend": {
-			"enabled": true,
+			"enabled": false,
 			"layout": "horizontal",
 			"align": "left",
 			"verticalAlign": "top",
