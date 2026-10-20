@@ -17,7 +17,7 @@
             );
           }
 
-          const chart = this,
+          /*const chart = this,
             //colors = ['#59fb59', '#fbf659', '#fb9999'],
             colors = ['#0091f7', '#0091f7', '#0091f7'],
             data = chart.series[0].data,
@@ -44,7 +44,7 @@
                 });
               }
             }
-          });
+          });*/
         }
       }
     },
