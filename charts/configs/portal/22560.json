@@ -181,31 +181,32 @@
       "data": [
         {
           "name": "2018",
-          "low": 32.54,
-          "high": 35.03
+          "low": 33.15,
+          "high": 34.42
         },
         {
           "name": "2019",
-          "low": 32.19,
-          "high": 34.62
+          "low": 32.79,
+          "high": 34.02
         },
         {
           "name": "2020",
-          "low": 31.92,
-          "high": 34.17
+          "low": 32.47,
+          "high": 33.62
         },
         {
           "name": "2021",
-          "low": 30.92,
-          "high": 33.18
+          "low": 31.47,
+          "high": 32.62
         },
         {
           "name": "2022",
-          "low": 32.71,
-          "high": 35.17
+          "low": 33.31,
+          "high": 34.57
         }
       ],
       "pointStart": 0,
+      "name": "Jahr",
       "turboThreshold": 0
     },
     {
@@ -219,31 +220,32 @@
       "data": [
         {
           "name": "2018",
-          "low": 21.68,
-          "high": 22.95
+          "low": 21.99,
+          "high": 22.64
         },
         {
           "name": "2019",
-          "low": 21.85,
-          "high": 22.98
+          "low": 22.13,
+          "high": 22.7
         },
         {
           "name": "2020",
-          "low": 21.68,
-          "high": 22.86
+          "low": 21.97,
+          "high": 22.57
         },
         {
           "name": "2021",
-          "low": 21.08,
-          "high": 22.22
+          "low": 21.36,
+          "high": 21.94
         },
         {
           "name": "2022",
-          "low": 21.7,
-          "high": 22.88
+          "low": 21.99,
+          "high": 22.59
         }
       ],
       "pointStart": 0,
+      "name": "Jahr",
       "turboThreshold": 0
     },
     {
@@ -257,31 +259,32 @@
       "data": [
         {
           "name": "2018",
-          "low": 17.86,
-          "high": 18.91
+          "low": 18.12,
+          "high": 18.65
         },
         {
           "name": "2019",
-          "low": 17.66,
-          "high": 18.66
+          "low": 17.91,
+          "high": 18.42
         },
         {
           "name": "2020",
-          "low": 17.68,
-          "high": 18.62
+          "low": 17.91,
+          "high": 18.39
         },
         {
           "name": "2021",
-          "low": 17.37,
-          "high": 18.27
+          "low": 17.59,
+          "high": 18.05
         },
         {
           "name": "2022",
-          "low": 17.78,
-          "high": 18.76
+          "low": 18.02,
+          "high": 18.52
         }
       ],
       "pointStart": 0,
+      "name": "Jahr",
       "turboThreshold": 0
     },
     {
@@ -295,31 +298,32 @@
       "data": [
         {
           "name": "2018",
-          "low": 15,
-          "high": 15.92
+          "low": 15.22,
+          "high": 15.69
         },
         {
           "name": "2019",
-          "low": 14.56,
-          "high": 15.33
+          "low": 14.75,
+          "high": 15.14
         },
         {
           "name": "2020",
-          "low": 14.78,
-          "high": 15.63
+          "low": 14.99,
+          "high": 15.42
         },
         {
           "name": "2021",
-          "low": 14.25,
-          "high": 15.04
+          "low": 14.44,
+          "high": 14.84
         },
         {
           "name": "2022",
-          "low": 14.66,
-          "high": 15.5
+          "low": 14.87,
+          "high": 15.29
         }
       ],
       "pointStart": 0,
+      "name": "Jahr",
       "turboThreshold": 0
     },
     {
@@ -333,31 +337,32 @@
       "data": [
         {
           "name": "2018",
-          "low": 11.17,
-          "high": 11.93
+          "low": 11.36,
+          "high": 11.74
         },
         {
           "name": "2019",
-          "low": 10.96,
-          "high": 11.72
+          "low": 11.14,
+          "high": 11.53
         },
         {
           "name": "2020",
-          "low": 11.15,
-          "high": 11.89
+          "low": 11.33,
+          "high": 11.71
         },
         {
           "name": "2021",
-          "low": 11.16,
-          "high": 11.93
+          "low": 11.35,
+          "high": 11.74
         },
         {
           "name": "2022",
-          "low": 10.65,
-          "high": 11.39
+          "low": 10.83,
+          "high": 11.21
         }
       ],
       "pointStart": 0,
+      "name": "Jahr",
       "turboThreshold": 0
     },
     {
@@ -366,7 +371,7 @@
       "type": "line",
       "tooltip": {
         "pointFormatter": function () {
-            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
           }
       },
       "data": [
