@@ -1,29 +1,20 @@
 {
   "name": "wkt-parser",
-  "version": "1.2.3",
+  "version": "1.6.0",
   "description": "wkt-parser ===",
-  "main": "wkt.build.js",
+  "main": "dist/wkt.cjs",
   "module": "index.js",
+  "type": "module",
+  "funding": "https://github.com/sponsors/ahocevar",
   "scripts": {
     "test": "node test.js",
     "build": "rollup -c",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/proj4js/wkt-parser.git"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ]
-        }
-      ]
-    ]
   },
   "author": "",
   "license": "MIT",
@@ -32,7 +23,10 @@
   },
   "homepage": "https://github.com/proj4js/wkt-parser#readme",
   "devDependencies": {
-    "rollup": "^0.41.4",
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^9.26.0",
+    "js-struct-compare": "^1.1.0",
+    "rollup": "^4.24.0",
     "tape": "^4.6.3"
   }
 }

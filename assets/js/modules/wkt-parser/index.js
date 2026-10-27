@@ -1,8 +1,12 @@
-var D2R = 0.01745329251994329577;
-import parser from './parser';
-import {sExpr} from './process';
+import { buildPROJJSON } from './buildPROJJSON.js';
+import { detectWKTVersion } from './detectWKTVersion.js';
+import parser from './parser.js';
+import {sExpr} from './process.js';
+import { transformPROJJSON } from './transformPROJJSON.js';
+import { applyProjectionDefaults, d2r } from './util.js';
 
-
+var knownTypes = ['PROJECTEDCRS', 'PROJCRS', 'GEOGCS', 'GEOCCS', 'PROJCS', 'LOCAL_CS', 'GEODCRS',
+  'GEODETICCRS', 'GEODETICDATUM', 'ENGCRS', 'ENGINEERINGCRS'];
 
 function rename(obj, params) {
   var outName = params[0];
@@ -15,11 +19,28 @@ function rename(obj, params) {
   }
 }
 
-function d2r(input) {
-  return input * D2R;
+function cleanWKT(wkt) {
+  var keys = Object.keys(wkt);
+  for (var i = 0, ii = keys.length; i <ii; ++i) {
+    var key = keys[i];
+    // the followings are the crs defined in
+    // https://github.com/proj4js/proj4js/blob/1da4ed0b865d0fcb51c136090569210cdcc9019e/lib/parseCode.js#L11
+    if (knownTypes.indexOf(key) !== -1) {
+      setPropertiesFromWkt(wkt[key]);
+    }
+    if (typeof wkt[key] === 'object') {
+      cleanWKT(wkt[key]);
+    }
+  }
 }
 
-function cleanWKT(wkt) {
+function setPropertiesFromWkt(wkt) {
+  if (wkt.AUTHORITY) {
+    var authority = Object.keys(wkt.AUTHORITY)[0];
+    if (authority && authority in wkt.AUTHORITY) {
+      wkt.title = authority + ':' + wkt.AUTHORITY[authority];
+    }
+  }
   if (wkt.type === 'GEOGCS') {
     wkt.projName = 'longlat';
   } else if (wkt.type === 'LOCAL_CS') {
@@ -30,6 +51,27 @@ function cleanWKT(wkt) {
       wkt.projName = Object.keys(wkt.PROJECTION)[0];
     } else {
       wkt.projName = wkt.PROJECTION;
+    }
+  }
+  if (wkt.AXIS) {
+    var axisOrder = '';
+    for (var i = 0, ii = wkt.AXIS.length; i < ii; ++i) {
+      var axis = [wkt.AXIS[i][0].toLowerCase(), wkt.AXIS[i][1].toLowerCase()];
+      if (axis[0].indexOf('north') !== -1 || ((axis[0] === 'y' || axis[0] === 'lat') && axis[1] === 'north')) {
+        axisOrder += 'n';
+      } else if (axis[0].indexOf('south') !== -1 || ((axis[0] === 'y' || axis[0] === 'lat') && axis[1] === 'south')) {
+        axisOrder += 's';
+      } else if (axis[0].indexOf('east') !== -1 || ((axis[0] === 'x' || axis[0] === 'lon') && axis[1] === 'east')) {
+        axisOrder += 'e';
+      } else if (axis[0].indexOf('west') !== -1 || ((axis[0] === 'x' || axis[0] === 'lon') && axis[1] === 'west')) {
+        axisOrder += 'w';
+      }
+    }
+    if (axisOrder.length === 2) {
+      axisOrder += 'u';
+    }
+    if (axisOrder.length === 3) {
+      wkt.axis = axisOrder;
     }
   }
   if (wkt.UNIT) {
@@ -52,9 +94,9 @@ function cleanWKT(wkt) {
     geogcs = wkt;
   }
   if (geogcs) {
-    //if(wkt.GEOGCS.PRIMEM&&wkt.GEOGCS.PRIMEM.convert){
-    //  wkt.from_greenwich=wkt.GEOGCS.PRIMEM.convert*D2R;
-    //}
+    if (geogcs.PRIMEM && geogcs.PRIMEM.convert) {
+      wkt.from_greenwich = d2r(geogcs.PRIMEM.convert);
+    }
     if (geogcs.DATUM) {
       wkt.datumCode = geogcs.DATUM.name.toLowerCase();
     } else {
@@ -63,22 +105,16 @@ function cleanWKT(wkt) {
     if (wkt.datumCode.slice(0, 2) === 'd_') {
       wkt.datumCode = wkt.datumCode.slice(2);
     }
-    if (wkt.datumCode === 'new_zealand_geodetic_datum_1949' || wkt.datumCode === 'new_zealand_1949') {
+    if (wkt.datumCode === 'new_zealand_1949') {
       wkt.datumCode = 'nzgd49';
     }
-    if (wkt.datumCode === 'wgs_1984') {
+    if (wkt.datumCode === 'wgs_1984' || wkt.datumCode === 'world_geodetic_system_1984') {
       if (wkt.PROJECTION === 'Mercator_Auxiliary_Sphere') {
         wkt.sphere = true;
       }
       wkt.datumCode = 'wgs84';
     }
-    if (wkt.datumCode.slice(-6) === '_ferro') {
-      wkt.datumCode = wkt.datumCode.slice(0, - 6);
-    }
-    if (wkt.datumCode.slice(-8) === '_jakarta') {
-      wkt.datumCode = wkt.datumCode.slice(0, - 8);
-    }
-    if (~wkt.datumCode.indexOf('belge')) {
+    if (wkt.datumCode === 'belge_1972') {
       wkt.datumCode = 'rnb72';
     }
     if (geogcs.DATUM && geogcs.DATUM.SPHEROID) {
@@ -88,7 +124,7 @@ function cleanWKT(wkt) {
       }
 
       wkt.a = geogcs.DATUM.SPHEROID.a;
-      wkt.rf = parseFloat(geogcs.DATUM.SPHEROID.rf, 10);
+      wkt.rf = parseFloat(geogcs.DATUM.SPHEROID.rf);
     }
 
     if (geogcs.DATUM && geogcs.DATUM.TOWGS84) {
@@ -114,6 +150,9 @@ function cleanWKT(wkt) {
   if (wkt.b && !isFinite(wkt.b)) {
     wkt.b = wkt.a;
   }
+  if (wkt.rectified_grid_angle) {
+    wkt.rectified_grid_angle = d2r(wkt.rectified_grid_angle);
+  }
 
   function toMeter(input) {
     var ratio = wkt.to_meter || 1;
@@ -124,12 +163,22 @@ function cleanWKT(wkt) {
   };
   var list = [
     ['standard_parallel_1', 'Standard_Parallel_1'],
+    ['standard_parallel_1', 'Latitude of 1st standard parallel'],
     ['standard_parallel_2', 'Standard_Parallel_2'],
+    ['standard_parallel_2', 'Latitude of 2nd standard parallel'],
     ['false_easting', 'False_Easting'],
+    ['false_easting', 'False easting'],
+    ['false-easting', 'Easting at false origin'],
     ['false_northing', 'False_Northing'],
+    ['false_northing', 'False northing'],
+    ['false_northing', 'Northing at false origin'],
     ['central_meridian', 'Central_Meridian'],
+    ['central_meridian', 'Longitude of natural origin'],
+    ['central_meridian', 'Longitude of false origin'],
     ['latitude_of_origin', 'Latitude_Of_Origin'],
     ['latitude_of_origin', 'Central_Parallel'],
+    ['latitude_of_origin', 'Latitude of natural origin'],
+    ['latitude_of_origin', 'Latitude of false origin'],
     ['scale_factor', 'Scale_Factor'],
     ['k0', 'scale_factor'],
     ['latitude_of_center', 'Latitude_Of_Center'],
@@ -150,22 +199,21 @@ function cleanWKT(wkt) {
     ['srsCode', 'name']
   ];
   list.forEach(renamer);
-  if (!wkt.long0 && wkt.longc && (wkt.projName === 'Albers_Conic_Equal_Area' || wkt.projName === 'Lambert_Azimuthal_Equal_Area')) {
-    wkt.long0 = wkt.longc;
-  }
-  if (!wkt.lat_ts && wkt.lat1 && (wkt.projName === 'Stereographic_South_Pole' || wkt.projName === 'Polar Stereographic (variant B)')) {
-    wkt.lat0 = d2r(wkt.lat1 > 0 ? 90 : -90);
-    wkt.lat_ts = wkt.lat1;
-  }
+  applyProjectionDefaults(wkt);
 }
 export default function(wkt) {
+  if (typeof wkt === 'object') {
+    return transformPROJJSON(wkt);
+  }
+  const version = detectWKTVersion(wkt);
   var lisp = parser(wkt);
-  var type = lisp.shift();
-  var name = lisp.shift();
-  lisp.unshift(['name', name]);
-  lisp.unshift(['type', type]);
+  if (version === 'WKT2') {
+    const projjson = buildPROJJSON(lisp);
+    return transformPROJJSON(projjson);
+  }
+  var type = lisp[0];
   var obj = {};
   sExpr(lisp, obj);
   cleanWKT(obj);
-  return obj;
+  return obj[type];
 }
