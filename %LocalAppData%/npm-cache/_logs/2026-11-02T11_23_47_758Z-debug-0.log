@@ -5,10 +5,10 @@
 4 silly config load:file:C:\dev\indikatoren\.npmrc
 5 silly config load:file:C:\Users\ssslib\.npmrc
 6 silly config load:file:c:\apps\nodejs\etc\npmrc
-7 verbose title npm run build:images
-8 verbose argv "run" "build:images"
-9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-10-27T15_29_44_493Z-
-10 verbose logfile C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-10-27T15_29_44_493Z-debug-0.log
+7 verbose title npm run build:save_checksums
+8 verbose argv "run" "build:save_checksums"
+9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-11-02T11_23_47_758Z-
+10 verbose logfile C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-11-02T11_23_47_758Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
 13 verbose cwd C:\dev\indikatoren
