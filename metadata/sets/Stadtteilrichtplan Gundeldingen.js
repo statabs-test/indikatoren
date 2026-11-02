@@ -82,7 +82,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Am Jahresende 2024 zählte der Lebensraum Gundeldingen 22 250 Einwohnerinnen und Einwohner. Dies sind 10,7% der Bevölkerung des Kantons Basel-Stadt.",
+		"lesehilfe": "Am Jahresende 2025 zählte der Lebensraum Gundeldingen 21 972 Einwohnerinnen und Einwohner. Dies sind 10,4% der Bevölkerung des Kantons Basel-Stadt.",
 		"erlaeuterungen": "Der Perimeter des Stadtteilrichtplans Gundeldingen (\"Lebensraum Gundeldingen\") umfasst im Unterschied zum statistischen Wohnviertel Gundeldingen zusätzlich das Dreispitzareal, die untersten zum Wohnviertel Gundeldingen hin orientierten Häuserreihen des Wohnviertels Bruderholz, das Gebiet um das Areal \"Am Walkeweg\" bis zum Güterbahnhof sowie die Gebäude südlich der Grosspeter- und Nauenstrasse bis und mit dem Postgebäude.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -119,7 +119,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigte",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2023 sind im Lebensraum Gundeldingen rund 25 500 Personen beschäftigt, was einem Rückgang um rund 800 Personen gegenüber dem Vorjahr entspricht. 12,8% der Beschäftigten im Kanton Basel-Stadt arbeiten im Lebensraum Gundeldingen.",
+		"lesehilfe": "Im Jahr 2024 sind im Lebensraum Gundeldingen rund 25 500 Personen beschäftigt, was etwa dem Vorjahreswert entspricht. 12,7% der Beschäftigten im Kanton Basel-Stadt arbeiten im Lebensraum Gundeldingen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. <br>Der Perimeter des Stadtteilrichtplans Gundeldingen (\"Lebensraum Gundeldingen\") umfasst im Unterschied zum statistischen Wohnviertel Gundeldingen zusätzlich das Dreispitzareal, die untersten zum Wohnviertel Gundeldingen hin orientierten Häuserreihen des Wohnviertels Bruderholz, das Gebiet um das Areal \"Am Walkeweg\" bis zum Güterbahnhof sowie die Gebäude südlich der Grosspeter- und Nauenstrasse bis und mit dem Postgebäude.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -156,8 +156,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr Fussverkehr",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 6 123 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
-		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
+		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 6 486 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "in Vollzeitäquivalenten, Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Die wichtigste Branche im Lebensraum Gundeldingen ist die Unternehmensverwaltung, -führung, -beratung\t mit 1 808 Vollzeitäquivalenten im Jahr 2023, gefolgt von den Branchen Baunebengewerbe (1513) und der Branche Landverkehr (1369).",
+		"lesehilfe": "Die wichtigste Branche im Lebensraum Gundeldingen ist die Unternehmensverwaltung, -führung, -beratung\t mit 2 071 Vollzeitäquivalenten im Jahr 2024, gefolgt von den Branchen Baunebengewerbe (1 538) und der Branche Landverkehr (1 420).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen). <br>Der Perimeter des Stadtteilrichtplans Gundeldingen (\"Lebensraum Gundeldingen\") umfasst im Unterschied zum statistischen Wohnviertel Gundeldingen zusätzlich das Dreispitzareal, die untersten zum Wohnviertel Gundeldingen hin orientierten Häuserreihen des Wohnviertels Bruderholz, das Gebiet um das Areal \"Am Walkeweg\" bis zum Güterbahnhof sowie die Gebäude südlich der Grosspeter- und Nauenstrasse bis und mit dem Postgebäude.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
