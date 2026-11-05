@@ -14,9 +14,9 @@
     }
   },
   series: [
-    {"color": "#68AB2B", index: 3, legendIndex: 0}, /**/
-    {"color": "#FABD24", index: 2, legendIndex: 1}, /**/
-    {"color": "#DC440E", index: 1, legendIndex: 2}, /**/
+    {"color": "#B6EDFA", index: 3, legendIndex: 0}, /**/
+    {"color": "#51b9da", index: 2, legendIndex: 1}, /**/
+    {"color": "#0E81A7", index: 1, legendIndex: 2}, /**/
     {"color": "#8A8A8A", index: 0, legendIndex: 3}, /**/
   ],
   chart: {

@@ -58,9 +58,9 @@
             center: [180,120],
           borderWidth: 2,
             colors: [
-            "#68AB2B",
-            "#FABD24",
-            "#DC440E",
+            "#B6EDFA",
+            "#51b9da",
+            "#0E81A7",
            "#8A8A8A",
            
            

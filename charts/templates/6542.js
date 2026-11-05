@@ -2,13 +2,13 @@
     return {
     series: [
         {
-            color: "rgb(237, 226, 208)",
+            color: "rgb(182, 237, 250)",
         },
         {
-            color: "rgb(197, 171, 146)",
+            color: "rgb(81, 185, 218)",
         },
-        {
-            color: "rgb(159, 124, 90)",
+        { 
+            color: "rgb(14, 129, 167)",
         },
         {
             color: "rgb(138, 138, 138)",
