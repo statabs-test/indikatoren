@@ -7,8 +7,8 @@
 6 silly config load:file:c:\apps\nodejs\etc\npmrc
 7 verbose title npm run build:database
 8 verbose argv "run" "build:database"
-9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-11-05T09_34_00_896Z-
-10 verbose logfile C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-11-05T09_34_00_896Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-11-06T13_30_06_863Z-
+10 verbose logfile C:\dev\indikatoren\%LocalAppData%\npm-cache\_logs\2026-11-06T13_30_06_863Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
 13 verbose cwd C:\dev\indikatoren
