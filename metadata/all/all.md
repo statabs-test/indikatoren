@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | true | true | 
+4374 | false |  | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
@@ -235,7 +235,7 @@ id | visible | visibleInPortal | indikatorenset
 4836 | true | true | Wohnviertel
 4837 | true | true | Wohnviertel
 4838 | true | true | Wohnviertel
-4839 | false |  | Wohnviertel
+4839 | true | true | Wohnviertel
 4848 | true | true | Gesellschaftlicher-Zusammenhalt
 4849 | true | true | Gesellschaftlicher-Zusammenhalt
 4850 | true | true | Gesellschaftlicher-Zusammenhalt
@@ -305,7 +305,7 @@ id | visible | visibleInPortal | indikatorenset
 5123 | true | false | Wohnviertel
 5124 | true | false | Wohnviertel
 5125 | true | false | Wohnviertel
-5126 | false |  | Wohnviertel
+5126 | true | false | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
 5138 | true | false | Nachhaltigkeit
@@ -624,7 +624,7 @@ id | visible | visibleInPortal | indikatorenset
 6371 | false |  | Legislaturplan-2017-2021 (Print)
 6372 | true | false | Legislaturplan-2017-2021 (Print)
 6373 | true | false | Gefragte Karten
-6374 | true | true | Gefragte Karten
+6374 | false |  | Gefragte Karten
 6375 | true | true | Gefragte Karten
 6376 | true | true | Gefragte Karten
 6377 | true | true | Gefragte Karten
@@ -632,18 +632,18 @@ id | visible | visibleInPortal | indikatorenset
 6379 | true | true | Gefragte Karten
 6380 | true | true | Gefragte Karten
 6381 | true | true | Gefragte Karten
-6382 | true | true | Gefragte Karten
+6382 | false |  | Gefragte Karten
 6383 | false |  | Gefragte Karten
 6384 | false |  | Gefragte Karten
 6385 | true | true | Gefragte Karten
-6386 | true | false | Gefragte Karten
+6386 | false |  | Gefragte Karten
 6387 | true | false | Gefragte Karten
 6388 | true | false | Gefragte Karten
 6389 | true | false | Gefragte Karten
 6390 | true | false | Gefragte Karten
 6391 | true | false | Gefragte Karten
 6392 | true | false | Gefragte Karten
-6394 | true | false | Gefragte Karten
+6394 | false |  | Gefragte Karten
 6395 | false |  | Gefragte Karten
 6396 | false |  | Gefragte Karten
 6398 | true | true | Integration
@@ -929,18 +929,18 @@ id | visible | visibleInPortal | indikatorenset
 6897 | true | true | Steuern
 6898 | true | true | Steuern
 6899 | true | true | Steuern
-6900 | true | true | Steuern
+6900 | false |  | Steuern
 6901 | true | true | Steuern
 6902 | true | true | Steuern
-6903 | true | true | Steuern
+6903 | false |  | Steuern
 6904 | true | true | Steuern
 6905 | true | true | Steuern
-6906 | true | true | Steuern
+6906 | false |  | Steuern
 6907 | true | true | Steuern
 6908 | true | true | Steuern
 6909 | true | true | Steuern
 6910 | true | true | Steuern
-6911 | true | true | Steuern
+6911 | false |  | Steuern
 6912 | true | true | Steuern
 6915 | true | true | Wohnviertel
 6916 | true | true | Wohnviertel
@@ -1003,7 +1003,7 @@ id | visible | visibleInPortal | indikatorenset
 6975 | true | true | Wohnviertel
 6976 | true | true | Wohnviertel
 6979 | true | true | 
-6980 | true | true | Steuern
+6980 | false |  | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern
 6983 | true | true | Steuern
@@ -1107,10 +1107,10 @@ id | visible | visibleInPortal | indikatorenset
 7462 | false |  | Arbeitsmarkt
 7463 | false |  | Arbeitsmarkt
 7464 | false |  | Arbeitsmarkt
-7465 | false |  | Arbeitsmarkt
-7466 | false |  | Arbeitsmarkt
-7467 | false |  | Arbeitsmarkt
-7468 | false |  | Arbeitsmarkt
+7465 | true | false | Arbeitsmarkt
+7466 | true | false | Arbeitsmarkt
+7467 | true | false | Arbeitsmarkt
+7468 | true | false | Arbeitsmarkt
 7469 | false |  | Arbeitsmarkt
 7470 | false |  | Arbeitsmarkt
 7471 | false |  | Arbeitsmarkt
@@ -1257,8 +1257,8 @@ id | visible | visibleInPortal | indikatorenset
 7742 | true | true | Bevoelkerungsszenarien
 7743 | true | true | Bevoelkerungsszenarien
 7744 | true | true | Bevoelkerungsszenarien
-7745 | true | false | 
-7746 | true | false | 
+7745 | false |  | 
+7746 | false |  | 
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
@@ -1790,7 +1790,7 @@ id | visible | visibleInPortal | indikatorenset
 8701 | true | false | Arbeitsmarkt (Print)
 8702 | true | false | Arbeitsmarkt (Print)
 8703 | true | false | Arbeitsmarkt (Print)
-8704 | false |  | Arbeitsmarkt (Print)
+8704 | true | false | Arbeitsmarkt (Print)
 8705 | false |  | Arbeitsmarkt (Print)
 8706 | false |  | Arbeitsmarkt (Print)
 8707 | false |  | Arbeitsmarkt (Print)
@@ -2008,6 +2008,7 @@ id | visible | visibleInPortal | indikatorenset
 9197 | true | true | City-Statistics
 9199 | true | true | City-Statistics
 9200 | true | true | City-Statistics
+9201 | false |  | City-Statistics
 9203 | true | false | City-Statistics (Print)
 9204 | true | false | City-Statistics (Print)
 9205 | true | false | City-Statistics (Print)
@@ -2102,9 +2103,9 @@ id | visible | visibleInPortal | indikatorenset
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
-9406 | true | true | City-Statistics
+9406 | false |  | City-Statistics
 9407 | true | true | City-Statistics
-9409 | true | true | City-Statistics
+9409 | false |  | City-Statistics
 9410 | true | true | City-Statistics
 9411 | true | true | City-Statistics
 9418 | true | false | Legislaturplan (Print)
@@ -2293,7 +2294,6 @@ id | visible | visibleInPortal | indikatorenset
 9937 | true | true | Energiestatistik
 9938 | true | true | Energiestatistik
 9939 | true | true | Energiestatistik
-9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
@@ -2322,7 +2322,7 @@ id | visible | visibleInPortal | indikatorenset
 10049 | true | false | CMS Kennzahlen
 10050 | true | false | CMS Kennzahlen Soziales
 10051 | true | false | CMS Kennzahlen Soziales
-10052 | true | false | CMS Kennzahlen Soziales
+10052 | true | false | CMS Kennzahlen
 10054 | true | false | CMS Kennzahlen Soziales
 10263 | true | false | CMS Kennzahlen Soziales
 10264 | true | false | CMS Kennzahlen Soziales
@@ -2459,8 +2459,10 @@ id | visible | visibleInPortal | indikatorenset
 12719 | true | true | Stadtteilmonitoring St. Johann
 12720 | true | true | Stadtteilmonitoring St. Johann
 12721 | true | true | Stadtteilmonitoring St. Johann
-12722 | true | false | 
+12722 | true | true | 
 12727 | true | true | Gesundheitsversorgung
+12728 | true | true | Gesundheitsversorgung
+12729 | true | true | Gesundheitsversorgung
 12730 | true | true | Gesundheitsversorgung
 12732 | true | true | Gesundheitsversorgung
 12733 | true | true | Gesundheitsversorgung
@@ -2482,7 +2484,7 @@ id | visible | visibleInPortal | indikatorenset
 22297 | true | true | Wohnraumschutz
 22298 | true | true | Wohnraumschutz
 22299 | true | false | Wohnraumschutz
-22300 | true | true | Wohnraumschutz
+22300 | true | false | Wohnraumschutz
 22301 | true | true | Wohnraumschutz
 22305 | true | false | Richtplan (Print)
 22306 | true | false | Richtplan (Print)
@@ -2508,6 +2510,9 @@ id | visible | visibleInPortal | indikatorenset
 22344 | true | true | Umwelt
 22354 | true | true | Stadtteilrichtplan Gundeldingen
 22355 | true | true | Stadtteilrichtplan Gundeldingen
+22357 | true | true | Steuern
+22358 | true | true | Steuern
+22359 | true | true | Steuern
 22372 | true | true | Stadtteilrichtplan Gundeldingen
 22373 | true | true | Stadtteilrichtplan Gundeldingen
 22374 | true | true | Stadtteilrichtplan Gundeldingen
@@ -2519,3 +2524,40 @@ id | visible | visibleInPortal | indikatorenset
 22381 | true | true | Stadtteilrichtplan Gundeldingen
 22382 | true | true | Stadtteilrichtplan Gundeldingen
 22383 | true | true | Stadtteilrichtplan Gundeldingen
+22408 | true | true | Stadtklimakonzept
+22409 | true | true | Stadtklimakonzept
+22410 | true | true | Stadtklimakonzept
+22411 | true | true | Stadtklimakonzept
+22412 | true | false | Stadtklimakonzept
+22413 | true | true | Stadtklimakonzept
+22414 | true | false | Stadtklimakonzept
+22415 | true | false | Stadtklimakonzept
+22417 | true | true | Stadtklimakonzept
+22418 | true | true | Stadtklimakonzept
+22419 | true | true | Stadtklimakonzept
+22420 | true | true | Stadtklimakonzept
+22421 | true | true | Steuern
+22422 | true | true | Steuern
+22423 | true | true | Steuern
+22424 | true | true | Steuern
+22425 | true | true | Steuern
+22432 | true | true | Gesundheitsversorgung
+22433 | true | true | Gesundheitsversorgung
+22434 | true | true | Gesundheitsversorgung
+22435 | true | true | Gesundheitsversorgung
+22436 | true | true | Gesundheitsversorgung
+22455 | true | false | Richtplan
+22456 | true | false | Richtplan
+22457 | true | false | Richtplan
+22458 | true | false | Richtplan
+22459 | true | false | Richtplan
+22460 | true | false | Richtplan
+22461 | true | true | Richtplan
+22462 | true | false | Richtplan (Print)
+22463 | true | false | Richtplan (Print)
+22464 | true | false | Richtplan (Print)
+22465 | true | false | Richtplan (Print)
+22466 | true | false | Richtplan (Print)
+22467 | true | false | Richtplan (Print)
+22468 | true | false | Richtplan (Print)
+22540 | true | true | 

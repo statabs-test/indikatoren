@@ -8,6 +8,179 @@ global templatesById
 
 "use strict";
 
+/*
+global $
+global dataLayer
+global Highcharts
+global indikatoren
+global templatesById
+*/
+
+"use strict";
+
+// ✅ Set global font for all Highcharts
+Highcharts.setOptions({
+  chart: {
+    // Since Highcharts 11.1 mouse wheel zoom is on by default when zoomType is set;
+    // it hijacks page/lightbox scrolling. Drag-to-zoom stays enabled.
+    zooming: {
+      mouseWheel: { enabled: false },
+    },
+    style: {
+      fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+    },
+  },
+  legend: {
+    itemStyle: {
+      fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+    },
+  },
+  tooltip: {
+    // Titles/subtitles are rendered with useHTML (see Chart.init wrapper below),
+    // so they would cover an SVG tooltip. Render the tooltip outside the chart SVG.
+    outside: true,
+    style: {
+      fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+      // The outside tooltip is appended to <body>; keep it above the lightbox (z-50).
+      zIndex: 60,
+    },
+  },
+});
+
+// HC12 Compatibility: Highcharts.each wurde entfernt, einige Chart-Templates
+// (v.a. mappie-Templates) rufen es noch auf.
+if (!Highcharts.each) {
+  Highcharts.each = function (arr, fn) {
+    arr.forEach(fn);
+  };
+}
+
+// HC12 Compatibility: series.yData wurde durch series.getColumn('y') ersetzt.
+// Viele Chart-Templates greifen noch direkt auf series.yData zu.
+if (
+  Highcharts.Series &&
+  !Object.getOwnPropertyDescriptor(Highcharts.Series.prototype, "yData")
+) {
+  Object.defineProperty(Highcharts.Series.prototype, "yData", {
+    get: function () {
+      return this.dataTable && this.getColumn ? this.getColumn("y") : [];
+    },
+    set: function () {}, // HC12 setzt yData intern – ignorieren
+    configurable: true,
+  });
+}
+
+// HC12 Compatibility: series.xData wurde durch series.getColumn('x') ersetzt.
+if (
+  Highcharts.Series &&
+  !Object.getOwnPropertyDescriptor(Highcharts.Series.prototype, "xData")
+) {
+  Object.defineProperty(Highcharts.Series.prototype, "xData", {
+    get: function () {
+      return this.dataTable && this.getColumn ? this.getColumn("x") : [];
+    },
+    set: function () {}, // HC12 setzt xData intern – ignorieren
+    configurable: true,
+  });
+}
+
+// Multi-line credits (sources + "Zuletzt geändert") can run into the x-axis
+// labels when a chart template hardcodes chart.marginBottom (e.g. 6052): the
+// extra spacingBottom added for each credits line has no effect then.
+// After loading, enlarge the bottom margin by the measured overlap, if any.
+Highcharts.addEvent(Highcharts.Chart, "load", function () {
+  var chart = this;
+  if (!chart.credits || !chart.credits.element) return;
+  var creditsRect = chart.credits.element.getBoundingClientRect();
+  if (!creditsRect.height) return;
+  var overlap = 0;
+  chart.xAxis.forEach(function (axis) {
+    Object.keys(axis.ticks).forEach(function (key) {
+      var label = axis.ticks[key].label;
+      if (!label || !label.element) return;
+      var r = label.element.getBoundingClientRect();
+      var overlapsHorizontally =
+        r.width && r.right > creditsRect.left && r.left < creditsRect.right;
+      if (overlapsHorizontally && r.bottom > creditsRect.top) {
+        overlap = Math.max(overlap, r.bottom - creditsRect.top + 4);
+      }
+    });
+  });
+  if (overlap > 0) {
+    var currentMarginBottom = chart.chartHeight - chart.plotTop - chart.plotHeight;
+    chart.update({ chart: { marginBottom: currentMarginBottom + overlap } });
+  }
+});
+
+// HC12 Compatibility: axis.names kann undefined sein (z.B. in Navigator-Achsen)
+// Sicherstellt, dass axis.names immer ein Array ist, damit Formatter nicht crashen.
+Highcharts.addEvent(Highcharts.Axis, "afterInit", function () {
+  if (!this.names) {
+    this.names = [];
+  }
+});
+
+// HC12 Compatibility: Tick-Label-Formatter können crashen wenn names[i] undefined ist
+// (z.B. this.chart.xAxis[0].names[this.value].slice(0,4) bevor Namen befüllt sind).
+// Globaler Schutz: Tick.addLabel mit try/catch umhüllen; Fallback: leerer Label-Text.
+if (Highcharts.Tick && Highcharts.Tick.prototype && Highcharts.Tick.prototype.addLabel) {
+  Highcharts.wrap(Highcharts.Tick.prototype, "addLabel", function (proceed) {
+    try {
+      return proceed.apply(this, Array.prototype.slice.call(arguments, 1));
+    } catch (e) {
+      // Formatter crashed – Tick ohne Label-Text rendern
+    }
+  });
+}
+
+Highcharts.wrap(
+  Highcharts.Chart.prototype,
+  "init",
+  function (proceed, userOptions, callback) {
+    if (userOptions.title) {
+      userOptions.title.useHTML = true;
+      if (
+        userOptions.title.text &&
+        !userOptions.title.text.includes("class=")
+      ) {
+        userOptions.title.text = `<h2 class="text-xl font-bold text-gray-800">${userOptions.title.text}</h2>`;
+      }
+    }
+
+    if (userOptions.subtitle) {
+      userOptions.subtitle.useHTML = true;
+      if (
+        userOptions.subtitle.text &&
+        !userOptions.subtitle.text.includes("class=")
+      ) {
+        userOptions.subtitle.text = `<p class="text-sm text-black">${userOptions.subtitle.text}</p>`;
+      }
+    }
+
+    proceed.call(this, userOptions, callback);
+  },
+);
+
+//parse csv and configure HighCharts object
+function parseData(chartOptions, data, completeHandler) {
+  try {
+    //create data options, guess delimiter
+    var dataOptions = Highcharts.merge(chartOptions.data, {
+      csv: data,
+      itemDelimiter: data.indexOf("\t") !== -1 ? "\t" : ",",
+    });
+
+    //delete data node in chartOptions after merging into dataOptions
+    delete chartOptions.data;
+
+    //dataOptions.sort = true;
+    dataOptions.complete = completeHandler;
+    Highcharts.data(dataOptions, chartOptions);
+  } catch (error) {
+    completeHandler(undefined);
+  }
+}
+
 //parse csv and configure HighCharts object
 function parseData(chartOptions, data, completeHandler) {
   try {
@@ -36,7 +209,7 @@ function createChartConfig(
   chartMetaData,
   view,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   //add custom filter to chart options if present in metadata
   if (chartMetaData["filter"]) {
@@ -54,7 +227,7 @@ function createChartConfig(
       chartOptions.series.forEach(function (series, i) {
         chartOptions.series[i] = Highcharts.merge(
           series,
-          dataOptions.series[i]
+          dataOptions.series[i],
         );
       });
     }
@@ -65,7 +238,7 @@ function createChartConfig(
       options,
       chartMetaData,
       view,
-      suppressNumberInTitle
+      suppressNumberInTitle,
     );
     //replace . in labels with spaces - necessary for space between column groups
     var replacedOptions = createEmptyLabels(injectedOptions);
@@ -73,7 +246,7 @@ function createChartConfig(
     var beforeSeriesOptions = replacedOptions;
     if (beforeSeriesOptions.beforeSeries) {
       beforeSeriesOptions.series = replacedOptions.beforeSeries.concat(
-        replacedOptions.series
+        replacedOptions.series,
       );
     }
     delete beforeSeriesOptions.beforeSeries;
@@ -82,7 +255,7 @@ function createChartConfig(
     var afterSeriesOptions = beforeSeriesOptions;
     if (afterSeriesOptions.afterSeries) {
       afterSeriesOptions.series = beforeSeriesOptions.series.concat(
-        beforeSeriesOptions.afterSeries
+        beforeSeriesOptions.afterSeries,
       );
     }
     delete afterSeriesOptions.afterSeries;
@@ -99,7 +272,7 @@ function drawChartFromData(
   chartMetaData,
   view,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   createChartConfig(
     data,
@@ -113,10 +286,10 @@ function drawChartFromData(
       var constr = options.isStock
         ? "StockChart"
         : options.chart.type === "map"
-        ? "Map"
-        : "Chart";
+          ? "Map"
+          : "Chart";
       return new Highcharts[constr](options, callbackFn);
-    }
+    },
   );
 }
 
@@ -130,20 +303,20 @@ function drawChartFromJson(
   indikatorensetView,
   chartMetaData,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   loadChartConfig(id, indikatorensetView, function (options) {
     //decide if stockchart, map, or chart
     var constr = options.isStock
       ? "StockChart"
       : options.chart.type === "map"
-      ? "Map"
-      : "Chart";
+        ? "Map"
+        : "Chart";
     var injectedOptions = injectMetadataToChartConfig(
       options,
       chartMetaData,
       indikatorensetView,
-      suppressNumberInTitle
+      suppressNumberInTitle,
     );
     return new Highcharts[constr](injectedOptions, callbackFn);
   });
@@ -166,7 +339,7 @@ function injectMetadataToChartConfig(
   options,
   data,
   view,
-  suppressNumberInTitle
+  suppressNumberInTitle,
 ) {
   var chartNumber = isIndikatorensetView(view)
     ? data.kuerzelKunde
@@ -224,6 +397,315 @@ function injectMetadataToChartConfig(
     //options['chart']["height"] = 415;
     delete options.exporting.buttons;
   }
+  // for print, keep the width the template already defines (e.g. 320 for
+  // bar charts, 992 for maps) instead of forcing one fixed value on every
+  // chart type; other views stay responsive to their container as before.
+  if (view != "print") {
+    options["chart"]["width"] = null;
+  }
+
+  // Remove hardcoded legend dimensions — these were set for the old fixed
+  // 485px width and cause text truncation at responsive (wider) sizes.
+  // Exception: map charts with colorAxis use itemWidth to control vertical layout.
+  // Maps are detected via colorAxis (chart.type is not always set for map charts)
+  var isMap = !!options["colorAxis"];
+  if (options["legend"] && !isMap) {
+    if (!options["legend"]["width"]) delete options["legend"]["width"];
+    if (!options["legend"]["itemWidth"]) delete options["legend"]["itemWidth"];
+  }
+
+  // On narrow screens the floating map legend covers the map: move it below
+  // the map and make the chart taller to make room for it.
+  // Templates without manually drawn pie legends: let Highcharts lay out the
+  // legend below the map.
+  var mapTemplatesWithMobileLegend = [
+    "map001",
+    "map002",
+    "map_gemeinden",
+    "map_gundeldingen_bloecke",
+  ];
+  if (
+    view != "print" &&
+    mapTemplatesWithMobileLegend.indexOf(data.template) !== -1 &&
+    !options["responsive"]
+  ) {
+    options["responsive"] = {
+      rules: [
+        {
+          condition: { maxWidth: 500 },
+          chartOptions: {
+            chart: { height: "140%" },
+            legend: {
+              floating: false,
+              layout: "horizontal",
+              align: "center",
+              verticalAlign: "bottom",
+              x: 0,
+              // keep the legend above the credits (source lines), which are
+              // positioned from the chart bottom with credits.position.y
+              y: options["credits"]["position"]["y"] - 10,
+              // template item widths stack items vertically on narrow screens
+              width: null,
+              itemWidth: null,
+              // tells the single-column render hook below to keep this layout
+              custom: { isMobileLegendBelowMap: true },
+            },
+          },
+        },
+      ],
+    };
+  }
+
+  // Templates with manually drawn pie legends (absolute coordinates): only make
+  // the chart taller. The pie legend load hook below then moves the whole legend
+  // block (Highcharts legend + drawn elements, both anchored bottom right) down
+  // and reserves space for it below the map.
+  // mappieGemeindenBSBL is excluded: its legend sits at the top of the chart.
+  var mappieTemplatesWithMobileLegend = ["mappie001", "mappie002"];
+  if (
+    view != "print" &&
+    mappieTemplatesWithMobileLegend.indexOf(data.template) !== -1 &&
+    !options["responsive"]
+  ) {
+    options["responsive"] = {
+      rules: [
+        {
+          condition: { maxWidth: 500 },
+          chartOptions: {
+            chart: {
+              height: "140%",
+              custom: {
+                mobilePieLegendDesktopHeight: parseInt(options["chart"]["height"], 10),
+              },
+            },
+          },
+        },
+      ],
+    };
+  }
+
+  // Map zoom buttons do not work on touch devices: hide them on narrow screens.
+  if (view != "print" && isMap) {
+    options["responsive"] = options["responsive"] || { rules: [] };
+    options["responsive"]["rules"].push({
+      condition: { maxWidth: 500 },
+      chartOptions: { mapNavigation: { enableButtons: false } },
+    });
+  }
+
+  // If subtitle has text and marginTop is hardcoded, remove it so Highcharts
+  // calculates the correct spacing automatically (prevents subtitle overlap).
+  // StockCharts are most affected because rangeSelector/navigator add extra elements.
+  if (options["subtitle"] && options["subtitle"]["text"] && options["chart"]["marginTop"]) {
+    delete options["chart"]["marginTop"];
+  }
+
+  // Wrap the chart load event to reposition manually-drawn pieLegend elements.
+  // These were positioned for the old fixed 485px width; we shift them so they
+  // stay right-aligned at the actual chart width.
+  // Store the previous load handler (if any) as a sibling property instead of
+  // capturing it in a closure variable: serialize-javascript (used by
+  // build/createChartConfigs.js) only serializes a function's own source text, so a
+  // reference to an outer-scope variable like "originalLoad" survives the round-trip
+  // as dead text and throws "originalLoad is not defined" once the config is
+  // deserialized in a fresh context (e.g. during highcharts-export-server rendering) -
+  // silently skipping the original handler (e.g. a spider chart's background arcs).
+  if (options["chart"]["events"] && options["chart"]["events"]["load"]) {
+    options["chart"]["events"]["loadBase"] = options["chart"]["events"]["load"];
+  }
+  if (options["chart"]["events"] && options["chart"]["events"]["loadBase"]) {
+    options["chart"]["events"]["load"] = function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      // Mobile: chart is taller than the template height (see responsive rule
+      // for mappie templates above); move the drawn legend down by the same amount
+      // so it stays aligned with the bottom-anchored Highcharts legend.
+      var mobileCustom = chart.options.chart.custom;
+      var shiftY =
+        mobileCustom && mobileCustom.mobilePieLegendDesktopHeight
+          ? chart.chartHeight - mobileCustom.mobilePieLegendDesktopHeight
+          : 0;
+      if (shift === 0 && shiftY === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      var drawnLegendElements = Array.from(svg.querySelectorAll(sel));
+      var moveDrawnLegend = function (dx, dy) {
+        drawnLegendElements.forEach(function (el) {
+          var tag = el.tagName.toLowerCase();
+          if (tag === "rect") {
+            el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + dx);
+            el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + dy);
+          } else if (tag === "circle") {
+            el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + dx);
+            el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + dy);
+          } else if (tag === "g") {
+            var t = el.getAttribute("transform") || "";
+            el.setAttribute(
+              "transform",
+              t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+                return (
+                  "translate(" +
+                  (parseFloat(x) + dx) +
+                  "," +
+                  ((parseFloat(y) || 0) + dy) +
+                  ")"
+                );
+              }),
+            );
+          }
+        });
+      };
+      moveDrawnLegend(shift, shiftY);
+      if (!drawnLegendElements.length || !chart.legend.group) return;
+
+      var legendUpdate = {};
+      // The drawn legend is shifted as if right-aligned. A Highcharts legend
+      // anchored left (x designed for the 485px template width) must follow it,
+      // otherwise both legends drift apart (e.g. 8281, 8285).
+      var legendDx = 0;
+      if (chart.legend.options.align === "left" && shift !== 0) {
+        legendDx = shift;
+        legendUpdate.x = chart.legend.options.x + shift;
+      }
+
+      // Drawn legend titles use fixed y positions; with the current fonts their
+      // second line can run into the first Highcharts legend item (e.g. 8281,
+      // 8285). Move all drawn titles up together until they clear the legend.
+      var legendRect = chart.legend.group.element.getBoundingClientRect();
+      var legendLeft = legendRect.left + legendDx;
+      var legendRight = legendRect.right + legendDx;
+      var titleOverlap = 0;
+      var titleElements = drawnLegendElements.filter(function (el) {
+        return el.classList.contains("pieLegendTitle");
+      });
+      titleElements.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        var overlapsHorizontally = r.right > legendLeft && r.left < legendRight;
+        if (overlapsHorizontally && r.top < legendRect.top) {
+          titleOverlap = Math.max(titleOverlap, r.bottom - legendRect.top + 4);
+        }
+      });
+      if (titleOverlap > 0) {
+        titleElements.forEach(function (el) {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+              return "translate(" + x + "," + ((parseFloat(y) || 0) - titleOverlap) + ")";
+            }),
+          );
+        });
+      }
+      if (shiftY === 0) {
+        if (legendUpdate.x !== undefined) chart.update({ legend: legendUpdate });
+        return;
+      }
+
+      // Mobile: keep the legend block above the credits (source lines), which
+      // may wrap into more lines on narrow screens.
+      var containerTop = chart.container.getBoundingClientRect().top;
+      var blockElements = [chart.legend.group.element].concat(drawnLegendElements);
+      var blockRects = blockElements.map(function (el) {
+        return el.getBoundingClientRect();
+      });
+      var blockBottom =
+        Math.max.apply(null, blockRects.map(function (r) { return r.bottom; })) -
+        containerTop;
+      var creditsTop =
+        chart.credits && chart.credits.element
+          ? chart.credits.element.getBoundingClientRect().top - containerTop
+          : chart.chartHeight;
+      var moveUp = Math.max(0, blockBottom - creditsTop + 5);
+      if (moveUp > 0) {
+        moveDrawnLegend(0, -moveUp);
+        legendUpdate.y = chart.legend.options.y - moveUp;
+      }
+      // Reserve space below the map for the legend block, so the map no longer
+      // extends underneath it.
+      var blockTop =
+        Math.min.apply(null, blockRects.map(function (r) { return r.top; })) -
+        containerTop -
+        moveUp;
+      chart.update({
+        legend: legendUpdate,
+        chart: { marginBottom: chart.chartHeight - blockTop + 10 },
+      });
+    };
+  }
+
+  // For colorAxis (map) charts: force single-column legend by repositioning
+  // items after render. Highcharts Maps ignores layout:"vertical" for colorAxis.
+  if (isMap) {
+    options["chart"]["events"] = options["chart"]["events"] || {};
+    // Store the previous render handler (if any) as a sibling property instead of
+    // capturing it in a closure variable: serialize-javascript (used by
+    // build/createChartConfigs.js) only serializes a function's own source text, so a
+    // reference to an outer-scope variable like "originalRender" survives the round-trip
+    // as dead text and throws "originalRender is not defined" once the config is
+    // deserialized in a fresh context (e.g. during highcharts-export-server rendering).
+    // Keeping it on options.chart.events.renderBase makes it part of the serialized
+    // object tree, so it's reachable via `this.options` at runtime in any context.
+    if (options["chart"]["events"]["render"]) {
+      options["chart"]["events"]["renderBase"] =
+        options["chart"]["events"]["render"];
+    }
+    options["chart"]["events"]["render"] = function () {
+      var originalRender =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.renderBase
+          : null;
+      if (originalRender) originalRender.call(this);
+      var chart = this;
+      var legendCustom = chart.legend && chart.legend.options.custom;
+      if (legendCustom && legendCustom.isMobileLegendBelowMap) return;
+      var items = Array.from(
+        chart.container.querySelectorAll(".highcharts-legend-item"),
+      );
+      if (items.length < 2) return;
+      var lineHeight = 15;
+      var itemMargin = 8;
+      var baseY = parseFloat(
+        (items[0].getAttribute("transform") || "").match(
+          /translate\([^,]+,([^)]+)\)/,
+        )?.[1] || 3,
+      );
+      var currentY = baseY;
+      items.forEach(function (el) {
+        var t = el.getAttribute("transform") || "";
+        el.setAttribute(
+          "transform",
+          t.replace(
+            /translate\([^,]+,[^)]+\)/,
+            "translate(8," + currentY + ")",
+          ),
+        );
+        // Zeilenanzahl aus tspan[dy]-Elementen ableiten → echte Itemhöhe
+        var textEl = el.querySelector("text");
+        var lines = textEl
+          ? 1 + textEl.querySelectorAll("tspan[dy]").length
+          : 1;
+        currentY += Math.max(lines * lineHeight, 20) + itemMargin;
+      });
+    };
+  }
+
   return options;
 }
 
@@ -256,7 +738,7 @@ function renderChart(
   chartMetaData,
   indikatorensetView,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   //Umwelt data are rendered directly from json, not from csv + json files
   if (
@@ -271,32 +753,30 @@ function renderChart(
       $.getScript(chartUrl),
       $.Deferred(function (deferred) {
         $(deferred.resolve);
-      })
+      }),
     )
-      .done(function (
-        /*optionsReturnData, */ templateReturnData,
-        chartReturnData
-      ) {
-        //get returned script, evaluate it, save returned object to variable.
-        //var globalOptions = eval(optionsReturnData[0]);
-        var chartOptions = eval(chartReturnData[0]);
-        var template = eval(templateReturnData[0]);
-
-        //load csv and draw chart
-        $.get(csvUrl, function (data) {
-          //remove quotes from data
-          var dataWithoutQuotes = data.replace(/"/g, "");
-          drawChartFromData(
-            dataWithoutQuotes,
-            chartOptions,
-            template,
-            chartMetaData,
-            indikatorensetView,
-            suppressNumberInTitle,
-            callbackFn
-          );
-        });
-      })
+      .done(
+        function (/*optionsReturnData, */ templateReturnData, chartReturnData) {
+          //get returned script, evaluate it, save returned object to variable.
+          //var globalOptions = eval(optionsReturnData[0]);
+          var chartOptions = eval(chartReturnData[0]);
+          var template = eval(templateReturnData[0]);
+          //load csv and draw chart
+          $.get(csvUrl, function (data) {
+            //remove quotes from data
+            var dataWithoutQuotes = data.replace(/"/g, "");
+            drawChartFromData(
+              dataWithoutQuotes,
+              chartOptions,
+              template,
+              chartMetaData,
+              indikatorensetView,
+              suppressNumberInTitle,
+              callbackFn,
+            );
+          });
+        },
+      )
       .fail(function (jqXHR, textStatus, errorThrown) {
         console.log("$.getScript() failed! ");
         console.log(textStatus);
@@ -308,7 +788,7 @@ function renderChart(
       indikatorensetView,
       chartMetaData,
       suppressNumberInTitle,
-      callbackFn
+      callbackFn,
     );
   }
 }
@@ -371,7 +851,7 @@ function lazyRenderChartById(
   chartMetaData,
   view,
   suppressNumberInTitle,
-  callbackFn
+  callbackFn,
 ) {
   //fire GTM event
   //dataLayer.push({'event': 'LazyRenderChart', 'chartId': id, 'view': view});
@@ -399,7 +879,7 @@ function lazyRenderChartById(
     chartMetaData,
     view,
     suppressNumberInTitle,
-    callbackFn
+    callbackFn,
   );
 }
 
@@ -419,7 +899,6 @@ function exportThumbnail(id, exportType, offline, exportServer, filename) {
   filename = filename || id;
   filename = filename.toString();
   var chart = $(escapeCssChars("#container-" + id)).highcharts();
-  console.log(chart);
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
   //change scale and background color for png
@@ -456,9 +935,10 @@ function renderLinksHTML(
   stufe1,
   renderLinkDisplayMode,
   hideLinks,
-  hideLinksTitle
+  hideLinksTitle,
 ) {
   var returnText = "";
+  hideLinksTitle = true;
   var displayLinkToIndikatorenset = kennzahlenset;
   //renderLink: Link to different view of same data
   var displayRenderLink =
@@ -476,30 +956,19 @@ function renderLinksHTML(
         <div id='links'" +
       (hideLinks ? "class='hidden'" : "") +
       "> \
-          <div><h1 id='linksTitle' " +
-      (hideLinksTitle ? "class='hidden'" : "") +
+          <div><h3 id='linksTitle' " +
+      (hideLinksTitle ? "class='hidden'" : "class='font-bold'") +
       ">Links</h1></div> \
           <div class='lesehilfe'> \
-            <ul class='list-unstyled'>\
         ";
     //Only display Link to Indikatorenset if not already in Indikatorenset View
     if (displayLinkToIndikatorenset) {
       returnText +=
-        "<li><img src='assets/img/icon-link.png' class='link-icon'/>Indikatorenset: <a href='http://www.statistik.bs.ch/indikatorenset/" +
+        "<div class='flex'><div class='text-sm w-[110px] shrink-0'>Indikatorenset:</div><div class='ml-2'><a class='' href='http://www.statistik.bs.ch/indikatorenset/" +
         kennzahlenset.toLowerCase().replace(" ", "-") +
         "' target='_blank'>" +
         kennzahlenset.replace("-", " ") +
-        "</a>";
-      //in indikatorenset View, add the stufe1 text here
-      if (isIndikatorensetView(view) && stufe1) {
-        //returnText += ", " + stufe1;
-      }
-      //if do not add a dot at the ned if there's already one present
-      var lastChar = returnText[returnText.length - 1];
-      if (lastChar != ".") {
-        returnText += ".";
-      }
-      returnText += "</li>";
+        "</a></div></div>";
     }
     if (displayRenderLink) {
       if (
@@ -508,30 +977,35 @@ function renderLinksHTML(
       ) {
         //we're in carousel mode, slide to other chart
         returnText +=
-          "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='javascript:javascript:slideToLinkedChart(" +
+          "<div class='mt-30'><a class='' href='javascript:javascript:slideToLinkedChart(" +
           renderLink[0] +
           ", window.FJS, " +
           isIndikatorensetView(view) +
-          ")'>Andere Darstellungsform</a> dieser Daten.</li>";
+          ")'>Andere Darstellungsform</a> dieser Daten.</div>";
       } else {
         //we're in chart-detail.html, open link to other chart
         returnText +=
-          "<li><img src='assets/img/icon-link.png' class='link-icon'/><a href='chart-details.html?id=" +
+          "<div class='mt-30'><a class='' href='chart-details.html?id=" +
           renderLink[0] +
-          "'>Andere Darstellungsform</a> dieser Daten.</li>";
+          "'>Andere Darstellungsform</a> dieser Daten.</div>";
       }
     }
     if (displayExternalLinks) {
+      returnText +=
+        "<div class='flex'><div class='w-[110px] shrink-0'>Weitere Links:</div><div class='ml-2 flex flex-col'>";
       externalLinks.forEach(function (v, i, arr) {
-        returnText +=
-          "<li><img src='assets/img/icon-link.png' class='link-icon'/>" +
-          v +
-          "</li>";
+        // Add class to <a> tag if it exists
+        const updatedLink = v.replace(
+          /<a\s+(?![^>]*\bclass=)[^>]*?/i,
+          (match) => match + "class='' ",
+        );
+
+        returnText += "<div>" + updatedLink + "</div>";
       });
+      returnText += "</div></div>";
     }
     returnText +=
       " \
-            </ul> \
           </div> \
         </div> \
         ";

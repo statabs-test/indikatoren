@@ -6,7 +6,7 @@
     "height": "415",
     "spacingBottom": 50,
     "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "backgroundColor": "#ffffff",
     "zoomType": "x",
     "panning": true,
     "panKey": "shift",
@@ -80,10 +80,10 @@
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
+									align: 'right',
 									verticalAlign: 'bottom',
 									x: 0,
-									y: 100
+									y: 41
 								}), null, 'spacingBox');
 								
 								/*add tooltip to legend items
@@ -117,7 +117,7 @@
     }
   },
   "title": {
-    "text": "Bauabfälle",
+    "text": "Inertstoffe",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -184,10 +184,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 18,
+    "ceiling": 19,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -416,7 +417,8 @@
         889621,
         508490,
         391666,
-        337486
+        337486,
+        396995
       ],
       "visible": true
     }

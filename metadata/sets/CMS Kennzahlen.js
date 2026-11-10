@@ -44,9 +44,9 @@ var indikatorensetData = [
 		"parentId": "6215",
 		"children": [],
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2025",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 207 515 am Ende des Jahres 2024 um 9,5% auf rund 227 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2025. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2026",
+		"lesehilfe": "Im mittleren Szenario wächst die Wohnbevölkerung von 211 000 Personen per Ende 2025 auf rund 233 000 Personen im Jahr 2050. Das entspricht einem Anstieg um 10,5%.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2026. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
@@ -72,7 +72,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-06T07:44:19",
+		"aktualisierungsdatum": "2026-07-17T11:52:57",
 		"id": 10041
 	},
 	{
@@ -84,7 +84,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Tropennächte",
 		"subtitle": "Anzahl Nächte, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 wurden an der Messstation St. Johann im Stadtzentrum von Basel 23 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 2 Tropennächte verzeichnet wurden.",
+		"lesehilfe": "Im Jahr 2025 wurden an der Messstation St. Johann im Stadtzentrum von Basel 16 Tropennächte registriert, während an der vorstädtischen Station Basel-Binningen nur 6 Tropennächte verzeichnet wurden.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Die Temperaturmessungen erfolgen an verschiedenen Messstationen in der Region Basel. Gewisse Abweichungen zu den validierten MeteoSchweiz-Daten aufgrund unterschiedlicher Methodik sind möglich. Infolge der unterschiedlichen Lagen der Messstationen ist auch die Anzahl Tropennächte verschieden stark ausgeprägt. Im innenstädtischen Umfeld mit schlechter Durchlüftung und dichter Bebauung ist die thermische Belastung nachts besonders hoch, wohingegen in vorstädtischer Lage (offene Bebauung) oder bei viel Vegetation (Kühlung durch Verdunstung) die nächtliche Abkühlung besser erfolgen kann.",
 		"quellenangabe": [
 			"Universität Basel",
@@ -114,8 +114,45 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:40",
+		"aktualisierungsdatum": "2026-04-23T07:42:17",
 		"id": 10049
+	},
+	{
+		"template": "template001",
+		"data-id": 10052,
+		"chart-id": 6163,
+		"filter": "",
+		"parentId": "6163",
+		"children": [],
+		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
+		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Entsorgung",
+		"kuerzel": "I.02.6.10052",
+		"kennzahlenset": "CMS Kennzahlen",
+		"kuerzelKunde": "1.4.6",
+		"stufe1": "Leben",
+		"stufe2": "1.4 Erhalt der Lebensgrundlagen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_04_00_00_00_606",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2026-01-05T01:45:01",
+		"id": 10052
 	},
 	{
 		"template": "template001",

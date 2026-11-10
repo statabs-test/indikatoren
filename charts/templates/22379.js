@@ -6,16 +6,18 @@ global geojson_wohnviertelEPSG2056
 (function () {
 	return {
 		"legend": {
-			useHTML: true,
+			// SVG legend: the central single-column legend hook for maps only moves
+			// SVG legend items, HTML labels would stay behind
+			useHTML: false,
 			"title": {
-				"text": "Freiraumversorgung<br>in m<sup>2</sup> pro Person",
+				"text": "Freiraumversorgung<br>in m² pro Person",
 				style: { 'fontWeight': ' bold' }
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -340,
-			"y": 10,
+			"x": -10,
+			"y": -40,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},

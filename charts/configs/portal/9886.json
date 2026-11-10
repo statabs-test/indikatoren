@@ -6,7 +6,7 @@
     "height": "415",
     "spacingBottom": 50,
     "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "backgroundColor": "#ffffff",
     "zoomType": "x",
     "panning": true,
     "panKey": "shift",
@@ -80,10 +80,10 @@
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
+									align: 'right',
 									verticalAlign: 'bottom',
 									x: 0,
-									y: 100
+									y: 41
 								}), null, 'spacingBox');
 								
 								/*add tooltip to legend items
@@ -169,10 +169,11 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2024
     ],
     "floor": 0,
-    "ceiling": 3,
+    "ceiling": 4,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -389,7 +390,8 @@
         62,
         63,
         99,
-        264
+        264,
+        418
       ],
       "visible": true
     },
@@ -408,7 +410,8 @@
         1800,
         1842,
         2538,
-        6251
+        6251,
+        10443
       ],
       "visible": true,
       "yAxis": 1

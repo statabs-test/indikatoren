@@ -32,30 +32,31 @@
       },
       "data": [
         [
-          "1 Zimmer (0,7%)",
-          34
+          "1 Zimmer (0,6%)",
+          31
         ],
         [
-          "2 Zimmer (0,8%)",
-          132
+          "2 Zimmer (0,7%)",
+          120
         ],
         [
-          "3 Zimmer (1,2%)",
-          504
+          "3 Zimmer (0,9%)",
+          380
         ],
         [
-          "4 Zimmer (0,9%)",
-          390
+          "4 Zimmer (0,7%)",
+          314
         ],
         [
           "5 Zimmer (0,3%)",
-          86
+          82
         ],
         [
-          "6 u.m. Zimmer (0,3%)",
-          50
+          "6 Zimmer (0,3%)",
+          53
         ]
       ],
+      "pointStart": 0,
       "name": "Leerwohnungen",
       "turboThreshold": 0
     }
@@ -71,18 +72,58 @@
   },
   "chart": {
     "events": {
-      "load": function() {
+      "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function() {
                   this.credits.element.onclick = function() {};
               }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "zoomType": "xy",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "type": "pie",
     "renderTo": "container-7581"
@@ -123,10 +164,10 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2025",
+    "text": "Basel-Landschaft, 2026",
     "align": "left"
   },
   "tooltip": {
@@ -147,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "legend": {
     "layout": "vertical",

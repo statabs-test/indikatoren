@@ -5,10 +5,6 @@
       "index": 12,
       "data": [
         [
-          "2013",
-          28
-        ],
-        [
           "2014",
           29
         ],
@@ -43,8 +39,13 @@
         [
           "2022",
           37
+        ],
+        [
+          "2023",
+          38
         ]
       ],
+      "pointStart": 0,
       "name": "Waren verschiedener Art",
       "turboThreshold": 0
     },
@@ -52,10 +53,6 @@
       "color": "#B6CFD7",
       "index": 11,
       "data": [
-        [
-          "2013",
-          63
-        ],
         [
           "2014",
           65
@@ -91,8 +88,13 @@
         [
           "2022",
           61
+        ],
+        [
+          "2023",
+          58
         ]
       ],
+      "pointStart": 0,
       "name": "Nahrungs-, Genussmitel, Tabak",
       "turboThreshold": 0
     },
@@ -100,10 +102,6 @@
       "color": "#007A2F",
       "index": 10,
       "data": [
-        [
-          "2013",
-          16
-        ],
         [
           "2014",
           18
@@ -139,8 +137,13 @@
         [
           "2022",
           15
+        ],
+        [
+          "2023",
+          15
         ]
       ],
+      "pointStart": 0,
       "name": "Informatik und Elektronik",
       "turboThreshold": 0
     },
@@ -148,10 +151,6 @@
       "color": "#FFDA80",
       "index": 9,
       "data": [
-        [
-          "2013",
-          66
-        ],
         [
           "2014",
           60
@@ -187,8 +186,13 @@
         [
           "2022",
           51
+        ],
+        [
+          "2023",
+          46
         ]
       ],
+      "pointStart": 0,
       "name": "Haushaltsgeräte, Textilien, Möbel",
       "turboThreshold": 0
     },
@@ -196,10 +200,6 @@
       "color": "#FFBB58",
       "index": 8,
       "data": [
-        [
-          "2013",
-          70
-        ],
         [
           "2014",
           64
@@ -235,8 +235,13 @@
         [
           "2022",
           55
+        ],
+        [
+          "2023",
+          56
         ]
       ],
+      "pointStart": 0,
       "name": "Verlagsprod., Sport- und Spielwaren",
       "turboThreshold": 0
     },
@@ -244,10 +249,6 @@
       "color": "#689199",
       "index": 6,
       "data": [
-        [
-          "2013",
-          214
-        ],
         [
           "2014",
           203
@@ -283,8 +284,13 @@
         [
           "2022",
           148
+        ],
+        [
+          "2023",
+          140
         ]
       ],
+      "pointStart": 0,
       "name": "Bekleidung, Lederwaren",
       "turboThreshold": 0
     },
@@ -292,10 +298,6 @@
       "color": "#008AC3",
       "index": 3,
       "data": [
-        [
-          "2013",
-          44
-        ],
         [
           "2014",
           44
@@ -331,8 +333,13 @@
         [
           "2022",
           49
+        ],
+        [
+          "2023",
+          46
         ]
       ],
+      "pointStart": 0,
       "name": "Apotheken, Körperpflege",
       "turboThreshold": 0
     },
@@ -340,10 +347,6 @@
       "color": "#C8C8C8",
       "index": 2,
       "data": [
-        [
-          "2013",
-          39
-        ],
         [
           "2014",
           37
@@ -379,8 +382,13 @@
         [
           "2022",
           36
+        ],
+        [
+          "2023",
+          32
         ]
       ],
+      "pointStart": 0,
       "name": "Uhren, Schmuck",
       "turboThreshold": 0
     },
@@ -388,10 +396,6 @@
       "color": "#2B0099",
       "index": 1,
       "data": [
-        [
-          "2013",
-          26
-        ],
         [
           "2014",
           23
@@ -427,8 +431,13 @@
         [
           "2022",
           18
+        ],
+        [
+          "2023",
+          17
         ]
       ],
+      "pointStart": 0,
       "name": "Antiquitäten, Gebrauchtwaren",
       "turboThreshold": 0
     },
@@ -436,10 +445,6 @@
       "color": "#8A8A8A",
       "index": 0,
       "data": [
-        [
-          "2013",
-          107
-        ],
         [
           "2014",
           111
@@ -475,8 +480,13 @@
         [
           "2022",
           88
+        ],
+        [
+          "2023",
+          90
         ]
       ],
+      "pointStart": 0,
       "name": "Sonstiger Detailhandel",
       "turboThreshold": 0
     }
@@ -501,7 +511,7 @@
     "tickInterval": 1
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -509,16 +519,56 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
                     this.credits.element.onclick = function () { };
 
                     //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -607,7 +657,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -624,7 +674,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
   },
   "tooltip": {
     "shared": true,

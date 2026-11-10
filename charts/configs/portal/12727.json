@@ -32,8 +32,17 @@
         [
           2023,
           21337
+        ],
+        [
+          2024,
+          18703
+        ],
+        [
+          2025,
+          15840
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 1"
     },
     {
@@ -68,8 +77,17 @@
         [
           2023,
           99546
+        ],
+        [
+          2024,
+          93001
+        ],
+        [
+          2025,
+          89924
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 2"
     },
     {
@@ -104,8 +122,17 @@
         [
           2023,
           52972
+        ],
+        [
+          2024,
+          58809
+        ],
+        [
+          2025,
+          62651
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 3"
     },
     {
@@ -140,8 +167,17 @@
         [
           2023,
           113355
+        ],
+        [
+          2024,
+          111527
+        ],
+        [
+          2025,
+          117223
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 4"
     },
     {
@@ -176,8 +212,17 @@
         [
           2023,
           66983
+        ],
+        [
+          2024,
+          69113
+        ],
+        [
+          2025,
+          69132
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 5"
     },
     {
@@ -212,8 +257,17 @@
         [
           2023,
           200652
+        ],
+        [
+          2024,
+          203551
+        ],
+        [
+          2025,
+          185393
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 6"
     },
     {
@@ -248,8 +302,17 @@
         [
           2023,
           59822
+        ],
+        [
+          2024,
+          56832
+        ],
+        [
+          2025,
+          61992
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 7"
     },
     {
@@ -284,8 +347,17 @@
         [
           2023,
           177085
+        ],
+        [
+          2024,
+          187422
+        ],
+        [
+          2025,
+          181273
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 8"
     },
     {
@@ -320,8 +392,17 @@
         [
           2023,
           51333
+        ],
+        [
+          2024,
+          53450
+        ],
+        [
+          2025,
+          52528
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 9"
     },
     {
@@ -356,8 +437,17 @@
         [
           2023,
           118566
+        ],
+        [
+          2024,
+          121681
+        ],
+        [
+          2025,
+          132208
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 10"
     },
     {
@@ -392,8 +482,17 @@
         [
           2023,
           23848
+        ],
+        [
+          2024,
+          23896
+        ],
+        [
+          2025,
+          25863
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 11"
     },
     {
@@ -428,8 +527,17 @@
         [
           2023,
           26254
+        ],
+        [
+          2024,
+          29827
+        ],
+        [
+          2025,
+          33052
         ]
       ],
+      "pointStart": 2017,
       "name": "Stufe 12"
     },
     {
@@ -466,39 +574,110 @@
         [
           2023,
           1011753
+        ],
+        [
+          2024,
+          1027812
+        ],
+        [
+          2025,
+          1027079
         ]
       ],
+      "pointStart": 2017,
       "name": "Total Pflegetage"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1,
+    "endOnTick": false,
+    "startOnTick": false
+  },
   "chart": {
     "type": "column",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 65,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-12727"
   },
@@ -523,7 +702,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl Pflegetage nach Pflegestufen in Pflegeheimen"
+    "text": "Anzahl Pflegetage nach Pflegestufe in Pflegeheimen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -533,26 +712,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1,
-    "endOnTick": false,
-    "startOnTick": false
   },
   "yAxis": {
     "min": 0,
@@ -571,7 +730,9 @@
         "color": "black"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 1200000,
+    "tickAmount": 7
   },
   "legend": {
     "enabled": true,
@@ -608,41 +769,49 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 30.4.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": true,

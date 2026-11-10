@@ -1,6 +1,6 @@
-/*  
+/*
     global Highcharts
-    
+    global geojson_wohnviertelEPSG2056
     global scalebarDataEPSG2056
     global $
 */
@@ -8,13 +8,13 @@
 (function () {
 	return {
 		"chart": {
-			"borderColor": "#fbfbfb",
-			"backgroundColor": "#fbfbfb",
+			"borderColor": "#ffffff",
+			"backgroundColor": "#ffffff",
 			"width": 992,
 			"height": 484,
 			spacing: [2, 2, 2, 2],
 			"style": {
-				"fontFamily": "Arial"
+				"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
 			},
 			"type": "map"
 		},
@@ -22,7 +22,7 @@
 			"style": {
 				"fontSize": "15px",
 				"fontWeight": "bold",
-				"fontFamily": "Arial",
+				"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 				"color": "#000000"
 			},
 			"align": "left"
@@ -31,7 +31,7 @@
 			"style": {
 				"fontSize": "15px",
 				"fontWeight": "normal",
-				"fontFamily": "Arial",
+				"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
 				"color": "#000000"
 			},
 			"text": "",
@@ -52,7 +52,7 @@
 		},
 		"colorAxis": {
 			"min": 0,
-			"gridLineColor": "#fbfbfb",
+			"gridLineColor": "#ffffff",
 			"gridLineWidth": 1,
 			"labels": {
 				"style": { "color": "black", "cursor": "default", "fontSize": "15px", "textOverflow": "none" }
@@ -71,6 +71,7 @@
 		"legend": {
 			"enabled": true,
 			"align": "right",
+			"verticalAlign": "bottom",
 			"floating": true,
 			symbolPadding: 10,
 			itemStyle: {
@@ -95,6 +96,51 @@
 				}
 			}
 		},
+		/* series with fixed data that should be added to the series object before merging with csv data */
+		"beforeSeries": [
+			{
+				//Outline Wohnviertel if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
+				name: "WohnviertelOutline",
+				enableMouseTracking: false,
+				color: '#ededed',
+				borderWidth: 1,
+				borderColor: '#ffffff',
+				"animation": true,
+				"mapData": geojson_wohnviertelEPSG2056,
+				"joinBy": ['TXT', 'Wohnviertel_Id'],
+				"keys": ['Wohnviertel_Id', 'value'],
+				"states": {
+					"hover": {
+						"enabled": false,
+						"borderColor": "#BADA55",
+						"brightness": 0
+					}
+				},
+				"data": [
+					[1, -999],
+					[2, -999],
+					[3, -999],
+					[4, -999],
+					[5, -999],
+					[6, -999],
+					[7, -999],
+					[8, -999],
+					[9, -999],
+					[10, -999],
+					[11, -999],
+					[12, -999],
+					[13, -999],
+					[14, -999],
+					[15, -999],
+					[16, -999],
+					[17, -999],
+					[18, -999],
+					[19, -999],
+					[20, -999],
+					[30, -999]
+				],
+			}
+		],
 		/* series with fixed data that should be added to the series object after merging with csv data */
 		"afterSeries": [
 			{
@@ -102,7 +148,7 @@
 				"animation": true,
 				"data": rheinDataEPSG2056,
 				"color": "#008AC3",
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				tooltip: {
 					pointFormatter: function () {
 						return '<br/>';
@@ -219,10 +265,11 @@
 							// Handle lat/lon support
 							if (options.center.lat !== undefined) {
 								var point = chart.fromLatLonToPoint(options.center);
-								options.center = [
-									chart.xAxis[0].toPixels(point.x, true),
-									chart.yAxis[0].toPixels(point.y, true)
-								];
+								// HC12: map charts position via chart.mapView, not xAxis/yAxis.toPixels()
+								var pixelPoint = chart.mapView
+									? chart.mapView.projectedUnitsToPixels(point)
+									: { x: chart.xAxis[0].toPixels(point.x, true), y: chart.yAxis[0].toPixels(point.y, true) };
+								options.center = [pixelPoint.x, pixelPoint.y];
 							}
 							// Handle dynamic size
 							if (options.sizeFormatter) {
@@ -335,7 +382,8 @@
 									return correspondingMapSeriesItem.Wohnviertel_Id;
 									//return correspondingMapSeriesItem.properties.LIBGEO;
 								}
-							}
+							},
+							colorAxis: false
 						};
 						//create the config handed in from the chart
 						var pieTemplate = config(data, correspondingMapSeriesItem, color);
@@ -423,6 +471,16 @@
 					fill: fill,
 					zIndex: 6,
 					class: cssClass + ' pieLegend'
+				}).add();
+			},
+
+
+			addLegendRectangle: function (chart, x, y, width, height, fill, cssClass) {
+				return chart.renderer.rect(x, y, width, height).attr({
+					'stroke-width': 0,
+					fill: fill,
+					zIndex: 6,
+					class: cssClass
 				}).add();
 			},
 

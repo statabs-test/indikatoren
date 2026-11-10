@@ -14,10 +14,6 @@
       },
       "data": [
         [
-          2013,
-          195459
-        ],
-        [
           2014,
           196471
         ],
@@ -52,8 +48,17 @@
         [
           2022,
           204550
+        ],
+        [
+          2023,
+          206308
+        ],
+        [
+          2024,
+          207515
         ]
       ],
+      "pointStart": 2014,
       "name": "Bevölkerung"
     },
     {
@@ -69,46 +74,51 @@
       },
       "data": [
         [
-          2013,
+          2014,
           100
         ],
         [
-          2014,
-          100.51776
-        ],
-        [
           2015,
-          100.89277
+          100.37308305042474
         ],
         [
           2016,
-          101.40541
+          100.8830819815647
         ],
         [
           2017,
-          101.80549
+          101.28110509948034
         ],
         [
           2018,
-          102.45422
+          101.92649296842791
         ],
         [
           2019,
-          102.53148
+          102.00334909477735
         ],
         [
           2020,
-          103.33164
+          102.79939533060858
         ],
         [
           2021,
-          103.24672
+          102.71490448972114
         ],
         [
           2022,
-          104.6511
+          104.11205725017942
+        ],
+        [
+          2023,
+          105.00684579403577
+        ],
+        [
+          2024,
+          105.62118582386204
         ]
       ],
+      "pointStart": 2014,
       "name": "Bevölkerung indexiert"
     },
     {
@@ -124,10 +134,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          2013,
-          188491
-        ],
         [
           2014,
           191155
@@ -163,8 +169,17 @@
         [
           2022,
           199737
+        ],
+        [
+          2023,
+          199745
+        ],
+        [
+          2024,
+          201823
         ]
       ],
+      "pointStart": 2014,
       "name": "Beschäftigte"
     },
     {
@@ -181,77 +196,142 @@
       },
       "data": [
         [
-          2013,
+          2014,
           100
         ],
         [
-          2014,
-          101.41333
-        ],
-        [
           2015,
-          100.97723
+          99.56998247495488
         ],
         [
           2016,
-          100.96026
+          99.55324213334728
         ],
         [
           2017,
-          101.07804
+          99.66937825324999
         ],
         [
           2018,
-          101.04567
+          99.6374669770605
         ],
         [
           2019,
-          102.10037
+          100.6774606994324
         ],
         [
           2020,
-          100.15226
+          98.75650649996076
         ],
         [
           2021,
-          102.39322
+          100.96623159216342
         ],
         [
           2022,
-          105.96633
+          104.48955036488714
+        ],
+        [
+          2023,
+          104.49373545028904
+        ],
+        [
+          2024,
+          105.58081138343229
         ]
       ],
+      "pointStart": 2014,
       "name": "Beschäftigte indexiert"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 65,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "alignTicks": false,
     "renderTo": "container-5901"
@@ -273,31 +353,13 @@
     "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
-    "text": "indexiert (Basis 2013 = 100), Basel-Stadt",
+    "text": "Basel-Stadt, indexiert (Basis 2014 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "min": null,
@@ -341,41 +403,49 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 4.11.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {},
   "exporting": {

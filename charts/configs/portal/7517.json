@@ -5,34 +5,11 @@
       "data": [
         [
           "1- und 2-Sterne",
-          560
+          551
         ],
         [
           "3-Sterne",
-          1498
-        ],
-        [
-          "4- und 5-Sterne",
-          1973
-        ],
-        [
-          "Nicht klassiert",
-          591
-        ]
-      ],
-      "name": "Verfügbare Zimmer 2024",
-      "turboThreshold": 0
-    },
-    {
-      "color": "rgb(186, 168, 90)",
-      "data": [
-        [
-          "1- und 2-Sterne",
-          554
-        ],
-        [
-          "3-Sterne",
-          1518
+          1473
         ],
         [
           "4- und 5-Sterne",
@@ -40,10 +17,35 @@
         ],
         [
           "Nicht klassiert",
-          688
+          692
         ]
       ],
+      "pointStart": 0,
       "name": "Verfügbare Zimmer 2025",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(186, 168, 90)",
+      "data": [
+        [
+          "1- und 2-Sterne",
+          494
+        ],
+        [
+          "3-Sterne",
+          1405
+        ],
+        [
+          "4- und 5-Sterne",
+          2003
+        ],
+        [
+          "Nicht klassiert",
+          689
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Verfügbare Zimmer 2026",
       "turboThreshold": 0
     },
     {
@@ -58,22 +60,23 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.602348606953719
+          0.730369026
         ],
         [
           "3-Sterne",
-          0.638873336491666
+          0.756687033
         ],
         [
           "4- und 5-Sterne",
-          0.668672236482841
+          0.785688043
         ],
         [
           "Nicht klassiert",
-          0.480244488103034
+          0.730057803
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2024",
+      "pointStart": 0,
+      "name": "Nettozimmerauslastung (rechte Skala) 2025",
       "turboThreshold": 0
     },
     {
@@ -88,22 +91,23 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.708279958076162
+          0.702038612
         ],
         [
           "3-Sterne",
-          0.68447447830337
+          0.770154211
         ],
         [
           "4- und 5-Sterne",
-          0.716368220311591
+          0.822982193
         ],
         [
           "Nicht klassiert",
-          0.690422640802174
+          0.72703539
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2025",
+      "pointStart": 0,
+      "name": "Nettozimmerauslastung (rechte Skala) 2026",
       "turboThreshold": 0
     }
   ],
@@ -125,7 +129,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -133,16 +137,56 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function(){
+      "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -195,7 +239,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Juli",
+    "text": "Basel-Stadt, September",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -274,7 +318,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -291,7 +335,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 14.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.10.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -6,7 +6,7 @@
     "height": "415",
     "spacingBottom": 50,
     "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "backgroundColor": "#ffffff",
     "zoomType": "x",
     "panning": true,
     "panKey": "shift",
@@ -80,10 +80,10 @@
 								});
 						
 								label.align(Highcharts.extend(label.getBBox(), {
-									align: 'left',
+									align: 'right',
 									verticalAlign: 'bottom',
 									x: 0,
-									y: 100
+									y: 41
 								}), null, 'spacingBox');
 								
 								/*add tooltip to legend items
@@ -168,10 +168,12 @@
     "categories": [
       2015,
       2017,
-      2019
+      2019,
+      2021,
+      2023
     ],
     "floor": 0,
-    "ceiling": 2,
+    "ceiling": 4,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -315,7 +317,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Planungsamt Basel-Stadt",
+    "text": "Quelle: Amt für Raumplanung Basel-Landschaft",
     "href": false,
     "style": {
       "color": "#000000",
@@ -385,6 +387,8 @@
       "data": [
         16,
         16,
+        18,
+        18,
         18
       ],
       "visible": true

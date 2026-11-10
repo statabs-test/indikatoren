@@ -64,7 +64,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -106,19 +106,19 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 35,0",
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 35",
 								from: 0,
 								to: 34.999,
 								diameter: 5
 							},
 							{
-								name: ' 35,0 − 79,9',
+								name: ' 35 − 79',
 								from: 35,
 								to: 79.9999,
 								diameter: 10
 							},
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  80,0",
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  80",
 								from: 80,
 								to: 1000000000,
 								diameter: 20
@@ -150,8 +150,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#ffffff');
+	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#ffffff');
 
 	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
 	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 355, 210);
