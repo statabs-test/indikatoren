@@ -55,6 +55,10 @@
         [
           "2024",
           12053527
+        ],
+        [
+          "2025",
+          11809398
         ]
       ],
       "name": "Familienmietzinsbeiträge in Franken",
@@ -124,7 +128,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Ausbezahlte Familienmietzinsbeiträge"
+    "text": "Ausbezahlte Mietbeiträge"
   },
   "subtitle": {
     "text": "Basel-Stadt, in Franken",
@@ -178,7 +182,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 13.5.2025"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Mietbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 13.5.2025"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

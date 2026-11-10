@@ -5075,7 +5075,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr Fussverkehr",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 6 486 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
+		"lesehilfe": "Im Jahr 2025 passierten täglich durchschnittlich 6 207 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -5303,7 +5303,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr Veloverkehr",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 2 692 Velos die Zählstelle am Peter Merian-Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 819.",
+		"lesehilfe": "Im Jahr 2025 passierten täglich durchschnittlich 3 441 Velos die Zählstelle am Peter Merian-Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 956.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -5379,7 +5379,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr MIV",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 5 651 Motorfahrzeuge die Zählstelle an der Dornacherstrasse 49. Bei der Zählstelle an der Gundeldingerstrasse 107 waren es 7 418, an der Sempacherstrasse 68 waren es 1 054.",
+		"lesehilfe": "Im Jahr 2025 passierten täglich durchschnittlich 5 791 Motorfahrzeuge die Zählstelle an der Dornacherstrasse 49. Bei der Zählstelle an der Gundeldingerstrasse 107 waren es 7 925, an der Sempacherstrasse 68 waren es 1 008.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -7619,19 +7619,19 @@ var indikatoren = [
 		"filter": "",
 		"parentId": null,
 		"children": [],
-		"title": "Ausbezahlte Familienmietzinsbeiträge",
+		"title": "Ausbezahlte Mietbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge (FAMI) betragen 2024 insgesamt rund 12,1 Mio. Franken.",
-		"erlaeuterungen": "Familien, die in bescheidenen wirtschaftlichen Verhältnissen leben, können Beiträge an den Mietzins ihrer Wohnung erhalten. Der Bezug von Familienmietzinsbeiträgen (FAMI) setzt unter anderem voraus, dass das Einkommen eines Haushalts eine bestimmte Grenze nicht überschreitet, dass in dem Haushalt Kinder leben und dass der Wohnsitz seit mindestens fünf Jahren im Kanton Basel-Stadt liegt.",
+		"lesehilfe": "Die ausbezahlten Mietbeiträge summieren sich 2025 auf 11,8 Mio. Franken.",
+		"erlaeuterungen": "Kumulierte Mietbeiträge pro Jahr. Per 1. Juli 2025 trat das totalrevidierte Mietbeitragsgesetz in Kraft. Unter anderem wurde der Kreis der Anspruchsberechtigten auf Haushalte ohne Kinder erweitert. Die Beiträge werden seither allgemein als Mietbeiträge (MB) bezeichnet. Davor hiessen sie Familienmietzinsbeiträge (FAMI).",
 		"quellenangabe": [
-			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Mietbeiträge"
 		],
 		"externalLinks": [],
 		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Ausbezahlte Familienmietzinsbeiträge",
+		"description": "Ausbezahlte Mietbeiträge",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kuerzel": "I.13.2.4153",

@@ -5,46 +5,46 @@
       "data": [
         [
           "Unternehmensverwaltung, -führung, -beratung",
-          1516
+          1592
         ],
         [
           "Baunebengewerbe",
-          1688
+          1730
         ],
         [
           "Landverkehr",
-          1870
+          1829
         ],
         [
           "Grosshandel",
-          898
+          985
         ],
         [
           "Detailhandel",
-          1079
+          1025
         ],
         [
           "Sonstige Produktion",
-          603
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          1317
+          641
         ],
         [
           "IT-Dienstleistungen",
           379
         ],
         [
+          "Architektur- und Ingenieurbüros",
+          1313
+        ],
+        [
           "Personalvermittlung, -überlassung",
-          735
+          667
         ],
         [
           "Erziehung, Unterricht",
-          737
+          755
         ]
       ],
-      "name": "2013",
+      "name": "2014",
       "turboThreshold": 0
     },
     {
@@ -52,46 +52,46 @@
       "data": [
         [
           "Unternehmensverwaltung, -führung, -beratung",
-          1522
+          1589
         ],
         [
           "Baunebengewerbe",
-          1764
+          1695
         ],
         [
           "Landverkehr",
-          1164
+          1181
         ],
         [
           "Grosshandel",
-          1241
+          1232
         ],
         [
           "Detailhandel",
-          1137
+          1041
         ],
         [
           "Sonstige Produktion",
-          801
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          1155
+          810
         ],
         [
           "IT-Dienstleistungen",
-          496
+          569
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          1186
         ],
         [
           "Personalvermittlung, -überlassung",
-          750
+          886
         ],
         [
           "Erziehung, Unterricht",
-          666
+          702
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     },
     {
@@ -99,46 +99,46 @@
       "data": [
         [
           "Unternehmensverwaltung, -führung, -beratung",
-          1808
+          2071
         ],
         [
           "Baunebengewerbe",
-          1513
+          1538
         ],
         [
           "Landverkehr",
-          1369
+          1420
         ],
         [
           "Grosshandel",
-          1259
+          1229
         ],
         [
           "Detailhandel",
-          1105
+          1025
         ],
         [
           "Sonstige Produktion",
-          936
-        ],
-        [
-          "Architektur- und Ingenieurbüros",
-          861
+          990
         ],
         [
           "IT-Dienstleistungen",
-          861
+          952
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          920
         ],
         [
           "Personalvermittlung, -überlassung",
-          791
+          733
         ],
         [
           "Erziehung, Unterricht",
-          717
+          725
         ]
       ],
-      "name": "2023",
+      "name": "2024",
       "turboThreshold": 0
     }
   ],

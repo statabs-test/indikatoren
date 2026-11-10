@@ -156,7 +156,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr Fussverkehr",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 6 486 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
+		"lesehilfe": "Im Jahr 2025 passierten täglich durchschnittlich 6 207 Fussgänger die Zählstelle an der Güterstrasse 180/183.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -378,7 +378,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr Veloverkehr",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 2 692 Velos die Zählstelle am Peter Merian-Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 819.",
+		"lesehilfe": "Im Jahr 2025 passierten täglich durchschnittlich 3 441 Velos die Zählstelle am Peter Merian-Weg. Bei der Zählstelle beim Dorenbachviadukt waren es 3 956.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -452,7 +452,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Durchschnittlicher Tagesverkehr MIV",
 		"subtitle": "Perimeter Stadtteilrichtplan Gundeldingen",
-		"lesehilfe": "Im Jahr 2024 passierten täglich durchschnittlich 5 651 Motorfahrzeuge die Zählstelle an der Dornacherstrasse 49. Bei der Zählstelle an der Gundeldingerstrasse 107 waren es 7 418, an der Sempacherstrasse 68 waren es 1 054.",
+		"lesehilfe": "Im Jahr 2025 passierten täglich durchschnittlich 5 791 Motorfahrzeuge die Zählstelle an der Dornacherstrasse 49. Bei der Zählstelle an der Gundeldingerstrasse 107 waren es 7 925, an der Sempacherstrasse 68 waren es 1 008.",
 		"erlaeuterungen": "Wo keine Werte ausgewiesen sind, war die Zählstelle noch nicht in Betrieb, vorübergehend ausser Betrieb oder es wurden nicht genügend Messwerte aufgezeichnet. Ein Jahreswert wird bei mehr als neun gezählten Monaten ausgewiesen.",
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
