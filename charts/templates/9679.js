@@ -39,7 +39,7 @@
               })
             }
           });
-          
+
         }
       }
     },
@@ -71,6 +71,10 @@
       {
         "color": "#0091f7",
         zIndex: 2,
+      },
+      {
+        "color": "#999999",
+        zIndex: 1,
         "tooltip": {
           "pointFormatter": function () {
             var tooltip = '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '</b>';
@@ -78,10 +82,7 @@
             return tooltip + ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((errorBarPoint.low), 1) + '</b> - <b>' + Highcharts.numberFormat((errorBarPoint.high), 1) + '</b>)';
           }
         }
-      },
-            {
-        "color": "#999999",
-        zIndex: 1,
+
       },
       {
         "index": 1,
