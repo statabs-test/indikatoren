@@ -2561,3 +2561,4 @@ id | visible | visibleInPortal | indikatorenset
 22467 | true | false | Richtplan (Print)
 22468 | true | false | Richtplan (Print)
 22540 | true | true | 
+22587 | true | true | Stadtteilrichtplan Gundeldingen
