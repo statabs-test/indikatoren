@@ -69686,6 +69686,29 @@
           "maxWidth": 500
         },
         "chartOptions": {
+          "chart": {
+            "height": "140%"
+          },
+          "legend": {
+            "floating": false,
+            "layout": "horizontal",
+            "align": "center",
+            "verticalAlign": "bottom",
+            "x": 0,
+            "y": -35,
+            "width": null,
+            "itemWidth": null,
+            "custom": {
+              "isMobileLegendBelowMap": true
+            }
+          }
+        }
+      },
+      {
+        "condition": {
+          "maxWidth": 500
+        },
+        "chartOptions": {
           "mapNavigation": {
             "enableButtons": false
           }

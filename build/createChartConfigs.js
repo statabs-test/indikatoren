@@ -55,6 +55,11 @@ var geojson_gemeinden = JSON.parse(
   fs.readFileSync("geojson/UA_Gemeinden_100.json")
 );
 console.log("Loading gundeldingen_bloecke shape...");
+
+var geojson_GemeindenBSBL_EPSG_2056 = JSON.parse(
+  fs.readFileSync("geojson/GemeindenBSBL_EPSG_2056.json")
+);
+
 var geojson_gundeldingen_bloecke = JSON.parse(
   fs.readFileSync("geojson/gundeldingen_bloecke.json")
 );
@@ -208,6 +213,7 @@ function saveChartConfig(indikator, view, console) {
         scalebarDataTrinat: scalebarDataTrinat,
         borderDataTrinat: borderDataTrinat,
         geojson_gemeinden: geojson_gemeinden,
+        geojson_GemeindenBSBL_EPSG_2056: geojson_GemeindenBSBL_EPSG_2056,
         geojson_gundeldingen_bloecke: geojson_gundeldingen_bloecke,
         gundeldingen_scalebar: gundeldingen_scalebar,
         console: console,
@@ -230,6 +236,7 @@ function saveChartConfig(indikator, view, console) {
       scalebarDataTrinat: scalebarDataTrinat,
       borderDataTrinat: borderDataTrinat,
       geojson_gemeinden: geojson_gemeinden,
+      geojson_GemeindenBSBL_EPSG_2056: geojson_GemeindenBSBL_EPSG_2056,
       geojson_gundeldingen_bloecke: geojson_gundeldingen_bloecke,
       gundeldingen_scalebar: gundeldingen_scalebar,
       console: console,
@@ -247,6 +254,7 @@ function saveChartConfig(indikator, view, console) {
       scalebarDataTrinat: scalebarDataTrinat,
       borderDataTrinat: borderDataTrinat,
       geojson_gemeinden: geojson_gemeinden,
+      geojson_GemeindenBSBL_EPSG_2056: geojson_GemeindenBSBL_EPSG_2056,
       geojson_gundeldingen_bloecke: geojson_gundeldingen_bloecke,
       gundeldingen_scalebar: gundeldingen_scalebar,
       console: console,
